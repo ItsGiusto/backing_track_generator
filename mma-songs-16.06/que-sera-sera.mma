@@ -1,0 +1,129 @@
+// Que Sera Sera
+
+Tempo 178
+Keysig C
+
+Groove Metronome3
+	z * 2
+
+Groove CountryWaltz
+
+Begin Solo
+    Voice Piano1
+	Articulate 105
+	Octave 5
+	Volume f
+	Harmony OpenBelow+8Below
+	Begin Riff
+		4c;d;e;
+		2.f;
+		4d;e;f;
+		2.g;
+		2.b;
+		2.+4c+~;
+	End
+End
+
+Swell mp mf 8
+
+1          C
+2          F
+3        Dm7
+4         G7
+5          /
+6          C
+7          /
+
+8          C   // pick for verse
+
+Repeat
+Groove CountryWaltz1
+Volume m
+
+9          C
+10       CM7
+11        C6
+
+Groove CountryWaltz2
+
+12         C
+13         /
+14     C#dim3
+15       Dm7
+16        G7
+
+Groove CountryWaltz
+
+17         /
+18         /
+19       Dm7
+20        G7
+
+Groove CountryWaltz1
+
+21       Dm7
+22        G7
+23         C
+
+Groove CountryWaltz1Walk
+
+24         /    CzC
+
+Groove CountryWaltz2Sus
+
+25         F
+26        F6
+27         F
+
+Groove CountryWaltz
+
+28        F6
+29         C
+30        C6
+31         C
+
+Groove CountryWaltz2Sus
+
+32        C6
+33        G7
+34       Dm7
+
+35        G7
+36         /
+37         C
+38         /
+
+RepeatEnding 3
+
+39        G7
+
+Groove CountryWaltz2
+
+40       Dm7
+41         C
+42         F
+
+Groove CountryWaltzWalk
+
+43         C
+44         /   // pickup for verse 2,3,4
+
+RepeatEnd
+
+Tempo *.85 8
+Decresc pp 8
+
+45        G7
+
+Groove CountryWaltz1Sus
+
+46        C
+47       Dm7
+48        G7
+
+Groove CountryWaltzEnd
+
+49         C
+50         F
+51         C
+52         /     z!

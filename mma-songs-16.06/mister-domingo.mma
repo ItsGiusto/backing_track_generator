@@ -1,0 +1,168 @@
+// Mister Domingo
+
+Tempo 108
+Keysig g
+
+Groove Metronome2-4
+ z * 2
+
+Groove RhumbaIntro
+Begin Solo
+  Voice Bandoneon
+  Harmony OpenBelow+8Below
+  Octave 6
+  Articulate 95
+  Begin Riff
+     4r;8d;4e;8e;4e;
+	 4f;8;4e;4.d;
+	 4r;8d;4e;8d;4e;
+	 4f;8f;2e;
+  End
+End
+
+1         G
+2        D7
+3         G
+4        D7
+
+Groove Rhumba
+
+5         G
+6        D7
+7         G
+8        D7
+
+Groove Rhumba1
+
+9         G
+10       D7
+11        G
+12       D7
+
+Groove Rhumba
+
+13        G
+14       D7
+15        G
+16       D7
+
+Groove Rhumba3
+
+17        G
+18       D7
+19        G
+20       D7
+
+Groove Rhumba
+
+21        G
+22       D7
+23        G
+24       D7
+
+Groove Rhumba1
+
+25        G
+26       D7   / D
+27        G
+28       D7
+
+Groove Rhumba3
+
+29        G
+30       D7
+31        G
+32       D7
+
+Groove Rhumba
+
+33        G
+34       D7
+35        G
+36       D7
+
+37        G
+38       D7
+39        G
+40       D7
+
+Keysig Eb
+
+Groove RhumbaSus
+
+41       Eb
+42      Fm7      /    Bb7
+43       Eb
+44        /
+
+Groove Rhumba3Sus
+
+45        /
+46      Fm7      /    Bb7
+47       Eb
+48       G7
+
+Groove RhumbaSus
+
+49        C
+50        /
+51       Db
+52        /
+
+Groove Rhumba1Sus
+
+53        D
+54        /      /     Am
+55       D7      /    Am7
+56       D7      /    Am7
+
+Groove RhumbaSus
+
+57       D7
+58        /
+
+Keysig G
+
+59        G
+60       D7
+
+Groove Rhumba
+
+61        G
+62       D7
+63        G
+64       D7
+
+Groove Rhumba1
+
+65        G
+66       D7
+67        G
+68       D7
+
+Groove Rhumba
+
+Repeat
+
+69        G
+70       D7
+
+RepeatEnding
+
+71        G
+72       D7
+
+RepeatEnd
+
+Decresc ppp 4
+Tempo *.8 4
+
+73        G
+74       D7
+
+Groove RhumbaEnd1
+
+75        G
+76        / z!
+
+

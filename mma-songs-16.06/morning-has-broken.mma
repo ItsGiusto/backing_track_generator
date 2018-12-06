@@ -1,0 +1,89 @@
+// Morning Has Broken
+
+Tempo 135
+Keysig C
+
+Groove Metronome3
+  z * 2
+
+Groove Waltz1Intro8
+
+Begin Solo
+    Voice Harpsichord
+    Volume f
+    Articulate 130
+    Octave 5
+    Harmony 3Below+8Below
+    Rtime 4
+    RVolume 5
+End
+
+Swell mp mf 8
+Solo Cresc m f 8
+
+1          D    {8a;d+;a;d+;8a;;} 
+2          G    {8b;d+;b;d+;4b;}  
+3          A    {8c#+;a;c+;a;16a+;e+;c+;a;} 
+4         F#    {8a#;f#;a;c#+;f#+;e+;}  
+          
+5         Bm    {8d+;b;d+;f#+;16b+;f+;d+;b;}
+6         G7    {8f;g;d+;g;d+;g;}
+7          C    {8c+;g;c+;d+;16e+;d+;c+;g;}
+8          F    {8a;f;a;f;a;;}
+
+Seq 8
+
+9          C    {2.c+;}
+
+Repeat
+Groove Waltz1
+Cresc mp mf 6
+
+10         z
+11         C
+12        Dm
+13         G
+14         F
+15         C
+
+Groove Waltz1Sus
+Decresc m 4
+
+16         /
+17        Em
+18        Am
+19     D7sus      /      D
+20         G
+21         /
+
+Groove WaltzWalk
+Cresc mf 6
+
+22         C
+23         F
+24         /
+25         C
+26        Am
+27         D
+
+Groove WaltzWalkSus
+Decresc mp 4
+
+28         G
+29         C
+30         F
+31        G7
+
+RepeatEnding 3
+
+32         C
+33         /
+
+RepeatEnd
+Groove WaltzEnd
+Seq 3
+Decresc ppp 2
+
+32         C
+33         / z!
+

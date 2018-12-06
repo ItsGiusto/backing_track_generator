@@ -1,0 +1,85 @@
+// Sunday Kind Of Love
+
+Tempo 60
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+     Voice JazzGuitar
+     Harmony 3Below
+     Articulate 110
+     Volume f
+     Octave 5
+     Begin Riff
+        81f;82g;3f;g;2f;
+        81a;82b;3a;b;2a;
+        81g;82a;81b;82a;4g;b;
+        2c+;
+     End
+End
+
+Groove SlowBluesIntro
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove SlowBlues
+Volume m
+
+5        F6      / F#dim7
+6       Gm7      /   C7b9
+7        F6
+8       Gm7      /   Bbm6    Eb7
+
+Groove SlowBluesFill
+Cresc mf 2
+
+9        F6      / F#dim7
+10      Gm7      /     C7
+
+RepeatEnding   // 1st ending
+
+Groove SlowBluesFill2
+
+11        F      /     D7
+12      Gm7      /    Gb7
+
+RepeatEnding  // 2nd ending ... bridge
+Groove SlowBluesWalk4
+Decresc mp 2
+
+13        F      /   GbM7
+14      FM7
+
+Groove SlowBluesSus
+Cresc m 2
+
+15      Cm7      /     F9
+16      Cm7      /   F7b9
+17       Bb      /    Cm7     F9
+18      Bb6      /      /    Ab9
+
+Groove SlowBlues
+Cresc mf 3
+
+19       G9      /    Dm7
+20       G9      /    Db9
+21       C9      / F#dim7
+22     C9/D      /    Gb7
+
+RepeatEnd   // on the score this is a DS/Coda
+
+Groove SlowBluesEnd
+Seq 3
+Decresc mp ppp 2
+
+23        F      /   GbM9
+24      FM9      z!
+
+

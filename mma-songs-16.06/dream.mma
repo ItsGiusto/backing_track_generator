@@ -1,0 +1,107 @@
+// Dream
+
+Tempo 140
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+
+/// This quickie intro just adds sustained chords to the
+/// rhythm. We spell out the chords, but same could be
+/// done using single notes and a harmony setting.
+
+Begin Solo
+	Voice Strings
+	Volume mp
+	Articulate 100
+	Octave 5
+	Begin Riff
+		1dfb;
+		1dgb;
+		1egc+;
+		1efac+;
+	End
+End
+
+Cresc p m 4
+
+1    Bb   
+2    Gm   
+3    Cm   
+4    F7   
+
+Repeat
+Groove FoxTrot
+Cresc mp m 8
+
+5    Bb   
+6    /    
+7    A7   /    A9   A7#5 
+8    A7   /    A7#5 A7   
+
+9    Bb   
+10   /    /    Dm7  
+11   G7   /    G9   G7#9 
+12   G7   /    G7#5 G7   
+
+Groove FoxTrotPlus
+Begin Arpeggio
+	Voice JazzGuitar
+	Octave 6
+End
+
+Decresc mp 4
+
+13   Eb   
+14   /    /    Ebm  
+15   Bb   /    F+   BbM7 
+16   /    
+
+17   C7   /    Cdim C9   
+18   /    /    /    C9   
+19   Cm7  F7   Cm7  
+20   Cm7  /    F7b9 
+
+Groove FoxTrotSus
+Cresc mf 8
+
+21   Bb   
+22   /    
+23   A7   /    A9   A7#9 
+24   A7   /    A7#5 A7  
+ 
+25   Bb   
+26   /    /    Dm7  
+27   G7   /    G7   G7#9 
+28   G7   /    G7#5 G7   
+
+Groove FoxTrotSusPlus
+Arpeggio Voice Flute
+Volume m
+
+29   Eb   
+30   /    /    Ebm  
+31   Bb   /    A7   D7   
+32   /    /    Gm7  
+
+Decresc mp 4
+
+33   Cm7  
+34   F7b9 
+
+RepeatEnding
+
+35   Bb   /    Gb9  
+36   F7   
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc pp 2
+Tempo *.8 2
+
+37   Bb   /    Gb9  Gb7  
+38   Bb   /    z!   
+

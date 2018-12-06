@@ -1,0 +1,122 @@
+// Con Tres Palabras
+
+Tempo 100
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+// Note to set variables for a lib file do it BEFORE
+// loading the library!
+
+Set ArpeggioVoice Piano2
+Set ArpeggioOctave 5
+
+Groove SonIntro
+
+// But the do a change to all the tracks in the lib, you
+// have to load the lib first (the line above does that).
+
+AllGrooves Chord Voicing Mode=Key
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Harmony OpenBelow+OpenAbove+8Below
+    Articulate 110
+    Octave 5
+    Begin Riff
+        8g;e;g;4b;8g;e;b-;
+        8f;e;f;2+8a;
+        8g;f;d;4g;8f;4g;
+        4g;
+    End
+End
+
+Swell mp f 4
+
+1       Cm9      /    Eb9
+2      Ab13      /   DbM7
+3      Dm11      / Db7#11
+4      G7#5
+
+
+Repeat
+Groove Son
+Volume m
+
+5        Cm      /   CmM7
+6       Cm7      /   C7b9
+7       Bbm7     /   Fm
+8       /        /   Fm7
+
+Groove SonPlus
+Cresc f 4
+
+9       Bb9      /   Edim3
+10      Bb7/F    /  Bb7#5
+11       Eb      /   AbM7
+12     Dm11   Db11   G7#5
+
+Groove Son
+Decresc mp 4
+
+13      Cm7      /    Eb9
+14     Ab13      / Db6(add9)
+15     D7
+16        /
+
+Groove SonSus
+Cresc m 3
+
+17       Fm      / Fm7/Eb
+18     Bb/D      /   Ab13
+19     Dm11      /   Db11
+20     G7#5
+
+Groove Son
+Cresc mf 2
+
+21       Cm      /   CmM7
+22      Cm7      /   C7b9
+Decresc mp 2
+23      Fm7
+24      Bb9
+
+Groove SonSusPlus
+Cresc m 4
+
+25      Bb9      /    Edim3
+26      Bb7/F    /  Bb7#5
+27       Eb      /   AbM7
+28     Dm11      /   G7#5
+
+Groove SonSus
+
+29      Cm7      /    Eb9
+30     Ab13      / Db6(add9)
+31     D7
+32        /
+
+Groove Son
+Volume m
+
+33       Fm      / Fm7/Eb
+34     Bb/D    Fm9 Gbdim7     G7
+
+RepeatEnding
+
+Groove Son
+Decresc mp 2
+
+35     AbM7      /   DbM7
+36        /   G7#5
+
+RepeatEnd
+
+Groove SonEnd
+Decresc ppp 2
+
+35     AbM7      /   DbM7
+37   C6(add9)    z!
+

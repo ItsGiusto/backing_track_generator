@@ -1,0 +1,74 @@
+// In The Wee Small Hours Of The Morning
+
+Tempo 60
+
+Groove Metronome2-4
+	   z * 2
+
+Groove JazzGuitar1Intro
+
+Begin Solo
+	  Voice Clarinet
+	  Octave 5
+	  Volume ff 
+	  Harmony Open
+	  Articulate 110
+	  Begin Riff
+	  		8g-;c;e;g;e;g;e;g;
+			8a-;c;e;g;e;g;e;g;
+			8d;f;a;c+;a;d;4f;
+			2.d;
+	  End
+End
+
+Cresc p m 4
+
+1         C
+2        Am
+3        Dm
+4        G7  
+
+
+Repeat
+Cresc mp mf 8
+Groove JazzGuitar 
+
+5       CM7      /     C7
+6       FM7      /    Bb7
+7       CM7      /    Am7
+8       Dm7      /     G7
+
+Groove  JazzGuitarWalk 
+
+9       Dm7      /     G7
+10    Em7b5      /     A7
+11     F#m7b5      /     B7
+12      Em7     A7    Dm7     G7
+
+Groove JazzGuitar 
+
+Volume m
+
+13      CM7      /     C7
+14      FM7      /    Bb7
+15      CM7      /  Em7b5
+16       A7
+
+Groove  JazzGuitar1
+Decresc mf mp 4
+
+17      Dm7      /  Ebdim
+18      Em7      /     A7
+19      Dm7      /     G7
+
+RepeatEnding
+
+20      C7      /    G7
+
+
+RepeatEnd
+
+Groove JazzGuitarEnd1
+
+21      C   Dm7  C
+

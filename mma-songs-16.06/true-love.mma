@@ -1,0 +1,135 @@
+// True Love
+
+Tempo 120
+Keysig G
+
+Groove Metronome3
+   z * 2
+
+Groove VieneseWaltzIntro
+Begin Solo
+    Voice Piano1
+	Strum 8
+	Articulate 120
+	Volume f
+	Octave 4
+	Begin Riff
+	    2. gbd;
+		2. bg+b+;
+		2. egc+;
+		2. fc+e+;
+	End
+End
+
+Cresc p mf 4
+
+1         G
+2         /
+3         C
+4        D7
+
+Groove VieneseWaltzSus
+Cresc mp mf 8
+
+5         G
+6         /
+7        D7
+8         /
+
+9         G
+10        /
+11     Ddim
+12       D7
+
+Groove VieneseWaltz2
+Volume m
+
+13        G
+14        /
+15        C
+16      Cm6
+
+Decresc p 4
+
+17        G
+18       A7
+19      Am7
+20       D7
+
+Repeat
+
+Groove VieneseWaltz
+Volume m
+
+21        G
+22        C
+23     Gdim
+24        G
+
+Groove VieneseWaltzSus
+Cresc mf 4
+
+25       D7
+26        /
+27        C
+28        G
+
+Groove VieneseWaltz
+Decresc mp 4
+
+29        /
+30        C
+31     Gdim
+32        G
+
+Groove VieneseWaltzSus
+
+33       D7
+34        /
+35        /
+36        G
+
+Groove VieneseWaltz2
+Volume m
+
+37       Cm
+38        /     F7
+39       Bb
+40       G7
+
+Decresc mp 4
+
+41       Cm
+42       F7
+43      Bb7
+44       D7
+
+Groove VieneseWaltz
+Volume m
+
+45        G
+46        C
+47     Gdim
+48        G
+
+Groove VieneseWaltzSus
+
+49       D7
+50        /
+
+RepeatEnding
+Decresc mp 2
+
+51        G
+52        /      C     D7
+
+RepeatEnd
+
+Groove VieneseWaltzEnd 
+Seq 3
+Tempo *.9 2
+Decresc pp 2
+51        G
+52        /  z!
+
+

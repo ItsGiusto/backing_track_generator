@@ -1,0 +1,111 @@
+// Estrellita  (Manuel Ponce, 1912)
+
+Tempo 96
+KeySig F
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+    Voice Vibraphone
+    Volume f
+    Articulate 140
+    Octave 5
+    Harmony 2Below+8Below
+    Begin Riff
+        8c+;b;a;2c+;
+        8d+;c+;b;2d+;
+        4b;g;d;b;
+        2c+;
+    End
+End
+
+Groove RhumbaIntro
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4         C7
+
+Repeat
+Groove Rhumba
+Volume m
+
+5         F
+6        A7
+7        Bb
+8         /
+
+Groove RhumbaSus
+
+9        C7
+10        /
+11        F
+12        /
+
+Groove Rhumba3
+Decresc mp 2
+
+13        /
+14       A7
+15       Bb
+16     Bdim
+
+Groove Rhumba3Sus
+
+17        F      /      /  F#dim
+18       C7
+19        F
+20        /      /    D7+
+
+Groove Rhumba
+Volume m
+
+21      Gm7
+22       C7
+23        F
+24        /      /    D7+
+
+Groove RhumbaSus
+Cresc mf 3
+
+25      Gm7
+26       C7
+27        F
+28        /
+
+Groove Rhumba
+Decresc mp 4
+
+29        /
+30       A7
+31       Bb
+32     Bdim
+
+RepeatEnding
+Groove Rhumba1
+
+33        F      /      /  F#dim
+34       C7
+35        F
+36        /   /  C7
+
+RepeatEnd
+
+Groove RhumbaEnd
+Begin Scale
+  Octave -2
+  Range 1.8
+  Harmony 2Below 
+  Direction Both
+  Decresc mp p 4
+End
+Decresc pppp 3
+
+33        F      /      /  F#dim
+34       C7
+35        F
+36        /   z!
+
+

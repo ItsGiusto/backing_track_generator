@@ -1,0 +1,105 @@
+// Dream Lover
+
+// The Bobby Darin tune from 1959
+
+Tempo 140
+KeySig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove JiveIntro
+
+Begin Solo
+	Voice Piano3
+	Harmony Open
+	Octave 6
+	Volume mf
+	Articulate 80
+	Begin Riff
+		8g;;;4a;8g;a;g;
+		8a;;;4b;8a;b;a;
+		8g;;;4a;8g;a;g;
+		8a;;;4b;8a;b;a;
+	End
+End
+
+1      C     
+2      Am    
+3      C     
+4      Am    
+
+Repeat
+Groove Jive1
+
+5      C     
+6	/
+7      Am    
+8	/
+9      C     
+10	/
+11     Am    
+12	/
+
+Groove Jive1ClapSus
+
+13     C     
+14     G7  
+
+Groove Jive1Sus
+  
+15     C     
+16     F     
+17     C     Am    
+18     Dm    /    G7    
+
+RepeatEnding
+
+Groove Jive1Clap
+
+19     C     
+20     G7    
+
+RepeatEnd
+
+Groove Jive1Clap
+
+21     C     
+22     C7 
+
+Groove Jive1Sus 
+
+23     F     
+24	/
+25     C     
+26	/
+27     D7    
+28	/
+29     G7    
+30	/
+
+Groove Jive1
+
+31     C     
+32	/
+33     Am    
+34	/
+35     C     
+36	/
+37     Am    
+38	/
+
+Groove Jive1Sus
+
+39     C     
+40     G7    
+41     C     
+42     F     
+43     C     Am    
+44     Dm    /    G7 
+
+Groove Jiveend
+   
+45     C     
+46	/ / z!
+

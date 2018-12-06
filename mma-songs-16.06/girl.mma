@@ -1,0 +1,98 @@
+// Girl
+
+Tempo 96
+Keysig C
+
+Groove Metronome2-4
+	   z * 2
+
+Groove BalladIntro
+
+Begin Solo
+	  Voice ChoirAahs //VoiceOohs
+	  Cresc mp ff 4
+	  Harmony Open
+	  Octave 5
+	  Articulate 60 70 100 100
+	  Accent 1 20 3 20
+	  Begin Riff
+	    8e+;;;;;;;;
+		8d+;;;;;;;;
+		4d+;c+;d+;c+;
+		2.g#;
+	  End
+End
+
+1        Am
+2        Em
+3        Dm
+4        E7
+
+Groove Ballad
+Repeat
+Label DS
+
+5        Am      /     E7
+6        Am
+7        Dm
+8         C      /      E
+9        Am      /     E7
+10       Am
+11       Dm
+12       Am
+13        C      /     Em
+14      Dm7      /     G7
+
+If Def DS
+   goto 17
+endif
+
+RepeatEnding
+
+15        C      /     Em
+16      Dm7      /     G7
+
+Groove Ballad1
+
+RepeatEnd
+
+17        C      /     Em
+18      Dm7      /     G7
+
+Groove BalladSus 
+
+19       Dm
+20       A7
+21       Dm
+22       A7
+23       Dm
+24       A7
+25       Dm
+26        /
+27        C      /     Em
+28      Dm7      /     G7
+
+if Def DS
+   goto Fine
+endif
+
+29        C      /     Em
+30      Dm7      /     G7
+
+Set DS
+Goto DS
+
+Label Fine
+Groove Ballad1End
+
+Decresc  off 7
+Alltracks  Decresc  off 7
+
+Repeat 
+
+31        C      /     Em
+32      Dm7      /     G7
+
+RepeatEnd 3
+
+

@@ -1,0 +1,135 @@
+// Sugar Sugar
+
+Tempo 128
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BubbleRockIntro
+
+Begin Solo
+    Voice NylonGuitar
+    Articulate 80
+    Octave 4
+    Harmony 3Below
+    Volume ff
+    Begin Riff
+        8c;16;r;4r;8c;; ;; 
+        8e;16;r;4r;8e;; ;; 
+        8f;16;r;4r;8f;; ;; 
+        1g;
+    End
+End
+
+Begin Solo-2
+    Voice SynthBass1
+    Octave 3
+    Volume mf
+    Articulate 60
+    DupRiff From Solo
+End
+
+Cresc mp mf 4
+1         C
+2         /
+3        F
+4        G7
+
+Repeat
+
+Groove BubbleRock
+Volume m
+
+5         C
+6         F
+7         C
+8         F
+
+Groove BubbleRockPlus
+Cresc F 4
+
+9         C      /      F
+10        G
+11        C
+12        F      /      G
+
+Groove BubbleRockSus
+
+13        C
+14        F
+15        C
+16        F
+
+Groove BubbleRock
+Decresc mf 4
+
+17        C      /      F
+18        G
+19        C
+20        /
+
+Groove BubbleRockSusPlus
+
+21        /
+22        F      /      C
+23        /      /      F
+24        C
+
+Groove BubbleRock
+Volume m
+
+25        /
+26        F      /      C
+
+RepeatEnding
+
+Groove BubbleRockSus
+Cresc f 2
+
+27        /      /      F
+28        G      /     G7
+
+RepeatEnd
+
+
+Groove BubbleRockPlus
+Cresc mf 2
+
+29        /      /      F
+Solo Riff 8r;e+;d+;c+;4a;c+;
+30        G
+
+Repeat
+
+Groove BubbleRock
+Volume m
+
+Solo Riff 16e+;;;;8;4;8d+;a;4c+~;
+31        C
+Solo Riff 8r;4.a;
+32        F
+33        C
+34        F
+
+Groove BubbleRockPlus
+
+35        C      /      F
+36       G7
+
+RepeatEnding
+
+Groove BubbleRockSusPlus
+
+37        C
+38        F      /     G7
+
+RepeatEnd
+
+Groove BubbleRockEnd
+Decresc ppp 2
+
+39        C
+40        /  z!
+
+

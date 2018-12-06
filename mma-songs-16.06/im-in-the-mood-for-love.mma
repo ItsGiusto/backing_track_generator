@@ -1,0 +1,85 @@
+// I'm In The Mood For Love
+
+Tempo 120
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingIntro
+
+If Def Wk3000
+   Stackvalue PopEPiano
+   AllGrooves Chord Voice ChorusJazzGuitar
+Else
+   Stackvalue Piano1
+Endif
+
+Begin Solo
+    Voice $_Stackvalue	
+	Volume F
+	Harmony 8below
+	Octave 6
+	Articulate 100
+End
+
+
+
+1    C    {43e; f;e;4d;c;}
+2    Am   {43e;f;e;4d;c;}
+3    Dm   {43d;e;d;4e;f;}
+4    G7   {1g;}
+
+Repeat
+Groove EasySwing
+
+5    C    
+6    F6   /    Dm7  
+7    G7   /    Em7  G9   
+8    C    
+9    Em7  /    Ebdim 
+10   Dm7  
+11   G7   
+12   C    /    Dm   G7+  
+13   C    
+14   F6   /    Dm7  
+15   G7   /    Em7  G9   
+16   C    
+17   Em7  /    Ebdim 
+18   Dm7  
+19   G7   
+20   C6   C    C6   
+
+Groove EasySwingSus
+
+
+21   Dm7  /    G7   
+22   CM9  C    Em7b5 A7   
+23   Fm6  /    G7   
+24   C    C6   Em   C    
+25   Am   /    B7   
+26   Em9  Em   Em9  Em   
+27   Amb5 /    D7   
+28   Fm6  /    Dm7  G7   
+
+Groove EasySwingWalk
+
+29   C    
+30   F6   /    Dm7  
+31   G7   /    Em7  G9   
+32   C    
+33   Em7  /    Dbdim 
+34   Dm7  
+
+Repeatending
+
+35   G7   
+36   C    
+
+Repeatend
+
+Groove EasySwingEnd
+
+35   G7   
+36   C    
+

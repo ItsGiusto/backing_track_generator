@@ -1,0 +1,105 @@
+// Triste
+// More Jobim ... a faster bossa
+
+Tempo 160
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossaNovaSus
+Begin Chord-Sus
+	Voice     VoiceOohs
+	Sequence  {1 1 90 * 2}
+	Voicing   Mode=Optimal
+	Volume    mp
+	Octave    5
+	Articulate 100
+	Unify On
+	SeqRnd Off
+End
+DefGroove BossaNovaSus
+
+Groove BossaNovaIntro
+
+Begin Solo
+	Voice VoiceOohs
+	Harmony Open
+	Volume mf
+	Articulate 110
+	Octave 5
+	Begin Riff
+		2b;a;
+		2g;f;
+		2e;d;
+		1c;
+	End
+End
+
+1         Bb
+2         Gm
+3         Cm
+4         F7
+
+Repeat
+Groove BossaNova
+
+5        Bb
+6      BbM7
+7      GbM7
+8        B7
+9        Bb
+10     BbM7
+11      Dm7
+12     G7b9
+
+Groove BossaNovaSus
+
+13      CM7
+14      Am7      /     D7
+15      Gm7
+16     A7#5
+17      DM7
+18      Em7      /     A7
+19      Dm7      /     G7
+20      Cm7      /     F7
+21       Bb
+
+Groove BossaNova
+
+22     BbM7
+23     Bbm7
+24      Eb7
+25       Bb
+26     BbM7
+27      Fm7
+28      Bb7
+
+Groove BossaNovaSus
+
+29     EbM7
+30      Ab7
+31      Dm7      /    Gm7
+32       C7
+33      Cm7
+34        /      /     F7
+
+RepeatEnding 2
+
+35     Bbm7      /    Eb7
+36     Bbm7      /    Eb7
+37     Bbm7      /    Eb7
+
+Groove BossaNovaFill
+
+38     Bbm7      /    Eb7
+
+RepeatEnd
+Groove BossaNova2End
+Decresc pppp 4
+
+35     Bbm7      /    Eb7
+36     Bbm7      /    Eb7
+37     Bbm7      /    Eb7
+38     Bbm7      /    z!
+

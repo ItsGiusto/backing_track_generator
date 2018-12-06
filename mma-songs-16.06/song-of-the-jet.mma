@@ -1,0 +1,137 @@
+// Song Of The Jet
+
+Tempo 156
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove BossanovaIntro
+Begin Solo
+   Voice Piano1
+   Volume ff
+   Harmony OpenBelow
+   Octave 4
+   Articulate 110
+   Begin Riff
+     2+8e+;4d+;8+1b ~;
+	 ~ <>;
+	 2+8c+;4a;8+2f ~;
+   End
+End
+
+Cresc mp mf 4
+
+1        EbM
+2        Bbm7
+3        AbM9
+4       Fm7 / Bb7
+
+Repeat
+Groove BossaNova
+Volume m
+
+5      EbM7      /    Eb6
+6     Gbdim
+7     Fm7b5
+8       Bb7
+
+Groove BossaNova1Sus
+Volume mf
+
+9      EbM9      /      /    Eb6
+10      Eb+
+11     AbM7
+12     Abm6
+
+Groove BossaNovaSus
+Decresc mp 4
+
+13     EbM7      /      /    Eb6
+14    Gbdim
+15    Gm7b5
+16     C7#5
+
+Groove BossaNova3Sus
+Volume m
+
+17       F9
+18        /
+
+Groove BossaNovaFill
+Decresc mp 2
+
+19      Bb9
+20    Bb7b9
+
+
+RepeatEnd
+
+Repeat
+
+Groove BossaNovaSus
+Volume f
+
+21     EbM7      /    Eb6
+22    Gbdim
+23    Fm7b5
+24      Bb7
+
+Groove BossaNova
+Decresc m 4
+
+25     EbM9      /      /    Eb6
+26      Eb+
+27     AbM7
+28     Abm6
+
+Groove BossaNova1Sus
+
+29       Ab
+30      Abm
+31       Eb
+32    Gbdim
+
+Groove BossaNova2Sus
+Cresc mf 4
+
+33       Ab
+34      Abm
+35    Gm7b5      /   C7#5   Abm6
+36        /    Bb9
+
+Groove BossaNova
+Volume m
+
+37     Bbm6      /   Bbm7
+38        /      /     C7
+39      Ab6
+40      Fm7      /   Bb11
+
+Groove BossaNovaSus
+
+41      Fm7
+42        /
+
+RepeatEnding
+Decresc mp 2
+
+43       F9
+44        /
+
+Groove BossaNovaFill
+
+45      Bb9
+46    Bb7b9
+
+RepeatEnd
+
+Groove BossaNovaEnd
+Decresc ppp 4
+Tempo *.8 4
+
+47       F9
+48       E9
+49      Eb6
+50        /  z!
+

@@ -1,0 +1,84 @@
+// Where The Boys Are
+
+Tempo 85
+
+Begin Solo
+	Voice Piano1
+	Volume f
+	Octave 5
+	Harmony 3
+	Articulate 80
+End
+
+KeySig 2b
+
+Groove Metronome2-4
+	z * 2
+	
+Groove RockBallad
+
+1       Bb    /     Gm   { 3b;;; ;;; ;;; ;;; }
+2       Cm    /     F    { 4g;f;g;a;}
+
+Delete Solo
+
+Repeat
+Groove RockBallad
+
+3       Bb    /     Gm   
+4       Dm   
+5       Cm7   /     F7   
+6       Bb   
+7       Cm7   /     F7   
+8       Bb    /     Gm   
+9       Em7   /     A7   
+10      D     /     F7   
+
+Groove RockBalladFill
+
+11      Bb    /     Gm   
+12      Dm   
+13      Cm7   /     F7   
+14      Bb   
+15      Cm7   /     F7   
+16      Bb    /     Gm   
+17      Cm7   /     F7   
+18      Bb   
+
+Groove RockBalladVoice
+
+19      Cm7   /     F7   
+20      Bb    /     Gm   
+21      Cm7   /     F    
+22      Bb   
+23      Cm7   /     F7   
+24      Bb    /     Gm   
+25      C7   
+26      Cm7   /     F7   
+
+Groove RockBallad
+
+27      Bb    /     Gm   
+28      Dm   
+29      Cm7   /     F7   
+30      Fm7   /     G7   
+31      Cm   
+32      Dm7  
+33      Cm7   /     F7   
+
+RepeatEnding
+
+34      Bb    /     F7   
+
+
+RepeatEnd
+
+Groove RockBalladEnd
+Scale octave 3
+
+Seq 1			// A bar of 16ths
+Tempo -20 2
+35      Bb 
+Seq 4
+	Bb / z!  	// 2 beats of a half note
+

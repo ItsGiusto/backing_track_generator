@@ -1,0 +1,89 @@
+// I Wanted To Say (Comp: Victor Lewis, Recorded Stan Getz 1982)
+
+Tempo 136
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Repeat
+Groove ModernJazz
+1       Am9
+2       Em9
+3      C#m9
+4     G#m11
+
+Groove ModernJazz1
+
+5    F13sus
+6       Cm9
+7      Am11
+8         /
+
+Groove ModernJazzSus
+
+9     D9sus
+10    E9sus
+11     C#m9
+12    G#m11
+
+Groove ModernJazz1Sus
+
+13   F13sus
+14      Cm9
+15     Am11
+16        /
+
+Groove ModernJazz
+
+17   D13sus
+18   D13#11
+19   D13sus
+20   D13#11
+
+Groove ModernJazzSus
+
+21   F13sus
+22   F13#11
+23     Em11
+24   Eb13#11
+
+Groove ModernJazz1Sus
+
+25      Am9
+26      Em9
+27     C#m9
+28    G#m11
+
+RepeatEnding
+
+Groove ModernJazz
+
+29   F13sus
+30      Cm9
+31   A13sus
+32        /
+
+RepeatEnd
+
+Groove ModernJazz2
+
+33   F13sus
+34      Cm9
+
+// On the score this is a 2 bar repeat.
+// We expand it out make the decrescs easier
+
+Decresc p 2
+
+35   A13sus
+36        /
+
+Groove ModernJazzEnd
+Decresc ppp 2
+
+35   A13sus
+36        / z!
+
+
+

@@ -1,0 +1,108 @@
+// With A Song In My Heart (Rogers/Hart 1929)
+
+Tempo 100
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove ShowTuneIntro
+
+Begin Solo
+    Voice TubularBells 
+    Articulate 80
+    Octave 6
+    Cresc mp mf 4
+    Harmony 8Below+OpenBelow
+    Begin Riff
+        4g;r;g;
+        4a;r;a;
+        43a;;; 4;;
+        1g;
+    End
+End
+
+Swell mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove ShowTune
+Volume m
+
+5         C
+6        G7
+7         C
+8        G7
+
+Groove ShowTune2
+Cresc f 8
+
+9         C
+10       E7
+11       Am
+12       E7
+
+Groove ShowTune
+
+13       Am      /    Am7
+14      Am6
+15        F      /    Dm7
+16       C6
+
+Groove ShowTune1
+Volume m
+
+17       B7
+18       Dm      /     E7
+19       E7      /     A7
+20       Dm      /     G7
+
+Groove ShowTune
+Volume mp
+
+21       C
+22       G7
+23        C
+24       G7
+
+Groove ShowTune1Plus
+Cresc mf 4
+
+25        C
+26       E7
+27       Am
+28       E7
+
+Groove ShowTune2Plus
+
+29       Am      /    Am7
+30      Am6
+31        C
+32       D7
+
+Groove ShowTune
+Decresc mp 4
+
+33        C
+34      Dm7      /     G7
+
+Repeatending
+
+Groove ShowTune1
+
+35        C      /     C6
+36        C      /     G7
+
+RepeatEnd
+
+Groove ShowTuneEnd
+Decresc ppp 2
+
+35        C      /     C6
+36        C      z!
+
+

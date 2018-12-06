@@ -1,0 +1,83 @@
+// Im Gonna Sit Right Down And Write Myself A Letter
+
+Tempo 142
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+ Voice Piano1
+ Volume f
+ Octave 5
+ Harmony Open
+ Articulate 95
+ Begin Riff
+  4c+;b;a;g;
+  4a;g;a;b;
+  4e+;d+;c+;b;
+  2.c+;
+ End
+End
+
+1      C     
+2      Am    
+3      Dm    /    G7    
+4      C     
+
+Repeat
+Groove FoxTrot
+
+5      C     /    CM7   
+6      C6    /    G7#5  
+7      CM7   
+8	/
+9	/
+10     E7    
+11     F     /    A7/E  
+12     Dm    
+
+Groove FoxTrotSus
+
+13     Dm7   
+14     G7sus /    G7    
+15     C     
+16     Gm7/Bb /    A7    
+17     D7    
+18	/
+19     G7    
+20	/
+
+Groove FoxTrotPlus
+
+21     C     /    CM7   
+22     C6    /    G7#5  
+23     CM7   
+24	/
+25	/
+26     E7    
+27     F     /    A7/E  
+28     Dm    
+
+Groove FoxTrotSus
+
+29     F     /    FM7   
+30     F6    /    F#dim 
+31     C     /    Bb9   
+32     A7    
+33     D7    
+34     Dm7   /    G7    
+
+RepeatEnding
+
+35     C     /    C#dim 
+36     Dm7   /    G7    
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+37     C     /    Dm7   
+38     C    /  z!
+

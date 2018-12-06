@@ -1,0 +1,117 @@
+// Im Gonna Go Fishin (Peggy Lee)
+
+Tempo 230
+Keysig Ab
+TimeSig 3/4
+
+Groove Metronome3
+  z * 2
+
+Groove FastJazzWaltzIntro8
+
+Begin Solo
+    Voice Trombone
+    Volume f
+    Articulate 90
+    Octave 5
+    Harmony OpenBelow
+    Rtime 10
+    RVolume 10
+    Begin Riff
+        4f;a;f;
+        4a;2;
+        4r;
+        4r;
+        4a;f;;
+        2.f;
+        4r;
+        4f;
+    End
+End
+
+Swell pp f 8
+
+1         Fm
+2          /
+3          /
+4          /
+5          /
+6          /
+7          /
+8          /
+
+Set Loops 1
+
+Repeat
+Groove FastJazzWaltz
+Cresc m mf 8
+
+9         Fm
+10       Fm6
+11        Fm    {4f;}
+12       Fm6    {4.f;8;}
+
+13         /
+14       Eb7
+15       Fm6    {4f;}
+16       Eb7    {4.e;8;}
+
+If Eq $loops 4
+  Groove FastJazzWaltz1
+Endif
+If Eq $loops 6
+  Groove FastJazzWaltz2
+Endif
+
+Decresc m 4
+
+17        Fm
+18       Fm6
+19        Fm    {4f;}
+20       Fm6    {4.f;8;}
+
+Groove FastJazzWaltz
+
+21         /
+22       Eb7
+23       Fm6    {4f;}
+24       Eb7    {4.e;}
+
+Cresc f 4
+
+25       Db6
+26         /
+27      Ddim
+28         /
+
+Decresc m 2
+
+If Eq $loops 6
+  Groove FastJazzWaltzSus
+Endif
+
+29        Fm
+30       Fm6
+
+Inc loops
+RepeatEnding 5
+
+31       Db9      /     C9
+Groove FastJazzWaltzFill
+32       Fm6
+
+
+RepeatEnd
+
+Decresc ppp 8
+Repeat
+
+Groove FastJazzWaltzSus
+33       Db9      /     C9
+34       Fm6
+
+Groove FastJazzWaltzEnd
+35       Db9      /     C9
+36       Fm6
+
+Repeatend

@@ -1,0 +1,125 @@
+// Garden In The Rain  (1928)
+
+Tempo 80
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove EasySwing
+Begin AllGrooves
+      Plectrum Capo -3
+End
+
+Groove EasySwingIntro
+
+Begin Solo
+    Voice Piano1
+    Articulate 110
+    Octave 5
+    Volume f
+    Begin Riff
+        4r;8f;a;4d+;c+;
+        4b;c+;a;a&;
+        4g;8a;bn;2c+;
+        2g;4c+;a;
+        2f;
+    End
+End
+
+Begin Solo-2
+  Copy Solo
+  Octave 4
+  Volume m
+  Articulate 120
+  Harmonyonly OpenAbove+OpenBelow
+End
+
+Swell mp mf 4
+
+1          F      /  Dm7/A
+2       BbM7    Bb7    Am7   Ab13
+3        G13      /  Ab7b5
+Plectrum  Riff pl2
+4     G7sus4      /      / C13#11
+
+Groove EasySwing
+Volume mp
+
+5        FM9      /    Dm7
+6        Am7      /   F6/C 
+7       BbM7      /   E7#9
+8       Eb13      /    D11 
+
+Groove EasySwingSus
+Cresc mf 4
+
+9        Gm7      /    Am7
+10      BbM7      /  Bb9/C
+11       FM7      / D7#5#9
+12       G13      / C7#5#9 
+
+Groove EasySwingFill
+Volume f
+
+13       FM9      /    Dm7
+14       Am7      /   F6/C 
+15      BbM7      /   E7#9
+16      Eb13      /    D11 D7#5b9
+
+Groove EasySwing
+Decresc mp 4
+
+17       Gm9      /    Am7
+18      BbM7      /  Bb9/C
+19       F69
+20      Bm11      /    E7
+
+Repeat
+Groove EasySwingSus
+Volume m
+
+21       Am7      /    Bm7
+22      C#m7      / E7#9/B
+23       Am7      /   Bb13
+24      Bm11      /   E7#9
+
+Groove EasySwingWalkSus
+Cresc mf 4
+
+25       AM7      /    Bm7
+26      C#m7      /   E7#9
+27       Am7      /  Abdim
+28       Gm7      /  Bb9/C     C9
+
+Groove EasySwingWalkFill
+Decresc mp 4
+
+29       FM7      /    Dm7
+30       Am7      /    Cm7 // F13b9
+31      BbM7      /   E7#9
+32      Eb13      /    D11 D7#5#9
+
+Groove EasySwingSus
+
+33       Gm7      /    Am7
+34      BbM7      /    C11
+
+RepeatEnding
+Cresc m 2
+
+35    FM13/C      / FmM7/C
+36     Bb9/C      /   C7#5
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc ppp 2
+AdjustVolume Ratio=30
+Tempo *.8 2
+
+37    FM13/C      /  Fm7/C
+Seq 1
+38        Bb      F     z!
+
+

@@ -1,0 +1,114 @@
+// Thanks For The Memory
+
+Tempo 100
+KeySig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+    Voice Piano1
+    Swell mf fff 4
+    Articulate 110
+    Harmony 3Below
+    Octave 5
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+        8f+;e+;d+;c+; b;a;g;f;
+        4d;f;a;f;
+        8g;a;b;c+; d+;c+;b;a;
+        1g;
+    End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove BigBand
+Volume m
+
+5       Gm7      /     C9
+6        F6
+7         /      /  F#dim
+8        C7      /      F
+
+Decresc mp 4
+
+9     D#dim      /     C7
+10    F#dim      /     Gm   Adim
+11       Gm      /      /    Gm7
+12        /      /     C9     C7
+
+Groove BigBandSus
+Cresc mf 8
+
+13      Gm7      /     C7
+14       F6
+15        /      /  F#dim
+16       C7      /      F
+
+17    D#dim      /     C7
+18    F#dim      /     Gm   Adim
+19       Gm      /      /    Gm7
+20        /      /     E7    Eb7
+
+Groove BigBand8
+Volume m
+
+21       Ab
+22      Eb7
+23       Ab
+24    F#dim
+
+25        C      /     Am
+26      Dm7      /     G9
+27      Gm7      /     C9
+28       C+      /      /     D7
+
+Groove BigBand
+Decresc mp 4
+
+29      Gm7      /      /     C9
+30       F6
+31        /      /  F#dim
+32       C7      /      F
+
+Groove BigBandSus
+Cresc m 2
+
+33    D#dim      /     C7
+
+RepeatEnding
+
+34    F#dim      /     Gm   Adim
+35       Gm      /    Gm7     C9
+
+Groove BigBandFill
+
+36        F      /   D7b9
+
+RepeatEnd
+
+37    F#dim      /     Gm
+
+Decresc mp 2
+
+38     Fdim      /      F
+39      Db7
+
+Groove BigBandEnd
+Tempo *.7 2
+Decresc ppp 2
+
+40       Gm      /     C9
+41        F      z!
+Fermata -4 1 200
+

@@ -1,0 +1,94 @@
+// So Danco Samba
+
+Tempo 180
+Keysig D
+Transpose 8 // transpose from D to Bb (+8 sounds better than -4)
+
+Groove Metronome2-4
+	z * 2
+
+Groove SambaIntro
+Begin Solo
+	Voice CleanGuitar
+	Octave 5
+	Harmony Open+8Below
+	Volume mf
+	Articulate 100
+	Begin Riff
+		4b;8a;4b;;8a;
+		4b;8a;4b;4.b;
+		4b;;r;b;
+		2b;
+	End
+End
+
+Cresc mp mf 4
+
+1      D6(add9)
+2         /
+3        E9
+4        G / / z
+
+Repeat
+Groove Samba
+Cresc m mf 8
+
+5      D6(add9)
+6        G9
+7        E9
+8         /
+9       Em9
+10       A9      /      /   D6(add9)
+11        /
+12       G9
+
+Groove SambaSus
+Decresc p 8
+
+13     D6(add9)
+14       G9
+15       E9
+16        /
+17      Em9
+18       A9      /      /   D6(add9)
+19        /
+20        /
+
+Groove SambaPlus
+Cresc f 8
+
+21      Am7
+22       D9      /   D9#5
+23      GM7
+24       G6
+25      Bm7
+26       E9
+27       A7
+28        /      /   A7#5
+
+Groove SambaSus
+Decresc mp 4
+
+29     D6(add9)
+30       G9
+31       E9
+32        /
+33      Em9
+34       A9
+
+RepeatEnding 2
+
+35     D6(add9)
+
+Groove SambaFill
+
+36       G9
+
+RepeatEnd
+Groove SambaEnd
+Seq 3
+Decresc ppp 2
+
+35     D6(add9)
+37        /
+

@@ -1,0 +1,127 @@
+// Yes Sir Aint She Sweet Mup
+// A little medley we do :)
+
+Tempo 180
+Groove Metronome2-4
+
+	z * 2
+
+Repeat
+
+Groove EasySwing
+Transpose 0
+
+// Yes sir that's my baby
+
+1      C     
+2      /    /    D#dim 
+3      G7    /    G11   
+4      G7    /    G11   
+5      G7    /    G11   
+6      G7    /    Am6   G7    
+7      C     
+8      G7+5 
+
+Groove EasySwingWalk
+ 
+9      C     
+10     /    /    C#dim 
+11     G7    /    G11   
+12     G7    /    /    G11   
+13     G7    /    G11   
+14     G7    /    Am6   G7    
+15     C     
+
+Groove EasySwingFill
+
+16	/
+
+Groove EasySwingWalkSus
+
+17     C7    
+18	/
+19     F6    
+20     Am7   
+21     D7    
+22     D7    
+23     G7  
+
+  
+24	/
+
+Groove EasySwingFill
+
+25     C    
+ 
+Groove EasySwingWalk
+
+26     /    /    C#dim 
+27     G7    /    G11   
+28     G7    /    C#dim 
+29     G7    /    G11   
+30     G7    /    Am6   G7    
+31     C     
+
+Groove EasySwingFill
+
+32	/
+
+
+
+// Ain't she sweet
+
+Groove EasySwing2
+Transpose -3
+
+Repeat
+
+33     Eb    /    A9    
+34     Bb7   
+35     Eb    /    A9    
+36     Bb7   
+37     Eb    /    G7    
+38     C7    
+39     F7    /    Bb7   
+
+RepeatEnding
+
+40     Eb    /    Bb7   
+
+Groove EasySwingWalk
+
+RepeatEnd
+
+
+41     Eb7   /    /    Ab7 
+
+Groove EasySwing2Sus
+  
+42	/
+43	/
+44     Eb    
+45     /    Eb7   /    Ab7   
+46	/
+47	/
+48     Eb    
+49     Fm7   /    Bb7  
+
+Groove EasySwingWalk
+ 
+50     Eb    /    A9    
+51     Bb7   
+52     Eb    /    A9    
+53     Bb7   
+54     Eb    /    G7    
+55     C7    
+56     F7    /    Bb7   
+
+RepeatEnding
+
+57     Eb    Ab7   /    Eb    
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+57  Eb z!
+

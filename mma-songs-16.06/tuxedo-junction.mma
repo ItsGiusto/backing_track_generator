@@ -1,0 +1,83 @@
+// Tuxedo Junction
+
+Tempo 108
+Groove Metronome2-4
+	z * 2
+
+	
+Begin Solo
+	Voice BrassSection
+	Volume m
+	Octave 5
+	Harmony 3Above
+	Articulate 90
+End
+
+keysig 2b
+
+Groove SwingEnd
+
+Seq 2
+1      Bb    {2r;8.b;16;}
+Seq 2
+2	/        {2r;8.b;16;}
+Seq 2
+3	/        {2r;8.b;16;}
+Seq 1
+4	/        {4b;}
+
+Delete Solo
+
+Repeat
+Groove Swing
+5      Bb    /    Bb/D
+6      Eb7   /    F7    
+7      Bb    /    Bb/D  
+8      Eb    /    F7    
+9      Bb    /    Bb/D   
+10     Eb    /    Edim  
+11     Bb/F    /    F7    
+12     Bb    /    F7  
+
+Groove SwingWalk
+  
+13     Bb    /    Bb/D   
+14     Eb7   /    F7    
+15     Bb    /    Bb/D  
+16     Eb7   /    F7    
+17     Bb    /    Bb/D  
+18     Eb7   /    Edim  
+19     Bb/F    /    F7    
+20     Bb    
+
+Groove SwingSus
+
+21     Eb6   
+22     Eb7   
+23     Bb    
+24     Eb7   /    /    Bb7   
+25     Eb6   
+26     Eb7   
+27     Bb    
+28     Cm7   /    F7    
+
+Groove SwingWalkPlus
+
+29     Bb    /    Bb/D    
+30     Eb7   /    F7    
+31     Bb    /    Bb/D  
+32     Eb7   /    F7    
+33     Bb    /    Bb/D  
+34     Eb6   /    Edim  
+35     Bb/F    /    F7    
+
+RepeatEnding
+
+36     Bb    /    F7    
+
+RepeatEnd
+Groove SwingEnd
+Seq 2
+
+37     Bb    / / z!
+

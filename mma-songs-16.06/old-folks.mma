@@ -1,0 +1,101 @@
+// Old Folks
+
+Tempo 80
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzGuitar1Intro
+AllGrooves Plectrum Capo -1
+
+Begin Solo
+  Voice Piano1
+  Volume f
+  Harmony Open
+  Articulate 110
+  Octave 5
+  Begin Riff
+       8g+;4d+;8bn;4d+;bn;
+       4g;b;2d+;
+       8g;4c+;8g;e+;d+;c+;g;
+       2.f#;
+  End
+End
+
+1        G
+2        Gm
+3        Cm
+4        D7
+
+Repeat
+
+Groove JazzGuitar
+
+5        G       /    G+7
+6       Eb6     Eb9
+7       Ab       /    Abm6
+8       Gm7      /   C7b9
+9       Fm7      /    Bb7
+10   Db7#11      /   C7b9
+11       F7
+12      Fm7    Bb7  Bb9 Fm6 
+
+Groove JazzGuitarWalk
+
+13       G      /    G+7
+14      Eb6    Eb9
+15     AbM7      /    Db7
+16      Gm7      /   C7b9
+17      Fm7      /    Bb7
+18   Db7#11      /   C7b9
+19       F7      /    Bb7
+
+Groove JazzGuitar1Walk
+Seq 4
+20   Eb6(add9)
+
+Groove JazzGuitarSus
+
+21     EbM7      /  Ab
+22     Bbm7      /    Eb7
+23     Ab
+24      Abm6     /    /     AbmM7
+25       Eb      /   Eb7
+26     Ab      /    Cb7
+27      Eb     /     Cm6
+28      Abm6   /     Bb7   D7&5
+
+Groove JazzGuitarWalkSus
+
+29       G      /    G+7
+30      Cm7    Cb7   Bbm7    Eb7
+31     AbM7      /    Db7
+32      Gm7      /      /   C7b9
+33      Fm7      /    Bb7
+34   Db7#11      /   C7b9
+35       F7      /    Bb7
+
+RepeatEnding
+
+Groove JazzGuitar1
+Seq 4
+
+36   Eb6(add9)      /     C7
+
+RepeatEnd
+
+Groove JazzGuitar1
+Seq 4
+
+37   Eb6(add9)      /     C7
+
+Groove JazzGuitarSus
+
+38      Fm7      /    Bb7
+39   Db7#11      /   C7b9
+
+Groove JazzGuitarEnd
+
+40       F7      /    Bb7
+41   Eb6(add9)

@@ -1,0 +1,111 @@
+// Margie (1920)
+
+Tempo $(90 * 2)
+Keysig F
+
+Groove Metronome2-4
+   z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+    Voice SynthBrass2
+    Volume f
+    Octave 5
+    Harmony OpenBelow+8Below
+    Articulate 90
+    Begin Riff
+        4f;e;f;e;
+        2d;e;
+        4g;f;e;d;
+        2c;
+    End  
+End
+
+Cresc p mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove BigBand
+Volume m
+
+5         F
+6         /
+7         /
+8        F7      /    F7+
+
+Groove BigBandPlus
+Cresc mf 4
+
+9       Bb6
+10        /
+11        /
+12        /
+
+Groove BigBandSus
+Cresc f 4
+
+13        F
+14    Fdim7
+15       D7
+16        /
+
+Groove BigBandSusPlus
+Volume m
+
+17       G7
+18    Gdim7      /     G7
+19       C7
+20        /
+
+Groove BigBand
+Volume f
+
+21        F
+22        /
+23        /
+24       F7      /    F7+
+
+Groove BigBandSus
+Decresc mf 2
+
+25       Bb
+26        /
+27        A    Bm7  Cdim7
+28    A7/C#      /     C7
+
+Groove BigBand
+Decresc m 4
+
+29        F
+30        /      /     C7
+31        F
+32      Am7      /     D7
+
+Groove BigBandPlus
+Volume mp
+
+33      Gm7
+34       C7
+
+RepeatEnding 2
+
+35        F      /    Bb7
+
+Groove BigBandFill
+
+36        C7
+
+RepeatEnd
+
+
+Groove BigBandEnd
+Decresc p 2
+
+35        F      /    Bb7
+36        F      z!

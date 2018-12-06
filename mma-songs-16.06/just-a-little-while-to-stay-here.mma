@@ -1,0 +1,127 @@
+// Just A Little While To Stay Here
+
+Tempo 200
+Keysig A&
+
+Groove Metronome2-4
+  z * 2
+
+Groove DixieMarchIntro
+
+// Change from traditional sound to something more modern.
+
+Begin AllGrooves
+  Begin Chord-Banjo
+     Voice JazzGuitar
+     Volume mf
+     Octave 5
+     Articulate 110
+  End
+  Begin Bass
+     Voice AcousticBass
+  End
+  Begin Walk
+     Voice $_Bass_Voice[1]
+  End
+  Begin Arpeggio
+     Range 1
+     Octave 6
+     Harmony OpenAbove
+     Direction Random
+  End
+End
+
+Begin Solo
+    Voice Piano1
+    Cresc f ff 4
+    Articulate 90
+    Octave 5
+    Harmony 3Below
+    Begin Riff
+        4c+;bn;c+;b;
+        2a;f;
+        1d;
+        2.e;
+    End
+End
+
+Swell m f 4
+
+1        Ab
+2        Fm
+3       Bbm
+4       Eb7
+
+Repeat
+Groove DixieMarch
+Volume m
+
+5        Ab
+6        Ab      /     Db
+7        Ab
+8         /
+
+Groove DixieMarchPlus
+Volume mf
+
+9        Ab      /      /     Db
+10       Ab      /    Eb7
+11       Ab
+12      Ab7
+
+Groove DixieMarch
+Decresc f m 4
+
+13       Db
+14       Db      /    Dbm
+15       Ab
+16      Fm7
+
+Groove DixieMarchSus
+
+17      Bb7
+18        /
+19      Eb7
+20     Eb+7
+
+Groove DixieMarch
+
+21       Ab
+22       Ab      /     Db
+23       Ab
+24        /
+
+Groove DixieMarchSusPlus
+Cresc f 4
+
+25       Ab      /      /     Db
+26       Ab      /    Eb7
+27       Ab
+28      Ab7
+
+Groove DixieMarch
+Decresc m 4
+
+29       Db
+30        /      /    Dbm
+31       Ab
+32       F7
+
+Groove DixieMarchSus
+Decresc mp 2
+
+33      Bb7
+34      Eb7
+
+RepeatEnding
+
+35       Ab
+36        /
+
+RepeatEnd
+Groove DixieMarchEnd
+Decresc ppp 2
+
+35       Ab
+36        / z!
+

@@ -1,0 +1,85 @@
+// Would You Like To Take A Walk
+
+Tempo 120
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+	Voice Piano2
+	Volume m
+	Articulate 90
+	Octave 5
+	Begin Riff
+		4b;g;b;g;
+		8c+;b;a;g;4f;e;
+		4c;e;f;g;
+		1f;
+	End
+End
+
+SwingMode On
+	
+1   Eb      
+2   Cm      
+3   Fm      
+4   Bb7     
+
+Repeat
+Groove FoxTrot
+Repeat
+
+5   Ab      /       Abm     
+6   Bb7     /       Eb      
+7   Ab      /       Abm     
+8   Eb      Fm7     Eb      
+9   Ab      /       Abm     
+10  Eb      /       C7      
+11  Fm      /       Abm     
+12  Eb      /       Bb7     
+
+RepeatEnding
+
+13  Eb      
+
+Groove FoxTrotSus
+
+RepeatEnd
+
+14  Eb 
+
+Groove FoxTrotPlus
+     
+15  Bbm7    /       Eb7     
+16  Ab      
+17  Eb7     
+18  Ab      /       /       Ab7     
+19  Dm7     /       G7      
+20  C       
+21  Dm7     G7      
+22  C  
+
+Groove FoxTrotSusPlus
+     
+23  Ab      /       Abm     
+24  Bb7     /       Eb      
+25  Ab      /       Abm     
+26  Eb      Fm7     Eb      
+27  Ab      /       Abm     
+28  Eb      /       C7      
+29  Fm      /       Abm     
+
+RepeatEnding
+
+30  Eb      /       Bb7     
+31  Eb      
+
+RepeatEnd
+
+Groove FoxTrotENd
+
+30  Eb      /       Bb7     
+31  Eb      /  z!
+

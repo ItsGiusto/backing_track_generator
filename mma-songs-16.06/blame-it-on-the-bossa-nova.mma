@@ -1,0 +1,112 @@
+// Blame It On The Bossa Nova
+
+Tempo 160
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+	
+Begin Solo
+	Voice TenorSax
+	Volume mf
+	Articulate 80
+	Accent 1 20 3 20
+	Harmony Open
+	Octave 5
+End
+
+Cresc mp mf 4
+Groove SoftRockEnd
+
+1 	F           {4f ; r ; f ; }
+
+Groove SoftRock
+
+2 	/           { 4f ; ; ; ; }
+3 	C7          { 4g ; ; 8; f; 4g ; }
+4 	F           { 1f ; }
+
+
+Repeat
+
+Groove SoftRock1
+
+Volume mp
+
+5 	z
+6 	F
+7 	/
+8 	C7
+9 	/  /  Gm
+10 	C7
+11 	/
+12 	F
+13 	/  /  /  C7
+14 	F
+15 	/  /  F7
+16 	Bb
+17 	/
+18 	F
+19 	C7
+20 	F
+
+Volume f
+
+21 	/  z
+22 	C7
+23 	/
+24 	F
+25 	/
+26 	C7
+27 	/
+28 	F
+
+Volume mf
+Cresc f 9
+
+29 	/
+30 	Bb
+31 	/
+32 	F /  C7
+33 	F
+34 	C7
+35 	/
+36 	F
+37 	/  z
+
+Solo Volume p
+
+38 	C7        { 4r ; c+; ; 8r; c+ ; }
+39 	/         { 4d+; 8c+; 4d+; 4.c+; }
+40 	F         { 4r; 4c+; ; 8r; 8c+ ; }
+41 	/         { 4d+; 8c+; 4d+; 4.c+; }
+42 	C7        { 4r; 4c+; 8r; c+; }
+43 	/         { 4d+; 8c+; 4d+; 2c+~; }
+
+RepeatEnding 2
+
+44 	F /  Bb
+45 	F
+
+// Musical interlude
+
+Groove SoftRock
+
+Volume mp
+
+46 	/
+47 	/
+48 	/
+49 	Gm
+50 	/
+51 	C7
+52 	/
+53 	F
+
+RepeatEnd
+
+Groove SoftRockEnd
+
+54 	z F /  Bb
+55 	F z!
+

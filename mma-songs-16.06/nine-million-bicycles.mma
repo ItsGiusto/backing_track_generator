@@ -1,0 +1,277 @@
+// Nine Million Bicycles
+
+Set Tempo 84
+Set SlowTempo 80
+
+Tempo $Tempo
+
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove GuitarBalladIntro
+
+Begin AllGrooves
+  Arpeggio-4 Articulate 90
+  Arpeggio-8 Articulate 85
+  Bass Volume +10
+End
+
+If Def Wk3000
+    StackValue $_Debug
+    Debug Warnings=Off
+    Drum-Kick1  Voice BrushSet
+    Drum-Side   Voice BrushSet
+    Drum-CHiHat Voice BrushSet
+    Arpeggio-4  Voice MellowNylonGuitar
+    Arpeggio-8  Voice MellowNylonGuitar
+    Chord-Sus   Voice MellowStrings
+    Debug $_Stackvalue
+Endif
+
+// Pan stuff.
+
+Drum        MidiPan Left50    /// this applies to all drum tracks
+Bass        MidiPan Right40
+Arpeggio-4  MidiPan Right20
+Arpeggio-8  MidiPan Left20
+Chord       MidiPan Right60
+Chord-Sus   MidiPan Left70
+
+Begin Solo
+    Voice JazzGuitar
+    Volume mp
+    Octave 5
+    Harmony 2Below
+    Articulate 90
+    Rtime 5
+    Rvolume 10
+    Begin Riff
+        8r;16g-;c;16e;8.g;4f;d;
+        4f;d;8.f;16c;d;8.+8f~;
+        ~ 16g;c+;e;8.g+;4f+;d+;
+        4f+;d+;8.f+;16c+;d+;8.f+;
+    End
+End
+
+Begin Solo-1
+     Voice Ocarina
+     MidiPan Right100
+     Harmony openbelow
+     Volume pp
+     Octave 6
+     Begin Riff
+       1r;
+       1r;
+       1r;
+       1r;
+       1+1g+~;
+     End
+End
+Begin Solo-2
+     Voice Ocarina
+     MidiPan Right90
+     Harmony OpenBelow
+     Octave 6
+     Volume pp
+     Begin Riff
+       1r;
+       1r;
+       1r;
+       1r;
+       8r;16g;16+16d+;8.+8e+;16g;8c+;16e+;8g+;
+       8r;16g;16+16d+;8.+8e+;16g;8c+;16e+;8g+;
+     End
+End
+
+Swell mp mf 6
+
+Tempo $SlowTempo
+Tempo +4 6
+
+1          C      /  Dm7/C
+2          /
+Seq
+3          C      /  Dm7/C
+4          /
+
+Seq 3
+
+Solo-2  Decresc  ppp 2
+Solo-1 MidiDeCresc mp p 2
+Solo-1 MidiWheel  Offset=-.1 Duration=1m start=6000 end=Center
+5          C
+Solo-1 MidiWheel duration=3 start=Center end=9000 Cycle=On
+6          /
+
+// reset this volume since midi stuff isn't in grooves
+Solo-1 MidiVolume mp
+
+Repeat
+Groove GuitarBallad
+Volume m
+Tempo $Tempo
+
+7         Am
+8         Em
+9         Dm
+
+Groove GuitarBallad1
+Decresc mp 3
+
+10         F
+
+Tempo $SlowTempo 2
+
+11        Dm      /      G
+
+Repeatending
+
+12         C
+
+RepeatEnding  // use this for the CODA jump
+
+13         C
+
+Tempo $Tempo
+
+14         /
+
+Groove GuitarBalladSus
+Volume mf
+
+15        Fm      /      C
+16        G7      /     Am
+Truncate 2
+17         /
+
+Groove GuitarBallad1Sus
+Decresc m 3
+
+18        Fm      /      C
+19         D
+20         G
+
+Groove GuitarBallad
+
+21        Am
+22        Em
+23        Dm
+
+Groove GuitarBallad1
+Decresc mp 4
+
+24         F
+25        Dm      /      G
+26         C
+27         /
+
+// This is the middle instrumental solo
+
+Groove GuitarBallad
+
+Begin Solo-1 Riff
+      8e+;g+;2.a+;
+      8e+;g+;8.a+;16b+;4g+;8.e+;16g+;
+      8a;c+;2.d+;
+      4d+;8r;16d+;c+;8d+;4.c+;
+      8d+;16r;c+;4d+; 2+1e+~;
+      ~<>;
+      4r;8;16;c+;e+;8.g+;4f+;
+      4d+;f+;d+;8.g+;16c+;
+      16d+;8.g+;1+1+1g+~;
+End
+
+Solo-1 MidiVolume p
+Solo-1 Swell pp m 9
+Cresc m 9
+
+28        Am
+29        Em
+30        Dm
+
+31         F
+32        Dm      /      G
+
+Begin Solo
+   Voice Strings
+   MidiPan Left70
+   Volume pp
+   Begin Riff
+      4+8+16r;16c+;e+;8.g+;4a+;
+      4f+;a+;f+;a+;
+   End
+End
+
+Solo-1 MidiWheel duration=5.5 Offset=-2 start=Center end=8200 rate=8 Cycle=On
+33         C      /  Dm7/C
+34         /
+
+35         C      /  Dm7/C
+Solo-1 MidiWheel duration=7 Offset=1 start=8000 end=9200 rate=16 Cycle=On
+36         /
+
+Solo-1 MidiDecresc mp pppp 2
+37         C
+38         /
+Groove GuitarBallad
+Volume mf
+
+39        Fm      /      C
+40        G7      /     Am
+Truncate 2
+41         /
+
+Groove GuitarBallad1
+Decresc mp 2
+
+42        Fm      /      C
+43         D
+44         G
+
+Begin AllGrooves Arpeggio-4
+   Harmony 3Below
+   Rskip 20
+End
+
+Repeatend
+
+45         C
+
+Tempo $Tempo
+
+46         /      /     Am
+
+Groove GuitarBalladSus
+
+47        Dm      /      G
+48         C
+49         /      /     Am
+
+Groove GuitarBallad1Sus
+
+Begin Solo-1
+   MidiDecresc p ppp 4
+   Begin Riff
+      8e+;g+;2.a+;
+      8e+;g+;8.a+;16b+;4g+;8.e+;16g+;
+      8a;c+;1+2d+~;
+   End
+End
+Decresc p 2
+AdjustVolume Ratio=30
+
+Tempo -6 3
+
+50        Dm      /      G
+51         C      /  Dm7/C
+
+Groove GuitarBalladend
+Decresc ppp 2
+AdjustVolume Ratio=30
+
+52     Dm7/C
+53         C  z!
+
+

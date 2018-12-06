@@ -1,0 +1,117 @@
+// Easy To Love
+
+Tempo 176
+Keysig D minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+Begin Chord-Hits1
+  Voice JazzGuitar
+  Articulate 120
+  DupRoot -1,1
+End
+
+Begin Solo
+    Voice Piano1
+    Articulate 110
+    Octave 6
+    Volume ff
+    Harmony 3Below
+    Begin Riff
+        4d+;r;d+;
+        4b&;r;b;
+        4g;r;g;
+        1a;
+    End
+End
+
+Decresc m p 4
+
+1        Dm
+2       Bbm
+3        Em
+4        Cdim
+
+
+Repeat
+Groove Bigband
+Volume m
+
+5        Am
+6        Dm
+7        Am
+8        D7
+
+Groove BigBandSus
+Volume +10
+
+9         G      /  A#dim      G
+10       Am
+11        G
+12        /      /     Gm
+
+Groove BigBandPlus
+Volume +10
+
+13      Am7
+14        /      /      /     D7
+15        G
+16        /      /      /  C#dim
+
+Groove BigBandSusPlus
+Decresc m 4
+
+17        /    Am7
+18       D7
+19       Bm
+20     Cdim
+
+Groove BigBand
+
+21       Am
+22       Dm
+23       Am
+24       D7
+
+Groove BigBandSusPlus
+Volume -10
+
+25        G      /  A#dim      G
+26       Am
+27        G
+28       E7
+
+Groove BigBandSus
+Volume -10
+
+29       Am
+30      Cm6
+31        G      /  A#dim
+32       B7
+
+Groove BigBand
+Volume m
+
+33      Am7
+34       D7
+
+RepeatEnding 2
+Decresc mp 2
+
+35        G      /     D7
+
+Groove BigBandFill
+
+36        G      /   Fdim
+
+RepeatEnd
+
+Groove BigBand2End
+Decresc ppp 2
+Tempo *.9 2
+
+37        G      /     D7
+38        G     z!
+

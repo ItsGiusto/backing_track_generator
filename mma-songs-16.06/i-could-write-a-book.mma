@@ -1,0 +1,121 @@
+// I Could Write A Book
+
+Tempo 140
+Keysig C
+
+// Modify the Arpeggio groove (fill).
+Groove EasySwingFill
+ Begin Arpeggio
+     Articulate 110
+     Harmony OpenAbove+OpenBelow
+     Rskip 60
+     Octave 6
+     Range 1
+     Direction Up
+     Volume mp
+     Sequence {A4; A4 Shift .66}
+     Accent 1 20 3 10
+ End
+DefGroove EasySwingFill
+
+Groove Metronome2-4
+  z * 2
+
+Groove EasySwingIntro
+Begin Solo
+    Voice Piano1
+    Articulate 105
+    Harmony OpenBelow
+    Octave 5
+    Volume f
+
+    Begin Riff
+      4c;d;e;f;
+      4g;f;e;d;
+      4e;f;g;a;
+      2b;
+    End
+End
+
+Cresc mp mf 4
+
+1         C
+2         Dm
+3         Em
+4         G7
+
+
+Repeat
+Groove EasySwing
+Volume m
+
+5       CM7      /    Am9
+6       Dm7      /     G7
+7         C
+8         /      /     G7
+
+Groove EasySwingFill
+Decresc mf m 4
+
+9         C      /     G7
+10        C      / C#dim7
+11      Dm7
+12       G7
+
+Groove EasySwingSus
+
+13      C/E      / Ab7/Eb
+14      Dm7      /     G7
+15      Am7      /   D7b9
+16        G      /      /     B7
+
+Groove EasySwing
+
+17       Em
+18      Am7      /     D7
+19      Dm7
+20       G7
+
+Groove EasySwingWalk
+Volume mf
+
+21        C      /    Am7
+22      Dm7      /     G7
+23        C
+24       G7
+
+Groove EasySwingWalkSus
+Decresc m 4
+
+25        C      /     G7
+26        C      / C#dim7
+27      Dm7
+28       G7
+
+Groove EasySwing
+Cresc f 4
+
+29      C/E      / Ab7/Eb
+30      Dm7      /     G7
+31      Gm7      /     C7
+32        F      /    Fm7    Bb7
+
+Groove EasySwingFill
+Decresc mp 2
+
+33        C      /     A7
+34      Dm7      /     G7
+
+RepeatEnding
+
+35        C
+36      Dm7      /     G7
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc pp 2
+
+37        C
+38        / z!
+

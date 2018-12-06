@@ -1,0 +1,129 @@
+// Wrap Your Troubles In Dreams
+
+Tempo 100
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+    Voice Strings
+    Volume ff
+    Articulate 110
+    Octave 4
+    Harmony 3Above
+    Begin Riff
+        2c+;43e+;d+;e+;
+        4c+;g;a;c+;
+        43!d+;!;!;e+;c+;d+;
+        2g+;
+    End
+End
+
+Chord-Hits1 Sequence -   
+
+Swell mp mf 4
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+Repeat
+Groove BigBand
+Volume m
+
+5          C      /     G7
+6         C6      /     G7
+7         C6      /     E7
+8         Am
+
+Groove BigBandPlus
+Swell mf 4
+
+9         D9      /    Am7
+10        D9
+11       Dm7      /     G7
+12         C      /      /   G9#5
+
+Groove BigBandSus
+Cresc mf 4
+
+13         C      /     G7
+14        C6      /     G7
+15        C6      /     E7
+16        Am
+
+Groove BigBand
+Decresc mp 4
+
+17        D9      /    Am7
+18        D9
+19       Dm7      /     G7   G9#5
+20         C      /    Bm7
+
+Groove BigBand1Sus
+Walk Sequence -
+Begin Bass
+  Sequence B13
+  Volume fff
+  Articulate 120
+End
+
+Cresc mf 4
+
+21        Am      /     B7
+22        E7      /     A7
+23        D7      /     G7     G9
+Bass Riff B1234
+24         C      /     E7
+
+Groove BigBand1SusPlus
+Walk Sequence -
+Begin Bass
+  Sequence B13
+  Volume fff
+  Articulate 120
+End
+
+
+25        Am      /     B7
+26        E7      /     A7
+
+Decresc mp 2
+
+27        D7      /     G7
+Bass Riff B1234
+28         C      /   G9#5
+
+Groove BigBandSus
+Cresc m 2
+
+29         C      /     G7
+30        C6
+31         /      /     E7
+32        Am
+
+Groove BigBandPlus
+Cresc mf 2
+
+33        D9      /    Am7
+34        D9
+35       Dm9      /     G7   G9#5
+
+RepeatEnding
+
+Groove BigBandFill
+
+36         C      /   G9#5
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc ppp 1
+
+37         C    Fm6 C6(add9)     z!
+
+

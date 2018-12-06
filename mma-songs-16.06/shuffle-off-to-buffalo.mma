@@ -1,0 +1,90 @@
+// Shuffle Off To Buffalo
+
+Tempo 120
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+	Voice Piano2
+	Volume m
+	Octave 6
+	Harmony Open
+	Articulate 80
+	Begin Riff
+		8g;;;;;;;;
+		8a;;;;;;;;
+		8d+;;;;;c+;b;a;
+		2g;
+	End
+End
+
+SwingMode On
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+Repeat
+Groove FoxTrot
+Repeat
+
+5          C
+6          /      /      /   Edim
+7         G7    Dm7     G7
+8         Dm      /    C#m     Cm
+9          G     F#    Dm7     G7
+10         G     Em    Dm7     G7
+
+RepeatEnding
+
+11         C
+12        G7
+
+Groove FoxTrotPlus
+
+RepeatEnd
+
+Groove FoxTrot
+
+13         C      F      C    Dm7
+14         C      /     C7
+15         F      /    Gm7     C7
+16         F
+17         /      /     C7
+18         F      /     D7
+19         G      /    Am7     D7
+20         G      /    Em7
+21       Am7     Cm     D7
+22        G7
+
+Groove FoxTrotSusPlus
+
+23         C
+24         /      /      /   Edim
+25        G7    Dm7     G7
+26        Dm      /    C#m     Cm
+27         G     F#    Dm7     G7
+28         G     F#    Dm7     G7
+
+RepeatEnding
+// these 2 bars just take you back to the start of the song.
+
+29        C
+// stick in a bass walk for the turnaround.
+Bass Riff 1 4 5 90; 2 4 3 95; 3 4 2 100; 4 4 1 110;
+30        G7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+31     F#dim
+32         /
+33         C      /    Dm7     G7
+34         C     z!
+

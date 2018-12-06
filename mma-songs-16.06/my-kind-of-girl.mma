@@ -1,0 +1,146 @@
+// My Kind Of Girl
+
+Tempo 128   // about the max for a cha-cha
+
+Groove Metronome2-4
+  z * 2
+
+Groove ChaChaIntro
+
+
+Begin Solo
+    Voice Vibraphone
+    Octave 6
+	Volume f
+	Mallet Rate=8 Decay=-2
+	Harmony Open
+	Articulate 99
+	Begin Riff
+	    8g;;;;4;
+		8g;;;;4;
+		8r;4.a;4b;c+;
+		2d+;
+	End
+End
+
+Swingmode On
+Swell mp f 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove ChaCha
+Volume m
+
+5         G
+6         /
+7         /
+8         /
+
+Groove ChaCha1
+Volume mf
+
+9         /
+10        /
+11       D7
+12        /      /      /     Am
+
+Groove ChaCha
+Volume m
+
+13        G
+14       G7
+15        C
+16        /      /      /    Am7
+
+Groove ChaChaSus
+Decresc mp 4
+Arpeggio-Sus Octave -1
+
+
+17       D7
+18       Am      /     D7
+19        G
+
+Groove ChaChaFill
+
+RepeatEnding
+
+20        /
+
+AllGrooves Arpeggio Voice Clarinet
+
+RepeatEnd
+
+21        /
+
+AllGrooves Arpeggio Voice Piano1
+
+Repeat
+Groove ChaCha1
+Volume f
+
+22        C
+23        /
+24        G      /    Am7
+25      Bm7
+
+Groove ChaCha1Sus
+Volume mf
+
+26      Em6
+27      F#7
+28       Bm      /  Bbdim
+29       D7
+
+Groove ChaCha
+Volume m
+
+30        G
+31        /
+32        /
+33        /
+
+Groove ChaChaSus
+Cresc mf 4
+
+34        /
+35        /
+36       D7
+37        /      /      /    Am7
+
+Groove ChaCha1
+Decresc mp 4
+
+38        G
+39       G7
+40        C
+41        /      /      /    Am7
+
+Groove ChaCha
+Volume m
+
+42       D7
+43      Am7      /     D7
+
+RepeatEnding
+
+44        G
+
+Groove ChaCha1Fill
+
+45        /  GzA@4
+
+AllGrooves Arpeggio Voice Vibraphone
+
+RepeatEnd
+
+Groove ChaChaEnd
+Decresc ppp 2
+Tempo *.9 2
+
+44       G
+45       / z!

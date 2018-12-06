@@ -1,0 +1,104 @@
+// Mr Sandman
+
+// The Chordettes make this a #1 hit in 1954.
+
+
+Tempo 200
+
+Groove Metronome2-4
+ z * 2
+ 
+Begin Solo
+	Voice ChoirAahs
+	Harmony Open
+	Octave 5
+	Volume ff
+	Articulate 60
+End
+
+Groove Jive1Clap
+
+Keysig 2b
+Volume pp
+Cresc  mf 8
+
+
+1      Bb    {4b;d+;f+;a+;}
+2	   /     {4g+;f+;d+;b;} 
+3      Cm7   {4c+;e+;g+;b+;}
+4      F     {1a+;}
+5      Bb    {4b-;d;f;a;}
+6	   /     {4g;f;d;b-;}    
+7      Cm7   {4c;e;g;b;}
+8      F     /    z      {2a;}
+
+Delete Solo
+
+
+Begin Solo
+	DrumType
+    Volume f
+End
+
+Volume mf
+Repeat
+Groove Jive
+
+
+9      Bb    {2.r;4handclap;}
+10	   /        {4handclap;;;;}
+11     A7    
+12     /      {4r;handclap;;;}
+13     D7    
+14	/
+15     G7#5
+16	   /      {4r;handclap;;;}
+17     C7    
+18	   /      {4r;handclap;}
+19     F7    
+20	/
+21     Bb     {2.r;4handclap;}
+22     /      {4handclap;;;;}
+23     Gb    
+24     F9    
+25     Bb    
+26	/
+27     A7    
+28	   /    {4r;handclap;;;}
+29     D7    
+30	/
+31     G7#5    
+32	/  {4r;handclap;;;}
+
+
+Groove JiveSus
+
+33     Cm    /    Cm7   
+34	/
+35     Ebm6  
+36	/
+37     Bb    
+
+RepeatEnding 2
+
+38     C9    /    F7    Bb    
+39     /    Fdim7 
+40     F9    /    F7    
+
+RepeatEnd
+
+Tempo *.9 4
+Groove JiveClap
+
+
+41     C9    F7    
+42     Bb    
+43     C9    /    F7    
+44     Bb    
+45     C9    /    F7    
+
+Groove JiveEnd
+
+46     F9    
+47     Bb   / z!
+

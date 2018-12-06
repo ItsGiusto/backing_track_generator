@@ -1,0 +1,111 @@
+// Indian Summer
+
+// This can be pretty dippy ... we pick up the tempo and use a 
+// latin beat. Hey, I like it :)
+
+Tempo 120
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove BeguineIntro
+
+Begin Solo
+    Voice TremoloStrings
+    Articulate 110
+    Octave 5
+    Cresc m f 4
+    Begin Riff
+        8b-;4.+2d;
+        8b-;4.+2e;
+        8c;4.+2e;
+        1d;
+    End
+End
+
+Swell p m 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+
+Repeat
+Groove Beguine
+Volume m
+
+5         G
+6        D+
+7         G
+8        D+
+
+Groove BeguineSus
+Decresc mp 4
+
+9       GM7
+10       G6
+11      Am7
+12        /
+
+Groove Beguine1
+
+13       Bm
+14       B7
+15       Em
+16        /
+
+Groove Beguine1Sus
+Cresc mf 4
+
+17      Em7
+18       A9
+19       Bm
+20        /      /     D7
+
+Groove Beguine
+
+21        G
+22       D+
+23        G
+24       D+
+
+Groove BeguineSus
+Volume m
+
+25      GM7
+26       G6
+27      Am7
+28        /      /    Am7
+
+Groove Beguine
+Volume mf
+
+29        G
+30       A7
+31      Eb9      /    Eb7
+32     Bbm7      /    Eb7
+
+33        G
+34       D+
+
+RepeatEnding
+
+35       G6
+
+Groove BeguineFill
+
+36       D7
+
+Repeatend
+
+Groove Beguine2End
+Decresc ppp 2
+Tempo *.8 2
+
+35       G6
+36        /  z!
+
+
+

@@ -1,0 +1,129 @@
+// Someone To Watch Over Me
+
+Tempo 85
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+  Voice Piano1
+  Volume f
+  Harmony OpenBelow
+  Octave 5
+  Articulate 90
+  Begin Riff
+     8g;f;g;f;4d;8g;f;
+	 8g;f;2.d;
+	 8g;f;g;f;4d;8g;f;
+	 8g;f;2.d;
+	 4e;f;g;b;
+	 8c+;b;g;e;4d;;
+	 2f;g;
+	 1f;
+  End
+End
+
+Groove Easyswing
+
+Stackvalue $_Debug   // the beat count in midinote causes a warning....
+Debug warnings=0
+Solo  MidiNote Offsets=Beats CHaTR  16 1,32 5,30
+Debug $_Stackvalue
+
+Chord MidiNote ChAT 0 12   /// Tremolo for the guitar
+
+Cresc ppp f 8
+
+1        Cm      /     Gm
+2        Cm      /     Gm
+3        Cm      /     Gm
+4        Cm      /     Gm
+
+Groove EasyswingIntro
+
+5        Cm      /     Gm
+6        Cm      /     Gm
+7         F      /      G
+8         F
+
+Solo MidiNote CHat 1 0
+
+Transpose -3
+
+Repeat
+Groove Easyswing
+Volume m
+
+9        Eb      /      /    Eb7
+10      Ab6      /  Abdim3
+11       Eb      /  Ebdim3
+12      Bb7      /  Bbdim3
+
+Groove EasyswingSus
+Cresc m mf 4
+
+13       Fm      /     C7     Fm
+14      Cm6      /    Fm7    Bb7
+15       Eb      /   G7#5
+16       Ab      /    Bb7
+
+Groove Easyswing
+Decresc mp 4
+
+17       Eb      /      /    Eb7
+18      Ab6      /  Abdim3
+19       Eb      /  Ebdim3
+20      Bb7      /  Bbdim3
+
+Groove EasyswingSus
+Cresc m 4
+
+21       Fm      /     C7     Fm
+22      Cm6      /    Fm7    Bb7
+23       Eb    Eb7     A&    Bb7
+24       Eb
+
+Groove EasyswingFill
+Volume m
+
+25       Ab
+26        /
+27        /
+28       Eb
+
+Groove Easyswing
+Volume mf
+
+29       D7   D7#5      /     D7
+30       G7
+31        C      /     C7
+32       F7      /    Bb7
+
+Groove EasyswingFill
+Volume m
+
+33       Eb      /      /    Eb7
+34      Ab6      /  Abdim3
+35       Eb      /  Ebdim3
+36      Bb7      /  Bbdim3
+
+Groove EasyswingSus
+Decresc m mp 4
+
+37       Fm      /     C7     Fm
+38      Cm6      /    Fm7    Bb7
+
+RepeatEnding
+
+39       E&    Eb7     A&    Abm
+40       Eb    /     Bb7
+
+RepeatEnd
+Groove EasyswingEnd
+Decresc ppp 2
+
+39       E&    Eb7     A&    Abm
+40       Eb    /       z!
+
+Chord MidiNote ChAT 0 0

@@ -1,0 +1,110 @@
+// Stars Fell On Alabama
+
+Tempo 88
+
+Groove Metronome2-4
+ z * 2
+
+Groove PianoBalladIntro
+
+Begin Solo
+ Voice Strings // Same voice used in sustains
+ Volume m
+ Articulate 105
+ Harmony Open+8Below
+ Octave 5
+ Accent 1 5 2 5 3 5 4 5   // hit beat notes a bit more
+ Begin Riff
+  2e;8d#;e;d;e;
+  8a;g;f;e;4d;e;
+  8d;e;f;e;4d;e;
+  2d;43b-;c;d;
+  2ee;    // note 'ee' which is a tricky way to turn off harmony
+ End
+End
+
+Cresc p m 4
+Swingmode On Skew=55  // just a bit of swing 
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+
+Groove PianoBallad
+Volume mp
+
+5         C     Gm     A7
+6        D7      /     G+
+7         C
+8         /      /  Ebdim
+
+Groove PianoBallad1
+Volume m
+
+9       Dm7
+10       G7
+11        C      /     A7
+12        F      /     G7     G+
+
+Groove PianoBallad
+Volume mf
+
+13        C     Gm     A7
+14       D7      /     G+
+15        C
+16        /      /  Ebdim
+
+Groove PianoBalladSus
+Volume m
+
+17      Dm7
+18       G7
+19        C      /    Dm7
+20        C
+
+Groove PianoBallad1Sus
+Swell m f 8
+
+21        F      /     G7
+22        C      /  Ebdim
+23      Dm7      /     G7
+24        C
+
+Groove PianoBallad
+
+25        F      /     G7
+26       Am      /    Am7
+27       B7
+28        E      /     G7
+
+Groove PianoBallad1
+Decresc mp 6
+
+29        C     Gm     A7
+30       D7      /     G+
+31        C
+32        /      /  Ebdim
+
+Groove PianoBalladSus
+
+33      Dm7
+34       G7
+
+RepeatEnding
+
+35        C      /    Dm7
+36        C      /    G7
+
+RepeatEnd
+
+Groove PianoBalladEnd
+Tempo *.8 2
+Decresc ppp 2
+
+35        C      /    Dm7
+36        C
+
+

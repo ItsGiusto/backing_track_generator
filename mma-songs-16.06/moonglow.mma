@@ -1,0 +1,141 @@
+// Moonglow
+
+Tempo 115
+Keysig G
+
+Groove metronome2-4
+
+	z * 2
+	
+Groove SwingIntro2
+Begin Solo
+	Voice TenorSax
+	Volume f
+	Articulate 70
+	Harmony 3
+	Octave 5
+	Rtime 5
+	Begin Riff
+		4g;r;2g;
+		4g;r;2g;
+		4g;r;2g;
+		4b;8r;a;g;r;4.e ~;
+	End
+End
+
+Volume mp
+
+1 	G
+2 	Em
+3 	Am
+4 	D7
+
+Delete Solo
+
+Groove Swing2
+Repeat
+volume mp
+Cresc mf 10
+Seq
+
+5 	Am7
+6 	CmM7
+7 	G
+8 	A9
+
+Groove Swing2Plus
+
+9 	Am7
+10 	D9
+11 	G7 /  Gdim
+12 	Cm6 Eb7 G
+
+Groove Swing2
+
+13 	Am7
+14 	CmM7
+15 	G
+16 	A9
+
+Groove Swing2Plus
+
+17 	Am7
+18 	D9
+19 	G7 /  Gdim
+20 	Cm6 Eb7 G
+
+Groove Swing2Sus
+Volume mp
+
+21 	G9
+22 	/   /  F#9 F9
+23 	E9
+24 	/
+
+Volume mf 
+Groove Swing2
+
+25 	A9
+26 	/
+27 	D9 / Eb9
+28 	D9
+
+Groove Swing2Plus
+Volume mp
+
+29 	Am7
+30 	CmM7
+31 	G
+32 	A9
+
+Groove Swing2PlusSus
+
+33 	Am7
+34 	D9
+
+RepeatEnding
+
+35 	G7
+36 	Cm6 Eb7 G z
+
+RepeatEnd
+
+37 	G7
+38 	Cm6 Eb7 G 
+
+
+// For the last 4 bars we create a specialized ending. This
+// is pretty specific to our chart, and there is probably
+// no joy in putting this in the swing.mma file. Just beware
+// that changes to the Swing2 groove will effect this!
+
+Groove Swing2
+
+Begin Alltracks
+	Articulate 90 
+	SeqRnd Off
+End
+
+Begin Chord
+    Sequence  {1 4. 90}  {1 4. 90; 3 4. 90}  /  {1 2 90}
+    Octave 6
+End
+Begin Chord-Sax
+    Sequence  {1 4. 90}  {1 4. 90; 3 4. 90}  /  {1 2 90}
+    Octave 6
+End		
+Bass           Sequence  B1  B13  /  {1 2 1 90}
+Walk           Sequence  -
+Drum-HiConga   Sequence  D1  D13  /  D1
+Drum-Kick      Sequence  D1  D13  /  D1
+Drum-LowConga  Sequence  D1  D13  /  D1
+Drum-OHH       Sequence  -
+Drum-PHH       Sequence  -
+Drum-Side      Sequence  D1
+  
+Cresc mf fff 4
+
+39 	G7 z 
+40 	G7 z G7 z
+41 	Cm6 z  Eb7 z
+42 	G6 z!

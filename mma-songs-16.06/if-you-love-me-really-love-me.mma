@@ -1,0 +1,105 @@
+// If You Love Me Really Love Me
+
+Tempo 100
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove LightTangoIntro
+Begin Solo
+   Voice TremoloStrings
+   Articulate 110
+   Harmony Open
+   Octave 5
+   Begin Riff
+      4b-;8;c;2d;
+	  2e&;8d;4.c;
+	  2c;4d;c;
+	  2d;
+   End
+   Cresc mp f 4
+End
+
+Cresc ppp mf 4
+
+1          G
+2         Cm
+3         Am
+4         D7
+
+Repeat
+Groove LightTango
+Repeat
+
+5          G      /     B7
+6         Em      /    Em7
+7         Am      /    Am7
+8          /      /     D7
+
+Groove LightTangoSus
+
+9          G      /     B7
+10         C      /    Cm6
+
+RepeatEnding
+
+11         G     Em     Am    Am7
+
+Groove LightTangoFill
+
+12         /      /     D7
+
+Groove LightTango1
+
+RepeatEnd
+
+
+13         G
+14        C6      /   D7b9
+
+Groove LightTangoFill
+
+15         G
+
+Groove LightTangoSus
+
+16        Em     B7     Em
+17         /     B7     Em
+18     C#dim     C7     B7
+19     C#dim     C7     B7
+
+Groove LightTango1
+
+20        Am     D7    GM7    CM7
+21       Am6     B7     Em    Em7
+22        Am      /    Am7
+23        D7
+
+Groove LightTangoSus
+
+24         G      /     B7
+25        Em      /    Em7
+26        Am      /    Am7
+27         /      /     D7
+
+Groove LightTango
+
+28         G      /     B7
+29         C      /    Cm6
+30         G
+31        Am      /   D7b9
+
+RepeatEnding
+
+32         G      /     D7
+
+RepeatEnd
+
+33         G      /    Cm6   D7b9
+
+Groove LightTangoEnd
+
+34        G6
+
+

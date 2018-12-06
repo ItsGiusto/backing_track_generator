@@ -1,0 +1,106 @@
+// Canal Street Blues
+
+Tempo $( 86 * 2 )
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove SwingIntro
+Begin Solo
+    Voice Trumpet
+    Octave 5
+    Articulate 90
+    Harmony OpenBelow
+    Cresc m mf 4
+    Begin Riff
+        1f;
+        1a;
+        1b;
+        1c+;
+    End
+End
+
+Cresc mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat  // whole song 2x
+
+Repeat
+Groove Swing
+Volume m
+
+5         F
+6         /
+7         /
+8         /      /     F7
+
+Groove SwingPlus
+Cresc mf 4
+
+9        Bb
+10        /
+11        F
+12        /      /      /   Bdim
+
+Groove SwingWalk
+Decresc m 4
+
+13       C7
+14        /
+15        F     F7     Bb    Bbm
+16        F  F#dim    Gm7     C7
+
+RepeatEnd
+
+Repeat
+
+Groove SwingSus
+Cresc mf 4
+
+17        F
+18        /
+19        /
+20       F7
+
+Groove SwingPlusSus
+Decresc m 4
+
+21       Bb
+22        /
+23        F
+24        /      /      /   Bdim
+
+Groove SwingSus
+
+25       C7
+26        /
+
+RepeatEnding     // 1st ending for "B" section
+
+27        F     F7   Fdim Bbm6/F
+
+Groove SwingTriple
+
+28        F      /     C7
+
+RepeatEnd
+
+If ndef Repeat
+    Groove SwingFill  // 1st time for 2nd ending for "B" section
+    Set REPEAT
+Else
+    Groove SwingEnd   // 2nd time for 2nd "B"
+    Decresc ppp 2
+Endif
+
+29        F     F7   Fdim Bbm6/F
+30        F     C7      F
+
+
+RepeatEnd  // for entire song
+

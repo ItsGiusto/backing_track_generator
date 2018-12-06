@@ -1,0 +1,101 @@
+// If I Were A Rich Man
+
+Tempo 150
+
+Groove Metronome2-4
+   z * 2
+
+Groove BroadwayIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 6
+    Articulate 90
+    Harmony OpenBelow
+    Volume ff
+    Begin Riff
+        8g;f;g;f;2g;
+        8e;d;e;d;2e;
+        4d;e;f;a;
+        2.g;
+    End
+End
+
+Decresc ff mp 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Label Sign
+Repeat
+Groove Broadway
+Volume m
+
+5         C
+6         /
+7         /
+8         /
+
+Groove Broadway1
+Cresc mf 4
+
+9        Fm   /  G7
+10       Cm
+
+Groove BroadwayFill
+
+RepeatEnding
+11    F#dim
+12       G7
+
+RepeatEnd
+
+If Def DS
+   Groove BroadwayEnd
+   Tempo  *.8 2
+   Decresc ppp 2
+Endif
+
+13     D7b9      /     G7
+Truncate 1
+14        C
+
+If Def DS
+  eof
+endif
+
+Groove Broadway
+
+Truncate 3 side=right
+15        /
+
+Repeat
+Groove BroadwaySus
+Volume m
+
+16       Fm
+17      Bb7
+18     EbM7
+19      Eb     Bbm     C7
+
+Groove Broadway2
+Cresc mf 4
+
+20       Fm
+
+RepeatEnding
+
+21       G7
+22        C
+23       C7
+
+RepeatEnd
+
+24    F#dim
+25       G7
+26        /
+
+Set DS
+Goto Sign

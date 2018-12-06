@@ -1,0 +1,90 @@
+// Standing On The Corner
+
+Tempo 120
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+
+Begin Solo
+	Voice PanFlute 
+	Octave 6
+	Harmony Open
+	Articulate 50
+	Begin Riff
+		4.g;8e+;4d+;b;
+		8.b;16c+;8.b;16c+;4d+;c+;
+		4.g;8a;4b;c+;
+		8.d+;16c+;8.d+;16c+;4b;a;
+	End
+End
+
+1   G       
+2   Em      
+3   Am      
+4   D7      
+
+
+Repeat
+Groove FoxTrot
+
+5   G       /       G7      
+6   C       /       Cm      
+7   G       
+8   Cm      
+9   G       /       G7      
+10  C       /       Cm      
+11  A7      
+12  D7
+
+Groove FoxTrotPlus
+
+13  G
+14  C       
+15  Am      
+16  D7      
+17  G       /       G7      
+18  C       /       Cm      
+19  D7      /       A7      
+20  D7      
+
+RepeatEnding 2
+
+Groove FoxTrotFill
+
+21  G
+22  /       
+
+// interlude
+
+Groove FoxTrotPlus
+
+26  Em      
+27  A7      
+28  Em      
+29  A7      /       C       
+30  G       
+31  G+      
+32  G       /       Ab7     
+33  G       /       Ab7
+
+Groove FoxTrotSusPlus
+
+34  G       /       D7
+
+Groove FoxTrotFill
+
+35  /       
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Tempo *.85 2
+
+23  G
+Seq 1
+24  /
+25  / z!
+

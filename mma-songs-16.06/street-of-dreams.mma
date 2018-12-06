@@ -1,0 +1,88 @@
+// Street Of Dreams
+
+Tempo 80
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowJazzIntro
+
+Begin AllGrooves Arpeggio-Plus
+     Voice Piano1
+     Rskip 66
+     Harmony OpenBelow
+     Volume p
+     Range .9
+End
+
+Begin Solo
+   Voice TremoloStrings
+   Articulate 110
+   Harmony 3Below
+   Volume f
+   Octave 5
+   Begin Riff
+     2g;43e+;b;g;
+     2e;43g;e;c;
+     2f;43f;a;c+;
+     2.b;
+   End
+End
+
+Swell pp m 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove SlowJazz
+Cresc mp m 4
+
+5       F9
+6     Bb7b9
+7      EbM7      /    Eb6
+8         /      /   Edim
+
+Groove SlowJazzPlus
+Decresc mp 4
+
+9       F9
+10    Bb7b9
+11      Eb9      /      /    Eb7
+12     Eb13      /   Eb7+    Eb7
+
+Groove SlowJazzSus
+Cresc mf 4
+
+13      Ab6
+14     Abm6      /      /   Fdim
+15    Eb/Bb      /      /   Db7+
+16      C7+      /     C7
+
+Groove SlowJazzSusPlus
+Decresc m 2
+
+17       F9
+18     F7b5      /     F7
+
+Repeatending 
+
+19      Bb7      /   Bb7+
+
+Groove SlowJazzFill
+
+20       Eb      /   Bb7
+
+
+RepeatEnd
+
+Groove SlowJazzEnd
+Decresc ppp 2
+
+19      Bb7      /   Bb7+
+20       Eb    Db7    Eb6 z!
+
+

@@ -1,0 +1,135 @@
+// Knock Three Time
+
+Keysig D
+Transpose -4
+Tempo 120
+
+// A minor issue with this song is that there are 2 6/4 bars
+// in it. Rather than trying to use variations using beatadjust
+// it's easier to create a short custom sequence. This is just
+// a set of 1/4 note triplets. When we hit the 6/4 bar we adjust
+// the tempo to .6666 and all is well :) 
+
+Groove 8Beat
+
+Seqsize 1
+
+Alltracks SeqRnd Off
+Alltracks Sequence -  // turn off all tracks (in case we missed some)
+
+Drum-OHH     Sequence   {1 0 90 * 6}
+Drum-CHH     Sequence   {1 0 90 * 12}
+Drum-Snare   Sequence   {1 0 90 * 6}
+Drum-Kick    Sequence   {1 0 90 * 2}
+
+Bass         Sequence	{1 1 1 90 * 6}
+
+Chord        Sequence   {1 1 90 * 6}
+
+Chord-Guitar Sequence	{1 1 90 * 6}
+
+DefGroove  6Beat
+
+/////////////////////////
+
+Groove Metronome2-4
+	   z * 2
+
+Groove 8BeatIntro
+
+Begin Solo
+	  Drumtype
+	  Tone SnareDrum2
+	  Volume ffff
+	  Begin Riff
+	  		4;;;
+			4;;;
+			4;;;;
+			4;
+	 End
+End
+
+1    D    
+2    Bm   
+3    Em   
+4    A7   
+
+Repeat
+Groove 8beat
+
+5    D    
+6    /    
+7    /    
+8    /    
+9    A7   
+10   /    
+11   /    
+
+Groove 8Beat1
+
+12   /    
+13   /    
+14   /    
+15   /    
+16   /    
+17   D    
+18   /   
+ 
+label Sign
+
+if def Sign
+   Decresc off 8 
+endif
+
+// The following bar is in 6/4.
+
+Groove 6Beat
+StackValue $_Tempo
+Tempo *.666666
+
+19 z! / G   {43;;;}
+
+Tempo $_StackValue
+
+Groove 8BeatSus
+
+20   D    
+21   /   
+22   A7   
+23   /    
+24   D    
+25   /   
+ 
+if def Sign
+	  eof
+Endif
+
+// Another 6/4 bar
+
+Groove 6Beat
+StackValue $_Tempo
+Tempo *.666666
+
+26  z! / G  {43;;;}
+
+Tempo $_StackValue
+Groove 8Beat1Sus
+
+27   D  
+28   /    
+29   A7   
+30   /    
+31   DM7  /    D    
+
+RepeatEnding
+
+32   G    /    A7   
+
+RepeatEnd
+
+33   / 
+
+Set Sign
+Goto Sign
+   
+

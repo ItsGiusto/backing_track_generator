@@ -1,0 +1,86 @@
+// Skylark
+
+Tempo 85
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+	
+Groove EasySwingSus
+Begin Solo
+   Voice SlowStrings
+   Octave 5
+   Volume mf
+   Harmony Open+8Below
+   Articulate 105
+   Begin Riff
+     1e+;
+	 43f+;e+;d+;4e+;f+;    
+	 43g+;f+;e+;4d+;e+;
+	 2d+;
+   End
+End
+Cresc mp f 4
+
+1      Eb    
+2      Fm    
+3      Gm    
+4      Bb7    / / z
+Volume m
+
+Repeat
+
+Groove EasySwing
+
+Repeat
+
+5      Eb6   /    Fm7   
+6      Gm7   /    AbM7  
+7      EbM7  /    Gm7   
+8      AbM7  /    Gm7   Cm7   
+9      Fm7   
+10     F7    /    Bb7   
+
+RepeatEnding
+
+11     Eb    /    Cm7   
+12     Gbdim7 /    Fm7   Bb7   
+
+Groove EasySwingSus
+
+RepeatEnd
+
+Groove EasySwingWalk
+
+
+13     Eb    /    E6    
+14     Eb6   /    Bbm7  Eb7   
+15     AbM7  /    Adim7 
+16     Bbm7  /    Eb7   
+17     AbM7  /    Dm7b5 
+18     Gm7b5 /    C7    
+19     Fm7   
+20     Bbm7  Eb7#5 AbM7  
+21     G6    /    Em7   
+22     A7    D7    G     Bb7   
+
+Groove EasySwingWalkSus
+
+23     Eb6   /    Fm7   
+24     Gm7   /    AbM7  
+25     EbM7  /    Gm7   
+26     AbM7  /    Gm7   Cm7   
+27     Fm7   
+28     F7    /    Bb7   
+29     Eb    /    E6    Bb7b9 
+
+RepeatEnding
+
+30     Eb6   
+
+Repeatend
+
+Groove EasySwingEnd
+Seq 2
+
+30  E&6 / / z!

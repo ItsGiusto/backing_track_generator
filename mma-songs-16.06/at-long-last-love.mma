@@ -1,0 +1,95 @@
+// At Long Last Love
+// From "You Never Know", Cole Porter
+
+Tempo 126
+Keysig A minor
+
+Groove Metronome2-4
+	z * 2
+
+Groove RhumbaIntro
+Begin Solo
+	Voice Piano1
+	Octave 5
+	Articulate 80
+	Accent 1 10 3 10
+	Cresc m ff 4
+	Harmony 3
+End
+
+1      Am   {43a;b;c+;c+;b;a;}
+2      Fm   {2a&;g;}
+3      Bm   {2g#;f#;}
+4      Em7   {1eg;}
+
+Groove Rhumba
+
+Repeat
+
+5      Am    
+6      G     /    G7  
+7      Am    
+8      Em    
+9      F     
+10     A7
+11     Dm    
+12	/
+
+Set a $_Groove + Sus
+Groove $a
+
+13     Dm6   
+14     A     /    A7    
+15     F6    
+16     Dm6   
+17     F     
+18     /    /    G7    
+19     C     
+20     /    /    C     G     
+21     Am    
+
+Groove $_LastGroove
+
+22     G     /    G7    
+23     Am    
+
+Groove RhumbaTriple34
+24     Em  z Em
+Groove $_LastGroove
+
+Groove RhumbaTriple12   
+25     C7    z    Bb 
+Groove Rhumba3
+
+26     F#dim3 /    E7 
+27     F6    
+28     /    /    F     
+29     Am6   
+30     Fm6   
+
+Groove Rhumba3Sus
+
+31     C     /    G     
+32     Gm6   /    A7    
+33     D7    
+34     G7    
+
+RepeatEnding 2
+
+35     C     /    F6    
+
+Groove RhumbaTriple34
+
+36     A7    z    Fm    G7    
+
+Groove Rhumba1
+
+RepeatEnd
+
+label foo
+Groove RhumbaEnd
+Seq 3
+37     C     /    F6    
+38     C     /  z!
+
+

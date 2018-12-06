@@ -1,0 +1,109 @@
+// This Is My Song
+
+Tempo 116
+Keysig F
+
+Groove Metronome6
+ z * 2
+
+Groove Ballad68Intro
+Begin Solo
+    Voice Strings
+    Volume mf
+    Articulate 105
+    Octave 5
+    Harmony OpenBelow+8Below
+    Begin Riff
+        43f;a;b;4.c+;8d+;
+        1c+;
+        43d+;e+;f+;4.e+;8d+;
+        1c+;
+    End
+End
+Swell mp mf 4
+
+1         F
+2         Dm7
+3         Gm7
+4         C7
+
+Repeat
+Groove Ballad68
+Cresc m mf 4
+
+5         F
+6         /
+7         /
+8       Gm7
+
+Groove Ballad68Sus
+Decresc m 4
+
+9         /
+10       C7
+11        /
+12        F
+
+Groove Ballad68Plus
+
+13        /
+14       C7
+15        /
+16        F
+
+Groove Ballad68SusPlus
+Cresc mf 4
+
+17       D7
+18       Gm
+19      Gm7
+20        C
+
+Groove Ballad68
+Volume f
+
+21        F
+22        /
+23        /
+24       C7
+
+Groove Ballad68Sus
+Decresc m 4
+
+25        /
+26      Gm7
+27       C7
+28        F
+
+Groove Ballad68Plus
+
+29        /
+30       Gm      /      /     C7
+31        /
+32        F
+
+Groove Ballad68
+Decresc mp 4
+
+33        /
+34        /
+
+RepeatEnding
+
+35      Gm7      /      /     C7
+36        F
+
+Groove Ballad68Sus
+
+37        /  
+38        C7
+
+RepeatEnd
+
+Groove Ballad68End
+Tempo *.8 2
+Decresc ppp 2
+
+35      Gm7      /      /     C7
+39        F     z!
+

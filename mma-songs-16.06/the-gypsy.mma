@@ -1,0 +1,109 @@
+// The Gypsy
+
+// #1 in 1946 for Dinah Shore AND The Ink Spots.
+
+Tempo 85
+Transpose 3
+Keysig C     // tranpose takes this to Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove EasySwing
+Begin Solo
+ Voice JazzGuitar
+ Strum 12
+ Octave 5
+ Articulate 99
+ Harmony OpenBelow
+ Volume ff
+ Begin Riff
+    4.e;8g;4.a;8g;
+    4.e;8g;4.a;8g;
+    4.d;8f;4.g;8f;
+	2g;
+ End
+End
+
+Cresc p m 4
+
+1       C    
+2       Am7  
+3       Dm7  
+4       G7   
+
+Repeat
+
+Groove EasySwingWalk
+Swell m mf 8
+
+5       CM7  
+6       Em7   /     A7#5  A7b9 
+7       D7   
+8 	/
+
+Groove EasySwing
+
+9       Dm7   /     G7   
+10      Dm7b5 /     G7b9 
+11      C     /     C#dim
+12      Dm7   /     G7   
+
+Groove EasySwingWalkFill
+Decresc mp 4
+
+13      CM7  
+14      Em7b5 /     A7#5  A7b9 
+15      D7   
+16 	/
+
+Groove EasySwingWalk
+Cresc m 4
+
+17      Dm7   /     G7   
+18      Dm7   /     /     G7   
+19      C6    /     Bb6   B6   
+20      C6    /     A7b9 
+
+Groove EasySwingWalkSus
+
+21      Dm7   /     G7   
+22      C6    /     A7   
+23      Dm7   /     G7    G7#5 
+24      C    
+
+Groove EasySwingWalk
+Volume mf
+
+25      Em    
+26 	D7
+27      Dm7  
+28      G7    /     G7#5 
+
+Groove EasySwingFill
+Decresc mp 4
+
+29      CM7  
+30      Em7b5 /     A7#5  A7   
+31      D7   
+32 	/
+
+Groove EasySwingWalk
+Cresc m 4
+
+33      Dm7   /     G7   
+34      Dm7   /     D9    Db7  
+
+RepeatEnding
+
+35      C6    /     Am7  
+36      Dm7   /     G7   
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc ppp 2
+
+35      C6    /     Bb6   B6   
+36      C6   / z z!
+

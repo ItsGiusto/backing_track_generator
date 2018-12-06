@@ -1,0 +1,112 @@
+// Stardust
+
+Tempo 90
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingSus
+Begin Solo
+  Voice Piano1
+  Cresc m ff 4
+  Articulate 150
+  Octave 5
+  Begin Riff
+    8g;c+;e+;g+;g;b&;c#+;g+;
+	8g;b;d+;f+;4g+;g+;
+	8g;c+;e+;g+;g;b&;c#+;e+;
+	4g+;
+  End
+End
+
+Cresc mp mf 4
+
+1          C  C#dim
+2         G7
+3          C      /  C#dim
+
+Seq
+4         G7     C7
+Fermata -3 1 110
+Fermata -2 1 110
+Fermata -1 1 110
+
+Repeat
+Groove EasySwing
+Volume m
+
+5         F6
+6          /
+7         Fm
+8          /
+
+Groove EasySwingWalk
+Decresc mp 4
+
+9          C
+10        Em
+11        Dm      /   A7b9
+12        Dm      /   A7b9
+
+Groove EasySwingSus
+Cresc mf 4
+
+13        G7
+14         /      /      /     G+
+15         C
+16         /
+
+Groove EasySwingWalk
+Volume mp
+
+17        D7
+18         /
+19        G7      /      /    Dm7
+20        G7   Gdim     G7     C7
+
+Groove EasySwing
+Cresc mf 4
+
+21        F6
+22         /
+23        Fm
+24         /
+
+Groove EasySwingWalksus
+Decresc m 4
+
+25         C
+26        Em
+27        Dm      /   A7b9
+28        Dm
+
+Groove EasySwing
+
+29        Fm
+30         /
+31         C
+32        B7   B7b5     E7
+
+Groove EasySwingSus
+Decresc mp 2
+
+33         F      /     A7   Adim
+34        G7
+
+RepeatEnding
+
+35         C      /     Fm
+36         C      /     C7
+
+
+RepeatEnd
+
+Groove EasySwingEnd
+Tempo *.9 2
+Decresc ppp 2
+
+37         C      /     Fm
+38         C      z!
+
+

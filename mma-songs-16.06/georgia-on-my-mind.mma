@@ -1,0 +1,85 @@
+// Georgia On My Mind
+
+Tempo 86
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowBluesIntro
+Begin Solo
+	Voice JazzGuitar
+	Volume mf
+	Articulate 110
+	Harmony Open+8Below
+	Octave 5
+	Begin Riff
+		2+8f;8a;4c+;
+		2+8f;8a;4c+;
+		2+8g;8b;4d+;
+		1c+;
+	End
+End
+			
+1   F       
+2   Dm      
+3   Gm      
+4   C7      
+
+Repeat
+Groove SlowBlues
+
+5   F       
+6   A7      
+7   Dm      
+8   Gm7     /       Eb9     
+9   F/A     /       Abdim   
+10  Gm7     /       C13     Bb13    
+11  Am7     /       D7b9    
+12  Gm7     /       /       C7#5b9
+
+Groove SlowBluesFill3
+  
+13  F       
+14  A7      
+15  Dm      
+16  Gm7     /       Eb9     
+17  F/A     /       Abdim   
+18  Gm7     /       C7      
+19  F6      /       Eb9     
+20  F       /       A7b5 
+
+Groove SlowBluesSus
+   
+21  Dm      /       Gm6/D   
+22  Dm      /       Bb7     
+23  Dm      /       Gm6/D   
+24  Dm      /       G7      
+25  Dm      /       Gm6/D   
+26  D7/F#   /       Abdim   
+27  Am7     /       Ebdim   
+28  G9      /       C7b9 
+
+Groove SlowBluesWalk4
+   
+29  F       
+30  Eb9     
+31  Dm      
+32  Gm7     /       /       z       
+33  F/A     /       Abdim   
+34  Gm7     /       C7  
+
+RepeatEnding
+    
+35  F       /       Eb9     
+36  F6      
+
+RepeatEnd
+
+Groove SlowBluesEnd
+Seq 3
+
+35  F       /       Eb9     
+36  F6  / z!    
+
+

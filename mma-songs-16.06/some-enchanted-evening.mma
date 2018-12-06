@@ -1,0 +1,120 @@
+// Some Enchanted Evening
+
+Tempo 120
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBroadwayIntro
+
+Begin Solo
+    Voice  PizzicatoString
+	Harmony Open
+	Volume f
+	Octave 5
+	Begin Riff
+	    8c+;b;d+;c+;4;g;
+		8c+;b;d+;c+;4;a;
+		8f;g;a;b;4c+;d+;
+		1g;
+	End
+End
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove SlowBroadWay
+Swell m f 8
+
+5         C
+6         /
+7        G7
+8         /
+
+9         C
+10       Gm      /   C7#5
+11      FM7      /    F6
+12        /      /   A7b9
+
+Groove SlowBroadWay1
+Volume mp
+
+13      Dm7      /  Dm7/C
+14    Bm7b5      /     E7
+15       Am      /   C7/G
+16      FM7      /     C
+
+Groove SlowBroadWaySus
+Cresc mf 4
+
+17      Dm7
+18       G7
+
+RepeatEnding
+
+19        C      /    AM7
+20      Dm9      /     G7
+
+
+RepeatEnd
+
+21        C
+22        /
+
+Groove SlowBroadWay1Sus
+Volume mp
+
+23     G7/D      /      C
+24       G7      /     C6
+25     G7/D      /      C
+26      Am7      /     D7
+27        G      /  Am7b5
+28   Bbdim7      /   G7/B
+
+Groove SlowBroadWay1
+Cresc mf 4
+
+29        C
+30        /
+31       G7
+32        /
+
+Groove SlowBroadWaySus
+Decresc mp 8
+
+33        C
+34      Gm7      /   C7#5
+35      FM7      /    F6
+36        /      /   A7b9
+
+37      Dm7      /  Dm7/C
+38    Bm7b5      /     E7
+39       Am      /   C7/G
+40      FM7      /  FM7/E
+
+Groove SlowBroadWay
+Volume m
+
+41      Dm7
+42      Dm7      /      /     G7
+43        C
+44        /
+
+Groove SlowBroadWaySus
+Volume mf
+
+45     G7/D      /      C
+46       G7      /     C6
+47     G7/D      /      C
+48      Dm7
+
+Groove SlowBroadWayEnd
+Decresc pp 2
+
+49       /      /     Dm7
+50       C
+

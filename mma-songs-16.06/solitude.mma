@@ -1,0 +1,100 @@
+// Solitude
+
+Tempo 98
+Keysig Eb
+
+Groove Metronome2-4
+	   z * 2
+
+Groove EasySwingIntro
+Begin Solo
+    Voice ChoirAahs
+	Volume m
+	Articulate 130
+	Harmony 3
+	Octave 5
+	Begin Riff
+	    4b;g;8;4.;
+		4e;f;g;4+2c+~;
+		~ 2a;
+		2b;
+	End
+End
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+
+Repeat
+Groove EasySwing
+Swell m mf 8
+
+5      EbM7
+6         /      /    Cm7
+7        F7
+8         /
+
+9       Fm7
+10     Bb9       /  Bb7&9
+11     EbM7
+12      Fm7      /  Bb7#5
+
+Groove EasySwingSus
+Swell m mp 8
+
+13     EbM7
+14        /      /    Cm7
+15       F7
+16       Db7#11  /    /   C7
+
+17      Fm7
+18      Bb9      /  Bb7b9
+19       Eb
+20        /      /    Eb7
+
+Groove EasySwingWalk
+Volume mp
+
+21     AbM7
+22    Adim7
+23    Eb/Bb
+24     Bbm7      /    Eb7
+
+Groove EasySwingWalkSus
+Volume p
+
+25     AbM7
+26    Adim7
+27    Eb/Bb      /     C7
+28      Fm7      /  Bb7#5
+
+Groove EasySwing
+Volume m
+
+29     EbM7
+30        /      /    Cm7
+31       F7
+32       Db7#11  /    /   C7
+
+Groove EasySwingFill
+Decresc mp 4
+
+33      Fm7
+34      Bb9      /  Bb7b9
+
+RepeatEnding
+
+35     EbM7
+36        /      /    Bb7
+
+RepeatEnd
+
+Groove EasySwingEnd
+Tempo *.8 2
+Decresc ppp 2
+
+37     EbM7
+38        /  / z!
+

@@ -1,0 +1,140 @@
+// Summertime
+
+Tempo 83
+KeySig A minor      // Our original is in C; we do in in Bb
+Transpose -2
+
+Groove Metronome4
+	z
+
+Groove PianoBalladIntro
+
+Begin AllGrooves
+	  Chord-Sus Articulate 120
+      Arpeggio-High Articulate 92
+      Arpeggio-Low Articulate 85
+End
+
+Begin Solo
+    Voice JazzGuitar
+	Octave 5
+	Articulate 130
+	Harmony OpenBelow+8Below
+	Volume m
+	Begin Riff
+	    8c+;a;g;a; g;a;g;a;
+		8f;g;f;g; f;g;f;g;
+		8f;e;d;e; f;e;d;e;
+		1g#;
+	End
+End
+
+Cresc p mf 4
+
+1         Am
+2         Dm
+3          C
+4         E7      /      z
+
+Set EndCount 1  // first time we use the ending at bar 17
+
+
+Repeat
+
+Groove PianoBallad
+Repeat
+Volume m
+
+5        Am6      /   E7/B
+6      Am6/C      /   E7/B
+7        Am6      /   E7/B
+8      Am6/C      /   E7/B    Am6
+
+Groove PianoBallad1
+Cresc mf 4
+
+9         Dm      /      F
+10       FM7      /      /  D#dim
+11         E      /     B7
+12         E      /    Em6   E7b5
+
+Groove PianoBalladSus
+Decresc mp 4
+
+13       Am6      /   E7/B
+14     Am6/C      /   E7/B
+15       Am6      /   E7/B
+16        Am      /     D7
+
+Groove PianoBallad
+Volume m
+
+17         C      /     Am
+18         D      /    Dm7
+19        Am
+20         /      /    AmM7
+
+Repeatending NoWarn $EndCount
+Decresc mp 1
+
+21       Am6      /      z
+
+Groove PianoBalladSus
+
+Repeatend
+Decresc mp 2
+
+22       Am6      /    Am7
+23        D9      /     E+
+
+Groove PianoBallad2
+Volume m
+
+24       Am6      /      /   E7/B
+25     Am6/C      /   E7/B
+26       Am6      /   E7/B
+27     Am6/C      /   E7/B    Am6
+
+Groove PianoBallad2Sus
+Volume mf
+
+28        Dm      /      F
+29       FM7      /      /  D#dim
+30         E      /     B7
+31         E      /    Em6   E7b5
+
+Groove PianoBallad2
+Volume m
+
+32       Am6      /   E7/B
+33     Am6/C      /   E7/B
+34       Am6      /   E7/B
+35        Am      /     D7
+
+Groove PianoBalladSus
+Decresc mp 5
+
+36         C      /     Am
+37         D      /    Dm7
+38        Am
+39         D      /      F
+
+RepeatEnding
+
+Set EndCount 0   // 2nd time we play the top section only once
+
+Groove PianoBallad1
+
+40       Am6      /      z
+
+RepeatEnd
+
+41         C      /     F9
+
+Groove PianoBalladEnd
+Decresc pp 2
+
+42        Bb      /    E13
+43        Am      /     z!
+
+

@@ -1,0 +1,167 @@
+// Shes Leaving Home
+
+Tempo 130
+KeySig C
+
+Groove Metronome3
+  z * 2
+
+Groove JazzWaltzIntro
+Begin Solo
+    Voice VoiceOohs
+    Volume f
+    Harmony OpenAbove+8Above
+    Articulate 90
+    Octave 4
+    Begin Riff
+        2g;4;
+        2.a;
+        2a;4;
+        2.g;
+    End
+End
+
+Swell mp f 4
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+
+Repeat
+Groove JazzWaltz
+Volume m
+
+5          C
+6         Gm
+7        Dm7 
+8          F
+
+Groove JazzWaltzSus
+Cresc mf 4
+
+9         Am
+10         /
+11        D9    {2.e;}
+12         /    {2.f#;}
+
+Groove JazzWaltz2
+Decresc m 4
+
+13         F
+14         /
+15        G9
+16         /
+
+Groove JazzWaltz2Sus
+
+17         F
+18         /
+19        G9
+20         /
+
+Label Sign
+
+Groove JazzWaltzSus
+Cresc mf 4
+
+21         C
+22        Gm
+23       Dm7
+24         F
+
+Groove JazzWaltz
+Volume m
+
+25        Am
+26         /
+27        D9    {2.e;}
+28         /     {2.f#;}
+
+Groove JazzWaltz2Sus
+
+29         F
+30         /
+31        G9       
+32         /  
+
+Groove JazzWaltzSus
+Volume mf
+
+33         F
+34         /
+35        G9
+36         /
+
+Groove JazzWaltz1Sus
+Cresc f 8
+
+37         C       {2.+2.+2 e ~;}
+38         /
+39         /
+40         /       {2r;4c;}
+
+Groove JazzWaltzSus
+
+41         /       {4d;2+2.+2 e~;}
+42         /
+43         /
+44         /
+
+Groove JazzWaltz2Sus
+Decresc m 10
+
+45         /       {2.+2.+2 g~;}
+46         /
+47       Gm6
+48         /
+
+Groove JazzWaltz
+
+49       Am7
+50         /
+51        D9
+52         /
+
+Groove JazzWaltz2
+
+53       Am7
+54         /
+
+If Def ToCoda
+  Goto Coda
+Endif
+
+Groove JazzWaltzFill
+
+55        D7       {4a;;;}
+
+RepeatEnd
+
+Set ToCoda
+Goto Sign
+
+Label Coda
+
+Decresc p 6
+
+56        D7
+57         /
+
+Groove JazzWaltzSus
+
+58        Am
+59         /
+60        D9
+61         /
+
+Groove JazzWaltz1End
+Decresc ppp 3
+Tempo *.8 3
+
+62         F
+Seq
+63         /
+64         C  z!
+

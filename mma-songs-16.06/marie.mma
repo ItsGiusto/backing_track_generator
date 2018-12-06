@@ -1,0 +1,93 @@
+// Marie
+
+Tempo 160
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove SwingIntro
+Begin Solo
+   Voice Trombone
+   Harmony OpenAbove
+   Volume F
+   Octave 4
+   Articulate 90
+   Begin Riff
+     2f+;d+;
+	 2e+;c+;
+	 4d+;;8a;b;4d+;
+	 2.c+;
+   End
+End
+
+Cresc mp f 4
+
+1      F     
+2      Edim3 
+3      Dm   
+Seq 3 
+4      C7    /    /  F     
+
+Repeat
+Groove Swing
+Cresc mp mf 8
+
+5      Bb6   
+6	/
+7	/
+8      /    /    /    F#9   
+9      F6    
+10	/
+
+Groove SwingPlus
+
+11	/
+12     /    /    /    Db9   
+13     C9    
+14	/
+15     Gm7   
+16     C7 
+
+Groove SwingWalk
+   
+17     F     
+18     C7    
+19     F     
+20     F7#5  /    /    F7    
+21     B&  	   
+22	/
+23	/
+24     /    /    /    Gb9   
+
+Volume mp
+
+25     F     
+26	/
+27	/
+28     /    /    /    Db9   
+29     C9 
+
+Groove SwingSus
+   
+30	/
+31     Gm7
+Cresc mf 4   
+32     C7    
+33     F     
+34     /    /     C9    
+
+RepeatEnding
+
+Groove SwingPlus
+
+35     F     
+36     Gb9   /    F9    
+
+RepeatEnd
+
+Groove SwingEnd
+Decresc p 2
+37     F     /    Eb    
+38     E     /    F   z!  
+

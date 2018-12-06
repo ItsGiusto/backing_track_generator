@@ -1,0 +1,136 @@
+// Wagon Wheels
+
+Tempo 140
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove FolkyJazzGuitarIntro
+
+Begin AllGrooves
+  Bass-High volume pp
+  Begin Arpeggio
+    Articulate 140
+    Rskip 60
+    Direction Random
+  End
+End
+
+Begin Solo
+    Voice VoiceOohs
+    Octave 5
+    Articulate 120
+    Harmony Open+8Below
+    Volume mf
+    Begin Riff
+        2.e+;4b;
+        2.c+;4g;
+        2.a;4f;
+        1b;
+    End
+End
+
+Cresc p mp 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+
+Repeat 
+Groove FolkyJazzGuitarPlus
+Volume m
+
+5        Eb
+6         /
+7       Bb7
+8         /
+
+Groove FolkyJazzGuitar
+Volume mf
+
+9        Eb
+10        /
+11      Bb7
+12        /
+
+Groove FolkyJazzGuitarPlus
+Decresc m 4
+
+13       Eb
+14        /
+15      Bb7
+16        /
+
+Groove FolkyJazzGuitar
+Decresc mp 4
+
+17       Eb
+18      Bb7
+19       Eb     Ab
+20       Eb
+
+Groove FolkyJazzGuitarSus
+Cresc m 4
+
+21       Ab      /     Eb
+22        /     Ab     Eb
+23        /     Ab     Eb
+24      Bb7
+
+Groove FolkyJazzGuitarSusPlus
+Cresc mf 4
+
+25       Eb
+26        /     Ab     Eb
+27      Cm7      /     F7
+28      Bb7
+
+RepeatEnd 3
+
+Groove FolkyJazzGuitar
+Volume m
+
+29       Eb
+30        /
+31      Bb7
+32        /
+
+Groove FolkyJazzGuitarSus
+Cresc mf 4
+
+33       Eb
+34        /
+35      Bb7
+36        /
+
+Groove FolkyJazzGuitarSusPlus
+Decresc m 4
+
+37       Eb
+38        /
+39       Ab
+40       G
+
+Groove FolkyJazzGuitarSus
+Decresc mp 4
+
+41    Eb/Bb    Bb7     Cm
+42       Ab      /    Bb7
+43       Eb      /     Ab
+44       Eb      /     G7
+
+Groove FolkyJazzGuitar
+Decresc pp 4
+
+45       Ab
+46      Bb7
+47       Eb
+48       Ab
+
+Groove FolkyJazzGuitarEnd
+
+49       Eb  z!
+

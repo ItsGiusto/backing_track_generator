@@ -1,0 +1,111 @@
+// Violets For Your Furs
+
+Tempo 60
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowJazz1Intro
+
+Begin Solo
+  Voice Vibraphone
+  Articulate 110
+  Volume f
+  Harmony OpenBelow
+  Octave 5
+  Begin Riff
+      4f;8g;a;3c+;b;a;8g;f;
+      2d;8r;d;e;f;
+      8g;a;g;4.c+;4b;
+      2c+;
+  End
+End
+
+Begin Arpeggio
+  Sequence A8 / / A4
+  Harmony OpenBelow+8Above
+  Articulate 130
+  Swell pp mp 4
+End
+
+Cresc pp m 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Groove SlowJazz1
+Cresc m mf 2
+
+5         F      /     C7
+6         F
+
+Decresc mp 2
+
+7      Bbm7      /    Eb7
+8         F
+
+Groove SlowJazz1Sus
+Cresc m 4
+
+9         /      /     C7
+10        F
+11      Am7      /   D7b9
+12       Gm
+
+Groove SlowJazz1
+Decresc mp 2
+
+13       C7
+14        F
+15      Gm7      /    Gb7
+16       F6
+
+Groove SlowJazz1WalkSus
+Cresc mf 2
+
+17       C7
+18        F
+19       G7
+20      Gm7      /     C7
+
+Groove SlowJazz1Walk
+Decresc mp 4
+
+21        F      /     C7
+22        F
+23     Bbm7      /    Eb7
+24        F
+
+Groove SlowJazz1Sus
+
+25        /      /     C7
+26        F
+27      Am7      /     D7
+28       Gm
+
+Groove SlowJazz1WalkSus
+Swell m 4
+
+29       Bb
+30      Eb7
+31      FM7      /  Am7b5
+32     D7b9
+
+Groove SlowJazz1
+Decresc p 2
+
+33     Bbm7      /   C7#5
+34       F6      / Abdim7
+
+Groove SlowJazzEnd
+Decresc ppp 2
+
+35      Gm7      /     C7
+seq 
+36        F      GbM7   F6(add9)  z!
+
+
+

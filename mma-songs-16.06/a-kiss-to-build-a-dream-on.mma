@@ -1,0 +1,113 @@
+// A Kiss To Build A Dream On
+
+Tempo 94
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingIntro
+Begin Solo
+    Voice Piano1
+    Octave 5
+    Volume F
+    Articulate 110
+    Harmony 3Below
+    Begin Riff
+        3c;d;e;4g; 8f;e;4d;
+        4c;8c+;b; a;g;4a;
+        4f;a; 3d+;c+;b; a;b;a;
+        1g;
+    End
+End
+SwingMode On
+Swell mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat  // entire song
+Repeat  // "A" section
+
+Groove Swing1
+Volume m
+
+5         C
+6         /      /      /  Ebdim
+7        G7      /  C#dim
+8        G7      /  C#dim
+
+Groove Swing1Plus
+Cresc mf 2
+
+9        G7      /  C#dim
+10       G7      /    Dm7     G7
+
+RepeatEnding
+
+Groove SwingFill
+Decresc mp 2
+
+11        C      /  Ebdim
+12      Dm7      /     G7
+
+RepeatEnd
+
+Decresc m 2
+
+13        C      /    Dm7
+
+Groove SwingFill
+
+14        C   Ddim     C6
+
+// "B" section
+
+Groove Swing1Sus
+Volume mf
+
+15      Fm7      /    Bb7
+16       Eb   EbM9     E7
+Decresc mp 2
+17      Fm7      /    Bb7
+18       Eb   EbM9     Eb
+
+Groove Swing1PlusSus
+Volume mf
+19      Fm6      /     G7
+20       Cm    Cm9     Cm
+Decresc m 2
+21      Am7      /     D7
+22      Dm7      /     G7
+
+// "A" section
+
+Groove Swing1
+Volume m
+
+23        C
+24        /      /      /  Ebdim
+25       G7      /  C#dim
+26       G7      /  C#dim
+
+Groove Swing1Plus
+Decresc mp 2
+
+27       G7      /  C#dim
+28       G7      /    Dm7     G7
+
+RepeatEnding 
+
+29        C      /    FM9     F6
+30        C      /    G7
+
+RepeatEnd
+
+Groove Swing1End
+Decresc pp 2
+
+29        C      /    FM9     F6
+30       C6      z!
+

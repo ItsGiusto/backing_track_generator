@@ -1,0 +1,143 @@
+// Aunt Hagars Blues
+
+Tempo 90
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove BluesIntro
+
+Begin Solo
+    Voice Piano2
+    Volume ff
+    Octave 5
+    Articulate 95
+    Harmony 3Below
+    Begin Riff
+        4f;a;b;bn;
+        4c+;8g;a&;an;c+;a;g;
+        4f;2a&;4g;
+        2f;4f+;
+    End
+End
+
+Swingmode On
+Swell mp mf 4
+
+1         F   F7/Eb   Bb/D    Db7
+2         F      /     C7
+3         F    Db7      /     C7
+4         F
+
+
+Groove Blues
+Volume m
+
+5         F      /    Cm7
+6         F      /    Cm7
+7         F      /    Cm7
+
+Groove BluesTripleL
+Volume +10
+8        F7
+
+Groove Blues1
+Volume mf
+
+9        Bb      /    Bb7
+10       C7
+11        F     F7     E7    Eb7
+
+Groove BluesTriple
+Volume +10
+
+12        F      /     A7
+
+Groove BluesSus
+Cresc mp mf 4
+
+13      Bb7
+14       C7
+15        F      /     C7
+
+Begin Solo
+ Volume m   
+ Riff 3f;; 8e&;4d;8d&;4c;
+End
+
+16        F      /     C7    
+
+Groove Blues1Sus
+Volume m
+
+17       F7
+18        /      /      F
+19       F7
+20        /
+
+Repeat
+Groove Blues
+Decresc mf mp 4
+
+21       Bb      /     F7
+22       Bb      /  Bbmb5
+23        F      /    Ab7
+24       D7
+
+Groove BluesSus
+Cresc m 4
+
+25       G7
+26       C7
+27       F7
+28       G7     Cb      F
+
+Groove Blues1
+
+29        /
+30        /      /     C7
+31        F    Db7      /     Cb
+32        F
+
+Groove Blues1Sus
+Cresc mf 4
+
+33       F7
+34      Db7
+35       C7
+
+Groove BluesTripleL
+
+36        /
+
+Groove Blues
+Volume m
+
+37        F      /     F7
+38       Db
+39        F
+40        /      /      C
+
+Groove BluesSus
+Cresc mf 2
+
+41        F
+42        C      /     C7
+
+RepeatEnding
+
+43        F      /     Fm
+Groove BluesTripleL
+44        F     /      C7
+
+RepeatEnd
+
+Groove BluesEnd
+Decresc ppp 2
+
+43        F      /     Fm
+44        F      z!
+
+
+

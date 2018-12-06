@@ -1,0 +1,168 @@
+
+Tempo 180
+Keysig G
+
+Groove JazzWaltzIntro
+	z * 4
+
+Groove JazzWaltz1
+Repeat
+Cresc  p mf 8
+
+1    G    
+2    /    
+3    F#m7b5 
+4    B7b9 
+5    Em7  
+6    A7b9 
+7    Dm7  
+8    G7   
+
+9    CM7  
+10   C6   
+11   Cm7  
+12   F9   
+13   BbM7 
+14   /    
+15   Bbm7 
+16   Eb9  
+17   AbM7 
+18   Ab   
+19   Am7b5 
+
+Decresc mp 5
+
+20   D7b9 
+21   Bm7  
+22   Bb7  
+23   Am7  
+24   D7   z    z    
+
+Groove JazzWaltz
+
+RepeatEnd
+
+Groove JazzWaltzSus
+Volume mf
+
+25   G    
+26   /    
+27   F#m7b5 
+28   B7   
+29   Em7  
+30   A7   
+31   Dm7  
+32   G7   
+33   CM7  
+
+Groove JazzWaltz
+
+34   C6   
+35   Cm7  
+36   F7   
+37   BbM7 
+38   Bb6  
+39   Bbm7 
+40   Eb9  
+
+Groove JazzWaltz1Sus
+Volume mp
+
+41   AbM7 
+42   /    
+43   Am7b5 
+44   D7b9 
+45   Bm7  
+46   Bb7  
+47   Am7  
+
+Groove JazzWaltz
+
+48   D7   
+
+Groove JazzWaltz1
+Decresc  mf mp 8
+
+49   G    
+50   /    
+51   F#m7b5 
+52   B7   
+53   Em7  
+54   A7   
+55   Dm7  
+56   G7   
+
+Groove JazzWaltz
+Volume mf
+
+57   CM7  
+58   C6   
+59   Cm7  
+60   F7   
+61   BbM7 
+62   Bb6  
+63   Bb7  
+64   Eb7  
+
+Decresc mp 8
+
+65   AbM7 
+66   /    
+67   Am7b5 
+68   D7   
+69   Bm7  
+70   Bb7  
+71   Am7  
+72   D7   
+
+Groove JazzWaltzSus
+Volume mf
+
+73   G    
+74   /    
+75   F#7b5 
+76   B7b9 
+77   Em7  
+78   A7b9 
+79   Dm7  
+80   G7   
+81   CM7  
+
+Groove JazzWaltz
+Decresc mp 8
+
+82   C6   
+83   Cm7  
+84   F9   
+85   BbM7 
+86   /    
+87   Bbm7 
+88   Eb9  
+89   AbM7 
+90   /    
+91   Am7b5 
+92   D9   
+93   Bm7  
+94   /    
+95   E7   
+96   E7#5 /    E7   
+
+Groove JazzWaltz1
+
+Decresc f ppp  8
+
+97   Am7  
+98   /    
+99   D7   
+100  /    
+
+Groove JazzWaltz1End
+
+101  G    
+Seq 1
+102  D7#5 D9   
+Seq 2
+103  Bm7  Am7  AbM7 
+Seq 2
+104  GM7  z!   /    
+

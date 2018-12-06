@@ -1,0 +1,89 @@
+// When Sunny Gets Blue
+
+Tempo 76
+Keysig F
+
+Groove Metronome2-4
+	 z * 2
+
+Groove SlowBluesIntro
+Begin Solo
+	  Voice JazzGuitar
+	  Octave 4
+	  Volume f
+	  Articulate 110
+	  Harmony Open
+	  Begin Riff
+	   43a;g;a;4.c+;8a;
+	   8d+;c+;b;a;4b;a;
+	   4r;16c+;b;a;g;4a;b;
+	   1g;
+	  End
+End
+
+1    F    
+2    Dm7  
+3    Gm7  
+4    C7   
+
+Groove SlowBlues
+Repeat
+
+5    Gm7  /    C7   
+6    Bbm7 /    Eb9  
+7    F    /    Gm7  
+8    Am7  /    D6   
+9    Dm6  /    Bbm7 Eb9  
+10   Am7  /    Abm7 Db9  
+
+RepeatEnding
+
+11   Gm7  /    C7   Bb7  
+12   A7+  /    D7  
+
+Groove SlowBluesWalk4
+
+RepeatEnd
+
+
+13   Gm7  /    C7   Bb7  
+14   Em7  /    A7   
+
+Groove SlowBluesSus
+Repeat
+
+15   Dmaj7 /    Em7  Em6  
+16   F#m  /    B9   
+17   Em7  /    A9   
+18   Dmaj7 
+19   Dm7  /    G7  
+20   Cmaj7 /    Am7  
+21   F    /    Dm7  G7   
+22   Gm7  /    C7 
+
+Groove SlowBlues
+  
+23   Gm7  /    C7   
+24   Bbm7 /    Eb9  
+25   F    /    Gm7  
+26   Am7  /    D9   
+27   Dm6  /    Bbm7 
+28   Am7  /    Abm7 Db9  
+29   Gm7  /    C7#9 
+
+RepeatEnding
+
+30   FM9  /    Gb 
+  
+Groove SlowBluesWalk4Sus
+
+RepeatEnd
+
+Groove SlowBluesEnd
+Decresc mp ppp 4
+
+31   FM9  /    Gb9  
+32   FM9  /    Gb9  
+33   Gm7  /    C7#9 
+34   FM9   z!   
+

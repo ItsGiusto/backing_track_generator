@@ -1,0 +1,149 @@
+// Arrancame La Vida (Agustin Lara)
+
+Tempo 115
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove LightTango
+
+0       z
+
+Label Sign1
+
+1     Dm7b5      /     G7
+2     Dm7b5      /     G7
+3        Cm
+
+Groove LightTangoSus
+
+4         /
+5       Fm7
+6         /      /    Bb7  Bb7#5
+7        Eb  / Db9#11
+
+Groove LightTango
+
+8       Cm6      /    Ab9
+9      G7b9
+10        /
+11       Cm      /     Gm    F#m
+
+Groove LightTangoSus
+
+12       Fm      /    Fm7    Bb7
+13       Eb      /   AbM7
+14    Dm7b5      /     G7
+
+if def Coda1
+  goto Coda1
+Endif
+
+15       Cm
+
+Groove LightTango1
+
+16        /      z
+17       Cm
+18      Fm7      /    Bb7
+19       Eb  Bb7/D     Db     C7
+
+Groove LightTango1Sus
+
+20      Fm7      /    Bb7
+21     EbM7
+22      Fm7      /    Ab7
+23       G7      /      /     C7
+
+Groove LightTango
+
+24      Fm7
+25       Cm      /      /   C7b9
+26      Fm7
+27     G7/D      /      /   C7b9
+
+Groove LightTangoSus
+
+28      Fm7      /    Bb7
+29       Eb      /     Cm
+30       Fm      /    Ab7
+31       G7      /   G7b9
+
+Groove LightTango1Sus
+
+32       Cm      /     G7
+33      CM7    Dm7    Em7    Dm7
+34      CM7      /    Em7   Ebm7
+
+Keysig C
+Label Sign2
+
+35      Dm7
+
+Groove LightTango
+
+36        /      /     G7
+37        C      /    G/B
+38       Am      /  Bbdim
+39       Dm      /     G7    Em7
+
+Groove LightTangoSus
+
+40      Dm7      /     G9     G7
+41        C    Dm7    Em7    Dm7
+42        C
+43      Gm7
+
+Groove LightTango
+
+44     C7b9
+45       F6
+46      Fm6
+
+If Def Coda2
+  Goto Coda2
+Endif
+
+47      C/E      /  Ebdim
+
+Groove LightTango1
+
+48      Dm7      /     G7
+49        C     Am    C/G
+50       Cm     Ab   Cm/G
+51        /      z
+
+Set Coda1
+Goto Sign1
+
+Label Coda1
+Keysig Eb
+
+52       C6
+
+Groove LightTangoFill
+
+53        /      /    Em7   Ebm7
+
+Groove LightTango
+
+Set Coda2
+Goto Sign2
+
+Label Coda2
+Keysig C
+
+54      C/E      /  Ebdim
+
+Groove LightTangoSus
+
+55      Dm7      /     G7
+
+Groove LightTango4End
+
+56        /
+57      Ab9
+58      CM9
+59        /  z!
+

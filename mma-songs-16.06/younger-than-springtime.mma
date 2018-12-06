@@ -1,0 +1,119 @@
+// Younger Than Springtime
+// Uptime version. From South Pacific.
+
+Tempo 128
+KeySig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove ModernJazzIntro
+Begin Solo
+  Voice Piano2
+  Octave 6
+  Harmony 3Below
+  Articulate 80
+  Volume ff
+  Begin Riff
+    4r;c;r;c;
+	8.c;16r;4c;8;r;c;
+	4d;2;4f;
+	1g;
+  End
+End
+
+Cresc mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove ModernJazz
+Volume m
+
+5         C
+6         /
+7        G9
+8         /
+
+Groove ModernJazz2
+Cresc mf 4
+
+9         C
+10       Am
+11     Dsus      /     D7
+12      GM7      /     G7
+
+Groove ModernJazz
+Decresc mp 4
+
+13        C
+14        /
+15       G9
+16        /
+
+Groove ModernJazz2
+Volume m
+
+17        C
+18       Am
+19     Dsus      /     D7
+20        G
+
+Groove ModernJazzSus
+Decresc mp 4
+
+21       D9      /      /     D7
+22      GM7
+23      Am7      /      /     D7
+24     Gsus      G
+
+Groove ModernJazz2Sus
+Cresc mf 4
+
+25       D9      /      /     D7
+26      GM7
+27      Dm7
+28       G7
+
+Groove ModernJazz
+Volume m
+
+29        C
+30        /
+31       G9
+32        /
+
+Groove ModernJazz
+Cresc f 4
+
+33        C
+34       Am
+35       D7
+36       G7
+
+RepeatEnding
+
+Groove ModernJazzFill
+Decresc m 2
+
+37        C
+38        /     /   G7
+
+Begin AllGrooves
+  Arpeggio Voice Clarinet
+  Bass-Trp Voice Clarinet
+  Chord-Sus Voice TremoloStrings
+End
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Tempo *.8 2
+Decresc pp 2
+
+37       C
+38       /     /  z!
+

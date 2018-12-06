@@ -1,0 +1,75 @@
+// Soul Eyes
+
+Tempo 62
+KeySig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove DescendingJazzPlusIntro
+
+Begin AllGrooves
+   Chord Voicing Mode=Key2
+   Bass-Chord Octave 5
+   Begin Arpeggio
+      Rskip 65
+      Harmony OpenBelow
+      Articulate 130
+   End
+End
+
+Decresc mf mp 4
+
+1        Cm7
+2        Am
+3        Dm
+4        CM7
+
+Repeat
+Groove DescendingJazz
+Volume m
+
+5      CmM7
+6    G7b9/D      /   G7b9
+7       Cm7
+8        F7
+
+Groove DescendingJazzPlus
+
+9       Fm9
+10    Bb7#9
+11    Gm7b5
+12   C7#5b9
+
+Groove DescendingJazzSus
+
+13     AbM7
+14    Am7b5      /     D7
+
+RepeatEnding 2
+
+15      GM7
+16        /      /      /   Db13
+
+Groove DescendingJazzSusPlus
+
+17     BbM7
+18      Fm9      /      /    Bb7
+19     EbM7
+20    Dm7b5      /   G7#5
+
+RepeatEnd
+
+Groove DescendingJazzSus
+
+21    Gm7b5
+22       C7
+23      Fm7
+24   Bb7#5#9
+
+
+Groove DescendingJazzEnd
+
+25     EbM7
+26        /  z!
+

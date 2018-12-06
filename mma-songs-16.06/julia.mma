@@ -1,0 +1,132 @@
+// Julia
+
+// Lennon/McCartney. John wrote and sang this ballad (complete with
+// overdubs). And still couldn't do it in key ... oh well.
+// Original tempo was 136bpm, key D.
+
+// I think it's a nice little bossa ... hmmm, did Lennon ever meet Jobin?
+
+Tempo 136
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+	Voice Piano2
+	Articulate 110
+	Harmony Open
+	Volume mf
+	Octave 5
+	Begin Riff
+		4.c+;8;4;4;
+		4.c+;8;4;4;
+		2.d+;4c+;
+		1c;
+	End
+End
+
+1   F       
+2   Dm      
+3   Gm      
+4   C7
+
+// end of my intro
+
+Groove BossaNova
+      
+5   F       
+6   Dm7     
+7   Am      
+8   /       
+9   F       
+10  Dm7     
+11  Am      
+12  C7      
+
+Repeat
+
+13  F       
+14  Dm7     
+15  Cm7     
+16  /       
+17  D       
+18  /       
+19  Bb9     
+20  Bbm7    
+21  F       
+22  Dm7     
+23  Am      
+
+RepeatEnding
+
+24  C7 
+
+Groove BossaNova1Sus
+
+RepeatEnding
+
+25  C7      
+26  F       
+27  / 
+
+Groove BossaNova
+      
+28  Em      
+29  /       
+30  F       
+31  /       
+32  Dm7     
+33  Dm6     
+34  Am7     
+35  Am6     
+36  Am#5    
+37  Am 
+
+Groove BossaNovaSus
+
+RepeatEnd  // original score has a coda, etc.
+
+25  C7
+26  F
+27  /
+
+Groove BossaNova
+
+38  F       
+39  Dm7     
+40  Am      
+41  /       
+42  F       
+43  Dm7     
+44  Am      
+45  C7
+
+Groove BossaNovaSus
+      
+46  F       
+47  Dm7     
+48  Cm      
+49  Cm7     
+50  D       
+51  /       
+52  Bb9     
+53  Bbm 
+
+Groove BossaNova1Sus
+    
+54  F       
+55  Dm7     
+56  Am      /       C7      
+57  F       
+58  Am      /       C7 
+
+Tempo *.8 4
+Groove BossaNova2End
+     
+59  F       
+60  Am      
+61  C7      
+62  F  
+

@@ -1,0 +1,101 @@
+// Night We Called It A Day
+
+Tempo 70
+
+Groove Metronome2-4 
+  z * 2
+
+Groove MellowJazzIntro
+Begin Solo
+    Voice JazzGuitar
+    Harmony OpenBelow+8Below
+    Octave 5
+    Articulate 110
+    Volume f
+    Begin Riff
+        4g;d+;8c+;4.b;
+        4e;b;8a;4.g;
+        43a;b;c+;d+;c+;b;
+        2.d+;
+    End    
+End
+
+Cresc pp m 4
+
+1         G
+2         Em
+3         Am
+4         D7
+
+Repeat
+Groove MellowJazz
+Volume m
+
+5     Am7b5      /   D7b9
+6       GM7      /     G6
+7       D13      /  D13b9
+8        G6
+
+Groove MellowJazzPlus
+Decresc mp 4
+
+9       Em7      /   A7b9
+10      Bm7      /    Bb7
+11      Am7      / A7b9#11
+
+RepeatEnding
+
+12      GM7      /     G6
+
+RepeatEnd
+
+13       G7      /  Dm7b9     G7
+
+Repeat
+
+Groove MellowJazzSus
+Cresc mf 4
+
+14      CM7      /     Dm
+15     B         /    CM7
+16   CmM7/B      /   B7#9
+17     EmM7      /    Em6
+
+Groove MellowJazzSusPlus
+Volume m
+
+18   F#m7b5      /    B7+     B7
+19       Em      /   EmM7    Em7
+20    Em7b5      /   A7b9
+21      Bb9      /     D7
+
+Groove MellowJazz
+Decresc mp 4
+
+22    Am7b5      /   D7b9
+23      GM7      /     G6
+24      D13      /  D13b9
+25       G6
+
+Groove MellowJazzPlus
+Cresc m 4
+
+26     EmM7      /    Em7
+27       A9      /   A7b5
+
+RepeatEnding
+
+Groove MellowJazzSus
+Decresc p 2
+
+28      Bm7    Bb7    Am7   A7b9
+29        G      /   G7
+
+RepeatEnd
+
+Groove MellowJazzEnd
+Decresc pp 2
+
+28      Bm7    Bb7    Am7   A7b9
+29        G    z!
+

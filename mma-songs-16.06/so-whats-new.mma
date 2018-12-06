@@ -1,0 +1,107 @@
+// So Whats New
+
+Tempo 160
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+Begin Solo
+    Voice JazzGuitar
+    Articulate 110
+    Harmony 3Below+8Below
+    Octave 6
+    Volume f
+End
+
+Repeat     // do song 2x
+
+Swingmode On
+
+1         C     { 4g;8g#;r;a; }
+2         /     { 4g;8g#;16r;^^a;8^;r;4a&; }
+3         /     { 4g;8g#;r;a; }
+4         /     { 4g;g#;a; }
+
+Repeat
+Groove BigBand
+
+5         C
+6         /
+7        A7
+8         /
+
+Groove BigBandSus
+
+9        D7
+
+RepeatEnding
+
+10       G7
+11        C
+
+Groove BigBandFill
+
+12       G7
+
+RepeatEnd
+
+13       G7
+14        C
+15        /      /     C7
+
+Groove BigBand1
+
+16        F      /      /     Fm
+17        /
+18       E7
+19       Am
+
+Groove BigBand1Sus
+
+20       D7
+21        /
+22       G9
+23        /
+
+Groove BigBand
+
+24        C
+25        /
+26       A7
+27        /
+
+Groove BigBandSus
+
+28       D7
+29       G7
+30      Em7
+31       A7
+
+Groove BigBand1
+
+32       Dm      /  D#dim
+33      Em7      /     Am
+34       Dm      /  D#dim
+35      Em7      /     Am
+
+Groove BigBand1Sus
+
+36       Dm      /  D#dim
+37      Em7      /     A7
+
+RepeatEnding
+
+38       D7      /     G7      C
+
+Groove BigBandFill
+
+39      Dm7      /     G7
+
+Repeatend
+
+Groove BigBand1End
+
+38       D7      /     G7      C
+39       /     z!

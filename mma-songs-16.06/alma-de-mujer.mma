@@ -1,0 +1,93 @@
+// Alma De Mujer
+
+// A nice little SON piece. Anyone have English words for this?
+
+Keysig Bb
+Tempo 100
+
+Groove Metronome2-4
+	z * 2
+
+
+Groove SonIntro
+
+Begin Solo
+	Voice JazzGuitar
+	Cresc  mf ff 4
+	Articulate 140
+	Harmony Open
+	Octave 6
+	Begin Riff
+		3+3d+;c+;d+;c+;b;c+;
+		3+3d+; c+; d+; c+; b; g&;
+        3+3f; g; a; b; c+; d+;
+		4.e+; 16d+;e+;2f+;
+	End
+End
+
+1    Bb
+2    Gm / E&m6
+3    Cm / Cm7
+4    F7
+
+Repeat
+Groove Son
+
+5    Bb   /    C#dim7
+6    F7
+7    Bb/D /    Dbdim7
+8    F7sus/C F7
+9    Bb7
+10   EbM7 /    Ebm6
+11   Bb/D /    G7
+12   C7
+13   F7   /    /    F7#5b9
+14   Bb6
+15   Bb   /    C#dim7
+16   F7
+17   Bb/D /    Dbdim7
+18   F7sus/C F7
+19   Bb7
+20   EbM7 /    Ebm6
+21   Bb/D /    G7
+22   C7
+23   F9   F9sus
+24   Bb
+
+Groove SonSus
+
+25   D7   /    D7/F#
+26   Gm
+27   D7
+28   Gm
+29   C7   /    C7/E
+30   F
+31   C7
+32   F7
+
+Groove Son
+
+33   Bb   /    C#dim7
+34   F7
+35   Bb/D /    Dbdim7
+36   F7sus/C F7
+37   Bb7  /    Bb9
+38   EbM7 /    Ebm6
+39   Bb/D /    G7
+40   C7
+41   F9   /    F9sus
+
+RepeatEnding
+
+42   Bb   /    /    F13
+
+RepeatEnd
+
+
+43   Bb
+
+Groove SonEnd
+
+44   Cm7  /    Ebm6
+45   BbM7 Cb6  Bb6
+

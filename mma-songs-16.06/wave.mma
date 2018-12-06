@@ -1,0 +1,98 @@
+// Wave
+
+// Music by Antonio Carlos Jobim.
+
+// I first heard this played by Blossom Dearie and fell in
+// love with both the song and Blossom. This is near her
+// tempo (she's actually a bit slower, more like 68).
+// My chart is in B, but that's a tough key to play in,
+// and is too high for my singer. So, we take it up to C.
+// Note that Blossom starts off in G, but then changes
+// to the B at the bridge and continues to the end in that key.
+// I hate people who can play with 5 sharps and sing at
+// the same time :)
+
+// I find that the syncopation is very difficult, so
+// I've keyed in the melody notes so I can learn the timing
+// by playing along. If you you don't want the melody, just
+// turn it off by uncommenting the  'off' line in the solo block.
+
+Tempo 72
+KeySig 5#
+
+Transpose 1   // From 'B' to 'C'
+ 
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+	 Off
+	Voice Piano1
+	Volume mf
+	Octave 5
+	Articulate 90
+	Accent 4.5 30
+End
+
+Groove BossaNova
+
+Cresc p mf 4
+
+
+1    Bm7  /    E7   
+2    Bm7  /    E7   
+3    Bm7  /    E7   
+4    Bm7  /    E7      {2r; 8; g; b; a; } 
+
+
+Repeat
+Groove BossaNova
+
+5    BM7               {2..f; 8d; } 
+6    Gdim7             {8e; gn; a; c+; e+; 4d+; 8+1+4f+ ~; } 
+7    F#m7              {~<>~; }
+8    B7b9              {~ 8f+; 8+8f+; 4g+; 8+8 f+ ~; } 
+9    EM7               {~ 4e+; 8; 4d+; 4+4 e+~; } 
+10   Em6               {~ 8d+; 8+8 e+; 4f+; 8+1 d+ ~; } 
+11   D#13 /    D#7#5   {~<>;}
+12   D#m7 /    G#7b9   {8r; d+; f+; fn+; e+; 4d+; 8+8 ~; } 
+13   C#9               {~ 8b; ; 8+8; 8g; b; c+; } 
+14   G7   /    F#7     {8dn+; b; an; fn; e; 4dn; 8+8~; } 
+15   Bm7  /    E7      {~ 4.+2b-; } 
+
+RepeatEnding
+Groove BossaNovaFill
+
+16   Bm7  /    E7      {2r; 8; g; b; a; } 
+
+RepeatEnding	// this is the bridge
+
+Groove BossaNova1Sus
+Volume f
+
+17   Bm7  /    E7   
+
+// BD's key change goes here, as well as an extra bar
+
+18   Bm7  /    E7   
+19   Em7               {2b; 3+3an; gn; f; } 
+20   A9/G              {2e; 3+3f; gn; b; } 
+21   F#m7              {4.an; 8; 1a~; } 
+22   /                 {~<>; }
+23   G9sus             {2an; 3+3gn; fn; e; } 
+24   G9/F              {2dn; 3+3e; fn; an; } 
+25   Em7               {4.gn; 8; 1g~; } 
+
+Groove BossaNovaFill
+Volume mf
+
+26   F#7#5b9           {~ 8r; 8gn; b; a; } 
+
+RepeatEnd
+
+Groove BossaNovaEnd
+Decresc ppp 4
+
+27   Bm7  /    E7   *    4    
+
+

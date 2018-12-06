@@ -1,0 +1,123 @@
+// Among My Souvenirs
+
+Tempo 75
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BluesIntro
+
+Begin AllGrooves
+  Chord-Sus Voice Strings
+  Begin Arpeggio
+     Voice JazzGuitar
+     Octave 5
+     Volume p
+     Harmony OpenBelow
+     Articulate 120
+  End
+End
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 6
+    Articulate 140
+    Harmony OpenBelow
+    Volume mf
+    Begin Riff
+        8e+;b;g;b; e+;b;e+;b;
+        8e+;c+;b;g;2f;
+    End
+End
+
+Swell mp m 3
+
+1         Eb      /      Cm7
+2         Fm7      /      B&7
+3         Eb      /      /   Edim
+
+Groove Blues
+Volume m
+
+4        Fm9     Fm
+5          /    Bb7      /  Bb9#5
+6     Ebsus4     Eb
+Groove BluesTripleR
+7          /      /      /  F#dim
+
+Groove BluesSus
+Cresc mf 4
+
+8        Fm7     Bb      /    Bb9
+9          /   Bb13      /    Bb7
+10      EbM9      /     Eb
+Groove BluesTripleRSus
+11         /      /      /   Edim
+
+Groove BluesSus
+Decresc mp 2
+
+12       Fm9     Fm
+13         /    Bb7      /  Bb9#5
+14    Ebsus4     Eb
+15         /      /      /  F#dim
+
+Groove Blues1
+Volume m
+
+16       Fm7     Bb      /    Bb9
+17         /   Bb13      /    Bb7
+18      EbM9      /     Eb   EbM7
+19       Eb7    Eb9   Db/F  Eb7/G
+
+Groove Blues1Sus
+Cresc mf 2
+
+20       Ab6
+21         /     Ab     Bb  Bb9#5
+22        Eb
+Groove BluesTripleR
+23         /      /   Bb/F     Eb
+
+Groove Blues
+Decresc mp 4
+
+24     Bb7/D
+25         /     Ab   Edim     Fm
+26         G      /     Cm
+27        F9   F9#5  Bb7#5
+
+Repeat
+
+Groove BluesSus
+Volume m
+
+28        Eb      /      /   Edim
+29       Fm9     Fm
+30         /    Bb7      /   Bb#5
+31    Ebsus4     Eb
+Groove BluesTripleRSus
+32         /      /      /  F#dim
+
+Groove BluesSus
+Decresc mp 2
+
+33       Fm7     Bb      /    Bb9
+34       Bb7      /      /   Bb13
+
+Repeatending
+
+35        Eb      / Abm6/F
+36        Eb      / B&7#5
+
+RepeatEnd
+
+Groove BluesEnd
+Decresc ppp 2
+
+35        Eb      / Abm6/F
+Seq 4
+36        Eb      z!
+Fermata -4 1 120
+

@@ -1,0 +1,122 @@
+// Tango Of Roses
+
+Tempo 94
+Keysig Ab
+
+Groove Metronome2-4
+ z * 2
+
+Groove LightTangoSus
+
+Begin Solo
+    Voice Piano2
+    Harmony Open8Below
+    Octave 5
+    Rtime 4,9
+    Rvolume 5,20    
+    Articulate 95
+    Volume f
+    Begin Riff
+        1+8c+ ~;
+        ~ 8b;c+;d+;4f+;en+;
+        1+8c+ ~;
+        ~ 8b;c+;d+;4f+;en+;
+        1c+;
+        1c+;
+        1+1f~;
+    End
+End
+
+Cresc mp mf 4
+
+1        Fm
+2       Bbm      /     Fm     C7
+3        Fm
+4       Bbm      /     Fm     C7
+
+Groove LightTangoIntro1
+Decresc mp 4
+
+5        Fm
+6         C
+7        Fm
+8         /
+
+
+Repeat
+Keysig Ab
+Groove LightTango
+Volume m
+
+9        Fm
+10      Bbm      /     Fm     C7
+11       Fm
+12      Bbm      /     Fm     C7
+13       Fm
+
+Groove LightTango1
+
+14     Gdim
+15       Fm
+16       C7
+17       Fm
+
+Groove LightTango
+
+18      Bbm
+19       Fm
+20       C7
+21       Fm
+
+Groove LightTango
+
+22      Bbm
+23       Fm
+24       C7
+25        F
+
+Groove LightTangoFill
+
+26        /
+
+Keysig Ab
+
+Groove LightTangoSus
+
+27        /
+28        /
+29       C7
+30        /
+
+Groove LightTango1Sus
+
+31        /
+32        /
+33        F
+34        /
+
+Groove LightTangoSus
+
+35       Bb
+36        /
+37        F
+38        /
+
+RepeatEnding
+
+Groove LightTango1Sus
+
+39       C7
+40        /
+41        F
+42        /
+
+RepeatEnd
+Groove LightTango4End
+
+39       C7
+40        /
+41        F
+42        / z!
+
+

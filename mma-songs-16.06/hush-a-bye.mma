@@ -1,0 +1,122 @@
+// Hush A Bye
+
+Tempo 90
+Keysig G minor
+
+Groove Metronome3
+ z * 2
+
+Set Harmony OpenAbove
+Set Direction Up
+Set Bass
+
+Groove ArpeggioWaltzSusIntro
+Chord-Sus Cresc off p 4
+Cresc p m 4
+
+1         Gm
+2        Ebm
+3         Am
+4         D7
+
+Repeat
+Groove ArpeggioWaltz
+Cresc mp mf 8
+
+5         Gm
+6          /
+7         Cm
+8          /
+
+Groove ArpeggioWaltz48
+
+9        Gm7
+10        D7
+11        Gm
+12         /
+
+Groove ArpeggioWaltzSus
+Volume m
+
+13         /
+14         /
+15        Cm
+16         /
+
+Groove ArpeggioWaltz48Sus
+
+17       Gm7
+18        D7
+19        Gm
+20         /
+
+Groove ArpeggioWaltz8
+Decresc mp 8
+
+21        Bb
+22         /
+
+Groove ArpeggioWaltzSus
+
+23        Gm
+24         /
+
+Groove ArpeggioWaltz
+Volume m
+
+25       Gm7
+26        D7
+27        Gm
+28         /
+
+Groove ArpeggioWaltz48Sus
+Volume mf
+
+29        Gm
+30         /
+31        Cm
+32         /
+
+Groove ArpeggioWaltz48
+Decresc p 4
+
+33       Gm7
+34        D7
+35        Gm
+36         /
+
+Groove ArpeggioWaltzSus
+Cresc m 8
+
+37         /
+38         /
+39        Cm
+40         /
+
+Groove ArpeggioWaltz
+
+41       Gm7
+42        D7
+43        Gm
+44         /
+
+RepeatEnd
+
+Groove ArpeggioWaltzSus
+Decresc mp 4
+        
+45        Gm
+46         /
+47        Cm
+48         /
+
+Groove ArpeggioWaltzSusIntro
+Chord-Sus Decresc Off 4
+Decresc ppp 4
+
+49       Gm7
+50        D7
+51        Gm
+52         /  z!
+
+

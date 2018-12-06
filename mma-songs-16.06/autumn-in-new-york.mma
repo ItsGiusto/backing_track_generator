@@ -1,0 +1,112 @@
+// Autumn In New York
+
+Tempo 80
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+
+Begin Solo
+   Voice JazzGuitar
+   Volume f
+   Harmony 2Above
+   Articulate 105
+   Octave 4
+   Rtime 5
+   Begin Riff
+      8f+;d+;b;g;2f;
+	  8d;e;f;e; 2d;
+	  43!g;!;!;4!;!;
+	  1f;
+   End
+End
+
+Groove JazzGuitar1Intro
+AllGrooves Plectrum Capo -3
+Swingmode On Skew=60
+Swell m mf 4
+
+1        Gm
+2        Dm
+3        Cm
+4        F7
+
+
+Repeat
+Groove JazzGuitarWalk
+Volume m
+
+5        Gm      /     Am
+6       Gm7      /     C7
+7         F      /    Dm7
+8         F
+
+Groove JazzGuitar
+Cresc f 8
+
+9        Gm      /     Am
+10      Gm7      /     C7
+11    Am7b5      /     D7
+12    Am7b5      /     D+
+
+Groove JazzGuitarSus
+
+13      Gm7
+14     Bbm7    Eb7
+15       Ab
+16       Cm      /  Dm7b5
+
+Groove JazzGuitar
+Decresc mp 8
+
+17       Cm
+18       D7      /   G7#5
+19        C
+20        /      /     C7   C7#5
+
+Groove JazzGuitarWalkSus
+
+21       Gm      /     Am
+22      Gm7      /     C7
+23        F      /    Dm7
+24        F
+
+Groove JazzGuitar
+Volume m
+
+25      Cm7      /     Dm
+26    Cm7b5      /     F7
+27      Bbm
+28       Gb      /  Gm7b5
+
+Groove JazzGuitarSus
+
+29       Fm      /   C7#5     C7
+30       Fm      /    Ab+
+31       Db      /    Ab+
+32       Db      /  Fm7b5
+
+Groove JazzGuitar
+Decresc mp 2
+
+33       Gm      /     Am
+34    Gm7b5      /      /     C7
+
+RepeatEnding
+
+Groove JazzGuitarSus
+Cresc m 2
+
+35       Fm
+36       C7
+
+RepeatEnd
+
+Groove JazzGuitarEnd
+Decresc ppp 2
+Tempo *.9 2
+
+37       Fm      /    Gm7
+38       Fm      z!
+

@@ -1,0 +1,131 @@
+// Cry Me A River
+
+Tempo 70
+Keysig Eb
+
+// A EasySwingWalk with some help from a Choir.
+
+Groove EasySwingWalk
+
+Begin Arpeggio
+	Sequence A2 
+	Voice ChoirAahs 
+	Invert 0 1  2 3
+	Octave 5
+	RSkip 0 30 / /
+	Volume pp
+	Articulate 100
+	Unify on
+End
+
+Begin Arpeggio-2
+	Sequence A2 
+	Voice VoiceOohs
+	Octave 5
+	RSkip 30
+	Volume pp
+	Articulate 100
+	HarmonyOnly Open
+	Unify on
+End
+
+DefGroove EasyArp
+
+// Begin Music!		
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingIntro   // 4 bar intro
+
+Begin Solo
+	Voice Bandoneon
+	MidiVoice {1 VibratoDepth 80 ; 1 VibratoRate 90; 1 VibratoDelay 55 }
+	MidiClear  1 VibratoDepth 0 ; 1 VibratoRate 0; 1 VibratoDelay 0
+	Decresc mf p 4
+	Articulate 110
+	Harmony Open
+	Octave 4
+	Begin Riff
+		2e+;4d+;e+;
+		4d+;2.c+;
+		2d&+;4c+;d+;
+		1c+;
+	End
+End
+
+Cresc pp mf 4
+
+1   Ebm
+2 	Dm7
+3 	Dbm
+4 	Cm9
+
+Fermata -1 1 120
+
+Delete Solo
+
+Repeat
+Groove EasyArp
+Cresc mp mf 8
+
+5 	Cm /  C+
+6 	Cm6 /  Cm7
+7 	Fm7 /  Bb7
+8 	Eb7 /  Dm7 G7
+9 	Gm7 /  C7#5
+10 	F9
+11 	Fm7
+12 	Eb6 /  D7b9 C7
+
+Groove EasySwingSus
+Decresc mf mp 8
+
+13 	Cm /  C+
+14 	Cm6 /  /  Cm7
+15 	Fm7 /  Bb7 Bb7#5
+16 	EbM7 /  Dm7 G7
+17 	Gm7 /  C7#5
+18 	F9
+19 	Fm7
+20 	Eb6 /  Am7b5 D7b9
+
+Groove EasySwingWalkSus
+Volume mf
+
+21 	Gm
+22 	Cm6 /  D7
+23 	Gm /  Em7b5
+24 	Cm6 /  D7
+25 	Gm
+26 	Cm6 /  D7sus D7
+27 	G
+28 	Dm7 /  G7
+
+Groove EasyArp
+Decresc mf p 8
+
+29 	Cm /  C+
+30 	Cm6 /  Cm7
+31 	Fm7 /  Bb7 Bb7#5
+32 	EbM7 /  Dm7 G7
+33 	Gm7 /  C7#5
+
+Groove EasySwingSus
+
+34 	F9
+
+RepeatEnding
+
+35 	Fm7
+36 	Eb6 /  G7#5b9
+
+RepeatEnd
+
+Groove EasySwingEnd
+Tempo *.7 2
+
+35 	Fm7
+37 	Eb6 z!
+
+

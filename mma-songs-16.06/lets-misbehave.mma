@@ -1,0 +1,110 @@
+// Lets Misbehave, Cole Porter 1928
+
+Tempo 180
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove CharlestonIntro8
+Begin AllGrooves
+   Begin Chord-Sus
+      Voice Strings
+      Octave 6
+      Volume mf
+   End
+End
+
+Begin Solo
+    Voice Piano1
+    Octave 5
+    Harmony OpenBelow+OpenAbove
+    Articulate 80
+    Volume f
+    Begin Riff
+        4c+;c+;8;4.;
+        2e+;c+;
+        4r;a;b;c+; 
+        2e+;e+;
+        4r;4d+;e+;d+;
+        2f+;d+;
+        4r;4f+;8;4;8+2g+~;
+    End
+End
+
+1          C
+2          /
+3         Am
+4          /
+5         Dm
+6          /
+7         G7
+8          /
+
+Repeat
+Groove Charleston
+
+9          C
+10        G+
+11        Am      /    Am7
+12         C
+
+Groove CharlestonPlus
+
+13        D7
+14        G7
+15         C      /  C#dim
+16        G7
+
+Groove CharlestonWalk
+
+17         C
+18        G+
+19        Am      /     E7
+20        Am      /      /  C#dim
+
+Groove CharlestonWalkPlus
+
+21         G
+22        D7
+23         G
+24         /
+
+Groove CharlestonSus
+
+25        C7
+26     D#dim      /     C7
+27         F
+28         /
+
+Groove CharlestonSusPlus
+
+29        D7      /      C
+30     Fdim      /     D7
+31        G7
+32         /      /      F     G7
+
+Groove Charleston
+
+33         C
+34        G+
+35        Am      /     E7
+36        A7
+
+Groove CharlestonPlus
+
+37        D7
+38        G7
+
+RepeatEnding 2
+
+39         C      /  C#dim
+40        G7
+
+RepeatEnd
+
+Groove CharlestonEnd
+
+41         C      /     G7
+42         C      z!
+

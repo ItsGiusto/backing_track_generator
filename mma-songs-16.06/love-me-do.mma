@@ -1,0 +1,141 @@
+// Love Me Do
+
+Tempo 136
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove 50sRockIntro
+Swingmode ON
+
+Begin Solo
+   Voice Harmonica
+   Volume f
+   Octave 5
+   Rvolume 20
+   Rtime 10
+   Harmony Open
+   Articulate 94
+   Begin Riff
+       2fn+;e+;
+       8d+;g;r;g;r;g;;;
+       43fn+;;; e+;;;
+       8d+;g;r;g;r;g;;;
+       2fn+;e+;
+       8d+;g;r;g;r;g;c+;d+;
+       4r;8g;r;4g;8r;4g~;
+       ~ 4g; 8;4c+;b;
+   End
+End
+
+Swell mp mf 8
+
+1         G
+2         C
+3         G
+Seq 3
+4         C
+
+Seq 1
+5         G
+6         C
+7         G
+8         /
+
+Set RptCount 1
+
+Label Start
+Repeat
+Groove 50sRock
+Volume m
+
+9         G
+10        C
+11        G
+12        C
+
+Volume mf
+
+13        G
+14        C
+15        /
+16        /
+
+Groove 50sRock1
+Decresc m 4
+
+17        /  z!  C@2.5  /
+18        G
+
+if def coda
+   goto coda
+endif
+
+19        C
+20        G
+
+RepeatEnding  nowarn $rptcount
+
+21        C
+
+RepeatEnd 
+
+22        G
+
+Groove 50sRockSus
+
+Cresc mp mf 4
+
+23        D
+24        /
+25        C
+26        G
+
+Groove 50sRock1Sus
+Decresc m 4
+
+27        D
+28        /
+29        C
+Begin Drum-Snare
+  Riff D123
+  Volume fff
+End
+Begin Chord-Piano
+  Volume +30
+  Riff C123
+End
+
+30        G  /  /  z
+
+if ndef coda1
+   set coda1
+   set rptcount 0
+   goto start
+endif
+
+unset coda1
+set coda
+goto start
+
+label coda
+
+//////////////////////////////
+/// Coda (ending) section
+
+Groove 50sRock
+Decresc ppp 8
+
+31        C
+32        G
+33        C
+34        G
+
+31        C
+32        G
+
+Groove 50sRockEnd
+
+33        C
+34        G   z!

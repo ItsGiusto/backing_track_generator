@@ -1,0 +1,142 @@
+// Sin Un Amor
+
+Tempo 98
+Keysig E Minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBoleroIntro
+
+Begin AllGrooves Arpeggio
+   Octave 5
+   Range 1
+End
+
+Begin Solo
+    Voice NylonGuitar
+    Articulate 100
+    Volume f
+    Octave 5
+    Rtime 5
+    Harmony OpenBelow
+    Rvolume 5
+    Begin Riff
+        8g;e+;a;e+; b;e+;c+;e+;
+        8d+;fn;c+;f; b;f;a;f;
+        4f+;d+;b;g;
+        2a;
+    End
+End
+
+Swell mp mf 4
+
+1        Em
+2         F
+3         G
+4        Am
+
+Label DS   /// this is really a "sign" for a DS
+Groove SlowBolero
+Volume m
+
+5        Em
+6        E7
+7        Am
+8         /
+
+Groove SlowBoleroPlus
+Swell mf 8
+
+9        D7
+10        /
+11        G
+12        z / G 
+
+Groove SlowBolero
+
+13       E7
+14        /
+15       Am
+16        /      /     D7
+
+Groove SlowBoleroSus
+Cresc mf 4
+
+17        G      /     Em
+18       B7
+19       Em
+20        /
+
+Groove SlowBoleroSusPlus
+Volume m
+
+21       E7
+22        /
+23       Am
+24        /
+
+Groove SlowBoleroSus
+Cresc mf 4
+
+25      F#7
+26        /
+27        B
+28        z / B 
+
+Groove SlowBolero
+Decresc mp 4
+
+29       Em
+30       E7
+31       Am
+32        /      /     D7
+
+If Def CODA 
+  Goto Coda
+Endif
+
+Groove SlowBoleroPlus
+
+33        G      /     Em
+34       B7
+35       Em
+
+Repeat  // start solo section
+Groove SlowBoleroSus
+Volume m
+
+36       Am
+37       Em
+38       B7
+
+RepeatEnding
+Drum-Snare Riff D4
+
+39       Em
+
+RepeatEnd  /// end of solo (played 2x)
+
+Decresc mp 2
+
+40       Em
+41       z  / Em
+
+// D.S. al Coda
+Set Coda
+Goto DS
+
+// Coda
+Label Coda
+Decresc p 3
+
+42        G      /     Em
+43       B7
+44        /
+
+Groove SlowBoleroEnd
+Decresc ppp 2
+
+45       Em
+46        /  z!
+

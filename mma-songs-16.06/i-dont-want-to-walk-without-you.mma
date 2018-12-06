@@ -1,0 +1,95 @@
+// I Dont Want To Walk Without You
+
+Tempo 100
+Keysig 3b
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingIntro2
+AllGrooves Plectrum Capo -2
+
+Begin Solo
+	Voice MutedTrumpet
+	Volume f
+	Harmony Open
+	Octave 5
+	Articulate 80
+	Begin Riff
+		2.b;4;
+		2+81e+; 82d+; 81c+; 82a;
+		2g;b;
+		1c+;
+	End
+End
+
+Volume mp
+
+1         Eb
+2         Ab
+3        Gm7
+4         C7
+
+Delete Solo
+
+Repeat
+Repeat
+Groove EasySwing
+Cresc p m 4
+
+5         Fm
+6        Fm7      /    Bb7
+7         F7
+8        Bb7
+
+Groove EasySwingSus
+Cresc m mf 4
+
+9         Eb      /   EbM7
+10       Eb6      /     Eb
+11      Bbm6
+12        C7    Gm7    Ebm     C7
+
+Groove EasySwingWalk
+
+13        F9
+14       Fm7      /    Bb7
+
+RepeatEnding
+
+15        Eb      /    Eb+
+16        Cm    Eb7
+
+Groove EasySwingFill
+Decresc mp 4
+
+17        Gm
+18    C#dim3      /     D7
+19        Gm      /    Ebm
+20        F7      /    Bb7   Edim
+
+RepeatEnd
+
+
+21        Eb    Bb7     Eb  F#dim
+22       Gm7      /     C9
+
+Groove EasySwing
+
+23        Fm      /    Bb9
+24       Fm7      /    Bb7
+
+RepeatEnding
+
+Groove EasySwingFill
+
+25       Fm7      /  Bb7b9
+26        Eb
+
+RepeatEnd
+
+Groove EasySwingEnd
+Tempo -20 2
+
+27       Fm7      /  Bb7b9
+28        Eb      /     z!

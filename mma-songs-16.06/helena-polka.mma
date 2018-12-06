@@ -1,0 +1,123 @@
+// Helena Polka
+
+Tempo 240
+Keysig f
+
+Groove Metronome2-4
+ z * 2
+
+Groove PolkaIntro
+seq 3
+
+Begin Solo
+  Voice Accordion
+  Volume f
+  Harmony 3
+  Articulate 70
+  Octave 5
+  Begin Riff
+    2c+;;
+	2c+;;
+  End 
+End
+
+1    F    
+2    /    
+
+
+Repeat
+
+Groove Polka
+
+3    F    
+4    C7   
+5    F    
+6    /    
+7    C7   
+8    /    
+9    F    
+10   /    /    C7 
+
+Groove PolkaArp
+Arpeggio Sequence A4
+
+11   F    
+12   C7   
+13   F    
+14   /    
+15   C7   
+16   /    
+17   /    
+18   F    
+
+Groove Polka1Arp
+Arpeggio Sequence A4
+Keysig C
+
+19   C    
+20   /    
+21   G7   
+22   C    
+23   /    
+24   /    
+25   G7   
+26   C    
+
+Keysig F
+Groove Polka
+
+27   F    
+28   C7   
+29   F    
+30   /    
+31   C7   
+32   /  
+33   F    
+34   /    /    C7  
+
+Groove PolkaSusArp
+Arpeggio Sequence A4
+
+35   F    
+36   C7   
+37   F    
+38   /    
+39   C7   
+40   /    
+
+if def end
+  Groove PolkaEnd
+endif
+
+41   /    
+42   F  /  /  z!  
+
+if def end
+ eof
+endif
+
+Groove PolkaSus
+Keysig Bb
+
+43   Bb   
+44   /    
+45   /    
+46   /    
+47   F7   
+48   /    
+49   Bbdim /    Bb   
+50   F7   
+
+Groove Polka1Sus
+
+51   Bb   
+52   /    
+53   /    
+54   /    
+55   F7   
+56   /    
+57   Bb   
+58   /    /    /    z!   
+
+set end
+Repeatend

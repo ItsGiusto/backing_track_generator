@@ -1,0 +1,116 @@
+// Little Jazz Bird
+
+Tempo 110
+
+Groove Metronome2-4
+ z * 2
+
+Groove ModernJazzIntro
+Begin Solo
+    Voice Flute
+    Octave 5
+    Articulate 110
+    Harmony 8Above
+    Volume ff
+    Rvolume 10
+    Rtime 10
+    Begin Riff
+        8g;a;b;a;4g;;
+        8e+;d+;c+;b;4a;g;
+        4a;;b;c+;
+        2d+;
+    End
+End
+
+Swingmode On
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove ModernJazz
+
+5         G
+6        D7
+7         G
+8         /      /      /     D7
+
+Groove ModernJazz1
+
+9         G
+10       D7
+11       Bm      /      G
+12        /
+
+Groove ModernJazzSus
+
+13       Am
+14       D7
+15        /
+16        G
+
+Groove ModernJazz1
+
+17       Em
+18       A7
+19        /
+20       D7
+
+Groove ModernJazz
+
+21        G
+22       D7
+23        G
+24        /      /      /     D7
+
+Groove ModernJazz1
+
+25        G
+26       D7
+27       Bm      /      G
+28        /
+
+Groove ModernJazz1Sus
+
+29       Am
+30       D7
+31        /
+32       E7      /    DM7
+
+
+Groove ModernJazzSus
+
+33        G
+34       D7
+
+RepeatEnding
+
+35        G      /  Adim7
+
+Groove ModernJazzFill
+
+36        G      /  D7
+
+
+Begin AllGrooves Arpeggio 
+  Voice Flute
+  Octave +1
+End
+Begin AllGrooves Bass-Trp
+  Voice Flute
+  Octave +1
+End
+
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Tempo *.8 2
+Decresc ppp 2
+
+35        G      /  Adim7
+36        G      z!
+
+

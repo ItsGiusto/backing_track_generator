@@ -1,0 +1,87 @@
+// Im Getting Sentimental Over You
+
+// The tempo for this is one I heard Sonny Stitt using. Pretty slow ...
+// so, are you good enough to play it at this speed :)
+
+
+Tempo 50
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowJazzIntro
+
+Begin Solo
+  Voice Organ3
+  Harmony Open+8Below
+  Articulate 100
+  Octave 5
+  Volume mf
+  Begin Riff
+     8c+;8a;8f;8a;2c+;
+     8g#;8a;8bn;8c+;2d+;
+     2f+;d+;
+     2.c+;
+  End
+End
+
+Swingmode On
+
+Cresc pp m 4
+
+1          F
+2         E7
+3         Gm
+4         C7
+
+Repeat   // just do the entire piece 2x
+
+Groove SlowJazz2Sus
+Volume m
+
+5          F      /     E7
+6         Cm      /     D7
+Decresc mp 2
+7         G7      /     C7
+8         F6
+
+Groove SlowJazz1Sus
+Cresc m 4
+
+9          F      /     E7
+10        Cm      /     D7
+11        G7      /     C7
+12       Bbm   Bdim3      F     E7
+
+Groove SlowJazz2
+Decresc mf mp 4
+
+13        Am      /     Dm
+14        B7/D#      /   Bdim3
+15        E7
+16        Am  F#dim3     C7
+
+Groove SlowJazz2Sus
+Cresc mf 2
+
+17         F      /     E7
+18        Cm      /     D7
+19        G7      /     C7
+20         F     Cm     D7
+
+RepeatEnding
+
+Groove SlowJazz1Walk
+Volume m
+
+21        G7      /     C7
+22       Bbm   Bdim3      F     C7
+
+RepeatEnd
+
+Groove SlowJazz2End
+Decresc pp 2
+
+23        G7      /     C7
+24       Bbm   Bdim3      F     z!

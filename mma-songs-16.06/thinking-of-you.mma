@@ -1,0 +1,126 @@
+// Thinking Of You
+// From the 1927 Broadway show "The Five O'Clock Girl"
+
+Tempo 120
+Keysig Eb
+
+Groove Metronome2-4
+   z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Harmony Open
+    Articulate 110
+    Volume f
+    Begin Riff
+        2..e;8d;
+        2..e;8d;
+        4f;e;c;e;
+        1b-;
+    End
+End
+
+Begin Solo-1
+    Copy Solo
+    Delay 7t
+    MidiPan 0
+    Octave 7
+    Volume m
+End
+
+Begin Solo-2
+    Copy Solo
+    Delay -7t
+    MidiPan 127
+    Octave 7
+    Volume m
+End
+
+Solo Dupriff Solo-1 Solo-2
+
+Cresc pp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove FoxTrot
+DeCresc m mp 4
+
+5        Eb      /    Fm7
+6        Eb
+7      Bbm6      /      /    C7+
+8         /      /   C7b9
+
+Groove FoxTrotSus
+
+9      Abm6      /      /    Fm7
+10        /      /  Bb7b9
+11       Eb      /  Gbdim
+12      Fm7      /    Bb7
+
+Groove FoxTrotPlus
+Cresc mf 4
+
+13       Eb      /    Fm7
+14       E&
+15      Bbm6     /      /    C7+
+16        /      /   C7b9
+
+Groove FoxTrotSusPlus
+
+17     Abm6      /      /    Fm7
+18        /      /  Bb7b9
+19       Eb
+20      Fm6      /    G7+     G7
+
+Groove FoxTrot1
+Volume mp
+
+21       Cm      /    Eb+
+22      Cm7      /    Cm6
+23       Gm      /    Bb+
+24      Bbm      /   C7b9
+
+Groove FoxTrot1Sus
+Cresc m 4
+
+25       Ab      /   AbM7
+26       Ab
+27      Dm7      /     G7
+28      Fm7      /    Bb7
+
+Groove FoxTrotSus
+
+29       Eb      /    Fm7
+30       Eb
+31     Bbm6      /      /    C7+
+32        /      /   C7b9
+
+Groove FoxTrot
+Volume m
+
+33     Abm6      /      /    Fm7
+34        /      /  Bb7b9
+
+RepeatEnding
+
+Groove FoxTrotFill
+Decresc p 2
+
+35       Eb      /  Gbdim
+36       Eb      /  Bb7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc ppp 2
+
+35       Eb     /   Fm
+36       Eb    z!
+

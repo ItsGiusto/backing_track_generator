@@ -1,0 +1,136 @@
+// Serenata
+
+Tempo 130
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove BeguineIntro8
+
+Begin Solo
+    Voice Strings
+    Octave 5
+    Articulate 120
+    Volume f
+    Harmony OpenBelow+8Below
+    Begin Riff
+        2+8c;8f;e&;d&;
+        2+8c;8g;e;d&;
+        2+8c;8f;g;a&;
+        2.c+;
+        4r;8b;c+;d&+;c+;b;a&;
+        8b;a&;g;f;g;f;e&;d&;
+        1+2c~;
+    End
+End
+
+Solo Swell f ff 8
+Cresc pp mf 8
+
+1        Fm
+2      Gm11      /   C7b9
+3        Fm
+4     Gm7b5      /     C7
+
+5      Bbm7      / Bbm7/Ab
+6     Gm7b5      / Db9#11
+7     C7sus
+8        C7
+
+Repeat
+Groove Beguine
+Volume m
+
+9    F6(add9)
+10       D7
+11     Gm11
+12    C7sus      /     C7
+
+Groove BeguineSus
+Cresc f 4
+
+13      FM9
+14        /      /   Dm11
+15      G13
+16   Abdim7
+
+Groove Beguine
+Decresc mf 4
+
+17      Gm9
+18       C9
+19      FM7
+20     Em11      /     A9
+
+Groove Beguine1
+Decresc m 4
+
+21      DM7
+22     D7b9
+23    Gm7b5/Db
+24        /      /   C7b9
+
+Groove Beguine
+Cresc mp m 4
+
+25   F6(add9)
+26       D7
+27     Gm11
+28    C7sus      /     C7
+
+Groove Beguine1Sus
+
+29      FM9
+30        /      /   Dm11
+31      G13
+32   Abdim7
+
+Groove BeguineSus
+Cresc mf 4
+
+33      Gm7
+34       C9
+35       A7
+36       D9
+
+Groove Beguine
+Decresc m 2
+
+37       G7
+38      Db7      /   C7b9
+
+RepeatEnding
+
+39   F6(add9)
+
+Groove BeguineFill
+
+40      Gm7      /     C7
+
+Repeatend
+
+Groove Beguine1
+Volume m
+
+41       F6
+42   C7susb9
+43      Fm6
+44   Gm7b5b9      /   C7b9
+
+Groove BeguineSus
+
+45      Fm6
+46    Gm7b5      /   C7b9
+47      FM7
+48      Gm9      /   C7b9
+
+Groove BeguineEnd
+Decresc ppp 4
+
+49      FM7
+50   Gb9#11
+51      FM7
+52        / z!
+
+

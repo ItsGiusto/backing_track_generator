@@ -1,0 +1,108 @@
+// Just Like A Butterfly That's Caught In The Rain
+
+Tempo 115
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+    Voice Harmonica//  Tremolostrings
+    Harmony Open+8Below
+    Articulate 110
+    Octave 5
+    Rtime 0,8
+    Rvolume 20
+    Begin Riff
+        8f;g;4a;c+;f;
+        8d;e;4f;a;d;
+        8g;a;4b;g;b;
+        1g;
+    End
+End
+
+Groove BluesIntro
+Cresc mp mf 4
+Solo Swell m f 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove Blues
+Volume m
+
+5       FM7      / Abdim7
+6       Gm7      /  Adim7     D7
+7         /      /    Gm7
+8      Bbm7      /    Eb7
+
+Groove BluesSus
+Cresc mf 4
+
+9       FM7
+10     BbM7      /  Bdim7
+11      Gm7      /     C7
+12      FM7      /    Gm7     C7
+
+Groove Blues
+Volume m
+
+13      FM7      / Abdim7
+14      Gm7      /  Adim7     D7
+15        /      /    GM7
+16     Bbm7      /    Eb7
+
+Groove Blues1
+
+17      FM7
+18     BbM7      /  Bdim7
+19      Gm7      /     C7
+20      FM7
+
+Groove Blues
+Decresc mp 4
+
+21       A7
+22        /
+23       D7
+24        /
+
+Groove Blues1Sus
+Cresc m 4
+
+25       G7
+26        /
+27       C7
+28        /
+
+Groove Blues
+
+29      FM7      / Abdim7
+30      Gm7      /  Adim7     D7
+31        /      /    Gm7
+32   Abdim7
+
+Groove Blues1
+
+33      FM7
+34     BbM7      /  Bdim7
+
+RepeatEnding
+
+35      Gm7      /     C7
+
+Groove BluesTriple
+
+36      FM7      /   Gm7    C7
+
+RepeatEnd
+
+Groove BluesEnd
+Seq 3
+Decresc ppp 2
+
+35      Gm7      /     C7
+36      FM7      z!

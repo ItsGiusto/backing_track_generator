@@ -1,0 +1,75 @@
+// Where Is Love
+
+Tempo 80
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowJazz2Intro
+Begin Solo
+  Voice Piano1
+  Volume f
+  Harmony None
+  Articulate 100
+  Octave 5
+  Begin Riff
+    8g;e;c;e;4.g;8e;
+	8a;e;c;e;4.a;8e;
+	8d+;c+;b;a;4g;f;
+	2d;g;
+  End
+End
+
+Swingmode Off
+1    C    
+2    Am   
+3    Dm   
+4    G7   
+
+Groove SlowJazz1
+
+Repeat
+Swell mp f 8
+
+5    C    /    Dm   G7   
+6    CM7  /    C6   
+7    C    /    Dm   G7   
+8    CM7  /    C6   
+9    Dm7  G7   C7   F7   
+10   BbM7 /    Eb9  
+11   AbM7 
+12   Dm7  /    G7   
+
+Groove SlowJazz1Sus
+RepeatEnd
+
+Groove SlowJazz1Walk
+Repeat
+Swell mp mf 8
+
+13   C6   /    Dm7  G7   
+14   CM7  /    C#dim 
+15   Dm7  /    G7   
+16   C    /    A7b9 
+17   Dm7  /    G7   
+18   CM7  /    F9   
+19   BbM7 /    Bb6  
+20   A    /    A7   
+21   Dm7  
+22   /    /    G7   
+
+RepeatEnding
+
+23   C    
+24   /    
+
+Groove SlowJazz1WalkSus
+
+RepeatEnd
+
+Groove SlowjazzEnd
+Decresc pp 2
+
+25   C    /    Cm6  Cm#5 
+26   C    /    z!   
+

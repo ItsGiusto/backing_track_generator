@@ -1,0 +1,127 @@
+// Samba Lady
+
+Tempo 180
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice Clarinet
+	Volume f
+	Articulate 90
+	Octave 5
+	Harmony Open
+	Begin Riff
+		4f+;d+;8b;4.g;
+		4e+;c+;8a;4.f;
+		4d+;b;8g;4.e;
+		4f;r;c+;r;
+	End
+End
+
+Groove SambaIntro
+
+1   Gm      /       C7      
+2   F       /       Dm      
+3   Gm      /       C7      
+4   F       /       C7  
+    
+Repeat
+
+Begin Solo
+	Voice Piano2
+	Harmony 3
+	Begin Riff
+      4f;8;a;c+;4a;8f;
+      2g;c+;
+      4e;8;g;b;4g;8e;
+      2f;c+;
+      4f;8;a;c+;4a;8f;
+      2g;c+;
+      4e;8;g;b;4g;8e;
+      2f;4f+;;
+      4f+;;;8;4d&+~;
+      ~8b;4r;f+;;
+      4f+;;;8;4c+~;
+      ~8 a;4r;c+;;
+      4c+;8;4.d+;8c+;4e+~;
+      ~ 8g+;4r;4e+;c+;
+      4d+;b;8g;4e;4.f~;
+      ~8c+;;;;;;
+      4c+;8f;a;c+;4a;8f;
+      2g;8c+;;;;
+      4c+;8e;g;b;4g;8e;
+      2f;8c+;;;;
+      4c+;8f;a;c+;4a;8f;
+      2g;8c+;;;;
+      4c+;8e;g;b;4g;8e;
+      2f;4f+;;
+      4f+;;;8;4d&+~;
+      ~ 8b;4r;f+;;
+      4f+;;;8;4c+~;
+      ~ 8a;4r;c+;;
+      4c+;8;4.d+;8c+;4e+~;
+      ~ 8g+;4r;e+;c+;
+      4d+;b;8g;4e;2.+8f~;
+  End
+End
+
+Groove Samba
+
+5   F       
+6   C7      
+7   /       
+8   F       
+9   /       
+10  C7      
+11  /       
+12  F
+
+Groove SambaPlus
+       
+13  /  /  /  Bbm   
+14  Bbm     
+15  /    /  /  F   
+16  F       
+17  /    /  /   C7   
+18  C7      
+19  Gm      /       C7    F   
+20  F       z    
+   
+Groove SambaSus
+       
+21  F
+22  C7      
+23  /       
+24  F       
+25  /       
+26  C7      
+27  /       
+28  F 
+
+Groove Samba
+
+29  /  /  / Bbm   
+30  Bbm     
+31  /   /  /  F    
+32  F       
+33  /   /  /   C7    
+34  C7      
+
+RepeatEnding
+
+35  Gm      /       C7   
+
+Groove SambaFill
+
+36   F      /   C7
+
+RepeatEnd
+
+Groove SambaEnd
+Seq 3
+
+35  Gm      /       C7   
+37   F     z!  
+

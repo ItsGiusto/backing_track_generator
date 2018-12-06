@@ -1,0 +1,109 @@
+// Poor Butterfly (from The Big Show, 1916)
+
+Tempo 90
+Keysig Ab
+
+Groove Metronome2-4
+    z * 2
+
+Groove JazzComboIntro2
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Volume f
+    Articulate 110
+    Harmony 3Below
+    Begin Riff
+        4r;4a;f;g;
+        1c+;
+        4r;b;a;f;
+        2e;
+    End
+End
+
+Swell mp mf 4
+
+1         Ab
+2         Fm
+3        Bbm
+4        Eb7    Db9     C7  B7#11
+
+
+Repeat
+Groove JazzCombo1
+Volume m
+
+5        Bbm
+6       Bbm7      /  Eb7b9
+7       AbM7
+8        Ab6
+
+Groove JazzCombo1Plus
+Decresc mp 2
+
+9       G7b9
+10       C+7
+11       Cm7
+12        F7
+
+Groove JazzCombo1
+Cresc mf 4
+
+13       Bb7
+14       Eb7
+15      Edim      /     Fm
+16       Fm7
+
+Groove JazzCombo1Sus
+
+17       Bb7
+18         /
+19       Eb7
+20         /    Db9     C7  B7#11
+
+Groove JazzCombo1
+Volume m
+
+21       Bbm
+22      Bbm7      /  Eb7b9
+Decresc mp 2
+23      AbM7
+24       Ab6
+
+Groove JazzCombo1Sus
+Cresc mf 3
+
+25      G7b9
+26       C+7
+27        F9
+28         /
+
+Groove JazzCombo1
+Volume m
+
+29      Bbm7
+30    Bbm7b5
+31     Asus4     Ab Db7#11
+32       Cm7
+
+Groove JazzCombo1SusPlus
+Decresc mp 2
+33      Bbm7
+34         /      /  Eb7b9
+
+RepeatEnding
+
+35       Ab6
+36         /
+
+RepeatEnd
+
+Groove JazzComboEnd
+Decresc ppp 2
+
+35       Ab6
+36         /  z!
+
+
+

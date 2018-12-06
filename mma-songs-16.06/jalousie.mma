@@ -1,0 +1,173 @@
+// Jalousie
+
+Tempo 100
+Keysig C Minor
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+	Voice TremoloStrings
+	Octave 5
+	Volume f
+	Rtime 10
+	Harmony 3
+	Articulate 120
+End
+
+Groove LightTango
+
+Cresc p mf 1
+
+1         Cm    { 3+3g; a; an; b; bn; 2c+~;}  // my 1 bar intro
+
+Swell m mf 4
+
+2          /
+3          /
+4         Ab      /     Cm
+5          /
+
+Groove LightTango1
+Decresc mp 4
+
+6        Fm6
+7          /      /     G7
+8         Cm
+9         G7
+
+Groove LightTango
+Volume m
+
+10        Cm
+11         /
+12        Ab      /     Cm
+13         /
+
+Groove LightTango1
+Cresc f 4
+
+14        Eb      /     Gm
+15        Cm      /     D7
+16        Gm
+17         /
+
+Groove LightTango
+Decresc m 4
+
+18        G7
+19         /
+20        Cm
+21         /
+
+Groove LightTango1
+
+22         C
+23        C7
+24        Fm
+25         /
+
+Groove LightTango
+Volume mp
+
+26        Fm
+27         /
+
+Volume m
+28         /
+29         /
+
+Groove LightTango1
+Volume mf
+
+30        Cm
+31        Fm
+
+Volume f
+
+32        G7
+
+Groove LightTangoFill
+
+33         /
+
+Keysig C
+Repeat
+Groove LightTangoSus
+Decresc m mp 4
+
+34        C6
+35         /
+36        G7
+37         /
+
+Groove LightTango1Sus
+Cresc mf 4
+
+38         /
+39         /
+40         C
+41        G7
+
+Groove LightTangoSus
+Volume m
+
+42         C
+43    F#dim7
+44        G7
+45    C#dim7      /     G7
+
+Groove LightTango1Sus
+Volume mp
+
+46         /
+47       Dm7      /     G7
+48         C
+49      Gaug
+
+Groove LightTangoSus
+Cresc mf 8
+
+50         C
+51         /
+52        G7
+53         /
+
+Groove LightTango1Sus
+
+54         /
+55         /
+56         C
+57        G7
+
+Groove LightTangoSus
+Volume m
+
+58        C7
+59         /
+60         F
+61     Bdim7
+
+Decresc mp 2
+
+62         C
+63        G7
+
+RepeatEnding
+
+Groove LightTango1Sus
+
+64         C
+
+Groove LightTangoFill
+
+65         /
+
+RepeatEnd
+
+Groove LightTangoEnd
+Decresc ppp 2
+Tempo *.9 2
+
+66         C
+67         /     z!

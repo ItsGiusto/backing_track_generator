@@ -1,0 +1,113 @@
+// So Rare
+
+Tempo 128
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxtrotIntro
+
+AllGrooves Chord Voicing Mode=Key2
+AllGrooves Chord-Piano Voicing Mode=Key2
+
+Begin Solo
+    Voice Piano1
+    Cresc mf ff 3
+    Articulate 120
+    Octave 5
+    Harmony OpenBelow
+    Begin Riff
+        8c;4e;8c;4e;g;
+        8c;4e;8c;4e;a;
+        8d;4f;8d;4f;4d;
+        1g;
+    End
+End
+
+Swell mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5         C      /      /  Ebdim
+6        G9      /      /    G9+
+7         C
+8       Eb7      /  Eb7b9
+
+Groove FoxTrotPlus
+Cresc mf 4
+
+9       Ab6      /      /    Ab7
+10       G7      /    Db9    Db7
+11      CM7      /     C9    CM7
+12      Dm7      /    G9+
+
+Groove FoxTrot
+Decresc m 4
+
+13        C      /      /  Ebdim
+14       G9      /      /    G9+
+15        C
+16      Eb7      /  Eb7b9
+
+Groove FoxTrotPlus
+
+17      Ab6      /      /    Ab7
+18       G7      /    Db9    Db7
+Decresc mp 2
+
+19      FM>-1      /    CM7    FM7>-1
+20      Fm7>-1      /     C6
+
+Groove FoxTrotSus
+
+21      Dm7      /     G7
+22      CM7      /     C6
+Cresc m 2
+23      Dm7      /     G7
+24      CM7      /     C6
+
+Groove FoxTrotSusPlus
+
+25      Bm7      /     E7
+26      AM7      /  Bbdim
+27      Am7      /     D9
+28      Dm9      /    Dm7    Db7
+
+Groove FoxTrot
+Volume mf
+
+29        C      /      /  Ebdim
+30       G9      /      /    G9+
+31        C
+32      Eb7      /  Eb7b9
+
+Groove FoxTrotPlus
+Decresc m 2
+
+33      Ab6      /      /    Ab7
+34       G7      /    Db9  Db7b5
+
+Repeatending 
+Groove FoxTrotFill
+Decresc mp 2
+
+35      FM7>-1      /    CM7    Dm7
+36      G7
+
+RepeatEnd
+Groove FoxTrotEnd
+Decresc ppp 2
+Tempo *.8 2
+
+35      FM7>-1      /    CM7    Dm7
+36      CM7     z!
+
+

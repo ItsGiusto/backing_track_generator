@@ -1,0 +1,161 @@
+// Blue Bayou
+
+// Roy Orbison took this to #29 in 1963
+// Roy did this in F, we use Eb
+
+Tempo 116   // Roy's tempo
+Keysig F
+
+Transpose -2
+
+Include stdpats
+SeqSize 4
+
+Begin Drum-Conga
+   Tone LowConga
+   Sequence {1 0 90; 2.5 0 90; 4 0 90}
+   Volume f
+End
+Begin Drum-HiHat
+   Tone ClosedHiHat
+   Sequence D8
+   Volume mp
+End
+ z * 2
+
+Begin Solo
+    Voice OrchestralHarp
+    Volume fff
+    Harmony OpenBelow+8Below
+    Articulate 120
+    Octave 5
+    Begin Riff
+        8c+; 4; 8+2a;
+        8c+; 4; 8+2a;
+        8b; 4; 8+2g;
+        2f;
+    End
+End
+
+// THe bass and chord tracks are copied from the ballad.mma lib file
+
+Begin Bass
+	Voice FretLessBass
+	Sequence   { 1 4 1 90 ; 2.5 4 1 80; 4 4 5 70} /  /  { 1 2 1 90 }
+	Articulate 90
+    Volume f
+	Rtime 5
+	Rvolume 10
+	Octave 3
+End
+
+
+Begin Chord
+	Voice Atmosphere
+	Sequence   C1234   /   /  L1
+	Voicing   Mode=Optimal  Rmove=20
+	Octave 5
+	Articulate 99
+	Volume mp
+End
+
+Seq  // Important!
+
+1          F
+2          /
+3         C7
+4          F
+
+Repeat
+Groove Ballad
+
+5          F
+6          /
+7          /
+8         C7
+
+Groove Ballad1
+
+9          /
+10         /
+11         F
+12        C7
+
+Groove BalladSus
+
+13         F
+14         /
+15        C7
+16         /
+
+Groove Ballad1Sus
+
+17         /
+18         /
+19         F
+20        Eb      F
+
+Groove BalladSus
+
+21         /
+22         /
+23        C7
+24         /
+
+Groove Ballad
+
+25         /
+26         /
+27         F
+28         /
+
+Groove BalladSus
+
+29         /
+30        F+
+31        Bb
+32       Bbm
+
+Groove Ballad
+
+33         F
+34        C7
+
+RepeatEnding
+
+Groove Ballad1
+
+35         F
+
+
+Groove BalladFill
+
+36         /
+
+RepeatEnd
+
+Groove Ballad1
+
+37         F
+38         /
+39        C7
+40         /
+
+
+Groove BalladSus
+
+Truncate 2
+41        /   // This is a 2/4 bar
+
+42        C7
+43         /
+
+Groove BalladEnd
+seq 3
+Decresc ppp 2
+
+44         F
+45         F     z!
+
+
+

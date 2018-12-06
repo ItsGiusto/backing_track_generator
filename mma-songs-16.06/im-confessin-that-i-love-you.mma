@@ -1,0 +1,79 @@
+// Im Confessin That I Love You
+
+Tempo 70
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+	
+Groove EasySwingWalk
+Begin Solo
+ Voice JazzGuitar
+ Volume f
+ Articulate 90
+ Harmony 8Below
+ Octave 5
+ Begin Riff
+   8g;a;b;c+;4d+;c+;
+   8g;a;b;c+;2d+;
+   8a;b;c+;d+;4e+;d+;
+   1d+;   
+ End
+End
+
+Swingmode On
+
+1       G    
+2       Em7	
+3       Am7  
+4       D7   
+
+Repeat
+Groove Easyswing
+
+5       G     /     D+   
+6       GM7  
+7       G     /     D+   
+8       Bm7   /     E9   
+9       A7   
+10      Am7   /     D7    D7b9 
+11      G     /     Em7  
+12      Am    /     D13   D7b9 
+13      G     /     D+   
+14      GM7  
+15      G     /     D+   
+16      Bm7   /     E9   
+17      A7   
+18      Am7   /     D7    D7b9 
+19      G     /     Cm   
+20      G    
+
+Groove EasySwingSus
+
+21      G7   
+22      G9   
+23      C     /     G+   
+24      C6    /     B7    Bb7  
+25      A7   
+26      Em7   /     A9   
+27      D9    /     Am7  
+28      D9    /     D7b9 
+29      G     /     D+   
+30      GM7  
+31      G     /     D+   
+32      Bm7   /     E9   
+33      A7   
+34      Am7   /     D7    D7b9 
+
+RepeatEnding
+
+35      G     /     Em7  
+36      Am7   /     D9    D7b9 
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+37      G     /     Cm6  
+38      G6   / z!
+

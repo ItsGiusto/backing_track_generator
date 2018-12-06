@@ -1,0 +1,149 @@
+// Palabras De Mujer
+// By Agustin Lara
+
+Tempo 126
+Keysig F minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove LightTangoIntro
+Allgrooves Chord Voicing Mode=Key
+
+Begin Solo
+    Voice Piano1
+    Articulate 105
+    Volume f
+    Harmony Openabove+8Below
+    Octave 5
+    Begin Riff
+        4.f;8a;4f;a;
+        4.dn;8f;4d;f;
+        8dn;e;f;g;4a;b;
+        2c+;
+    End
+End
+
+Swell mp mf 4
+
+1        Fm
+2        Dmb5
+3        Gm7
+4        C7
+
+Groove LightTango
+Volume m
+
+5        Fm
+6      Bbm6      /     C7
+7        Fm
+8     Gm7b5      /     C7
+
+Groove LightTangoSus
+Cresc mf 4
+
+9        Fm
+10     Bbm6      /     C7
+11       Fm      /  Ab/Eb
+12       Db      /     C7
+
+Groove LightTango1
+
+13       Fm
+14     Bbm6      /     C7
+15       Fm      / Fm7/Eb
+16       Db      /     C7
+
+Groove LightTango1Sus
+Decresc m 4
+
+17       Fm      / Fm7/Eb
+18       Db      /     C7
+19        F
+
+Groove LightTangoFill
+
+20        /
+
+Keysig F
+Repeat
+
+Groove LightTango
+Volume m
+
+21        /
+22      FM7
+23      Gm7      /     C7
+24        /
+
+Groove LightTangoSus
+
+25        /
+26      Gm7      /     C7
+27        F
+28      FM7      /     F6
+
+Groove LightTango
+Cresc mf 4
+
+29        /
+30    D7/F#
+31      Gm7      /     C7
+32      Gm7      /     C7
+
+Groove LightTango1
+Cresc f 4
+
+33        /
+34      Gm7      /     C9
+35      FM7
+36        F
+
+Groove LightTango1Sus
+Decresc m 4
+
+37        /
+38      FM7
+39      Gm7      /     C7
+40        /
+
+Groove LightTango
+Decresc mp 2
+
+41        /
+42      Gm7      /     C7
+43       A7
+44    Em7b5      /     A7
+
+Groove LightTangoSus
+Cresc m 2
+
+45       D7
+46     D7#5      /     D7
+47       G9
+48    G#dim      /      /      z
+
+Groove LightTango
+
+49        C
+
+Repeatending    /// actually a coda,etc. but this works
+
+50       G7      /     C7
+51        F
+
+Groove LightTangoFill
+
+52        /
+
+RepeatEnd
+
+Groove LightTango4End
+Decresc ppp 4
+
+53        C      /     C9
+54        F      /    Bbm
+55        /
+56        F      z!
+
+

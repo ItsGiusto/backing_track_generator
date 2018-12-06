@@ -1,0 +1,122 @@
+// K K K Katy
+
+Tempo 130
+Keysig C
+
+Groove 68MarchMetronome
+ z * 2
+
+Groove 68MarchIntro
+
+// The 68march is a groove in 2 (MMA doesn't understand 6/8).
+// So there are 2 quarters (NOT 6 8ths) in a bar. Use triplets!
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Harmony 3Below+8Below
+    Octave 5
+    Articulate 90
+    Begin Riff
+        3g;a;b;4c+;
+        3a;b;c+;4e+;
+        3d+;;;;;;
+        2d+;
+    End
+End
+
+Cresc mp mf 4
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+
+Repeat
+Groove 68March
+Volume m
+
+5          C
+6          /     A7
+7         D7
+8          /
+
+Groove 68MarchPlus
+Swell mf 4
+
+9         G7
+10         /
+11         C C#dim@2.5
+12        G7
+
+Groove 68MarchSusPlus
+Cresc mf 4
+
+13         C
+14         /     A7
+15        D7
+16         /
+
+Groove 68MarchPlus
+Decresc mp 2
+
+17        G7
+18         /
+
+RepeatEnding  2
+
+19         C
+
+Groove 68MarchFill2
+
+20         /
+
+
+RepeatEnd
+
+Groove 68MarchFill
+21         C
+
+Transpose 1  // play in Db
+
+22         /
+
+Groove 68MarchSusPlus
+Volume m
+
+23         C
+24         /     A7
+25        D7
+26         /
+
+Groove 68MarchPlus
+Swell f 4
+
+27        G7
+28         /
+29         C C#dim@2.5
+30        G7
+
+Groove 68MarchSusPlus
+Cresc f 4
+
+31         C
+32         /     A7
+33        D7
+34         /
+
+Groove 68MarchPlus
+Decresc mp 4
+
+35        G7
+36         /
+37         C
+38         /
+
+Groove 68MarchEnd
+Decresc ppp 2
+
+39         /
+40         / z!
+

@@ -1,0 +1,114 @@
+// Big Spender
+
+Tempo 92
+Keysig D minor
+
+Transpose 3
+
+Groove Metronome2-4
+	   z * 2
+
+Begin Solo
+  Voice CleanGuitar
+  Octave 4
+  Harmony Open+8Above
+  Volume f
+  Accent 1 20 4 30
+  Articulate 90
+  Begin Riff
+    4d;8;;4;8c;d;
+	1r;
+    4d;8;;4;8c;d;
+    1r;
+  End
+End
+
+Groove ShuffleBoggieIntro4
+SwingMode on
+Cresc p mf 4
+
+1         Dm
+2         /
+3         /
+4         /
+
+Repeat
+Groove ShuffleBoggie
+Swell mp mf 8
+
+5        Dm
+6         /
+7        Bb
+8        E7
+9        A7
+10       Dm
+11      Bb9
+12        /      /  A7+
+
+Groove ShuffleBoggie1
+Cresc mf 6
+
+13       Dm
+14        /
+15       Bb
+16       E7
+17       Dm
+18        /   {4d;r;d;r;}
+
+RepeatEnding
+Volume m
+
+19      Bb9
+20       A7
+21       Dm
+22        /   { 4d;8;;4;8c;d; }
+
+Groove ShuffleBoggieFill
+Swingmode On
+23        /   {4r;d;r;d;}
+
+Keysig D
+
+Groove ShuffleBoggieSus
+Cresc mp mf 8
+
+24        z
+25        D      /    F#m
+26       Bm      /      D
+27       Em      /   Baug
+28      Em7
+29      Bb9
+30       A7
+31      Bb9
+32       A7      /      z
+
+Keysig D Minor
+Repeatend
+
+Groove ShuffleBoggie
+Volume m
+
+33      Ebm
+34        /     {4e&;r;e&;r;}
+35       Dm
+36        /     {4d;r;d;r;}
+
+Groove ShuffleBoggie1
+
+37      Bb9
+38       A7
+39       Dm
+40      Bb9      /     A7
+
+Tempo *.84 4
+Decresc pp 4
+
+41       Dm
+42      Bb9      /     A7
+
+Groove ShuffleBoggieEnd
+
+43       Dm      /     G9
+44   Dm6(add9)  /    z!
+
+

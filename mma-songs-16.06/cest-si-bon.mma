@@ -1,0 +1,139 @@
+// C'est Si Bon
+
+Tempo 120
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+    Voice BrassSection
+	Volume f
+	Harmony 3Below
+	Octave 5
+	Articulate 80
+	Begin Riff
+	    4.d;8f;4.g;8f;
+		4.d&;8f;4.g;8f;
+		43e;d;c;2f;	
+	End
+End
+
+Groove SwingIntro
+
+// 4 bar intro includes 2 beat pickup
+
+Swell mp f 4
+
+1         Bb
+2        Bbm
+3         Cm      /     F7      /
+4         F7      /      z      z
+
+
+Repeat
+Groove Swing1Walk
+Volume m
+
+5        Cm7
+6         F7
+7     Bbmaj7      /      /    Bb6
+8          /      /     Bb    Bbm
+
+Groove Swing1Plus
+Volume mp
+
+9         Cm
+10        F7
+11       Bb6
+12      A7#5      /      /     A7
+
+Groove Swing1
+Volume m
+
+13       Cm7
+14        F7
+15    Bbmaj7      /      /    Bb6
+16         /      /   Bb/D    Bbm
+
+Groove Swing1WalkSus
+Cresc mf 4
+
+17       Cm7
+18        F7
+19       Bb6
+20         /
+
+Groove Swing1PlusSus
+Decresc mp 4
+
+21        Gb
+22        Cb
+23        Gb
+24         /
+
+Groove Swing1Sus
+Volume m
+
+25        C7
+26         /      /      /     C9
+27       F13
+28        F7      /      z
+
+Groove Swing1Walk
+Volume mf
+
+29       Cm7
+30        F7
+31        Bb      / Bbmaj7    Bb6
+32         /      /     Bb    Bbm
+
+Groove Swing1Sus
+Volume m
+
+33       Cm7
+34        F7
+35       Fm6
+36        G7
+
+Groove Swing1PlusSus
+
+37       Cm7
+38      Ebm6
+39    Bbmaj7
+40        Bb
+
+Groove Swing1Plus
+Decresc mp 4
+
+41        B7
+42         F
+
+RepeatEnding
+
+Groove Swing1WalkPlus
+
+43       Bb6      /    Gm7
+44       Cm7     F7      z
+
+RepeatEnd
+
+Groove Swing1
+Decresc p 8
+
+45       Bb6      /    Gm7
+46         F
+47       Bb6      /    Gm7
+48        F7
+
+Groove Swing1Walk
+
+49       Bb6      /    Gm7
+50         F
+
+Groove Swing1End
+
+51       Bb6      /    Gm7
+52         F
+
+

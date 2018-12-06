@@ -1,0 +1,93 @@
+// Perdida
+// By J.J. "Chucho" Navarro
+
+Tempo 95
+
+// Take it from D Major to Bb ... I don't play in 
+// E major (4 sharps) plus additional accidentals :)
+
+Transpose -4 
+
+Groove Metronome2-4
+	z * 2
+
+Groove Rhumba
+Seq 4
+
+    z
+
+Repeat
+Groove Rhumba
+
+1    D    
+2    /    
+3    /    
+4    /    
+5    A7   
+6    / 
+
+Groove Rhumba1
+   
+7    Em   
+8    /    
+9    A7   
+10   /    
+11   D    /    Bm7  
+12   Em7  /    A7  
+
+Groove RhumbaSus
+ 
+13   D    
+14   /    
+15   /    
+16   D7   
+17   G    
+18   / 
+
+Groove Rhumba3
+   
+19   /    
+20   /    
+21   D    
+22   /    
+23   E7   
+
+RepeatEnding
+
+24   A7   
+
+Groove Rhumba3Sus
+
+25   D    /    Bm7  
+26   Em7  /    A7   
+27   D    /    Bm7  
+
+Groove RhumbaTripleSus
+
+28   Em7  /    A7   
+
+RepeatEnd
+
+29   A7   /  z
+
+Groove Rhumba
+
+30   A7    
+31   D    /    Bm7  
+
+Groove RhumbaEnd
+
+Begin Scale
+	Direction Down
+	Octave 3
+	Decresc -40 p 4
+End
+Decresc pp 4
+Tempo *.9 4
+
+32   Em7  /    A7   
+33   D    /    Bm7  
+34   Em7  /    A7   
+35   D6   / / z!
+
+

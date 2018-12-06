@@ -1,0 +1,91 @@
+// My Romance
+
+Tempo 66
+
+Groove Metronome2-4
+	   z * 2
+
+Groove SlowBluesIntro
+Begin Solo
+	  Voice JazzGuitar
+	  Octave 5
+	  Articulate 110
+	  Harmony Open
+	  Volume f
+	  Begin Riff
+	  		4e;f;2g;
+			4r;8e;f;e;d;4c;
+			4d;d;e;f;
+			1g;
+	  End
+End
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+
+Groove SlowBlues
+Cresc mp m 8
+
+5       CM7      /    Dm7
+6       Em7      / Ebdim7
+7       Dm7      /     G7
+8       CM7      /   Bb13
+9        Am      /   AmM7
+10      Am7      /     A7
+11      Dm7      /     G7
+12      CM7      /     C7
+
+Groove SlowBluesSus
+Decresc m mp 8
+
+13      FM7      / F#dim7
+14      CM7      /     C7
+15      FM7      / F#dim7
+16      CM7
+17     F#m7      /   F7b5
+18      Em7      /    Eb7
+19      Am7      /     D7
+20      Dm7      /     G7
+
+Groove SlowBluesWalk4
+Volume m
+
+21      CM7      /    Dm7
+22      Em7      / Ebdim7
+23      Dm7      /     G7
+24      CM7      /   Bb13
+25       Am      /   AmM7
+26      Am7      /     A7
+27      Dm7      /     G7
+28      CM7      /     C7
+
+Groove SlowBluesWalk4Sus
+Volume mf
+
+29      FM7      /  FM7/E
+30      Dm7      /  Dm7/C
+31      Bm7      / Bb9#11
+32      Am7      /    Ab9
+33    CM7/G      /    Am7
+34      Dm7      /  Dm11/G
+
+RepeatEnding
+
+Groove SlowBluesFill1
+
+35       C6
+36        /
+
+RepeatEnd
+
+Groove SlowBluesEnd
+Seq 3
+Decresc m mp 2
+
+35       C6
+36        /  / z!
+

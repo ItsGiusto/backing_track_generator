@@ -1,0 +1,129 @@
+// My Baby Just Cares For Me
+
+Tempo 140
+KeySig  Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove DescendingJazzPlusIntro8
+Begin Solo
+    Voice Piano2
+	Volume ff
+	Articulate 90
+	Octave 5
+	Harmony OpenBelow
+	Begin Riff
+	   4e+; d+; c+; b;
+	   4c+; b; a; g;
+	   4c; d; e; f;
+	   4g; f; e; d;
+	   4d; e; f; g;
+	   4a; g; f; e;
+	   4f; f; g; a;
+	   1b;
+	End
+End
+
+Cresc pp m 8
+
+1         Eb
+2          /
+3         Cm
+4          /
+5      Fm/Ab
+6          /
+7      Bb7/F
+8          /
+
+Repeat
+Groove DescendingJazz
+Volume m
+
+9         Eb
+10    Ab7#11
+11        Eb
+12    Ab7#11
+
+Groove DescendingJazzPlus
+Volume mf
+
+13        Eb
+14         G      / Gbdim3
+15        Fm
+16         /
+
+Groove DescendingJazz
+Decresc  mp 6
+
+17     Dm7b5
+18        G7
+19        Cm
+20     Dm7b5      /     G7
+
+Groove DescendingJazzSus
+
+21        Cm
+22     F7#11
+
+AllTracks Sequence -
+
+Volume f
+Drum-Side Sequence D1234
+Drum-kick Sequence D1234
+Begin Chord-Piano
+	  Sequence C1234
+	  Cresc ppp p 1
+End
+
+23       Fm7 
+
+Groove DescendingJazzSus
+Volume mp
+
+24       Bb7
+
+Groove DescendingJazz
+Cresc m 8
+
+25        Eb
+26    Ab7#11
+27        Eb
+28    Ab7#11
+
+Groove DescendingJazzSusPlus
+
+29     Gdim3
+30    Gbdim3
+31        Fm
+32         /
+
+Groove DescendingJazz
+Volume m
+
+33        Ab
+34     Am7b5      /     D7
+35      Abm7      /    Db7
+36       Gm7      /     C7
+
+Groove DescendingJazzPlus
+
+37       Fm7
+38       Bb7
+
+RepeatEnding 2
+
+39        Eb
+40         /      /    Ab7
+
+RepeatEnd
+Groove DescendingJazzEnd
+Decresc pp 2
+Tempo *.8 2
+
+40        Eb
+41         /      /     z!
+
+
+
+

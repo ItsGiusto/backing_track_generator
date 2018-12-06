@@ -1,0 +1,104 @@
+// Take Your Shoes Off Baby
+// Recorded: Artie Shaw, 1941
+
+Tempo 116
+Keysig Bb
+
+Groove Metronome2-4
+   z * 2
+
+Groove FoxTrotIntro
+
+Begin Solo
+    Voice Piano1
+    Articulate 110
+    Octave 5
+    Volume f
+    Begin Riff
+        4.dfb;8r;;dfb;;r;
+        4.dgb;8r;;dgb;;r;
+        4.egc;8r;;egc;;r;
+        2efac+;
+    End
+End
+
+Swingmode On
+Swell mp mf 2
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5        Bb
+6        C7      /     F7
+7        Bb
+8         /      /      /     D7
+
+Groove FoxTrotPlus
+
+9        C9      /     C7
+10       C9     C7
+11       C9      /    Cm7     F+
+12       Bb      /     F7
+
+Groove FoxTrot
+
+13       Bb
+14       C7      /     F7
+15       Bb
+16        /      /      /     D7
+
+Groove FoxTrotPlus
+
+17       C9     C7
+18       C9     C7
+19      Cm7      /    Ebm     F7
+20       Bb
+
+Groove FoxTrotSus
+
+21        D      /     D9
+22       D+      /     D9
+23       Gm      /     F7
+24       Bb     D7     Gm
+
+Groove FoxTrotSusPlus
+
+25       C7      /    Gm7
+26        C      /     C7
+27       Eb      /    Ebm
+28       F7
+
+Groove FoxTrotPlus
+
+29       Bb
+30       C9      /     F7
+31       Bb
+32        /      /      /     D7
+
+Groove FoxTrot
+
+33       C9     C7
+34       C9     C7
+
+RepeatEnding
+
+Groove FoxTrotFill
+
+35      Cm7      /    Ebm     F7
+36      Bb      /     F7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+35      Cm7      /    Ebm     F7
+37       Bb   z!
+
+
+

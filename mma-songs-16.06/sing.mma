@@ -1,0 +1,147 @@
+// Sing
+
+Tempo 135
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+    Voice JazzGuitar
+    Articulate 120
+    Harmony OpenBelow
+    Octave 5
+    Begin Riff
+        4g+;8;e+;g+;4a+;8e+;
+        4g+;8;e+;g+;4a+;8e+;
+        4f+;g+;8f+;e+;d+;8+2.g~;
+        ~ 8e+;
+        4g+;8;e+;g+;4a+;8e+;
+        4g+;8;e+;g+;4a+;8e+;
+        4f+;g+;8f+;e+;d+;8+2.g~;
+    End
+End
+
+Set Count 1
+Groove EasySwingIntro
+Swell mp f 8
+Solo Cresc m ff 8
+
+Repeat
+Seq 1
+1          C
+2          /
+3        Dm7
+if eq $count 1
+  Seq 2
+  inc count
+Else
+  Seq 3
+Endif
+4         G7
+
+RepeatEnd
+
+Repeat
+Groove EasySwing
+Volume m
+
+5          C
+6          /      /    Am7
+7      Dm7/C
+8          /      /      F
+
+Groove EasySwingSus
+Cresc mf 4
+
+9          C
+10         /
+11    Gm11/C
+
+Begin Solo
+  Octave 6
+  Riff 8r;4e;8d;4c;b-;
+  Riff 4a-;
+  Volume f
+End
+
+12         /
+
+Groove EasySwingFill
+
+13       FM7
+14         /
+15         C
+
+Begin Solo
+  Octave 6
+  Riff 8r;4e;8d;4c;b-;
+  Riff 4c;
+  Volume f
+End
+
+16         /
+
+Groove EasySwingSus
+Decresc mp 4
+
+17       Am7
+18        D9
+19        Dm
+20        G7
+
+Groove EasySwing
+Volume mf
+
+21         C
+22         /      /    Am7
+23     Dm7/C
+24         /      /     G7
+
+Groove EasySwingSus
+Volume m
+
+25         C
+26       CM7      /     C6
+27       Gm7
+28        C7
+
+Groove EasySwingFill
+Decresc mp 4
+
+29       FM7
+30        E7
+31       Am7
+32      Cmb5
+
+Groove EasySwing
+Cresc mf 4
+
+33    G7sus4
+34         /      /     G7
+35         C
+36         z
+
+RepeatEnd
+
+Groove EasySwingSus
+Decresc p 6
+
+Repeat
+
+37         C
+38         /
+
+RepeatEnding
+
+39       Dm7
+40         /
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc ppp 2
+
+41       Dm7
+42         /     z!
+

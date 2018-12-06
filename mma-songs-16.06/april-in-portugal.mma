@@ -1,0 +1,145 @@
+// April In Portugal
+
+Tempo 128
+KeySig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove RhumbaIntro
+Begin Solo
+  Voice Strings
+  Octave 5
+  Harmony OpenBelow
+  Articulate 110
+  Decresc f mp 4
+  Begin Riff
+      2.c+;8b;a;
+	  2.a;8g;f;
+	  2f;e;
+	  1d;
+  End
+End
+
+1         C
+2        Am
+3        Dm
+Seq 2
+4        G7
+
+Groove Rhumba3
+Swell mp mf 8
+
+5         C
+6        C6      /      /     C+
+7        G7
+8        G9      /      /   Bdim
+
+Groove Rhumba1
+
+9        G7
+10       Em      /     G7
+11        C
+12        /      /      /     C6
+
+Groove RhumbaSus
+Volume m
+
+13        C
+14       C6      /      /     C+
+15       G7
+16       G9      /      /   Bdim
+
+Groove Rhumba3
+Cresc mf 4
+
+17       G7
+18       Em      /      /     G7
+19        C
+20        /
+
+Repeat
+
+KeySig C minor
+
+Groove RhumbaSus
+Volume m
+
+21      Cm7
+22      Eb+
+23      Cm7
+24      Cm6
+
+Groove Rhumba1Sus
+Volume mp
+
+25       Ab
+26       Cm
+27       G7      /      F
+28       G7
+
+Groove RhumbaSus
+Volume m
+
+29        /
+30    Abdim
+31       G7
+32        /
+
+Groove Rhumba
+Volume mp
+
+33        /      /      /    Dm7
+34     G7+5      /     G7   G7+5
+
+KeySig C
+
+35        C
+36        /
+
+Groove Rhumba3Sus
+Swell m mf 8
+
+37        /
+38       C6      /      /     C+
+39       G7
+40       G9      /      /   Bdim
+
+Groove Rhumba3
+
+41       G7
+42       Em      /     G7
+43        C
+44        /      /      /     C6
+
+Groove RhumbaSus
+Decresc m mp 4
+
+45        C
+46       C6      /      /     C+
+47       G7
+48       G9      /      /   Bdim
+
+Groove Rhumba
+
+49       G7
+50       Em      /      /     G7
+
+RepeatEnding
+
+51        C
+
+Groove RhumbaTriple
+
+52        /
+
+RepeatEnd
+
+Groove RhumbaEnd1
+
+Decresc ppp 2
+Tempo *.8 2
+
+53        C
+54        /  z!
+

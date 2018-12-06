@@ -1,0 +1,101 @@
+// Chicago
+
+Tempo 150
+Groove Metronome2-4
+	z * 2
+
+Groove SwingIntro
+
+Begin Solo
+	Voice Piano2
+	Volume f
+	Harmony Open
+	Octave 6
+	Articulate 120
+	Begin Riff
+		8d+; 4c+; 8d+; 4c+; d+;
+		8d+; 4c+; 8d+; 4c+; d+;
+		4d+; c+; d+; f+;
+		1f+;
+	End
+End
+
+1    F    
+2    Am   
+3    Dm   
+
+Bass Riff 1 8 5 128; 2 8 4 128; 3 8 3 128; 4 8 2 128
+
+4    Gm7  
+
+Repeat
+Groove Swing1
+
+5    Fmaj7 /    Gm7  
+6    Am7  /    D7   
+7    Gm7  /    C7   
+
+Groove Swing
+
+8    Gm7  /    C7   
+
+Groove Swing1
+
+9    Gm7  /    C7   
+10   Gm7  /    C7   
+11   F    Fdim 
+12   Gm7  /    C7   
+13   F    
+14   /    
+15   G7   
+16   /    
+17   Gm7  /    C7   
+18   Gm7  C7   
+19   F    /    F#dim 
+20   C7   z    /    Gm7  
+
+Groove Swing1Plus
+
+21   Fmaj7 /    Gm7  
+22   Am7  /    D7   
+23   Gm7  /    C7   
+
+Groove Swing
+
+24   Gm7  /    C7   
+
+Groove Swing1
+
+25   Gm7  /    C7   
+26   Gm6  /    A7   
+27   Dm   
+
+Groove Swing1Triple
+
+28   D7   
+
+Groove Swing1
+
+29   Bb   
+30   Eb9  
+31   F    /    C+   
+32   Cm6  /    D7   Fdim 
+33   C7   /    Gm7  
+34   C7   /    Gm7  C7   
+
+RepeatEnding
+
+35   F    F#dim 
+
+Walk Riff -
+Bass Riff 1 4 5 128; 2 4 4 128; 3 4 3 128; 4 4 2 128
+
+36   C7   /    Gm   
+
+RepeatEnd
+
+Groove Swing1End
+
+37   F    /    Eb9  F6   
+38   /   z! 
+

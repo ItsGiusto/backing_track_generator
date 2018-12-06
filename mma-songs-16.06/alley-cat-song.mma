@@ -1,0 +1,132 @@
+// Alley Cat Song
+
+Tempo 116
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+    Voice Piano1
+	Volume ff
+	Harmony Open
+	Octave 5
+	Articulate 80
+	Begin Riff
+	   4c+;8g;a;g;a;g;a;
+	   4c+;8a;b;a;b;a;b;
+	   8d+;;c+;;4b;a;
+	   1g;
+	End
+End
+
+Swingmode On
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Groove Foxtrot
+Repeat
+Cresc m f 4
+
+5         C
+6         /
+7         /
+8        G7
+
+Groove FoxTrotPlus
+Decresc m 4
+
+9         /
+10        /
+11        /
+
+RepeatEnding
+
+12        C
+
+Groove FoxTrotSus
+
+RepeatEnd
+
+13        C
+
+Repeat
+
+Groove FoxTrotSus
+Volume m
+
+14        F
+15        /
+
+Volume +5
+
+16        C
+17        /
+
+Volume +5
+
+18       D7
+19        /
+
+Groove FoxTrotSusPlus
+Decresc mp 2
+
+20        /
+21       G7
+
+Groove FoxTrot
+Volume m
+
+22        C
+23        /
+24        /
+25       G7
+
+Groove FoxTrotPlus
+Swell m f 4
+
+26        /
+27        /
+28        /
+
+RepeatEnding
+
+29        C
+
+Groove FoxTrot
+Volume m
+// solo section
+
+30        C
+31        /
+32        /
+33       G7
+
+Groove FoxTrotSus
+
+34        /
+35        /
+36        /
+37        C
+
+RepeatEnd
+
+38        C
+
+Groove FoxTrot
+Volume mf
+
+39        F      /  F#dim
+40        C      /     A7
+
+Groove FoxtrotEnd
+Tempo *.8 2
+Decresc pppp 2
+
+41       D7      /     G7
+42        C     /      z!
+

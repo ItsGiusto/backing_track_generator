@@ -1,0 +1,154 @@
+// Silencio
+
+Tempo 90
+Keysig G Minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBoleroIntro
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Harmony OpenBelow
+    Articulate 120
+    Volume f
+    Rtime 0,10
+    Rvolume 0,10
+    Begin Riff
+        8r;d;g;a; b;a;4g;
+        4g;a;g;e;
+        8r;en;a;bn; c+;bn;4a;
+        1d+; 
+    End
+End
+
+Begin Solo-String
+    Voice SynthStrings1
+    Cresc p mf 4
+    Octave 6
+    Harmony 3Below
+    Articulate 110
+    Begin Riff
+        2g;;
+        2g;;
+        4a;bn;2c+;
+        1d+;
+    End
+End
+
+Cresc mp mf 4
+1        Gm
+2        Em
+3        Am
+4       D7
+
+Groove SlowBolero
+Volume m
+
+5        Gm
+6     Am7b5      /   D7b9
+7        Gm
+8         /
+
+Groove SlowBolero1
+
+9     Am7b5      /   D7b9
+10        /
+Decresc mp 2
+11       Gm      /   GmM7
+12      Gm7      /    Gm6
+
+Groove SlowBolero1Sus
+
+Swell mp mf 4
+
+13       G7
+14        /      /   G7b9
+15      Cm6
+16        /      /    Eb7
+
+Groove SlowBoleroSus
+Cresc mf 4
+
+17      Gm7
+18      Eb7      /     D7
+19       Gm
+20        /
+
+Groove SlowBoleroPlus
+Decresc m 4
+
+21       F7
+22       Cm      /     F9
+23    Bbsus      /     Bb
+24        /      /     Cm
+
+Groove SlowBoleroSusPlus
+
+25       D7
+26    Am7b5      /     D7
+27    Gsus2      /     Gm
+28        /
+
+Groove SlowBolero1Sus
+
+29       Cm
+30    Am7b5      /     D7
+31       Gm
+32        /
+
+Groove SlowBolero
+cresc mf 4
+
+33       Eb
+34        /      /   A7b5
+35        D
+36       D7
+
+KeySig G
+
+Repeat
+
+Groove SlowBolero1Sus
+Volume m
+
+37        G
+38        /      / G#dim7
+39      Am7
+40       D7
+
+Groove SlowBoleroSus
+
+41       Am      /     D7
+42      Am7      /     D7
+43        G
+44        /
+
+Groove SlowBoleroPlus
+Cresc mf 4
+
+45       B7
+46        /
+47       Em
+48        /      /      C C#dim7
+
+Groove SlowBolero1
+Decresc mp 2
+
+49      G/D
+50       A7      /     D7
+
+RepeatEnding
+
+51        G      /     Em
+52      Am7      /     D7
+
+RepeatEnd
+
+Groove SlowBoleroEnd
+Decresc pp 2
+
+53        G      /     Em
+54       Eb      F      G z!
+

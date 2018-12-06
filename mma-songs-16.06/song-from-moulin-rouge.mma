@@ -1,0 +1,120 @@
+// Song From Moulin Rouge (1952) aka: Where Is Your Heart
+
+Tempo 88
+Keysig F
+
+Groove Metronome3
+  z * 2
+
+Groove WaltzIntro8
+Begin Solo
+    Voice SynthVox 
+    Articulate 120
+    Harmony OpenBelow+8below
+    Octave 5
+    Accent 1 20
+    Rvolume 10
+    Rtime 5
+    Cresc p mf 8
+    Begin Riff
+        4.f;8a;4f;
+        8c+;a;c+;a;4c+;
+        4.f;8a;4f;
+        8d+;a;d+;a;4d+;
+        4.g;8b;4g;
+        8d+;b;d+;b;d+;b;
+        4.c+;8b;4g;
+        2.c+;        
+    End
+End
+
+Swell mp m 8
+
+1         F
+2         /
+3        Dm
+4         /
+
+5        Gm
+6         /
+7        C7
+8         /
+
+Repeat
+Groove Waltz
+Decresc m mp 4
+
+9         F
+10       Am
+11      Dm7     G7
+12      Gm7     C7
+
+Groove Waltz1
+Cresc m 4
+
+13      Gm7
+14        C
+15      Gm7     C6     C7
+16        F      /     C7
+
+Groove Waltz
+Decresc mp 4
+
+17        F
+18       Am
+19      Dm7      /     G7
+20      Gm7     C7
+
+Groove WaltzSus
+Cresc m 4
+
+21       Gm
+22        C
+23      Gm7     C6     C7
+24        F
+
+Groove Waltz1Sus
+Cresc mf 4
+
+25      Gm7
+26        F
+27      Gm6      /     A7
+28       Dm
+
+Groove Waltz
+Volume m
+
+29     E7b9
+30       Am
+31      Dm7      /     G7
+32       C7
+
+Groove Waltz1
+Decresc mp 4
+
+33        F
+34       Am
+35      Dm7      /     G7
+36      Gm7     C7
+
+Groove WaltzSus
+Cresc m 3
+
+37       Gm
+38      Gm7      /   Cdim
+39      Gm7     C6     C7
+
+RepeatEnding
+
+40        F      /     C7
+
+
+RepeatEnd
+
+Groove WaltzEnd
+Seq 3
+Decresc ppp 2
+
+41        F
+42        /  z!
+

@@ -1,0 +1,114 @@
+// How About You
+
+Tempo 124
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove FoxtrotIntro
+
+Begin AllGrooves 
+ Chord Voicing Mode=Key2
+ Chord-Piano Voicing Mode=Key
+End
+
+Begin Solo
+   Voice Vibraphone 
+   Articulate 90
+   Harmony 8Below
+   Octave 6
+   Rtime 5
+   RVolume 5
+   Begin Riff
+      4c+;3c+;d+;c+;4b;a;
+      4a;3a;b;a;4g;f;
+      3f;g;f; g;a;g; a;b;a; b;c+;b;
+      1d+;
+   End
+End
+
+Swell mp mf 4
+
+1         CM7
+2        Am7
+3        Dm7
+4        G7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5       CM7      /     F7
+6       Em7      / Ebdim7
+7       Dm7
+8        G7
+
+Groove FoxtrotPlus
+Volume mf
+
+9       CM7      /     F7
+10      Em7      / Ebdim7
+11    Em7b5      / A+
+12      A+7
+
+Groove Foxtrot
+Decresc m 4
+
+13      Dm7
+14      Fm6
+15      Em7      /    Am7
+16   F#m7b5      /   B7#9
+
+Groove FoxtrotPlus
+Cresc mf 4
+
+17      EM7      /   C#m7
+18     F#m7      /    B+7
+19      EM7
+20      Dm7      /     G7
+
+Groove FoxtrotSus
+
+21      CM7      /     F7
+22      Em7      / Ebdim7
+23      Dm7
+24       G7
+
+Groove FoxtrotSusPlus
+Swell f 4
+
+25      Gm7
+26   C9sus4
+27      FM7
+28      Bb7
+
+Groove FoxtrotSus
+Decresc m 4
+
+29      C/E
+30     Ebm7      /    Ab7
+31      Dm7      /    Cm7
+32      Bm7      /   E7b9
+
+Groove Foxtrot
+Decresc mp 2
+
+33      Am7      /     D7
+34      Dm7      /     G7
+
+RepeatEnding 2
+
+Groove FoxtrotFill
+
+35      CM7
+36      G7
+
+RepeatEnd
+
+Groove FoxtrotEnd
+Decresc ppp 2
+
+35   C6(add9)
+36   /    z!
+

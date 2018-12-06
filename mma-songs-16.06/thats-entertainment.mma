@@ -1,0 +1,104 @@
+// Thats Entertainment
+
+Tempo 260
+Groove Metronome2-4
+	z * 2
+
+Groove BroadwayIntro
+
+1   Bb      
+2   Gm      
+3   Cm      
+4   F7      
+
+Repeat
+Groove Broadway
+Repeat
+
+5   Bb      
+6   Bb+     
+7   Cm7     
+8   F7      
+9   Bb      
+10  Bdim7   
+11  Cm7     
+12  D7      D7#5    /       D7b9    
+13  Gm      
+14  Gm#5    
+15  C       /       Cm/Eb   
+16  D7#5    
+
+RepeatEnding
+
+17  Eb6     
+18  /       
+19  Cm7     
+20  F7      
+
+Groove Broadway1
+
+RepeatEnd
+
+
+21  Eb6     
+22  /       
+23  F7      
+24  Fm7     /       Bb9     
+
+Groove BroadwaySus
+
+25  Eb      
+26  Eb+     
+27  Eb6     
+28  Fm7     /       Bb7     
+29  Eb      
+30  Eb+     
+31  Eb6     
+32  C7 
+
+Groove Broadway1Sus
+     
+33  F       
+34  F+
+35  F6      
+36  G9      /       C7      
+37  F       
+38  Eb6     
+39  Dm7     
+40  Cm7     /       F7
+  
+Groove Broadway
+    
+41  Bb      
+42  Bb+     
+43  Cm7     
+44  F7      
+45  Bb      
+46  Bdim7   
+47  Cm7     
+48  D7      D7#5    /       D7b9   
+49  Gm      
+50  Gm#5    
+51  Gm7     
+52  C9      
+
+Groove BroadwaySus
+
+53  Bb      
+54  Cm7     /       F7      
+55  Bb      
+56  G7      
+57  C7      /       Gb7b5   
+58  F7      /       F7b9    
+
+RepeatEnding
+
+59  Bb      /       Eb6     
+60  Bb6     /
+
+RepeatEnd
+
+Groove BroadwayEnd
+
+59  Bb      /       Eb6     
+60  Bb6     /	z!

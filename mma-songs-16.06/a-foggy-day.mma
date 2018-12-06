@@ -1,0 +1,97 @@
+// A Foggy Day
+
+Tempo 120
+Keysig F
+
+Groove Metronome2-4
+	 z * 2
+
+Groove ModernJazzIntro
+Begin Solo
+	  Voice Piano1
+	  Volume Ff
+	  Harmony Open+8Below
+	  Articulate 100
+	  Octave 5
+	  Begin Riff
+	  		4.a;8f;4g;b;
+			4.a;8f;4g;b;
+			4f+;d+;2b;
+			1c+;
+	  End
+End
+
+1         F / Gm
+2        Am7 / B&m6
+3        Gm7
+4        C7
+
+Repeat
+Groove ModernJazz   // caution! repeatend clears grooves!
+
+5         F
+6     Am7b5      /   D7b9
+7       Gm7
+8        C7
+9         F      /      /  Dm7b5
+10        /
+11       G7
+12      Gm7      /     C7
+
+Groove ModernJazz1
+
+13      FM7
+14      Cm7      /     F7
+15     BbM7
+16     Bbm6
+17      FM7
+18      Am7      /     D7
+19       G9
+20      Gm7      /     C7
+
+Groove ModernJazzSus
+
+21        F
+22    Am7b5      /   D7b9
+23      Gm7
+24       C7
+25        F      /      /  Dm7b5
+26        /
+27       G7
+28      Gm7      /     C7
+29      Cm7
+30       F7
+
+Groove ModernJazz1Sus
+
+31     BbM7
+32      Eb7
+33        F      /     Gm
+34      Am7      /   Bbm6
+35      Am7      /    Dm7
+36      Gm7      /     C7
+
+RepeatEnding
+
+37        F
+38      Gm7      /     C7
+
+GrooveClear
+Set ArpeggioVoice Trumpet
+
+   // caution ... no groove defined at this point!
+
+RepeatEnd
+
+
+39        F
+
+GrooveClear
+UnSet ArpeggioVoice
+
+Groove ModernJazzEnd
+Decresc p 2
+
+40      Bb7      /   Bbm6
+41      FM7     /    z!
+

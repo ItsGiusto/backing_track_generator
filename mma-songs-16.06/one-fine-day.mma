@@ -1,0 +1,131 @@
+// One Fine Day
+
+// The Chiffons version is really at this tempo. The key is
+// a rather obscene F# (most likely played on guitars in F with a capo)
+// Both pieces of sheet music I've got show the piece in F, my singer
+// prefers C.
+
+Transpose -5
+Tempo 176
+keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossaNova
+
+// 4 bar intro with doo-woops
+
+Begin Solo
+	Voice Piano2
+	Volume ff
+	Octave 5
+	Articulate 70
+End
+
+Repeat
+
+1          F    {4r; 8c+f+;;;;;; }
+2         Dm    {8c+f+;;; 4; 4.c+a&+; }
+3         Bb    {4b&f+; 8;;;;;; }
+4        Gm7    {8d+f+;;; 4bd+; 4.gc+; }
+
+RepeatEnd
+
+
+// three verses
+
+Repeat
+
+5          F
+6          /
+7          C
+8          /
+9         Dm
+10         /
+11        Bb
+12         /
+13         F
+14      Dm11    Dm7
+15        Bb
+16        C7
+
+RepeatEnding
+
+17         F    {4r;8c+f+;;;;;;}
+18        Dm    {8c+f+ ; ; ; 4;4.c+a&+;}
+19        Bb    {4c+f+;;2;}
+20       Gm7    {8bf+;;;4gd+;4.;}
+
+Groove BossaNovaSus
+
+RepeatEnding
+
+Groove BossaNova
+
+21         F    {4r;8c+f+;;;;;;}
+22        Bb    {8c+f+ ; ; ; 4;4.c+a&+;}
+23         F    {4c+f+;8;;;;;}
+24         /    {8c+f+;;;4d+;4.c+;}
+
+Groove BossaNovaSus
+
+25       Cm7      F    Cm7
+26         F   Cm/G      /     F6
+27       Cm7      F    Cm7
+28         F      /    Cm7      F
+29        Bb
+30    Bbmaj7
+31       Bb6
+32       Bb9
+33       Dm7 D7sus/A    Dm7
+34         G    Dm7      /     G6
+35       Dm7 D7sus/A    Dm7
+36         G      F      /      G
+37         C
+38        Bb
+39       Gm7
+40        Bb      /      C
+
+Groove BossaNova
+
+RepeatEnd
+
+// On the sheets this is the coda.
+
+Groove BossaNovaSus
+Decresc ppp 24
+
+41         F
+42      Dm11    Dm7
+43        Bb
+44         C
+45         /      F
+46      Dm11    Dm7
+47        Bb
+48         C
+
+Repeat
+
+49         F
+50       Dm7
+51        Bb
+52       Gm7
+
+RepeatEnd
+
+53         F
+54       Dm7
+55        Bb
+56        Bb
+
+57         F
+58       Dm7
+
+Groove BossaNovaEnd
+Seq 3
+
+59        Bb
+60        Bb      /     z!
+
+ Cut -2

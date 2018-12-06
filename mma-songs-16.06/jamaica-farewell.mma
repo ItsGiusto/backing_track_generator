@@ -1,0 +1,75 @@
+// Jamaica Farewell
+
+Tempo 115
+
+Transpose -2
+
+groove Metronome2-4
+  z * 2
+  
+Groove Calypso1
+
+1      D     
+2      Em7
+3      A7    
+4      D     
+5	/
+6      A7    
+7	/
+
+Groove CalypsoEnd
+
+8      D  / z /
+
+Repeat
+Groove Calypso
+
+9      D     
+10     G6    
+11     F#m   /    Em    
+12     D     
+13	/
+14     G6    
+15     F#m   /    Em    
+16     D
+
+Groove CalypsoSus
+
+17	/
+18     Em7   
+19     A7    
+20     D     
+21	/
+22     Em7   
+23     D     /    A7    
+24     D     
+25     /
+
+RepeatEnding 2
+
+Groove Calypso1
+
+26     D     
+27     Em    
+28     A7    
+29     D     
+30	/
+31     Em    
+32     A7    
+
+Groove CalypsoEnd
+
+33     D  / z
+
+RepeatEnd
+
+Groove Calypso1Sus
+
+34     D     
+35     Em    
+
+Groove CalypsoEnd
+
+36     A     
+37     D  / / z!
+

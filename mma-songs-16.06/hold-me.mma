@@ -1,0 +1,90 @@
+// Hold Me
+
+// This is supposed to quite slow, but it's too sticky for me.
+// So, I crank up the tempo and let it swing a bit...works for me :)
+
+Tempo 140
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove SwingIntro2
+Begin Solo
+    Voice BrassSection
+	Harmony Open
+	Volume f
+	Articulate 110
+	Octave 5
+	Begin Riff
+	    4b;r;b;
+		4c#+;r;c+;
+		4en+;r;e+;
+		1f+;
+	End
+End
+
+1   Bb
+2   C#dim3
+3   Am7
+4   F7
+
+Repeat
+Groove Swing2
+
+1       Bb   
+2 	/
+3       D7   
+4 	/
+5       Eb   
+6 	/
+7       G7   
+8 	/
+
+Groove Swing2Sus
+
+9       Cm   
+10      /     A7   
+11      Bb   
+12 	/
+13      C7   
+14 	/
+15      F7   
+16 	/
+
+Groove Swing2Plus
+
+17      Bb   
+18 	/
+19      D7   
+20 	/
+21      Eb   
+22 	/
+23      G7   
+24 	/
+
+Groove Swing2Sus
+
+25      Cm   
+26      Ebm  
+27      Bb    /     A7b5 
+28      D7    /     G7b5 
+29      C7   
+30      C7b5  /     F7   
+
+RepeatEnding 2
+
+Groove Swing2
+31      Bb   
+32 	/ / z
+
+RepeatEnd
+
+Groove Swing1End
+
+31      Bb   
+32 	/ / z!
+
+
+
+

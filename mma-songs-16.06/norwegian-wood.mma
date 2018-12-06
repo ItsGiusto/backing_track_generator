@@ -1,0 +1,120 @@
+// Norwegian Wood
+
+Tempo 180
+Keysig G
+
+Groove Metronome3
+  z * 2
+
+Groove Rockwaltz1Intro8
+
+AllGrooves Arpeggio Voice Sitar
+AllGrooves Scale Voice Sitar
+
+Begin Solo
+   Voice Sitar
+   Harmony OpenBelow+8Below+16Below
+   Octave 5
+   Articulate 120
+   Volume mf
+   Begin Riff    /// Stolen melody, 6th bar inverted
+     2.d+;
+	 4e+;d+;c+;
+	 2.b;
+	 4a;c+;b;
+	 2.g;
+	 4c+;a;g;
+	 1+2f ~;
+   End
+End
+
+Cresc p mf 8
+
+1          G
+2          /
+3          /
+4          /
+5          G
+6          F      /      G
+7          D7
+8          /
+
+Repeat
+Groove RockWaltz
+Volume m
+
+9          G
+10         /
+11         /
+12         /
+
+Groove RockWaltz1
+Swell m mf 8
+
+13         /
+14         F
+15         G
+16         /
+
+Groove RockWaltzSus
+
+17         /
+18         /
+19         /
+20         /
+
+Groove RockWaltz1Sus
+Volume m
+
+21         /
+22         F
+23         G
+24         /
+
+Repeatending 2
+
+Groove RockWaltz
+Cresc mp mf 8
+
+25        Gm
+26         /
+27         /
+28         /
+
+Groove RockWaltzSus
+
+29         C
+30         /
+31         /
+32         /
+
+Groove RockWaltz
+Volume m
+
+33        Gm
+34         /
+35         /
+36         /
+
+Groove RockWaltzSus
+Volume mf
+
+37       Am7
+38         /
+
+Groove RockWaltz1
+
+39        D7
+40         /
+
+
+RepeatEnd
+
+Groove RockWaltzEnd
+Tempo *.8 4
+Decresc ppp 4
+
+41         G
+42         /
+43         /
+44         /     z!

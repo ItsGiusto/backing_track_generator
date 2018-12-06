@@ -1,0 +1,133 @@
+// I Won't Dance
+
+// Kern, Hammerstein & Harbach
+// Sung by Blossom Dearie (a nice version), Frank Sinatra (not so nice).
+// Note, BD does this in KEY==A, my sheet music is in C and my vocalist
+// wants to sing it in Eb. Go figure....
+
+Tempo 156
+Keysig C
+Transpose 3
+
+Groove Metronome2-4
+	z * 2
+	
+// 8 Bar intro
+
+Begin Solo
+	  Voice Piano1
+	  Volume f
+	  Harmony Open
+	  Articulate 90
+	  Octave 5
+	  Begin Riff
+	  		4g;;2;
+			1r;
+			4g;;2;
+			1r;
+			4g;;2;
+			2a;4e;c;
+			4d;e;2f;
+			8r;g;4a;2b;
+	  End
+End
+
+Groove EasySwing2
+1       C    
+Groove EasySwingEnd
+2       Am   
+Groove EasySwing2
+3       Dm  
+Groove EasySwingEnd
+4       G7   
+Groove EasySwing2
+5       CM7  
+6       Am7  
+7       Dm7 
+Groove EasySwingEnd
+8       G7  
+
+Groove EasySwing
+
+Repeat         // Outer repeat does entire song 2x 
+
+Repeat         // Inner repeat. For A-A-B-A-CODA
+
+9       CM9   /     Eb7  
+10      Dm7   /     G7   
+11      CM7   /     C#dim
+12      Dm7   /     G7   
+13      Bb13  /     A7   
+14      Dm7   /     G7   
+15      C     /     CM7  
+16      C7   
+17      FM7  
+18      Fm    /     G7b9 
+
+RepeatEnding
+
+19      C6    /     Eb7  
+20      Dm7   /     Db //  Charts show a Db13 ... I think it's better as a simple major
+
+Groove EasySwingWalk
+
+RepeatEnding
+
+21      C6    /     F7   
+22      C7   
+23      FM7  
+24      Fm    /     G7b9 
+25      C    
+26      Dm7   /     G7   
+
+Groove EasySwingSus
+
+27      AbM7 
+28 	/
+29      Ab7  
+30 	/
+31      DbM7 
+32 	/
+33      Db7  
+34 	/
+35      B    
+36 	/
+37      C9   
+38 	/
+39      E7   
+40      Am7  
+41      Dm9  
+
+Groove EasySwingWalk
+
+42      G7   
+
+RepeatEnd   // End of inner repeat
+
+// This is the CODA section. It has 2 endings.
+
+43      C6    /     F7   
+44      C7   
+
+RepeatEnding
+
+45      FM7  
+46      Dm7   /     G7b9 
+47      CM7   /     Eb9  
+48      AbM7  /     C6   
+
+Groove EasySwing
+
+RepeatEnd
+
+Groove EasySwing
+49      Dm7  
+50      CM7  
+51 	/
+
+Groove EasySwingEnd
+
+52 	/
+53    z  G7b9  / z!
+
+

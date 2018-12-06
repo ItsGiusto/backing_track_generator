@@ -1,0 +1,195 @@
+// If I Had My Life To Live Over
+
+Keysig C      /// this is the original sig,
+Transpose -2  /// t0 Bb
+Tempo 140
+
+Groove Metronome3
+  z * 2
+
+// a 4 bar intro
+
+Groove WaltzIntro
+Cresc pp mp 4
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+// this is the actual song (intro)
+
+Groove Waltz
+Volume m
+
+5          C
+6         E7
+7          F
+8          C
+
+Decresc mp 4
+
+9         G7
+10        G+
+11         C
+12         /      /     C7
+
+Groove WaltzSus
+Cresc m 4
+
+13        Dm
+14         F
+15        E7
+16        Am
+
+Groove WaltzIntro
+Chord-Sus Groove WaltzSus
+
+17        G7
+18        D7
+19        G7
+20         /
+
+
+// The main part (verse?) of the song
+
+Repeat
+Groove Waltz
+Volume m
+
+21         C
+22         /
+23         /
+24         /
+
+Groove WaltzWalk
+
+25         /
+26        E7
+27         F
+28        A7
+
+Groove Waltz1
+Volume mf
+
+29         F
+30        G7
+31        E7
+32        Am
+
+Groove Waltz1Walk
+Decresc m 4
+
+33        D7
+34         /
+35        G7
+36         /
+
+Groove WaltzSus
+Cresc mf 8
+
+37         C
+38         /
+39         /
+40         /
+
+Groove WaltzWalkSus
+
+41         /
+42        E7
+43         F
+44        A7
+
+Groove Waltz1Sus
+Decresc mp 8
+
+45        Dm
+46         F      /   Cdim
+47         C      /     C7
+48        A7
+
+Groove WaltzSus
+
+49        Dm
+50        G7
+
+RepeatEnding
+
+51         C      /    Ab7
+52        G7
+
+RepeatEnd
+
+Groove Waltz
+
+53         C
+
+Transpose 0   // now we're back in the original key
+
+54        A7
+
+Volume m
+
+55         C
+56         /
+57         /
+58         /
+
+Groove Waltz
+Decresc mp 4
+
+59         /
+60        E7
+61         F
+62        A7
+
+Groove WaltzSus
+Cresc m 8
+
+63         F
+64        G7
+65        E7
+66        Am
+
+Groove WaltzWalkSus
+
+67        D7
+68         /
+69        G7
+70         /
+
+Groove Waltz1Sus
+Decresc mp 4
+
+71         C
+72         /
+73         /
+74         /
+
+Groove Waltz1
+Cresc mf 8
+
+75         /
+76        E7
+77         F
+78        A7
+
+Groove Waltz
+
+79        Dm
+80         F      /   Cdim
+81         C      /     C7
+82        A7
+
+Groove WaltzEnd
+seq 3
+Tempo *.8 4
+Decresc ppp 4
+
+83        Dm
+Seq 3
+84        G7
+Seq 3
+85         C      /    Ab7
+86         C      /     z!
+

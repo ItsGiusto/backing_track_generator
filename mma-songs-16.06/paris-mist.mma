@@ -1,0 +1,157 @@
+// Paris Mist
+
+Tempo 104
+Keysig F
+
+Groove Metronome2-4
+   z * 2
+
+Groove BossaNovaIntro8
+
+Begin Solo
+    Voice JazzGuitar
+    Harmony 8Below+OpenBelow
+    Articulate 110
+    Octave 5
+    Volume ff
+    Begin Riff
+        1+4f+~;
+        ~ 4e+;43d+;c+;d+;
+        1+4f+~;
+        ~ 4d+;43c+;b;c+;
+        2.g;4a;
+        2.b;4d+;
+        1c+;
+    End
+End
+
+Swell p mf 8
+
+1         F
+2         /
+3        Dm
+4         /
+
+5        Gm
+6         /
+7        C7
+8         /  /// pickup notes to melody here
+
+
+Repeat
+Groove BossaNova
+Volume m
+
+9     Em7b5
+10       A7      /   A7b9
+11       Dm      /    Gm6
+12       Dm
+
+Groove BossaNovaPlus
+Decresc  mp 2
+
+13    Em7b5
+14       A7      /   A7b9
+15       Dm      /    Gm6
+16       Dm
+
+Groove BossaNovaSus
+Cresc m 2
+
+17    Am7b5
+18       D7
+19       Gm      /     D+
+
+RepeatEnding
+
+20       Gm
+
+Decresc mp 4
+
+21       C7      /    Gm7
+22       C7
+23        F
+
+Groove BossaNovaFill
+
+24       A7      z
+
+RepeatEnd
+
+25       Gm
+
+
+Groove BossaNovaSusPlus
+Cresc mf 4
+
+26    Em7b5
+27       A7      /   A7b9
+28       Dm      /    Gm6
+29       Dm
+
+Groove BossaNova
+Volume f
+
+30      Gm7
+31        /      /     C7
+Decresc m 2
+32        F
+33        /
+
+Groove BossaNovaSus
+Cresc mf 2
+
+34      Fm7
+35        /      /    Bb7
+36       Ab      /     Eb
+37        /
+
+Groove BossaNovaPlus
+
+38    Em7b5
+39     A7b9      /     A7
+Decresc m 2
+40       Dm
+41        /
+
+Groove BossaNovaSus
+Decresc mp 4
+
+42       E7
+43        /      /   E7b9
+44       Dm      A
+45        /      z
+
+Groove BossaNova
+Cresc m 2
+
+46    Em7b5
+47       A7      /   A7b9
+48       Dm      /    Gm6
+49       Dm
+
+Groove BossaNovaPlus
+Volume mf
+
+50    Em7b5
+51       A7      /   A7b9
+52       Dm      /    Gm6
+53       Dm
+
+Groove BossaNovaSusPlus
+Decresc mp 4
+
+54    Am7b5
+55       D7
+56       Gm      /     D+
+57       Gm
+
+Groove BossaNova2End
+
+Decresc pppp 4
+
+58    Em7b5
+59       A7      /   A7b9
+60       Dm      /    Gm6
+61       Dm     z!
+

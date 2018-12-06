@@ -1,0 +1,110 @@
+// Milord
+
+Tempo 190
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwing
+Begin Solo
+    Voice Accordion
+    Harmony 3Below+8Below
+    Octave 6
+    Volume f
+    Articulate 90
+    Begin Riff
+        4r;a;g#;a;
+        4g#;r;a;f;
+        4r;a;g#;a;
+        4g;r;f;d;
+        4r;f;g;g#;
+        2a;c;
+        2f;a;
+        4a;g;;f#;
+        4g;
+    End
+End
+
+Swell mp mf 9
+
+1          F
+2       Fdim      /      F
+3          /
+4         Bb
+5          /
+
+Groove EasySwingIntro
+
+6          F
+7          /
+8         G7
+
+Plectrum Riff 1 0 100
+Drum-Kick Riff D234
+Drum-HH   Riff D234
+
+9          /        
+
+Repeat
+Groove EasySwing
+Volume m
+
+10      Fdim      /      F
+11         /
+12        Bb
+13         /
+
+Groove EasySwing42
+Cresc mf 4
+
+14         F
+15         /
+16        G7
+17        C7
+
+Groove EasySwing
+
+18         F
+19         /      /    F11
+20        Bb
+21         /
+
+Groove EasySwing42Sus
+Decresc m 4
+
+22         F
+23         /
+24        G7
+25        C7
+
+Groove EasySwing
+
+26      Fdim      /      F
+27         /
+28        Bb
+29         /
+
+Groove EasySwingSus
+Volume f
+
+30         F
+31         /
+32       Gm7      /     C7
+
+RepeatEnding 2
+
+Groove EasySwing42Fill
+Decresc mp 2
+
+33         F 
+34         /     z
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+35         F      z!
+
+
+

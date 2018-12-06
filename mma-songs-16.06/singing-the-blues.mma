@@ -1,0 +1,98 @@
+// Singing The Blues
+
+Tempo 120
+
+KeySig 1b
+
+Begin Solo
+	Voice Accordion
+	Harmony OpenAbove
+	Octave 4
+	Volume f
+	Articulate 90
+End
+
+Groove Metronome2-4
+
+	z * 2
+	
+Groove CountrySwing
+
+// 4 bar intro
+
+1 	C7       {8c+;;}
+2 	Bb7      {8b;;}
+3 	F        {8a;;}
+4 	C7       {8c+;r;c+;r;c+;}
+
+Delete Solo
+
+Repeat
+Groove CountrySwing
+
+5 	F7
+6 	Bb7
+7 	F7
+8 	Bb B7 C7
+9 	Bb
+10 	C7 C7zCA
+
+Groove CountrySwing1
+
+11 	F
+12 	/
+
+Groove CountrySwing
+
+13 	F7
+14 	Bb7
+15 	F7
+16 	Bb7 B7 C7
+17 	Bb
+18 	C7
+
+Groove CountrySwing1
+
+19 	F
+20 	F7
+
+Groove CountrySwingSus
+
+21 	Bb
+22 	F
+23 	Bb
+24 	F
+25 	Bb
+26 	F
+27 	/
+28 	/  /  C7
+
+Groove CountrySwing
+
+	/ 
+
+Groove CountrySwing2
+
+29 	F7
+30 	Bb7
+31 	F7
+
+Groove CountrySwing
+
+32 	Bb7 B7 C7
+33 	Bb
+34 	C7 C7zCA
+
+RepeatEnding
+
+35 	F
+36 	/ / / z
+
+RepeatEnd
+
+Groove CountrySwingEnd
+
+37 	F
+38 	/ z!
+
+

@@ -1,0 +1,138 @@
+// Always True To You In My Fashion
+// Cole Porter from Kiss Me Kate.
+
+Tempo 175
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SalsaIntro
+
+Begin Solo
+   Voice Piano1
+   Decresc fff pp 4
+   Articulate 90
+   Harmony Open
+   Octave 6
+   Begin Riff
+       4c+;;;8;4~;
+	   ~ 4c+; 8b;4a;g;
+	   4a;1g~;
+   End
+End
+
+Decresc f mp 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove Salsa
+Swell m f 8
+
+5         C
+6         F
+7         C
+8        Fm
+
+9         C
+10        /   Cdim3
+11       G7
+12        /
+
+Groove SalsaSus
+Volume m
+Chord-Sus Swell pp m 4
+
+13        C      /     C+
+14       F6      /      /   Cdim3
+15        C
+16      Fm6
+
+Chord-Sus Decresc pppp 4
+ 
+17        C
+18       D7      /      /     D7
+19        C
+
+Groove SalsaFill
+
+20     Cdim3      /    Dm
+
+Groove Salsa
+Swell mp f 8
+
+21        C
+22        F
+23        C
+24       Fm
+
+25        C
+26        /      /   Cdim3
+27       G7
+28        /
+
+Groove SalsaSus
+Volume m
+Chord-Sus Swell m pp 4
+
+29        C      /     C+
+30       F6      /      /   Cdim3
+31        C
+32      Fm6
+
+Chord-Sus Decresc pppp 4
+
+33        C
+34       D7      /      /     D7
+35        C
+36      Dm7      /      C
+
+Groove Salsa
+Swell m ff 8
+
+37        F
+38        /      /     Fm
+39        C
+40        /      /     C7
+
+41        F      /     A7
+42       D7
+43        G
+44       D7     G7
+
+Groove SalsaSus
+Volume m
+Chord-Sus Swell pp mf 4
+
+45        C      /     C+
+46       F6      /      /   Cdim3
+47        C
+48      Fm6
+
+Chord-Sus Decresc pp 2
+
+49        C
+50       D7      /      /     D7
+
+RepeatEnding
+
+Chord-Sus Decresc pppp 2
+51        C 
+
+Groove SalsaFill
+
+52        /   Cdim3    Dm7
+
+
+RepeatEnd
+Decresc ppp 2
+Tempo *.8 2
+
+Groove SalsaEnd
+53        C      /    F
+54        C
+

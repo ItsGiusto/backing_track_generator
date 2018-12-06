@@ -1,0 +1,78 @@
+// You And The Night And The Music
+
+Tempo 98
+Keysig C Minor
+
+Groove Metronome2-4
+	z * 2
+
+Groove LightTangoIntro
+
+Begin Solo
+	Voice Accordion
+	Volume mf
+	Articulate 100
+	Harmony Open+8Below
+	Octave 5
+	Begin Riff
+		3+3e+;c+;e+;c+;e+;c+;
+		2e+;c+;
+		3+3a;c+;a;c+;a;c+;
+		1g;
+	End
+End
+
+1   Cm      
+2   Fm      
+3   Ab      
+4   G7      
+
+Repeat
+Groove LightTango
+Repeat
+
+5   Cm      
+6   G7sus4  /       G7      
+7   Cm      /       G7b5    C7      
+8   Fm      
+9   Fm6     
+10  /       /       G7      G7#5    
+11  C       
+
+RepeatEnding
+
+12  Ab7     /       G7      
+Groove LightTangoSus
+
+RepeatEnd
+
+Groove LightTango1
+
+13  /       /       Am      C       
+14  Ab7     
+15  /       /       /       D7      
+16  G       /       Gb#5    
+17  Dm      /       G7      
+18  Ab      /       Ab+     
+19  Fm      /       D7      
+20  G       /       Fm      
+21  G7      
+
+Groove LightTango1Sus
+
+22  Cm      
+23  G7sus4  /       G7      
+24  Cm      /       G7b5    
+25  Fm      
+26  Fm6     
+27  Cm      G#dim7  /       D7 
+28  Ab7     /       G7      
+
+RepeatEnding
+
+29  Cm      
+
+RepeatEnd
+Groove LightTangoEnd
+
+29  Cm / z!

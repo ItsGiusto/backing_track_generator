@@ -1,0 +1,106 @@
+// Very Thought Of You
+
+Tempo 62
+Keysig Ab
+
+Groove Metronome2-4
+ z * 2
+
+Groove EvansishIntro
+
+Begin Solo
+    Voice Piano1
+    Octave 5
+    Harmony OpenBelow
+    Articulate 90
+    Volume f
+    Begin Riff
+        8a;b;c+;b; a;g;a;b;
+        8f;g;a;g; f;g;4f;
+        43b;;; 4f;b;
+        1gbe+;
+    End
+End
+
+Swell mp mf 4
+
+1        Ab
+2        Fm
+3       Bbm
+4       Eb7
+
+
+Repeat
+Groove Evansish
+Volume m
+
+5        Ab
+6         /
+7       Ab6
+8         /
+
+Groove EvansishPlus
+
+9        Ab
+10        /
+11      Bb7
+12        /      /      /     Db
+
+Groove Evansish
+Volume mf
+
+13      Eb7
+14       Fm
+15      Fm7
+16      G7+      /      /     G7
+
+Groove EvansishSus
+Cresc f 4
+
+17       Cm      /    Abm
+18      Bb7
+19     Bbm7
+20      Eb7
+
+Groove EvansishSusPlus
+Decresc m 4
+
+21       Ab
+22        /
+23      Ab6
+24        /
+
+Groove Evansish
+
+25       Ab
+26        /
+27      Bb7
+28        /      /      /     Db
+
+Groove EvansishPlus
+Volume mf
+
+29      Eb7
+30       Fm
+31      Fm7
+32     Ddim
+
+Groove Evansish
+Decresc mp 2
+
+33      Eb7      /   Adim
+34      Bb7      /    Eb7
+
+RepeatEnding
+
+35       Ab
+36        /      /    Eb7
+
+RepeatEnd
+
+Groove EvansishEnd
+Decresc ppp 2
+
+35       Ab
+37        /  z!
+

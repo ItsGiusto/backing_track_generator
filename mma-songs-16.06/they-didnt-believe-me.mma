@@ -1,0 +1,119 @@
+// They Didnt Believe Me
+
+Tempo 116
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove FoxTrot1Intro
+
+Begin AllGrooves Arpeggio
+  Direction Down
+  Range 1
+  Octave 6
+  Harmony OpenBelow+OpenAbove
+  Rskip 50
+  SeqRnd On
+End
+
+Begin Solo
+    Voice Piano1
+    Octave 5
+    Harmony 3Below+8Below
+    Articulate 110
+    Volume mf
+    Begin Riff
+        81b;82d+;4b;a;g;
+        81e+;82d+;4c+;2b;
+        43a;b;c+;4d+;c+;
+        2d+;
+    End
+End
+
+Cresc mp mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove FoxTrot1
+Volume m
+
+5        Am
+6        D7
+7         G
+8     Bm7b5      /   E7b9
+
+Groove FoxTrot1Plus
+Arpeggio Sequence  A4 { 1 2 90 * 4; 3.5 4 90 * 4 }
+Cresc mf 2
+
+9       Am7
+10       D7
+11        G
+12      Em7
+
+Groove FoxTrot1
+Decresc mp 4
+
+13      Am7
+14       D7      /      /   D7/C
+15      Bm7
+16       Em
+
+Groove FoxTrot1Sus
+Cresc mf 3
+
+17       Bm
+18      F#7
+19      Bm7      /     F9
+20       E7      /   E7b9
+
+Groove FoxTrot1
+Decresc m mp 4
+
+21      Am7
+22       D7
+23       G6
+24      Em7
+
+Groove FoxTrot1SusPlus
+Arpeggio Sequence  A4 A8 {A4; A2 shift .33} { 1 2 90 * 4; 3.5 4 90 * 4 } 
+Cresc m 2
+
+25       Am
+26       D7
+27       G6      /     F9
+28       E7
+
+Groove FoxTrot1Sus
+Cresc mf 4
+
+29       Am
+30       D7
+31        G      /    Am7
+32      Bm7      /     E7
+
+Groove FoxTrot1
+Decresc mp 2
+
+33      Am7
+34       D7      /   D7b9
+
+RepeatEnding
+
+35        G
+36       D7
+
+RepeatEnd
+
+Groove FoxTrot1End
+Decresc ppp 2
+
+37        G
+38        /  z!
+
+

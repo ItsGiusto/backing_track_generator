@@ -1,0 +1,155 @@
+// Somethings Gotta Give
+
+Tempo 160
+Keysig A minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Octave 5
+    Articulate 98
+    Harmony 3Below
+    Begin Riff
+        8d+; ; ; ;2;
+        8b ; ; ; ;2;
+        4d+; ; ; ;
+        1a ;
+    End
+End
+
+Swell mp ff 4
+
+1        Dm7
+2        CM7
+3        Bm7
+4         A7
+
+Repeat
+
+Groove BigBand
+Volume m
+
+5         Dm      /     F+    Dm7
+6          /      /     Dm
+7        CM7
+8          /      /     C6
+
+Groove BigBandSus
+Cresc f 4
+
+9         Dm      /     F+    Dm7
+10         /      /     G9
+11      Ddim      /      C
+12       CM7      /     C6
+
+Groove BigBandPlus
+
+13        Dm      /      /    Dm7
+14         /    Dm6    Dm7
+15        Am      /     C+
+16       Am7      /    Am6
+
+Groove BigBandSusPlus
+
+RepeatEnding
+Decresc mp 4
+
+17       Dm7
+18         /
+19        C6
+
+Groove BigBandFill
+
+20         /      /   A7b9
+
+RepeatEnd
+Volume m
+
+21       Dm7
+22         /
+23        C6
+
+Groove BigBandFill
+
+24         /
+
+Repeat
+Groove BigBand1
+Volume mf
+
+25       Gm7
+26         /      /     C9
+27      C7b9      /     C9
+28       FM7      /    Dm7
+
+Groove BigBand1Sus
+Volume m
+
+29        Em      /     G+    Em7
+30         /      /     A9
+31        Dm
+32         /
+
+Groove BigBand1Plus
+
+33       Am7
+34         /      /     D9
+35      D7b9      /      /     D9
+36       GM7      /    Em7
+
+Groove BigBandSusPlus
+Cresc mf 4
+
+37        Am      /      /    Am7
+38         /      /     D9
+39       Dm7
+40         /      /   A7b9
+
+// 'A'
+
+Groove BigBand
+Volume mf
+
+41        Dm      /     F+    Dm7
+42         /      /     G+
+43       CM7
+44         /      /     C6
+
+Groove BigBandPlus
+Cresc f 4
+
+45        Dm      /     F+    Dm7
+46         /      /     G9
+47      Ddim      /      C
+48       CM7      /     C6
+
+Groove BigBandSusPlus
+Volume m
+
+49        Dm      /      /    Dm7
+50         /    Dm6    Dm7
+51        Am      /     C+
+52       Am7      /    Am6
+
+Groove BigBandSus
+
+53       Dm7
+54         /
+
+Repeatending
+
+55        C6
+56         /      /   A7b9
+
+Repeatend
+
+Groove BigBandEnd
+Decresc pp 2
+
+57        C6      /    Dm7
+58         /     z!

@@ -1,0 +1,116 @@
+// My Special Angel
+
+Tempo 90
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+
+Groove RockBalladIntro
+Begin Solo
+    Voice ChoirAahs
+    Articulate 120
+    Harmony 3Below+8Below
+    Swell m ff 4
+    Octave 5
+    Begin Riff
+       4.e+;8c+;2g;
+       4.e+;8c+;2a;
+       4.d+;8a;4f;a;
+       1g;
+    End
+End
+
+Swell mp m 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Label Start
+
+Groove RockBallad1
+Volume m
+
+5         C      /     Am
+6        Em      /      /     C7
+7         F      /     G7
+8         C    CM7  C#dim
+
+Groove RockBallad
+
+9       Dm7      /     G7
+10        C      /    Am7
+11       D9
+12      Dm7      /   G7b9
+
+Groove RockBallad1Fill
+Volume mf
+
+13        C      /     Am
+14       Em      /      /     C7
+15        F      /     G7
+16        C    CM7  C#dim
+
+Groove RockBalladFill
+Decresc mp 4
+
+17      Dm7      /     G7
+18        C      /    Am7
+
+
+If Def Fine
+  Groove RockBalladEnd1
+  Decresc ppp 2
+  Tempo *.8 2
+
+  19       D7      /    Dm7
+  20        C    z!
+  Eof
+
+Else
+ 
+19       D7      /    Dm7
+20        C     F6      C
+
+Endif
+
+Groove RockBallad1Voice
+Cresc m 8
+
+21      Dm7      /     G7
+22      CM7      /     Am
+23      Dm7      /     G7
+24      CM7      /     C6  Baug7
+
+Groove RockBalladVoice
+
+25       Em      /   Adim
+26       Em      /   Adim
+27       Em      /    Am7
+28      Dm7      /     G7
+
+Groove RockBallad1Fill
+Cresc mf 4
+
+29        C      /     Am
+30       Em      /      /     C7
+31        F      /     G7
+32        C    CM7  D#dim
+
+
+33       Dm      /     G7
+34        C      /    Am7
+35       D7      /     G7
+36        C      /     Am
+
+Groove RockBallad
+Seq 3
+
+37      Dm7      /   G7b9
+38      CM7      /     C6
+
+Set Fine
+Goto Start

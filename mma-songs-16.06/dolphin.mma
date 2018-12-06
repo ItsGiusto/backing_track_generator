@@ -1,0 +1,136 @@
+// The Dolphin, Luiz Eca
+
+Tempo 150  /// stan getz does it a bit faster...good for him :)
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BossaNovaIntro8
+Begin AllGrooves
+    Begin Arpeggio
+        Octave 5
+        Rskip 50
+    End
+End
+
+Begin Solo   /// used in bar35-42
+    Voice JazzGuitar
+    Harmony OpenBelow
+    Octave 5
+    Volume f
+    Articulate 110
+End
+
+Swell p mf 8
+
+1       F#M7
+2      G7#11
+3       F#M7
+4      G7#11
+
+5       F#M7
+6      G7#11
+7       F#M7
+8        E13
+
+
+Repeat
+Groove BossaNova
+Volume m
+
+9        AM7
+10      B7/A
+11       Ab7
+12       Db7
+
+Groove BossaNovaSus
+Cresc mf 8
+
+13       CM7
+14     CM7/G
+15    F#m7b5
+16        B7
+
+Groove BossaNovaPlus
+Decresc mp 4
+
+17       Em7
+18    A7sus4
+19       DM7
+20      F7#5
+
+Groove BossaNovaSusPlus
+Volume mf
+
+21     BbmM7
+22      Bbm7
+23      Bbm6
+24        A7
+
+25       DM7
+
+Groove BossaNova
+Cresc f 2
+
+26       Em7
+27      C#m7
+28       F#7
+29     Bm7b5
+
+Groove BossaNova1SusPlus
+Cresc m mf 4
+
+30    E7sus4
+31       Dm7
+32        G7
+33       Bm7
+34        E7
+
+Groove BossaNova1Sus
+Volume f
+
+35       C#7    {2r;8;a;;g;}
+36       F#7    {1a;}
+37      B7#5    {2r;8;g;;f;}
+38      E7#5    {1g;}
+
+Groove BossaNovaSus
+Decresc m 2
+
+39       AM7
+40      B7/A
+41       G#7
+42       C#7  {8r;e;;d;4e;}
+
+Groove BossaNova
+Decresc mp 2
+
+43       F#7
+44        B7
+Cresc mf 2
+45       EM7
+46      C7/E
+
+Groove BossaNovaPlus
+
+47       EM7
+48      C7/E
+
+RepeatEnding
+49       BM7
+
+Groove BossaNovaFill
+Volume mp
+
+50       EM7
+
+RepeatEnd
+
+Groove BossaNova2End
+Seq 3
+Decresc pp 2
+
+51       BM7
+52       EM7     z!
+

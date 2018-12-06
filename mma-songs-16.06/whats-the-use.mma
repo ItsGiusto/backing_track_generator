@@ -1,0 +1,87 @@
+// Whats The Use
+
+Tempo 180
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+
+Groove BigBand
+
+5         F
+6        D7
+7        G7
+8         /
+
+Groove BigBandPlus
+
+9       Gm7
+10       C7
+11        F      /  F#dim
+12      Gm7      /     C7
+
+Groove BigBand
+
+13        F
+14       D7
+15       G7
+16        /
+
+
+Groove BigBandSus
+
+17      Gm7
+18       C7
+19        F
+20        /      /    Ab7
+
+Groove BigBandSusPlus
+
+21       Db
+22        /
+23        /
+24        /
+
+25       Db
+26        /
+27       C7
+28        /
+
+Groove BigBand
+
+29        F
+30       D7
+31       G7
+32        /
+
+Groove BigBandPlus
+
+33      Gm7
+34       C7
+
+RepeatEnding
+
+35        F
+
+Groove BigBandFill
+
+36     C7
+
+RepeatEnd
+
+Groove BigBandEnd
+
+35        F
+36        /  z!
+
+
+

@@ -1,0 +1,75 @@
+// Bei Mir Bist Du Schon22
+
+Tempo 160
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice AltoSax
+	Harmony Open
+	Articulate 50
+	Accent 1 10
+	Octave 5
+	Volume mf
+End
+		
+Groove swing
+
+1      Am    {4a;;;;}
+2      Dm6   {4a;;;;}
+3      E7    {4g#;;;;}
+4      Am    {2a;}
+
+Delete Solo
+
+Repeat
+
+5      Am    /    Dm6   Am    
+6      /    /    E7    
+7      Am    /    Dm6   
+8      Am    /    F7    
+9      E7    
+10     /    F7    E7    
+11     Am    
+12     Bm7b5 E7    
+13     Am    /    Dm6   Am    
+14     /    /    E7    
+15     Am    /    Dm6   Am    
+16     /    /    F7    
+17     E7    
+18     /    F7    E7    Am    
+19	/
+20	/
+21     Dm6   
+22	/
+23     Am    
+24	/
+25     Dm6   
+26	/
+27     E     /    Edim  
+28     E7    
+29     Am    /    Dm6   
+30     Am    /    E7    Am    
+31     /    /    Dm6   Am    
+32     /    /    F7    
+33     E7    
+34     /    F7    E7    
+
+RepeatEnding
+
+35     Am    
+36	/
+
+Groove Swing1
+
+RepeatEnd
+
+Groove SwingEnd
+
+37     Am    
+38	/ / / z!
+	cut -1
+	
+

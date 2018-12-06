@@ -1,0 +1,104 @@
+// In A Sentimental Mood
+
+Tempo 75
+Keysig F
+
+Groove Metronome2-4
+   z * 2
+
+Begin Solo
+  Voice TremoloStrings
+  Harmony OpenBelow+8Below
+  Volume m
+  Articulate 110
+  Octave 5
+  Begin Riff
+     2f+;e+;
+	 2d+;c+;
+	 2b;g;
+	 1c+;
+  End
+End
+
+Groove BalladIntro
+
+1         F
+2        Dm
+
+Groove BalladIntro1
+Seq 3
+
+3        Gm
+4        C7
+
+Repeat
+Groove Ballad
+
+5        Dm      /   DmM7
+6       Dm7      /     G7
+7        Gm      /   GmM7
+8       Gm7      /     C7
+
+Groove Ballad1
+
+9        Dm
+10       D7
+11       Gm      /    Gb7
+12       F
+
+Groove BalladSus
+
+13       Dm      /   DmM7
+14      Dm7      /     G7
+15       Gm      /   GmM7
+16      Gm7      /     C7
+
+Groove Ballad1Sus
+
+17       Dm
+18       D7
+19       Gm      /    Gb7
+20        F      /      /    Ab7
+
+Groove Ballad
+
+21       Db      /   Bbm7
+22      Ebm      /    Ab7
+23       Db      /    Bb7
+24      Eb7      /    Ab7
+
+Groove BalladSus
+
+25       Db      /   Bbm7
+26      Ebm      /    Ab7
+27       C7
+28        F
+
+Groove Ballad
+
+29       Dm      /   DmM7
+30      Dm7      /     G7
+31       Gm      /   FmM7
+32      Gm7      /     C7
+
+RepeatEnding
+
+Groove Ballad1
+
+33       Dm
+34       D7
+35       Gm      /    Gb7
+
+Groove BalladFill
+
+36        F  C7
+
+RepeatEnd
+
+Groove Ballad1End
+
+33       Dm
+34       D7
+35       Gm      /    Gb7
+36        F
+

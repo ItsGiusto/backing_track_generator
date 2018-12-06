@@ -1,0 +1,104 @@
+// Bye Bye Blackbird
+
+Tempo 160
+Keysig G
+
+// Yet another way to modify library grooves. The foxtrot "PLUS"
+// grooves have an arpeggio piano. This macro changes the voice
+// and some other things. We just invoke the macro after the groove
+// settings in the song.
+
+mset Banjo
+	Begin Arpeggio
+		Voice Banjo
+		Volume pp
+		Harmony 3
+		Octave 6
+		Articulate 130		
+	End
+EndMset
+
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+	Voice Banjo
+	Volume m
+	Harmony 3
+	Octave 6
+	Articulate 120
+	Mallet Rate=16 Decay=-15
+End
+
+1      G      { 2b; 4r; 8b; a; }
+2	/         { 2.b; }
+3      Em     { 2b; 4r; 8d+; a; } 
+4	/         { 2.b; } 
+5      Am     { 2.c+; 4d+; }
+6	/         { 2e+; 2c+; }
+7      D7     { 1d+; }
+8	/         { 4f+; e+; d+; c+; }
+
+Repeat
+Groove Foxtrot
+
+9      G     
+10     /    /    E7    
+11     Am7   /    D9    
+12     G     
+13     G/B   
+14     Bbdim 
+15     Am7   /    D7    
+16	/
+
+Groove FoxTrotPlus
+$Banjo
+
+17     Am7   /    F/A   
+18     Am6   /    F/A   
+19     Am7   
+20     D7    
+21     Am7   
+22     D7    
+23     GM7   /    G6    
+24	/
+
+Groove FoxTrotSus
+
+25     G7    
+26	/
+27     Bm7b5 
+28     E7    
+29     Am    
+30	/
+31     Am7b5 
+32     D7 
+
+Groove FoxTrotSusPlus
+$Banjo
+
+33     G     
+34	/
+35     F7    
+36     E7    
+37     Am7   
+38     /    /    D7    
+
+RepeatEnding
+
+39     G     /    Em7   
+
+Groove FoxTrotSus
+
+40     Am7   /    D7    
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+41     G     /    C     
+42     Cm6   /    G6   z
+

@@ -1,0 +1,150 @@
+// Sound Of Silence
+
+Tempo 108
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+
+Groove 8BeatIntro
+Seq 4
+
+1        Dm
+
+// Verse 1
+Groove 8Beat
+
+2         /
+3         C
+4         /
+5        Dm
+
+Groove 8Beat1
+
+6         /      /      F
+7        Bb      /      F
+8         /
+9        Bb      /      F
+
+Truncate 2
+Groove 8BeatSus
+
+10        /
+11       Bb
+12        /
+13        F
+14        /      /     Dm
+
+Truncate 2
+Groove 8Beat1Sus
+
+15        F
+16        C
+17       Dm
+
+Repeat
+// Verse 2 & 3
+
+Groove 8Beat
+
+18       Dm
+19        C
+20        /
+21       Dm
+
+Groove 8BeatSus
+
+22        /      /      /      F
+23       Bb      /      F
+24        /
+25       Bb      /      F
+
+Truncate 2
+Groove 8BeatSusPlus
+
+26        /
+27       Bb
+28        /
+29        F
+30        /      /     Dm
+
+Truncate 2
+Groove 8Beat1Sus
+
+31        F
+32        C
+33       Dm
+
+RepeatEnd
+
+// Verse 4
+
+Groove 8Beat
+
+34       Dm
+35        C
+36        /
+37       Dm
+
+Groove 8Beat1Sus
+
+38        /      /      /      F
+39       Bb      /      F
+40        /
+41       Bb      /      F
+
+Truncate 2      
+
+Groove 8Beat1SusPlus 
+42        /
+43       Bb
+44        /
+45        F
+
+Groove 8Beat1Sus
+
+46        /      /     Dm
+47        F
+48        C
+49       Dm
+
+// Verse 5
+
+Groove 8Beat1
+
+50        /
+51        C
+52        /
+53       Dm
+
+Groove 8Beat1Sus
+
+54        /      /      /      F
+55       Bb      /      F
+
+Groove 8Beat1
+
+56        /
+57       Bb      /      F
+
+Groove 8Beat1
+
+58        /
+59       Bb
+60        /
+61        F
+62        /      /     Dm
+
+Groove 8Beat
+
+63        F
+64        C
+
+Groove 8BeatEnd
+
+
+65       Dm
+66        /  z!
+
+

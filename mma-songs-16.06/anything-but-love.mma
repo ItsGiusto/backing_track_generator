@@ -1,0 +1,109 @@
+// Anything But Love
+
+Transpose -2
+
+Tempo 113
+Keysig 1#
+
+Groove Metronome2-4
+
+	z * 2
+	
+Groove SlowJazzSus
+Volume mp
+
+Begin Solo
+	Voice WarmPad
+	Volume f
+	Octave 5
+	Articulate 90
+	Accent 1 20 3 20
+	Begin Riff
+		8g;f;e;f;4g;f;
+		4g;f;e;f;
+		4a;g;f;g;
+		16c+;r;c+;r;b;r;b;4a;b;
+	End
+End
+
+Swingmode On
+
+1 	G
+2 	Em
+3 	Am7
+4 	D7
+
+Delete Solo
+
+Repeat
+Groove SlowJazz
+
+Volume mp
+
+5 	G
+6 	G/B /  Bbdim
+7 	Am7
+8 	D7
+9 	G
+10 	/  /  Em7
+11 	Am7
+12 	D7
+
+Groove SlowJazzWalk
+13 	G7
+14 	/
+15 	CM7
+
+Cresc mf 8
+
+16 	/  C7
+17 	A7
+18 	/
+19 	D7
+20 	/
+
+Groove SlowJazzSus
+
+21 	G
+22 	G/B /  Bbdim
+23 	Am7
+24 	D7
+
+Volume mf
+
+25 	Dm7
+26 	G7
+27 	CM7
+28 	/
+
+DeCresc  mp 4
+
+29 	/
+30 	C#dim
+31 	GM9/D
+32 	E7
+
+Groove SlowJazzWalkSus
+
+33 	Am7
+
+RepeatEnding 2
+
+34 	A7 /  D7
+35 	G /  G7
+36 	C /  CmzD
+
+RepeatEnd
+
+37 	A7 /  D7
+38 	A7 /  D7
+
+Groove SlowJazz1
+
+39 	Am /  A D
+40 	G
+
+Groove SlowJazzEnd
+41 	G /  D7
+42 	G  z!
+

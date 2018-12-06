@@ -1,0 +1,116 @@
+// Dancing On The Ceiling
+// from the 1930 movie "Ever Green"
+
+Tempo 136
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+    Voice EPiano
+    Articulate 110
+    Harmony OpenBelow
+    Volume f
+    Octave 5
+    Begin Riff
+        2f;4a;c+;
+        2d+;a;
+        8b;c+;d+;e+; f+;g+;a+;b+;
+        1c++;
+    End
+End
+
+Cresc p mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5         F      /      /     Am
+6        F+
+7        Gm      /     G7
+8         C      /     Em
+
+Groove FoxtrotPlus
+Cresc mf 4
+
+9        C7
+10        F
+11       Gm      /     C7
+12       Dm      F     Dm      F
+
+
+Groove Foxtrot
+Volume m
+
+13        F      /      /     Am
+14       F+
+15       Gm      /     G7
+16        C      /     Em
+
+
+Groove FoxtrotPlus
+Cresc f 4
+
+17       C7
+18        F
+19       Gm      /     C7
+20       F6
+
+
+Groove FoxtrotSus
+Volume mp
+
+21       C7
+22        /
+23        F
+24        /
+
+
+Groove FoxtrotSusPlus
+Volume m
+
+25       C7
+26        /
+27        F      /  Cdim7     C7
+28        /
+
+
+Groove Foxtrot
+Cresc mf 4
+
+29        F      /      /     Am
+30       F+
+31       Gm      /     G7
+32        C      /     Em
+
+
+Groove FoxtrotPlus
+Decresc m 2
+
+33       Gm
+34        /      /     C7
+
+RepeatEnding 2
+
+Groove FoxtrotFill
+Volume mp
+35        F
+36        Gm7 / C7
+
+RepeatEnd
+Groove FoxtrotEnd
+Decresc ppp 2
+
+35        F
+36        /  z!
+
+

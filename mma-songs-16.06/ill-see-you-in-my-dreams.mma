@@ -1,0 +1,106 @@
+// Ill See You In My Dreams
+
+Tempo $( 100 * 2 )
+KeySig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+     Voice Trumpet
+     Harmony OpenAbove
+     Octave 5
+     Volume f
+     Begin Riff
+         4c+;a;c+;4+1a~;
+         <>;
+         4d+;b;d+;4+2c+~;
+     End
+End
+
+Swell m mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove BigBand
+Volume m
+
+5        Bb
+6         /
+7      Bbm6
+8         /
+
+Groove BigBandPlus
+Volume mf
+
+9         F
+10     Fdim      /      E
+11       F6
+12        /
+
+Groove BigBand
+Volume f
+
+13       D7
+14        /
+15        /
+16        /
+
+Groove BigBandPlus
+Decresc m 4
+
+17       G7
+18        /
+19       C7
+20        /
+
+Groove BigBandSus
+
+21       Bb
+22        /
+23     Bbm6
+24        /
+
+Groove BigBandSusPlus
+Cresc mf 4
+
+25        F
+26     Fdim      /      E
+27       F6
+28        /
+
+Groove BigBand
+Volume m
+
+29      Cm6      /     D7
+30      Cm6      /      /     D7
+31       A7
+32       Dm      /      /      C
+
+Groove BigBandPlus
+Decresc mp 2
+
+33       Bb
+34     Bbm6      /     C7
+
+RepeatEnding 2
+
+35        F      /   Fdim
+Groove BigBand
+36      Gm7      /     C7
+
+RepeatEnd
+
+Groove BigBand1End
+Decresc ppp 2
+
+37        F      /    Db7
+38        F      z!
+

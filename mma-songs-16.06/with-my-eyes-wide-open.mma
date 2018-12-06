@@ -1,0 +1,119 @@
+// With My Eyes Wide Open I'm Dreaming
+
+Tempo 140
+Keysig G
+
+Groove Metronome2-4
+   z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+    Voice Piano1
+    Octave 6
+    Volume ff
+    Harmony 2Below+8Below
+    Articulate 130
+    Begin Riff
+        43d+;b;g;2d+;    
+        43e+;b;g;2b;
+        43a;g;e;f;g;a;
+        1d+;    
+    End
+End
+
+Swell mp mf 4
+
+1         G
+2        Em
+3        Am
+4        D7      /     D+
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5         G
+6         /
+7        D+
+8       GM7
+
+Groove FoxTrotPlus
+Cresc mf 4
+
+9         /
+10        /
+11       Am
+12       D7
+
+Groove FoxTrot
+Decresc mp 4
+
+13       Am
+14        /
+15     Fdim      /      /     E+
+16       E7
+
+Groove FoxTrotSus
+Cresc m 4
+
+17       A7
+18        /
+19      Am7
+20       D7
+
+Groove FoxTrotSusPlus
+Cresc mf 2
+
+21       G7      /    Dm7
+22       G7
+Decresc m 2
+23      Dm7
+24       G9
+
+Groove FoxTrotSus
+Cresc mf 4
+
+25        C
+26       A7
+27    Am7b5
+28       D7      /     D+
+
+Groove FoxTrotPlus
+Volume m
+
+29        G
+30        /
+31      Bm7      /     E7
+32        /
+
+Groove FoxTrot
+Decresc mp 4
+
+33       Am
+34    Am7b5
+35    Bm7b5
+36       E7
+
+Groove FoxTrotSus
+
+37       Am
+38        /      /     D7
+
+RepeatEnding
+
+Groove FoxTrotFill
+
+39        G      /  G#dim
+40    D7sus     D7     D+
+
+RepeatEnd
+
+
+Groove FoxTrotEnd
+Decresc ppp 2
+Tempo *.8 2
+
+41        G      /    Am7
+42       G6      z!
+

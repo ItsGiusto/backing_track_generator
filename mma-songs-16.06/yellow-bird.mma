@@ -1,0 +1,154 @@
+// Yellow Bird
+
+// A great example song!
+
+Tempo 123
+KeySig 1b
+
+/////////////////////////////////////////////////////////
+// Create a bird sound track. This is just random notes
+// for a scale using the BirdTweet voice. Once created
+// it is stored in a groove.
+
+SeqSize 4
+Begin Scale
+	Sequence  {1 1 90 * 16}	// a whole lot of 16th notes
+	Direction  Random		// which we select from randomly
+	ScaleType  Chromatic
+	Voice BirdTweet
+	Octave 3
+	Range 5					// force a 5 octave range	
+	RVolume 30
+	Rskip 20 30 40 50		// For a fade effect we increment the skip factor
+	Volume mp p pp ppp		// and decrease the volume. All over 4 bars.
+End
+
+DefGroove Bird
+
+Begin Solo
+	Voice Marimba
+	Volume m
+	Articulate 80
+	Mallet Rate=16 Decay=-5
+	Harmony 3Above
+	Octave 6
+End
+
+/////////////////////////////////////////////////////////
+// Change the tones for the metronome. Some whistles are interesting.
+
+groove Metronome2-4
+
+Drum-Hi  Tone ShortHiWhistle
+Drum-Low Tone LongLowWhistle
+
+	z * 2		// 2 bars of metronome
+
+/////////////////////////////////////////////////////////
+// There's an 8 bar intro. Use the rhumba with the bird sounds.
+
+Groove Rhumba
+Scale Groove Bird
+
+Cresc mp f 8
+Scale Volume mp
+
+1 	F         {4a;8c+;4f;8a;4c+;}
+2 	Gm        {4.b;8d+;2g;}
+3 	C7        {8g;4b;8e;d+;4.c+;}
+4 	F         {2a;}
+5 	/         {4a;f;8;4c+;8b;}
+6 	Gm        {8r;4d+;2g;}
+7 	C7        {8.c;;8;8.b;a;8g;}
+8 	F / z     {2f;}
+
+Delete Solo
+
+/////////////////////////////////////////////////////////
+// Now recall the rhumba, this turns off the bird sounds.
+// This is the main song. We repeat it 2 times.
+
+
+Groove Rhumba
+Repeat
+volume mf
+
+9 	F /  /  Bdim
+10 	F
+11 	C7
+12 	F
+
+Set a $_Groove + Sus    // alt between RhumbaSus & Rhumba1Sus
+Groove $a
+
+13 	F /  /  Bdim
+14 	F
+15 	C7
+16 	F
+
+Groove $_LastGroove
+
+17 	Gm
+18 	F
+19 	C7
+20 	F
+
+Groove $a
+
+21 	Gm
+22 	F
+23 	C7
+
+/////////////////////////////////////////////////////////
+// This is the end of the verse where we have 2 bars without lyric.
+// We get the birds going here. See how simple it is to restore
+// the current groove (after the birds) by using the macro $_LastGroove.
+
+Scale Groove Bird
+Seq 2			// Scale Groove doesn't set seq #. We want 2nd bar for fade
+
+24 	F
+25 	/
+
+Groove $_LastGroove
+
+volume f
+
+26 	F
+27 	C7
+28 	/
+29 	F
+
+Groove $a
+
+30 	/
+31 	Gm
+32 	C7
+33 	/
+34 	F
+
+/////////////////////////////////////////////////////////
+// For the 2nd pass we use the alternate rhumba groove
+
+Groove Rhumba1
+
+RepeatEnd
+
+/////////////////////////////////////////////////////////
+// 8 bar ending. We call the birds up again, slow it down and fade.
+
+Groove RhumbaSus
+Scale Groove Bird	// no seq req'd; previous groove set it to 1
+
+Decresc off 9
+Tempo -20 9
+
+35 	F /  /  Bdim
+36 	F
+37 	F /  /  Bdim
+38 	F
+39 	F
+40 	Bdim
+41 	F
+42 	/ / z!
+

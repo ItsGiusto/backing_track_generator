@@ -1,0 +1,118 @@
+// More
+
+Tempo 110
+KeySig g
+
+Transpose 3
+
+Groove Metronome2-4
+	z * 2
+	
+	
+Groove Rhumba
+Begin Solo
+  Voice Bandoneon
+  Volume f
+  Articulate 95
+  Harmony OpenBelow+8Below
+  Octave 5
+  Begin Riff
+    2.g;8b;a;
+    2.g;8b;a;
+	2.a;8a;g;
+	2f;
+  End
+End
+	
+Cresc p mf 4
+
+1       G    
+2       Em7  
+3       Am7  
+4       D7   / z
+
+Repeat  // do entire song 2x
+
+Groove Rhumba1
+Volume mf
+Repeat
+
+5       GM7  
+6       Em7  
+7       Am7  
+8       D7 
+  
+Groove Rhumba3Sus
+
+9       GM7  
+10      Em7  
+11      Am7  
+
+RepeatEnding
+
+12      D9   
+
+Groove Rhumba1Sus
+Volume mp
+
+RepeatEnd
+
+13      F#m7  /     B7   
+
+Groove Rhumba
+Cresc  mf  16
+
+14      Em   
+15      EmM7/D#
+16      Em7/D
+17      Em6/C# 
+
+Groove Rhumba1
+
+18      Am7/C
+19      A7   
+20      Am7  
+21      D7   
+
+Groove RhumbaSus
+
+22      GM7  
+23      Em7  
+24      Am7  
+25      D9   
+
+Groove Rhumba
+
+26      GM7  
+27      Em7  
+28      Am7  
+29      F#m7  /     B7   
+
+Groove Rhumba3Sus
+
+30      Em   
+31      EmM7/D#
+32      Em7/D
+33      Em6/C#
+
+Groove RhumbaSus
+
+34      Am7/C
+35      Am7  
+
+Decresc p 2
+
+RepeatEnding
+
+36      G    
+37 	/
+
+RepeatEnd
+
+Groove RhumbaEnd1
+Decresc ppp 2
+Tempo *.9 2
+
+38      G     /     Eb   
+39      G    /  z!
+

@@ -1,0 +1,127 @@
+// Moondance
+
+Tempo 150
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove JazzRockIntro
+Cresc p mf 4
+
+1        Am7      /    E11
+2        Am7      /    E11
+3        Am7      /    E11
+4        Am7      /    E11
+
+
+Repeat
+Groove JazzRock
+Volume m
+
+5        Am7      /    E11
+6        Am7      /    E11
+7        Am7      /    E11
+8        Am7      /    E11
+
+Groove JazzRockSus
+
+9        Am7      /    E11
+10       Am7      /    E11
+11       Am7      /    E11
+12       Am7      /    E11
+
+Groove JazzRock
+Cresc f 8
+
+13       Am7      /    E11
+14       Am7      /    E11
+15       Am7      /    E11
+16       Am7      /    E11
+
+17       Am7      /    E11
+18       Am7      /    E11
+
+Groove JazzRockFill
+
+19       Am7      /    Bm7     Em
+
+Groove JazzRock
+
+20        Am
+
+Groove JazzRockSus
+Cresc mp mf 8
+
+21       Dm7      /     G7
+22        Am
+23        Dm      /     G7
+24        Am
+
+Groove JazzRock
+
+25       Dm7      /     G7
+26        Am
+27        Dm
+28       E7+
+
+Groove JazzRockWalk
+Volume m
+
+29         /
+30         /
+31         /
+32         /
+
+Groove JazzRockWalkSus
+Volume mp
+
+33         /
+34         /
+35         /
+
+Groove JazzRockIntro
+Seq 4
+
+36         /
+
+RepeatEnd 3
+
+Groove JazzRock
+Volume m
+
+37        Am      /    E11
+38        Am      /    E11
+39        Am      /    E11
+40        Am      /    E11
+
+Groove JazzRockSus
+Decresc ppp 12
+
+41        Am      /    E11
+42        Am      /    E11
+43        Am      /    E11
+44        Am      /    E11
+
+Groove JazzRockWalkSus
+
+45        Am      /    E11
+46        Am      /    E11
+47        Am      /    E11
+48        Am      /    E11
+
+Groove JazzRockFill
+
+49        Am      /      G
+50         F      /     Em
+
+Groove JazzRockWalk
+
+51        Dm
+52       Am9
+
+Groove JazzRockIntro
+Seq 4
+
+53         A     z!
+

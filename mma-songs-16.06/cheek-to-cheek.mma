@@ -1,0 +1,157 @@
+// Cheek To Cheek, Irving Berlin
+
+Tempo 144
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove SwingIntro
+
+Begin Solo
+	Voice Piano2
+	Volume f
+	Articulate 70
+	Harmony Open
+	Octave 6
+	Begin Riff
+		4a; 8; 4f;  ; 4d~;
+		~ 4d; c; b-; 1.c ~; 
+	End
+End
+
+Volume mp
+
+1       Dm7
+2        G7      /      F     G7
+3         C    CM7
+
+Groove SwingWalk
+Begin Walk
+    Riff W1234
+	Volume +40
+End
+
+4       Dm7      /   G7#5
+
+Set Rpt1  1
+
+Repeat
+Repeat
+
+Label Sign
+
+Groove Swing
+Swell m f 8
+
+5         F      C
+6       Dm7      /      C     G7
+7         F      C
+8       Dm7      /      C     G7
+
+Groove SwingPlus
+
+9         C     G7
+10    D#dim      /    Em7
+11   Bb9#11
+12       A7      /     Bm     D7
+
+Groove Swing
+Decresc mp 8
+
+13       G7      /    Dm7
+14       G7      /      F     G9
+15       E7      /  Bb7b5
+16       A7
+
+Groove SwingWalk
+
+17      Dm7
+18       G7      /      F     G7
+19        C      /    CM7
+
+if def Coda
+ goto Coda
+Endif
+
+RepeatEnding NoWarn $Rpt1
+
+Walk Riff W1234
+
+20      Dm7      /   G7#5
+
+RepeatEnd
+
+Walk Riff W1234
+
+21       C6
+
+Repeat
+Groove SwingSus
+Swell m mf 8
+
+22       G7      /     G7
+23       C6      /      C
+24       G7      /     G7
+
+Groove SwingPlusSus
+
+25        C
+26       G7
+27       C6      /      C
+28       Dm      /     G7
+
+
+RepeatEnding NoWarn $Rpt1
+
+29       C6      /      C
+
+RepeatEnd 
+
+30       C6
+
+Groove Swing
+Volume mf
+
+31       Cm      /    Cm7
+32        /
+33      Ab9
+34        /      /    Ab9
+
+Groove SwingSus
+Decresc f m 4
+
+35     Fdim      /   G7b9
+36        /      /  G#dim
+37       Am      /      C     D9
+
+RepeatEnding      /// this is the 1st DS
+
+38        /      /     G7
+
+Set Rpt1 0
+
+RepeatEnd       /// This is the 2nd DS
+
+39        /      /     G7
+
+Set Coda
+Goto Sign
+
+
+// This is the coda/outro
+
+Label Coda
+
+Groove SwingSus
+Decresc pppp 4
+Tempo *.8 4
+
+40        C      /     G7
+41        C      /    CM7
+
+Groove SwingEnd
+
+42        C      /     G7
+43        C   / z!
+

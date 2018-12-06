@@ -1,0 +1,88 @@
+// (The) Blind Ploughman (1913)
+
+Tempo 75
+Keysig F
+
+Groove Metronome2-4
+       z * 2
+
+Groove Trance2Bass1
+Cresc mp mf 8
+
+1        Dm      /  Gm6/D
+2        Dm      /  Gm6/D
+3        Dm      /  Gm6/D
+Bass Riff 1 1 1 90 * 4
+4        Dm
+
+Groove Trance
+
+5       F/C      /     C7
+6         F      / Bm7b5/F
+7       A/E      /     E9
+8         A
+
+Keysig D
+Groove Trance1
+Volume m
+
+9      D/F#
+10     A7/G
+11    B7/D#
+12      Em7
+
+Groove Trance
+Volume mf
+
+13       A7
+14     D/F#      /   D+     G6
+15    A9sus     A6     A9     A6
+16        D      /   Em7/D
+
+Groove Trance2
+Decresc mp 3
+
+17    F#m+/D      /    G/D
+18    F#m+/D      /    G/D
+
+Groove Trance2Bass1
+
+19      DM7      /  Em7/D     A7
+
+Groove Trance
+Cresc m mf 8
+
+20        D      /  C#m
+21        D      /    G/D
+22        D      /  C#m
+23        D
+
+Groove Trance1
+
+24    F#/C#      /    C#7
+25       F#
+26    Bb      /     F7
+27       Bb
+
+Groove Trance
+Volume m
+
+28      D/A      / G#dim7
+29     A7/G
+30     B7/A
+31       Em
+
+Groove Trance1
+
+32     A7b5     A7
+33      F#+      /     G6
+
+Groove TranceEnd
+Decresc ppp 4
+
+34   A7sus4      /     A7
+35        D      /   Em7/D
+36       F#m      /    G/D
+37        D      /    z!
+
+

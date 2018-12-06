@@ -1,0 +1,89 @@
+// Moon River
+
+Tempo 100
+Keysig C
+
+Groove Metronome3
+	z * 2
+
+Groove Waltz1Intro
+
+Begin Solo
+	Voice Strings
+	Volume p
+	Articulate 110
+	Octave 5
+End
+
+1    C    {2.eg;} 
+2    Am   {2.ea;} 
+3    Dm   {2.fa;} 
+4    G7   {2.dgb;} 
+
+Repeat
+Groove Waltz1
+
+5    C    
+6    Am   
+7    Dm7  /    G7   
+8    CM7  /    C6   
+9    Dm7  /    G7   
+10   CM7  /    C6   
+11   Bm7b5 
+12   E7   
+
+Groove Waltz1Sus
+
+13   Am   
+14   C7   
+15   F6   
+16   Bb9b5 
+17   Am   /    Am7  
+18   F#m7b5 /    B7   
+19   Em7  A7   
+20   Dm7  G7   
+
+Groove Waltz1Walk
+
+21   C    
+22   Am   
+23   Dm7  /    G7   
+24   CM7  /    C6   
+25   Dm7  /    G7   
+26   CM7  /    C6   
+27   Bm7b5 
+28   E7   
+
+Groove Waltz1WalkSus
+
+29   Am   
+30   Am7  
+31   Am6  
+32   F9   
+33   C    
+34   G7sus G7   
+35   C    
+36   G7sus G7   
+
+Groove Waltz1
+
+37   C    
+38   Am   
+39   Dm7  
+40   G7b9 
+
+RepeatEnding
+
+41   C    
+42   /    
+
+RepeatEnd
+
+Groove WaltzEnd
+Seq 3
+
+43   C    
+44   /    
+
+
+

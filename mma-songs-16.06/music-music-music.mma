@@ -1,0 +1,102 @@
+// Music Music Music
+
+Tempo 190
+Keysig f
+
+Groove Metronome2-4
+	z * 2
+
+Groove JiveIntro
+
+Begin Solo
+   Voice Organ1
+   Harmony 3below
+   Articulate 90
+   Volume f
+   Octave 6
+   Begin Riff
+       4c;d;e;f;
+	   4g;8d+;2+8d+;
+	   2c+;b;
+	   2a;g;
+   End
+End
+
+Swell mp mf 4
+
+1          F      /      /      z
+2         G7      /      /      z
+3          C      /     C7      z
+4          F      /     C7      z
+
+Repeat
+
+Groove Jive1
+Volume m
+
+5          F
+6          /
+7          /
+8          /
+
+Groove Jive1Sus
+
+9         G7      /   G7b5
+10        C7
+11         F
+12         /      /   C7#5
+
+Groove Jive1Plus
+
+13         F
+14         /
+15         /
+16         /
+
+Groove Jive1
+
+17        G7      /   G7b5
+18        C7
+19         F
+20         /
+
+Groove Jive1SusPlus
+
+21        C7
+22         /
+23         F
+24         /
+
+Groove Jive1
+
+25        C7
+26         /
+27         F      /   Cdim
+28       Gm7      /     C7
+
+Groove Jive1Plus
+
+29         F
+30         /
+31         /
+32         /
+
+Groove Jive1ClapSus
+
+33        G7      /   G7b5
+34        C7
+
+RepeatEnding
+
+Groove Jive1Clap
+
+35         F
+36         /      /   C7#5
+
+RepeatEnd
+
+Groove JiveEnd
+
+37         F
+38         /      /     z!
+

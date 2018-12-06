@@ -1,0 +1,85 @@
+// Jeepers Creepers
+
+Tempo 190
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove SwingIntro
+Begin Solo
+	Voice Trumpet
+	Volume m
+	Articulate 90
+	Octave 5
+End
+
+Begin Solo-1
+	Voice Piano2
+	HarmonyOnly Open
+	Volume f
+	Articulate 100
+	Octave 5
+End
+
+1   Dm    {2d+;f;}
+2   F7    {2c+;f;}  
+3   Dm7   {4d+;c+;a;c+;}
+4   Bb    {1b;}
+
+Repeat
+Groove Swing
+
+5   Dm      /       F7      
+6   Dm7     /       Bb6     
+7   F7      /       F9      F       
+8   Bb6     /       Bb      
+9   Dm      /       F7      
+10  Dm7     /       Bb6     
+11  F7      /       F9      F7      
+12  Bb      
+
+Groove SwingWalk
+
+13  Dm      /       F7 
+14  Dm7     /       Bb6     
+15  F7      /       F9      F       
+16  Bb6     /       Bb      
+17  Dm      /       F7      
+18  Dm7     /       Bb6     
+19  F7      /       F9      F7      
+20  Bb
+
+Groove SwingSus
+      
+21  Fm7     /       Gm      
+22  EbM9    /       Eb6     
+23  Fm7     /       Gm      Bb7     
+24  EbM7    Eb      Eb6     
+25  Gm7     /       Am      
+26  FM7     /       Dm7     
+27  Gm7     /       Am      C7      
+28  F9      F7   
+
+Groove SwingPlusSus
+   
+29  Dm      /       F7      
+30  Dm7     /       Bb6     
+31  F7      /       F9      F7      
+32  Bb6     /       B&      
+33  Dm      /       F7      
+34  Fm6     /       G7      
+35  Cm7     /       F9      F7      
+36  Bb      /       G7      
+37  Cm7     /       F9      F7  
+
+RepeatEnding 2
+
+38  Bb      
+
+RepeatEnd 
+
+Groove SwingEnd
+seq 2
+
+38  Bb     /  z!

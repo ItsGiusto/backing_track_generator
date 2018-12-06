@@ -1,0 +1,119 @@
+// Never My Love
+
+Tempo 96
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+SeqClear
+
+Begin Solo
+  Voice AcousticBass
+  Octave 3
+  Articulate 90
+End
+
+      z   {2r;8e;f;g;b-;}
+
+
+Set SusVoiceOctave 5
+Set SusVoice VoiceOohs
+
+Groove RockBalladSusIntro
+Bass Sequence -
+alltracks  Volume -90
+Solo Volume ff
+Cresc p f 4
+	  
+3         C   {1c;}
+4         C  {2r;8e;f;g;b-;}
+5         C   {1c;}
+seq
+6         C   {2r;8e;f;g;b-;}
+
+Groove RockBallad1
+
+Repeat
+Cresc mp m 6
+
+5         C
+6         G
+7        Bb
+8         F      C
+9        Am
+10        C
+
+RepeatEnding
+
+11        F
+12        C
+
+Groove RockBallad1Fill
+Arpeggio Volume -50
+
+RepeatEnd
+
+13        F
+14        C
+
+Groove RockBallad1Voice
+
+15   E7sus4      /     E7
+16       Am      / D7sus4     D7
+17      GM7      /      C
+18        F      /    FM7
+19       F6
+20       Em      /    Em7
+21       Am
+
+Seq
+Groove RockBallad1
+
+22        C
+23        G
+24       Bb
+25        F      /      C
+26       Am
+27        C
+28        F
+29        C
+
+Repeat
+
+Groove RockBallad1
+
+If Def End                // to fade out for outro
+  Decresc pppp 7
+  AllTracks Decresc pppp 7
+Endif
+
+30        C
+31        G
+32       Bb
+33        F      C
+34       Am
+35        C
+36        F
+
+If Def End               // end here after fade
+  eof
+Endif
+
+Seq
+Groove RockBallad1Voice
+
+37        C
+38   E7sus4      /     E7
+39       Am      / D7sus4     D7
+40      GM7      /      C
+41        F      /    FM7
+42       F6
+43       Em      /    Em7
+44       Am
+
+Set End                // flag for outro
+
+RepeatEnd
+
+

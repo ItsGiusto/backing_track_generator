@@ -1,0 +1,124 @@
+// One Note Samba
+
+Tempo 140 //160
+KeySig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+    Voice Piano1
+    Volume mf
+    Articulate 90
+    Harmony OpenBelow+38Below
+    Rtime 4
+    Octave 6
+    Rvolume 5
+    Begin Riff
+        4f; 8; 8+8; 4;8+4. ~;
+        ~ 8f; r; 4f; 8;
+        4f; 8; 8+8; 4; 8+4 ~ ; 
+    End
+End
+
+Swell mp mf 4
+
+1        Dm
+2        D&7
+3        Cm
+4        F7
+
+
+Repeat
+Groove BossaNova
+Volume m
+
+5       Dm7
+6       Db7
+7       Cm7
+8      B7b5
+
+Groove BossaNovaSus
+Cresc mf 4
+
+9       Dm7
+10      Db7
+11      Cm7
+12     B7b5
+
+Groove BossaNova1Sus
+Volume m
+
+13      Fm7
+14     E7b5
+15     EbM7
+16      Ab7
+
+Groove BossaNova2Sus
+Volume mf
+
+17      Dm7      /    Db7
+18      Cm7
+19     B7b5
+20       Bb
+
+Groove BossaNovaPlus
+Cresc f 4
+
+21     Ebm7
+22      Ab7
+23       Db      /      /   Ebm7
+24       Db
+
+Groove BossaNovaSusPlus
+Decresc m 8
+
+25     Dbm7
+26      Gb7
+27      BM7      B6@2.5
+28     Ebm6      /   B7b5
+
+Groove BossaNova3Sus
+
+29      Dm7
+30      Db7
+31      Cm7
+32     B7b5
+
+Groove BossaNovaSus
+
+33      Dm7
+34      Db7
+35     GbM7
+36     F7b5
+
+Groove BossaNova
+Volume mf
+
+37      Fm7
+38     E7b5
+39     EbM7
+40      Ab7
+
+Groove BossaNova1Sus
+Decresc mp 4
+
+41       Db
+42       C7      /      /    BM7
+43        /
+
+RepeatEnding 2
+
+Groove BossaNovaFill
+
+44      Bb6      /   F7#5
+
+
+RepeatEnd
+
+Groove BossaNova2End
+Seq 4
+
+45      Bb6  z!
+

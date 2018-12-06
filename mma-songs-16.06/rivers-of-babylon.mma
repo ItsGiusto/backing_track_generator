@@ -1,0 +1,183 @@
+// Rivers Of Babylon
+// Sort of like the Boney M. version :)
+// They do it for longer, this is just over 2 minutes.
+//   A A B B C C A(fade)
+
+Tempo 117
+Keysig C
+Time 4
+
+Groove Metronome2-4
+  z * 2
+
+/// define a groove with the melody sustain stuff. We
+/// use this as an alternate "sus" version. Just enable it
+/// when needed with "Bass-Susained Groove Sustain" This needs
+/// to be done after EVERY groove change (the groove change
+/// removes this pattern). To make it easier, the macro SUSTAIN
+/// is defined.
+
+SeqSize 2
+Begin Bass-Sustained
+    Voice Strings
+    Octave 5
+    Articulate 100
+    Volume m
+    RVolume 10
+    Unify On
+    Harmony OpenBelow
+    RVolume 20
+    Sequence {2 4 1 90; 3 4 3 80; 4 4 4 80 }{1 1 5 90 * 4} 
+End
+
+DefGroove Sustain
+//Bass-Sus Sequence -  /// silence this pattern
+Set Sustain Bass-Sustained Groove Sustain
+
+/// No groove for intro, just the solo stuff
+Groove None
+
+Begin Solo
+    Voice VoiceOohs
+    Harmony OpenBelow+8Below
+    Articulate 110
+    Volume mf
+    Octave 5
+    Begin Riff
+        4r;g;c+;d+;    // 1
+        1e+;           // 2
+        4r;g;c+;d+;    // 3
+        1e+;           // 4
+        4r;e+;f+;e+;   // 5
+        1d+;           // 6
+        4r;d+;;e+;     // 7
+        4d+;8c+;r;2c+; // 8
+    End
+End
+
+Begin Solo-Sea
+    Voice SeaShore
+    Volume mp
+    Articulate 110
+    Octave 5
+    Begin Riff
+        1c--;
+        4r;2.c#+;
+        4r;
+        1g;
+        1a&+;
+        4r;
+        1e+;
+        4r;2.e&;
+    End
+End
+
+Begin Solo-Harp
+    Voice Harpsichord
+    Volume f
+    Articulate 180
+    Harmony 3Below+8Below
+    Arpeggiate Direction=Up Rate=8 Decay=-2
+    Octave 5
+    Begin Riff
+        1r;
+        1c+;
+        4c+;
+        1c+;
+        4c+;
+        1b+;
+        4b+;
+        1c+;
+    End
+End
+
+Swell mp mf 8
+1         C
+2         /
+3         /
+4         /
+
+5         /
+6         G
+7         /
+8         C
+
+Repeat   /// 'A'
+Groove BoneyMSus
+
+9         C
+10        /
+11        /
+12        / 
+
+Groove BoneyM
+$Sustain
+
+13        /
+14        G
+15        /
+16        C
+
+RepeatEnd
+
+Repeat   //// 'B'
+
+Groove BoneyMFill
+17        C
+Groove BoneyM
+18        /
+19        /
+20        F
+21        C
+
+Groove BoneyMPlus
+
+22        /
+23        /
+Groove BoneyMSusPlus
+24        G
+25        C
+
+RepeatEnd
+
+Repeat  /// 'C'
+
+Groove BoneyM
+
+26        C
+27        /
+28        G
+29        C
+
+Groove BoneyMSus
+
+30        G
+31        C
+
+Groove BoneyM
+
+32        G
+33        C
+
+RepeatEnd
+
+// Copy of 'A'. Just fade to end
+
+Groove BoneyMSus
+$Sustain
+AdjustVolume Ratio=20
+Decresc pppp  8
+
+9         C
+10        /
+11        /
+12        / 
+
+Groove BoneyM
+$Sustain
+AdjustVolume Ratio=20
+
+13        /
+14        G
+15        /
+16        C

@@ -1,0 +1,137 @@
+// Girl From Ipanema
+
+Tempo  126   // This speed is from the Gilberto/Getz version
+KeySig G
+
+Groove Metronome2-4
+	z * 2
+
+Transpose -2
+
+Groove BossaNovaFill
+
+Begin Solo
+	Voice Piano2
+	Volume f
+	Articulate 80
+	Octave 6
+	Harmony 8Below
+	Begin Riff
+		4.a; 8f; 4; 8e; 4.a~;
+		~ 4f; 8f; ; e; 4.a ~;
+		~ 4a; ; 8g; 1a ~;
+	End
+End
+
+// 4 bar intro
+
+1        GM7
+2        Am7
+3         A7
+4        GM7      /      z
+
+
+Repeat
+Repeat	  // First 8 bars are repeated (some books show it expanded)
+
+Groove BossaNova
+Volume mp
+Cresc  mf 6
+
+5        GM7
+6          /
+7         A7
+8          /
+
+Groove BossaNovaPlus
+
+9        Am7
+10       Ab7
+
+RepeatEnding
+
+Groove BossaNovaFill
+Drum-Triangle Decresc p 2
+
+11       GM7
+12     Ab7b5
+
+RepeatEnd
+
+Groove BossaNovaFill
+Drum-Triangle Decresc mp 2
+Volume mp
+Cresc f 20
+
+13       GM7
+14         /
+
+Groove BossaNovaSus
+
+15      AbM7
+16         /
+17       Db9
+18         /
+
+Groove BossaNovaSusPlus
+
+19      G#m7
+20         /
+21        E9
+22         /
+
+Groove BossaNova1Sus
+
+23       Am7
+24         /
+25        F9
+26         /
+
+Groove BossaNovaSus
+
+27       Bm7
+28    E7b5b9
+29       Am7
+30    D7b5b9
+
+Groove BossaNova1Sus
+
+31       GM7
+32         /
+33        A7
+34         /
+
+Groove BossaNova
+
+35       Am7
+36     Ab7b5
+
+Repeatending 2    /// on the sheet this is a DS
+Groove BossaNovaFill
+Drum-Triangle Decresc mp 2
+
+37       GM7
+38         /
+
+RepeatEnd   /// on the sheet this is the CODA section
+
+
+39       GM7
+
+Groove BossaNovaFill
+Drum-Triangle Decresc mp 3
+Volume mf
+Decresc pppp 5
+
+40       Ab7
+41       GM7
+42       Ab7
+
+Groove BossaNovaEnd
+Scale Sequence -
+Seq 3
+
+43       GM7
+44         /      /   /  z!
+
+

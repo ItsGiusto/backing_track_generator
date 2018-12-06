@@ -1,0 +1,112 @@
+// Whiffenpoof Song
+// This is a Ben Webster version. Only the chorus in 4/4 instead of 3/4.
+
+Tempo 122
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove MellowJazzIntro
+
+Begin Solo
+    Voice Strings
+    Articulate 120
+    Octave 5
+    Harmony 3Below+8Below
+    Volume f
+    Begin Riff
+        2e+;d+;
+        2c+;b;
+        2a;g;
+        2.f;
+    End
+End
+
+Swell mp mf 4
+
+1         Eb
+2         Cm
+3         Fm
+4        Bb7
+
+Repeat
+Groove MellowJazz
+Volume m
+
+5         Eb
+6          /      /   Edim
+7        Bb7
+8          /
+
+Groove MellowJazzSus
+Volume f
+
+9         Fm
+10       Bb7
+11        Eb
+12         /
+
+Groove MellowJazzPlus
+Volume m
+
+13         /
+14         /      /   Edim
+15       Bb7
+16         /
+
+Groove MellowJazzSus
+Volume f
+
+17         /
+18        Gm
+19        Eb
+20         /
+
+Groove MellowJazz
+Volume m
+
+21        Cm
+22         /
+23        Fm
+24         /
+
+Groove MellowJazzPlus
+Volume mf
+
+25       Bb7
+26       Bb+
+27        Gm
+28        Eb
+
+Groove MellowJazz
+Volume m
+
+29        C7
+30         /
+31        Fm
+32         /
+
+Groove MellowJazzSus
+Volume f
+
+33       Bb7
+34         /
+
+RepeatEnding
+Decresc m 2
+
+35        Eb
+
+Groove MellowJazzFill
+
+36         /      /    Bb+
+
+RepeatEnd
+
+Groove MellowJazzEnd
+Decresc p 2
+
+37        Eb
+38         /     z!
+

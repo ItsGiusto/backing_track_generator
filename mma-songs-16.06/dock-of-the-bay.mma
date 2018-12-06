@@ -1,0 +1,124 @@
+// Dock Of The Bay
+
+Tempo 105
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove 8BeatIntro
+
+Begin Bass
+    Sequence {1 4. 1 90; 2.5 8 1 90; 3 4 5 90; 4 4 5 90}
+    Volume +50
+End
+
+1         F
+2         /
+3         /
+4         /
+
+Repeat
+Groove 8Beat
+
+5         F
+6         A
+7        Bb
+8         G
+
+Groove 8BeatSus
+
+9         F
+10        A
+11       Bb
+12        G
+
+Groove 8Beat1
+
+13        F
+14        D
+15        F
+16        D
+
+Groove 8Beat1Sus
+
+17        F
+18        G
+
+RepeatEnding
+
+19        F
+20        D
+
+RepeatEnd
+
+21        F
+22        D
+
+Groove 8Beat
+
+23        F      /      /      C
+24       Bb
+25        F      /      C
+26       Bb
+
+Groove 8Beat1
+
+27        F      /      C
+28       Bb      /      F
+29       Eb
+30        C
+
+/// this is the DS
+
+Groove 8BeatSus
+
+5         F
+6         A
+7        Bb
+8         G
+
+Groove 8Beat
+
+9         F
+10        A
+11       Bb
+12        G
+
+Groove 8Beat1Sus
+
+13        F
+14        D
+15        F
+16        D
+
+
+Groove 8Beat
+
+17        F
+18        G
+
+/// the coda section
+
+31        F
+32        D
+
+Decresc pppp 8
+Groove 8BeatSus
+
+33        F
+34        /
+35        /
+36        D
+
+33        F
+34        /
+
+Groove 8BeatEnd
+
+35        /
+36        D
+
+
+
+

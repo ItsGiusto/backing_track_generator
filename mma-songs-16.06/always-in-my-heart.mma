@@ -1,0 +1,113 @@
+// Always In My Heart
+//  Gannon/Lecuona 1942
+
+Tempo 96
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BeguineIntro
+Begin Solo
+    Voice PizzicatoString 
+    Harmony OpenAbove+OpenBelow+8Below
+    Volume f
+    RVolume 10
+    RTime 5
+    Octave 5
+    Begin Riff
+        4r;8b;c+;d+;c+;4b;
+        4r;8g;a;b;a;4g;
+        4r;8c+;b;a;g;a;b;
+        4c+;
+    End
+End
+
+Swell mp m 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+
+Repeat
+Groove Beguine
+Volume m
+
+5        Bb
+6         /      /    F+7
+7        Bb
+8         /
+
+Groove BeguineSus
+Cresc mp m 4
+
+9         /      /    Eb9
+10     Bb/D      / Dbdim7
+11      Cm7
+12       F7
+
+Groove Beguine
+Decresc mf mp 4
+
+13      Cm7
+14        /      /      /   C7b5
+15       F7
+16        /
+
+Groove BeguineSus
+Cresc m 4
+
+17      Cm7
+18       F7      /     A7
+19       Bb
+20        /      / F7sus4
+
+Groove Beguine1
+
+21       Bb
+22        /    /   F+7
+Decresc mp 2
+23       Bb
+24        /
+
+Groove Beguine1Sus
+Cresc m 2
+
+25    Dm7b5
+26     G7b9
+27       Cm
+28        /
+
+Groove Beguine
+Cresc mf 3
+
+29     Ebm6
+30      Ab9
+31       Bb
+Decresc mp 1
+32     Bb/D      / Dbdim7
+
+Groove BeguineSus
+
+33      Cm7
+34       F7
+
+RepeatEnding 
+
+35       Bb
+
+Volume p
+Groove BeguineFill
+
+36       /    /   F7
+
+RepeatEnd
+
+Groove Beguine2End
+Decresc ppp 2
+
+35       Bb
+37       /    z!
+

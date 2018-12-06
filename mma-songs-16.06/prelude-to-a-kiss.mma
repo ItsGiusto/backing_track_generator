@@ -1,0 +1,90 @@
+// Prelude To A Kiss
+
+Tempo 70
+KeySig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove MellowJazzIntro
+Begin Solo
+    Voice Piano1
+    Octave 5
+    Volume f
+    Articulate 110
+    Harmony OpenBelow+16Below
+    Begin Riff
+        16g;b;8+8c+; 8b; 8g;8f; 4e;
+        4c;d;e;f;
+        43d+;c+;b; c+;b;a;
+        1g;
+    End
+End
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+Repeat
+Groove MellowJazz
+
+5        D13    D9+     G9   G7b9
+6         C9      /    FM7
+7        B13    B9+     E9   E7b9
+8       A7b9      /     Dm
+
+Groove MellowJazzSus
+
+9     F(add9)      /    G7+
+10         C      /    D13
+
+RepeatEnding
+
+11       Dm7      / G7#5b9
+12        C6      /   BbM7    A7+
+
+RepeatEnd
+
+13       Dm7      /   G7b9    G9+
+14         C
+
+Repeat
+Groove MellowJazzPlus
+
+15         E      /   C#m7
+16      F#m7 F#m7b9   B7b9     B9
+17    E(add9)      /   C#m7
+18      F#m7      /   B7b9     B7
+
+Groove MellowJazzSusPlus
+
+19         E      /   C#m7
+20      F#m7 F#m7b5   B7b9     B9
+21         E      /   A7b9     D9
+22    F6(add9) F#6(add9) G6(add9) A7#5b9
+
+Groove MellowJazz
+
+23       D13    D9+     G9   G7b9
+24        C9      /    FM7
+25       B13    B9+     E9   E7b9
+26      A7b9      /     Dm
+
+Groove MellowJazzSus
+
+27    F(add9)      /    G7+
+28         C      /    D13
+
+RepeatEnding
+
+29       Dm7      /   G7b9    G9+
+30         C      /     G7
+
+RepeatEnd
+
+Groove MellowJazzEnd
+
+29       Dm7      /   G7b9    G9+
+30         C     z!
+

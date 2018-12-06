@@ -1,0 +1,168 @@
+// Lovely Rita
+
+Tempo 174
+
+Groove Metronome2-4
+   z * 2
+
+Groove SoftRock
+
+Begin Solo
+  Voice Piano2
+  Volume f
+  Articulate 80
+  Octave 5
+  Accent 1 20 3 20
+  Begin Riff
+    4bd+;g;bd+;g;
+    4bd+;g;bd+;g; 
+    4r;4fa;2;
+    2.fa;8;;
+    2egc+;4gc+;e;
+    4.dgc+;8c+;4b;c+; 
+    2gbd+;;
+    1gbd+;
+  End
+End
+
+Begin Solo-Vox
+   Voice SynthVox
+   Octave 5
+   Harmony Open
+   Articulate 100
+   Volume ff
+   Begin Riff
+     1r;
+	 1r;
+	 2r;f+;
+	 4e+;2.;
+	 1+1c+ ~;
+   End
+End
+
+Cresc mp mf 8
+
+1         G
+2         /
+3         F
+4         /
+
+5         C
+6         /
+7         G
+8         /
+
+/// end of intro
+/// Vocal intro ... "Lovely Rita ... tow your heart away
+
+Groove SoftRockSus
+
+Swell m f 8
+
+9         G
+10        /
+11        F
+12        /
+
+13        C
+14        /
+15        G
+16        /
+
+Swell m mp 8
+
+17        C
+18       Bb      /      F
+19        C
+20        G
+
+21       Am
+22       D7
+23       G7      /    Dm7
+24       G7
+
+/// The verses 1 to 4.
+
+Repeat
+Groove SoftRock2
+Repeat
+
+25        C
+26        F
+27       Bb
+28       Eb
+
+29        C
+
+Groove SoftRockFill
+
+30       G7
+
+Groove SoftRock2Sus
+
+RepeatEnd
+
+Groove SoftRock
+
+Begin Solo-Vox Riff
+ 2g+;c+;
+ 2a;d+;
+End
+
+31        C      /     Am
+32        Dm     /      G
+
+Groove SoftRock1
+
+Cresc mp mf 8
+
+33        C
+34       Bb      /      F
+35        C
+36        G
+
+37       Am
+38       D7
+
+RepeatEnding
+
+39        G      /     Dm
+40        G
+
+/// in the Beatles version there is a 12 bar piano solo here
+
+RepeatEnd
+
+/// Coda
+Groove Softrock
+Swell mp f 16
+
+41       G7
+42        /      /     Dm
+43        F
+44        /
+
+45        C
+46        /
+47        G
+48        /
+
+Groove SoftRockSus
+
+49       G7
+50        /
+51        F
+52        /
+
+53        C
+54        /
+55        G
+56        /
+
+Groove SoftRockEnd
+Seq 2
+
+57      Gm7
+58        /
+59        C  z!
+

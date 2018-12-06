@@ -1,0 +1,62 @@
+// Subway Harry (Poncho Sanchez)
+
+Tempo 120
+Keysig Ab
+
+Groove Metronome2-4
+  z * 2
+
+// This track is used in bars 13 and 15 to
+// play the whistle on beats 1, 1.5, 3 and 3.5
+// Do not assign a sequence to this track ... 
+// it will be played in every bar if you do.
+Begin Drum-Solo
+    Sticky On
+    Tone ShortHiWhistle
+    Volume ff
+End
+
+Groove ChaChaIntro
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove ChaCha
+
+5     Bb7#9      /     Eb
+6     Bb7#9      /     Eb
+7     Bb7#9      /     Eb
+8     Bb7#9      /     Eb
+
+Groove ChaCha1
+
+9       Gb7      /    Bb9
+10     Gb7(add13)
+11      Bb7      /     Eb
+12    Bb7#9
+
+Groove ChaChaSus
+
+Drum-Solo Riff 1 0 90; 1.5 0 90; 3 0 90; 3.5 0 90;
+13      Eb7      /     E7
+14      Eb7
+Drum-Solo Riff 1 0 90; 1.5 0 90; 3 0 90; 3.5 0 90;
+15        /      /     E7
+16      F13
+
+RepeatEnding 2
+
+17   C7#5b9      / Db7b5(add13)   Eb/F
+Groove ChaChaFill
+18        /
+
+RepeatEnd
+
+Groove ChaChaEnd
+
+17   C7#5b9      / Db7b5(add13)   Eb/F
+18        /
+

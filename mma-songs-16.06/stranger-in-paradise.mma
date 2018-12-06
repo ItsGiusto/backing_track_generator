@@ -1,0 +1,130 @@
+// Stranger In Paradise
+
+Tempo 100
+Keysig f
+
+Groove Metronome2-4
+	z * 2
+
+Groove RhumbaIntro
+Begin Solo
+ Voice TremoloStrings
+ Octave 5
+ Volume m
+ Articulate 110
+ Harmony Open
+ Begin Riff
+    4g;;2+4d+~;
+    ~ 4c+;43b;a;g;
+    8a;b;2.c+;
+    4r;d+;a;8g;f;
+    4d;;2+4g ~;
+    ~ a;43g;f;e;
+    1+2f~;
+ End
+End
+
+Cresc ppp m 8
+
+1       Gm7
+2        C9
+3       FM7
+Seq 2
+4        F6
+Seq
+5       Gm7
+6        C9
+7        F6
+8         /
+
+
+Repeat
+Groove Rhumba
+Cresc mp mf 8
+
+9       Gm7
+10       C9
+11      FM7
+12       F6
+13      Gm7
+14       C9
+15       F6
+
+Groove RhumbaSus
+
+16        /
+17      Gm7
+18       C9
+19      FM7
+20       F6
+21      Gm7
+22       C9
+23       F6
+
+Groove Rhumba1
+Decresc mp 8
+
+24        /
+25      Db7
+26        /      /   Abm7    Db7
+27      Gb6
+28        /
+29     Ebm6
+30        /      /     F7
+31      Bbm
+
+Groove Rhumba1Sus
+Volume mf
+
+32        /
+33       A7
+34        /      /    Em7     A7
+35      DM9      /     D6
+36        /
+37      Gm7
+38       C9
+39      FM7
+
+Groove Rhumba1
+Volume mp
+
+40     D7-9
+41      Gm7
+42       C9
+43      FM7
+44       F6
+45      Gm7
+46       C9
+47       F6
+
+Groove Rhumba
+Volume mf
+Decresc  pp 12 
+
+48        /      /    Dm7
+49       G7
+50       C9
+51        F
+52       D7
+
+RepeatEnding
+
+53      Gm7
+54       C9
+55       F6      /    Eb9
+
+Groove RhumbaTriple
+
+56       F6
+
+RepeatEnd
+
+Groove RhumbaEnd
+Decresc ppp 4
+
+53      Gm7
+54       C9
+55       F6      /    Eb9
+56       F6      /  z!
+
+

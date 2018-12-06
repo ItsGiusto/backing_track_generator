@@ -1,0 +1,109 @@
+// Best Things In Life Are Free
+
+Tempo 160
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+Begin Solo
+   Voice Trombone
+   Octave 5
+   Harmony OpenAbove
+   Articulate 95
+   Volume f
+   Begin Riff
+      2c;e;
+	  2a;c+;
+	  4d+;c+;d+;e+;
+	  1g+;
+   End
+End
+
+Cresc m f 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Repeat
+Groove BigBand
+Volume m
+
+5         C
+6         /
+7         /
+8         /
+
+Groove BigBandPlus
+
+9         /
+10        /      /   Cdim
+11      Dm7
+12       G7
+
+Groove BigBand
+Cresc m f 8
+
+13       Dm
+14        /
+15        F     Dm      F
+16        /      /      /   Bdim
+
+Groove BigBandSus
+
+17       G7
+18        /      /   G7b9
+19        C      /   Gdim
+20       G7
+
+Groove BigBand
+Decresc f m 8
+
+21       C7
+22        /
+23        F
+24        /
+
+Groove BigBandSusPlus
+
+25       D7
+26        /
+27      Dm7
+28       G9      /      /     G7
+
+Groove BigBand
+Volume mp
+
+29        C
+30        /
+31     Adim      /     Bm
+32     G7b5      /     Am
+
+Groove BigBand
+Volume m
+
+33      Dm7
+34     Ddim      /     G7
+
+RepeatEnding
+
+35        C      /    Ab7
+
+Groove BigBandFill
+
+36        C      /     G7
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc ppp 2
+Tempo *.9 2
+
+37        C      /    Ab7
+36        C      z!
+
+

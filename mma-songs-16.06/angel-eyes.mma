@@ -1,0 +1,138 @@
+// Angel Eyes
+
+
+Tempo 80
+Keysig 3&
+
+Groove Metronome2-4
+	z * 2
+
+
+// 4 bar intro. Set the chording to a straight 1/3 pattern.
+// The jazzguitar does a nice little solo thingie.
+
+Groove SlowBlues
+Begin Chord
+	Sequence C13
+	Articulate 100
+End
+
+Begin Solo
+	Voice JazzGuitar
+	Volume f
+	Articulate 100
+	Accent 1 20 3 20
+	Begin Riff
+		 8f;a;c+;e+;d+;c+;d+;c+;
+		 8b;c+;b;a;b;a;g;a;
+		 8g;f;g;f;e;d;1c~;
+	End
+End
+
+Volume p
+Cresc f 4
+
+1         Fm   //   Only number 1st  bar, in   score this is   a    cadendza
+2          /
+3          /
+4         C7
+
+Delete Solo
+
+// Start the song
+
+Repeat             // do the whole thing 2x
+Groove SlowBlues
+Volume mf
+
+Repeat            // Repeat the A section
+Volume mp
+Cresc f 10
+
+5        Cm7      /  Ab7/C
+6        Cm6      /  Ab9/C
+7        Cm9      /  Am7b5
+
+// The Hal Len. Jazz book has this chord sequence here:
+//  	Eb13 AbM7 G7b5 Dm11
+//  and I think it sounds crummy. I've changed it to
+//  the following, stolen from the RealBook
+
+Groove SlowBluesFill1
+
+8      Dm7b5      /   G7b9
+
+Groove $_LastGroove
+
+9        Cm9      /  Ab7/C
+10       Cm6      /  Ab9/C
+11      D7b9      /    Ab9   G7b9
+
+Repeatending		// Ending 1
+
+12       Cm7      /    Ab9   G7b9
+
+Groove SlowBluesWalk4
+
+Repeatend		// Ending 2
+
+Seq 2
+
+13        Cm
+
+/// B section
+
+Groove SlowBluesWalk8
+
+Volume f
+
+14      Bbm9      /  Eb7b9
+15      AbM9      /   F7b9
+16      Bbm9      /  Eb7b9
+17      AbM9      /   DbM9
+
+Volume mf
+
+18       Am9      /   D7b9
+19       GM7      /      /    CM9
+20      C#m7      /  F#7#5
+
+Groove SlowBluesFill3
+
+21       Dm7      /   G7#5
+
+Volume mf
+Groove SlowBlues
+
+22       Cm9      /  Ab7/C
+23       Cm6      /  Ab9/C
+24       Cm9      /  Am7b5
+25       Dm7      /   G7b5     G7
+
+Groove SlowBluesSus
+Volume mp
+Cresc mf 4
+
+26       Cm9      /  Ab7/C
+27       Cm6      /  Ab9/C
+28      D7b9      /    Ab9   G7#5
+
+Chord Riff 1 1 90 * 2   // force just 2 chords on the next bar
+
+29        Cm
+
+RepeatEnd
+
+Groove SlowBluesEnd
+
+Tempo *.9
+
+Seq 2
+30       Ab9      /   G7#5
+
+Seq 4
+
+31    Cm(maj7)      /     z!
+fermata -4 2 120
+
+

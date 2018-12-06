@@ -1,0 +1,99 @@
+// Just You Just Me
+
+Tempo 180
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+    Voice BrassSection
+    Volume ff
+    Articulate 90
+    Octave 4
+    Begin Riff
+        8e+;;4c+;b;2g~;
+        ~ b;c+;b;
+        4e+;c+;b;g;
+        2b;
+    End
+End
+
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Repeat
+Groove BigBand
+Volume m
+
+5        Eb      /   Bbm6
+6        C7      /   C7b5
+7        Fm      /   Abm6
+8       Bb7      /   E7b5
+
+Cresc mf 3
+Groove BigBandPlus
+
+9        Eb      /   EbM7    Eb7
+10     AbM7      /   Abm6
+11       Eb      /   F7b5    Bb7
+
+RepeatEnding
+Groove BigBandFill
+
+12       Eb      /    Fm7   Abm6
+
+RepeatEnd
+
+13    Eb
+
+Groove BigBandSus
+Volume m
+
+14       Eb
+15     Bbm7      /    Eb7
+Cresc mf 2
+16       Ab      /    Fm7    Abm
+17        /
+
+Groove BigBandSusPlus
+Volume m
+
+18       Eb      /    Cm7
+19     Bdim      /     Cm
+Cresc f 2
+20       F7
+21      Bb9      /      /  Bb7b9
+
+Groove BigBand
+Volume m
+
+22       Eb      /   Bbm6
+23       C7      /   C7b5
+24       Fm      /   Abm6
+25      Bb7      /   E7b5
+
+Groove BigBandPlus
+Volume mf
+
+26       Eb      /   EbM7    Eb7
+27     AbM7      /   Abm6
+
+RepeatEnding 
+Decresc mp 2
+28       Eb      /   F7b5    Bb7
+29       Eb     /    B&7
+
+RepeatEnd
+Groove BigBandEnd
+Decresc ppp 2
+
+28       Eb      /   F7b5    Bb7
+29       Eb      z!

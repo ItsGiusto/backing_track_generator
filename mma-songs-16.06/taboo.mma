@@ -1,0 +1,161 @@
+// Taboo  (1934)
+
+Tempo 133
+Keysig G
+
+Groove Metronome2-4
+   z * 2
+
+Groove ChaChaIntro
+
+Begin Solo
+    Voice Clarinet
+    Octave 5    
+    Harmony OpenBelow
+    Articulate 90
+    Swell p f 4
+    Begin Riff
+        4e;2.b;
+        4e;2.b;
+        4e;2.c+;
+        4e;2.c+;
+    End
+End
+
+Cresc mp mf 4
+
+1        Em
+2         /
+3        Am
+4         /
+
+
+Groove ChaCha
+Repeat
+Volume m
+
+5        Em
+6         /
+7         /
+8         /
+
+Groove ChaCha1
+Cresc f 4
+
+9        Am
+10        /
+11       Em
+
+RepeatEnding
+
+12        /
+Groove ChaChaSus
+
+RepeatEnd
+
+13        /
+
+Groove ChaCha
+Volume m
+
+14        B
+15        /      /     Am
+16        B
+17        /
+
+Groove ChaChaSus
+Cresc mf 4
+
+18        /
+19        /      /     Am
+20        B
+21        /
+
+Groove ChaCha
+Volume f
+
+22       Em
+23        /      /      /    Am6
+24       Em
+25        /
+
+Groove ChaCha1
+Decresc m 4
+
+26       Am
+27        /
+28       Em
+29        /
+
+Groove ChaCha
+Volume mp
+Repeat
+
+30       Em
+31       E7
+32       Am      /   B7#5
+
+RepeatEnding
+
+33       Em
+
+Groove ChaChaSus
+Volume f
+
+RepeatEnd
+
+34       Em
+
+Groove ChaCha
+Volume m
+
+35      Em7      /    Em6
+36      Em7      /    Em6
+37      Am7      /    Am6
+38      Am7      /     D7
+
+Groove ChaCha1
+
+39       Em
+40    F#7b5      /     Em
+41        /
+42    F#7b5      /     Em
+
+Volume mp
+Groove ChaChaSus
+Repeat
+
+43       Em
+44       E7
+45       Am      /   B7#5
+
+RepeatEnding
+
+46       Em
+
+Groove ChaCha1Sus
+Volume mf
+
+RepeatEnd
+
+47       Em
+
+Groove ChaCha
+Volume m
+Tempo *.85 8
+48        /
+49        /
+50        /
+51        /
+
+
+Decresc ppp 4
+
+52       E7
+53        /
+
+Groove ChaChaEnd
+
+54       E6
+55        / z!@4
+

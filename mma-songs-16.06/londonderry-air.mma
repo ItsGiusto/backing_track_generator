@@ -1,0 +1,66 @@
+// Londonderry Air
+
+Tempo 60
+Keysig C
+
+Transpose 3  // take from C to Eb, a bit nicer sounding on tenor sax
+
+Groove Metronome2-4
+	   z * 2
+
+Groove SlowBluesIntro
+Begin Solo
+   Voice VoiceOohs //Strings
+   Octave 5
+   Articulate 105
+End
+
+Begin Solo-1
+   Voice ChoirAahs
+   HarmonyOnly Open
+   Octave 6
+   Articulate 105
+End
+
+1         C   { 4c; e; 2g; }
+2        Am   { 4e; a; 2e; }
+3        Dm   { 8f; g; a; g; a; g; f; a; }
+4        G7   { 2.g; }
+
+Repeat
+Groove SlowBlues
+
+5         C 
+6         F
+7         C      F      C
+8        D7      /      G      G7
+
+Groove SlowBluesWalk4
+
+9         C      /      /     C7
+10        F      /      /     G7
+11        C      /      /     G7
+12        C      /      /      F 
+
+Groove SlowBluesSus
+ 
+13        C      /      F      C
+14       Em     Am      /     G7
+15        C      /      F     C
+16        D7     /      G     G7
+
+Groove SlowBluesWalk4Sus
+
+17        C      C7    F
+18        C     Am     F
+19        C      /     F     G7
+
+RepeatEnding
+
+20        C      /     G7
+
+RepeatEnd
+
+
+21        C      /    /   z!
+

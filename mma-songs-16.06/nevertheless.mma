@@ -1,0 +1,115 @@
+// Nevertheless (I'm In Love With You)
+
+Tempo 110
+KeySig Bb
+
+Groove Metronome2-4
+  z * 2
+
+
+Groove BeguineIntro
+
+Begin Solo
+    Voice NylonGuitar
+    Octave 5
+    Harmony OpenBelow+Open8Below+8Below
+    Articulate 120
+    RTime 5
+    RVolume 5
+    Volume f
+    Begin Riff
+       8b;;;2;
+       8b;;;2;
+       43c+;;; ;;;
+       2.a;
+    End
+End
+
+Swingmode On
+Swell mp mf 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove Beguine
+Volume m
+
+5        Bb
+6    Dbdim7
+7        F7
+8     Dm7b5      /     G7
+
+Groove Beguine1
+Decresc mp 4
+
+9        Cm      /     G7     G+
+10       C7      /     F7
+11       Bb      /    Gm7
+12       C7      /     F7
+
+Groove BeguineSus
+Cresc m 4
+
+13       Bb
+14   Dbdim7
+15       F7
+16    Dm7b5      /     G7
+
+Groove Beguine1Sus
+
+17       Cm      /     G7     G+
+18       C7      /     F7
+19       Bb
+20        /     F+    Bb+    Eb+
+
+Groove Beguine
+Volume mf
+
+21      Fm7      /    Bb7
+22      Fm7      /    Bb7
+23       Eb
+24        /
+
+Groove Beguine1
+Decresc mp 4
+
+25      Gm7      /     C7
+26      Gm7      /     C7
+27       F7      /    Cm7
+28       F7
+
+Groove BeguineSus
+
+29       Bb
+30   Dbdim7
+31       F7
+32    Dm7b5      /     G7
+
+Groove Beguine
+Volume mf
+
+33       Cm      /     G7     G+
+34       C7      /     F7
+
+RepeatEnding
+
+35       Bb   /  Gm
+
+
+Groove BeguineFill
+
+36       F7   /  z
+
+RepeatEnd
+
+Groove BeguineEnd
+Decresc ppp 2
+Seq 3
+
+37       Bb  /  C7  F+
+38       Bb  z!
+
+Cut -2

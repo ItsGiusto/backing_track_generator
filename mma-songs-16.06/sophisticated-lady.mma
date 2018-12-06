@@ -1,0 +1,118 @@
+// Sophisticated Lady
+
+Tempo 70
+Keysig Ab
+
+Groove Metronome2-4
+	z * 2
+
+Groove JazzGuitar1Intro
+AllGrooves Plectrum Capo -1
+
+Begin Solo
+  Voice TremoloStrings
+  Volume mf
+  Octave 5
+  Harmony OpenBelow+8Below
+  Articulate 110
+  Begin Riff
+    2a;e;
+	4a;c+;2e+;
+	4f+;en+;2c+;
+	2e+;
+  End
+End
+
+Cresc pp mf 4
+
+1         Ab
+2         G7      /    G&7
+3         F9
+4         E9
+
+// This is to grab the value of the MF volume setting
+// we use this to avoid an error on the decresc later
+Volume mf
+Set vt $_Volume
+
+Groove JazzGuitar
+Cresc m mf 4
+Repeat
+
+5        Bbm
+6        Gb9     F9     E9    Eb9
+7         Ab
+8        Ab9     G9    Gb9     F9
+
+Groove JazzGuitarSus
+Chord-Sus Decresc -60 4
+// 1st pass volume == MF, decresc to m
+// 2nd pass volume == MP, skip decresc
+if ge $_Volume $vt
+ Decresc m 4
+endif
+
+9        Bb7
+10      Bbm7      /    Eb7
+
+RepeatEnding
+
+11      AbM7
+12      Adim
+
+Groove JazzGuitar1  // this is for the 2nd time 
+Decresc m mp 4      // through the repeated verse
+
+Repeatend
+
+13        Ab
+14       Cm6      /     D7
+
+Repeat
+Groove JazzGuitar
+Cresc mf 4
+
+15         G      /     Em
+16       Am7      /     D9
+17        G7      /  G#dim
+18        Am      /   D7b9
+
+Groove JazzGuitarSus
+Chord-Sus Decresc -60 4
+Volume m
+
+19         G      /     Em
+20       Am7      /     D9
+21         G   Bdim     Cm
+22       Eb9      /   D7b9
+
+Groove JazzGuitar
+Volume mp
+
+23       Bbm
+24       Gb9     F9     E9    Eb9
+25        Ab
+26       Ab9     G9    Gb9     F9
+
+Groove JazzGuitarSus
+Chord-Sus Decresc -30 2
+Cresc m 2
+
+27       Bb7
+28      Bbm7    Eb7
+
+RepeatEnding
+Chord-Sus Decresc -30 2
+
+29        Ab
+30        G / D7
+
+RepeatEnd
+
+Groove JazzGuitarEnd
+Decresc ppp 2
+Tempo *.8 2
+
+31        Ab
+32         /      /     z!
+

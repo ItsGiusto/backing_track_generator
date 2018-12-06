@@ -1,0 +1,115 @@
+// Youre The Top
+// From the 1934 Cole Porter Musical "Anything Goes"
+
+Tempo 140
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove SalsaIntro
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Octave 5
+    Articulate 110
+    Harmony 3above+3Below
+    Rtime 0,5
+    RVolume 0,20
+    Begin Riff
+        2+8r;4e;8c;
+        4e;4r;8;4e;8c;
+        4f;4r;8;4f;8e;
+        4b;
+    End
+End
+
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove Salsa
+Volume m
+
+5        Eb      /   Bdim
+6        Eb      /      /   Edim
+7       Bb7
+8         /      /     Gm
+
+Groove SalsaPlus
+Volume mp
+
+9        Eb
+10       Cm
+11       G7
+12        /
+
+Groove Salsa
+Cresc m 4
+
+13       Ab
+14      Fm7      /    Bb7
+15       Eb      /      /     Bb
+16       Cm
+
+Groove SalsaSus
+
+17        D     Gm
+18       C9     F7
+19      Bb9      /      /   Edim
+20      Bb7      /    Bb+
+
+Groove Salsa
+Decresc mf mp 4
+
+21       Eb      /   Bdim
+22       Eb      /      /   Edim
+23       Bb
+24        /      /     Gm
+
+Groove SalsaSusPlus
+Cresc m 4
+
+25       Eb
+26       Cm
+27      Eb7
+28        /      /    Eb9
+
+Groove SalsaSus
+
+29       Ab
+30      Bb7      /     Eb
+31       Em      /     C7
+32       F7
+
+Groove Salsa
+Volume mf
+
+33       Fm      /     Eb
+34       Ab      /    Bb7
+
+RepeatEnding 2
+
+Decresc mp 2
+35       Eb   Edim      /    Bb7
+
+Groove SalsaFill
+
+36    F#dim      /    Bb+
+
+
+RepeatEnd
+
+Groove SalsaEnd
+Decresc ppp 2
+
+35       Eb   Edim      /    Bb7
+36       F#dim  z!
+
+
+

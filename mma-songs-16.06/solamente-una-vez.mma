@@ -1,0 +1,112 @@
+// Solamente una Vez
+//   English titles inlcude "Only Once In My Life" and "You Belong to My Heart"
+
+Tempo 105
+Keysig  Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBoleroIntro
+AllGrooves Chord Voicing Mode=Key
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Articulate 110
+    Harmony OpenBelow+8Below
+    Octave 6
+    Begin Riff
+        8e;f;4g;2b;
+        8a;g;4a;4f;8b-;;
+        43c;d;e;2f;
+        2b;
+    End
+End
+
+Swell mp mf 4
+
+1        Eb
+2        Dm
+3        Cm
+4        B&7
+
+Repeat
+Groove SlowBolero
+Volume m
+5        Eb      /   EbM7
+6       Eb6      /  Edim7
+7       Bb7
+8         /      z
+
+Groove SlowBoleroPlus
+Cresc mf 4
+
+9        Fm      /   FmM7
+10      Fm7      /    Bb+
+11       Eb
+12        /
+
+Groove SlowBolero1
+
+13      Eb6   EbM7      /    Eb6
+14        /      /  Edim7
+
+Decresc mp 2
+
+15      Bb7
+16        /    Fm7    Bb7
+
+Groove SlowBoleroSus
+Cresc m 2
+
+17        /
+18        /
+19       Eb      /  Am7b5
+20   Eb6/Bb      /    Bb7
+
+Groove SlowBolero1
+
+21       Eb      /   EbM7
+22      Eb6      /  Edim7
+23      Bb7
+24        /      z
+
+Groove SlowBoleroSusPlus
+Cresc mf 2
+
+25       Fm      /   FmM7
+26      Fm7      /    Bb+
+27       Eb
+28        /
+
+Groove SlowBoleroSus
+Decresc m 4
+
+29      Eb6   EbM7      /    Eb6
+30        /      /  Edim7
+31      Bb7
+32        /    Fm7    Bb7
+
+Groove SlowBolero1
+Decresc mp 2
+
+33        /
+
+RepeatEnding
+
+34        /
+35       Eb      /      /  Adim3
+36   Bb9/Ab      /    Bb7
+
+
+RepeatEnd
+
+37        /      / Fm7    Bb7
+
+Groove SlowBoleroEnd
+Decresc ppp 2
+
+38       Eb
+39   Ebm7b5      /   EbM7 z!
+

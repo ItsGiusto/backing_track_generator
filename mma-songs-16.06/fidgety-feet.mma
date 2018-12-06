@@ -1,0 +1,152 @@
+// Fidgety Feet  (LaRocca/Shields, 1918)
+
+Tempo $(115 * 2)
+KeySig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove SwingIntro
+Begin Solo
+   Voice Trumpet
+   Begin Midinote   // easier to play, record and paste in than using notation.
+     Adjust=-768  Offsets=Ticks Duration=Ticks
+     Note 791  65 100  82
+     Note 894  69 120  54
+     Note 1106 67 122  71
+     Note 1177 65 99  195
+     Note 1533 69 127  95
+     // 2
+     Note 1636 72 97   76
+     Note 1852 70 104  54
+     Note 1947 69 121 209
+     // 3
+     Note 2324 65 118  139
+     Note 2488 67 116  70
+     Note 2591 68 114  51
+     Note 2689 69 95   82
+     Note 2782 68 107  59
+     Note 2871 67 91   79
+     Note 2969 66 122  52
+     // 4
+     Note 3077 65 89   85
+     Note 3472 77 127  121
+   End
+End
+
+1        F7
+2         /
+3         /
+4         / / / z
+
+Repeat   // do entire song 2x
+Groove Swing1
+Repeat
+
+5        Bb
+6         /
+7        Eb
+8        Bb
+
+RepeatEnding
+
+9         /
+10        /
+11       C7
+12       F7
+
+Groove Swing1Plus
+
+RepeatEnd
+
+13       Bb
+14        /
+15       F7
+16       Bb
+
+KeySig Eb
+
+Groove Swing1
+Repeat
+
+17       Eb
+18       G7
+19       Ab
+20       Eb
+
+Groove Swing1Sus
+
+21      Bb7
+22       Eb
+
+RepeatEnding
+
+23       F7
+24      Bb7
+
+Groove Swing1Plus
+
+RepeatEnd
+
+25       F7      /    Bb7
+26       Eb
+
+Keysig Ab
+Groove Swing1
+
+27       Ab
+28       Db
+
+29       Ab
+30        /
+31      Eb7
+32        /
+
+Groove Swing1PlusSus
+
+33       Ab
+34        /
+35       Db
+36    Dbdim
+
+Groove Swing1Plus
+
+37       Ab
+38       F7
+39      Bb7
+40        /
+
+Groove Swing1Sus
+
+41      Eb7
+42        /
+43       Ab
+44       Db
+
+Groove Swing1
+
+45       Ab
+46        /
+47       Db
+48        /
+
+Groove Swing1Walk
+
+49       C7
+50        /
+51       Db
+52    Dbdim
+
+Groove Swing1WalkPlus
+
+53       Ab
+54       F7
+55      Bb7
+56      Eb7
+
+Groove  Swing1End
+
+57       Ab
+58        /
+
+RepeatEnd

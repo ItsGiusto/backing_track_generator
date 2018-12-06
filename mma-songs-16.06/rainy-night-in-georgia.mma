@@ -1,0 +1,117 @@
+// Rainy Night In Georgia (Brook Benton 1970)
+
+Tempo 84
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove R&B-BalladIntro
+
+Begin AllGrooves
+  Begin Arpeggio
+     Octave 5
+     Volume m
+     Articulate 90
+     Rskip 50
+     Range .99
+  End
+End
+
+Begin Solo
+   Voice JazzGuitar
+   Volume f
+   Articulate 98
+   Octave 5
+   Harmony OpenBelow
+   Begin Riff
+       1egbd+;
+       8c+;4b;4g;8f;e;f;
+       8g;8+2.b;
+   End
+End
+
+Seq 2
+Swell m f 3
+
+1      EbM7
+2      DbM7
+3      EbM7
+
+Repeat
+
+Groove R&B-Ballad
+Volume m
+
+4      EbM7
+5        Ab
+6      EbM7
+7         /
+
+Groove R&B-BalladPlus
+Cresc f 4
+
+8         /
+9        Ab
+10     EbM7
+11        /
+
+Groove R&B-BalladSus
+Decresc mf 2
+
+12       Cm
+13       Gm
+14       Cm
+15       Gm
+
+Groove R&B-Ballad
+Volume m
+
+16       Fm      /     Ab
+17       Eb
+
+RepeatEnding  // 1st ending
+
+18     DbM7
+
+RepeatEnding  // 2nd ending
+
+19     DbM7
+20     EbM7
+
+Groove R&B-BalladSusPlus
+Volume f
+
+21     DbM7
+22     EbM7
+Volume mf
+23     DbM7
+24     EbM7
+
+
+Groove R&B-BalladSus
+Volume m
+
+25       Fm      /     Gm
+26       Fm
+27       Ab      /     Gm     Fm
+28     EbM7
+
+Groove R&B-Ballad
+Begin Solo
+   Riff 4c+;8a;f;
+   Volume ff
+   Articulate 130
+End
+
+29     DbM7
+
+RepeatEnd
+
+Groove R&B-BalladEnd
+Decresc ppp 2
+Tempo *.8 2
+
+19     DbM7  // Coda ending
+30     EbM7
+

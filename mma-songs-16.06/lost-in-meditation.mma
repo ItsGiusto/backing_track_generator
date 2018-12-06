@@ -1,0 +1,110 @@
+// Lost In Meditation
+
+Tempo 112
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+    Voice JazzGuitar
+    Harmony OpenBelow
+    Octave 5
+    Volume f
+    Articulate 110
+    Rtime 10
+    Rvolume 10
+    Begin Riff
+        8b;d+; b;g; a;b; a;g;
+        8a;b; a;g; a;g; 4e;
+        8a;g; a;g; 4a; g;
+        1d;
+    End
+End
+
+Swingmode On Skew=52  // just the slightest long/short feeling
+
+Groove RhumbaIntro
+Swell p mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove Rhumba
+Volume m
+
+5         G
+6         /
+7       Eb9
+8        E7
+
+Groove Rhumba1
+Cresc mf 4
+
+9       Am7
+10       D7
+11      Am7      /  Am7b5
+12       D7
+
+Groove Rhumba3
+Decresc mp 4
+
+13        G
+14        /
+15      Eb9
+16       E7
+
+Groove RhumbaSus
+Cresc f 8
+
+17      Am7
+18    Am7b5      /     D7
+19        G      /    Cm6
+20        G
+
+Groove Rhumba
+
+21      Bm7
+22   C#m7b5      /    F#7
+23      Bm7
+24      Em7      /     A7
+
+Groove Rhumba3
+Decresc m 8
+
+25        D
+26      Em7      /     A7
+27       D7
+28      Am7      /     D7
+
+Groove Rhumba
+
+29        G
+30        /
+31      Eb7
+32       E7
+
+Groove Rhumba3Sus
+
+33      Am7
+34    Am7b5      /     D7
+
+RepeatEnding 
+Decresc mp 2
+
+35        G      /    Cm6
+
+Groove RhumbaTriple
+36      G      /     D7
+
+RepeatEnd
+Groove RhumbaEnd
+Seq 3
+Decresc ppp 2
+
+37        G     /     Cm6
+38        G     z!
+Cut -2

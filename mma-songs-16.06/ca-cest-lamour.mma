@@ -1,0 +1,123 @@
+// Ca Cest Lamour (Cole Porter, 1957)
+
+Tempo 126
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Articulate 120
+    Harmony OpenBelow
+    Octave 5
+    Begin Riff
+        4.e;8d;4e;f;
+        2.g&;
+        4.a;8g;4a;an;
+        1b;
+    End
+End
+
+Swell mp mf 4
+
+1        Ebm
+2        Cm&5
+3        Fm
+4       Bb7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5       Ebm
+6         /
+7       Bb7
+8         /
+
+Groove FoxTrotPlus
+Volume mf
+
+9       Abm
+10     Bb+7      /      /    Bb7
+11      Ebm
+12      Bb7
+
+Groove FoxTrotSus
+Volume m
+
+13      Ebm
+14        /
+15       Bb
+16        /
+
+Groove FoxTrotSusPlus
+Volume f
+
+17      Abm
+18       Gm      /      /    Bb7
+19       Eb
+20      Eb7
+
+Groove FoxTrot
+Volume m
+
+21      Abm
+22        /
+23      Ebm
+24        /
+
+Groove FoxTrotPlus
+Volume mf
+
+25       F7
+26        /
+27     Abm6
+28      Bb7
+
+Groove FoxTrotSus
+Volume f
+
+29       Eb
+30        /
+31      Bb7
+32        /
+
+Groove FoxTrotSusPlus
+Volume f
+
+33      Fm7
+34      Bb7
+35       Eb      /      /     Fm
+36      Eb7
+
+Groove FoxTrotSus
+Decresc m 4
+
+37       Ab
+38      Bb7
+39      Gm7
+40       C7
+
+Groove FoxTrot
+Decresc mp 2
+
+41      Abm
+42        D
+
+RepeatEnding
+Groove FoxTrotFill
+
+43       Eb
+44        /
+
+RepeatEnd
+Groove FoxTrotEnd
+Decresc ppp 2
+
+45       Eb
+46        / z!
+

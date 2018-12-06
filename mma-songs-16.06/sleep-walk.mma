@@ -1,0 +1,127 @@
+// Sleep Walk
+
+Tempo 68
+
+Groove Metronome2-4
+   z * 2
+
+Groove SlowBluesIntro
+
+Begin Solo 
+   Voice SteelGuitar
+   Harmony OpenBelow
+   Articulate 150
+   Octave 4
+   Volume f
+   Begin Riff
+       2c+;g;
+       4r; 8f;g; 8.a&;8g;8.f;
+       2c+;g;
+       4r; 8f;g; 8.a&;8g;8.f; 
+   End
+End
+
+Swell p mf 4
+
+1         C / Am
+2        Fm / G7
+3        C / Am
+4        Fm / G7
+
+Groove SlowBlues
+Volume m
+
+5         C      /     Am
+6        Fm      /     G7
+7         C      /     Am
+
+
+Groove SlowBluesSus
+Cresc mf 2
+
+8        Fm      /     G7
+9         C      /     Am
+
+Groove SlowBlues
+Volume m
+
+10       FM      /     G7
+Solo Volume m
+11        C      /     Am {4r;3g;a;e+;2b;}
+
+Groove SlowBlues34Triple
+
+12      Dm7      /     G7  {4r;3c+;d+;a+;2g+;}
+
+
+Groove SlowBlues
+Cresc f 4
+
+13        C      /     Am
+14       Fm      /     G7
+15        C      /     Am
+
+
+Groove SlowBluesSus
+
+16       Fm      /     G7
+Decresc m 1
+17        C      /     Am
+
+Groove SlowBlues
+
+18       Fm      /     G7
+19        C      /      F  {2r;8a;4;16;;}
+
+Groove SlowBlues34Triple
+
+20        C      /     C7  {2+4.c+;}
+
+
+Groove SlowBluesWalk4Sus
+Cresc mp mf 3
+
+21        F
+22       Fm
+23        C
+
+Groove SlowBlues34Triple
+
+24        /      /     C7
+
+Groove SlowBluesWalk4
+Decresc mp 3
+
+25        F
+26       Fm
+27       G7      /    Ab7
+
+Groove SlowBlues34Triple
+
+28       G7    Ab7     G7
+
+Groove SlowBlues
+Volume m
+
+29        C      /     Am
+30       Fm      /     G7
+31        C      /     Am
+32       Fm      /     G7
+
+Groove SlowBlues
+
+33        C      /     Am
+
+Tempo 60
+Volume mf
+
+34       Fm      /     G7
+
+Groove SlowBluesEnd
+Seq 3
+Decresc pp 2
+
+35        C      /     F7
+36        C      /     z!
+
+

@@ -1,0 +1,85 @@
+// Earth Angel
+
+Tempo 90
+Keysig Eb
+
+Groove Metronome2-4
+   z * 2
+
+Begin Solo
+	Voice Piano2
+	Harmony Open
+	Volume mf
+	Octave 6
+	Articulate 80
+	Accent 1 20 3 10
+	Begin Riff
+		3e; ; ; ; ; ; ; ; ; ; ; ; 
+		3e; ; ; ; ; ; ; ; ; ; ; ; 
+		3f; ; ; ; ; ; ; ; ; ; ; ; 
+		2f; 
+	End
+End
+
+Groove Rock128Intro
+
+1      Eb  
+2      Cm  
+3      Fm  
+4      Bb7 
+
+Repeat
+Groove Rock128
+
+5      Eb    /    Cm    
+6      Fm7   /    Bb7   
+7      Eb    /    Cm    
+8      Fm7   /    Bb7   
+9      Eb    /    Cm    
+10     Fm7   /    Bb7   
+11     Eb    /    Cm    
+12     Fm7   /    Bb7  
+ 
+Groove Rock128Sus
+
+13     Eb    /    Cm    
+14     Fm7   /    Bb7   
+15     Eb    /    Cm    
+16     Fm7   /    Bb7   
+17     Eb    /    Cm    
+18     Fm7   /    Bb7   
+19     Eb    /    Ab    
+20     Eb    
+
+Groove Rock128
+
+21     Ab    /    Abm   
+22     Eb    
+23     Fm7   /    Bb7   
+24     Eb    /    Eb7   
+25     Ab    /    Cdim3  
+26     Eb    /    Cm    
+27     F9    
+28     Bdim3  Bb7 
+
+Groove Rock128Sus
+  
+29     Eb    /    Cm    
+30     Fm7   /    Bb7   
+31     Eb    /    Cm    
+32     Fm7   /    Bb7   
+33     Eb    /    Cm    
+34     Fm7   /    Bb7   
+
+RepeatEnding
+
+35     Eb    /    Cdim3  
+36     Fm7   /    Bb7   
+
+RepeatEnd
+
+Groove Rock128End
+
+37     Eb    /    Fm7   
+38     Eb    
+

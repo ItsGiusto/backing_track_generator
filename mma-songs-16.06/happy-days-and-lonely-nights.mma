@@ -1,0 +1,117 @@
+// Happy Days And Lonely Nights
+
+Tempo 140
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxTrotIntro
+
+Begin AllGrooves Arpeggio
+   Articulate 90
+   Rskip 60
+   Rtime 10
+End
+
+Begin Solo
+   Voice JazzGuitar
+   Articulate 110
+   Octave 5
+   Harmony OpenBelow
+   Volume ff
+   Begin Riff
+       4c+;g;2e;    
+       4c+;a;2e;
+       4d;e;f;g;
+       1b;
+   End
+End
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat // do entire song 2x
+
+Repeat // verse 1 & 2
+
+Groove FoxTrot
+Decresc m mp 4
+
+5         C
+6        Em
+7         F
+8         C    Gm6     A7
+
+Groove FoxTrotPlus
+Cresc m 4
+
+9        D7
+10      Dm7      /     G7
+
+Groove FoxTrotSusPlus
+
+RepeatEnding
+
+11      CM7      /      C
+12      Dm7      /     G7
+
+RepeatEnd
+
+13      Gm7
+14       C7      /      /   C7#5
+
+Groove FoxTrotPlus
+Decresc m mp 4
+
+15        F
+16    E7sus      /     E7
+17      Em7      /      /    Gm6
+18       A7      /      /   A7#5
+
+Groove FoxTrotSusPlus
+Cresc m 4
+
+19       D7      /      /    Am7
+20       D7
+21      Am7      /     D9   D9#5
+22       G7      /      /     G+
+
+Groove FoxTrotSus
+
+23        C
+24       Em
+25        F
+26        C    Gm6     A7
+
+Groove FoxTrot
+Cresc mf 2
+
+27       D7
+28      Dm7      /     G7
+
+RepeatEnding  // for the 1st time though
+
+Groove FoxTrotFill
+Decresc mp 2
+
+29        C      /      F
+30        C      /      G7
+
+Begin AllGrooves Arpeggio
+   Voice JazzGuitar
+   Octave 6
+End
+
+RepeatEnd   /// now we're all done...
+
+Groove FoxTrotEnd
+Decresc ppp 2
+Tempo *.8 2
+
+29        C      /      F
+30        C      /      z!
+
+

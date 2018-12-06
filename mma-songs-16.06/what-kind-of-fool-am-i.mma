@@ -1,0 +1,111 @@
+// What Kind Of Fool Am I
+
+Tempo 132
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SoftRockSusIntro
+Begin AllGrooves
+  Chord Voice Piano1
+  Chord Articulate 90
+  Arpeggio Rskip 35
+End
+
+Begin Solo
+  Voice Piano1
+  Volume f
+  Harmony OpenBelow+8Below
+  Octave 5
+  Articulate 90
+  Begin Riff
+    4e;;;;
+	4.e;8f;2+4 ~;
+	~ 1.e ~;
+  End
+End
+
+Cresc mp f 4
+
+1        Eb
+2        Cm7
+3        Fm7
+4        B&7   z
+
+Repeat
+Groove SoftRock
+Volume m
+
+5      EbM7
+6       Eb6      /   EbM7   Edim
+7       Fm7
+8       Bb7
+
+Groove SoftRockSus
+Volume mf
+
+9       Gm7
+10     Edim
+11      Fm7
+12    Bb7b9      /    Abm  Bb7b9
+
+Groove SoftRock
+Volume f
+
+13     EbM7      /     Eb
+14        /      /   EbM7     Eb
+15       F7
+16        /      /     Cm     F7
+
+Groove SoftRockSus
+Decresc mp 8
+
+17       Bb      /    Dm7
+18      Cm7      /     F7
+19      Fm7
+20      Bb7      z
+
+Groove SoftRock1
+
+21     EbM7
+22      Eb6      /   EbM7   Edim
+23      Fm7
+24      Bb7
+
+Groove SoftRock1Sus
+Volume m
+
+25      Gm7      /   EbM7
+26     Bbm6
+27       C7      /   Bbm6
+28     C7b9      z
+
+Groove SoftRock1
+
+29      Ab6
+30      Db9
+31       Eb
+32       F7
+
+Groove SoftRock
+Decresc mp 4
+
+33      Fm7
+34     Abm6
+
+RepeatEnding
+
+35       Eb      /    Cb7
+36      Bb7      z
+
+RepeatEnd
+
+
+Groove SoftRockEnd
+Tempo *.8 2
+Decresc ppp 2
+
+37       Eb      /     Cb
+38       Eb     z!
+

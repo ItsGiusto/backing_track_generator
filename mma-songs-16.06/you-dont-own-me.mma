@@ -1,0 +1,265 @@
+// You Dont Own Me
+
+Tempo 188
+Keysig Bb
+
+Groove Metronome3
+  z * 2
+
+Groove Waltz
+Begin Solo
+  Voice NylonGuitar
+  Octave 3
+  Harmony OpenAbove
+  Volume f
+  Articulate 90
+End
+
+Repeat
+Groove WaltzIntro
+Solo Riff 8f;d&;2+2.+2.b-~;
+Decresc mf mp 4
+
+1       Bbm
+2         /
+
+RepeatEnding 2
+
+3         /
+4         /
+
+RepeatEnd
+
+5         F7
+6         Ebm
+
+Groove Waltz
+Repeat
+Swell m f 8
+
+7       Ebm
+8         /
+
+9        F7
+10        /
+11      Ebm
+12     F7#5      /     F7
+
+
+RepeatEnding
+
+13      Bbm
+Groove WaltzSus
+14        /
+
+RepeatEnd
+
+15       Bb
+16        /
+17        /
+18        /
+
+Groove Waltz
+Cresc m f 8
+
+19        /
+20        /
+21        /
+22        /
+
+Groove WaltzWalk
+
+23       Gm
+24        /
+25        /
+26        /
+
+Groove WaltzWalkSus
+Decresc mp 10
+
+27       Eb
+28        /
+29        /
+30        /
+
+Groove WaltzWalk
+
+31       F7
+32        /
+33        /
+34        /
+
+Groove Waltz
+
+35      Bbm
+36        /
+
+Repeat
+Volume m
+
+37      Ebm
+38        /
+39       F7
+
+Volume mf
+
+40        /
+41      Ebm
+42     F7#5      /     F7
+
+RepeatEnding
+
+43      Bbm
+
+Groove WaltzSus
+
+44        /
+
+RepeatEnd
+
+45       Bb
+46        /
+47        /
+48        /
+
+Groove Waltz
+Volume m
+
+49        /
+50        /
+51        /
+52        /
+
+Volume mp
+
+53       Gm
+54        /
+55        /
+56        /
+
+Volume m
+
+57       Eb
+58        /
+59        /
+60        /
+
+Groove WaltzSus
+Volume mf
+
+61       F7
+62        /
+63        /
+64        /
+
+Transpose 2
+Keysig C
+
+65       Bb
+66        /
+67        /
+68        /
+
+Groove Waltz
+Volume m
+
+69       Gm
+70        /
+71        /
+72        /
+
+73       Eb
+74        /
+75        /
+76        /
+
+Groove WaltzSus
+
+77       F7
+78        /
+79        /
+80        /
+
+Groove Waltz
+
+81       Bbm    // instrumental starts here
+
+Repeat
+Swell m mf 8
+
+82      Ebm
+83        /
+84       F7
+85        /
+86      Ebm
+87     F7#5      /     F7
+
+RepeatEnding
+
+88      Bbm
+
+Groove WaltzSus
+
+89        /
+
+RepeatEnd
+
+90       Bb
+91        /
+92        /
+93        /
+
+Repeat
+Cresc m f 8
+
+94        Bb
+95        /
+96        /
+97        /
+
+Groove WaltzWalk
+
+98       Gm
+99        /
+100       /
+101       /
+
+Decresc mp 8
+
+102      Eb
+103       /
+104       /
+105       /
+
+106      F7
+107       /
+108       /
+
+
+RepeatEnding
+
+109       /
+Groove WaltzWalkSus
+
+RepeatEnd
+
+Groove Waltz
+
+110       /
+
+/// do fade!
+/// In the chart we do a DS to bar 65.
+
+Groove WaltzSus
+Decresc pppp 8
+
+65       Bb
+66        /
+67        /
+68        /
+
+
+69       Gm
+70        /
+71        /
+72        /

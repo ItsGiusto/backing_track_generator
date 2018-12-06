@@ -1,0 +1,117 @@
+// Into Each Life Some Rain Must Fall
+
+Tempo 130
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove EasySwingIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 6
+    Volume f
+    Articulate 110 
+    Harmony OpenBelow+Open8Below
+    Begin Riff
+        2c;4f;a;
+        2+8d+;4.d&+;
+        2.c+;81c;82+2.a~;
+        ~ 4c;
+        4c;2f;4a;
+        81b;4+82;8r;4.a;
+        1+2 g~;
+    End
+End
+
+Swell p mf 8
+
+1        FM7
+2      Bdim7      /   Bbm7
+3        Am7    Gm7
+seq 1
+4        FM7
+
+seq 1
+5          /
+6        Eb7      /     D7
+7        Gm7
+8         D7      /     z
+
+Repeat
+Groove EasySwing
+Volume m
+
+9        FM7
+10     Bdim7      /   Bbm7
+11       Am7     D7    Gm7     C7
+12       FM7
+
+Groove EasySwingFill
+Volume mf
+
+13         /
+14       Eb7      /     D7
+15       Gm7
+16     Adim7      /     D7
+
+Groove EasySwing
+Volume m
+
+17       Gm7
+18       Am7      /   Abm7
+19       Gm7
+20        C7
+
+Groove EasySwingWalkFill
+Volume mf
+
+21       Gm7      /     C7
+22       Gm7      /     C7
+23       FM7
+24         /
+
+Groove EasySwingSus
+Cresc m f 4
+
+25        A7
+26         /
+27        D7
+28         /
+
+Groove EasySwingWalkSus
+Decresc m 4
+
+29        G7
+30         /
+31        C7
+32         /
+
+Groove EasySwing
+Volume m
+
+33       FM7
+34     Bdim7      /   Bbm7
+35       Am7
+36        D7
+
+Groove EasySwingFill
+Decresc mp 2
+
+37       Gm7
+38        C7
+
+Repeatending
+
+39       FM7
+40       Gm7      /     C7
+
+RepeatEnd
+
+Groove EasySwingEnd
+Tempo *.8 2
+
+39      FM7
+40      /     z!
+

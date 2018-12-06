@@ -1,0 +1,95 @@
+// Are You Havin Any Fun
+
+Tempo 138
+Keysig Bb
+
+Groove Metronome2-4
+   z * 2
+
+Groove FoxtrotIntro
+Begin Solo
+    Voice Clarinet
+    Volume f
+	Articulate 90
+    Harmony Open
+	Octave 5
+	Begin Riff
+       4f;g;2b;
+	   4g;a;2b;
+	   4e+;d+;c+;b;
+	   2a;
+	End
+End
+Cresc p f 4
+1        Bb
+2        Gm
+3        Cm
+4        F7      z
+Volume m
+
+Repeat
+Groove FoxTrot
+Repeat
+Swell f 8
+
+5        Bb      /   F7/C
+6      Bb/D
+7      F7/A      /    Cm7
+8        F7      /  Dbdim    Gb7
+9      F7/A
+10        /
+
+RepeatEnding
+
+11       Bb      /    Eb6
+12       Bb      /      z
+
+Groove FoxTrotSus
+
+RepeatEnd
+
+13       Bb      /    Eb6
+14       Bb      /      z
+
+Groove FoxTrot1
+Volume m
+
+15     Ebm7
+16        /
+17      Bbm
+18        /      z
+19     Edim
+20        /      /     C7
+21       F7   C7/G   F7/A
+22        /      z
+
+Groove FoxTrot1Sus
+Cresc -20 +20 8
+
+23       Bb      /   F7/C
+24     Bb/D
+25       F7      /    Cm7
+26       F7      /  Dbdim    Gb7
+27       F7
+28      Dm7     G7
+29       Cm      /    F11     F7
+30       Bb      /     G7
+
+RepeatEnding
+
+Groove FoxTrotFill
+Volume m
+
+31      Cm7      / F7sus4     F7
+32       Bb
+33       F7      z
+
+RepeatEnd
+
+34      Cm7
+
+Groove FoxtrotEnd
+
+35   F7sus4      /     F7
+36       Bb
+

@@ -1,0 +1,132 @@
+// If You Go (Micheal Emer, 1951)
+
+Tempo 90
+Keysig D minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove BalladIntro2
+
+Begin AllGrooves
+  Begin Arpeggio-Plus
+      Voice JazzGuitar
+      Articulate 150
+      Range 1.5
+  End
+  Chord Voicing Mode=Key
+End
+
+Begin Solo
+    Voice TremoloStrings
+    Octave 5
+    Articulate 120
+    Harmony OpenBelow
+    Volume f
+    Begin Riff
+        4.d+;8c#+;2cn+;
+        2b;43a;g;f;
+        1g;
+        2e;
+    End
+End
+Decresc mf mp 4
+
+1        Dm7
+2       Bbm
+3        Em
+Bass Riff 1 2 1 80
+4        A7
+
+Repeat
+Groove Ballad
+Volume m
+
+5       Dm7
+6         /
+7        D7
+8       Ab7
+
+Groove Ballad1
+Decresc mp 2
+
+9      BbM7
+10        /
+11       E7
+12        /
+
+Groove BalladSus
+Cresc m 4
+
+13    Edim7
+14     A7#9
+15      Dm7
+16    Bdim7
+
+Groove Ballad1Sus
+
+17   Bb7#11
+18        /
+19    Edim7
+20       A7
+
+Groove BalladPlus
+Volume mf
+
+21      Dm7
+Arpeggio-Plus Riff A1 * 6
+22        /
+23       D7
+24      Ab7
+
+Groove Ballad1Plus
+Decresc mp 2
+
+25     BbM7
+Arpeggio-Plus Riff A1 * 6
+26        /
+27       E7
+28        /
+
+Groove BalladSusPlus
+Cresc m 2
+
+29    Edim7
+30     A7#9
+31      Dm7
+Arpeggio-Plus Riff A2;A2 * 3
+32    Bdim7
+
+Groove Ballad1SusPlus
+
+33   Bb7#11
+Arpeggio-Plus Riff A2;A2 * 3
+34        /
+35       A7
+Arpeggio-Plus Riff A2;A2 * 3
+36       D7
+
+Groove Ballad
+Decresc mp 2
+
+37      Fm7      /    Bb7
+38       A7
+
+Repeatending
+
+39      Dm7
+
+Groove BalladFill
+Volume p
+
+40      Edim7      /  A7
+
+RepeatEnd
+Groove Ballad1End
+Seq 3
+Decresc pp 2
+
+39      Dm7
+40      /    z!
+
+

@@ -1,0 +1,153 @@
+// Over The Rainbow
+
+// I have a recording of Judy Garland singing this in Ab at 92bpm.
+// The soundtrack from The Wizard of Oz has a much younger Judy
+// singing in the same key, but the tempo is more like 75-80.
+
+Tempo 88
+keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+// Use this on the bars with whole notes in the melody for a bit of variety
+Set BassRiff Bass Riff 1 4. 1 90; 2 4 3 95; 3 4. 3 100; 4 2 5 110
+
+Groove BalladIntro
+
+// 4 bar intro
+
+Begin Solo
+	Voice OrchestralHarp
+	Volume f
+	Octave 5
+	Articulate 78
+End
+
+Cresc mp mf 4
+
+1         Eb    {8g;b;g;b;g;b;g;b;}
+2        Dm7    {8g;b;g;b;g;b;g;b;}
+3        Cm7    {8g;b;g;b;g;b;g;b;}
+4       Bbm7      /    Bb7      z    {2b;}
+
+
+// Just do the whole thing 2x
+
+Groove Ballad
+
+Set Pass 1
+
+Repeat
+Volume m
+
+5         Eb      /     Cm
+6         Gm      /    Eb7
+7        Ab6      /   AbM7    Ab7
+$BassRiff
+8        Gm7     Eb    Gm7   Gdim
+
+Cresc f 4
+
+9        Ab6      /   Abm6
+10        Eb      /   C7b9
+11        F7      /    Bb7
+12        Eb      /    Fm7  Bb7b9
+
+Decresc mp 4
+
+13        Eb      /    Cm7
+14        Gm      /    Eb7
+15       Ab6      /   AbM7    Ab7
+$BassRiff
+16       Gm7     Eb    Gm7   Gdim
+
+Volume m
+
+17       Ab6      /   Abm6
+18        Eb      /   C7b9
+19        F7      /    Bb7
+
+// Really just for me. I do a sustained note solo on the
+// first pass; this plays the melody here as a contrast.
+
+if eq $Pass 1
+	Begin Solo
+		Rtime 3
+		Rvolume 5
+		Harmony None
+		Volume f
+
+		Begin Riff
+			2.r;8;b;
+        	8g;b;g;b;g;b;g;b;
+  			8a;b;a;b;a;b;a;b;
+			2c+;;
+			8g+;e+;f+;d+;e+;c+;d+;b;
+			8g;b;g;b;g;b;g;b;
+			8an;c+;a;c+;a;c+;a;c+;
+			2d+;;
+			2f+;c+;
+		End
+	End
+Endif
+
+20        Eb
+
+Groove BalladSus
+Volume m
+
+21       Eb6
+22       Fm7      /    Bb7
+23      EbM9      /    Eb6
+24        Eb   EbM7    Fm7    Bb7
+
+Volume mf
+
+25       Eb6
+26     F#dim
+27       Fm6      /    Ebm  Ebdim
+28       Fm7      /  Bb9#5
+
+Groove $_LastGroove
+
+29        Eb      /    Cm7
+30        Gm      /    Eb7
+31       Ab6      /   AbM7    Ab7
+$BassRiff
+32       Gm7     Eb    Gm7   Gdim
+
+Decresc mp 4
+
+33       Ab6      /   Abm6
+34        Eb      /   C7b9
+35        F7      /    Bb7
+
+RepeatEnding
+
+36        Eb      /    Bb7
+
+Inc Pass
+
+Groove Ballad1   // this brings in a bit of the harp from the intro
+
+RepeatEnd
+
+Tempo *.8 8
+
+Groove Ballad1
+
+37        Eb
+38       Eb6
+39       Fm7      /    Bb7
+40      EbM9      /    Eb6
+41       Bb7
+
+Groove BalladEnd
+
+42        Eb
+43       Fm7      /    B&7
+44        E&
+45         /     z!
+
+

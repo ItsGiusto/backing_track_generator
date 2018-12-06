@@ -1,0 +1,142 @@
+// Naughty Lady Of Shady Lane
+
+Tempo 140
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo-1
+   Voice VoiceOohs //ChoirAahs
+   Octave 4
+   HarmonyOnly OpenAbove
+   Articulate 110
+   Volume mp
+End
+
+Begin Solo
+   Voice SynthVox
+   Octave 5
+   Volume f
+   Articulate 97
+   Begin Riff
+         4.g;4a;4.;
+         4.g;4a;
+         4.g;4a;4.;
+         4.g;4a;
+   End
+   DupRiff Solo-1
+End
+
+Groove FoxTrotIntro
+
+Swell mp mf 4
+
+1        G / G7
+2        G / G7
+3        G / G7
+4        G / G7
+
+Repeat
+Label DS   // for the "DS al coda"
+Groove FoxTrot
+Volume m
+
+5         C
+6         /
+7         /      /      /  F#dim
+8        G7
+
+Groove FoxTrotSus
+Cresc mf 4
+
+9         /
+10        /      
+If Def CODA    /// this handles our "to coda"
+   goto Coda
+Endif
+11        /
+12       Cm      /     G7
+
+Groove FoxTrotPlus
+Decresc mp 2
+
+13       Cm      /     G+     G7
+14       Cm      /     G7
+Drum-Side Riff D1234
+15       Cm      /     G+     G7
+
+Keysig C Minor
+
+Groove FoxTrot
+Volume m
+
+16       Cm
+17       G7
+18        /
+19       Cm
+
+Groove FoxTrotSus
+Cresc f 2
+
+20        /
+21       G7
+22        /
+23       Cm      /    Bb7
+
+Groove FoxTrotPlus
+Cresc m mf 2
+
+24       Eb
+25      Bb7
+26        /
+27       Eb
+
+Groove FoxTrotSusPlus
+Volume m
+
+28       Fm      /     G7
+29       Cm      /      /    Cm7
+
+RepeatEnding  2
+Decresc mp 2
+
+30       D7      /   D7b5
+
+Groove FoxTrotFill
+
+31       G7
+
+RepeatEnd    /// this is the final ending (3)
+Decresc p 2
+
+32       D7      /   D7b5
+
+Groove FoxTrotFill
+
+33       G7
+
+Set coda
+goto DS
+
+Label CODA
+
+Keysig C
+Cresc f 2
+
+34        G7
+35        /
+
+Drum-Side Riff D1234
+36        /
+Drum-Side Riff D1234
+37        /      /     z
+38      Dm7
+39       G7
+
+Groove FoxTrotEnd
+Decresc m 2
+
+40        C
+41      Dm7     G7      C   z!
+

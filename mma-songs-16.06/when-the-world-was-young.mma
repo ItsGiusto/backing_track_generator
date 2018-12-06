@@ -1,0 +1,137 @@
+// When The World Was Young
+
+Tempo 120 /// this is 8ths per minute
+Keysig D minor
+Timesig 6/8
+
+Groove Metronome68
+Seq 2
+  z
+
+Set Bass
+
+// the 2 groove calls here force all the needed grooves into
+// memory. Now, the allgrooves adjustment will apply to all.
+Groove ArpeggioWaltz  
+Groove Arpeggio68SusIntro
+
+Begin AllGrooves Bass
+   Voice AcousticBass
+   Articulate 110
+   Volume -5 
+End
+
+Begin Solo
+    Voice Strings
+    Octave 6
+    Harmony OpenBelow
+    Articulate 90
+    Volume mp
+    Stretch 200
+    Begin Riff
+        8d;;;4.;
+        8c;;;4.;
+        8g-;a-;b-;c;d;c;
+        2a-;
+    End
+End
+
+Swell mp m 4
+
+1         Dm
+2         C
+3         Gm
+4         A7
+
+Repeat
+Tempo 120  /// we change it, below, for the 3/4 part
+Groove Arpeggio68
+Volume m
+
+5         Dm / / A7
+6         Dm / / A7
+7         Dm  / / C
+8        Bb7 / / A7
+
+Groove Arpeggio68Sus
+Cresc mf 4
+
+9          F  / / C
+10         F / / C7
+11        Dm / / A7
+12       Bb7 / / A7
+
+Groove Arpeggio68
+Decresc mp 4
+
+13      Cdim / / Gm
+14      Cdim / / Gm
+15       Bb9 / / Bb7
+16     Bb9b5 / / A7
+
+Groove Arpeggio68Sus
+Volume m
+
+17       Bb9 / / Bb7
+18     Bb9b5 / / A7
+19        Eb / / Bb
+20       Gm6 / / A7
+
+Groove ArpeggioWaltz
+Timesig 3/4
+Keysig D
+Tempo 85
+Volume mp
+
+
+21         D
+22      Cdim
+23        Em      /    Em7
+24        A7
+
+Groove ArpeggioWaltzSus
+Cresc mf 3
+
+25         D
+26      Bdim
+27       Em7
+
+Groove ArpeggioWaltz
+Volume mp
+
+28        A7
+29         D
+30       F#7      /     B7
+31        Em
+
+Groove ArpeggioWaltzSus
+Cresc mf 2
+
+32       F#7
+33        Bm
+
+Groove ArpeggioWaltz
+Volume m
+
+34        E7
+35       Em7
+36        A7
+
+Decresc mp 1
+RepeatEnding 
+
+37         D      /    Bb9
+
+Groove ArpeggioWaltz8
+
+38       Gm6     A7
+
+RepeatEnd
+Groove ArpeggioWaltzSus
+Tempo *.66 1
+Decresc pp 2
+
+39         D      /     Bb
+40         D      z!
+
+

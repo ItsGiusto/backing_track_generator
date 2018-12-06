@@ -1,0 +1,178 @@
+// Todo Todo Todo
+
+// A nice (fast) cha-cha. Have fun :)
+// A hit for Daniela Roma in 1991
+
+Tempo 130
+Keysig D minor
+
+
+Groove Metronome2-4
+	   z * 2
+
+Groove ChaChaIntro
+Begin Solo
+	Voice Organ1
+	Volume f
+	Articulate 90
+	Octave 6
+	Harmony OpenBelow+8Below+16Below
+    Begin Riff
+	    8.a;16f;8;; ;; 4;
+		8.a;16e;8;; ;; 4;
+		8.g;16d;8;; ;; 4;
+		2c#;
+    End
+End
+
+Swell mp f 4
+
+1         Dm
+2         A7
+3         Gm
+4         A7      z
+
+Repeat
+Groove ChaCha
+Volume m
+
+5         A7
+6         Dm
+7         A7
+8         Dm
+
+Groove ChaChaSus
+Volume mf
+
+9         Gm
+10        Dm
+11        A7
+12        Dm
+
+Groove ChaCha1Fill
+
+13         z      /     Dm
+
+Groove ChaCha1
+Volume m
+
+14        A7
+15         /
+16        Dm
+17         /
+
+Groove ChaCha1Sus
+
+Label Sign
+
+18        A7
+19         /
+20        Dm
+
+Groove ChaChaFill
+
+21         /      z     Dm
+
+Groove ChaChaSus
+Cresc m mf 8
+
+22        A7
+23         /
+24        Dm
+25         /
+26        A7
+27         /
+28        Dm
+
+Groove ChaChaFill
+
+29         /
+
+Volume m
+
+if def CODA
+	  goto CODA
+endif
+
+Groove ChaCha
+
+30        A7
+31         /
+32        Dm
+33         /
+
+Groove ChaChaSus
+
+34        A7
+35         /
+36        Dm      /      z
+
+Groove ChaChaFill
+
+37         z     Dm
+
+Groove ChaCha1Sus
+Decresc mp 8
+
+38        A7
+39         /
+
+RepeatEnding
+
+40        Dm
+41         /
+
+42        Gm
+43         /
+44        Dm
+45        A7
+46        Dm
+
+Groove ChaChaFill
+
+47         z
+
+RepeatEnd
+
+48        Dm
+49         /      /      z
+50        A7
+51         /      /      z
+52        Dm
+53         /      /      z
+
+Groove ChaChaSus
+Cresc f 8
+Repeat
+
+54        A7
+55         /
+56        Dm
+57         /
+
+RepeatEnd
+
+Groove ChaCha1Fill
+
+58         /      z
+
+Groove ChaCha1
+
+Set Coda
+Goto Sign
+
+Label Coda
+
+Groove ChaChaSus
+
+Decresc ppp 8
+Repeat
+
+59        A7
+60         /
+61        Dm
+62         /
+
+RepeatEnd
+
+

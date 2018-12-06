@@ -1,0 +1,119 @@
+// Wild Is The Wind
+
+Tempo 84
+Keysig G minor
+
+Groove Metronome2-4
+	z * 2
+
+Groove SonIntro
+Volume mp
+
+Begin Solo
+  Voice Flute
+  Octave 5
+  Harmony Open
+  Articulate 90
+  Swell p f 4
+  Begin Riff
+    1d+;
+	2en+;bn;
+	2+8a;8bn;c+;a;
+	1a;
+  End
+End
+
+1        Gm
+2        Em
+3        Am
+4        D7
+
+Groove Son
+Repeat
+Swell p f 8
+
+5       Gm7b5   Gm7
+6       Eb7
+7       Gm7b5   Gm7
+8       Cm7
+9       F#dim  F7
+10     BbM7      /   D7#5  D7
+11      Gm7      /    Eb7
+
+RepeatEnding
+
+12    Adim7      /     D7
+
+Groove SonSus
+
+RepeatEnd
+
+13      Cm7      /     F7
+
+Repeat
+Groove SonPlus
+Begin Arpeggio
+  Voice Piano2
+  Octave 5
+  Range 1
+  Harmony Open
+  Articulate 110
+  Volume f
+  Rskip 25
+End
+Volume mf
+
+14     BbM7
+15        /
+16        /
+17      Cm7      /     F7
+
+Volume m
+
+18      Cm7
+19      Eb7      /     D7
+20      Gm7
+21       C7
+
+Groove Son
+Volume mf
+
+22      Cm7
+23       F7
+24      Cm7      /     F7
+25    Adim7      /     D7
+
+Groove SonSus
+Decresc p 4
+Chord-Sus Volume -20
+
+26      Gm7b5  Gm7
+27      Eb7
+28      Gm7b5  Gm7
+29      Cm7
+
+Groove SonSusPlus
+Cresc m 4
+
+30      F#dim   F7
+31     BbM7      /     D7#5  D7
+32      Gm7
+33        /
+
+Groove Son
+
+34    Adim7      /   D7#5  D7
+
+RepeatEnding
+
+35      GM7
+36    Adim7      /     D7
+
+
+RepeatEnd
+Groove SonEnd
+Decresc pp 2
+Tempo *.8 2
+
+35      GM7
+36    Adim7      /     z!

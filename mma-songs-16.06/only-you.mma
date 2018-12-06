@@ -1,0 +1,82 @@
+// Only You (and you alone)
+
+// Sung by The Platters. Big hit in 1955.
+// Their tempo is a bit slower at about 80bpm.
+// Their key is Eb and we do it G.
+
+Tempo 90
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove BalladIntro
+Begin Solo
+    Voice Flute
+    Volume f
+	Octave 5
+	Harmony Open
+	Articulate 104
+	Begin Riff
+	   1+4g~;
+	   ~ 4a;b;a;
+	   2c+;b;
+	   2a;
+	End
+End
+
+Cresc p f 4
+
+1    G    
+2    Em   
+3    Am   
+4    D7   /    z    
+
+Volume m
+
+Groove Ballad
+
+Repeat
+Swell f 8
+Alltracks Swell  +30 8
+
+5    G6   /    D9   
+6    G    GM7  G6   
+7    B9   /    F#m6 
+8    /    
+9    Em   
+10   Em7  
+11   Dm7  /    G7   
+12   /    
+13   C6   
+
+Volume m
+
+RepeatEnding
+
+14   D7   
+15   B7   
+16   Em   B7   Em7  
+17   A7   
+18   /    
+19   Am7  
+20   D7   
+
+Groove BalladSus
+
+RepeatEnd
+
+21   Cm   
+22   G    
+23   E7   /    B7   E7   
+24   A7   
+25   D7   
+
+Groove BalladEnd
+Seq 3
+Decresc pp 3
+
+26   G    /    F9   
+27   GM7  /    z!   
+Cut -2
+

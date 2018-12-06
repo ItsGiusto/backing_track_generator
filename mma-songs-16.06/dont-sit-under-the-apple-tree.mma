@@ -1,0 +1,95 @@
+// Dont Sit Under The Apple Tree
+
+Tempo 160
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+	Voice Trumpet
+	Articulate 90
+	Harmony None
+	Octave 5
+	Volume mf
+	Begin Riff
+		4f;;8;;4g;
+		4a;;4.;8b;
+		4g;a;b;a;
+		1c+;
+	End
+End
+
+Swingmode On
+
+1   F       
+2   Dm      
+3   Gm      
+4   C7      
+
+Repeat
+Groove FoxTrot
+Repeat
+
+5   F6      
+6   /       
+7   /       
+8   /       /       F#dim   
+9   Gm7     /       C11     
+10  C9      
+11  F       
+12  /       C7      
+13  F6      
+14  /       
+15  /       /       Am7b5   
+16  D7      
+17  G7      
+18  C11     /       C9      
+
+RepeatEnding
+
+19  F6      /       Bb      
+20  F/A     /       Gm7     
+
+Groove FoxTrotSus
+
+RepeatEnd
+
+21  F6      /       Gm7     
+22  G#dim   /       F/A  
+
+Groove FoxTrotPlus
+   
+23  Bb6     
+24  /       
+25  F/A     /       Gm7     
+26  F       /       A7/E    
+27  Dm      /       Dm7/C   
+28  Bm7b5   /       G9      z       
+29  /       C7      
+30  /       /       C7+  
+
+Groove FoxTrotSusPlus
+   
+31  F6      
+32  /       
+33  /       /       Amb5    
+34  D7      
+35  G7      
+36  C11     /       C9  
+
+RepeatEnding
+    
+37  F6      /       C       
+38  F6      
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+37  F6      /       C       
+38  F6      / z!
+
+
+

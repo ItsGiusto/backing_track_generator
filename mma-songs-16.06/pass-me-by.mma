@@ -1,0 +1,132 @@
+// Pass Me By (1965)
+
+Set Tempo 120
+Keysig Eb
+
+/// The metronome groove is in 4. So, double the tempo
+Tempo $( $Tempo * 2 )
+Groove Metronome2
+  z * 2
+
+/// The 68swing is in 6, so triple the tempo
+Tempo $( $Tempo * 3 )
+
+Groove 68SwingIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Octave 5
+    Harmony 2Below
+    Articulate 90
+    Stretch 200
+    Begin Riff
+        4g;8b;4.c+;
+        4e;8g;4.b;
+        4f;8a;4.c+;
+        2b;
+    End
+End
+
+Cresc mp f 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove 68Swing2
+Volume m
+
+5        Eb
+6      EbM7
+7       Eb6
+8      EbM7      /      /    Eb6
+
+Groove 68Swing2Plus
+Cresc mf 4
+
+9        Eb
+10     EbM7      /      /   Edim
+11      Bb9
+12        /
+
+Groove 68Swing2
+Volume m
+
+13      Bb7
+14        /
+15      Bb9
+16        /      /      /    Bb7
+
+Groove 68Swing2Sus
+Decresc mp 4
+
+17       F7
+18        /      /      /   F7b5
+19      Bb9      /      z
+20        /
+
+Groove 68Swing2
+Volume m
+
+21       Eb
+22     EbM7
+23      Eb6
+24     EbM7      /      /    Eb6
+
+Groove 68Swing2SusPlus
+
+25       Eb
+26     EbM7      /      /    Eb7
+27     AbM7
+28      Ab6
+
+Groove 68Swing2
+Volume mf
+
+29       D7
+30        /
+31      Eb7      /      /     D7
+32       Db      /      /     C+
+
+Groove 68Swing2Sus
+Decresc mp 4
+
+33       Fm
+34      Bb9
+35       Eb
+36        /      /      /   Bbm7
+
+Groove 68Swing2
+Volume m
+
+37       Ab
+38      Bb7
+39       Eb      /      /     G7
+40       C7      /      /     C+
+
+Groove 68Swing2Plus
+Decresc mp 2
+
+41       Fm
+42      Bb9
+
+RepeatEnding
+
+Groove 68Swing2
+
+43       Eb      /      /   Edim
+44      Bb7
+
+
+RepeatEnd
+
+
+Groove 68SwingEnd
+Decresc ppp 2
+
+45       Eb      /      /     Ab
+46       Eb     z!
+

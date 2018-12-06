@@ -1,0 +1,109 @@
+// Ooh That Kiss
+
+Tempo 180
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove QuickStepIntro
+Begin Solo
+    Voice JazzGuitar
+    Volume ff
+    Articulate 110
+    Harmony 3
+    Octave 5
+    Begin Riff
+       2c+;b;
+       1c+;
+       8r;d+;4;b;;
+       1c+;
+    End
+End
+
+Cresc mp f 4
+
+1          C
+2         Am
+3         Dm      /     G7
+4          C
+
+Repeat
+Groove QuickStep
+Cresc m f 8
+
+5         G7
+6          C
+7         G7
+8          C
+
+Groove QuickStepDuh
+
+9         G7
+10         C      /      /     A7
+11        D7      /     G7
+12         C
+
+Groove QuickStep
+Decresc m 8
+
+13        G7
+14         C
+15        G7
+16         C
+
+Groove QuickStepSus
+
+17        G7
+18         C      /      /     A7
+19        D7      /     G7
+20         C
+
+Groove QuickStepWalk
+Volume mp
+
+21       C11     C7    C11     C7
+22         F
+23        C7
+24         F      /     Am      F
+
+Groove QuickStepSus
+Volume m
+
+25        D7
+26         G      /     Em
+27       Am7      /     D7
+28         G      /     G7
+
+Groove QuickStepDuh
+Cresc f 4
+
+29         /
+30         C
+31        G7
+32         C
+
+Groove QuickStep
+
+33        Em      /    Bb7
+34        A7
+
+RepeatEnding 2
+
+Groove QuickStepHit
+Volume m
+
+35        Am      /     G7
+36         C
+
+RepeatEnd
+
+Groove QuickStepEnd
+Decresc ppp 2
+Tempo *.8 2
+
+35        Am      /     G7
+36         C     z!
+
+
+

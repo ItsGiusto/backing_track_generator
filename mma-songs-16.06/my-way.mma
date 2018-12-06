@@ -1,0 +1,115 @@
+// My Way
+
+Tempo 84
+Keysig C
+Transpose up per 4
+
+Groove Metronome2-4
+  z * 2
+
+Groove R&B-BalladIntro
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Harmony OpenBelow
+    Articulate 110
+    Octave 5
+    Rtime 5
+    RVolume 5
+    Begin Riff
+        4r;c;2g;
+        4r;4a;2e;
+        4d;e;d;e;
+        1g;
+    End
+End
+
+Cresc mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Label Sign
+Groove R&B-Ballad
+Volume m
+
+5         C
+6        Em
+7       Gm6
+8        A7
+
+Groove R&B-BalladSus
+Volume mf
+
+9        Dm
+10      Dm7
+11       G7
+12        C
+
+Groove R&B-Ballad
+
+13        /
+14       C7
+15        F
+16       Fm
+
+Groove R&B-BalladPlus
+Decresc mp 4
+
+17        C
+18       G7
+
+RepeatEnding
+
+19       F6
+20        C
+
+RepeatEnding 2
+
+21       F6
+22        C
+
+Groove R&B-BalladSus
+Volume m
+
+23        /
+24       C7
+25        F
+26        /
+
+Groove R&B-BalladSusPlus
+
+27      Dm7
+28       G7
+29      Em7
+30       Am
+
+Groove R&B-BalladSus
+Cresc f 3
+
+31      Dm7
+if def CODA
+  goto CODA
+endif
+
+32       G7
+33       F6
+34        C
+
+set CODA
+
+RepeatEnd
+Label CODA
+Decresc ppp 3
+
+35       G7
+
+Groove R&B-BalladEnd
+
+36       F6
+37        C z!
+

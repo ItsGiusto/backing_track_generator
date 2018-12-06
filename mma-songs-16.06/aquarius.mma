@@ -1,0 +1,209 @@
+// Aquarius/Let The Sunshine In
+
+// From the musical HAIR. This was #1 for 6 weeks
+// in 1969 for "The Dimensions".
+
+Tempo 120
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossaNovaIntro8  // Yes, I know this isn't a Bossa, but it  works!
+
+Begin Solo
+    Voice Strings
+	Volume f
+	Harmony OpenBelow
+	Articulate 110
+	Octave 5
+	Begin Riff
+	  2.a;4+8 ~;
+	  ~ 4.+2g;
+	  2.g; 8a;4g~;
+	  ~ 4f;4.;4;
+	  8a;4.+4g;4f;
+	  1+1f ~;
+	End
+End
+
+1         Dm
+2         A7
+3          /
+4         Dm
+5         B&
+6          F
+7          /
+8          z      /     G7
+
+Repeat             /// actually a DS
+Groove BossaNova
+Volume mp
+Cresc mf 12
+
+9        Dm9
+10        G7
+11        Am
+12         /
+
+Groove BossaNova1Sus
+
+13       Dm6
+14        G7
+15        Am
+16         /
+
+Groove BossaNova
+
+17       Dm9
+18        G7
+19        Am
+20         /
+
+Groove BossaNova2Sus
+
+21         F
+22        G7
+
+Begin Bass Riff   // A 2 bar bass solo. Use a riff for this
+ 2 4 1 90; 3 4 2 90; 4 4 1 90
+ 2 4 3 90; 2 4 2 90; 3 4 1 90; 4 4 7- 90
+End
+
+23         C    CzC
+24         /
+
+Groove BossaNovaSus
+Volume f
+
+25        Bb
+26         /
+27         /
+28         /
+
+
+Groove BossaNova
+Decresc mp 8
+
+29        Dm
+30         /
+31         G
+32         /
+
+Groove BossaNova3Sus
+
+33         /
+34         /
+35        Dm
+36         /
+
+Groove BossaNova
+
+37         /
+
+RepeatEnding  // This is actually a TO CODA
+Groove BossaNovaFill
+Volume mf
+
+38         /
+
+// start of bridge
+Groove BossaNova
+
+39        C7
+40         F
+41        C7
+42         F
+
+Groove BossaNova1Sus
+
+43        C7
+44         F
+45        Dm      /   Edim
+46         F
+47         /      /     A7
+48        Dm
+49       Dm7      /     Gm
+50        Am
+51        Gm
+
+Groove BossaNovaSus
+Volume f
+Decresc mp 6
+
+52         /
+53         /
+54         /
+
+Groove BossaNova
+
+55        Dm
+56         /
+57         /
+58         /
+
+Groove BossaNovaFill
+Volume mp
+
+59       Dm9
+60        Dm
+61       Dm9
+62        Dm
+
+RepeatEnd		// actually a DS
+
+// Start the coda section
+
+
+Groove BossaNova
+
+63        Dm
+
+Groove BossaNovaSus
+
+64         G
+65         /
+66         /
+67         /
+
+Groove BossaNova
+
+68        Dm
+69         /
+70         /
+71         /
+
+Keysig C Minor
+
+Groove BossaNovaFill
+Volume mp
+
+72        Cm
+73        G7
+74         /
+75        Cm
+76        Ab
+77        Eb
+
+Allgrooves AdjustVolume Ratio=20
+DeCresc ppp 24
+
+Repeat
+Groove BossaNova
+
+78        Cm
+79        G7
+80         /
+81        Cm
+
+Groove BossaNovaSus
+RepeatEnding 3
+
+82        Ab
+83        Eb
+
+RepeatEnd
+Groove BossaNovaEnd
+
+Seq 3
+82        Ab
+83        Eb     z!

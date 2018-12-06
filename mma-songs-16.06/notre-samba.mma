@@ -1,0 +1,155 @@
+// Notre Samba
+
+Tempo $( 105 * 2 )
+Keysig G
+
+Groove Metronome2-4
+   z * 2
+
+Groove SambaIntro8
+
+AllGrooves Arpeggio Range 1.1
+
+Begin Solo
+    Voice ChurchOrgan 
+    Volume mf
+    Articulate 99
+    Octave 6
+    Harmony OpenBelow
+    Begin Riff
+        1g+;
+        1fn+;
+
+        1e+;
+        1d+;
+
+        1c+;
+        1b;
+
+        1+2a ~;
+    End
+End
+
+Swell p mf 8
+
+1          G
+2          /
+3         Em7
+4          /
+5         Am9
+6          /
+7         D7
+8          /
+
+Repeat
+Label Sign
+Groove Samba
+Volume m
+
+9          G
+10         /
+11         /
+12         /
+
+Groove SambaPlus
+
+13       Dm7
+14         /
+15        E7
+16         /
+
+Groove Samba
+Cresc mf 4
+
+17        Am
+18         /
+19         /
+20         /
+
+Groove SambaSus
+
+21       Cm6
+22         /
+23        D7
+24         /
+
+Groove SambaSusPlus
+
+If Def Coda
+  Goto Coda
+Endif
+
+25         G
+26         /
+27         /
+28         /
+
+Groove Samba
+Decresc m 4
+
+29       Cm6
+30         /
+31        B7
+32         /
+
+Groove SambaPlus
+
+33        E7
+34         /
+35        A7
+36         /
+
+Groove Samba
+Decresc  mp 4
+
+37       Cm6
+38         /
+39       Em7
+40         /
+
+Groove SambaPlus
+
+41       F#7
+42         /
+
+Groove SambaFill
+Decresc p 2
+
+43        B7
+44         /      /     D7
+
+RepeatEnd
+Set Coda
+Goto Sign
+
+Label Coda
+
+Groove SambaSus
+Volume m
+
+45         G
+46        G7
+47         /
+48         C
+
+Groove SambaSusPlus
+Decresc  mp  8
+
+49         /
+50         /
+51        Cm
+52         /
+
+Groove Samba
+
+53         G
+54         /
+55       Am7
+56         /      /     D7
+
+Groove SambaEnd
+Decresc ppp 2
+
+57         G
+58         / z!
+

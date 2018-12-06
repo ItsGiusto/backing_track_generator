@@ -1,0 +1,93 @@
+// Count Your Blessings Instead Of Sheep (White Xmas, 1954)
+
+Tempo 60
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowSpiritualIntro
+
+Begin Solo
+    Voice Strings
+    Octave 5
+    Harmony 2Below
+    Articulate 110
+    Volume f
+    Begin Riff
+        2c+;43b;a;g;
+        2a;43g;f;e;
+        2f;43e;d;c;
+        2e;4c;
+    End
+End
+
+Cresc p mp 4
+
+1         C
+2        Am
+3        Dm
+4        C7
+
+Repeat
+Groove SlowSpiritual
+Volume m
+
+5       Am7      /    Em7
+6       FM7      /    Em7
+7       FM7      /    Em7
+8       FM7      /     E7
+
+Groove SlowSpiritualPlus
+Decresc p 3
+
+9       Am7
+10       D7
+
+RepeatEnding
+
+11      Dm7      /     G7
+12      Dm7      /     G7
+
+RepeatEnd
+
+13      Dm7      /     G7
+14      CM7
+
+Groove SlowSpiritualSus
+15     AbM7
+16   AbM7/C      /  Bdim7
+
+Cresc m 2
+
+17     Bbm7      /    Eb7
+18     AbM7
+
+Groove SlowSpiritualSusPlus
+Swell mf 4
+
+19        /
+20    Ddim7      /     G7
+21      CM7      /  Ddim7     G7
+22      Gm7      /     C7
+
+Groove SlowSpiritual
+Decresc mp 4
+
+23      Am7      /    Em7
+24      FM7      /    Em7
+25      FM7      /    Em7
+26      FM7      /     E7
+
+Groove SlowSpiritualPlus
+Decresc p 2
+
+27      Am7
+28       D7
+
+Groove SlowSpiritualEnd
+Decresc ppp 2
+
+29      Dm7      /     G7
+30      C      z!
+

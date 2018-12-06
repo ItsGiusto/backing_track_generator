@@ -1,0 +1,104 @@
+// When Im Sixty Four
+// Sgt. Pepper's ...
+
+Tempo 144    // quite close to the original tempo for "the boys",
+Keysig Bb    // they recorded in C and bumped it to C# for the release.
+
+Groove Metronome2-4
+	   z * 2
+						
+Groove Jive1
+Begin Solo
+	  Voice AltoSax
+	  Volume ff
+	  Harmony Open
+	  Articulate 90
+	  Octave 5
+	  Begin Riff
+	  	 8.b-;16c;8d;8+4f;4d;
+		 8.g;16a;8b;8+2d+;
+		 8.c;16d;4.e;8f;4e;
+		 1f;
+	  End
+End
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove Jive1
+
+5        Bb
+6         /
+7         /
+8        F7
+9         /
+10        /
+11        /
+12       Bb
+
+Groove Jive1Plus
+
+13        /
+14        /
+15      Bb7
+16       Eb
+17        /      /    Gb7
+18       Bb      /     G
+19       C7      /     F7
+20       Bb
+
+Groove Jive1Sus
+
+21       Gm
+22        /      /      /     Eb
+23        F
+24       Gm
+25        /
+26        /
+27        D     Gm      D     D7
+28        /     Gm      D     D7
+
+Groove Jive1SusPlus
+
+29       Gm
+30       Gm
+31       Cm
+32        /
+33       Eb
+34        F      /     F9
+35       Bb
+
+Groove Jive1Clap
+
+36        /
+
+RepeatEnd
+
+Groove Jive1
+
+37       Bb
+38        /
+39        /
+40       F7
+41        /
+42        /
+43        /
+44       Bb
+
+Groove Jive1Plus
+
+45        /
+46        /
+47      Bb7
+48       Eb
+49        /      /    Gb7
+50       Bb      /     G
+
+Groove JiveEnd
+
+51       C7      /     F7
+52       Bb  / z!
+

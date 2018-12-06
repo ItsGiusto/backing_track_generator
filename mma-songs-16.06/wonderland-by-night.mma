@@ -1,0 +1,109 @@
+// Wonderland By Night (1961)
+
+Tempo 76
+Keysig C
+
+Groove Metronome2-4
+    z * 2
+
+Groove SwingIntro
+
+Begin Solo
+    Voice Trumpet
+    Octave 5
+    Articulate 130
+    Begin Riff
+        8r;4.c; 9t c#;d;e;f;f#;g;g#;a;a#;b; 4.c+ ;
+        8r;4.c; 9t c#;d;e;f;f#;g;g#;a;a#;b; 4.c+ ;
+        4g;e;c;16b&-;g-;bn-;b&-;
+        2g;4g-;3f-;e-;d-;
+    End
+End
+
+// Create a duplicate track for the solo. The start points
+// are delayed by 5 ticks which serves to smooth out the 
+// glis.
+Begin Solo-2
+    Copy Solo
+    Delay 5t
+End
+Solo DupRiff Solo-2
+
+/// Reduce the number of notes in PLUS versions
+Begin Allgrooves Arpeggio 
+  Rskip 10   50   40   25
+  Volume p
+End
+
+
+// Change chording for the intro
+Chord-Guitar Sequence L1
+Chord Sequence  L1
+
+Swell mp mf 4
+
+1         C
+2        Bb
+3         C
+4         G
+
+Repeat
+
+Groove Swing1
+Volume m
+
+5         C
+6         G
+7       Dm7      /     G7
+8         C
+
+Groove Swing1Plus
+
+9         /
+10        G
+Decresc mp 2
+11      Dm7      /     G7
+12        C
+
+Groove Swing1Sus
+
+13        F
+14        /
+15        /
+16        C
+
+Groove Swing1PlusSus
+Cresc m 4
+
+17        F
+18        C
+19       D7
+20       G7
+
+Groove Swing1Walk
+
+21        C
+22        G
+23      Dm7      /     G7
+24        C
+
+Groove Swing1WalkPlus
+Decresc mp 2
+
+25        /
+26        F      /     Fm
+
+RepeatEnding
+
+27        C      /     F      G7
+28        C
+
+RepeatEnd
+
+
+Groove Swing1End
+Decresc ppp 2
+
+27        C      /     F      G7
+28        C      z!
+

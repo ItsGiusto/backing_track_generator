@@ -1,0 +1,110 @@
+// Bye Bye Blues
+
+Tempo 160
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingIntro1
+
+Begin Solo
+	Voice JazzGuitar
+	Volume ff
+    Octave 5
+	Articulate 110
+	Harmony Open+OpenBelow+8Below
+End
+
+// 4 bar intro
+
+Swell mp m 4
+
+1          C    { 2e+; 2g; }
+2          G    { 2d+; 2g; }
+3         Am      /  Bdim3    { 4c+; b; a; b; }
+4         D7      /     G7      /    { 2c+; 2d+ ; }
+
+// Begin verses
+
+set Main Groove EasySwing2
+set Sus  Groove EasySwing2Sus
+set Main2 Groove EasySwing
+
+Repeat
+$Main
+Cresc mf f 30
+
+5          C
+6          /
+7        Ab7
+8          /
+9          C
+10        B7      /    Bb7
+11        A7
+12         /
+
+$Main2
+
+13        D9
+14        D7
+15        G7
+16        G7
+17       CM9      /      C
+18     Cdim3
+19       Dm7      /     G7
+20       Dm7      /   G7#5
+
+$Sus
+
+21         C
+22         /
+23       Ab7
+24         /
+25         C
+26        B7      /    Bb7
+27        A7
+28         /
+
+$Main
+
+29        D9
+30        D7
+31        G7
+32        G7
+33         C
+34       Ab7
+
+Repeatending     //  ending 1
+
+35         C
+36         /      /     G7
+
+// The 3rd and 4th time though we play at double time.
+
+RepeatEnding 	// 3nd ending
+
+37         C
+
+set Main Groove EasySwing1
+set Main2 Groove EasySwing2
+set Sus  Groove EasySwing1Sus
+
+Tempo *2
+
+
+38         /      /     G7
+39         /
+
+RepeatEnding   // 3rd time though
+
+40         C
+41         /      /     G7
+
+
+RepeatEnd
+
+
+42         C      /     F7
+43         C     z!
+

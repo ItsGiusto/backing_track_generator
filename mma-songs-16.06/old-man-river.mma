@@ -1,0 +1,126 @@
+// Old Man River
+
+Tempo 80
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingIntro
+AllGrooves Plectrum Capo -4
+
+Swell p mf 4
+
+1        Db6      /   Bbm7
+2         D6      /    Bm7
+3        Eb6      /    Cm7
+4        Fm7      /    Bb7
+
+
+Tempo *2
+
+Repeat
+Groove EasySwing
+Volume m
+
+5         Eb      /    Cm7
+6         Eb      /     Ab
+7         Eb      /     Ab
+8         Eb      /    Cm7
+
+Groove EasySwingWalk
+Cresc mf 4
+
+9        Fm7      /    Bb9
+10       Fm7      /    Bb9
+11        Eb      /    Ab6
+12        Eb
+
+Groove EasySwing
+Decresc mp 4
+
+13         /      /    Cm7
+14        Eb      /     Ab
+15        Eb      /     Cm
+16        Eb      /  Gbdim
+
+Groove EasySwingSus
+Cresc m 4
+
+17       Fm7      /    Bb7
+18       Fm7      /    Bb9
+19        Eb      /     Ab
+20        Eb      /  Am7b5     D7
+
+Groove EasySwing
+
+21        Gm      /   D7b9
+22        Gm      /   D7b9
+23        Gm      /   D7b9
+24        Gm      /   D7b9
+
+Groove EasySwingWalk
+Volume mf
+
+25        Gm      /    Cm6
+26        Gm      /   D7b9
+27        Gm      /   D7b9
+28        Gm      /    Fm7    Bb7
+
+Groove EasySwing
+Decresc mp 4
+
+29        Eb      /    Cm7
+30        Eb      /     Ab
+31        Eb      /    Bb9
+32       Cm7      /     F7
+
+33        Eb   Bdim    Cm7
+34       Fm7      /    Bb7
+
+RepeatEnding 
+Groove EasySwingFill
+
+35        Eb      /    Abm
+36        Eb    Fm7    Bb7
+
+RepeatEnd
+Groove EasySwingFill
+
+37        Eb      /    Fm7    Bb9
+
+Tempo  *.5
+
+38        Eb      /   Edim
+
+Transpose 2
+Groove EasySwingSus
+Volume m
+
+39        Gm      /   D7b9
+40        Gm      /   D7b9
+41        Gm      /   D7b9
+42        Gm      /   D7b9
+
+Groove EasySwingWalkFill
+Decresc mp 4
+
+43        Gm      /    Cm6
+44        Gm      /   D7b9
+45        Gm      /   D7b9
+46        Gm      /    Fm7    Bb7
+
+Groove EasySwingSus
+
+47        Eb      /    Cm7
+48        Eb      /     Ab
+49        Eb      /    Bb9
+50       Cm7      /     F7
+
+51        Eb   Bdim    Cm7
+52       Fm7      /    Bb7
+
+Groove EasySwingEnd
+Decresc ppp 2
+
+53       Eb       /    Fm7 Bb9
+54       Eb       z!

@@ -1,0 +1,124 @@
+// Too Close For Comfort
+
+Tempo 148
+Keysig C minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+  Voice BrassSection
+  Articulate 60
+  Harmony OpenBelow+8Below
+  Volume ff
+  Octave 6
+  Begin Riff
+     4c;2.;
+	 4en;2.;
+	 4f;2.;
+	 2g;
+  End
+End
+
+Cresc pp mf 4
+
+1        Cm
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove BigBand
+Volume m
+
+5        C6
+6       Cm6
+7       Gm6
+8        A7
+
+Groove BigBandPlus
+Volume +20
+
+9       Fm6
+10       G7
+11        C
+12        /
+
+Groove BigBandSus
+Cresc m mf 4
+
+13       C6
+14      Cm6
+15      Gm6
+16       A7
+
+Groove BigBandSusPlus
+Decresc m 4
+
+17      Fm6
+18       G7
+19        C
+20       C6      /     C+
+
+Groove BigBand
+Volume m
+
+21       F6      /     F7
+22       Fm      /      /   G7b9
+23        C
+24       C7
+
+Groove BigBandPlus
+Swell m mf 8
+
+25       F6      /     F7
+26       Fm      /      /   G7b9
+27      Ab7
+28       G7
+
+Groove BigBand
+
+29       C6
+30      Cm6
+31      Gm6
+32       A7
+
+Groove BigBandSus
+Decresc mp 4
+
+33      Fm6
+34       G7
+35        C
+36       C6      /     C+
+
+Groove BigBand
+Cresc m 4
+
+37       F6      /     F7
+38       Fm      /      /   G7b9
+39      Cm6
+40       D7
+
+Groove BigBandSusPlus
+
+41      Ab9
+42       G9      /    Fm6   G7b9
+
+RepeatEnding
+
+43       CM7
+
+Groove BigBandFill
+
+44       D7     /  G7
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc pp 2
+
+45       Cm   /   Ab7
+46       Cm    /  z!
+

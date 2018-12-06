@@ -1,0 +1,113 @@
+// Fugue For Tinhorns
+
+Tempo 120
+Keysig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+    Voice Piano1
+    Harmony OpenBelow
+    Articulate 110
+    Octave 6
+    Volume f
+    Begin Riff
+        8b;d+;c+;b;4d+;c+;
+        8b;a;g;a; 2b;
+        4e+;d+;c+;d+;
+        2f+;
+    End    
+End
+
+SwingMode On
+Cresc p mf 4
+
+1         Bb
+2         Gm
+3         Cm
+4         F7
+
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5        Cm7      /     F7
+6        Bb6
+7        Cm7      /     F7
+8        Bb6
+
+Groove FoxTrotPlus
+Cresc mf 4
+
+9        Cm7      /     F7
+10       Bb6
+11       Cm7      /     F7
+12       Bb6
+
+Groove FoxTrot
+Decresc mp 4
+
+13       Cm7      /     F7
+14        Bb
+15       Cm7      /     F7
+
+RepeatEnding
+
+16       Bb6
+
+RepeatEnd
+
+17       Bb6
+
+Repeat
+
+Groove FoxTrotSus
+Cresc mp m 4
+
+18       Cm7      /     F7
+19       Bb6
+20       Cm7      /     F7
+21       Bb6
+
+Groove FoxTrotSusPlus
+Cresc f 4
+
+22       Cm7      /     F7
+23       Bb6
+24       Cm7      /     F7
+25       Bb6
+
+Groove FoxTrotPlus
+Decresc mp 3
+
+26       Cm7      /     F7
+27       Bb6
+28       Cm7      /     F7
+
+RepeatEnding
+
+Groove FoxTrotFill
+
+29       Bb6
+
+RepeatEnd
+
+30       Bb6
+
+Groove FoxTrot
+Cresc f 2
+
+31      EbM7
+32         /
+33         /      /     F9
+
+Groove FoxTrotEnd
+Decresc pp 2
+
+34        Bb
+35         /     z!
+

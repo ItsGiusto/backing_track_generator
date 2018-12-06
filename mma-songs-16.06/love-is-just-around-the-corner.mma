@@ -1,0 +1,89 @@
+// Love Is Just Around The Corner
+
+Tempo 116
+Keysig f
+
+Groove Metronome2-4
+  z * 2	
+
+Groove FoxTrotIntro
+
+Begin Solo
+	Voice Piano3
+	Volume f
+	Harmony OpenAbove
+	Articulate 76
+	Octave 5
+	Begin Riff
+		4g;; 8; ; ; ;
+		4g;; 8; ; ; ;
+		4g;; 8; a; b; bn;
+		2c+;
+	End
+End
+
+Cresc p mf 4
+
+SwingMode On
+
+1      G7    
+2	/
+3	/
+4      C7    
+
+Delete Solo
+
+Repeat
+Repeat
+Groove Foxtrot
+
+5      G7    /    C7    
+6      F     
+7      G7    /    C7    
+8      F     
+9      G7    /    C7    
+10     F     Cm    D7    
+11     G7    /    Gm7   C7    
+
+RepeatEnding
+
+12     F  
+   
+Groove FoxTrotSus
+
+RepeatEnd
+
+13     F
+ 
+Groove FoxTrotPlus
+    
+14     A7    /    Dm6   A7    
+15     Dm    
+16     A7    
+17     Dm    
+18     G7    /    Gdim  
+19     G7    /    Gdim  
+20     G7    
+21     C7    
+22     G7    /    C7 
+
+Groove FoxTrot
+   
+23     F     
+24     G7    /    C7    
+25     F     
+26     G7    /    C7    
+27     F     Cm    D7    
+28     G7    /    Gm7   C7   
+
+RepeatEnding
+ 
+29     F     
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Seq 2
+
+29     F  / z!    
+

@@ -1,0 +1,142 @@
+// Heaven Can Wait
+
+// This is the 1939 song written by DeLange/Van Heusen
+// If you're looking for the 'modern' version you've come
+// to the wrong place :)
+
+Tempo 100
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove BalladIntro1
+
+
+Begin Solo
+	Voice Piano1
+	Volume m
+	Harmony Open+8Below
+	Octave 6
+	Articulate 90
+	Begin Riff
+		3+3e+;;;2;
+		3+3d+;;;2;
+		3+3c+;;;2;
+		2b;
+	End
+End
+
+Volume mf
+Cresc ff 4
+
+// 4 bar intro
+Swell mp mf 4
+
+1        Cm7
+2        Gm7
+3        Eb6
+4        Bb7
+
+Delete Solo
+
+Repeat   // entire piece
+Repeat   // "A" section
+
+Groove Ballad
+Volume mf
+
+5         Eb      /     Gm
+6        Fm7      /    Bb7
+7         Eb
+8         F6      /      /  Ebdim
+
+Groove BalladSus
+
+9        Fm7
+
+Cresc f 3
+
+
+RepeatEnding
+
+10       Bb7
+11        Eb      /   Edim
+
+Begin Drum-OpenTri
+   Riff D124
+   RSkip 0
+   Rvolume 10
+   Volume ff
+End
+
+12       Fm7      /    Bb7    Bb+
+
+Groove Ballad1
+
+Repeatend
+
+13       Bb7
+14        Eb      /     Cm
+
+Begin Drum-OpenTri
+   Riff D1234
+   RSkip 0
+   Rvolume 10
+   Rtime 5
+   Volume ff
+End
+
+15        Am      /     D7
+
+//// Bridge or "B" section
+
+Groove BalladSus
+Volume f
+
+16        Gm      /  Ebdim
+17        Gm      /   Cdim
+18        Gm      /   Adim
+19        Gm      /   Bbm6     C7
+
+Groove Ballad1Sus
+
+20        Fm      /   Gdim
+21       Fm6      /  Bbdim
+22        Fm      /  Bbdim
+23      Abm6      /    Bb7
+
+/// "A" to fill out the AABA format
+
+Groove BalladSus
+
+24        Eb      /     Gm
+25       Fm7      /    Bb7
+26        Eb
+27        F6      /      /  Ebdim
+
+Groove Ballad1Sus
+
+28       Fm7
+29       Bb7
+
+RepeatEnding
+
+30        Eb      /     Cm
+31        Eb      /    Bb7
+
+RepeatEnd  // end of song, repeat entire piece to make it longer
+
+//// A 4 bar ending, actually it's 2 bars repeating.
+
+Groove BalladEnd
+Tempo -10 2
+Decresc ppp 4
+Seq 1
+
+32        Eb      /     Cm
+33        Eb      /    Bb7
+34        Eb      /    Bb7
+35        Eb      /     z!
+
+Cut -2

@@ -1,0 +1,93 @@
+// With A Little Help From My Friends
+// Beatles, Sgt. Peppers. Done in E, a bit slower
+
+Tempo 115
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove JazzRockIntro
+Begin Solo
+    Voice SynthStrings2 //TremoloStrings
+    Octave 5
+    Harmony 3Above
+    Articulate 110
+    Volume m
+    Begin Riff
+        1a&;
+        1b&;
+        1c;
+    End
+End
+
+Swell mp m 4
+Chord Sequence {1 1 90 * 12}
+1         Ab6
+2        Bb
+3        +C
+Chord Sequence L2
+4        /
+
+Repeat
+Groove JazzRock
+Volume m
+
+5         C
+6        Dm
+7         /      /     G7
+8         C
+
+Groove JazzRockWalk
+Volume mf
+
+9         /      /      G
+10       Dm
+11        /      /     G7
+12        C
+
+Groove JazzRockSus
+Decresc m 2
+
+13       Bb      /      F
+14        C
+15       Bb      /      F
+16        C
+
+Groove JazzRockPlus
+Volume mp
+
+17        F
+
+RepeatEnding
+
+18        C
+
+RepeatEnding
+
+19        C
+
+Groove JazzRockWalkSus
+Cresc m mf 4
+
+20       Am
+21       D7
+22        C      /     Bb
+23        F
+
+Groove JazzRockWalkSusPlus
+Decresc m 4
+
+24       Am
+25       D7
+26        C      /     Bb
+27        F
+
+Repeatend          // this is show as a coda in charts
+
+Groove JazzRockEnd
+Seq 2
+
+28        C  z!
+
+

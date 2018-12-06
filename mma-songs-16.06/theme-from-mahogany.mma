@@ -1,0 +1,147 @@
+// Theme From Mahogany
+
+// This is shortened a bit from the original. Runs just under 3 minutes.
+// The melody has been coded in to verify that it is correct. To listen
+// just uncomment the "Solo Off" just after the intro (before bar 5).
+
+Tempo 68
+KeySig Db
+
+Groove Metronome2-4
+  z * 2
+
+Groove PianoBalladSus
+Begin Solo-Strings
+    Voice Strings
+    Octave 5
+    Articulate 105
+    Volume mf
+    HarmonyOnly OpenBelow
+End
+
+Begin Solo
+    Voice Piano1
+	Swell m ff 4
+	Articulate 110
+	Octave 4
+	Begin Riff
+        8r;16f+;g+;4+8a+;16g+;g+;b+;16+6a+;6g+;f+;
+		8g+;16e+;f+;8g+;d+;c+;;d+;e+;
+        8f+;16d+;16+2b;8c+;d+;
+        8e+;16c+;16+2an;8b;c+;		
+	End
+    DupRiff Solo-Strings
+End
+
+// Trigger to play on bar 5 to signal we're in the right place
+// after the "odd" time changes. Set to play a triangle at beat
+// one everytime.
+Begin Drum-Tri
+   Volume f
+   Tone Opentriangle
+   Sticky on
+   Trigger Sequence={D1} Beats=1 measures=5
+End
+
+Chord-Sus Cresc ppp p 4
+Chord-Sus Octave -1
+
+1        Db      /     Gb    
+2       Ebm      /     F7
+3       Bbm      / Bbm/Db
+Chord-Sus Riff 1 2 80; 2 2 70   // Needed to avoid conflict in pitches in lib pattern.
+4       Ebm    /  F7
+
+Solo Off
+
+Keysig Bb
+
+Repeat // for the DS
+
+Repeat
+Groove PianoBalladSus
+Volume mp
+Seq
+// This 3 note riff sets up a melody echo to help start bar 5
+Arpeggio-High Riff 1.5 16 100; 1.75 16 100;2 2 100;
+
+5        Bb    /     Eb  {8r;16d+;e+;4+8f+;16e+;d+;e+;d+;8c+;}
+6        Cm      /     D7  {8r;16c+;d+;8e+;b;a;;b;c+;}
+7        Gm      /  Gm/Bb  {8d+;b;4+8g;8g;a;b;}
+8     Cm/Eb      /     D7  {8c+;a;4+4f#;8g;a;}
+
+RepeatEnding
+
+// next bar is a 2/8. In terms of the 4/4 it gets 1 beat (ie: 1/4 time)
+
+Truncate 1
+Groove PianoBalladFill
+Timesig 2 8
+Arpeggio-High Riff 1 2 90;
+9         G       {4bn;}
+
+TimeSig 4 4
+Groove PianoBalladSus
+
+RepeatEnd
+Groove PianoBallad
+Cresc m 2
+
+10        G      /   A7/G  {4bn;8r;b;16a;8b;16+8f#;8g;}
+
+Groove PianoBallad1
+Keysig G
+
+11     D/F#      /      D     E7   {4.a;8d;2;}
+12      Am7      /      C     D7   {8r;c+;;16;16+8b;16a;16+8g;8a;}
+13        G      /      C      G   {4b;8.g;16+4;8b;16c+;16+4d+~;}
+14        G      /   A7/G          {~ 8d+;e+;c#+;16b;8a;8.;}
+
+Groove PianoBallad1Sus
+Cresc mf 2
+
+15     F#m7      /    Bm7       {8r;e+;;c#+;2d+;}
+16      Em7      /    G/D   A7  {8r;16g+;;8;16;8f+;8.e+;8d+;c#+;}
+
+// next bar is 5/8. It gets 2.5 beats
+Truncate 2.5
+Groove PianoBalladFill
+Timesig 5 8
+// this bar is another problem, so we replicate the rhythm in the arpeggio
+Begin Arpeggio-High
+   Riff 1 8 90; 1.5 8 90; 2 8 90; 2.5 4 90;
+   Volume f
+End
+17      C   {8e+;d+;;4;}
+
+Timesig 4 4
+Keysig Bb
+
+RepeatEnd  // for the 1st DS
+
+// this is the 2nd time though. In the original sheet music
+// bars 5-9 are played 2x. I'm getting tired of the song by now,
+// so just do it 1x and skip to the outro.
+
+Groove PianoBalladSus
+Volume m
+
+5        Bb      /     Eb  {8r;16d+;e+;4+8f+;16e+;d+;e+;d+;8c+;}   
+6        Cm      /     D7  {8r;16c+;d+;8e+;b;a;;b;c+;}
+7        Gm      /  Gm/Bb  {8d+;b;4+8g;8g;a;b;}
+8     Cm/Eb      /     D7  {8c+;a;4+4f#;8g;a;}
+
+Groove PianoBallad2
+Decresc mp 2
+
+18       Bb      /     Eb  {8r;16d+;e+;4+8f+;16e+;d+;g+;f+;e+;d+;}
+19       Cm      /     D7  {8e+;16c+;d+;8e+;b;a;;b;c+;}
+20       Gm      /  Gm/Bb  {8d+;16b;g;4+4g;8a;b;}
+
+Groove PianoBalladEnd
+Tempo *.8 2
+Decresc pppp 2
+
+21    Cm/Eb      /     D7  {8c+;a;4+4f#;8g;a;}
+22        G      z!        {2.bn;}
+

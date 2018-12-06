@@ -1,0 +1,113 @@
+// The Song Is Ended
+
+Tempo 94
+Keysig Eb
+
+Groove Metronome3
+  z * 2
+
+Groove WaltzIntro8
+Begin AllGrooves Chord
+  Articulate 130
+  Octave 5
+  DupRoot -1
+End
+
+Begin Solo
+    Voice Strings
+    Swell p mf 4
+    Octave 5
+    Harmony 3Above+OpenBelow
+    Articulate 110
+    Begin Riff
+       2g;4b;
+       2.c+;
+       8f+;e+; c+;b; a;g;
+       2.f;
+    End
+End
+
+Cresc mp mf 4
+
+1         Eb
+2         Cm
+3         Fm
+4        Bb7
+
+Repeat
+Groove Waltz
+Volume m
+
+5         Eb
+6        Eb7
+7         Ab
+8        Abm
+
+Groove Waltz1
+Cresc mf 4
+
+9       Eb/G      /    Cm7
+10        F7
+11       Bb7      /  Bb7#5
+12        Eb
+
+Groove Waltz
+Decresc m 4
+
+13         /
+14       Eb7
+15        Ab
+16       Abm
+
+Groove WaltzSus
+
+17      Eb/G      /    Cm7
+18        F7
+19       Bb7      /  Bb7#5
+20        Eb
+
+Groove WaltzWalk
+Cresc mf 4
+
+21        Gm
+22         /
+23     Am7b5
+24         /
+
+Groove Waltz1Walk
+Decresc m 4
+
+25        D7
+26         /
+27        Gm     C7
+28        Fm    Bb7
+
+Groove WaltzWalkSus
+
+29        Eb
+30       Eb7
+31        Ab
+32       Abm
+
+Groove Waltz
+Decresc mp 4
+
+33      Eb/G      /    Cm7
+34        F7
+35       Bb7      /  Bb7#5
+
+RepeatEnding
+
+Groove WaltzWalk
+
+36        Eb
+
+
+RepeatEnd
+
+Groove WaltzEnd
+Seq 3
+Decresc pp 1
+
+37        Eb     z!
+Fermata -3 1 200

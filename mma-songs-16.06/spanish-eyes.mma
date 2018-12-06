@@ -1,0 +1,174 @@
+// Spanish Eyes
+
+Tempo 120
+Groove Metronome2-4
+	z * 2
+
+Groove BeguineIntro
+
+Begin Solo
+    Voice Marimba
+    Octave 7
+    Articulate 120
+    Mallet Rate=16 Decay=-20
+    Volume mf
+    Harmony OpenBelow
+    Begin Riff
+       4.g;8;4;;
+       4.e;8;4;4;
+       4.c;8;4;;
+       1d;
+    End
+End
+
+Decresc mf mp 4
+
+1          G
+2         Em
+3         Am
+4         D7
+
+Repeat
+Groove Beguine
+Volume m
+
+5          G
+6          /
+7          /
+8          /
+
+Groove Beguine1
+
+9          /
+10         /
+11        D7
+12         /
+
+Groove Beguine
+Volume mf
+
+13         /
+14         /
+15         /
+16         /
+
+Groove BeguineSus
+
+17         /
+18         /
+19         G
+20         /
+
+Groove Beguine1Sus
+
+21         /
+22         /
+23         /
+24         /
+
+Groove Beguine1
+Decresc m 8
+
+25         /
+26        G7
+27         C
+28         /
+
+Groove BeguineSus
+
+29        Cm
+30         /      /    Cm6
+31         G
+32         /
+
+Groove Beguine
+Decresc mp 4
+
+33        D7
+34         /
+35         G
+If ndef Repeat
+  Groove BeguineFill
+Endif
+36         /
+
+Set Repeat
+
+RepeatEnd
+
+/// Repeat one more time in new key
+/// from G to D
+Transpose 8
+
+Groove Beguine1
+Volume mp
+
+37         G
+38         /
+39         /
+40         /
+
+Groove Beguine1Sus
+
+41         /
+42         /
+43        D7
+44         /
+
+Groove Beguine1Sus
+Cresc mf 8
+
+45         /
+46         /
+47         /
+48         /
+
+Groove BeguineSus
+
+49         /
+50         /
+51         G
+52         /
+
+Groove Beguine
+Volume m
+
+53         /
+54         /
+55         /
+56         /
+
+Groove Beguine1
+
+57         /
+58        G7
+59         C
+60         /
+
+Groove Beguine1Sus
+Decresc mp 4
+
+61        Cm
+62         /      /    Cm6
+63         G
+64         /
+
+Groove BeguineSus
+
+65        D7
+66         /
+67         G
+68         /
+
+Groove BeguineSus
+Decresc  pppp 8
+Repeat
+
+69        D7
+70         /
+71         G
+72         /
+
+RepeatEnd
+
+

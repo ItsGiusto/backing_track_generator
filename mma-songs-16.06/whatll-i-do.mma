@@ -1,0 +1,90 @@
+// Whatll I Do
+
+Tempo 70
+Keysig C
+
+Groove Metronome3
+  z * 2
+
+Groove JazzWaltzIntro
+
+Begin Solo
+  Voice Vibraphone
+  Articulate 110
+  Harmony Open
+  Octave 5
+  Volume mf
+  Begin Riff
+    3c;d;e;2g;
+    3c;d;e;2a;
+    3d;e;f;2a;
+    2g;
+  End
+End
+
+Cresc pp m 4
+
+1         C
+2        Am
+3        Dm
+4        G7 / z!
+
+Repeat
+Groove JazzWaltz
+Swell mp mf 8
+
+5         C
+6       Fm6
+7       C/E      /     C7
+8     Dm7b5
+9       C/G
+10       G7
+11        C
+12        /
+
+Groove JazzWaltzSus
+Cresc mp m 8
+
+13        /
+14      Fm6
+15      C/E      /     C7
+16    Dm7b5
+17      C/G
+18       G7
+19        C
+20       Bb     C7
+
+Groove JazzWaltz1
+Decresc m mp 8
+
+21        F
+22       Dm
+23        F
+24      Fm6
+25      C/E
+26       A7
+27       D7
+28       G7
+
+Groove JazzWaltz1Sus
+Volume m
+
+29        C
+30      Fm6
+31      C/E      /     C7
+32    Dm7b5
+33      C/G
+34       G7
+
+RepeatEnding
+
+35        C  Cm7b5
+36      Dm7     G7
+
+RepeatEnd
+Groove JazzWaltzEnd
+Decresc ppp 2
+
+37        C
+38   C6(add9)
+

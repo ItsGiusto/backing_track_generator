@@ -1,0 +1,67 @@
+// Adios Muchachos
+
+Tempo 110
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove LightTango
+
+1   z z z C    
+
+Repeat
+Groove LightTango
+
+1   C       /       E7      
+2   F       
+3   G7      
+4   C       
+5   /       /       Em      
+6   Dm7     
+7   G7      
+8   C  
+
+Groove LightTango1
+     
+9   /       /       E7      
+10  F   
+11  G7      
+12  C       
+13  C7      
+14  F       /       Fm      
+15  C       /       D7      G7      
+16  C 
+
+Groove LightTangoSus
+      
+17  E7      
+18  Am      
+19  G7      
+20  C       /       C+  
+21  F       /       Fm      
+22  C       /       Em      
+23  Dm7     /       G7      
+24  C
+
+Groove LightTango1Sus
+       
+25  E7      
+26  Am      
+27  G7      
+28  C       /       C+      
+29  F       /       Fm      
+30  C       /       Fm      
+31  Dm      /       G7    
+
+RepeatEnding
+
+32  C       
+
+RepeatEnd
+
+Groove LightTangoEnd
+
+33  C      z!
+
+

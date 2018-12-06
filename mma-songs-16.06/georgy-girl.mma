@@ -1,0 +1,104 @@
+// Georgy Girl
+
+Tempo 156
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove EasySwingIntro2
+Begin Solo
+  Voice NylonGuitar
+  Harmony Open+8below
+  Volume fff
+  Articulate 110
+  Octave 5
+  Begin Riff
+    43e;g;b;g;b;e+;
+    43d;g;b;4d+;b;
+    43e;g;c+;g;c+;e+;
+    43d;f;a;2b;
+  End
+End
+
+Cresc p m 4
+
+1        Eb
+2        Gm
+3        Cm
+4       Bb7
+
+Repeat
+Groove EasySwing
+Cresc f 8
+
+5        Eb      /     Gm
+6        Ab      /     Bb
+7        Eb      /     Gm
+8        Ab      /     Bb
+9        Eb      /     Gm
+10       Ab
+11       Db
+12      Bb7
+
+Groove EasySwingSus
+Decresc mp 8
+
+13       Eb      /     Gm
+14       Ab      /     Bb
+15       Eb      /     Gm
+16       Ab      /     Bb
+17       Eb      /     Gm
+18       Ab      /     Db
+19   Bb7sus      /    Bb7
+20      Bb9
+
+Groove EasySwing42
+Swell f 8
+
+21       Cm
+22       Gm
+23       Ab
+24       Eb
+25        G
+26        C      /      F
+27       Bb
+28      Bb7
+
+Groove EasySwing42Sus
+Volume m
+
+29       Eb      /     Gm
+30       Ab      /     Bb
+31       Eb      /     Gm
+32       Ab      /     Bb
+33       Eb      /     Gm
+34       Ab      /    Bb7
+35       Cm
+36      Cm7      /      /   EbM7
+
+Groove EasySwingFill
+Decresc mp 4
+
+37       Ab
+38      Bb7
+
+RepeatEnding
+
+39       Eb      /     Gm
+40       Ab      /    Bb7
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc pppp 8
+Alltracks Decresc pppp 8
+
+Repeat 
+
+41       Eb      /     Gm
+42       Ab      /    Bb7
+
+RepeatEnd 4
+
+

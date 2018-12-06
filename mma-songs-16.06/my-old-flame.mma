@@ -1,0 +1,92 @@
+// My Old Flame
+
+Tempo 90
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove JazzGuitar1Intro
+AllGrooves Plectrum Capo -2
+
+Begin Solo
+  Voice Piano1
+  Volume mf
+  Harmony 8Below+OpenAbove
+  Articulate 110
+  Octave 4
+  Begin Riff
+    2g;b;
+	2+4.d+;8e+;
+	43c+;;;b;;;
+	1a;
+  End
+End
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+
+Groove JazzGuitar
+Swell mp mf 8
+
+5         G      /     Bm
+6     Bm7b5      /     E7
+7       Am7
+8      A7b5      /   D7b5
+9        G6      /     C7     F7
+10       Bb      /    Eb7
+11       D7      /    Eb7&5
+12      Am7      /   D7b9    D7+
+
+Groove JazzGuitarWalk
+Volume m
+
+13        G      /     Bm
+14    Bm7b5      /     E7
+15      Am7
+16     A7b5      /   D7b5
+17       G6      /     C7     F7
+18       Bb      /    Eb7
+19       D7      /    Eb7&5
+20       F7
+
+Groove JazzGuitarSus
+Decresc mp 8
+
+21      Bb6
+22      Cm6
+23      Ab7      /     G7
+24       C6(add9)
+25       F9
+26       D7
+27       A7
+28       D9      /      / D7#5b9
+
+Groove JazzGuitarWalkSus
+Cresc m 8
+
+29        G      /     Bm
+30    Bm7b5      /     E7
+31      Am7
+32     A7b5      /   D7b9
+33       G6      /     C7     F7
+34       Bb      /    Eb7
+35    D7sus      / D7#5b9
+
+RepeatEnding
+
+36       G6      / D7
+
+RepeatEnd
+
+Groove JazzGuitarEnd1
+
+36       G6 / / z!
+
+
+
+

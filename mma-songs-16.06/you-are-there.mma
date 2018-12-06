@@ -1,0 +1,79 @@
+// You Are There
+
+Tempo 56
+Keysig D
+
+Groove Metronome2-4
+ z * 2
+
+
+Groove SlowJazzIntro
+
+Begin Solo
+     Voice AcousticBass
+     Articulate 130
+     Octave 4
+     Harmony 8Above
+     Volume f
+     Begin Riff
+         4d;2.a;
+         4d;2.f;
+         4e;a;g;e;
+         2a;4e;8d <m>;e <mp>;
+         2f;
+     End
+End
+
+Cresc p mp 4
+
+1         D
+2         Bm
+3         Em
+4         A7      /    A13sus
+
+Groove SlowJazz
+Volume m
+
+5       DM9      / A13sus
+6       DM9      / A13sus
+7    D13sus      /    D13
+8       GM7      / F#7#5b9
+9       Bm7      /     E7
+10   A13sus      /    A13
+
+Groove SlowJazzWalk
+Decresc mp 6
+
+11      DM9      / A13sus
+12      DM9      / A13sus
+13   D13sus      /    D13
+14      GM7      / F#7#5b9
+15      Bm7      /     G9
+16     C#m7      /   F#13
+
+Groove SlowJazzSus
+Cresc mf 6
+
+17   B6(add9)/F#      /   E
+18   B6(add9)      / EmM7(add9)
+19      Bm9      /  Bm9/A
+20      GM9      /   F#m7     B9
+21      Em9      / A13sus A7susb9
+22      DM9      / A13sus
+
+Groove SlowJazzWalkSus
+Decresc m 4
+
+23      DM9      / A13sus
+24   D13sus      /    D13
+25      GM7      / F#7#5b9
+26      Bm7      /    Gm7
+27     F#m7      /  Bb9/F
+28      Em7      /    Bb9   A7b9
+
+Groove SlowJazzEnd
+Decresc ppp 2
+
+29       D9
+30   A13sus   z!
+

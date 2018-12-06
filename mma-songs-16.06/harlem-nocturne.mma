@@ -1,0 +1,124 @@
+// Harlem Nocturne
+
+Tempo 70
+KeySig G minor
+Transpose 2
+
+Groove Metronome2-4
+  z * 2
+
+Groove FolkyJazzGuitarIntro
+
+/// Now that the entire suite of grooves for FolkyJazzGuitar has
+/// been loaded into memory, we can make some global changes:
+
+///  - put the clavinet down an octave
+AllGrooves Arpeggio Octave 5  
+
+/// Start song.
+
+Begin Solo
+    Voice Piano1
+    Articulate 110
+    Harmony 3Below
+    Octave 4
+    Begin Riff
+        8r;4a;8g;4a;g;
+        8r;4g;8f;4g;f;
+        8r;4f;8e;4f;e;
+        1g;
+    End
+End
+
+Cresc mp m 4
+Solo Swell mp f 4
+
+1       Gm6
+2       Fm6
+3      Ebm6
+4        Gm   /// pickup, lyric starts on beat 1.5
+
+
+Repeat
+Groove  FolkyJazzGuitar
+Cresc mp mf 4
+
+5       Gm6
+6         /
+7         /
+8       Cm6
+
+Groove  FolkyJazzGuitar
+Volume m
+
+9         CmM7
+10        Gm7b5    /    Eb7      D7b9
+
+RepeatEnding
+
+11      Gm6
+
+Groove FolkyJazzGuitar
+
+12        z
+
+
+RepeatEnd
+
+13      Gm6
+14        /
+
+Repeat
+
+Groove FolkyJazzGuitarSus
+Cresc mp mf 4
+
+15     Bb13      /    Fm7
+16     Bb13      /    Fm7
+17       Bb      /    Fm7
+18     Bb13      /    B13   Bb13
+
+Groove Folkyjazzguitar
+Volume m
+
+19      Eb9      /   Bbm7
+20      Eb9      /   Bbm7
+21      Eb9    Db9     B9     A9
+
+RepeatEnding
+
+22       G9     C9     F7
+
+RepeatEnd
+
+23       G9     F9    Eb9    Bb9
+
+
+Groove FolkyJazzGuitarPlus
+Volume mp
+
+24      Gm9      /   D7#5
+25      Gm6      z
+26      Gm6
+27        /
+
+Groove FolkyJazzGuitarSusPlus
+Volume m
+
+28      Cm6
+29        /
+30      CmM7
+31      Gm7b5     /   Eb7    D7b9
+
+Groove FolkyJazzGuitar
+Decresc mp 2
+
+32      Gm6      /    Cm6
+33      Gm6      /     Gm
+
+Groove FolkyJazzGuitarEnd
+Decresc ppp 2
+
+34        /
+35        /      /    Gm6
+

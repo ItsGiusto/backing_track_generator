@@ -1,0 +1,128 @@
+// Come To The Mardi Gras
+
+Tempo 210
+Keysig C
+
+Groove Metronome2-4
+   z * 2
+
+Groove SambaIntro
+Begin Solo
+    Voice Flute
+    Volume ff
+	Harmony OpenBelow+8Below
+	Articulate 99
+	Octave 6
+	mallet rate=8 decay=-8
+	Begin Riff
+	    4.c+;8b;4a;g;
+		4.a;8g;4f;e;
+		4f;e;d;c;
+		1d;
+	End
+End
+
+Cresc m f 4
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+Repeat
+Groove Samba
+Volume m
+
+5          C
+6          /
+7          /
+8          /
+
+Groove SambaSus
+Swell m f 4
+
+9          /
+10         /      /   Cdim
+11        G7
+12         /
+
+Groove SambaPlus
+Arpeggio Voice Flute
+Swell m mf 8
+
+13        E7
+14         /
+15        Am
+16        Cm
+
+Groove SambaSusPlus
+Arpeggio Voice Flute
+
+17         G      /     Em
+18        Am      /     D7
+19        G7      /      z
+20        G7      /      z
+
+Groove Samba
+Swell m mp 8
+
+21        G7      /   Gdim
+22        Dm      /     G7
+23         C      /   Cdim
+24        G7
+
+Groove SambaSus
+
+25         C
+26         /
+27         /
+28         /
+
+Groove SambaFill
+Volume m
+
+29         /
+30         /      /   Cdim
+31        G7
+32         /
+
+Groove Samba
+Volume mf
+
+33        E7
+34         /
+35        Am
+36        Cm
+
+Groove SambaPlus
+Volume f
+
+37         G      /     Em
+38        Am      /     D7
+39        G7
+40         /
+
+Groove SambaSusPlus
+Decresc m 4
+
+41         /      /   Gdim
+42        Dm      /     G7
+
+RepeatEnding  2
+
+Groove SambaSusFill
+
+43         C
+44        G7
+
+
+RepeatEnd
+
+Groove SambaEnd
+Decresc ppp 2
+Tempo *.8 2
+
+45         C      /      /     G7
+46         C      /      z!	   
+
+

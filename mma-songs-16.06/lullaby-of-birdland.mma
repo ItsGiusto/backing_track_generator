@@ -1,0 +1,95 @@
+// Lullaby Of Birdland
+
+Tempo 165
+Keysig G
+
+Transpose 1   // this takes it from G to Ab (Em to Fm?).
+
+Groove Metronome2-4
+	z * 2
+
+Groove SwingIntro
+Begin Solo
+	Voice Piano1
+	Volume f
+	Harmony Open
+	Articulate 80
+	Octave 5
+	Begin Riff
+		8e+;4;8d+;4b;4a;
+		1g;
+		8e+;4;8d+;4b;4a;
+		4g;2.b;
+	End
+End
+
+1    Em   /    CM7
+2    Am7
+Seq
+3    Em7  /    CM7
+4    Am7  /    B7
+
+Set Main  Groove Swing
+Set MainPlus Groove SwingPlus
+
+Repeat
+
+$Main
+
+Repeat
+
+5    Em   /    Cmaj7
+6    F#7  /    B7
+7    Em   /    Cmaj7
+8    Am7  /    D7
+9    Bm7  /    Em7
+10   Am   /    D7b9
+
+RepeatEnding
+
+11   G    /    C9
+12   F#m7b5 /    B7
+
+$MainPlus
+
+RepeatEnd
+
+$Main
+
+13   G    /    D7
+14   G
+15   E7   /    E7b9
+16   Am
+17   D7   /    D7b9
+18   G
+19   E7   /    E7b9
+20   Am
+21   D7   /    D7b9
+22   G    /    B7
+
+$MainPlus
+
+23   Em   /    C#m7b5
+24   F#7  /    B7
+25   Em   /    Cmaj7
+26   Am7  /    D7
+27   Bm7  /    Em7
+28   Am   /    D7b9
+29   G
+30   Am   /    D7
+
+RepeatEnding
+
+31   G    /    C7
+
+Set Main Groove Swing1
+Set MainPlus Groove Swing1Plus
+
+RepeatEnd
+
+Groove SwingEnd
+Decresc mp p 2
+
+32   G    /    C7
+33   Am7  Ab9  G6
+

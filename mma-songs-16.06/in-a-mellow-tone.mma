@@ -1,0 +1,109 @@
+// In A Mellow Tone
+
+Tempo 126
+Keysig Ab
+
+Groove Metronome2-4
+ z * 2
+
+Groove SwingIntro
+
+Begin Solo
+  Voice JazzGuitar
+  Volume fff
+  Harmony OpenBelow
+  Articulate 110
+  Octave 4
+  Begin Riff
+     4r;8a;f;g;4a;8e+;
+	 4r;8a;f;a;4c+;8e+;
+	 4r;b;r;d+;
+	 2f;
+  End
+End
+
+Cresc pp m 3
+
+1       Ab6
+2        Fm
+3       Bbm
+Volume mp
+4        F7
+
+Repeat
+Groove Swing
+Cresc mp mf 8
+
+5       Bb7
+6       Eb7
+7       Ab6
+8         /
+
+Groove SwingWalk
+
+9      Ebm7
+10      Ab7
+11     DbM7
+12        /
+
+Groove Swing
+Decresc mp 8
+
+13      Db6
+14      Gb7
+15      Ab6
+16       F9
+
+Groove SwingSus
+
+17      Bb7
+18        /
+19      Eb7
+20        /      /     F7
+
+Groove Swing
+Volume m
+
+21      Bb7
+22      Eb7
+23      Ab6
+24        /
+
+Groove SwingWalkSus
+
+25     Ebm7
+26      Ab7
+27     DbM7
+28        /
+
+Groove Swing
+Volume mf
+
+29      Db7
+30    Ddim7
+31   Ab6/Eb
+32       F7
+
+Groove SwingSus
+Decresc mp 2
+
+33      Bb7
+34      Eb7
+
+RepeatEnding
+Decresc p 2
+
+35      Ab6      /     G7
+
+Groove SwingTriple
+
+36      Gb7      /     F7
+
+RepeatEnd
+Groove SwingEnd
+Tempo *.8
+Decresc ppp 2
+
+36      Ab6      /   Abm6
+38      Ab6      /    z!
+

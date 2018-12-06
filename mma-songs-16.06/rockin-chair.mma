@@ -1,0 +1,90 @@
+// Rockin Chair
+
+Tempo 106
+Keysig Eb
+
+Groove Metronome2-4
+	   z * 2
+
+Groove ModernJazzIntro
+Begin Solo
+	  Voice JazzGuitar
+	  Octave 5
+	  Harmony 3+8below
+	  Articulate 110
+	  Volume ff
+	  Begin Riff
+	     4g;8b;g;2b;
+		 4e+;c+;g;b;
+		 8f+;e+;c+;e+;c+;e+;c+;e+;
+		 1b;
+	  End
+End
+
+Swingmode On
+
+1        Eb
+2        Cm7
+3        Fm
+4        Bb7
+
+Repeat
+
+Groove ModernJazz
+Cresc m f 8
+
+5        Eb      /   EbM7
+6       Bbm7     /    Eb9
+7      AbM7
+8       Db9
+9       Gm7
+10    Caug7      /     C7
+11       F7      / F7b5/B
+12   Bb7sus4      /    Bb7
+
+Groove ModernJazz1
+Decresc mp 8
+
+13      Eb6
+14      Cm7
+15    Am7b5      /     D7
+16       Gm
+17    Cm7b5
+18       F7
+19    Eb/Bb      /  Ebdim  Bb7/F
+20       Eb      /    Eb7
+
+Groove ModernJazzSus
+Cresc m 8
+
+21      Ab9
+22        /
+23     EbM7
+24        /
+25    Am7b5      /     D7
+26      Gm7      /    Cm7
+27   F9sus4      /     F9
+28      Fm7      /    Bb7
+
+Groove ModernJazz1Sus
+Swell ff 8
+
+29       Eb      /   EbM7
+30     Bbm7      /    Eb9
+31     AbM7
+32      Db9
+33      Gm7      /     C7
+34      Fm7      / Bb9sus4
+
+RepeatEnding
+
+35       Eb
+36      Fm7      /    Bb7
+
+RepeatEnd
+
+Groove ModernJazzEnd
+
+37       Eb      /    Ab9
+38       Eb      /    z!
+

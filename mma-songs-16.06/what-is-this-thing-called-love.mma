@@ -1,0 +1,110 @@
+// What Is This Thing Called Love (Cole Porter, 1929)
+
+Tempo 145
+Keysig Ab
+
+Groove Metronome2-4
+  z * 2
+
+Groove ModernJazzIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Volume ff
+    Octave 5
+    Articulate 90
+    Harmony OpenBelow+8Below
+    RTime 10
+    RVolume 10
+    Begin Riff
+        4a;;2+2~;
+        ~ 2f;
+        1b;
+        1e+;
+    End
+End
+
+Swell p mf 4
+
+1        Ab
+2        Fm
+3       Bbm
+4       Eb7
+
+Repeat
+Groove ModernJazz
+Volume m
+
+5       Ab7
+6         /
+7      Dbm6
+8         /
+
+Groove ModernJazz1
+Cresc mf 4
+
+9         /    Eb7
+10        /      /   Eb+7
+11       Ab      /   AbM7
+12      Ab6      /     Ab    Ab7
+
+Groove ModernJazz
+Volume m
+
+13        /
+14        /   Adim
+15     Dbm6
+16        /
+
+Groove ModernJazz1
+Decresc mp 4
+
+17        /      /    Eb7
+18        /   Eb+7
+19       Ab      /    Ab7
+20      Dbm      Ab    /     Abm
+
+Groove ModernJazzSus
+Cresc m 4
+
+21      Db7
+22        /
+23       Gb
+24        /
+
+Groove ModernJazz1Sus
+Swell mf 4
+
+25       Fb      /    Fb+
+26      Dbm   Dbm7
+27       Eb      /   Abm6
+28      Eb7
+
+Groove ModernJazzSus
+
+29       Ab
+30        /   Adim
+31     Dbm6
+32        /
+
+Groove ModernJazz
+Decresc mp 2
+
+33        /    Eb7
+34        /      /    Eb+
+
+RepeatEnding 2
+
+Groove ModernJazzFill
+
+35       Ab      /   Dbm6
+36        Ab      /    Eb7
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Decresc ppp 2
+
+35       Ab      /   Dbm6
+37       Ab      z!
+

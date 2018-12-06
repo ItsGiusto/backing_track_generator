@@ -1,0 +1,96 @@
+// Them There Eyes
+
+Tempo 180
+KeySig 0#
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice Trumpet
+	Volume m
+	Articulate 80
+	Harmony Open
+	Octave 6
+End	
+
+Groove FoxtrotPlus
+
+
+Cresc  mp f 4
+
+SwingMode On
+
+1      C               {4g; 8e; d; c; d; 4e;}
+2      Am              {4g; 8e; d; c; d; 4e;}
+3      Dm    /    G7   {2a; 2b;}
+4      C               {1c+; }
+
+Delete Solo
+Begin Solo
+	DrumType
+End
+
+Repeat
+Groove FoxtrotPlus
+Cresc mf f 8
+
+5      C     
+6	/
+7      Am    /    G9#5  
+8      Am    
+9      C     
+10	/
+11     Am    /    Dm    
+12     D7    
+
+Groove FoxtrotSus
+Volume mf
+
+13     G9                  {4Handclap;}
+14     G9                  {4Handclap;}
+15     C6                  {4Handclap;}
+16     /    /    E7    A7    
+17     D7                  {4Handclap;}
+18	/                      {4Handclap;}
+19     G7    /    /    /    
+20     G7    
+
+Groove Foxtrot1
+Cresc  mp f 4
+
+21     C     
+22	/
+23     Am    /    G9#5  
+24     Am    
+
+Groove Foxtrot1Sus
+Volume f
+
+25     C7    /    /    Cdim  {4Handclap;}  
+26     C7    
+27     Dm    
+28	/
+29     Dm7                   {4Handclap;}
+30     Cdim                  {4Handclap;}
+31     C     
+32     /    Cdim  G9    
+
+Groove Foxtrot
+
+33     C     
+34	/
+
+Decresc f mp 2
+
+RepeatEnding 2
+
+35     D7    /    G7    
+36     C     Cdim  G7    G+    
+
+RepeatEnd
+
+Groove FoxtrotEnd
+37     D7    /    G7    
+38     C     / z!
+

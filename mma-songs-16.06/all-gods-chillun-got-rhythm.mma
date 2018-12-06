@@ -1,0 +1,88 @@
+// All Gods Chillun Got Rhythm
+
+Tempo 180
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+Swell p m 4
+
+1         F
+2         Dm7
+3         Gm7
+4         C7
+
+
+Repeat
+Groove BigBand
+Volume m
+
+5       FM7      /    Dm7
+6       Gm7      /     C7
+7       Am7      /   D7b9
+8       Gm7      /     C7
+
+Groove BigBandSus
+
+9       FM7      /    Dm7
+10      Gm7      /     C7
+11    Adim7
+12     D7b9
+
+Groove BigBandPlus
+
+13      Bm7      /     E7
+14      Am7      /     D7
+15      Gm7      /     C7
+16      FM7
+
+Groove BigBandSusPlus
+
+17       A7
+18      Dm7
+19       G7
+20       C7
+
+Groove BigBand
+
+21      FM7      /    Dm7
+22      Gm7      /     C7
+23      Am7      /   D7b9
+24      Gm7      /     C7
+
+Groove BigBand
+
+25      FM7      /    Dm7
+26      Gm7      /     C7
+27    Adim7
+28     D7b9
+
+Groove BigBandPlus
+
+29      Bm7      /     E7
+30      Am7      /     D7
+31      Gm7      /     C7
+32      Eb7      /     D7
+
+Groove BigBandSus
+
+33      Gm7
+34       C7
+
+Repeatending 2
+
+35        F      /    D7
+36      Gm7      /    C7
+
+Repeatend
+
+Groove BigBandEnd
+Decresc pppp 2
+
+35        F
+36        /  z!
+
+

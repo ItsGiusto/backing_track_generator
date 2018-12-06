@@ -1,0 +1,101 @@
+// Pennies From Heaven
+
+Tempo 140
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingIntro
+
+Begin Solo
+	Voice Musicbox
+	Volume m
+	Harmony 3
+	Articulate 60
+	Octave 6
+	Begin Riff
+		4c+;;;b;
+		4d+;;;c+;
+		4d+;c+;d+;e+;
+		1g+;
+	End
+End
+
+Swell m f 4
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+Repeat
+Groove EasySwing
+Volume m
+
+5         C6      /    Dm7
+6         Em      / Ebdim7
+7        Dm7      /     G7
+8        Dm7      /     G7
+
+Cresc mf 4
+
+9         C7      /    Dm7
+10       Em7      / Ebdim7
+11       Dm7      /     G7
+12       Dm7      /     G7
+
+Groove EasySwingWalk
+
+13        C9
+14         /
+15         F      /      /   C7#5
+16         F     F7     E7    Eb7
+
+Decresc mp 4
+
+17        D9
+18         /
+19        G7
+20       Dm7      /     G9
+
+Groove EasySwingSus
+Cresc m 4
+
+21         C      /    Dm7
+22       Em7      / Ebdim7
+23        Dm      /     G7
+24       Dm7      /     G7
+
+Decresc mp 4
+
+25        C7
+26        C9
+27       FM7
+28        F6
+
+Groove EasySwingWalkSus
+
+29         /
+30       Bb7
+31       CM7      /     C9    Bb9
+32        A9
+
+Volume m
+
+33       Dm7
+34        D7      /   G7b9
+
+Repeatending
+Decresc mp 2
+
+35         C
+36         /
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc ppp 2
+Tempo *.9 2
+
+37         C
+38         /      /     z!

@@ -1,0 +1,121 @@
+// You Turned The Tables On Me (1936)
+
+Tempo 85
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove NiteJazzIntro
+
+Begin Allgrooves
+    Begin Arpeggio-Guitar
+        Octave 5
+        Range 1
+        Harmony Openbelow
+    End
+    Begin Chord-Sus
+        Voice Strings
+        Octave 5
+    End
+End
+
+Begin Solo
+    Voice Piano1
+    Articulate 90
+    Rtime 5
+    Rvolume 5
+    Harmony OpenBelow
+    Octave 5
+    Volume F
+    Begin Riff
+        81r;82c;81;82; 81;82;8;8+1d~;
+        <>;
+        81r;82g;81;82; 81;82;8;8+1c+~;
+    End
+End
+
+Cresc mp mf 4
+
+1          F
+2         Dm
+3         Gm
+4         C7 C9@1.5    F@3 A&m6@4
+
+Repeat
+Groove NiteJazz
+Volume m
+
+5        Gm7      /     D7
+6        Gm7      /     C7    C7+
+7        FM7
+8          /      /     D7
+
+Groove NiteJazzPlus
+Volume mf
+
+9        Gm7      /     D7
+10       Gm7      /     C7    C7+
+11        F7
+12         /
+
+Groove NiteJazz
+Volume f
+
+13      BbM7
+14      Bbm6
+15       Am7
+16    Abdim7
+
+Groove NiteJazzPlus
+Volume mf
+
+17       Gm7
+18    G#dim7
+19       Am7      /     D7    Db9
+20        C7      /      /     D7
+
+Groove NiteJazzSus
+Volume mp
+
+21       Gm7      /     D7
+22       Gm7      /     C7    C7+
+23       FM7
+24         /
+
+Groove NiteJazzSusPlus
+Volume m
+
+25       Cm7      /   G7/D
+26    Cm7/Eb      /   F7b9
+27       Bb6
+28         /
+
+Groove NiteJazzSus
+
+29      Bbm6
+30         /
+31       FM7
+32        G7
+
+
+Groove NiteJazzPlus
+Decresc mp 2
+
+33     Am7b5      /   D7b9
+
+Repeatending
+
+34       Gm7      /     C7
+35        F6      /    Bb7
+36        C9      /      F   Abm6
+
+RepeatEnd
+
+
+Groove NiteJazzEnd
+Decresc ppp 2
+
+34       Gm7      /     C7
+37        F6     z!
+

@@ -1,0 +1,128 @@
+// Paper Roses
+
+Tempo 120   // a tad faster that Marie Osmond who did it at a painful 114bpm
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove CountrySwingIntro
+
+Begin AllGrooves
+  Begin Chord
+    Voice SteelGuitar
+    Octave 5
+    Voicing Mode=Key    
+    Volume mp
+    Articulate 105
+  End
+  Begin Arpeggio
+    Voice Strings
+    Articulate 110
+  End
+End
+
+Begin Solo
+    Voice Strings
+    Octave 5
+    Volume m
+    Articulate 110
+    Harmony OpenBelow
+    Begin Riff
+        2.c+;4b;
+        4a;g;a;g;
+        2f;d;
+        2g;
+    End
+End
+
+Swell mp mf 4
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+Repeat
+Groove CountrySwing
+Volume m
+
+5          C
+6          /
+7         G7
+8          /
+
+Groove CountrySwing1
+Cresc mf 4
+
+9          /
+10         /
+11         C
+12         /
+
+Groove CountrySwing
+Decresc mp 2
+
+13         /
+14         /      /     C7
+15         F
+16         /
+
+Groove CountrySwing2Sus
+
+17        G7
+18         /
+19         C
+20         /
+
+Groove CountrySwingSus
+Cresc m 2
+
+21         F
+22         /      /     G7
+23         F      /      C
+24         /      /     A7
+
+Groove CountrySwing
+Volume mf
+
+25        Dm
+26        G7
+27         C
+28         /
+
+Groove CountrySwing2Sus
+Volume m
+
+29         F
+30         /      /     B7
+31        Em
+32         /      /     A7
+
+Groove CountrySwing
+Decresc mp 2
+
+33        Dm
+34        G7
+
+RepeatEnding //2   /// there are 3 verses, but it's too painful for me :)
+
+35         C
+36         /
+
+RepeatEnd
+
+Groove CountrySwingSus
+Decresc p 4
+
+37         C
+38         /      /     A7
+39        Dm
+40        G7
+
+Groove CountrySwingEnd
+Decresc ppp 2
+
+41         C
+42         /     z!
+

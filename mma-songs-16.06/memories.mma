@@ -1,0 +1,91 @@
+// Memories
+// This is a Egbert Van Alstyne/Gus Kahn song from 1916.
+// The piece is in 6/8, not sure if using a 4/4 (or 2/4) rhythm gives
+//  the correct feel, but it's sort of fun :)
+
+Tempo 92
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingIntro
+Begin Solo
+ Voice Organ1
+ Decresc mf pp 4
+ Octave 5
+ Harmony 3
+ Articulate 99
+ Begin Riff
+   23f+;43c+;4.a;
+   23d+;43a;4.f;
+   23g;43a;4.b;
+   2.c+;
+ End
+End
+
+Cresc mp mf 4
+1    F    
+2    Dm   
+3    Gm   
+4    C7   
+
+Set Verse 1    // counter used to set arpeggio voicing
+
+Repeat
+Groove Swing
+Volume m
+
+5    F    
+6    G7   
+7    C7   
+8    F7   
+
+Groove SwingPlus
+Swell f 4
+
+if eq $verse 2
+  Arpeggio Voice Piano1
+  Arpeggio Volume +30
+endif
+
+9    Bb   
+10   F    C7   F    
+11   C    /    G7   
+12   C7   
+
+Groove SwingSus
+Swell mp 4
+
+13   F    
+14   G7   
+15   C7   
+16   F    
+
+Groove SwingPlusSus
+if eq $verse 2
+  Arpeggio Voice Piano1
+  Arpeggio Volume +30
+endif
+
+17   Bb   /    Bdim3 
+18   F    /    D7   
+
+Repeatending
+
+19   G7   /    C7   
+20   F    
+
+Inc Verse
+
+RepeatEnd
+
+Groove SwingEnd
+Drum-Snare Volume -40
+Decresc p 2
+Tempo *.8 2
+
+21   G7   /    C7   
+22   F    /    z!   
+
+

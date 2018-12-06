@@ -1,0 +1,175 @@
+// On The Street Where You Live
+
+Tempo 200
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro8
+
+Begin Solo
+   Voice Piano2
+   Volume fff
+   Harmony OpenBelow+8Above+8Below
+   Articulate 80
+   Octave 5
+   Begin Riff
+       2b;;
+	   4b;2.a;
+	   2b;;
+	   4b;2.g;
+	   4c;d;e;f;
+	   4g;f;e;c;
+	   1+1b- ~;
+   End
+End
+
+Swell pp f 8
+
+1         Bb
+2          /
+3         Gm
+4          /
+5         Cm
+6          F7
+7         Bb
+Chord-Hits1 Riff 1 2 70
+8          /      
+
+
+Repeat  /// do song 2x
+Repeat
+Groove BigBand
+Volume m
+
+9        Bb6
+10         /      /     F7
+11      BbM7    Bb6
+12         /      /      /     F7
+
+Groove BigBandPlus
+Cresc mf 4
+
+13      BbM7
+14      Bbm6      /     C9
+15        F7      /    Cm7
+16        F7      /     Cm   Fdim
+
+Groove BigBand
+
+17       Cm7
+18         /      /    Ebm
+19       Dm7    Bb6      /    Dm7
+20         /      /     Bb
+
+Groove BigBandSus
+Decresc mp 4
+
+21        C7
+
+RepeatEnding
+
+22        F9      /     Eb     F7
+23       Bb6
+
+Groove BigBandFill
+
+24         /      /    Cm7   F7b9
+
+
+RepeatEnd
+
+25        F9      /     Eb     F7
+26        Bb
+27         /
+
+Groove BigBandSusPlus
+Walk Sequence -
+Bass Groove BigBand1
+Volume m
+
+28        D7
+29        Am      /   Cdim
+30       Eb6
+31         /
+
+Groove BigBandSus
+Walk Sequence -
+Bass Groove BigBand1
+Volume mf
+
+32      Ebm6
+33         /      /  Bbdim
+34        Bb      /   BbM7
+35       Bb7      /    Bb6
+
+Groove BigBandPlus
+Walk Sequence -
+Bass Groove BigBand1
+Decresc mp 4
+
+36     Bbdim      /     Bb
+37       Gm7
+38       Em7
+39         /      /     A7
+
+Groove BigBand
+Walk Sequence -
+Bass Groove BigBand1
+Volume m
+
+40         D      /     A7
+41        Am      /     Bb     C7
+42       Cm6      /     Dm
+
+Groove BigBandFill
+
+43        F9      /    Cm7     F7
+
+Groove BigBandPlus
+Cresc f 4
+
+44       Bb6
+45         /      /     F7
+46      BbM7    Bb6
+47         /      /      /     F7
+
+Groove BigBandSus
+Decresc m 4
+
+48      BbM7
+49      Bbm6      /     C9
+50        F7      /    Cm7
+51        F7      /     Cm   Fdim
+
+Groove BigBand
+
+52       Cm7
+53         /      /    Ebm     D+
+54       Dm7    Bb6
+55         /
+
+Groove BigBandPlus
+Decresc mp 4
+
+56        C9
+57        F9      /     Eb     F7
+
+RepeatEnding
+
+58        Bb      /    Gb6
+
+Groove BigBandFill
+
+59        Bb      /     F7
+
+RepeatEnd
+
+Groove BigBandEnd
+Tempo *.8 2
+Decresc ppp 2
+
+60        Bb      /    Gb6
+61        Bb     z!
+

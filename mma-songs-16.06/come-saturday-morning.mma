@@ -1,0 +1,122 @@
+// Come Saturday Morning (Sterile Cuckoo, 1970)
+
+Tempo 156
+Keysig F
+
+Groove Metronome3
+   z * 2
+
+Groove JazzWaltzIntro8
+
+Begin Solo
+    Voice Strings
+    Octave 5
+    Harmony OpenBelow+8Below
+    Articulate 100
+    Unify On
+    Begin Riff
+        2.f+;
+        2.c+;
+        2.d+;
+        2.a;
+        2.b;
+        2.g;
+        2.+2c+ ~;
+    End
+End
+
+Decresc f mp 8
+
+1          F
+2          /
+3         Dm
+4          /
+5         Gm
+6          /
+7         C7
+8          /
+
+Repeat
+Groove JazzWaltz
+Volume m
+
+9          F
+10         /
+11        Bb
+12         /
+
+Cresc mf 4
+
+13         F
+14         /
+15        Eb
+16         /
+
+Groove JazzWaltz1
+Volume f
+
+17        Bb
+18         /
+19        Eb
+20         /
+
+Decresc m 4
+
+21     D7sus
+22         /
+23         /
+24         /
+
+Groove JazzWaltzSus
+Cresc mf 8
+
+25        Gm
+26         /
+27         C
+28         /
+
+29        Gm
+30         /
+31        C7
+32         /
+
+Groove JazzWaltz2
+Volume m
+
+33         F
+34         /
+35        Bb
+36         /
+
+37         F
+38         /
+39        Bb
+40         /
+
+Groove JazzWaltz
+Decresc mp 8
+
+41        Am
+42        Dm
+43       Gm7
+44        C7
+
+45         F
+46        Bb
+
+Repeatending
+
+47         F
+
+Groove JazzWaltzFill
+
+48        C7
+
+RepeatEnd
+Groove JazzWaltzEnd
+Decresc ppp 2
+
+47         F
+48         /     z!
+
+

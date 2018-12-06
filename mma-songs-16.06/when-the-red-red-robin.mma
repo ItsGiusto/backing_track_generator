@@ -1,0 +1,84 @@
+// When The Red Red Robin Comes Bob Bob Bobbin Along
+
+Tempo 156
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+	Voice Piano3
+	Articulate 75
+	Volume mf
+	Harmony Open
+	Octave 5
+	Begin Riff
+		4d+;8d+;c#+;d+;cn+;4b;
+		4c+;8;b;c+;b;4a;
+		3+3b;a;g;a;g;e;
+		1d;
+	End
+End
+
+Swingmode On
+
+1   G       
+2   Am      
+3   G       
+4   D7      
+
+Repeat
+Groove FoxTrot
+
+5   G       
+6   D7      
+7   G       
+8   /       
+9   /       
+10  D7      
+11  G       
+12  G7
+
+Groove FoxTrotSus
+      
+13  C       
+14  Am      
+15  G       
+16  Em      
+17  A7      
+18  /       
+19  D7      /       Ddim    
+20  D7 
+
+Groove FoxTrotPlus
+     
+21  G       
+22  D7      
+23  G       
+24  /       
+25  /       
+26  D7      
+27  G       
+28  G7
+
+Groove FoxTrotSus
+      
+29  C       
+30  Cm      
+31  Bm7     /       Em      
+32  C#dim   /       /       z       
+33  G/D     
+34  D7      
+
+RepeatEnding
+
+35  G       
+36  /       /       D7      
+
+RepeatEnd
+Groove FoxTrotEnd
+
+35  G       /       C       
+36  G       / z!
+

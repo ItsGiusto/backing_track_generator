@@ -1,0 +1,159 @@
+// Alivio
+
+Tempo 80
+KeySig C
+
+Groove Metronome2-4
+  z * 2
+
+MSet In4
+   Chord Riff C1234
+   Chord-Guitar Riff C1234
+   Bass Riff 1 1 1 90 * 2
+EndMset
+
+MSet In2
+   Chord Riff C13
+   Chord-Guitar Riff C13
+   Bass Riff 1 1 1 90 * 2
+EndMset
+
+Groove SlowBoleroIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 6
+    Harmony OpenBelow
+    Articulate 110
+    Volume ff
+    Begin Riff
+       8c;g;2.c;
+       8c;f;2.c;
+       8c;g;2.c;
+       8c;f;2.c;
+    End
+End
+
+Swell mp f 4
+1       C13
+2       F13
+3       C13
+4       F13
+
+Groove SlowBolero
+Volume m
+
+5       CM7
+6       F13
+7      Dm11
+$in4
+8        G7
+
+Groove SlowBoleroPlus
+Decresc mp 4
+
+9       FM7      /   A7/E
+10      Dm7      /   G7/B
+11      CM7      /    Dm7
+Chord Riff 1 8 90; 1.66 8 90; 2.33 8 90; 3 2 90;
+Chord-Guitar Riff 1 8 90; 1.66 8 90; 2.33 8 90; 3 2 90;
+Bass Riff  1 1 1 90 * 2
+Arpeggio Riff 1 4. 90 * 2
+12      Em7/E    Fm7/F@1.66   Db9/Db@2.33 C6(add9)/C@3
+
+Groove SlowBoleroSus
+Cresc m 2
+
+13     Bm11
+14     E7b9
+15      Am7      /  Am7/G
+$in4
+16   Am7      /    FM7
+
+Groove SlowBolero
+Cresc mf 4
+
+17      Em7      /     A7
+18      Am7      /     D9
+19       G7
+$in4
+20     AbM7      /    Db9
+
+Groove SlowBolero1
+Decresc mp 3
+
+21        C
+22      CM6
+23       Em      /    C/E
+Groove SlowBolero
+$In2
+24   Dbdim/E      /  Em7/D
+
+Groove SlowBolero1Sus
+
+25      Gm9
+26      C13
+27      FM9      /   BbM9
+$in4
+Groove SlowBoleroSus
+28   F6(add9)
+
+Groove SlowBoleroPlus
+Volume m
+
+29      Fm7
+30      Bb9
+31      CM7      /    Dm7
+$in4
+32      Em7      /     E7
+
+Groove SlowBolero
+Decresc mp 4
+
+33       A7
+34      Am7
+35      Dm7
+$In2
+36      Ab9      /     G9
+
+Groove SlowBolero1Sus
+
+37        C      /   C7#5
+38      CM6      /     C7
+39       Em      /    C/E
+Groove SlowBoleroSus
+$In2
+40   Dbdim/E      /  Em7/D
+
+Groove SlowBolero
+Decresc mf mp 4
+
+41      Gm9
+42      C13
+43      FM9      /    Bb9
+$in4
+44      FM7
+
+Groove SlowBoleroSus
+
+45      Fm7
+46      Bb9
+47      CM9      /    Dm7
+$in4
+48      Em7      /   A7#9
+
+Groove SlowBolero1
+decresc p 2
+
+49      Dm7
+50       G9
+
+Groove SlowBoleroEnd
+Decresc ppp 2
+Tempo *.8 2
+
+51      FM9      /    Bb9
+$In2
+52       G9      /     C9 z!
+
+

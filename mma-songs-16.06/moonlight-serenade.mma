@@ -1,0 +1,91 @@
+// Moonlight Serenade
+
+// Glen Miller, his tempo.
+
+Tempo 78
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwing
+
+         z      /      /      F
+
+Repeat
+Volume m
+
+1         F6
+2      Abdim
+3        Gm7
+4       Cdim     C7      /   C7+5
+
+Groove EasySwingSus
+Cresc mf 4
+
+5          F      /     F6
+6          F     F6      F
+7      Fmaj7      /     F7
+8         D7      /   D7-9     Gm
+
+Groove EasySwing
+Decresc mp 4
+
+9          F   Edim      /      F
+10        Gm   Gdim      /     Gm
+11        C7      /   C7+5
+
+RepeatEnding
+Groove EasySwingFill
+
+12         F      /     C+
+
+Groove EasySwingWalk
+
+RepeatEnd
+Groove EasySwingFill
+
+13         F      /    Cm7     F7
+
+Groove EasySwingSus
+Volume f
+
+14    Bbmaj7
+15      Bbm6
+16       Em7      /     A7
+17       Cm6      /      /   D7+5
+
+Groove EasySwingWalkSus
+Decresc mp 8
+
+18       Dm6      /     E7
+19       Dm6      /     E7
+20       Cm6      /     D7
+21       Gm7      /   C7-9
+
+Groove EasySwing
+
+22        F6
+23     Abdim
+24       Gm7
+25      Cdim     C7      /   C7+5
+
+Groove EasySwingSus
+Cresc mf 4
+
+26         F      /     F6
+27         F     F6      F
+28     Fmaj7      /     F7
+29        D7      /   D7-9     Gm
+
+Groove EasySwingFill
+
+30         F   Edim      /      F
+31        Gm   Gdim      /     Gm
+
+Groove EasySwingEnd
+Tempo *.8 2
+Decresc ppp 2
+
+32        C7      /   C7+5
+33         F   C7-9     F6     z!
+

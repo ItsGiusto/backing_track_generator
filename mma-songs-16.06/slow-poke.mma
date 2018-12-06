@@ -1,0 +1,144 @@
+// Slow Poke
+
+Tempo 120
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+// Create alternate versions of the foxtrot beat with
+// a 'tick-tock' clock sound. Use these sparingly :)
+	
+Groove Foxtrot
+
+Begin Drum-Tic1
+	Sequence	M13
+	Tone  LowWoodBlock
+	Volume f
+End
+
+Begin Drum-Tic2
+	Sequence    M24
+	Tone HighWoodBlock
+	Volume f
+End
+
+Defgroove Foxtrot-Tic
+
+Begin Drum-Tic1
+	Sequence	M13
+	Tone  LowWoodBlock
+	Volume f
+End
+
+Begin Drum-Tic2
+	Sequence    M24
+	Tone HighWoodBlock
+	Volume f
+End
+
+DefGroove FoxtrotSus-Tic
+
+Groove FoxtrotSus-Tic
+
+Begin Solo
+  Voice JazzGuitar
+  Volume ff
+  Articulate 90
+  Harmony OpenBelow
+  Strum 20 
+  Octave 5
+  Begin Riff
+    4d+; 8.b;16; 8.a;16; 8.g;16;
+	4e+; 8.b;16; 8.a;16; 8.g;16;
+	4c+; b;      a;      g;
+	4f;  e;      d;      c;
+  End	
+End
+
+1   G     
+2	Em
+3	Am
+4	D7
+
+Repeat
+
+Groove Foxtrot
+
+5      G     
+6      /    /    /    Bdim  
+7      Am7   /    D7 
+
+Groove FoxTrot-Tic
+   
+8	/
+
+Groove FoxTrot
+
+9      D7    /    Am7   D7    
+10     /    /    Am7   D7    
+11     G     
+
+Groove FoxTrot-Tic
+
+12	/
+
+Groove FoxtrotSus
+
+13     G7    /    /    Dm7   
+14     G7    /    G7+5  
+15     CM7   
+16     C     C7    Bb    Bb7   
+17     A9    
+18     Em7   /    A7    
+
+Groove FoxTrotSus-Tic
+
+19     D7    /    Am7   
+20     D7    /    Am7   D7    
+
+Groove Foxtrot
+
+21     G     
+22     /    /    /    Bdim  
+23     Am7   /    D7    
+
+Groove FoxTrot-Tic
+
+24	/
+
+Groove FoxTrot
+
+25     D7    /    Am7   D7    
+26     /    /    Am7   D7    
+27     G     
+28     G7    /    /    G7+5  
+
+Groove FoxtrotSus
+
+29     C     
+30     Am7   /    Cm    Cm7   
+31     Bm7   
+32     E9    /    /    E7    
+
+Groove Foxtrot
+
+33     Am    /    /    E7    
+34     Am    /    D7    
+
+RepeatEnding
+
+
+35     G     /    Em    
+
+Groove FoxTrot-Tic
+
+36     Am    /    D7-9  
+
+RepeatEnd
+
+Groove FoxtrotEnd
+
+37     G     
+38     /    Am7   G6
+

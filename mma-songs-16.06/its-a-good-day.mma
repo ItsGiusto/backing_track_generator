@@ -1,0 +1,138 @@
+// Its A Good Day
+
+Tempo 260
+KeySig Eb
+
+Groove Metronome2-4
+   z * 2
+
+Groove EasySwingIntro2
+AllGrooves Plectrum Capo -3
+
+Begin Solo
+	  Voice JazzGuitar
+      Volume f
+	  Harmony 3
+	  Articulate 110
+	  Octave 5
+	  Begin Riff
+	     4.e+;8;4;;
+		 4e+;;;;
+		 4.e+;8;4;;
+		 2e+;
+	  End
+End
+Decresc pp 4
+
+
+1    Eb   
+2    /
+3    /   
+4    /   z
+
+Repeat
+
+Groove EasySwing2
+Volume m
+
+5    Eb6  
+6    /    /    /    Ebdim 
+7    Eb   
+8    /    
+9    Fm7  
+10   Bb7  /    /    Fm7  
+11   Eb6  
+12   /    /    Bb7#5 
+
+Groove EasySwing42
+Volume mf
+
+13   Eb6  
+14   /    
+15   /    
+16   /    
+17   Fm7  
+18   /    
+19   Eb   /    /    Bb7#5 
+20   /    
+
+Groove EasySwing2Sus
+Swell m mf 8
+
+21   Eb6  
+22   /    /    /    Ebdim 
+23   Eb6  
+24   /    
+25   Fm7  
+26   Bb7  /    /    Fm7  
+27   Eb6  
+28   /    
+
+Groove EasySwing2Fill
+Volume mf
+
+29   /    /    Bb+  
+30   Eb6  /    /    Bb7#5 
+31   Eb6  
+32   /    
+33   Fm7  
+34   /    /    Bb9  Eb6  
+35   /    
+36   Eb9  
+
+Groove EasySwing42Sus
+Volume mp
+
+37   /    
+38   /    
+39   Ab   
+40   /    
+41   F7   
+42   F9   
+43   Bb7  /    Fm7  
+44   Bb7  /    Bb7#5 
+
+Volume m
+
+45   Eb6  
+46   Bbdim 
+47   Bb7  
+48   Bbdim 
+49   Bb7  
+50   Bbdim 
+51   Bb7  
+52   /    /    Bb7#5 
+
+Groove EasySwing2
+
+53   Eb   
+54   /    /    /    Ebdim 
+55   Eb6  
+56   /    
+57   Fm7  
+58   Bb7  /    /    Fm7  
+59   Eb6  
+60   /    /    Bb7#5 
+
+Groove EasySwing42
+Volume mp
+
+61   Eb6  
+62   /    /    /    Ebdim 
+63   Eb   
+64   /    
+65   Fm7  
+66   /    /    Bb9  
+
+Repeatending
+
+67   Eb   
+68   Bb7  
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+69   Cm   
+70   Eb   /    z!   
+

@@ -1,0 +1,95 @@
+// Lipstick On Your Collar
+
+// Connie Francis, 1959. Her version is in G
+// around 165 bpm, but I like it faster and higher :) 
+
+Tempo 185
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice Piano1
+	Volume f
+	Harmony 3
+	Articulate 90
+	Octave 5
+End
+
+KeySig 2b
+
+Groove SoftRockEnd
+
+Repeat
+	Bb      {4.b;8;;; 4;}
+	Gm      {4.b;8;;; 4;}
+	Cm      {4.b;8;;; 4;}
+RepeatEnding
+	F7     {2a;}
+RepeatEnd
+	F7 z  {4a;}
+
+Delete Solo
+	
+Repeat
+	
+Groove SoftRock
+
+1      Bb    
+2      Gm    
+3      Cm7   
+4      F7    Cm7   F7    
+5      Bb    
+6      Gm    
+7      Cm7   
+8      F7    Cm7   F7    
+9      Bb    
+10     Bb7   
+11     Eb    
+12	/
+13     C7    
+14	/
+15     F7    
+
+Groove SoftRockEnd
+
+16	/ / z
+
+Groove  SoftRockSus
+
+17     Bb    
+18	/
+19     Eb    
+20	/
+21     Bb    
+22	/
+23     Eb    
+24	/
+25     Bb    
+26     D7    
+27     Gm    
+28     Dm    
+29     Eb    
+30     Bb    
+31     F7    /    Cm7   F7    
+
+RepeatEnding
+
+32     Bb    
+
+RepeatEnd
+
+Groove SoftRock
+
+33     Bb    / / z
+
+Decresc pp 4
+
+34     F7    /    Cm7   F7    
+35     Bb     / / z
+
+Groove SoftRockEnd
+
+36     F7    /    CM7   F7    
+37     Bb   z!    
+

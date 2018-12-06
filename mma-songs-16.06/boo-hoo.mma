@@ -1,0 +1,87 @@
+// Boo Hoo
+
+Tempo 165
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotSus
+
+Begin Solo
+	Voice Piano1
+	Harmony OpenAbove
+	Volume mf
+	Accent 1 20
+	Articulate 80
+End
+	
+1 	G          {4g;a;b;c+;}
+2 	D          {4d+;c+;b;a;}
+3 	G7         {1g;}
+4   C  z! G7#5 
+Cut -3
+
+Delete Solo
+
+Repeat
+Groove FoxTrot
+Repeat
+
+6 	C /  G+
+7 	C G+ C
+8 	/  /  Dm7 D#dim
+9 	C / / Ebdim
+10 	G7 /  / Gm7b5
+11 	G7 Gm7b5 G7
+12 	/
+13 	/
+14 	C / / C#dim
+15 	G7 / / D#dim
+16 	C /  G7
+
+RepeatEnding
+
+17 	C /  G7#5
+
+Groove FoxTrotPlus
+
+RepeatEnd
+
+Groove FoxTrotSus
+
+18 	C /  B7
+19 	E
+20 	/
+21 	B11
+22 	/  /  Eb+
+23 	G
+24 	Am7 /  D11b9
+25 	G11
+26 	/  /  G7
+27 	C /  G+
+28 	C G+ C
+
+Groove FoxTrotSusPlus
+
+29 	/  /  Dm7 D#dim
+30 	C /  Ebdim
+31 	G7 /  Gm7b5
+32 	G7 Gm7b5 G7
+33 	/
+34 	/
+35 	C /  C#dim
+36 	G7 /  D#dim
+
+RepeatEnding
+
+37 	C /  G7
+38 	C z G7#5 
+Cut -3
+
+RepeatEnd
+Groove FoxTrotEnd
+
+37 C / G7
+38 C z!
+

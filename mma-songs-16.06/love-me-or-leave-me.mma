@@ -1,0 +1,93 @@
+// Love Me Or Leave Me
+
+Tempo 150
+Keysig F minor
+
+Groove Metronome2-4
+	   z * 2
+
+Groove BigBandIntro
+Volume p
+
+Begin Solo
+  Voice JazzGuitar
+  Cresc f fff 4
+  Articulate 94
+  Octave 6
+  Harmony Open+8Below
+  Begin Riff
+    4f;8;8a;b;c+;4b;
+	4a;8;b;4a;4f;
+	4c+;8;b;4c+;8;b;
+	1c+;
+  End
+End
+
+Swingmode On
+
+1        Fm
+2         /
+3        C7
+4         /
+
+Volume m
+Repeat
+Groove Bigband
+
+5        Fm
+6        G7      /     C7
+7        Fm
+8        G7      /     C7
+9        Ab
+10      Bb7      /    Eb7
+11       Ab      /    Db9
+12       C7
+
+Groove BigBandPlus
+
+13       Fm
+14       G7      /     C7
+15       Fm
+16       G7      /     C7
+17       Ab
+18      Bb7      /    Eb7
+//19       Ab    Ab7  Abdim    Dbm
+         Ab     /     Dbm
+20       Ab      /     G7    Gb7
+
+Groove BigBandSus
+
+21       F7
+22        /
+23      Bbm      /     F7
+24      Bbm
+
+Groove BigBandSusPlus
+
+25      Eb7
+26        /
+27       Ab      /  Abdim
+28      Bbm      /     C+     C7
+
+Groove BigBand1
+
+29       Fm
+30       G7      /     C7
+31       Fm
+32       G7      /     C7
+33       Ab
+34      Bb7      /    Eb7
+
+Repeatending 2
+
+35       Ab      /    Db9
+36       Ab    
+
+RepeatEnd 
+
+Groove BigBandEnd
+
+35      Ab     /     Db9
+36      Ab    /    z!
+
+

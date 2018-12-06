@@ -1,0 +1,82 @@
+// Elmers Tune
+
+Tempo 115
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice Trumpet
+	Volume f
+	Octave 5
+	Articulate 80
+	Harmony Open
+	Begin Riff
+		4e+; ; 8; 4d+;
+		4e+; ; 8; 4d+;
+		4e+; ; ; d+;
+		2.c+;		
+	End
+End
+
+Groove BigbandIntro
+Cresc p mf 4
+
+1    G7   
+2    /    
+3    /    
+4    C    
+
+Repeat
+Groove Bigband8
+
+Repeat
+5    G7   
+6    /    
+7    F    /    C    
+8    Dm   C
+9    G7   
+10   /    
+
+Repeatending
+
+11   D7   /    G9   G+   
+12   C    
+
+Groove Bigband1
+
+Repeatend
+
+Groove Bigband
+
+13   D7b5 /    G9   G7b9 
+14   C    
+15   F    
+16   C    
+17   F    /    F#dim 
+18   C    /    A7   
+19   D7   
+20   /    
+21   G7   
+22   /    F    G7
+23   /
+24   /    
+25   F    /    C    
+26   Dm7  C    
+27   G7   
+28   /    
+
+RepeatEnding
+
+29   E7b5 A7   D7b5 G7b9 
+30   C    /    z    
+
+Repeatend
+
+Groove BigBandEnd
+
+31   E7b5 A7   D7b5 G7b9 
+Tempo *.5
+32   C    z!   
+

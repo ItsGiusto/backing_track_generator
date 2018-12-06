@@ -1,0 +1,92 @@
+// Penthouse Serenade
+
+Tempo 110
+Keysig 2b
+
+Groove Metronome2-4
+ z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+	Voice Piano1
+	Cresc pp f 4
+	Articulate 80
+	Accent 1 20 3 20
+	Octave 5
+	Harmony Open
+	Begin Riff
+		3+3c+;;;b;;;
+		3+3a;;;g;;;
+		3+3f;;;e;;;
+		2f;
+	End
+End
+
+Volume p
+
+1      Bb    
+2      Gm    
+3      Cm    
+4      F7    
+
+Delete Solo
+
+Repeat
+Groove BossaNova
+Repeat
+Cresc mp mf 8
+
+5      Bb    
+6      B&dim3
+7      Cm7   
+8      F7    
+9      Cm7   /    F7    
+10     Cm7   /    F7    
+
+RepeatEnding
+
+11     Bb    /    Dbdim3 
+12     Cm7   /    F7    
+
+Groove BossaNova1Sus
+RepeatEnd
+
+Groove BossaNova
+Volume mp
+
+13     Bb    /    Eb7   F+    
+14     Bb    
+15     F7    /    Bdim3  
+16     Cm    /    F9    
+17     Bb    /    D7    
+18     Gm    
+19     C7    
+20	/
+
+Groove BossaNovaSus
+Volume mf
+
+21     F7    
+22     /    /    /    F+    
+23     Bb    
+24     Bbdim3
+25     Cm7   
+26     F7
+
+RepeatEnding
+
+27     Cm7   /    F7    
+28     Cm7   /    F7    
+29     Bb    /    Ab7   
+30     Bb    
+
+RepeatEnd
+
+Groove BossaNovaEnd
+Tempo -10 4
+Decresc mf p 4
+
+27     Cm7   /    F7    
+28     Cm7   /    F7    
+29     Bb    /    Ab7   
+30     Bb   / z!

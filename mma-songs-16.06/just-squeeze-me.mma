@@ -1,0 +1,112 @@
+// Just Squeeze Me
+
+Tempo 100
+
+Groove Metronome2-4
+ z * 2
+
+Groove JazzGuitar1Intro
+Begin AllGrooves
+  Plectrum Capo -1
+  Walk Volume +40
+  Walk Octave -1
+End
+
+Begin Solo
+   Voice Piano1
+   Octave 6 
+   Articulate 90
+   Volume ff
+   Harmony Open8Below
+   Begin Riff
+       4f;r;4f;
+       4d;r;4f;
+       4g;r;d;
+       2c;
+   End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove JazzGuitar
+Decresc m mp 4
+
+5       FM7      /    Gm7
+6       Am7      /    C13
+7       FM7      /   BbM7
+8       Am7      /   D7b9
+
+Groove JazzGuitarSus
+Cresc mf 4
+
+9       Gm7
+10    C9sus      /     C7
+11      FM7      /     D7
+12      Gm7      /     C7
+
+Groove JazzGuitar
+Decresc mp 4
+
+13      FM7      /    Gm7
+14      Am7      /    C13
+15      FM7      /   BbM7
+16      Am7      /   D7b9
+
+Groove JazzGuitarSus
+Cresc m 4
+
+17      Gm7
+18    C9sus      /     C7
+19      FM7
+20        /
+
+Groove JazzGuitarWalk
+Volume mf
+
+21       F7
+22        /
+23     BbM7
+24        /      /    Ab9
+
+Groove JazzGuitarWalkSus
+Volume m
+
+25       G7
+26        /
+27      Gm7
+28    C9sus      /     C9
+
+Groove JazzGuitarWalk
+Volume mf
+
+29      FM7      /    Gm7
+30      Am7      /    C13
+31      FM7      /   BbM7
+32      Am7      /   D7b9
+
+Groove JazzGuitarSus
+Decresc m mp 4
+
+33      Gm7
+34    C9sus      /     C7
+
+RepeatEnding
+
+Groove JazzGuitarWalk
+
+35      FM7      /    D7
+36      Gm7      /    C7
+
+RepeatEnd
+Groove JazzGuitarEnd
+Decresc ppp 2
+
+35      FM7
+36      /       z!
+

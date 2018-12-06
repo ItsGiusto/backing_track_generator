@@ -1,0 +1,138 @@
+// For All We Know
+
+Tempo 138
+Keysig G
+
+Groove Metronome2-4
+	   z * 2
+
+Groove PopBalladIntro
+
+Begin Solo
+	  Voice Strings
+	  Volume mf
+	  Articulate 110
+	  Harmony Open
+	  Octave 5
+	  Begin Riff
+	  		1d+;
+			1b;
+			1a;
+			1f;
+	  End
+End
+
+Cresc mp mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Groove PopBalladSus
+Cresc mp mf 8
+
+5         G
+6         /
+7        A9      /     A7
+8         /
+9        C6
+10       Am      /     Cm
+11        G
+12        /      /    Bm7
+
+Groove PopBallad
+Volume m
+
+13       Em
+14        G
+15       A7
+16        /
+17      DM7
+18      GM7
+19      CM7
+20    D7sus
+21        G
+22        /
+23       A9      /     A7
+24        /
+25       C6
+26        /      /     Cm
+27        G
+28        /      /    Bm7
+
+Groove PopBallad1
+Decresc mf mp 8
+
+29       Em
+30        G
+31       A7
+32        /
+33      DM7
+34      GM7
+35      CM7
+36        /
+37      Bm7
+38       Em      /    Em7
+39      CM7
+40    D7sus      /     D9
+41        G
+42      GM9
+43        C
+44       D7
+
+Groove PopBallad2
+Volume p
+
+45        G   {1g;}
+46      GM7   {1f;}
+47        C   {1e;}
+48       D7   {1d;}
+
+Groove PopBalladSus
+Cresc mp mf 8
+
+49        G
+50        /
+51       A9      /     A7
+52        /
+53       C6
+54        /      /     Cm
+55        G
+56        /      /    Bm7
+
+Groove PopBallad
+Decresc mf mp 12
+
+57       Em
+58        G
+59       A7
+60        /
+61      DM7
+62      GM7
+63      CM7
+64        /
+65      Bm7
+66       Em      /    Em7
+67      CM7
+68    D7sus      /     D9
+69        G
+70      GM9
+71        C
+72       D7
+
+Groove PopBallad1
+Volume p
+
+73        G    {1g;}
+74      GM7    {1f;}
+75        C    {1e;}
+76       D7    {1d;}
+
+Groove PopBalladEnd
+Decresc p ppp 3
+
+79        G   {1d;}
+80        /   {1b-;}
+81        /   {1g-;}
+

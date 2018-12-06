@@ -1,0 +1,108 @@
+// Poinciana (1936)
+
+Tempo 105
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice Vibraphone
+    Mallet Rate=32 Decay=-5
+    Volume mf
+    Octave 6
+    Articulate 95
+    Harmony OpenBelow+8Below
+    Begin Riff
+        4g;b;2d+;
+        1e+;
+        4a+;e+;d+;e+;
+        2f+;
+    End
+End
+
+Groove JazzRhumbaIntro
+Swell mp mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove JazzRhumba
+Volume m
+5       GM9
+6        G6
+7       Dm7
+8        G9
+
+Groove JazzRhumbaPlus
+Cresc f 7
+
+9       Cm6
+10        /
+11      GM9      /     G6
+12      Am7      /     D7
+
+Groove JazzRhumba
+
+13      GM9
+14       G6
+15      Dm7
+Decresc m 5
+16       G9
+
+Groove JazzRhumbaPlus
+
+17      Cm6
+18        /
+19      GM9      /     G6
+20      GM7      /     G7
+
+Groove JazzRhumbaSus
+
+21       Cm
+22      Cm6
+23        D      /    DM7
+24       D6      /      D
+
+Groove JazzRhumbaSusPlus
+Cresc mf 4
+
+25       Cm
+26      Cm6
+27        D      /   Ddim
+28       D7
+
+Groove JazzRhumba
+Volume m
+
+29      GM9
+30       G6
+31      Dm7
+32       G9
+
+Groove JazzRhumbaPlus
+Decresc mp 2
+
+33      Cm6
+34        /
+
+RepeatEnding
+
+35      GM9      /     G6
+
+Groove JazzRhumbaFill
+
+36       G7      /     D7
+
+RepeatEnd
+
+Groove JazzRhumbaEnd
+Decresc ppp 2
+
+36       G7      /     D7
+37      GM7     z!
+
+

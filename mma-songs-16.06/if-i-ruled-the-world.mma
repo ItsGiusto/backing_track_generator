@@ -1,0 +1,174 @@
+// If I Ruled The World
+
+Tempo 128
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzRhumbaIntro
+
+Begin Allgrooves
+   Chord Voicing Mode=Key
+   Chord-sus Voicing Mode=Key
+   Arpeggio Octave 5
+End
+
+Begin Solo
+    Voice Piano1
+    Harmony OpenBelow
+    Octave 5
+    Articulate 90
+    Begin Riff
+        2e;4.d;8e;
+        4c;d;e;g;
+        2f;a;
+        1b;
+    End
+End
+
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+Bass Riff 1 2 1 90;
+4       Bb7
+
+
+Repeat
+Groove JazzRhumba
+Volume m
+
+5        Eb
+6       Eb6
+7      EbM7
+
+Groove JazzRhumbaSus
+Cresc mf 4
+
+8       Eb7
+9       Dm7
+10        /
+11       G7
+
+Groove JazzRhumba
+
+12        /
+13       Cm
+14      Cm7
+15       F7
+
+Groove JazzRhumbaPlus
+Decresc mp 4
+
+16        /
+17       Eb
+18     Edim
+
+RepeatEnding
+
+19      Fm7
+
+Groove JazzRhumbaFill
+
+20        /      /      /    Bb7
+
+
+RepeatEnd
+
+21      Fm7
+22       G7
+
+
+Groove JazzRhumbaSusPlus
+Volume m
+
+23      CM7
+24       C6
+25      Dm7      /      /     G7
+26        /
+
+Groove JazzRhumbaSus
+Cresc mf 4
+
+27      CM7
+28       C6
+29      Fm7
+30      Bb7
+
+Groove JazzRhumba
+
+31     EbM7
+32      Eb6
+33      Fm7      /      /    Bb7
+34        /      /     G7
+
+Groove JazzRhumbaPlus
+Decresc m mp 4
+
+35       Cm
+36      Eb6
+37      Am7
+38      Fm7      /      /    Bb7
+
+Groove JazzRhumbaSus
+
+39       Eb
+40      Eb6
+41     EbM7
+42      Eb7
+
+Groove JazzRhumbaPlus
+Volume m
+
+43      Dm7
+44        /
+45       G7
+
+Groove JazzRhumba
+Decresc mf mp 4
+
+46        /
+47       Cm
+48        /
+49       F7
+
+Groove JazzRhumbaSusPlus
+Cresc m 4
+
+50        /
+51       Eb
+52     Bbm6
+53     C7b9
+54       C7
+
+Groove JazzRhumba
+
+55      Fm7
+56        /
+57        /
+58      Bb7
+
+Groove JazzRhumbaSus
+Cresc mf 4
+
+59       Eb
+60     Bbm6
+61     C7b9
+62       C7
+
+Groove JazzRhumbaSusPlus
+Decresc pp 4
+
+63      Fm7
+64        /      /    Bb9
+65      Fm7
+66        /      /    Bb9
+
+Groove JazzRhumbaEnd
+Decresc ppp 2
+
+67       Eb
+68        /   z! 
+

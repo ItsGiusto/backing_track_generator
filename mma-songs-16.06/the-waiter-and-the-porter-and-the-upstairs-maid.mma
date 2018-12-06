@@ -1,0 +1,100 @@
+
+// The Waiter And The Porter And The Upstairs Maid
+
+Tempo 120
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove BigBandIntro
+Begin Solo
+	Voice Piano2
+	Volume ff
+	Harmony Open
+	Articulate 90
+	Octave 5
+	Begin Riff
+		8c;e;g;e;4g;e;
+		8a;e;c;8+2e;
+		43d;e;f;4f;g;
+		1g;
+	End
+End
+
+Swingmode On
+Volume mp
+
+1         C
+2        Am
+3        Dm
+4        G7      /     G9
+
+Repeat
+Groove BigBand
+Repeat
+
+5         C      /     G9
+6         C      /    Dm7
+7         C
+8        D7      /     G7
+9         C      /     G9
+10        C      /    Dm7
+11        C      /     Am
+
+RepeatEnding
+
+12     D9b5      /    Dm7     G7
+Groove BigBandPlus
+
+RepeatEnd
+
+13     D9b5     G7      C
+
+Groove BigBandSus
+
+14      Gm7      /     C7
+15      Gm7      /     C9
+16        F      /     C+
+17        F
+18      Am7      /     D7
+19      Am7      /      D
+
+Groove BigBand1Fill
+
+20    C#dim      /     D7
+
+// Split the next bar with fill on first 2 beats and 
+// bigband on the 2nd
+
+Truncate 2 
+21      G7                 // 2 beats of fill
+Truncate 2 Side=Right
+Groove $_LastGroove
+21       /                  // 2 beats of SUS
+
+
+22        C      /     G9
+
+Groove BigBandSusPlus
+
+23        C      /    Dm7
+24        C
+25       D7      /     G7
+26        C      /     G9
+27        C      /    Dm7
+28        C      /     Am
+
+RepeatEnding
+
+29       G7 / C
+Groove BigBandIntro
+Seq 4
+30       G7
+
+RepeatEnd
+Groove BigBandEnd
+
+31       D9  / G7
+32       C / / z!
+

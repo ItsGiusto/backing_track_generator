@@ -1,0 +1,118 @@
+// I Didnt Know What Time It Was
+
+Tempo 124
+Keysig E minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Articulate 99
+    Octave 5
+    Harmony 3Below
+    Begin Riff
+        2+8e+;8d+;c+;b;
+        4d+;;8;c+;4b;
+        4c+;;8;b;4a;
+        1b;
+    End
+End
+
+Swingmode On
+Swell mp mf 4
+
+1        Em
+2        Dm
+3         C
+4        Bmb5
+
+Repeat
+Groove Swing
+Volume m
+
+5      F#m7      /     B7
+6       Em7      /     A7
+7      F#m7      /     B7
+8       Em7      /     A7
+
+Groove SwingPlus
+Cresc mf 4
+
+9        Am
+10      Em7      /  Em7/D
+11      CM7      /    Bm7
+12       Am      /     D7
+
+Groove Swing
+Volume f
+
+13     F#m7      /     B7
+14      Em7      /     A7
+15     F#m7      /     B7
+16      Em7      /     A7
+
+Groove SwingWalk
+Decresc m 4
+
+17       Am
+18      Em7      /  Em7/D
+19      CM7      /    Bm7
+20      Am7      /     D7
+
+Groove SwingSus
+Volume mf
+
+21        G
+22   F#m7b5      /     B7
+23   F#m7b5      /     B7
+24       Em      /     A7
+
+Groove SwingPlusSus
+Volume f
+
+25      Am7      /     D7
+26      GM7
+27      Em7      /     A7
+28       Am      /     D7
+
+Groove SwingWalkSus
+Decresc mf 4
+
+29     F#m7      /     B7
+30      Em7      /     A7
+31      F#m7      /     B7
+32      Em7      /     A7
+
+Groove Swing
+Decresc m 4 
+
+33       Am
+34      Em7      /  Em7/D
+35      CM7      /    Bm7
+36      Cm7      /     F7
+
+Groove SwingPlus
+Volume mp
+37      G/D      /     B7
+38       C6      /     D7  D7sus
+
+RepeatEnding
+
+Groove SwingFill
+Decresc ppp 2
+
+39        G
+40      Am7      /     D7
+
+
+RepeatEnd
+
+Groove SwingEnd
+
+41        G      /     F6    F#6
+42     G6(add9)  z!
+

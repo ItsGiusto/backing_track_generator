@@ -1,0 +1,109 @@
+// Under A Blanket Of Blue
+
+Tempo 94
+KeySig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove PianoBalladIntro2
+Chord-Block Octave 4
+
+Begin Solo
+  Voice JazzGuitar
+  Volume f
+  Articulate 120
+  Octave 5
+  Harmony OpenBelow
+  Begin Riff
+    8e+;d+;c+;d+; e+;d+; 4c+;
+	8c+;b;a;b; c+;b; 4a;
+	43c+;a;f; c+;a;f;
+	1b;
+  End
+End
+
+Cresc pp m 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove PianoBallad
+Volume m
+
+5       Fm7
+6     Bb7#5
+7        Eb      /    Gm7
+8        C7
+
+Groove PianoBallad1
+Decresc mp 4
+
+9       Fm7
+10      Bb7
+11       Eb
+12      Gm7      /     C7
+
+Groove PianoBallad
+Cresc mf 4
+
+13      Fm7
+14    Bb7#5
+15       Eb      /    Gm7
+16       C7
+
+Groove PianoBalladSus
+
+17      Fm7
+18      Bb7
+19       Eb      /     Ab
+20      Eb6
+
+Groove PianoBallad
+Decresc mp 4
+
+21      Eb7      /   Bbm7
+22      Eb7
+23       Ab
+24        /
+
+Groove PianoBallad1Sus
+Cresc m 4
+
+25       F7      /    Cm7
+26       F7
+27        /
+28    Bb7#5
+
+Groove PianoBallad
+
+29      Fm7
+30    Bb7#5
+31       Eb      /    Gm7
+32       C7
+
+Groove PianoBalladSus
+
+33      Fm7
+34      Bb7
+
+RepeatEnding
+
+Groove PianoBalladFill
+Decresc mp 2
+
+35       Eb      /   Abm6
+36       Eb      /   Bb7
+
+RepeatEnd
+
+Groove PianoBalladEnd
+Decresc ppp 2
+
+35       Eb      /   Abm6
+36       Eb     z!
+
+

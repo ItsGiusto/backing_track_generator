@@ -1,0 +1,95 @@
+// Always
+
+Tempo 130
+Keysig F
+
+Groove Metronome3
+	   z * 2
+
+Groove WaltzIntro8
+
+Begin Solo
+	  Voice Piano1
+	  Volume f
+	  Harmony Open+8below+16below
+	  Octave 5
+	  Articulate 110
+	  Begin Riff
+	      4.f;8g;a;b;
+		  2.c+;
+		  4.d;8e;f;g;
+		  2.a;
+		  4b;c+;d+;
+		  4e+;d+;c+;
+		  2.+2c+~;
+	  End
+End
+
+1    F    
+2    /    
+3    Dm   
+4    /    
+5    Gm   
+6    /    
+7    C7   
+8    /    
+
+Repeat
+Groove Waltz
+Cresc mp m 8
+
+9    F    
+10   /    
+11   /    
+12   /    
+13   C7   
+14   /    
+15   F    
+16   /    
+
+Groove WaltzSus
+Cresc f 8
+
+17   /    
+18   /    /    F7   
+19   A/E  
+20   /    
+21   E7   
+22   /    
+23   A    
+24   C7   
+
+Groove Waltz1
+Decresc m 8
+
+25   F    
+26   /    
+27   F7   
+28   /    E7   Eb7  
+29   D7   
+30   /    
+31   Gm   
+32   /    
+
+Groove Waltz1Sus
+Decresc mp 8
+
+33   Bb6  
+34   Gm7b5 
+35   F    
+36   G9   
+37   C7   
+38   /    
+
+RepeatEnding
+
+39   F    
+40   C7   
+
+RepeatEnd
+Groove WaltzEnd
+Seq 3
+
+41   F    
+42   /    
+

@@ -1,0 +1,116 @@
+// Dont Fence Me In
+
+Tempo 140
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove WesternSwingIntro
+
+Begin Solo
+    Voice SteelGuitar
+    Harmony OpenBelow+8Below
+    Octave 6
+    Volume mf
+    Articulate 130
+    Begin Riff
+        8f;e;d;e; f;e;d;e;
+        4f;g;f;e;
+        43f;g;a; 4b;a;
+        2c+;
+    End
+End
+
+SwingMode On
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+Begin Chord-Steel
+  Riff C1234
+  Volume +20
+End
+
+4         C7     F    Gm7     C7
+
+
+Repeat
+Groove WesternSwing
+Volume m
+
+5         F      /    FM7
+6        F6      /    FM7
+Decresc mp 2
+7        F6      /    Bb6     F6
+8       Gm7      /     C7
+
+Groove WesternSwingSus
+Cresc mf 4
+
+9       Gm7      /     C7
+10      Gm7      /     C7
+11      Gm7      /     C7
+12       F6
+
+Groove WesternSwingPlus
+Arpeggio Cresc f 4
+
+13        F      /    FM7
+14       F7      /    F7+
+Decresc m 2
+15      Bb6
+16        /      /    Bbm
+
+Groove WesternSwingSusPlus
+Cresc mf 2
+
+17        F      /     Cm
+18        /     D7    Bbm
+19        F      /     G9      F@4.5
+20        /     F7     Bb     F7
+
+Groove WesternSwing
+Volume m
+
+21       Bb
+22        /
+23        F      /    C9+     F9
+24        /     F7     Bb     F7
+
+Cresc mf 4
+
+25       Bb
+26        /
+27        F      /   Cdim     C7
+28        /      /    Gm7     C7
+
+Groove WesternSwingPlus
+Arpeggio Cresc f 4
+Decresc m 4
+
+29        F      /    FM7
+30       F7      /    F7+
+31      Bb6
+32        /      /    Bbm
+
+Groove WesternSwingSusPlus
+
+33        F      /     Cm
+34        /     D7    Bbm
+
+RepeatEnding
+Decresc mp 2
+
+35       F6      /     C9       F6@4.5
+36        /      /    Gm7     C7
+
+RepeatEnd
+
+Groove WesternSwingEnd
+Decresc ppp 2
+
+35       F6      /     C9       F6@4.5
+37       F6
+

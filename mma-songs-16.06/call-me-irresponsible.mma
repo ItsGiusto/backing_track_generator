@@ -1,0 +1,116 @@
+// Call Me Irresponsible (1964)
+
+Tempo 125
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxtrotIntro
+
+// Just wrote the RPITCH code, so use it here :)
+AllGrooves Arpeggio RPitch Rate=5 Scale=Chromatic Offsets=-3-4 
+
+Begin Solo
+    Voice Strings
+    Volume f
+    Harmony OpenBelow
+    Articulate 120
+    Octave 5
+    Begin Riff
+        4c+;8bn;4a;8g;4f;
+        4d+;8c+;4b;8a;4g;
+        2b;g;
+        1c+;
+    End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5         F
+6     F#dim
+7        Gm
+8     Abdim
+
+Groove FoxtrotPlus
+Decresc mp 4
+
+9        Am      /     Dm
+10       A7
+11      Cm7
+12      D7+
+
+Groove FoxtrotSus
+Cresc mf 8
+
+13      Gm7
+14       C7
+15      Cm6
+16       D7
+
+Groove FoxtrotSusPlus
+
+17      Dm7      /     G7
+18        /
+19      Gm7
+20        /      /     C7
+
+Groove Foxtrot
+Volume m
+
+21        F
+22    F#dim
+23       Gm
+24    Abdim
+
+Groove FoxtrotPlus
+
+25       Am      /     Dm
+26       A7
+27      Cm6
+28       D7
+
+Groove FoxtrotSus
+Cresc mf 4
+
+29      Gm7
+30       C7
+31      Cm6
+32       D7
+
+Groove FoxtrotSusPlus
+Decresc mp 4
+
+33      Gm7
+34       C7
+35       A7
+36       D7
+
+Groove Foxtrot
+
+37      Gm7      /      /    Bb7
+38     Bbm6
+
+RepeatEnding
+
+Groove FoxTrotFill
+39        F
+40        C7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc ppp 2
+
+39        F
+40        /  z!
+

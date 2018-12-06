@@ -1,0 +1,113 @@
+// Contigo En La Distancia
+
+Tempo 75
+Keysig E Minor
+
+Groove Metronome2-4
+  z * 2
+
+Set ArpeggioVoice Vibraphone
+Set ApreggioOctave  5
+Groove SonIntro
+Allgrooves Chord Voicing Mode=Key
+
+Begin Solo
+    Voice Strings
+    Articulate 120
+    Harmony OpenBelow+OpenAbove+8Below
+    Octave 5
+    Begin Riff
+        4f;g;e+;d+;
+        2b;4d+;c+;
+        4f;g;f+;e+;
+        1c+;
+    End
+End
+
+Swell m  f 4
+Solo Cresc mp f 4
+
+1       Em9      /    G13
+2     F#m11      /   B7#9   B7b9
+3       Em9      /    A13
+4       C13      /   B7#9    Bb9
+
+Repeat
+Groove Son
+Volume m
+
+5       Am9      /    D13
+6       GM9      /    Em9
+
+Decresc mp 2
+
+7       Am9      /   AbM9
+8       GM9
+
+Groove SonSus
+Cresc m 3
+
+9    F#m7b5      /   B7b9
+10      Em9
+11      Em7      /     A9
+12      Am9
+
+13      D13
+
+Groove SonPlus
+
+14      Am7
+15     Am11      / Ab7#11
+16   G6(add9)      /    C13
+17      Bm7      / E7b9/F
+
+Groove Son
+Decresc mp 4
+
+18      Am9
+19      D13
+20      GM9
+21   F#m7b5      /   B7#9
+
+Groove SonSus
+Cresc mf 4
+
+22      Em9      /  Em9/D
+23   Dbm7b5      /   C7b5
+24      Bm7
+25    Bm7b5      /   E7b5
+
+Groove SonSusPlus
+
+26      Am9
+27      D13
+28     Bm11
+29     E7#9      /   E7b9
+
+Groove SonPlus
+Decresc m 4
+
+30      Am9
+31      Cm9      /    F13
+32      Bm9
+33     E7#5
+
+Groove SonSus
+Decresc mp 2
+
+34      Am9
+35      D13
+
+RepeatEnding
+
+36      Cm9
+37      B7
+
+RepeatEnd
+
+Groove SonEnd
+Decresc ppp 2
+
+36      Cm9
+38      G(add9)  z!
+

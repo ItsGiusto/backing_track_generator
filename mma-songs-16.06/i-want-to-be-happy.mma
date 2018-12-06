@@ -1,0 +1,109 @@
+// I Want To Be Happy
+
+Tempo 220
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove QuickStepIntro
+Begin Solo
+    Voice Piano1
+    Harmony 3Below
+    Octave 5
+    Articulate 95
+    Volume ff
+    Begin Riff
+       4e;4g;r;e;  
+       1a;
+       4d;f;r;d;
+       1g;
+    End
+End
+
+Cresc mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove QuickStep
+Volume m
+
+5         C
+6         /
+7        Dm     G7      /    Dm7
+8        G7      /    Dm7     G7
+
+Groove QuickStepDuh
+
+9       Dm7     G7      /    Dm7
+10       G7      /    Dm7     G7
+11        C
+12        /      /     G7
+
+
+Groove QuickStep
+Volume mf
+
+13        C
+14        /
+15       Dm     G7      /    Dm7
+16       G7      /    Dm7     G7
+
+Groove QuickStepDuh
+
+17      Dm7     G7      /    Dm7
+18       G7      /    Dm7     G7
+
+Groove QuickStepHit
+Decresc mp 2
+
+19        C
+20        /      /     G7
+
+Groove QuickStepSus
+Cresc mf 8
+
+21      Gm7      /      C    Gm7
+22       C7
+23        F
+24      Fm6
+
+Groove QuickStepDuhSus
+
+25        C
+26       C6
+27      Dm7      /     G7
+28      Dm7      /     G7
+
+Groove QuickStepDuh
+Volume m
+
+29        C
+30        /
+31       Dm     G7      /    Dm7
+32       G7      /    Dm7     G7
+
+33      Dm7     G7      /    Dm7
+34       G7      /    Dm7     G7
+
+RepeatEnding 2
+
+Groove QuickStepHit
+Decresc mp 2
+
+35        C
+36        G7
+
+RepeatEnd 
+
+Groove QuickStepEnd
+Decresc ppp 2
+
+35        C
+36        /  z!
+
+

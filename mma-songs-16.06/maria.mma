@@ -1,0 +1,139 @@
+// Maria (West Side Story)
+
+Tempo 106
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+    Voice Piano1
+    Harmony Openbelow
+    Articulate 80
+    Octave 5
+    Volume f
+    Begin Riff
+        43e;d&;b-; e;;;
+        8c;4.e;2e;
+        43f;;; a;g;f;
+        1b;
+    End
+End
+
+Groove RhumbaIntro
+
+Swell mp mf 4
+
+1        Eb
+2       Cm
+3        Fm
+4       Bb7
+
+Groove Rhumba
+Volume m
+
+5        Eb
+6         /
+7      BbM7
+8        Eb      /     Bb
+9       Fm7
+10     EbM7
+
+Groove RhumbaSus
+Cresc mf 2
+
+11       Eb
+12        /
+13     BbM7
+
+Groove Rhumba1
+Volume m
+
+14       Eb      /     Bb
+15       Eb      /     Bb
+16        F6
+
+Groove Rhumba1Sus
+Decresc mp 2
+
+17      Fm7
+18       Cm      /     Bb
+
+Cresc mf 2
+
+19       Gm
+20     Gmb5
+21        F
+22       Ab
+
+Groove RhumbaSus
+Volume m
+
+23      Abm
+24       Cm
+25   Eb
+
+Groove Rhumba
+Cresc mf 2
+
+26     Dm#5  / Gm
+27    Bbsus
+28       Ab
+29       Gm
+30   Eb
+
+Groove Rhumba3Sus
+Volume m
+
+31        /
+32       Dm
+
+Decresc mp 2
+
+33       Cm7
+34        /
+
+Groove Rhumba3
+Arpeggio Riff 1 1 90 * 3
+Volume m
+
+35       Dm
+36       Ab
+
+Cresc f 2
+
+37        /
+38        Gm / Gmsus
+
+Groove Rhumba
+Volume m
+
+39      Bbm
+40        F
+
+Decresc mp 2
+
+41      Db7
+
+Groove Rhumba1
+Arpeggio Riff 1 1 90 * 6
+
+42      Abm
+
+Groove RhumbaSus
+Decresc p 2
+
+43       Eb
+44       /
+
+Decresc ppp 5
+Tempo *.8 5
+45    Ebm7
+
+46     Abm
+Groove RhumbaEnd
+Seq 3
+47       /      /     Eb
+48      Cm7
+50        /   z!
+Cut -2.5

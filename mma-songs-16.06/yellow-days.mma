@@ -1,0 +1,136 @@
+// Yellow Days
+
+Tempo 92
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove SlowBoleroIntro
+
+Begin AllGrooves Bass-Accomp
+   Voice Flute
+   Octave 6
+   Harmony None
+   Rskip 10
+   Articulate 100
+   Volume mp
+End
+
+Begin Solo
+    Voice JazzGuitar
+    Articulate 110
+    Harmony Open8Below
+    Octave 5
+    Accent 1 20 3 20
+    Volume m
+    Begin Riff
+       2f;c+;
+       8d+;c+;d+;c+; d+;c+;b;a;
+       8g;a;b;c+; d+;c+;b;a;
+       2g;
+    End
+End
+
+Swell p m 4
+
+1         F / F6
+2        Dm / Dm+
+3        Gm / Gm7
+4        C7
+
+
+Repeat
+Groove SlowBolero
+Volume m
+
+5        Gm
+6        C7
+7        F6
+8        D7
+
+Groove SlowBolero1
+Cresc mf 2
+
+9        G7
+10       C7
+11       F6
+12        /
+
+Groove SlowBolero
+Volume mp
+
+13       Gm
+14       C7
+15       F6
+16       D7
+
+Groove SlowBoleroPlus
+Cresc m 3
+
+17       G7
+18       C7
+19        F
+20        /
+
+Groove SlowBoleroSus
+Cresc mp mf 4
+
+21       F7
+22        /
+23       Bb
+24      Eb7
+
+Groove SlowBoleroSusPlus
+Decresc m 2
+
+25       Ab
+26       G7
+27       C7
+28        /
+
+Groove SlowBoleroPlus
+Volume mp
+
+29       Gm
+30        C
+31       F6
+32       D7
+
+Groove SlowBolero1
+Cresc m 2
+
+33       G7
+34       C7
+
+Decresc mp 2
+
+RepeatEnding
+
+35        F
+36        /
+
+RepeatEnd
+
+37        F
+38        /
+
+Groove SlowBoleroSus
+Tempo *.9 8
+
+39       Gm
+40       C7
+41       F6
+42       D7
+
+Groove SlowBolero
+
+43       G7
+44       C7
+
+Groove SlowBoleroEnd
+Decresc ppp 2
+
+45        F
+46        /  z!
+

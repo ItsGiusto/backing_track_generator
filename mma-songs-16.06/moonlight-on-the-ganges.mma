@@ -1,0 +1,103 @@
+// Moonlight On The Ganges
+
+Tempo $( 85 * 2 )
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+Begin AllGrooves 
+    Chord Voice AltoSax
+End
+
+// Disable voicing for the 4 intro bars. This emphasizes the decending chords
+Chord      Voicing Mode=None
+Chord-Hits Voicing Mode=None
+
+Decresc mf mp 4
+
+1         C
+2         Bmb5
+3         Am
+4         G7
+
+
+Repeat
+Groove BigBand
+Volume m
+
+5        G9      /    F#9
+6         /      /     F9     E9
+7       Eb9      /     D9
+8      D9b5      /   G7#5
+
+Groove BigBandPlus
+Cresc mf 2
+9        C6      /    CM7
+10        /      /     C7
+Decresc mp 2
+11       C6
+12        /
+
+Groove BigBand
+Cresc m 2
+
+13      Dm7
+14        /
+15       G7
+16        /      / G#dim7
+
+Groove BigBandPlus
+Decresc mp 4
+
+17       Am
+18       D7
+19    G7sus
+20       G7
+
+Groove BigBandSus
+
+21       G9      /    F#9
+22        /      /     F9     E9
+23      Eb9      /     D9
+24     D9b5      /   G7#5
+
+Groove BigBandSusPlus
+Cresc m 4
+
+25        C
+26        /      /   C7#5
+27       F6      /     C+
+28       F6
+
+Groove BigBandPlus
+
+29     F#m7      /  Fdim7
+30        /      /    C/E Ebdim7
+31       G7
+32       A7
+
+Groove BigBand
+Decresc mp 2
+
+33      Dm7
+34       G7
+
+RepeatEnding 2
+
+35        C      /     F7
+
+Groove BigBandFill
+
+36       E9      /    Eb9
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc ppp 2
+
+37        C      /    Eb9
+38      Ab9     G7      C z!
+

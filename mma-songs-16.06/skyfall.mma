@@ -1,0 +1,179 @@
+// Skyfall
+
+Tempo 80
+Keysig C minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove BalladIntro
+Begin AllGrooves Arpeggio-Plus
+    Voice Jazzguitar
+    Range .9
+End
+
+Begin Solo
+    Voice Piano1
+    Harmony OpenBelow
+    Volume mf
+    Articulate 120
+    Octave 5
+End
+Decresc f pp 1
+
+Solo Mallet Rate=32 decay=-2
+1       Cm9   { 1gbd+; }
+Solo Mallet Rate=0
+2         /   { 1fbd+; }
+
+Volume p
+Repeat
+Seq 
+
+3        Cm      /     Ab           { <grace>32d+;<grace>c+;<grace>g;4c+;;;; }
+4       Fm7                         { 4c+;;;; }
+
+RepeatEnd 3
+Seq 3
+Volume mp
+5     Cm9/D                         { 4c+;;;; }
+6      Gsus      /      G           { 4c+;;bn;; }
+
+Groove Ballad
+Volume m
+7        Cm      /     Ab
+8       Fm7
+9        Cm      /     Ab
+10      Fm7
+
+Groove BalladPlus
+Cresc mf 4
+
+11       Cm      /     Ab
+12      Fm7
+13    Cm9/D
+14    Gsus4      /      G
+
+Groove Ballad
+Volume m
+
+15       Cm      /     Ab
+16       F7      /    Fm7
+17       Cm      /     Ab
+18       F7      /    Fm7
+
+Groove Ballad1Plus
+Cresc f 4
+
+19       Cm      /     Ab
+20       F7      /    Fm7
+21    Cm9/D
+22        G
+
+Repeat
+Label DS
+Groove BalladSus
+Decresc ff m 1
+
+23       Cm
+DeCresc mp 3
+24       Ab
+25      Fm7
+26    Cm9/D      /     G7
+
+Groove BalladSusPlus
+Volume m
+
+27       Cm
+28       Ab
+29        F
+30     D7b9     G7
+
+If Def CODA
+  Goto Coda
+Endif
+
+Groove Ballad1Sus
+Volume p
+
+31       Cm      /     Ab
+32        F      /    Fm7
+33       Cm      /     Ab
+34        F      /    Fm7
+
+Groove Ballad1SusPlus
+Cresc m 4
+
+35       Cm      /     Ab
+36        F      /    Fm7
+37       Cm      /     Ab
+38        F      /    Fm7
+
+Groove BalladSus
+
+39       Cm      /     Ab
+40        F      /    Fm7
+41    Cm9/D
+Begin Drum-Cym 
+  Riff D134
+  Volume ff
+End
+42        G
+
+RepeatEnd
+
+
+Groove Ballad
+Volume mf
+
+Chord Decresc mf mp 2
+Chord Riff L1; C34
+43      F/CzD / / F/C
+44      Fm9
+45      Ab6
+46   Cm9/Bb      / CmM7/B
+
+Groove Ballad1
+Decresc p 4
+
+47       Cm
+48     AbM7
+49      Fm9
+50   G7sus4/D
+
+Groove BalladFill
+Cresc f 1
+
+51       G7
+
+Set Coda
+Goto DS
+
+// Coda
+Label Coda
+
+Groove BalladSus
+Volume m
+
+52       Cm
+53       Ab
+54      Fm7
+55    Cm9/D      /     G7
+
+Groove Ballad1Sus
+Volume mp
+
+56       Cm
+57       Ab
+58      Fm9
+59        G
+Fermata -4 1 120
+Fermata -2 .75 110
+
+Groove Ballad1End
+Seq 3
+Decresc ppp 2
+
+60      Cm9
+61        /  z!
+

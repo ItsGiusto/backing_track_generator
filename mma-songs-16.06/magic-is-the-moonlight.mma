@@ -1,0 +1,110 @@
+// Magic Is The Moonlight
+
+Tempo 110
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove BoleroIntro
+Begin Solo
+ Voice NylonGuitar
+ Harmony OpenBelow+8Below
+ Volume f
+ Articulate 120
+ Octave 5
+ Begin Riff
+    8f;g;a;c+;2f+;
+	2d+;8g+;f+;e+;d+;
+	2d+;43d+;e+;d+;
+	2c+;	
+ End
+End
+
+Cresc pp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove Bolero
+Swell m mf 4
+
+5         F
+6         /
+7         /
+8         / 
+
+Groove BoleroFill
+Swell m mp 4
+
+9        C7
+10        /
+11        F
+12       C7
+
+Groove BoleroAlt
+Swell m f 8
+
+13        F
+14        /
+15        /
+16        /  
+
+Groove BoleroSus
+Chord-sus Volume -20
+
+17       C7
+18        /
+19        F      /    Bb7
+20        F
+
+Groove BoleroAltSusFill
+Volume mf
+
+21       Bb
+22        /      /   Fdim3
+23        F
+24        /      /   Fdim3
+
+Groove BoleroSus
+Swell mf f 4
+
+25      Gm7
+26        /      /     G7
+27      Gm7      /     Gm
+28       C7
+
+Groove Bolero
+Volume m
+
+29        F
+30        / 
+31        F
+32        / 
+
+Groove BoleroAltSus
+Decresc m mp 2
+
+33       C7
+34        /
+
+RepeatEnding
+
+35        F      /     Dm
+36       Gm      /     C7
+
+
+RepeatEnd
+label foo
+Groove BoleroEnd
+Seq 3
+Decresc ppp 2
+Tempo *.8 2
+Scale Volume -40
+
+37        F      /     Bbm7
+38        F6      /    z!
+

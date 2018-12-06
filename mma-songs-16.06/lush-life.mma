@@ -1,0 +1,121 @@
+// Lush Life
+
+Tempo 66
+Keysig Db
+
+Groove Metronome2-4
+  z * 2
+
+Groove NiteJazzIntro
+Seq 3
+
+Begin Solo
+   Voice Piano1
+   Volume f
+   Harmony OpenBelow
+   Articulate 110
+   Octave 5
+   Begin Riff
+       8d;e;f;g;a;b;c+;d+;
+       2b;g;
+   End
+End
+
+Swingmode On
+
+1        Db
+2       Ab7
+
+Repeat
+Groove NiteJazz
+
+3       Db6      /     B7
+4      DbM7      /      /     B7
+5      DbM7      /      /     B7
+6      DbM7    Ebm    EM7   F#m7
+
+Groove NiteJazzSus
+
+RepeatEnding
+
+
+7      Abm7      /     D9
+8    Db6(add9)      /     D9
+9      DbM9
+
+RepeatEnd
+
+10     Abm7      /     D9
+11   Db6(add9)      /     D9
+12   Db6(add9)      /      /    C7+
+
+Groove NiteJazzPlus
+
+13       Fm      /    Fm6
+14      Fm7      /  Dm7b5
+15        /      /    Gm7
+16        /      /   C7b9
+
+Groove NiteJazzSusPlus
+
+17       Fm      /    Fm6
+18      Fm7      /  Dm7b5
+19   DbM7/F      / C7b9/E
+20     Ebm7      /    Ab9
+21     B9b5
+
+Groove NiteJazz
+
+22    Bb7b9
+23     Ebm7
+24     A9b5
+25     Ab11
+26        /      /  Ab7b9
+
+Groove NiteJazzSus
+
+27       Db      /    D13
+28      Db6      /     D9
+29      Db6      /   C9b5  B13b9
+30        E   Eb9#5    D13     D7
+
+Groove NiteJazzPlus
+
+31       Db      /    D13
+32       Db      /     D9
+33      Db6      /    Db9    C13
+34        F    E7+   Bbm9    Eb7
+
+Groove NiteJazz
+
+35       Ab      /  Eb7#9     A9
+36      Ab6      /    Em9   A7b9
+37       D6      /    Dm7     G9
+38       C6     B7   Bb13  A13#9
+
+Groove NiteJazzPlus
+
+39       Db      /    D13
+40      Db6      /     D9
+41      Db6      /   C9b5  B13b9
+42     Bb13
+
+Groove NiteJazzSus
+
+43    Ebm11      /  Gbm11     B9
+44      A9+      /   Ab13
+45     DbM9      /   Dbm7 Gb13b9
+46     CbM9    Cb6   Fm11    Bb7
+
+Groove NiteJazzSusPlus
+
+47     Ebm7      /   Gbm9     B9
+48      A9+      /   Ab13     D9
+
+Groove NiteJazzEnd
+Decresc pp 2
+
+49        E    Eb6    DM7     G9
+50   Db6(add9)   DbM9  z!
+
+

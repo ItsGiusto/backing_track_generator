@@ -1,0 +1,122 @@
+// Eres Tu  / Touch The Wind
+
+Tempo 84
+KeySig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BeguineIntro
+
+Allgrooves Arpeggio Volume m
+
+Begin Solo
+    Voice Strings
+    Octave 6
+    Volume f
+    Harmony 3Below
+    Articulate 120
+    Rtime 5
+    Rvolume 10
+    Begin Riff
+        2g;b;   
+        2.e;8f;g;
+        4a;g;f;e;
+        2.g;
+    End    
+End
+
+Begin Solo-Cello
+    Voice Cello
+    Octave 4
+    Volume mp
+    Begin Riff
+        1e;
+        1c;
+        1f;
+        2g;
+    End
+End
+
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Groove BeguineSus
+Volume m
+
+5        Eb      /     Bb
+6        Ab      /     Eb     
+7        Eb      /     Bb
+8        Ab      /     Bb
+
+Groove Beguine1
+Decresc mp 2
+
+9        Eb      /     Bb
+10       Ab      /     Eb
+11        /      /   Bb11
+12       Eb      /     Db     Ab
+
+Repeat
+Groove Beguine
+Cresc mp m 4
+
+13       Eb      /     Bb
+14       Ab      /     Eb
+15        /      /     Bb
+16       Ab      /     Bb
+
+Groove Beguine1
+Decresc mp 4
+
+17       Eb      /     Bb
+18       Ab      /     Eb     Ab
+19       Eb      /   Bb11
+20       Eb      /   Bb11
+
+Groove BeguineSus
+Cresc mf 8
+
+21       Eb      /     Bb
+22       Cm
+23       Fm      /      F
+24       Eb      /     Bb
+
+25        /      /    Bb7
+26       Eb      /     Ab
+27       Eb      /    Bb7
+28       Eb      /     Ab
+
+Groove Beguine1
+Decresc m 4
+
+29       Eb      /     Bb
+30       Cm
+31       Ab      /      F
+32       Eb      /     Bb
+
+Groove Beguine
+Decresc mp 2
+
+33        /      /    Bb7
+34       Eb      /     Ab
+35       Eb      /     Bb
+
+RepeatEnding
+
+36       Eb      /   Bb11
+
+Groove BeguineFill
+
+37       Eb      /   Bb11      D
+
+RepeatEnd
+Groove Beguine2End
+Seq 2
+Decresc pp 1
+38       Eb / / z!
+

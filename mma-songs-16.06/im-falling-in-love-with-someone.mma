@@ -1,0 +1,105 @@
+// I'm Falling In Love With Someone
+// Victor Herbert
+
+Tempo 121
+Keysig F
+
+Groove Metronome3
+	z * 2
+
+Set BassRegister 6
+
+Groove FrenchWaltzIntro     // Cheezy accordion and strings 1st time
+Begin Solo
+	  Voice Piano1
+	  Volume m
+	  Articulate 90
+	  Harmony 3
+	  Octave 4
+	  Begin Riff
+	   4a;8;;4;
+	   4f;8;;4;
+	   4b;a;g;
+	   4.b;
+	  End
+End
+
+Cresc mp m 4
+1    F    
+2    Dm   
+3    Gm   
+4    C7   
+
+Set Verse 1
+Repeat
+Groove $Verse  FrenchWaltz FrenchWaltzSus
+
+Cresc mp mf 8
+
+5    G    
+6    C7   
+7    F    
+8    Am   
+9    Gm   
+10   C7   
+11   D7   
+12   /    /    Dm7
+ 
+Groove $Verse FrenchWaltz2 FrenchWaltz3
+
+13   C7   
+14   Dm   
+15   C    
+16   Am7  
+17   Dm   
+18   /    
+19   C7   
+20   Gdim 
+
+Groove $Verse FrenchWaltzSus FrenchWaltz3Sus
+Decresc mf mp 8
+
+21   G7   
+22   C7   
+23   F    
+24   Am   
+25   Gm   
+26   C7   
+27   D7   
+28   /
+   
+Groove $Verse FrenchWaltz2Sus
+Volume m
+
+29   Gm   
+30   Gdim 
+31   F    
+32   E7   //   need pause here 
+
+Repeatending
+
+33   A7   
+34   C7   //   and  here
+ 
+Groove FrenchWaltz2Fill
+
+35   F    
+36   C7   
+
+Set Verse 2
+Repeatend
+
+Groove FrenchWaltzEnd
+Decresc mp ppp 4
+Alltracks Decresc mp ppp 4
+
+33   A7   
+34   C7   
+37   F    
+38   /    z!   
+
+Cut -1.5
+
+
+
+

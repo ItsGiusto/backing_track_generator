@@ -1,0 +1,80 @@
+// World On Fire
+
+// I think the Ink Spots did this at a slower tempo :)
+
+Tempo 88
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingIntro
+Begin Solo
+    Voice NylonGuitar
+    Volume ff
+    Harmony Open
+    Articulate 130
+    Octave 4
+    Begin Riff
+        8f;a;c+;a;d;f;a;f;
+        8g;b;d+;b;4.c+;
+    End
+End
+SwingMode On Skew=60
+
+1          F      /     Dm
+2         Gm      /     C7      z
+
+Repeat
+
+Groove EasySwingWalk
+
+3          F
+4          /      /   Fdim
+5         Gm
+6          /      /    Bbm
+7         C7
+8         Gm      /     C7
+9         A7      /     D7
+10        G7      /     C7
+11         F
+12         /      /   Fdim
+13        Gm
+14         /      /    Bbm
+15        C7
+16        Gm      /     C7
+17         F      /     Eb7
+18        F6
+
+Groove EasySwingWalkSus
+
+19       Cm7      /     F7
+20       Cm7      /     F7
+21        Bb
+22        Bb
+23        Dm      /     G7
+24        Dm      /     G7
+25        Dm      /     G7
+26        C7
+
+Groove EasySwingWalk
+
+27         F
+28         /      /   Fdim
+29        Gm
+30         /      /    Bbm
+31        C7
+32        Gm      /     C7
+
+RepeatEnding
+
+33         F      /   Fdim
+34        Gm      /     C7
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+35         F      /    Gm7
+36         F
+

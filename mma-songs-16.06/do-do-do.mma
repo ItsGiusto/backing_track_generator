@@ -1,0 +1,121 @@
+// Do Do Do
+
+Tempo 140
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingIntro
+
+Begin AllGrooves Arpeggio
+   Voice Piano2
+   Articulate 90
+   Harmony OpenBelow
+   Octave 5
+   Volume m
+End
+
+Begin Solo
+   Voice Piano2
+   Articulate 110
+   Harmony OpenBelow
+   Octave 5
+   Volume ff
+   Rtime 5
+   Rvolume 10
+   Begin Riff
+      4c+;e+;;c+;
+      4g;c+;;g;
+      4f;g;a;c+;
+      1b;
+   End
+End
+
+1        Eb6
+2        Cm7
+3        Fm7
+4       Bb7
+
+Repeat
+Groove Swing
+Volume m
+
+5       Eb6
+6        C7
+7       Cm7      /      /     F7
+8       Bb7      /      /  Bb7#5
+
+Groove SwingWalk
+Decresc mp 4
+
+9       Eb6      /      /    Fm7
+10       C7
+11      Cm7      /      /     F7
+12      Bb7      /      /  Bb7#5
+
+Groove SwingSus
+Cresc mf 4
+
+13       Eb      /     Bb
+14       Cm      /     Gm
+15       Ab      /    Fm7    Bb7
+16       Eb      /      F
+
+Groove Swing
+Decresc mp 4
+
+17       Bb      /     Gm
+18       Cm      /     F7
+19       Bb
+20     Abm6      /      /   Bb#5
+
+Groove SwingPlusSus
+Cresc m 4
+
+21      Eb6      /      /    Fm7
+22       C7
+23      Cm7      /      /     F7
+24      Bb7      /      /  Bb7#5
+
+Groove SwingSus
+Cresc mf 4
+
+25      Eb6
+26      Eb7
+27       Ab
+28     Abm6      /      /     B+
+
+Groove SwingPlus
+Decresc m 4
+
+29       Eb      /     Gm
+30       Cm      /      /   EbM7
+31       Ab      /   C7#5
+32       Fm   Abm6    Bb7  Bb7#5
+
+Groove Swing
+Decresc mp 2
+
+33       Eb      /     C7
+34      Fm7      /      /    Bb7
+
+RepeatEnding
+
+Groove SwingWalk
+Cresc m 2
+Walk Direction Down Up
+
+35       Eb      /     Cb
+36        /      /    Bb7
+
+RepeatEnd
+
+
+Groove SwingEnd
+Decresc ppp 2
+Tempo *.8 2
+
+37       Eb      /     Cb
+38        /     Bb     Eb z!
+

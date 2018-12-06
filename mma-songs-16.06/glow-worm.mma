@@ -1,0 +1,107 @@
+// Glow Worm
+
+Tempo 160
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxTrotIntro
+Begin AllGrooves Arpeggio 
+  Rskip 70
+  Articulate 130
+  Voice AltoSax
+  Octave 6
+End
+
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Articulate 110
+    Harmony OpenBelow+8Below
+    Octave 5
+    Begin Riff
+        4a;8g;;4f#;g;
+        4g#;a;4b;c+;
+        4d+;;e+;;
+        1g+;
+    End
+End
+
+Cresc mp mf 4
+
+1         C
+2         Am
+3         Dm
+4         G7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5         C
+6        G7
+7         /
+8         C
+
+Groove FoxTrotPlus
+Swell m mf 4
+
+9       C/E      / Ebdim7
+10     G7/D
+11       Dm      /     G7
+12        C
+
+Groove FoxTrotSus
+Cresc mf 4
+
+13        /
+14       G7
+15        /
+16        C
+
+Groove FoxTrotSusPlus
+Decresc m 2
+
+17        /
+18       D7
+
+RepeatEnding  // for verse 1
+
+19       G7
+
+Groove FoxTrotFill
+
+20        C
+
+AllGrooves Arpeggio Voice Clarinet
+
+RepeatEnding  2    // for verse 2 & 3
+
+21       G7
+
+Groove FoxTrotFill
+
+22        C
+
+AllGrooves Arpeggio Voice Piano1
+
+RepeatEnd     // final verse
+Tempo *.8 8
+
+23      C/G
+24        /
+
+Groove FoxTrotSus
+Decresc ppp 6
+
+25      Db9
+26        /
+27        C
+28      Dm7      /  Db7#9
+
+Groove FoxTrotEnd
+
+29        C
+30        /  z!
+

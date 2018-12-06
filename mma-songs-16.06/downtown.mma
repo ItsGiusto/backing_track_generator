@@ -1,0 +1,100 @@
+// Downtown
+
+// This is the Petula Clark hit from 1964.
+// Same tempo, but she did it in E
+
+
+Tempo 118
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove SoftrockSusIntro
+
+Begin Solo
+	Voice Piano2
+	Volume f
+	Harmony 3
+	Articulate 120
+	Octave 6
+	Begin Riff
+		8d; ; ; 4; 8; ; ;
+		8e; ; ; 4; 8; ; ;
+		8e; 4a; 8+2e;
+		4r; 4a; 2d;
+	End
+End
+
+
+1    G    
+2    C    
+3    Am   
+4    D7   
+
+Repeat
+Groove Softrock
+
+5    G    /    Gmaj7 
+6    C    /    D7   
+7    G    
+8    C    /    D    
+9    G    /    Gmaj7 
+10   C    /    D7   
+11   G    
+12   C    /    D    
+
+Groove SoftRockSus
+
+13   G    
+14   Em   
+15   G    
+16   Em   
+
+Groove SoftRock1
+
+17   Bm   
+18   C    
+19   /    
+20   Em7  /    A    
+21   Em7  /    A    
+
+Groove SoftRockSus
+
+22   G    /    Gmaj7 
+23   Am7  /    D6   D9   
+24   G    /    Gmaj7 
+25   Am   /    D6   D9   
+26   G    /    Gmaj7 
+
+Groove SoftRock1Sus
+
+27   Am   /    D6   D9   
+
+RepeatEnding 2
+
+28   G    /    Am7  
+29   Gmaj7 /    Am7  
+
+Groove SoftRockSus
+
+30   Gmaj7 /    Am7  
+31   Gmaj7 /    Am7  
+
+RepeatEnd
+
+Groove SoftRockSus
+
+32   G    /    Am7  
+33   G    /    Am7  
+
+Groove SoftRockEnd
+Decresc mf pppp 6
+Repeat
+
+34   G    /    Am7  
+35   G    /    Am7  
+
+RepeatEnd 3
+
+

@@ -1,0 +1,123 @@
+// Wouldnt It Be Loverly
+
+Tempo 120
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice TremoloStrings
+    Volume m
+    Articulate 120
+    Octave 5
+    Harmony 3Below+16Below
+    Begin Riff
+        8e+;!c+;2.;
+        8c+;!a;2.;
+        4g;a;b;bn;
+        2.c+;
+    End
+End
+
+Groove ShowTuneIntro
+Swell p m 4
+
+1         F
+2        Am
+3        Gm
+4        C7
+
+
+Repeat
+Groove ShowTune
+Volume m
+
+5         F
+6        Bb      /    Gm7     C7
+7         F
+8        G7      /     C7
+
+Groove ShowTune1
+Cresc mf 3
+
+9         F      /      /   C7/E
+10        / Am7b5/Eb     D7 Bbm/Db
+11      F/C      /      / F#dim7
+12      Gm7      /  Gm7b5     C7
+
+Groove ShowTunePlus
+Volume m
+
+13        F
+14       Bb      /    Gm7     C7
+15        F
+16       G7      /     C7
+
+Groove ShowTune2
+Decresc mp 4
+
+17        F      /      /   C7/E
+18        / Am7b5/Eb     D7 Bbm/Db
+19      F/C      /      /     C9
+20        F
+
+Groove ShowTune2Plus
+Volume m
+
+21        C      / C#dim7
+22     G7/D      /     G7
+23        C      /   E7/B
+24       Am      /   E/G#   C7/G
+
+Groove ShowTunePlus
+Volume mf
+
+25       F6      /     E7
+26       Am      /      /     D7
+27        G      /      / C#dim7
+28      Gm7      /     C7
+
+Groove ShowTune1
+Volume m
+
+29        F
+30       Bb      /    Gm7     C7
+31        F
+32       G7      /     C7
+
+Groove ShowTune
+Decresc mp 4
+
+33        F      /      /   C7/E
+34        / Am7b5/Eb     D7 Bbm/Db
+35      F/C      /     Dm
+36      Gm7      /     C7
+
+Groove ShowTune1
+Decresc p 4
+
+/// So a slight ritard for the final part. On the return to the
+/// the beginning we do restore the tempo saved in $T
+
+Set T $_Tempo
+Tempo *.95 5
+
+37        F
+38       C7
+39        F
+40       Bb
+
+Repeatending
+41        F
+42        C7
+
+Tempo $T
+
+RepeatEnd
+
+Groove ShowTuneEnd
+Decresc ppp 2
+
+41        F
+42        /  z!

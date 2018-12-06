@@ -1,0 +1,99 @@
+// Green Eyes
+
+Tempo 110
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice PizzicatoString
+	Articulate 100
+	Harmony Open
+	Octave 6
+	Volume mf
+	Accent 1 20
+End
+
+Groove Rhumba
+Bass-Sus Sequence -
+
+1          z      C    {4e;g;8a;g;f;e;}
+2        Am7    {2a;4b;c+;}
+3        Dm7    {2d+;8c+;b;a;b;}
+4          C    {4c+;8e;g;b;4a;8b;}
+
+Cut 1.1
+5         G7      z    {2g;}
+
+Delete Solo
+
+Repeat    // do song 2x
+
+Groove RhumbaSus
+Swell m mf 8
+
+6          C
+7          /
+8          /
+9          /
+
+10         /
+11     C#dim
+12        G7
+13         /
+
+Groove RhumbaSus
+Cresc mp mf 8
+
+14         /
+15         /
+16         /
+17         /
+
+18      Aaug      /     A7
+19        D7
+20        G7
+21         /      /      z
+
+Groove Rhumba1
+Volume m
+
+22         C
+23         /
+24         /
+25         /
+
+Volume mf
+
+26       Gm6
+27        A7
+28        Dm
+29         /      z
+
+Groove Rhumba
+Decresc mp 4
+
+30       Dm7
+31         /      /  Fmaj7  F#dim
+32         C      /   B7#5
+33        Gm      /     A7
+
+Groove Rhumba1
+Cresc mf 4
+
+34        D7
+35        G7
+
+Repeatending
+
+36        C6      /  C#dim
+37        G7      z
+
+Repeatend
+
+Groove RhumbaEnd1
+	C6
+	/  z!
+Cut -2
+

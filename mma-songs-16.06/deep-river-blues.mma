@@ -1,0 +1,53 @@
+// deep-river-blues
+
+
+Tempo 180
+Transpose -2
+
+Groove Metronome2-4
+	z 
+	z / / z!
+
+Groove FolkIntro
+	G * 4
+	
+Set Toggle 1
+Repeat
+
+If Eq $Toggle 2
+	Set Toggle 0
+	Groove FolkArticulated
+Else
+	Groove FolkWalk
+Endif
+
+1 	G
+2 	Gdim
+3 	G
+4 	C
+5 	G
+6 	Gdim
+7 	D7
+8 	/
+9 	G
+10 	Gdim
+11 	G
+12 	C
+13 	G
+14 	Gdim /  D7
+
+RepeatEnding 8
+
+15 	G
+16 	/
+
+Inc Toggle
+
+RepeatEnd   
+
+Groove FolkEnd
+
+15 G
+16 G
+
+

@@ -1,0 +1,140 @@
+// Just One Of Those Things
+
+Tempo 280
+Keysig D minor
+
+Groove Metronome2-4
+ z * 2
+
+Groove BroadwayIntro
+
+Cresc ppp m 4
+Alltracks Cresc ppp m 4
+
+Begin Solo
+ Voice Piano1
+ Volume mf
+ Harmony Open
+ Articulate 90
+ Octave 5
+ Begin Riff
+   4d+;r;d+;
+   4c+;r;c+;
+   4b;r;b;r;
+   2a;
+ End
+End
+
+1    Dm   
+2    Cm7   
+3    Gm    
+4    A7   
+
+Repeat
+Groove Broadway
+Volume m
+Swell f 8
+
+5    Dm   
+6    /    
+7    A    
+8    /    
+9    F7   
+10   /    
+11   Bm7b5 /    /    C#dim3 
+12   /    
+
+Groove Broadway1
+Swell p 8
+
+13   F    
+14   Fm   
+15   Gm7  
+16   C7   
+17   Dm7  /    /    F#dim3 
+18   /    
+19   C7   
+20   /    /    A7   
+
+Groove BroadwaySus
+Cresc mf 8
+
+21   Dm   
+22   /    
+23   A    
+24   /    
+25   F7   
+26   /    
+27   Bm7  
+28   C#dim3 
+
+Groove Broadway1Sus
+Decresc mp 8
+
+29   F    
+30   G#dim3 /    /    F    
+31   Gm7  
+32   C7   
+33   Dm7  /    /    F#dim3 
+34   /    
+35   Fm7  
+36   /    /    Bb7  
+
+Groove Broadway
+Volume m
+
+37   Eb   
+38   /    
+39   Bb7  
+40   /    
+41   Eb   
+42   /    
+43   G7   
+44   /    
+
+Groove Broadway1
+Volume mf
+
+45   Am7  
+46   /    
+47   F#m7b5 
+48   Fm7  /    /    Dm7b5 
+49   Em7  /    /    D    
+50   /    F#dim3 
+51   C    
+52   /    /    A7   
+
+Groove BroadwaySus
+Volume mp
+
+53   Dm   
+54   /    
+55   A    
+56   /    
+57   F7   
+58   /    
+59   Bb   /    /    Gm7  
+60   /    
+
+Groove Broadway1Sus
+Cresc mf 8
+
+61   Am   /    /    D7   
+62   /    
+63   F#dim3 /    /    Gm   
+64   /    /    C7   
+65   F    
+66   /    
+
+RepeatEnding
+
+67   /    
+68   A7   
+
+RepeatEnd
+
+Groove BroadwayEnd
+Decresc pp 2
+
+69   /    
+70   /    

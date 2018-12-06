@@ -1,0 +1,120 @@
+// Mad About Him Sad Without Him Blues How Can I Be Glad Without Him Blues
+
+// Even though the title suggests that this is a blues song, it really isn't :)
+// For me, it works best as a good, old-fashioned foxtrot.
+
+Tempo 118
+Keysig C
+
+
+Groove Metronome2-4
+ 	z * 2
+
+Set Count 1      /// this is used to cut the 3rd repeat to 8 bars
+
+Groove FoxTrotintro
+
+Swell mp mf 4
+
+1          C      G             /// A 4 bar vamp intro
+2          C      G
+3          C      G
+4          C      /      G     /// this is the pickup bar
+
+Groove FoxTrot
+Volume m
+
+5          C
+6          /
+7          /
+8         C7
+
+Groove FoxTrotSus
+Cresc mf 4
+
+9         F7
+10         /
+11         C
+12         /
+
+Groove FoxTrot
+Decresc mp 2
+
+13        G7
+14         F      /     G7
+
+Groove FoxTrotSus
+
+15         C
+16         C      /      /      G
+
+Repeat 	// do this 2x, plus 8 bars for ending
+
+Groove FoxTrotPlus
+Volume m
+
+17         C
+18         /
+19        C7
+20         /
+
+Groove FoxTrotSusPlus
+Cresc mf 4
+
+21         F
+22        F7
+23         C
+24         /
+
+Groove FoxTrot
+Volume m
+
+25        G7
+
+If == $Count 3
+  Groove FoxtrotEnd
+  Decresc pp 2
+  Tempo *.8 2
+  26         /
+  27         C  /  z!  /// End here the 3rd time
+  EOF
+Endif
+
+26         /
+27         C
+
+28         C     G7      C 
+
+// Bridge section
+
+Groove FoxTrotSus
+Decresc mf mp 5
+
+29         /
+30         /
+31         /
+32        C7
+33         F
+
+Groove FoxTrotSusPlus
+Cresc m 2
+
+34         /
+35         C
+36         /
+
+Groove FoxTrotPlus
+Cresc mf 2
+
+37        G7
+38         /
+39         C
+
+Groove FoxTrotFill
+
+40         /
+
+Inc Count    /// use this for final ending section
+
+RepeatEnd 3
+

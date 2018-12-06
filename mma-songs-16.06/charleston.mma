@@ -1,0 +1,111 @@
+// Charleston
+
+Tempo 225
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove CharlestonIntro8
+Begin Solo
+   Voice Trumpet
+   Volume ff
+   Harmony OpenBelow
+   Articulate 66
+   Octave 5
+   Begin Riff
+      4f;8r;8+2f;
+	  8r;f;4.;8r;4f;
+	  4f#;8r;8+2f;
+	  8r;f#;4.;8r;4f;
+	  4g;8r;4g;8f#;4g;
+	  4g;8r;4g;8f#;4g;
+	  8c+;4;8r;2a;
+	  2g;f;
+   End
+End
+
+1         Bb
+2          /
+3         D7
+4          /
+5         G7
+6          /
+7         F7
+8          /
+
+Repeat
+Groove Charleston
+Cresc mp mf 4
+
+9         Bb
+10        D7
+11        G7
+12         /
+
+Groove Charleston1
+Volume m
+
+13        C7
+14        F7
+15        Bb
+16        F7
+
+Groove Charleston
+Cresc f 4
+
+17        Bb
+18        D7
+19        G7
+20         /
+
+Groove CharlestonWalkSus
+Decresc m 4
+
+21        Dm
+22        A7
+23        D7
+24        F7
+
+Groove CharlestonPlus
+
+25        Bb
+26        D7
+27        G7
+28         /
+
+Groove CharlestonSus
+Decresc mp 4
+
+29        C7
+30        F7
+31        Bb
+32        F7
+
+Groove CharlestonWalkSusPlus
+Cresc f 8
+
+33        Gm
+34       Bb7
+35        Eb
+36       Gb7
+
+Groove Charleston1Plus
+
+37       Bb6      /  Bbdim
+38        F7
+
+Repeatending 2
+
+Groove Charleston2
+
+39        Bb
+40        F7
+
+RepeatEnd
+
+Groove CharlestonEnd
+Decresc p 2
+
+41        Bb
+42         /      /     z!

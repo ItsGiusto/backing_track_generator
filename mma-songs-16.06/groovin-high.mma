@@ -1,0 +1,87 @@
+// Groovin High (Gillespie, 1945)
+
+Tempo 150
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove None
+
+Begin Solo-2
+   Voice AltoSax
+   Octave 5
+   Delay 8t
+   Volume f
+End
+
+Begin Solo
+    Voice Trumpet
+    Octave 5
+    Volume f
+    Rtime 5
+    Rvolume 10
+    Articulate 90
+    Begin Riff
+        8g;b;d+;8+4f+;8d+;b;
+        8en+;c#+;
+        8f;a;c+;8+4e+;8c+;a;
+        8d+;bn;4r;;8b;an;               
+    End
+    DupRiff Solo-2
+End
+
+Swingmode On Skew=55
+
+1         z
+2         z
+3         z
+4         z
+
+
+Repeat
+Groove Bebop
+
+5        Eb
+6         /
+7       Am7
+8        D7
+
+Groove BeBopPlus
+
+9        Eb
+10        /
+11      Gm7
+12       C7
+
+Groove BeBop
+
+13       F7
+14        /
+15      Fm7
+
+RepeatEnding 3
+
+16      Bb7
+
+Groove BeBopSus
+
+17      Gm7
+18     F#m7
+19      Fm7
+20    Bb7b9
+
+RepeatEnd
+
+21      Bb7
+
+Groove BeBopSus
+
+22       Fm
+23     Abm7      /    Db7
+
+Groove BeBopEnd
+
+24       Eb
+25      Fm7      /    Bb7
+

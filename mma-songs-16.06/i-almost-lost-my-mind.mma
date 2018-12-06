@@ -1,0 +1,76 @@
+// I Almost Lost My Mind
+
+// Written by and a hit for Ivory Joe Hunter in 1950.
+
+Tempo 80
+KeySig F
+
+Transpose  -2
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowBluesIntro
+Swingmode On
+
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Harmony OpenBelow+OpenAbove
+    Articulate 105
+    Octave 5
+    Rtime 10
+    Rvolume 10
+    Begin Riff
+        2f;8r;a;c+;a;
+        2f;8r;a;c+;a;
+        2g;8r;b;d+;b;
+        1c+;
+    End
+End
+
+Swell mp mf 4
+
+1          F
+2         Dm
+3         Gm
+4         C7
+
+Groove SlowBluesWalk4
+
+Repeat
+Volume m
+
+5          F
+6          /
+7          /     Bb      F     C7
+8          F      /      /     F7
+
+Groove SlowBluesWalk4Sus
+Cresc mf 4
+
+9         Bb
+10         /
+11         /
+12         F
+
+Groove SlowBluesWalk4
+Decresc mp 4
+
+13       Cm7                    // in the fake book this is a C7#5. Wrong??
+14       C11      /     C7
+15         F      /     Bb
+
+RepeatEnding 3
+
+16         F
+
+RepeatEnd
+
+Groove SlowBluesEnd
+Seq 1
+Chord-Sus Sequence -
+Decresc ppp 1
+
+17         /     C+     F9 z!
+

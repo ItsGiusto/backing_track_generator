@@ -1,0 +1,85 @@
+// Vivo Sonhando
+
+// A nice, fairly fast, Jobim BossaNova.
+
+Tempo 138
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+	Voice Strings
+	Harmony Open+8Below
+	Decresc ff mp 4
+	Octave 6
+	Articulate 110
+	Begin Riff    // an intro can't get much easier :)
+		2.g;4f#;
+		2.g;4f#;
+		1+1g~;
+	End
+End
+
+1         G
+2         /
+3         /
+4         /
+
+Repeat              // do the whole piece 2x
+
+Groove BossaNova
+Repeat
+
+5       GM7
+6         /
+7    EbM7/G
+8         /
+9       GM7
+10        /
+11      Bm7
+12     E7b9
+
+Groove BossaNovaSus
+
+13      Am7
+
+RepeatEnding
+
+14      Cm9      /    Cm6
+15      Bm7
+16   E7#5b9
+17      Am7
+18     D7b9
+19      GM7
+20      Gm7
+
+Groove BossaNova3Sus
+
+RepeatEnd
+
+21      Cm9      /    Cm6
+22      Bm7
+23   E7#5b9      /   E7#9
+24      A13      /   A7#5
+25      Am7      /     D9
+26       G6
+
+RepeatEnding
+
+Groove BossaNovaFill
+
+27   EbM7/G
+
+RepeatEnd
+
+Groove BossaNova2End
+Seq 3
+Tempo *.8 2
+Decresc pp 2
+
+27   EbM7/G
+28      GM9      GM13#11
+
+Fermata -3 4 120

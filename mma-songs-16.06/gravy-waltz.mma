@@ -1,0 +1,124 @@
+// Gravy Waltz
+
+Tempo 120
+
+Groove Metronome3
+	z * 2
+
+Groove JazzWaltzIntro8
+
+Begin Solo
+	Voice Piano2
+	Volume f
+	Articulate 80
+	Harmony Open+8Below
+	Octave 5
+	Rtime 5
+	RVolume 10
+	Begin Riff
+		8e; g; a; g; a; g;
+		4a;g;f;
+		8e; g; a; b; a; b;
+		4c+;b;a;
+		8c+; d+; c+; d+; c+; d+;
+		4f+;e+;d+;
+		4f+;e+;d+;
+		2f+;
+	End
+End
+
+Cresc mp mf 8
+
+SwingMode On
+
+1      C     
+2	   F
+3      Am    
+4	   F
+5      Dm    
+6	   F
+7      G7    
+8      /     
+
+Delete Solo
+
+Repeat
+Groove JazzWaltz
+Volume mf
+
+9      C     
+10     F     
+11     C     /    E7    
+12     Am    
+
+Groove JazzWaltz2
+
+13     D9    /    Fm6   
+14     Gm6   A7    
+15     D7    /    G7    
+16     C
+
+Groove JazzWaltz1
+Volume mp
+     
+17     C     
+18     F     
+19     C     /    E7    
+20     Am    
+
+Swell m 4
+
+21     D9    /    Fm6   
+22     Gm6   A7    
+23     D7    /    G7    
+24     C 
+
+Groove JazzWaltzSus
+Cresc p mf 8
+    
+25     F7    
+26     C     
+27     F7    
+28     C7 
+   
+29     F7    
+30     C     
+
+Groove JazzWaltz1Sus
+
+31     D7    
+32     G     D7    G7  
+
+Groove JazzWaltz
+Volume mf
+
+33     C     
+34     F     
+35     C     /    E7    
+36     Am    
+
+Groove JazzWaltz2Sus
+
+37     D9    /    Fm6   
+38     Gm6   A7    
+
+RepeatEnding
+
+Groove JazzWaltzSus
+Decresc p 2
+
+39     D7    /    G7    
+40     C  
+
+RepeatEnd
+
+Groove JazzWaltzEnd
+
+Tempo -20 2
+Decresc pp 2
+
+39     D7    /    G7    
+40     C  
+
+
+

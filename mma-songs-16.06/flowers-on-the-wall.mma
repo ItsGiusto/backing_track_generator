@@ -1,0 +1,101 @@
+// Flowers On The Wall
+
+// Statler Brothers; peak Billboard position # 4 in 1966
+// They sang this is "B" with 3 verses. Also, there is
+// a short tag after the 2x repeat at the end.
+
+
+Tempo 196    // their tempo
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+	Voice Banjo
+	Volume m
+	Articulate 90
+	Octave 5
+End
+
+Groove HillCountryPlus
+Chord Sequence -
+Arpeggio Rskip 0
+
+1    z!   {1b;} 
+2    z!   {1c+;} 
+3    F7   {1c#+;} 
+4    /    /    /    z    {1d+;} 
+
+Repeat
+Groove HillCountryPlus
+
+5    Bb   
+6    /    
+7    Gm   
+8    /    
+9    C7   
+10   /    
+11   F7   
+12   /    
+
+Groove HillCountrySusPlus
+
+13   Bb   
+14   /    
+15   Gm   
+16   /    
+17   C7   
+18   /    
+19   F7   
+20   /    
+
+// Chorus
+
+Groove HillCountry
+
+21   Gm   
+22   /    
+23   /    
+24   /    
+25   /
+
+Bass Volume ff
+    
+26   /    
+27   /    
+28   /    
+29   /    
+30   /    
+
+Groove HillCountrySusPlus
+
+31   Eb   
+32   /    
+33   /    
+34   /    
+35   F    
+36   Eb   
+
+RepeatEnding
+
+37   F    
+38   /    
+
+RepeatEnd
+
+39   F    
+
+Groove HillCountry
+Decresc pppp 8
+
+Repeat
+
+40   /    /    Eb   
+41   F    
+42   /    Eb   
+43   F    
+
+RepeatEnd
+
+

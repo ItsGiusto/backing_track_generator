@@ -1,0 +1,165 @@
+// charleston-parisien
+
+Tempo 160
+Keysig Eb
+
+Groove  Metronome2-4
+	z * 2
+
+Groove SwingIntro
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Octave 5
+    Harmony OpenBelow+OpenAbove
+    Articulate 90
+    Begin Riff
+        2g;4a;g;
+        2bn;4a;b;
+        4c+;g;8b;;an;a&;
+        2g;
+    End
+End
+
+Swingmode On
+Swell mp f 4
+
+1         Cm
+2         G7
+3        Cm7
+4         Cm
+
+Repeat
+Groove Swing
+Cresc mp f 8
+
+5         Cm
+6          /
+7         G7
+8          /
+
+Groove SwingPlus
+
+9          /
+10         /
+11        Cm
+12         /
+
+Groove Swing
+
+13        C7
+14         /
+15        Fm
+16         /
+
+Groove SwingSus
+
+17        G7
+18         /
+19        Cm
+20         /
+
+Groove SwingWalk
+
+21         /
+22         /
+23        G7
+24         /
+
+Groove Swing
+
+25         /
+26         /
+27        Cm
+28         /
+
+Groove SwingPlusSus
+
+29        C7
+30         /
+31        Fm
+32         /
+
+Groove SwingWalkPlus
+
+33        G7
+34         /
+35         C
+36         z
+
+KeySig C
+
+Groove Swing
+Volume mf
+
+37         C
+38         /      /      /   Cdim
+39        G7
+40         /      /     Dm
+
+Groove SwingPlusSus
+
+41        G7
+42         /
+43         C
+44         /      /     G7    Gm6
+
+Groove SwingSus
+
+45        A7
+46         /
+47        Dm      /     A7
+48        Dm      /     A7    Cm6
+
+Groove SwingWalk
+
+49        D7      /    Am7
+50       Dm7      /     D7
+51        G7
+52         /      z      z      z
+
+Groove SwingPlus
+Cresc mp f 10
+
+53         C
+54         /      /      /   Cdim
+55        G7
+56         /      /     Dm
+
+Groove SwingPlusSus
+
+57        G7
+58         /
+59         C
+60         /      /     G7    Gm6
+
+Groove SwingSus
+
+61        A7
+62         /
+63        Dm      /     A7
+64        Dm
+
+Groove Swing
+
+65        D7
+66         /    Dm7     G7
+
+RepeatEnding
+
+67         C
+
+Groove SwingTriple
+
+68         /      /     G7
+
+
+RepeatEnd
+
+Tempo -20 2
+Groove SwingEnd
+
+69         C   // Cdim Dm7
+70         C     z!
+

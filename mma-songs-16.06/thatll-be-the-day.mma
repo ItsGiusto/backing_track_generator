@@ -1,0 +1,92 @@
+// Thatll Be The Day
+
+Tempo 140
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove 50sRockIntro
+
+Begin Solo
+    Voice CleanGuitar
+    Octave 5
+    Articulate 70
+    Volume f
+    Begin Riff
+        8b;; ;; 4;d&+;
+        8b;; ;; 4;d+;
+        8c+;; ;; 4;e&+;
+        1f+;
+    End
+End
+
+Swingmode On   // just for the solo notes.
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat 
+Groove 50sRock
+
+5        Eb
+6         /
+7        Bb
+8         /      /    Bb7
+
+Groove 50sRockPlus
+
+9        Eb
+10        /
+11       Bb
+12       / F7@1.25    Bb@3.5    Bb7@4.5
+
+Groove 50sRockSus
+
+13       Eb
+14       Bb
+15       Eb
+16       Bb     F7     Bb
+
+Groove 50sRockSusPlus
+
+17       Eb
+18       Bb
+19       C7
+20       F7
+
+
+RepeatEnd  3      /// play chorus and verse 3 times
+
+
+// ending ... play chorus 2 times, fade 2nd time
+
+Repeat 
+Groove 50sRock
+
+5        Eb
+6         /
+7        Bb
+8         /      /    Bb7
+
+Groove 50sRockPlus
+
+9        Eb
+10        /
+
+RepeatEnding
+
+11       Bb
+12       / F7@1.25    Bb@3.5    Bb7@4.5
+
+Decresc ppp 8
+RepeatEnd
+Groove 50sRockEnd
+
+111       Bb
+112      F7  /   z!
+
+
+

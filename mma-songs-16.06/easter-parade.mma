@@ -1,0 +1,124 @@
+// Easter Parade
+
+Tempo 160
+Keysig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+    Voice Trumpet
+    Swell mf ff 4
+    Articulate 90
+    Harmony OpenBelow
+    Octave 4
+    Rtime 5
+    RVolume 5
+    Begin Riff
+        4.d+;8c#+;4.d+;8c#+;
+        4d+;2.;
+        4.c+;8bn;4.c+;8bn;
+        2c+;
+    End
+End
+
+Begin Solo-1
+    Harmony 3Below+Open8Below
+    Voice AltoSax
+    Swell mf f 4
+    Articulate 100
+    Octave 5
+    delay 20t
+End
+
+Solo DupRiff Solo-1
+
+Cresc mp f 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove BigBand
+Volume m
+
+5        Bb      /     F7
+6       Bb7      /  Bb7#5
+7      Eb/G
+8        Eb      /    Cm7 C#dim7
+
+Groove BigBandPlus
+Decresc mp 4
+
+9      Bb/D      /      /     F7
+10       Bb      /     Gm
+11       C7
+12     Cm11/F      /     F7
+
+Groove BigBandSus
+Cresc f 4
+
+13       Bb      /     F7
+14      Bb7      /      /  Bb7#5
+15     Eb/G
+16       Eb      /      / C#dim7
+
+Groove BigBand
+Decresc m 4
+
+17     Bb/D      /      /     F7
+18       Bb      /     Gm
+19       C9     C7      /     F7
+20       Bb   Cm11/F     Bb
+
+Groove BigBandPlus
+Decresc mp 4
+
+21      Fm6      /    Bb6
+22        /      /      /     B+
+23      Eb6      / Eb6/Bb
+24       Eb      /      /  Eb/Bb
+
+Groove BigBandSusPlus
+Cresc m 4
+
+25       Gm
+26       C7
+27        F      /   Eb9/F
+28     Dm/F      /     F9 F7#5b9
+
+Groove BigBandSus
+
+29       Bb      /     F7
+30      Bb7      /      /  Bb7#5
+31     Eb/G
+32       Eb      /    Cm7 C#dim7
+
+Groove BigBandPlus
+Volume mf
+
+33     Bb/D      /      /     F7
+
+Decresc mp 2
+
+34       Bb      /     Gm
+35       C9      /      /     F7
+
+RepeatEnding 2
+
+Groove BigBandFill
+
+36       Bb  Bdim7     Cm   F7#5
+
+RepeatEnd
+
+Groove BigBandEnd
+
+Decresc pp 1
+
+37       Bb  z!
+

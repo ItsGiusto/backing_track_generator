@@ -1,0 +1,105 @@
+// Lemon Drop (as done by Ella Fitzgerald)
+
+Tempo $( 70 * 2 ) // but a bit slower :)
+
+Groove Metronome2-4
+   z * 2
+
+Begin Solo
+    Voice Piano2
+    Harmony 8Below
+    Articulate 80
+    Volume ff
+    Octave 5
+    Rtime 5
+    Rvolume 10
+    Accent 1 30 3 20
+    Begin Riff
+        8c+;g;c+;e+;d+;4c+;
+        8c+;a;e;c+;a;4e;
+        8d+;c+;b;a;4b;a;
+        2.g;
+    End
+End
+Groove BebopIntro
+Cresc p m 4
+
+1         C
+2        Am
+3        Dm
+4        G7 
+
+Repeat
+Groove Bebop
+Decresc m mp 4
+
+5         C      /  F#7b5
+6         F      /  F#dim
+7       Em7      /     A7
+8       Dm7      /     G7
+
+Groove BebopSus
+Cresc m 4
+
+9         C      /  F#7b5
+10        F      /  F#dim
+11      Dm7      /     G7
+12        C      /   G7b5
+
+Groove Bebop
+
+13        C      /  F#7b5
+14        F      /  F#dim
+15      Em7      /     A7
+16      Dm7      /     G7
+
+Groove BebopPlus
+
+17        C      /  F#7b5
+18        F      /  F#dim
+19      Dm7      /     G7
+20        C      /     C7
+
+Groove Bebop
+Decresc mp 4
+
+21      Bm7      /   /  E7
+22       /
+23        A7
+24        /
+
+Groove BebopSusPlus
+Cresc m 4
+
+25      Dm7
+26       D7
+27       G7
+28        /
+
+Groove Bebop
+
+29        C      /  F#7b5
+30        F      /  F#dim
+31      Em7      /     A7
+32      Dm7      /     G7
+
+Groove BebopPlus
+Decresc mp 2
+
+33        C      /  F#7b5
+34        F      /  F#dim
+
+Repeatending
+
+35      Dm7      /     G7
+36        C     /      G7
+
+RepeatEnd
+
+Groove BebopEnd
+Decresc pp 2
+
+37      Dm7      /     G7
+38        C     / z!
+
+

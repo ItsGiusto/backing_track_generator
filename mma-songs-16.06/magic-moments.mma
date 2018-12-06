@@ -1,0 +1,103 @@
+// Magic Moments
+
+Tempo 102
+KeySig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove PianoBalladIntro2
+
+Begin Solo
+    Voice Strings
+    Harmony OpenBelow+8Below
+    Octave 5
+    Articulate 110
+    Volume f
+    Rtime -5,0
+    Rvolume 5
+    Begin Riff
+        2e;b;
+        2c;g;
+        2c+;f;
+        1b;
+    End
+End
+
+Swell mp f 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove PianoBallad1
+Decresc m mp 4
+
+5        Eb
+6       Fm7      /      /    Bb7
+7        Eb      /     Cm
+8       Fm7      /      /    Bb7
+
+Groove PianoBallad1Sus
+Cresc m 4
+
+9        Eb
+10       Gm
+11       Ab
+12      Bb9
+
+Groove PianoBallad1
+Decresc mp 4
+
+13       Eb
+14       Gm
+15       Ab
+16      Bb9
+
+Groove PianoBallad1Sus
+Cresc m 4
+
+17      Eb7      /   Bbm7    Eb7
+18     Bbm7      /    Eb7
+19      Ab6      /      /     Ab
+20      Db9
+
+Groove PianoBallad1
+Volume mf
+
+21       Eb
+22       Gm
+
+RepeatEnding  
+
+Decresc mp 2
+23       Ab      /  Bb7b9
+
+Groove PianoBalladFill
+Begin Arpeggio-High
+  Sequence A8
+  Rskip 0
+  Direction Down
+  range 3
+  Octave -1
+End
+Arpeggio-Low  Sequence A4
+
+24       Eb
+
+RepeatEnd
+
+Decresc pppp 4
+
+25       Ab
+26    Bb7b9
+
+
+Groove PianoBalladEnd
+
+27       Eb
+28        / z!
+
+

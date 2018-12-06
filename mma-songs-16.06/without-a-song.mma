@@ -1,0 +1,92 @@
+// Without A Song
+
+Tempo 85
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowJazz2Intro
+AllGrooves Chord-Organ Volume -30
+
+Begin Solo
+    Voice $_Chord-Organ_Voice
+    Harmony OpenBelow
+    Octave 5
+    Articulate 120
+    Volume m
+    Begin Riff
+       4f;a;c+;a;
+       4e;g;bn;g;
+       4d;f;a;f;
+       1c;
+    End
+End
+
+1          +F
+2         +Em
+3        Dm
+4        C7      /     C+
+
+Repeat
+Groove SlowJazz2
+
+5        FM7
+6       Bb/F
+7        FM7      /      /     F6
+8       Bb/D
+
+Groove SlowJazz2Sus
+
+9          F      /   F6/D
+10       C11      /     C7
+
+RepeatEnding
+
+11         F      /  Bb //Gm/Bb
+12      Gm7      /     C7     C+
+
+RepeatEnd
+
+13         F      /     Bb
+14         F     F7
+
+Repeat
+Groove SlowJazz2
+
+15        Bb      /   F7/C     Bb
+16      F7/C      /   Bb/D   F7/C
+17        Bb     C7   F9/A      F
+18       Am      F     F9      F
+
+Groove SlowJazz2Sus
+
+19        Am      /     E7    Am7
+20        D7      /    C/G     G7
+21         C    F/C     C7
+22         /      /      /     C+
+
+Groove SlowJazz2
+
+23       FM7
+24      Bb/F
+25       FM7      /      /     F6
+26      Bb/D
+
+Groove SlowJazz2Sus
+
+27         F      /   F6/D
+28       C11     C7
+
+RepeatEnding
+
+29         F      /     Bb
+30         F     F7
+
+RepeatEnd
+
+Groove SlowJazz2End
+
+31         F      /     G7    Bbm
+32         F     z!
+

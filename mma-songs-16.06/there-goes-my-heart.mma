@@ -1,0 +1,120 @@
+// There Goes My Heart
+
+Tempo 145
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Set ArpeggioVoice JazzGuitar
+Groove FoxTrotIntro
+
+Begin AllGrooves
+    Chord-Piano Voicing Mode=Key
+    Chord-Sus   Voicing Mode=Key
+    Begin Arpeggio
+        Articulate 140
+        Octave 6
+        rskip 75
+        Harmony 3Below
+    End
+End
+
+Begin Solo
+    Voice Strings
+    Articulate 120
+    Harmony 3Below
+    Octave 5
+    Volume f
+    Begin Riff
+        2f+;4d+;c+;
+        2d+;b;
+        2c+;e+;
+        2f+;
+    End
+End
+
+Swell mp mf 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5        Bb
+6         /      /     Dm     G+
+7        Cm
+8         /
+
+Groove FoxTrotPlus
+Volume mf
+
+9       Cm7
+10        /     F7    Cm7     F7
+11       Bb
+12        /
+
+Groove FoxTrot
+Volume f
+
+13       Fm      /     G7
+14        /   Fdim     G+     G7
+15       Cm      /     G7
+16       Cm
+
+Groove FoxTrotPlus
+Decresc m 4
+
+17      Gm7      /     C7
+18        /
+19      Cm7
+20       F7     z
+
+Groove FoxTrotSus
+
+21       Bb
+22        /      /     Dm     G+
+23       Cm
+24        /
+
+Groove FoxTrotSusPlus
+
+25      Cm7
+26        /     F7    Cm7     F7
+27       Bb
+28        /
+
+Groove FoxTrotPlus
+Volume mf
+
+29       Fm      /     G7
+30        /      /    Dm7     G7
+31       Cm
+32      Ebm
+
+Groove FoxTrot
+Decresc m 2
+
+33       Bb
+34       Cm      /     F7   Ebm6
+
+RepeatEnding
+
+Groove FoxTrotFill
+Decresc mp 2
+
+35       Bb      /    Gb7
+36       F7      z
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc pp 2
+
+37       Bb      /    Ebm
+38       Bb      z!
+

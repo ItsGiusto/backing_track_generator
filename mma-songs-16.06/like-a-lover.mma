@@ -1,0 +1,131 @@
+// Like A Lover
+
+Tempo 120
+Keysig C
+
+Groove Metronome2-4
+   z * 2
+
+Groove BossaNovaIntro1
+
+Begin Solo
+    Voice Strings
+    Articulate 110
+    Volume f
+    Harmony OpenBelow+8Below
+    Octave 6
+    Begin Riff
+        2.c+;4g;
+        2.a;4e;
+        2.f;4d;
+        1g;
+    End
+End
+
+Swell mp m 4
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+Repeat
+Repeat
+Groove BossaNova
+Volume m
+
+5        CM7
+6      G7sus
+7        CM7
+8       D7/C
+9        Bm7      /    Em7
+
+Groove BossaNovaPlus
+Cresc mf 4
+
+10    A13sus      /     A9
+11       DM7
+12       G13      /   G7#5
+13       FM7
+
+Groove BossaNova
+Decresc mp 4
+ 
+14      G7/F
+15       CM7
+16     G7sus
+17       CM7
+
+Groove BossaNovaFill
+
+18     G7sus
+
+RepeatEnd
+
+
+Groove BossaNovaSus
+Volume mf
+
+19       CM7
+20       CM7
+21      D7/C
+22         /
+
+Groove BossaNovaSusPlus
+Decresc m 4
+
+23       Bm7      /   B7b9
+24       Em7
+25    F#m7b5
+26       B13      /   B7#5
+27       Em7
+
+Groove BossaNovaSus
+
+28        Am      /    Gm7 D(add9)/F#
+29         /
+30     G7sus
+31         /
+
+Groove BossaNova
+Cresc mf 4
+
+32       CM7
+33     G7sus
+34       CM7
+35      D7/C
+36       Bm7      /    Em7
+
+Groove BossaNova1SusPlus
+Volume m
+
+37    A13sus      /     A9
+38       Dm7
+39       G13      /   G7#5
+40       FM7
+
+Groove BossaNovaSus
+Decresc mp 3
+
+41      G7/F
+42       CM7
+43     G7sus
+
+RepeatEnding
+
+44       CM7
+
+Groove BossaNovaFill
+
+45     G7sus
+
+RepeatEnd  /// do entire song 2x
+
+Groove BossaNova2End
+Seq 3
+Tempo *.9 2
+Decresc ppp 2
+
+44       CM7
+45   / z!
+Fermata -4 4 120

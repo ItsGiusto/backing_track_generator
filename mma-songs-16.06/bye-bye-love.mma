@@ -1,0 +1,128 @@
+// Bye Bye Love
+
+Tempo 168
+Keysig F
+
+// Define a single bar bass walk. Used at the end of
+// the intro and verse.
+
+Set BWalk Bass Riff 1 4 5 128; 2 4 4 128; 3 4 3 128; 4 2 2 128 
+   
+Groove Metronome2-4
+	z * 2
+
+Groove JiveIntro
+Begin Solo
+    Voice CleanGuitar
+    Harmony 3Below
+    Articulate 90
+    Octave 5
+    Volume f
+    Begin Riff
+        4c+;8r;c+;;
+        4b;8r;b;;
+        4c+;8r;c+;;
+        2b;
+    End
+End
+
+Cresc mp mf 4
+1      F     
+2      Bb    
+3      F  
+$BWalk
+4      Bb    
+
+Repeat
+// CHORUS
+Groove JiveClap
+Volume m
+
+5      Bb    
+6      F     
+7      Bb    
+8      F  
+
+Groove JivePlus
+   
+9      Bb    
+10     F     
+11     /    /    C7    
+12     F 
+
+Groove JiveClapSus
+Volume mf
+    
+13     Bb    
+14     F     
+15     Bb    
+16     F  
+
+Groove Jive
+Cresc f 4
+
+17     Bb    
+18     F     
+19     /    /    C     
+20     F 
+
+Groove JiveSus
+
+RepeatEnding 2
+
+21     /    /    C7
+$Bwalk    
+22     F 
+
+// VERSE
+Groove Jive1
+Volume mf
+
+23     z F    
+24     C7    
+25	/
+26     F 
+27	/
+    
+Groove Jive1Sus
+Volume f
+
+28     C7    
+29	/
+30     F     
+31     /    /    /    F7 
+
+Groove Jive1Plus
+Decresc m 8
+
+32     Bb    
+33     /    /    /    B     
+34     C7 
+35	/
+
+Groove Jive1ClapSus
+
+36	/
+37	/
+38     F 
+$Bwalk
+39	/
+
+RepeatEnd
+
+// Our ending. Repeat last 2 bars of the chorus 3x
+Groove Jive
+Decresc mf pppp 6
+Set Counter 1
+
+Repeat
+
+21     /    /    C7    
+22     F 
+
+inc Counter
+if == $Counter 3   /// for the 3rd time do ending groove
+  Groove JiveEnd
+Endif
+
+RepeatEnd 3

@@ -1,0 +1,133 @@
+// Im Beginning To See The Light
+
+Tempo 130
+KeySig G
+
+Groove Metronome2-4
+	   z * 2
+
+Groove FoxTrot1Intro
+Begin Solo
+  Voice VoiceOohs
+  Articulate 110
+  Harmony OpenBelow+16Below
+  Volume fff
+  Octave 5
+  Begin Riff
+    4g+;8r;8e+;d+;r;b;
+	4b;r;2b;
+	8a;r;a;r;a;r;4c+;
+	1d+;	
+  End
+End
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove FoxTrot1
+Cresc m mf 4
+
+5        G6      /    Eb7     D7
+6         G     G6      /     G+
+7        G6      /    Eb7     D7
+8       Eb7
+
+Groove FoxTrot1Plus
+Cresc m mf 4
+
+9        G6      /      /     D7
+10        G     Dm     E7
+11       A9      /    Am7     D7
+12        G   Gdim     D7
+
+Groove FoxTrot1
+Volume m
+
+13       G6      /    Eb7     D7
+14       G6      /      /     G+
+15       G6      /    Eb7     D7
+16       Eb
+
+Groove FoxTrot1Plus
+Volume mf
+
+17       G6      /      /     D7
+18        G     Dm     E7
+19       A9      /    Am7     D7
+20        G
+
+Groove FoxTrot1Sus
+Volume m
+
+21       B7
+22        /
+23      Bb7
+24        /
+
+Groove FoxTrot1SusPlus
+Volume mf
+
+25       A7
+26        /
+27      Eb7
+28       Am      /     D7
+
+Groove FoxTrot1
+Volume m
+
+29       G6      /    Eb7     D7
+30        G     G6      /     G+
+31       G6      /    Eb7     D7
+32      Eb7
+
+Groove FoxTrot1Plus
+Decresc m mp 4
+
+33       G6      /      /     D7
+34        G     Dm     E7
+
+RepeatEnding 2
+
+Groove FoxTrotFill
+
+35       A9      /    Am7     D7
+
+if ndef avoice
+  Set avoice
+  Begin Allgrooves Arpeggio
+     Voice VoiceOohs
+	 Octave 5
+	 Volume +40
+  End
+else
+  Begin Allgrooves Arpeggio
+     Voice Piano1
+ 	 Octave 6
+	 Volume -40
+  End
+Endif
+
+Begin Solo
+ Riff 8r;4g;8a;b;c+;4d+;
+ Volume m
+ Articulate 80
+End
+SwingMode On
+
+36        G      /   Gdim     D9
+
+
+RepeatEnd
+
+
+Groove FoxTrot1End
+
+Decresc pppp 2
+Tempo *.8 2
+
+35       A9      /    Am7     D7
+37        G   D7+5      G
+

@@ -1,0 +1,78 @@
+// Hey Good Looking
+
+Tempo 150
+
+Groove Metronome2-4
+
+	z * 2
+
+Begin Solo
+	Voice Piano2
+	Volume f
+	Octave 5
+	Harmony 3
+	Articulate 90
+End	
+
+Groove CountrySwing
+
+1 	D7       {4a;;;;}
+2 	G7       {4b;;a;g;}
+3 	C /  G   {1+2c+~;}
+4 	C
+
+Repeat
+Groove CountrySwing
+
+5 	C
+6 	/
+7 	/
+8 	/
+9 	D7
+10 	G7
+11 	C
+12 	/  /  G7
+
+Groove CountrySwingSus
+
+13 	C
+14 	/
+15 	/
+16 	/
+17 	D7
+18 	G7
+19 	C
+20 	C7
+
+Groove CountrySwing1Sus
+
+21 	F
+22 	C
+23 	F
+24 	C
+25 	F
+26 	C
+27 	D7
+28 	G7
+
+Groove CountrySwing1
+
+29 	C
+30 	/
+31 	/
+32 	/
+33 	D7
+34 	G7
+
+RepeatEnding 2
+
+35 	C /  G
+36 	C
+
+RepeatEnd
+
+Groove CountrySwingEnd
+
+37 	C /  F
+38 	C / z!
+

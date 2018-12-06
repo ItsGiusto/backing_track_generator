@@ -1,0 +1,116 @@
+// Nagasaki
+
+Tempo $(110 * 2)
+Keysig C
+
+Groove Metronome2-4
+   z * 2
+
+Groove DixieIntro8
+Arpeggio Sequence	A8  /  A4  /   A2 / A1  z
+
+Begin Solo
+    Voice Banjo
+    Harmony OpenBelow
+    Octave 5
+    Articulate 120
+    Begin Riff
+        4g+;e+;;c+;
+        4g+;e+;;c+;
+        4a+;e+;;c+;
+        4a+;e+;;c+;
+        4f+;e+;d+;c+;
+        4f+;e+;d+;c+;
+        2d+;;
+        4d+;e+;2f+;    
+    End
+End
+
+Solo Swell mp ff 8
+Cresc mp mf 8
+
+1         C
+2         /
+3        Am
+4         /
+
+5        Dm
+6         /
+7        G7
+8         /
+
+Repeat
+Groove Dixie4
+Cresc mp m 4
+
+9         C      /   Gdim
+10       G7
+11        C      /   Gdim
+12       G7
+
+Groove Dixie4sus
+
+13        C   Ddim     Am     E7
+14        F   Edim     Dm    Ab7
+15        C      /    Ab7     G7
+16        C
+
+Groove Dixie4
+Volume mf
+
+17        /      /   Gdim
+18       G7
+19        C      /   Gdim
+20       G7
+
+Groove Dixie4Strum
+Volume m
+
+21        C   Ddim     Am     E7
+22        F   Edim     Dm    Ab7
+23        C      /    Ab7     G7
+24        C      /     G7     C7
+
+Groove DixieStrumSus
+Cresc mp m 4
+
+25        F
+26       Fm
+27        C
+28       C7
+
+Groove Dixie4
+
+29        F
+30       Fm
+31        C      F      C      F
+32       Eb     D7     G7
+
+Groove DixieSus
+Volume mf
+
+33        C      /   Gdim
+34       G7
+35        C      /   Gdim
+36       G7
+
+Repeatending
+
+Groove Dixie4Strum
+Volume m
+37        C   Ddim     Am     E7
+38        F   Edim     Dm    Ab7
+39        C      /    Ab7     G7
+40        C
+
+RepeatEnd
+Groove DixieEnd
+Decresc mp 4
+Tempo *.9  4
+
+37        C   Ddim     Am     E7
+38        F   Edim     Dm    Ab7
+39        C      /    Ab7     G7
+40        C      z!
+
+

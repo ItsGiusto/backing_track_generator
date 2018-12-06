@@ -1,0 +1,88 @@
+// Shadow Of Your Smile
+
+Tempo 74
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove RhumbaIntro
+
+Begin Solo
+	Voice Strings
+	Cresc mp mf 4
+	Articulate 110
+	Octave 5
+	Harmony Open
+	Begin Riff
+		4d;f;g;b;
+		4.c+;8a&;2c+;
+		4.e+;8c+;2e+;
+		2d+;
+	End
+End
+
+1   Bb      
+2   Fm      
+3   Cm      
+4   Gm      /       z       
+
+Repeat
+Groove Rhumba
+
+5   Am7     
+6   D7b9    
+7   Gm7     
+8   C7      /       z       
+9   Cm7     
+10  F7      
+11  BbM7    
+12  EbM7 
+
+Groove RhumbaSus
+   
+13  Am7b5   
+14  D7      
+15  Gm7     
+16  /       /       Gm7/F   
+17  Em7b5   
+18  A7      /      /  Eb7b5   
+19  D11     
+20  D7b9    /       z       
+21  Am7     
+22  D7b9    
+23  Gm      
+24  /       /       z   
+
+If Def Loop
+	Groove Rhumba3
+Else
+	Groove Rhumba1
+Endif
+
+25  Cm7     
+26  F7      
+27  Dm7b5   
+28  G7      
+29  Cm7     
+30  Ebm6    
+31  Dm7     /       Ab7b5   
+32  G11     /       G7      
+33  C7      /       C7b5    
+34  F11     /       z       
+
+RepeatEnding
+
+35  Bb6     
+36  / / z  
+
+Set Loop
+RepeatEnd
+
+Groove RhumbaEnd
+Seq 3
+Decresc p ppp 2
+
+37  Bb6  
+38  /  z!
+Cut -2

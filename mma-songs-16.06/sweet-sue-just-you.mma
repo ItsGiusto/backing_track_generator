@@ -1,0 +1,112 @@
+// Sweet Sue Just You
+
+Tempo 160
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+    Voice BrassSection
+    Volume f
+    Articulate 70
+    Octave 5
+    Harmony 3Below
+    Begin Riff
+       4c+;;8;b;a;g;
+       4a;;8;g;f;e;
+       8d;e;f;g; a;g;f;e;
+       8g;
+    End
+End
+
+Swingmode On
+Chord-Hits1 Sequence -
+Cresc mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove BigBand
+Volume m
+
+5       Am7
+6        D7
+7       Am7
+8        D7      /   D7b9
+
+Groove BigBandPlus
+Volume mf
+
+9         G
+10     D7b9
+11        G
+12        /
+
+Groove BigBand
+Volume f
+
+13      Am7
+14       D7
+15      Am7
+16       D7      /   D7b9
+
+Groove BigBandPlus
+Decresc m 4
+
+17        G
+18        /      /   D7b9
+19        G
+20        /
+
+Groove BigBandSus
+Chord-Sus Volume +10
+Cresc mf 4
+
+21        /
+22   GM7/F#
+23     G7/F
+24       E7
+
+Groove BigBandSusPlus
+Chord-Sus Volume +20
+Decresc m 4
+
+25       Am
+26      Am7
+27    Am7b5
+28       D7
+
+Groove BigBand
+
+29      Am7
+30       D7
+31      Am7
+32       D7      /   D7b9
+
+Groove BigBandPlus
+
+33        G
+34        /      /     C9
+
+RepeatEnding 2
+
+35        G
+
+Groove BigBandFill
+
+36      Am7     G7
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc ppp 2
+
+37        G      /      C    Cm6
+38      GM7      z!
+

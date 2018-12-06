@@ -1,0 +1,117 @@
+// Stairway To The Stars
+
+Tempo 85
+KeySig C
+
+Groove Metronome2-4
+    z * 2
+
+Groove PianoBalladIntro2
+Chord-Block Octave -1
+
+Begin Chord-Sus
+      Groove PianoBalladSus
+      Sequence {1 1 90 0 90 0 * 2}
+      Volume +30
+End
+
+Begin Solo
+    Voice Piano1
+    Octave 5
+    Articulate 110
+    Harmony OpenBelow+8Below
+    Volume mf
+    Begin Riff
+        43c+;;;2a;
+        43a;;;2e;   
+        43d;;;e;;f;
+        1g;
+    End
+End
+
+SwingMode On skew=58
+Swell mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Repeat
+Groove PianoBallad
+Decresc mf mp 4
+
+5         C      /   Ddim    Dm6
+6       Gm7      /     C9
+7       FM7
+8       Fm6      /    Ab+
+
+Groove PianoBalladSus
+Cresc m 4
+
+9         C      /    Am6     D9
+10      Dm7      /     G7
+11        C     C6   A7b9
+12      Ab7      /     G7
+
+Groove PianoBallad1
+
+13        C      /   Ddim    Dm6
+14      Gm7      /     C9
+15      FM7
+16      Fm6      /    Ab+
+
+Groove PianoBallad2
+Decresc mp 4
+
+17        C      /    Am6     D9
+18      Dm7      /     G7
+19        C      /    Am9     Am
+20      Am6      /   B7#5     B7
+
+Groove PianoBalladSus
+Cresc mf 4
+
+21       Em      /    Em7
+22       A7      /     Am
+23       Em      /    Em7
+24       A7     A9   A7b9     A7
+
+Groove PianoBallad2
+Decresc m 4
+
+25       Dm      /    Dm7
+26       G7      /     Gm
+27      Dm7
+28        /      /     G9
+
+Groove PianoBallad
+Decresc mp 4
+
+29        C      /   Ddim    Dm6
+30      Gm7      /     C9
+31      FM9
+32      Fm6      /    Ab+
+
+Groove PianoBallad
+
+33        C      /    Am6       D9
+34      Dm7      /     G7
+
+RepeatEnding
+
+Groove PianoBalladFill
+
+35        C      /    Am7
+36       D7      /     G7
+
+
+RepeatEnd
+
+Groove PianoBalladEnd
+Decresc ppp 2
+
+37        C      /    FM7     Fm
+38      CM9      /      C     z!
+

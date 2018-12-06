@@ -1,0 +1,169 @@
+// Vou Vivendo
+
+Tempo $( 50 * 2 )
+Keysig C
+
+Transpose 5
+
+Groove Metronome2-4
+   z * 2
+
+Groove BossaNova
+Begin Allgrooves Arpeggio
+      Octave 5
+End
+Repeat
+
+// "A" section
+
+Label DC
+Groove BossaNova
+
+1         C      /    C#dim7
+2        G7      /     E7
+3        Am
+4        E7
+
+Groove BossaNovaPlus
+
+5         F7
+6         C/E
+7        D7
+8        G7
+
+Groove BossaNova
+
+9        Cm
+10       G7
+11       Fm7     /    Bb7
+12       EbM7
+
+Groove BossaNovaPlus
+
+13       Fm      /     F#dim7
+14        C/G    /     Am
+15       Dm      /     G7
+
+Groove BossaNovaFill
+
+If Def CODA 
+  Goto CODA
+EndIf
+
+If Def END
+  Goto END
+EndIf
+
+RepeatEnding
+
+16        C
+
+
+RepeatEnd
+
+17        C
+
+// "B" section
+
+Repeat
+
+Groove BossaNova2Sus
+
+18       Am
+19       E7
+20       A7
+21       Dm
+
+Groove BossaNovaSus
+
+22       Bm7b5
+23       Am
+24       B7
+25       E7   /    E7#5
+
+Groove BossaNova2Sus
+
+26       Am
+27       E7/G#
+28       Gdim7
+29       Dm
+
+Groove BossaNovaSus
+
+30       Bm7b5
+31       Am
+32       B7b9      /     E7#5
+
+Groove BossaNovaFill
+
+RepeatEnding
+
+33       Am
+
+RepeatEnd
+
+34       Am      /     G7
+
+Set Coda
+Goto DC   /// start of "A"
+
+Label CODA
+
+35        C
+
+Repeat
+
+// "C" section
+
+KeySig F
+Groove BossaNova
+
+36        F
+
+Groove BossaNova1Sus
+
+37       A7/E
+38       D7
+39       Gm
+40        /
+
+Groove BossaNova1SusPlus
+
+41       C7
+42        /
+43        F      /     C7
+44        F
+
+Groove BossaNovaSus
+
+45       A7
+46       D7
+47       Gm
+48       Bb    /   G#dim7
+
+Groove BossaNova1SusPlus
+
+49        F6      /     D7
+50       Gm      /     C7b9
+
+Groove BossaNovaFill
+
+51        F6
+
+KeySig C
+
+RepeatEnd
+
+unset CODA
+set END
+Goto DC   /// start of "A"
+
+Label END
+
+Groove BossaNova2End
+Seq 4
+
+52        C  z!
+Fermata -4 1 200
+
+

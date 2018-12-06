@@ -1,0 +1,126 @@
+// Ruby My Dear
+
+Tempo 64
+Keysig F Minor
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Articulate 120
+    Harmony OpenAbove
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+          4c+;16;d+;c+;b;8c+;4.;
+          4b;16;c&+;b;a;8b;4.;
+          8f;a;f;e;dn;f;d;cn;
+          8bn-;dn;b-;an-;b-;d;en;f#;
+    End
+End
+
+Set Push0 .70  /// try to match the swingmode skew setting.
+
+Groove MellowJazzIntro
+Begin AllGrooves Chord-Strings
+    Octave 6
+    Volume p
+End
+
+// Since the groove file has been loaded and compiled the
+// following swingmode setting only effects the solo riffs.
+// The skew makes it a bit "squarer" than the default of 66.
+Swingmode On Accent=110,80 Skew=70
+
+Cresc p mf 4
+Solo Cresc mp mf 4
+
+1      Bbm9      / Eb13b9
+2      Abm9      / Db13#11
+3      GbM7      /   EbM7
+4       CM9
+
+
+Repeat
+Groove MellowJazz
+Volume m
+
+5       Fm7
+6      EbM7
+7        G9      /     C7
+8       FM7
+
+Groove MellowJazzPlus
+Volume mf
+
+9      Bbm7      /    Eb7
+10     AbM7
+11     Bbm7      /     A7
+12      Bm7      /  Bb7b5  Bb7#5
+
+Groove MellowJazz
+Decresc m 4
+
+13      Fm7      /    Bb7
+14     EbM7
+15       G9      /     C7
+16      FM7
+
+Groove MellowJazzPlus
+Decresc mp 4
+
+17     Bbm7      /    Eb7
+18     AbM7      /    Ab6
+19     Bbm7      /     A7
+20      Bm7      /  Bb7b5
+
+Groove MellowJazzSus
+Cresc mf 6
+
+21      AM7
+22      Bm7      /   E7b9
+23       A6      /      /    AM7
+24      Bb6      /  Bdim7
+
+Groove MellowJazzSusPlus
+
+25      Cm7
+26        /      /      /    Dm7
+27     Ebm7
+28      A&9      /     A9
+
+Groove MellowJazz
+Volume m
+
+29      Fm7      /    B&7
+30     EbM7
+31       G9      /     C7
+32      FM7
+
+Groove MellowJazzPlus
+Decresc mf mp 2
+
+33     Bbm7      /    Eb7
+34     AbM7      /    Ab6
+
+If Def LastTime
+   Groove MellowJazzEnd
+   AdjustVolume Ratio=20
+   Decresc pp 2
+   Tempo *.8 2
+Endif
+
+35     Bbm7      /    Bm7
+
+If Ndef LastTime
+   Groove MellowJazzFill
+Endif
+
+36      Ab6
+
+Set LASTTIME
+RepeatEnd
+
+

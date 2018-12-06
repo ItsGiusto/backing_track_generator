@@ -1,0 +1,91 @@
+// That Lucky Old Sun
+
+Tempo 80
+
+Groove Metronome2-4
+	z * 2
+	
+// 4 bar intro
+
+Groove SlowBluesFill1
+
+Volume pp
+Cresc mf 4
+
+
+1      C     
+2      Em    
+3      F      
+Groove SlowBluesFill3
+4      G7   
+
+Repeat
+Groove SlowBlues
+Volume mf
+
+5      C     
+6      Am    /    /    Fm    
+7      C     /    F6    
+8      C     G7    C     
+9      F6    
+10     C     /    Am    Fm    
+11     C     /    G7    
+12     C     
+
+Groove SlowBluesSus
+Volume f
+
+13	/
+14     Am    /    /    Fm    
+15     C     /    F6    
+16     C     G7    C     
+17     F6    
+18     C     /    Am    Fm    
+19     C     /    Dm7   
+20     C     Dm    C     
+
+Groove SlowBluesWalk4
+Volume mp
+Cresc f 8
+
+21     Am    /    Em    
+22     F6    /    C     
+23     Am    /    G7    
+24     C     
+25     Am    /    Em    
+26     F6    /    C     
+27     /    CM7   Am    Am7   
+28     D   /    G7    
+
+Groove SlowBluesSus
+Volume mf
+
+29     C     
+30     Am    /    /    Fm    
+31     C     /    F6    
+32     C     G7    C     
+
+Groove SlowBluesWalk4Sus
+
+33     F6    
+34     C     /    Am    Fm    
+
+RepeatEnding
+Volume f
+
+35     C     /    Dm7   
+36     C     Dm7   C     G7    
+
+RepeatEnd
+
+Groove SlowBluesEnd
+
+Volume mf
+Decresc p 2
+
+35     C     /    Dm7   
+Seq 4
+37     C     z
+Fermata -4 1 250
+
+

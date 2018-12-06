@@ -1,0 +1,109 @@
+// All I Have To Do Is Dream
+// #1 hit for The Everly Bros., 1958
+// Their tempo: 88bpm; key Eb
+
+Tempo 110		
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove 60sRockIntro
+Begin Solo
+   Voice TremoloStrings
+   Octave 5
+   Volume f
+   Harmony OpenBelow+8Below
+   Articulate 110
+   Begin Riff
+     4a;g;2f;
+	 4a;g;2f;
+	 4g;g;a;b;
+	 1c+;
+   End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Groove 60sRock
+Volume m
+
+5         F      /     Dm
+6        Gm      /     C7
+7         F      /     Dm
+8        Gm      /     C7
+
+Groove 60sRockSus
+
+9         F      /     Dm
+10       Bb      /     C7
+11        F      /     Dm
+12       Bb      /     C7
+
+Groove 60sRock
+Volume mf
+
+13        F      /     Dm
+14       Gm      /     C7
+15        F      /     Dm
+16       Gm      /     C7
+
+Groove 60sRockSus
+
+17        F      /     Dm
+18       Bb      /     C7
+19        F      /     Bb
+20        F      /     F7
+
+Repeat
+Groove 60sRock1
+Volume m
+
+21       Bb
+22       Am
+23       Gm      /     C7
+24        F      /     F7
+
+Groove 60sRock1Sus
+Volume mf
+
+25       Bb
+26       Am
+27       G7
+28       C7
+
+Groove 60sRock
+Decresc mp 8
+
+29        F      /     Dm
+30       Gm      /     C7
+31        F      /     Dm
+32       Gm      /     C7
+
+Groove 60sRockSus
+
+33        F      /     Dm
+34       Bb      /     C7
+35        F      /     Dm
+36       Gm      /     C7
+
+RepeatEnding
+Groove 60sRock
+Volume m
+
+37        F      /    Gm7
+38        F      /    F7
+
+RepeatEnd
+Groove 60sRockEnd
+Tempo *.8 2
+Decresc pppp 2
+
+37        F      /    Gm7
+38        F      /    z!
+

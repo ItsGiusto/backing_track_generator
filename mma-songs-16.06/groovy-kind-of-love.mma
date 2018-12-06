@@ -1,0 +1,114 @@
+// A Groovy Kind Of Love
+
+Tempo 100
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove 8BeatIntro
+Begin Solo
+    Voice Piano1
+	Volume ff
+	Harmony OpenBelow+8Below
+	Octave 5
+	Articulate 105
+	Begin Riff
+        4.b;8b;;a;g;a;
+		4.g;8;;a;b;c+;
+		4.a;8;;b;c+;d+;
+		2a;
+	End
+End
+
+Swell m f 4
+
+1         G
+2        Em
+3        Am
+4        D7 / / D
+
+
+Repeat
+Groove 8Beat
+Volume m
+
+5         G
+6      D7 //G
+
+Decresc mp 2
+
+7         G
+8       Am7
+
+Groove 8BeatSus
+Cresc mf 4
+
+9         /
+10      Bm7
+11      Am7
+12        D
+
+Groove 8Beat1
+
+13        G
+14     D7 //G
+Decresc mp 2
+15        G
+16      Am7      /     D7
+
+Groove 8Beat1Sus
+Cresc m 2
+
+17        G
+
+RepeatEnding
+
+18        D
+
+RepeatEnd
+
+
+19       Eb
+
+Keysig Eb
+
+
+Groove 8Beat
+Volume mf
+
+20       Ab
+21    Eb //Ab
+
+Decresc mp 2
+
+22       Ab
+23     Bbm7
+
+Groove 8BeatSus
+Cresc mf 4
+
+24        /
+25      Cm7
+26     Bbm7
+27        /
+
+Groove 8Beat1
+Volume m
+
+28       Ab
+29    Eb //Ab
+
+Groove 8BeatEnd
+AdjustVolume Ratio=20
+Decresc off 6
+Tempo *.9 6
+
+Repeat
+
+30       Ab
+31     Bbm7      /    Eb7
+
+RepeatEnd 3
+
+

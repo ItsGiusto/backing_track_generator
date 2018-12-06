@@ -1,0 +1,98 @@
+// Baby Face  Legal Fake Book p. 7
+
+Tempo 200
+
+// 2 bar drum intro
+
+
+Groove Metronome2-4
+   z * 2
+
+// 8 bar intro
+
+Groove Dixie2
+Begin Solo
+   Voice Clarinet
+   Volume f
+   Harmony OpenBelow
+   Articulate 90
+   Octave 6
+   Begin Riff
+       2g;4e;4+1g~;
+       ~ <>;
+       2a;4e;1+4a~;
+       ~ <>;
+       4c+;b;a;g;
+       4f;e;d;c;
+       2e;4c;4+2~;
+   End
+End
+
+Solo Swell f ff 8
+Cresc mp m 8
+
+1          C
+2          /
+3         Am
+4          /
+5         Dm
+6         G7
+7          C
+8          /
+
+// Main tune
+
+Groove DixieStrum
+
+Repeat		// play 3x
+
+Cresc mp ff 16
+
+9          C
+10         /
+11         /
+12         C      /      /   Gdim
+13        G7
+14         /
+
+15         /
+16         /      /      /   Cdim
+17        G7
+18         /
+19         C      /    Gm6     A7
+20         /
+
+21        D7
+22         /
+23        G7
+24         /
+25         C
+26         /
+
+Decresc mp 16
+
+27         /
+28         /
+29        E7
+30       Bm7      /     E7
+31        Am
+32        C7
+
+33         F      /      /   Cdim
+34         /
+35         C      /      /     A7
+36         /      /      /    G#7
+37        D7      /   Daug      /
+38        G7
+39         C      /    Ab7      /
+40         C      z
+
+RepeatEnding
+Groove Dixie3
+
+RepeatEnding
+Groove Dixie1
+
+Repeatend
+
+

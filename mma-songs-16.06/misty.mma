@@ -1,0 +1,101 @@
+// Misty
+
+Tempo 62
+KeySig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowJazz1
+
+Begin Solo
+	Voice Piano1
+	Harmony OpenBelow
+	Volume f
+	Articulate 110
+	Octave 5
+	Begin Riff
+		8d;d+;c+;b;a;g;a;b;
+		8d&;d&+;c+;b;a;g&;a;b;
+		8e+;c+;b;a;4g;a;
+		1b;
+	End
+End
+
+Cresc p mf 4
+
+1         Eb      /    Ab7
+2       Bbm7      /    Gb9
+3       AbM7
+4        Eb7      z      z   E7#9
+
+Delete Solo
+
+Groove SlowJazz1
+
+Repeat
+Volume m
+
+5       EbM7
+6       Bbm7      /  Eb7b9
+
+Decresc mp 2
+
+7       AbM7
+8       Abm7      /    Db9
+
+Groove SlowJazz1Sus
+Cresc mf 4
+
+9       EbM7      /    Cm7
+10       Fm7      /  Bb7b9
+
+
+RepeatEnding
+
+11        G7      /     C7
+12        F7    Bb7    Bb9   E7#9
+
+Groove SlowJazz1Sus
+
+RepeatEnd
+
+13        Eb      /   Abm7    Db9
+14       Eb6      /   Adim
+
+Groove SlowJazz1Walk
+Volume m
+
+15      Bbm7
+16         /      /  Eb7b9
+17      AbM7      /    Ab6
+18         /
+
+Volume mf
+
+19       Am7      /     D7
+20       Cm7      /     F7
+
+Decresc m 2
+
+21       Gm7      /     C7
+22       Fm7  Bb7b9    Bb9   E7#9
+
+Groove SlowJazz1WalkSus
+
+23      EbM7
+24      Bbm7      /  Eb7b9
+25      AbM7
+26      Abm7      /    Db9
+
+Decresc pp 4
+
+27      EbM7      /    Cm7
+28       Fm7      /  Bb7b9
+
+Groove SlowJazzEnd
+
+29        Eb    Gb9    Fm7    EM7
+30      EbM7      z!
+
+

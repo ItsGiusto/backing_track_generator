@@ -1,0 +1,117 @@
+// Make Believe -- From the musical "ShowBoat"
+
+Tempo 150
+Keysig D
+
+Groove Metronome2-4
+ z * 2
+
+Groove BeguineIntro8
+Begin Solo
+   Voice TremoloStrings
+   Volume f
+   Harmony OpenBelow+8Below
+   Octave 5
+   Articulate 120
+   Begin Riff
+      2.d+;4b;
+	  1f;
+	  2.b;4a;
+	  1f;
+	  2.b;4;
+	  2.b;4;
+	  1+4c+ ~;
+   End
+End
+
+Cresc mp mf 4
+
+1          D
+2          /
+3         Bm
+4          /
+5         Em
+6          /
+7         A7
+8          /      /  D#dim
+
+Repeat
+Groove Beguine
+Volume m
+
+9         A7
+10         /
+11        A9
+12         /
+
+Groove BeguineSus
+Cresc f 4
+
+13         D
+14         /
+15         /
+16         /      /  Abdim
+
+Groove Beguine
+Decresc mp 4
+
+17        A7      /    Em7
+18         A      /      G
+19       A13
+20        A7
+
+Groove Beguine1
+Volume m
+
+21         D
+22        E7
+23        A9
+24        A7      /  D#dim
+
+Groove Beguine1Sus
+Volume mf
+
+25        A7
+26         /
+27        A9
+28         /
+
+Groove BeguineSus
+Volume f
+
+29         D
+30         /
+31        E7
+32         /
+
+Groove Beguine
+Decresc m 4
+
+33        G6
+34     G#dim
+35         D
+36     D#dim
+
+Groove BeguineSus
+
+37        A7
+38      A7b9
+
+RepeatEnding
+
+Groove Beguine1
+
+39         D      /    Gm6
+
+Groove BeguineFill
+
+40         D      /  D#dim
+
+RepeatEnd
+Groove Beguine2End
+Tempo *.9 2
+Decresc ppp 2
+
+41         D      /    Gm6
+42         D     z!
+

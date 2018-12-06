@@ -1,0 +1,107 @@
+// Misery And The Blues
+
+Tempo 70
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Articulate 110
+    Harmony OpenBelow+8Above
+    Octave 5
+    Begin Riff
+        4e;8d;e;d;8+4e;
+        4e;8d;e;d;8+4g;
+        4e;8d;;4c;4bn-;
+        1a-;
+    End
+End
+
+SwingMode On
+Groove BluesIntro
+
+Swell mp mf 4
+
+1         Dm
+2          G
+3         Em
+4         A7
+
+Groove Blues
+Decresc m mp 4
+
+5         Dm      /      F
+6        Dm7      /    Bb7
+7         Dm
+8      Em7b5      /     A7
+
+Groove BluesSus
+Cresc m 2
+
+9         Dm
+10       Gm7      /    Bb7
+11        Dm      /    Gm7
+12        Dm   A7#5     Dm
+
+Groove Blues
+
+13        Dm      /      F
+14       Dm7      /    Bb7
+Decresc mp 2
+15        Dm
+16     Em7b5      /     A7
+
+Groove BluesSus
+Cresc mf 4
+
+17        Dm
+18        Gm      /    Bb7
+19        Dm      /    Gm7
+
+Groove BluesTripleL
+Volume m
+
+20        Dm   A7#5     Dm
+
+Groove Blues1
+
+21       Gm7
+22        C7
+Decresc mp 2
+23         F
+24       Am7      /   Abm7
+
+Groove Blues1Sus
+Cresc mf 2
+
+25       Gm7
+26        C7
+27        A7      /    Bb7
+28        A7
+
+Groove Blues
+Volume m
+
+29        Dm      /      F
+30       Dm7      /    Bb7
+31        Dm
+32     Em7b5      /     A7
+
+Groove BluesSus
+Decresc mp 4
+
+33        Dm
+34       Gm7      /    Bb7
+35        Dm      /    Gm7
+36        Dm      /    Em7     A7
+
+Groove BluesEnd
+Seq 3
+Decresc ppp 2
+
+37        Dm
+38         /     z!
+

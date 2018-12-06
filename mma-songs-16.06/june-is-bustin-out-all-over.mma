@@ -1,0 +1,117 @@
+// June Is Bustin Out All Over
+
+Tempo $( 2 * 110 )
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove BroadwayIntro
+Begin Solo
+    Voice Vibraphone
+    Articulate 120
+    Volume f
+    Octave 5
+    Harmony OpenBelow
+    Begin Riff
+        4.d;8f;2g;
+        2b;4e+;d+;
+        4.a;8b;2c+;
+        1d+;    
+    End
+End
+
+Cresc mp mf 4
+
+1         GM7
+2        Em7
+3        Am7
+4        D7
+
+Repeat  // do song 3x
+Repeat
+Groove Broadway
+Volume m
+
+5         G
+6         /
+7         /
+8         /
+
+Groove BroadwaySus
+Cresc mf 4
+
+9         /
+10        /
+11   F#m7b5
+12       B7
+
+Groove Broadway2
+Decresc m 4
+
+13       Em
+14      Em7      /    Em6
+15       Em
+16    Em7b5
+
+
+RepeatEnding
+
+Groove Broadway2Sus
+Volume mp
+
+17        D      /     F7
+18      Em7      /     A7
+
+Groove Broadway1
+Cresc m 2
+
+19      D11
+20       D7
+
+
+RepeatEnd
+
+Groove Broadway1Sus
+Decresc mp 4
+
+21        D      /     F7
+22      Em7      /    A13
+23      D11
+Chord-Sus Chords z  // this turns of the sus chord for the next bar
+24       D9  
+
+Groove BroadwaySus
+Cresc mf 4
+
+25        G
+26        /
+27        /
+28        /
+
+Groove Broadway2
+Decresc mp 4
+
+29      Am7
+30        /
+31      D13
+32     D7+5
+
+Repeatending 2  
+Groove Broadway1Sus
+
+33        G
+Drum-Snare Riff D1234
+Drum-Tri   Riff D13
+Drum-Tri Volume f
+34        D7
+
+RepeatEnd
+
+Groove BroadwayEnd
+Decresc ppp 2
+
+333        G
+343        / / z!
+
+

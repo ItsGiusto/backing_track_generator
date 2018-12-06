@@ -1,0 +1,111 @@
+// Breezin Along With The Breeze
+
+Tempo 186
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove QuickStepIntro
+
+Begin Solo
+	Voice Trumpet
+	Decresc f pp 8
+	Harmony 3
+	Octave 6
+	Articulate 80
+	Begin Riff
+		2.c;4d;
+		4f;g;a;c+;
+		1.a~;
+		~ 4c;a;
+		1.d+~;
+		~ 4g+; d+;
+		2c+;b;
+		2ae;g;   // note the 'ae' ... This turns off harmony.
+	End
+End
+
+Cresc p mf 8
+
+1      F     
+2	/
+
+Seq 
+
+3      Dm    
+4	/
+
+Seq
+
+5      Gm    
+6	/
+7      C7    
+8	/
+
+
+Repeat    //// Play the whole thing 3 times
+
+Groove QuickStep
+
+Repeat
+
+9      F     
+10	/
+11     A7    /    A7b5  
+12     D7    
+13     G7    /    G7b5  
+14     C7    /    Gm7   C7    
+
+RepeatEnding
+
+Groove QuickStepHit
+
+15     F     
+16     Db7   
+
+Groove QuickStepSus
+
+RepeatEnd
+
+
+17     F     
+18     F7 
+
+Groove QuickStep
+   
+19     Bb    /    F+    Bb    
+20     /    Bbm6  Bb    F7    
+21     Bb    
+22     /    /    Bbm   
+23     F     /    Fdim  F     
+24     Dm    
+25     G9  
+
+Groove QuickStepHit
+Seq 2
+ 
+26     C7 
+
+Groove QuickStepSus
+   
+27     F     
+28	/
+29     A7    /    A7b5  
+30     D7    
+31     G7    
+32     C9    /    C7 
+
+RepeatEnding 2
+
+Groove QuickStepHitSus
+   
+33     F     /    Fdim  F     
+34	/
+
+RepeatEnd 
+
+Groove QuickStepEnd
+
+33     F     /    Fdim  F     
+34	/ z!

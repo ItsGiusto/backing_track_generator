@@ -1,0 +1,147 @@
+// Rosie
+
+tempo 160
+
+Groove metronome2-4
+
+	z * 2
+	
+Groove  Foxtrot1
+
+Volume mp
+
+1 	Bb
+2 	D7
+3 	F7
+
+Groove FoxTrot1End
+
+4 	Bb / z  
+
+Groove Foxtrot
+
+repeat
+
+Seq
+Volume mf
+
+5 	Bb
+6 	D7
+7 	G7
+8 	/
+9 	C7
+10 	F
+11 	Bb /  Bdim
+12 	Cm /  F7
+13 	Bb
+14 	D7
+15 	G7
+16 	/
+17 	C7
+18 	F7
+19 	Bb
+20 	/
+
+volume p
+
+21 	Dm
+22 	A7
+23 	Dm
+
+Cresc  mf 5
+
+24 	A7
+25 	F
+26 	C7
+27 	F
+28 	F7
+29 	Bb
+30 	D7
+31 	G7
+32 	/
+33 	C7
+
+// Endings 1,2 for chorus
+
+34 	F7
+35 	Bb
+36 	/
+
+// Verse
+
+volume mp
+Groove FoxtrotSus
+
+42 	Bb
+43 	/
+44 	F7
+45 	Bb
+46 	/
+47 	/
+48 	C7
+49 	F7
+50 	/
+51 	Bb
+52 	F /  F#dim
+53 	Gm
+54 	Eb /  Ebm
+55 	Bb /  G7#5
+56 	C7 /  Cmb5
+57 	F7
+
+Groove Foxtrot
+repeatend
+
+// Since mma doesn't do jumps, we copy the chorus for
+// the final runthrough
+
+volume mf
+
+5 	Bb
+6 	D7
+7 	G7
+8 	/
+9 	C7
+10 	F
+11 	Bb /  Bdim
+12 	Cm /  F7
+13 	Bb
+14 	D7
+15 	G7
+16 	/
+17 	C7
+18 	F7
+19 	Bb
+20 	/
+
+volume mp
+
+21 	Dm
+22 	A7
+23 	Dm
+
+Cresc  mf 8
+
+24 	A7
+25 	F
+26 	C7
+27 	F
+28 	F7
+29 	Bb
+30 	D7
+31 	G7
+32 	/
+33 	C7
+
+// Ending 3 for chorus
+
+37 	Cm7
+38 	F7
+39 	F
+
+Groove FoxTrotEnd
+
+40 	Bb
+41 	/ /  z z!
+
+

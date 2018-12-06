@@ -1,0 +1,122 @@
+// Chattanooga Choo Choo
+
+Tempo 120
+
+Groove Metronome2-4
+	z * 2
+	
+// This is a 4 bar intro. It takes a disonant sounding
+// chord and use it for a choo-choo imitation.
+
+SeqClear
+Seqsize 4
+Begin Chord
+	Sequence {1 2 90 * 2} {1 2 90 * 4}  {1 2 90 * 8}  {1 2 90}
+	Voice Trumpet
+	Octave 4
+	Articulate 90
+End
+
+Begin Drum
+	Sequence	 {1 0 90; 3 0 90}
+	Tone KickDrum2
+	Volume f
+End
+
+Begin Drum-Snare
+	Sequence z z {1 0 90 * 8; 3 0 90 * 8} {1 0 90 * 16; 3 0 90 * 16}
+	Tone SnareDrum1
+End	
+
+DeCresc ff pp 4
+
+0   EbM7b5 * 3
+	/ / z!
+	Cut -1
+
+Volume mf
+
+// Now we use the library stuff.
+
+Groove Swing
+
+Repeat
+
+1      C     
+2	/
+3	/
+4	/
+5      Dm    /    G7    
+6      Dm    /    G7    
+
+RepeatEnding
+
+7      C     EbM7b5 
+8	/
+
+RepeatEnd
+
+9      C     EbM7b5 
+10     C7    /    Gm7   C7    
+
+Groove SwingPlus
+
+Repeat
+
+11     F     /    C7    
+12     F     /    C7    
+13     F     /    C7    
+14     F     /    F7    
+15     Bb    /    Fdim  
+16     F     /    D7    
+
+RepeatEnding
+
+17     G7    
+18     Db7   /    C7    
+
+Groove Swing
+
+RepeatEnd
+
+19     G7b9  
+20     /    C7    F     G7    
+21     C     EbM7b5
+22	/
+
+Groove SwingPlus
+Arpeggio Voice Altosax
+
+23     C     
+24	/
+25	/
+26	/
+27     Dm7   /    G7    
+28     Dm    /    G7    
+29     C     EbM7b5
+30	/
+
+Groove Swing
+
+31     C     
+32     /    /    C7    
+33     F6    
+34     Ab7   /    /    D7    
+35     C     /    Am7   
+36     D7    /    C     
+37     Ab7   F     Dm    D7    
+35     C     /    Am7   
+36     D7    /    G7    
+
+
+Groove Swing2End
+
+Scale Octave 3
+Scale Direction Down
+Seq 1	// 16th notes
+37     C     
+
+Seq 4	// 1/2 notes
+
+38     /    / z   z!
+

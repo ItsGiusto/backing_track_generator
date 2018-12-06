@@ -1,0 +1,203 @@
+// Lover
+
+Tempo 180
+Keysig C
+
+Groove Metronome3
+   z * 2
+
+Mset Solo
+      4c+;r;2c+~;
+      ~ 4r;c+;
+      
+      4c+;r;2c+~;
+      ~ 4r;c+;
+      
+      4d+;e+;f+;
+      4e+;d+;e+;
+      
+      2.+2 g+ ~;
+EndMset
+
+Groove JazzWaltzIntro8
+
+Begin Solo
+    Voice Piano1
+    Octave 5
+    Articulate 110
+    Volume ff
+    Rtime 10
+    Rvolume 10
+    Begin Riff
+       $Solo
+    End
+End
+
+Begin Solo-1
+    Voice VoiceOohs 
+    HarmonyOnly OpenBelow+8Below
+    Octave 5
+    Volume f
+    Articulate 110 / / / / / 60 /
+    Rtime 10
+    Rvolume 10
+    Begin Riff
+       $Solo
+    End
+End
+
+Swell mp mf 8
+
+1         C
+2         /
+3        Am
+4         /
+
+5        Dm
+6         /
+7        G7
+8         /
+
+Repeat
+Groove JazzWaltz
+Volume mp
+
+9         C
+10        /
+11    B7sus
+12       B7
+
+Groove JazzWaltz2
+Cresc m 4
+
+13   Bb7sus
+14      Bb7
+15      Em7
+16       A7
+
+Groove JazzWaltz
+
+17   Ab7sus
+18      Ab7
+19    G7sus
+20       G7
+
+Groove JazzWaltz1
+Cresc mf 4
+
+21        C
+22        /
+23      Dm7
+24       G7
+
+Groove JazzWaltz
+Decresc mp 4
+
+25        C
+26        /
+27    B7sus
+28       B7
+
+Groove JazzWaltz2Sus
+Cresc m 4
+
+29   Bb7sus
+30      Bb7
+31      Em7
+32       A7
+
+Groove JazzWaltz
+
+33   Ab7sus
+34      Ab7
+35    G7sus
+36       G7
+
+Groove JazzWaltz1Sus
+Cresc mf 4
+
+37        C
+38        /
+39       Am
+40        B
+
+Groove JazzWaltz
+Decresc mp 4
+
+41        E
+42        A
+43    B7sus
+44       B7
+
+Groove JazzWaltz2Sus
+Cresc mf 8
+
+45        E
+46        A
+47    B7sus
+48       B7
+
+Groove JazzWaltz
+
+49        G
+50        C
+51      Am7
+52       D7
+
+Groove JazzWaltz1
+Decresc m 4
+
+53       Em
+54    C#dim
+55      Dm7
+56       G7
+
+Groove JazzWaltzSus
+
+57        C
+58        /
+59    B7sus
+60       B7
+
+Groove JazzWaltz
+Cresc mf 4
+
+61   Bb7sus
+62      Bb7
+63      Em7
+64       A7
+
+Groove JazzWaltz2
+Decresc mp 4
+
+65   Ab7sus
+66      Ab7
+67    G7sus
+68       G7
+
+RepeatEnding
+
+Groove JazzWaltz2Sus
+
+69        C
+70      Dm7
+71        C
+
+Groove JazzWaltzFill
+
+72        / 
+
+RepeatEnd
+
+Groove JazzWaltz1End
+Decresc ppp 4
+
+69        C
+70      Dm7
+Groove JazzWaltzEnd
+71        C
+72        / z!
+
+
+
+

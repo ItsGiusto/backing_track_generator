@@ -1,0 +1,130 @@
+// All Er Nothin (from Okalahoma!)
+
+Tempo $( 122 * 2 )
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove BroadwayIntro8
+Begin Solo
+    Voice Piano1 //PizzicatoString
+    Articulate 90
+    Octave 5
+    Volume f
+    Harmony OpenBelow
+    Begin Riff
+        <grace>16.e;4f;4r;c+;
+        <grace>16.e;4f;r;c+;
+
+        <grace>16.g;4a;r;d+;
+        <grace>16.g;4a;r;d+;
+
+        <grace>16.a;4b;r;d+;
+        <grace>16.a;4b;r;d+;
+
+        <grace>16.b;4c+;b;a;g;
+        1f;
+    End
+End
+
+Swell mp mf 8
+1          F
+2          /
+3         Dm
+4          /
+5         Gm
+6          /
+7         C7
+8          /
+
+Repeat
+Groove Broadway
+Volume m
+
+9        FM7
+10         /
+11         /
+12         /
+
+Groove BroadwaySus
+Cresc f 8
+
+13         /
+14         /
+15      Bbm6
+16         /
+
+Groove Broadway1
+
+17         F      /     F+
+18        Dm      /   Bbm6
+19         F      /     F+
+20      BbM7      /      /   Bbm6
+
+Groove Broadway2
+Volume m
+
+21       FM7
+22        Bb      /     C7
+23       FM7
+24         /
+
+Groove Broadway1Sus
+
+25        C7
+26      Cdim
+27        C7
+28      Cdim
+
+Groove Broadway2Sus
+Cresc mf 4
+
+29        Gm
+30       Gm7
+31        C7
+32         /
+
+Groove Broadway
+Cresc m mf 4
+
+33       FM7
+34         /
+35      Bbm6
+36         /
+
+Groove BroadwaySus
+Decresc mp 6
+
+37       FM7
+38       Gm7      /     C7
+39         F    Ebm
+40         /      D
+
+Groove Broadway
+
+41        Gm
+42         /      /     C7
+
+RepeatEnding 2
+
+Groove Broadway2
+
+43       FM7
+44         /
+
+Groove BroadwayFill
+Volume mf
+
+45         /
+46         /
+
+RepeatEnd
+
+Groove BroadwayEnd
+Decresc ppp 2
+
+47       FM7
+48         / z!
+
+

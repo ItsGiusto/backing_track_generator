@@ -1,0 +1,132 @@
+// Quiet Nights Of Quiet Stars
+
+KeySig C
+Tempo 128
+
+Transpose +3   /// From C to Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossanovaIntro8
+
+Begin Solo
+	Voice JazzGuitar
+	Volume m
+	Harmony 3
+	Articulate 90
+	Octave 6
+	Begin Riff
+		4.d;4e;8d;e;2+8d~;
+		~ 2r;
+		4.d;4e;8d;e;2+8d~;
+		~ 2r;
+		4g;f;d;e;
+		2e;d;
+		1+2c~;
+	End
+End
+
+Cresc mp f 8
+
+1    D9   
+2    /    
+3    Dm   
+4    /    
+
+5    Gm   
+6    /    
+7    C6   
+8    /    
+
+Groove BossaNova
+Repeat
+
+Volume mp
+
+9    D9   
+10   /    
+11   Abdim 
+12   /    
+
+Volume m
+
+13   Gm7  
+14   C7   /    Gb7  
+15   Fdim /    FM7  
+Chord Riff  1 4 100; 2 4 95; 2.5 8 90; 3 2 100
+16   /  
+
+Groove BossaNova1Sus
+Cresc mf 4
+  
+17   Fm7  
+18   Bb13 
+19   Em7  
+20   A7#5 
+
+Decresc m 4
+
+21   D9   
+22   /    /    Dm7  
+23   /    /    Abdim 
+24   / 
+
+Groove BossaNovaSus
+Swell mf 8
+   
+25   D9   
+26   /    
+27   Abdim 
+28   /    
+
+29   Gm7  
+30   C7   /    Gb7  
+31   Fdim /    FM7  
+Chord Riff  1 4 100; 2 4 95; 2.5 8 90; 3 2 100
+32   /    
+
+Groove BossaNova
+Volume mp
+
+33   Fm7  
+34   Bb7b5 
+
+Volume m
+
+35   Em7  
+36   Am7  
+
+Volume mf
+
+37   Dm7  
+38   G7b9 
+
+Volume m
+
+39   Em7  
+Chord Riff  1 4 100; 2 4 95; 2.5 8 90; 3 2 100
+40   A7#5 
+
+41   Dm7  
+42   G9   
+
+RepeatEnding
+
+Groove BossaNovaFill
+
+43   C6   
+
+Groove BossaNovaSus
+
+RepeatEnd
+
+Groove BossaNovaEnd
+seq 2
+Decresc ppp 2
+Tempo *.8 2
+
+44   C6   
+45   /   / z!
+Fermata -4 2 250
+

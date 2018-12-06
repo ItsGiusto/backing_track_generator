@@ -1,0 +1,146 @@
+// Route 66 (not the tv series!)
+
+Tempo 140
+KeySig F
+
+Groove Metronome2-4
+  z * 2
+
+
+Groove ModernJazzIntro
+
+AllGrooves Chord-Sus Octave 5
+
+Begin Solo
+    Voice Piano1
+    Octave 5
+    Harmony 3Below+OpenAbove+8Below / / None
+    Articulate 80
+    Volume ff
+    Begin Riff
+        4f;2r;4f;
+        4f;2r;4f;
+        1f;
+        81c+;82d+;4c+;2a;
+    End
+End
+
+Cresc mp f 4
+
+1         F6
+2         Bb9
+3         F6
+4         C9 / F
+
+Repeat
+Groove ModernJazz
+Volume m
+
+5        F6
+6       Bb9      /      /      E
+7        F6
+8        F7
+
+Groove ModernJazzSus
+Cresc mf 4
+
+9       Bb9
+10        /
+11       F6
+12        /
+
+Groove ModernJazz1
+Cresc f 4
+
+13      Gm7
+14       C9
+15        F      / Abdim7
+16      Gm7      /     C7
+
+Groove ModernJazz1Sus
+Decresc mf 4
+
+17       F6
+18      Bb9      /      /      E
+19        F
+20       F7
+
+Groove ModernJazz
+Decresc m 4
+
+21      Bb9
+22        /
+23       F6
+24        /
+
+Groove ModernJazzSus
+Cresc mf 4
+
+25      Gm7
+26       C9
+27        F      / Abdim7
+28      Gm7      /     C7
+
+Groove ModernJazz
+Decresc m 4
+
+29       F7
+30      Bb9
+31        F
+32       F9
+
+Groove ModernJazz1Sus
+
+33      Bb9
+34        /
+35       F7
+36        /
+
+Groove ModernJazz2
+Decresc mp 4
+
+37       Gm      /     C9
+38      Gm7      /     C9
+39        F      / F#dim7
+40      Gm7      /     C7
+
+Groove ModernJazz2Sus
+Cresc m 4
+
+41        F
+42      Bb9      /      /      E
+43        F
+44       F7
+
+Groove ModernJazzSus
+Cresc mf 4
+
+45      Bb9
+46        /
+47        F
+48        /
+
+Groove ModernJazz
+Decresc m 4
+
+49      Gm7
+50       C9
+
+RepeatEnding
+
+Groove ModernJazzFill
+Volume mp
+
+51        F      /    Bb9
+52        F
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Decresc ppp 2
+Tempo *.7 2
+
+51        F      /    Bb9
+52        F    Gb7     F6 z!
+
+

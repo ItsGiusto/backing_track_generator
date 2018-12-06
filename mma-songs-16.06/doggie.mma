@@ -1,0 +1,136 @@
+// Doggie (Recuerden La Ola Marina)
+
+Tempo 148
+KeySig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove MamboIntro
+
+Begin Solo
+  Voice Flute
+  Octave 6
+  Harmony OpenBelow
+  Articulate 90
+  Volume ff
+  Begin Riff
+     8d+;g;a;b;a;g;a;b;
+	 8d+;g;8a;b;4a;g;
+	 8d+;g;a;b;a;g;a;b;
+	 8d+;b;4a;g;r;
+  End
+End
+
+Cresc pp mf 4
+
+1          G
+2         D7
+3          G
+4         D7
+
+Repeat
+Groove Mambo
+Volume mp
+
+5          G
+6         D7
+7          /
+8          G
+
+Groove Mambo1
+Arpeggio Voice Flute
+Volume m
+
+9          /
+10        D7
+11         /
+12         /      /      G
+
+Groove MamboSus
+Volume mf
+
+13         /
+14        D7
+15         /
+16         G
+
+Groove  Mambo3Sus
+Volume m
+
+17         /
+18        D7
+19         /
+20         G
+
+Groove Mambo
+Volume mp
+
+21         /
+22        D7
+23         /
+24         G
+
+Groove Mambo1
+Arpeggio Voice Flute
+
+Cresc mf 8
+
+25         /
+26        D7
+27         /
+28         /      /      G
+
+Groove Mambo
+
+29         /
+30        D7
+31         /
+32         G
+
+Groove Mambo3
+Decresc m 8
+
+33         /
+34        D7
+35         /
+36         /      /      G
+
+Groove MamboSus
+
+37         /
+38        D7
+39         /
+40         G
+
+Groove Mambo
+Volume m
+
+41        /
+42        D7
+
+RepeatEnding
+
+43         /
+
+Begin Arpeggio
+   Voice Flute
+   Sequence {1 1 90 * 16}
+   Octave 5
+   Range 4
+   Articulate 105
+   Cresc m ffff 1
+End
+
+44         /      /      G
+
+RepeatEnd
+Groove MamboEnd
+Tempo *.9 2
+Decresc ppp 2
+
+43         /
+44         /      /      G   z!
+
+
+

@@ -1,0 +1,121 @@
+// Speak Up Samba (Manhatten Transfer, 1976)
+
+Tempo 122
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove MamboIntro
+
+Swell mp mf 4
+
+1        Dm
+2        A7
+3        Dm
+4        A7
+
+Repeat
+Groove Mambo
+Cresc mp mf 4
+5        Dm
+6        A7
+7         /
+
+RepeatEnding
+
+8        Dm
+
+RepeatEnd
+
+9        Dm
+
+// we skip the FINE ending ... it's at the bottom of the file
+
+Groove Mambo1
+Volume m
+
+11        /
+12      Gm6      /     A7
+13       Dm
+14      Gm6      /     A7
+
+Groove Mambo
+Volume mf
+
+15       Dm
+16       A7
+17       Dm
+18       A7
+
+Groove Mambo3
+Cresc f 4
+
+19       Dm      /    Bb7
+20      Gm6      /     A7
+21       Dm
+22      Gm6      /     A7
+
+Groove Mambo
+Decresc m 4
+
+23       Dm
+24      Gm6      /     A7
+25       Dm
+26       A7
+
+Groove Mambo1
+
+27       Dm
+28       A7
+29       Dm      /    Bb7
+30      Gm6      /     A7
+
+Groove Mambo
+Decresc mp 2
+
+31       Bb
+32        /      /      /     A7
+
+Repeat
+Groove MamboSus
+Volume m
+
+33       Dm
+34       A7
+35       Dm
+36       A7
+
+Groove Mambo1Sus
+Volume mf
+
+37       Dm
+38       A7
+
+RepeatEnding
+
+39       Dm
+40        /      /      /     A7
+
+RepeatEnd
+
+Groove Mambo3Sus
+Decresc ppp 8
+
+41       Dm
+42        /      /      /     A7
+43       Dm
+44      Gm6      /      /     A7
+
+/// score has a DS here, we just copy/pasted
+
+Groove Mambo
+
+5        Dm
+6        A7
+
+Groove MamboEnd
+
+7         /
+9        Dm
+

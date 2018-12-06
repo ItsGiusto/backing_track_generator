@@ -1,0 +1,142 @@
+// Wunderbar
+
+Tempo 190
+Keysig G
+
+Groove Metronome3
+	   z * 2
+
+Groove WaltzIntro8
+
+Begin Solo
+    Voice JazzGuitar
+    Harmony Open+8Below
+	Octave 6
+	Volume f
+	Articulate 100
+	Begin Riff
+	  4r;4.d+;8d;
+	  2.+4c+ ~;
+	  ~ 4.b;8;
+	  2.+4a ~;
+	  ~ 4.g;8;
+	  2.f;
+	  2.g;
+	End
+End
+
+
+1          G
+2          /
+3          Em
+4          /
+5          Am
+6          /
+7          G
+8          /
+
+Repeat
+Repeat
+Groove Waltz
+
+9          G
+10         /
+11         /
+12         /
+
+Groove Waltz1
+
+13         /      /      C
+14         /      /      G
+15         /
+16         /
+
+Groove Waltz
+
+17        D7
+18         /
+19         /
+20         /
+
+Groove WaltzSus
+
+21         G
+22         /
+23         /
+
+RepeatEnding
+
+24         /
+
+
+RepeatEnd
+
+
+25         /
+
+KeySig C Minor
+Groove Waltz1Sus
+
+26       Fm7
+27         /    Bb7
+28        Eb
+29         /
+
+30       Fm7
+31       Bb7
+32        Eb
+33         /
+
+KeySig G
+Groove WaltzSus
+
+34       Am7
+35         /     D7
+36         G
+37         /
+
+38      C#m7
+39       F#7
+40        D9
+41         /
+
+Groove Waltz
+
+42         G
+43         /
+44         /
+45         /
+
+Groove Waltz1
+
+46         /      /      C
+47         /      /      G
+48         /
+49         /
+
+Groove Waltz1Sus
+
+50        D7
+51         /
+52         /
+53         /
+
+RepeatEnding
+Groove WaltzWalk
+
+54         G
+55         /
+56         /
+57         /
+
+RepeatEnd
+
+Groove WaltzEnd
+Tempo *.8 4
+Decresc pppp 4
+
+54         G
+55         /
+56         /
+57         /
+

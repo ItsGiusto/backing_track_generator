@@ -1,0 +1,67 @@
+// Jada
+
+Tempo 175
+
+Groove Metronome2-4
+	z * 2
+
+Groove SwingIntro
+Begin Solo
+  Voice Trombone
+  Volume f
+  Harmony OpenBelow+8Above
+  Octave 5
+  Articulate 90
+  Begin Riff
+     8.a;2c+;
+	 8.d+;2a;
+	 8a;g;a;g;4c+;a;
+	 2f;
+  End
+End
+
+Swingmode On
+
+1          F
+2         D7
+3         G9
+4          F
+
+Repeat
+Groove Swing1
+
+5          F      /      /     F7
+6         D7
+7         G9      /     C7
+8          F      /     C9     C7
+
+Groove Swing1Sus
+
+9          F      /      /     F7
+10        D7
+11        G9      /      /   G7b9
+12        C7      /    Gm7   C7b9
+
+Groove Swing1
+
+13         F      /  Abdim
+14        C7
+15         F      /  Abdim
+16        C7
+
+Groove Swing1Walk
+
+17         F      /      /     F7
+18        D7
+19        G9      /     C7
+
+RepeatEnding 2
+
+20         F  Abdim    Gm7     C7
+
+RepeatEnd
+
+Groove Swing1End
+Seq 2
+
+21         F     Bb      F     z!

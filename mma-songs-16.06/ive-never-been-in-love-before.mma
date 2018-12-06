@@ -1,0 +1,83 @@
+// I've Never Been In Love Before
+
+Tempo 120
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+	Voice VoiceOohs
+	Harmony 8Below
+	Octave 5
+	Articulate 60
+	Volume mp
+	Begin Riff
+		4f;2.b;
+		4f;g;b;g;
+		4c+;2.g;
+		2f;
+	End
+End
+
+1   Bb      
+2   Gm      
+3   Cm      
+4   F7      
+
+Repeat
+Groove FoxTrot
+Repeat
+
+5   Bb      /       Gm      
+6   Cm7     /       F7      F7#5    
+7   BbM7    
+8   Dm7     /       G7#5    
+9   Cm      
+10  F7      
+
+RepeatEnding
+
+11  Bb      /       Db9     
+12  Bb      B9b5    /       F7      
+Groove FoxTrotSus
+
+RepeatEnd
+
+13  Bb      /       BbM9    
+14  /       Bb7b9   Bb7     Bb7#5
+
+Groove FoxTrotPlus
+
+15  EbM7    
+16  Cm7     /       F7      
+17  BbM7    
+18  /       /       D7#5    
+19  Gm      
+20  C7      /       A7      
+21  D       /       A7      
+22  F7      /       F7b5
+
+Groove FoxTrotSus
+
+23  Bb      /       Gm      
+24  CM7     /       F7      
+25  BbM7    
+26  Dm7     /       G7#5    
+27  Cm      
+28  Cm7     /       F7b9
+
+RepeatEnding
+
+29  Bb      /       Eb      
+30  Bb      
+
+RepeatEnd
+Groove FoxTrotEnd
+Tempo *.8 2
+
+29  Bb      /       Eb      
+30  Bb      
+
+

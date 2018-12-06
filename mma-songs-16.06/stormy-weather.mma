@@ -1,0 +1,90 @@
+// Stormy Weather
+
+Tempo 75
+KeySig G
+
+Transpose -4
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowBluesIntro
+Begin Solo
+  Voice Piano1
+  Harmony Open+8Below
+  Octave 5
+  Articulate 105
+  Begin Riff
+    8g;4.d+;8g;b;d+;g+;
+    8g;4.e+;8g;b;e+;g+;
+    8a;4.e+;8a;c+;e+;a+;
+	2f#+;2d+;
+  End
+End
+
+1    G    
+2    Em   
+3    Am   
+4    D7   
+
+Groove SlowBlues
+Repeat
+
+5    G    /    G#dim 
+6    Am7  /    D9   
+7    G    /    E7   
+8    Am7  /    D9   
+9    G    /    E7   
+10   Am7  /    D7#5b9 
+
+Repeatending
+
+11   G    
+12   Am7  /    D9   
+
+Groove SlowBluesWalk4Sus
+
+Repeatend
+
+
+13   G    /    C    
+14   G    /    Bm7  E7   
+
+Groove SlowBluesWalk4
+
+15   Am7  /    D7b9 
+16   G    /    Dm7  G7   
+
+Groove SlowBluesWalk8
+
+17   CM7  
+18   G    Am7  GM7  
+19   CM7  
+20   G    /    Am7  GM7  
+21   C    /    C#dim 
+22   G    /    E7   
+23   Am7  B7   Em7  
+24   A7   Am7  D7   
+
+Groove SlowBluesSus
+
+25   G    /    G#dim 
+26   Am7  /    D9   
+27   G    /    E7   
+
+Groove SlowBlues
+
+28   Am7  /    D9   
+29   G    /    E7   
+30   Am7  /    D7#5b9 
+31   G    
+32   Am7  /    D7#5b9 
+
+Tempo *.8 1.5
+Groove SlowBluesEnd
+
+33   G    /    Am7  AbM7 
+34   GM7  C    G6   z!   
+
+Cut -1
+

@@ -1,0 +1,181 @@
+// Cruising Down The River
+// A nice little waltz from 1945.
+
+Tempo 160
+Keysig F
+
+Groove Metronome3
+ z * 2
+
+Groove WaltzIntro8
+Begin Solo
+   Voice Accordion
+   Articulate 101
+   Harmony 3Below
+   Octave 5
+   Volume f
+   Begin Riff
+       2.c+;
+       2.a;
+       2.d+;
+       2.a;
+       2d+;4c+;
+       2b;4a;
+       2.+2g~;
+   End
+End
+
+Swell mp f 8
+
+1          F
+2          /
+3         Dm
+4          /
+
+5         Gm
+6          /
+7         C7
+8          /
+
+Repeat
+Groove Waltz
+Volume m
+
+9          F
+10         /
+11         /
+12        D7
+
+Groove Waltz1
+
+13        G7
+14         /
+15         /
+16         /
+
+Groove WaltzSus
+Cresc mf 8
+
+17        C7
+18         /
+19         /
+20         /
+
+Groove Waltz1Sus
+
+21         F
+22     F#dim
+23        C7
+24         /
+
+Groove Waltz
+Decresc mp 8
+
+25         F
+26         /
+27         /
+28        D7
+
+Groove WaltzSus
+
+29        G7
+30         /
+31     G#dim
+32         /
+
+Groove Waltz1
+Volume m
+
+33         F
+34        Bb
+35         F
+36        D7
+
+Groove Waltz1Sus
+
+37        G7
+38        C7
+39         F
+40         /
+
+Groove WaltzWalk
+Swell mf 8
+
+41        F7
+42         /
+43         /
+44         /
+
+Groove WaltzWalkSus
+
+45         /
+46         /
+47        Bb
+48        G7
+
+Groove WaltzWalk
+
+49         /
+50         /
+51         /
+52         /
+
+Groove WaltzWalkSus
+
+53         /
+54         /
+55        C7
+56         /
+
+Groove Waltz
+Decresc mp 8
+
+57         F
+58         /
+59         /
+60        D7
+
+Groove Waltz1
+
+61        G7
+62         /
+63     G#dim
+64         /
+
+Groove WaltzSus
+Cresc m 4
+
+65         F
+66        Bb
+67         F
+68        D7
+
+Groove Waltz
+Decresc mp 4
+
+69        G7
+70        C7
+
+Repeatending
+
+Groove WaltzWalk
+Begin Walk 
+   Direction Down
+   Octave 2
+   Decresc mf mp 2
+   Articulate 90
+End
+
+71         F
+72         /
+
+Repeatend
+
+
+Groove WaltzEnd
+Seq 3
+Tempo *.8 2
+Decresc ppp 2
+
+71         F
+72         /  z!

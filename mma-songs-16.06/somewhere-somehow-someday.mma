@@ -1,0 +1,103 @@
+// Somewhere Somehow Someday
+
+Tempo 100
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Set ArpeggioOctave  6
+
+Groove ChaChaIntro
+Begin Solo
+  Voice Bandoneon
+  Harmony Open+8Above+8Below
+  Octave 5
+  Articulate 99
+  Volume f
+  Begin Riff
+    2g;d;
+	2g;c;
+	4r;d;e;f;
+	2.e;
+  End
+End
+
+1         G
+2         C
+3       Bm7
+4        E7
+
+Repeat
+Groove ChaCha
+
+5       Am7
+6        D7
+7         G
+8       Em7
+
+Groove ChaCha1
+
+9       Am7
+10       D7
+11      GM7
+12      Dm6      /   E7#5
+
+Groove ChaCha
+
+13      Am7
+14        /     D7
+15      GM7
+16       G6      /    Bm7     E+
+
+Groove ChaChaSus
+
+17      Am7
+18       D7
+19      Dm7
+20        /      /   G7b9
+
+Groove ChaCha1Sus
+
+21        C
+22        /
+23       Am          B7 
+24       Em
+
+Groove ChaCha
+
+25       B7
+26       Em
+27       A7
+28      Am7      /      /     D7
+
+Groove ChaCha1
+
+29      Am7
+30        /     D7
+31        G
+32      Em7      /      /     E7
+
+Groove ChaChaSus
+
+33        /    Am7
+34       D7      /   D7b9
+
+RepeatEnding
+
+35        G
+
+Groove ChaChaFill
+
+36      Bm6      /  G#dim3
+
+
+RepeatEnd
+
+Groove ChaChaEnd
+Decresc pp 2
+Tempo *.9 2
+
+37        G      /     Cm
+38        G      /     z!
+

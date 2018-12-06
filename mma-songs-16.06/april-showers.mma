@@ -1,0 +1,94 @@
+// April Showers
+
+// 4 bar intro, repeated
+
+Tempo 145
+Keysig 1#
+
+Groove Metronome2-4
+	z * 2
+	
+Groove Swing1
+
+Begin Solo
+	Voice VoiceOohs
+	Volume f
+	Harmony Open
+	Articulate 60
+	Octave 4
+	Accent 1 10 3 10
+End
+
+
+Repeat
+1 	G /  Em      {4g+;;e+;;}
+2 	Dm /  Em    {4d+;;b;;}
+3 	G /  Em      {4g;;e;;}
+
+Groove Swing1Sus
+
+Repeatending
+
+4	D7           {2d;}
+Solo Volume -10
+Repeatend
+
+5 	D7 z / /    {2.d;} // pick up on beat 2
+
+Delete Solo
+
+Repeat
+Groove Swing1
+
+6 	D7
+7 	/
+8 	G
+9 	/
+10 	D7
+11 	/
+12 	G6
+13 	/
+
+Groove Swing1Walk
+
+14 	E7
+15 	/
+16 	Am
+17 	/
+18 	Em6
+19 	/
+20 	D7 C# Am Ddim
+21 	D7 z
+
+Groove Swing1Plus
+
+22 	D7
+23 	/
+24 	G
+25 	/
+26 	E7
+27 	/
+28 	Am
+29 	/
+
+Groove Swing1Sus
+
+30 	/
+31 	Cm6
+32 	G /  Em
+33 	A7
+34 	Am /  Am7
+35 	D7
+36 	G
+
+RepeatEnding 2
+
+37 	G z
+
+Repeatend
+
+Groove Swing1End
+
+38 	G
+39 	/ z!
+

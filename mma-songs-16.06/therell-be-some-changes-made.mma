@@ -1,0 +1,82 @@
+// Therell Be Some Changes Made
+
+Tempo 100
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingIntro
+Begin Solo
+    Voice Piano1
+    Volume f
+    Octave 5
+    Harmony OpenBelow
+    Articulate 120
+    Rtime 5,10
+    Rvolume 5,15
+    Begin Riff
+        81f;82g;8a;2b;
+        81g;82a;8b;2d+;
+        8c+;4;8;4;;
+        1f+;
+    End
+End
+
+Solo Cresc m f 4
+Swell mp mf 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove Swing
+Volume m
+
+5        G7
+6         /
+7        C9
+8         /
+
+Groove SwingPlus
+Cresc mf 4
+
+9        D7
+10       G7
+11       C9
+12       C7      /     F7
+
+Groove SwingSus
+Decresc m 4
+
+13       G7
+14        /
+15       C9
+16        /
+
+Groove SwingPlusSus
+
+17       D7
+18       G7
+19       C9      /     F7
+20       Bb      /     G7
+
+
+RepeatEnding 2
+
+Groove SwingFill
+Volume mf
+
+21       C9      /     F7
+22       Bb      /     F7
+
+RepeatEnd
+
+Groove SwingEnd
+Decresc ppp 2
+
+21       C9      /     F7
+23       Bb  z!
+

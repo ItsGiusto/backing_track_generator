@@ -1,0 +1,79 @@
+// Where Flamingos Fly
+
+Tempo 70
+Groove Metronome2-4
+ z * 2
+
+Groove SlowBluesIntro
+
+Begin Solo
+	Voice JazzGuitar
+	Decresc f ppp 4
+	Articulate 110
+	Octave 5
+	Accent 1 50  3 30
+	Begin Riff
+		8c+;d+;c+;d+;c+;d+;c+;d+;
+		8b;c+;b;c+;b;c+;b;c+;
+		8a;b;a;b;a;b;a;b;
+		2g;
+	End
+End
+
+1    Cm
+2    Bm
+3    Am
+4    G    /    E7#5
+
+Repeat
+Groove SlowBlueswalk4
+
+5    Am   /    F/A
+6    Am6  /    F/A
+7    Am   /    F/A
+8    Am6  /    F/A
+9    Am7  /    C7b9
+10   F6   /    Dm7  G7b9
+11   C6
+12   /
+13   Am   /    F/A
+14   Am6  /    F/A
+15   Am   /    F/A
+16   Am6  /    F/A
+17   Am   /    C7b9
+18   F6   /    Dm7  G7b9
+19   C6
+20   C9
+
+Groove SlowBluesWalk8
+
+21   F7
+22   C6
+23   F7
+24   C6
+25   F7
+26   Am7  /    Am6
+27   F9
+28   E7
+29   Am   /    F/A
+30   Am6  /    F/A
+
+Groove SlowBLuesWalk4
+
+31   Am   /    F/A
+32   Am6  /    F/A
+33   Am7  /    C7b9
+34   F6   /    Dm7  G7b9
+
+RepeatEnding
+
+35   C6
+36   Bm7b5 /    E7#5
+
+RepeatEnd
+
+Groove SlowBluesEnd
+
+37   C6   /    Ab9
+38   C    /    /    z!
+

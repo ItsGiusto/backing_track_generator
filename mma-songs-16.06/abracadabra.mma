@@ -1,0 +1,137 @@
+// Abracadabra
+
+// This is the Cole Porter tune from "Mexican Hayride",
+// NOT the Steve Miller Band version! 
+
+
+Tempo 120
+Keysig Eb
+
+Groove Metronome2-4
+
+	z * 2
+
+// 4 bar intro
+
+Groove BossanovaFill
+
+Begin Solo
+	Voice SynthBrass2
+	Volume mf
+	Articulate 80
+	Harmony Open
+	Octave 5
+	Begin Riff
+		8c; 4g; 8c; 4g; c;
+		8d; 4an; 8d; 4a; d;
+		8en; 4bn; 8e; 4b; e;
+		4bn; an; 2g;
+	End
+End
+
+1    Cm   
+2    Dm   
+3    Em   
+4    G7   
+
+Begin Solo
+	Articulate 95
+	Octave 6
+End
+
+Repeat
+Groove Bossanova
+
+5    Cm   
+6    Fm6  
+7    Cm   /    Cm7  
+8    Cm6  /    AbM7 G7   
+9    Cm   
+10   F9   /    D7   
+11   G    /    D7#5 
+12   Dm7  /    Fm6  G7   
+13   C7   
+14   /    /    Gm7  C7   
+15   Fm   
+16   F7   /    Fm6  F#dim 
+17   C    
+18   D7   /    Fm6  G7   
+
+Groove BossanovaSus
+
+19   C    /    CM7  
+20   Ebm6 /    Dm7  G7 
+
+Keysig C
+  
+21   C    
+22   Fsus9 /    Fm(sus9) Fm6  
+23   C    /    C7   
+24   C6   /    Caug G7   
+25   C    
+26   F    /    A7   
+27   D7   /    D7+  
+28   Dm7  /    Dm7b5 G7   
+29   C7   
+30   /    /    Gm7  C9   
+31   F    
+32   /    /    Fm   Ab7  
+33   C    
+34   D7   /    Fm6  G7   
+35   C    /    Cdim 
+36   Fm   /    Ab7  G7   
+37   C    
+38   FM7  
+39   C                      {4r; e; 2a;} 
+40   Caug /    C    G7      {4.a&; 4.g;} 
+41   C    
+42   D9   
+43   G                      {4r; d;2g;} 
+44   D7#5 /    G9           {4.f#; 4.fn;} 
+45   C    
+46   C7   
+47   F    /    A7           {4r; a; 8b-; 4c#; 8e;} 
+48   Dm   /    D7b5         {4g; 8f; 4.d;} 
+49   C    
+50   D7   /    Fm6  G7#5 
+51   Cm   /    Cm7          {4r; b& ; 2d&+;} 
+52   Cm6  /    A    G7      {4.a; 4.a&;} 
+
+Keysig Eb
+Groove Bossanova
+
+53   Cm   
+54   Fm7  
+55   Cm                     {4r; g; 2e+;} 
+56   Cmb5 /    Cm   G7      {4.e+; 4.;} 
+57   Cm   
+58   D7b9 
+59   G                      {4r; g; 2d+;} 
+60   GM7  /    G7           {4.d+; ;} 
+61   Cm   
+62   Gdim 
+63   Fm   /    Bbm7         {4r; f; 8b; 4d&+; 8b;} 
+64   Fm   /    Ab7          {4.d+; 8c+; 4.;} 
+65   C    /    A7   
+
+Groove BossanovaFill
+
+66   Cdim /    G7   
+
+Repeatending
+
+67   C    /    Am7  Cm6     {4r; en+; ;8d#+; 2.e+~;} 
+68   C    
+
+RepeatEnd
+
+Groove BossaNovaEnd
+Seq 3
+Decresc p 2
+
+69   C    /    Am7  Cm6  
+70   C    z!   
+Cut -2.25
+
+
+

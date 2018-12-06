@@ -1,0 +1,75 @@
+// Miss Otis Regrets
+
+Tempo 80
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowBlues
+
+Begin Solo
+	Voice Piano1
+	Volume mp
+	Articulate 90
+	Harmony Open
+	Octave 6
+	Begin Riff
+		8e+; ; 4; 2;
+		8d&+; ; 4; 2;
+		8c+; ; 4; 2;
+		4b; a; b;
+	End
+End
+
+Swingmode On
+1 	Eb
+2 	Bbm
+3 	Fm
+4 	Bb7
+
+Delete Solo
+
+Repeat
+Groove SlowBlues
+
+5 	Eb
+6 	Bb7
+7 	Eb /  Eb7
+8 	Fm
+
+9 	Eb
+10 	/
+11 	Bb
+12 	Bb7
+
+Groove SlowBluesSus
+
+13 	Eb /  /  Bb7
+14 	Eb
+15 	Ab
+16 	Eb
+
+Groove SlowBlues
+
+17 	Fm
+18 	Eb
+19 	/  /  Bb7
+20 	Eb
+
+RepeatEnding 2
+
+21 	/
+
+RepeatEnd
+
+Groove Slowblues
+22 	Eb
+
+Groove SlowBluesEnd
+Seq 2
+
+23 	Eb
+24 	/  /  Bb7
+25 	Eb / z!
+

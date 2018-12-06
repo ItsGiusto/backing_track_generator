@@ -1,0 +1,196 @@
+// I Concentrate On You
+
+Tempo 134
+KeySig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzRhumbaIntro
+
+Begin AllGrooves
+  Begin Drum-Maraca 
+    Volume pp
+    Rskip 50
+  End
+  Begin Arpeggio
+    Octave 5
+    Range 1
+  End
+  Begin Bass
+     Octave 4  // the walk octave remains at 3
+  End
+End
+
+Begin Solo
+     Voice Piano1
+     Volume f
+     Articulate 90
+     Harmony 3Below
+     Octave 5
+     Begin Riff
+         2.e+;
+         2.b;
+         2.f;
+     End
+End
+
+Cresc mp mf 4
+
+1         Eb
+2        Bbm
+3         Fm
+Bass Riff 2 4 1 90; 3 4 2 90; 4 4 3 90;
+4        Bb7      /     Eb
+
+
+Repeat
+Groove JazzRhumba
+Volume m
+
+5       EbM7
+6        Eb6      /    Bb+
+7          /
+8        Ebm
+
+Groove JazzRhumbaPlus
+Cresc mf 4
+
+9          /
+10      Abm6
+11         /
+12       Bb7
+
+Groove JazzRhumba
+
+13      Ebm6      /    Bb7
+14       Abm      /    Ebm     F7
+15       Gb7
+16        F7
+
+Groove JazzRhumbaPlus
+Volume m
+
+17      Bb7+    Bb7      /     Eb
+18         /
+19       Ab6
+20        Eb
+
+Groove JazzRhumbaSus
+Cresc f 4
+
+21      EbM7      /      /    Eb6
+22       Bb+
+23         /
+24       Ebm
+
+Groove JazzRhumbaSusPlus
+Decresc mp 4
+
+25       Gb9      /      /    Gb7
+26       Cb6
+27         /
+28       Db7
+
+Groove JazzRhumba
+
+29      Ebm7  Ebdim    Db7
+30        Cb      /     Gb  Gbdim
+31        Gb
+32        F7      /   F7b5     B+
+
+Groove JazzRhumbaPlus
+Cresc mf 4
+
+33       Bb+    Bb7      /     Eb
+34         /      /    Ab6
+35        Eb      /      z
+36        F7
+
+Groove JazzRhumbaSus
+
+37      Bdim
+38       Eb+      /     Eb
+39         /
+40       Ab6
+
+Groove JazzRhumbaPlus
+Volume m
+
+41       Bb7      /     Gm    Bb+
+42        Eb      /     Gm
+43       Eb7
+44        Ab
+
+Groove JazzRhumbaSus
+
+45       Db7
+46        Cb      /     Gb
+47         /
+48      Ebm6
+
+Decresc mp 3
+
+49         /      /      /     F7
+50        Bb
+51      BbM7      /    Bb7
+52        Eb
+
+Groove JazzRhumba
+Volume m
+
+53        Gm
+54       Cm6
+55         /
+56       Bb9      /   Bdim    Bb9
+
+Groove JazzRhumbaPlus
+
+57        Eb
+58        G7
+59       G7+      /     G7
+60      Bbm6
+
+Groove JazzRhumba
+Decresc mp 2
+
+61       C7+      /      /     C7
+62        Fm      /      C Fm@4.5
+63         /
+
+Groove JazzRhumbaFill
+
+64        F7      /   F7b5
+Groove JazzRhumba
+
+65      Bb7+    Bb7      /     Eb
+
+RepeatEnding
+
+66         /      /    Ab6
+67        Eb      /    Bb7
+68         /      /     Eb
+
+RepeatEnd
+
+69       Ab6      /     Eb
+70         /
+
+
+Groove JazzRhumbaSus
+Decresc p 4
+
+71        Fm
+72         /      / Bb13b9
+73         /
+74         /      /    Bb7
+
+75       Bb6
+76         /
+
+Groove JazzRhumbaEnd
+Decresc pppp 2
+
+77        Eb
+78         /     z!
+

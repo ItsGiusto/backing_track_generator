@@ -1,0 +1,145 @@
+// How Little We Know (From "To Have and Have Not, 1944)
+// Lauren Bacall sings this at a tempo of 138 ('cause she's not feeling sad)
+
+Tempo 110
+KeySig Ab
+
+Groove Metronome2-4
+  z * 2
+
+Groove BeguineIntro
+
+Begin AllGrooves Chord
+//   Voice Piano1
+   Accent
+   Volume m
+   Articulate 110
+   Voicing Mode=Key
+End
+
+Begin Solo
+    Voice JazzGuitar
+    Articulate 120
+    Octave 5
+    Harmony OpenBelow
+    Volume f 
+    Begin Riff
+        43c;e;f;2g;
+        43f;a;b;2c+;
+        43f;a;b;2d+;
+        1e+;
+    End
+End
+
+Swell p mf 4
+
+1         Ab
+2         Fm
+3        Bbm
+4        Eb7
+
+Repeat   /// for entire song 2x
+Repeat
+Groove Beguine
+Volume m
+
+5       AbM7
+6        Ab6
+7       AbM7
+8        Ab6
+
+Groove BeguineSus
+Cresc mf 2
+
+9       Bbm7
+10       Eb7
+11      Bbm7
+
+RepeatEnding
+
+Groove BeguineFill
+Volume mp
+
+12    Bbdim3      /   E7b9
+
+RepeatEnd
+
+13    Bbdim3      /  Eb7b9
+
+Groove BeguineSus
+Volume m
+
+14      AbM7      / Ebdim3
+15       Ab6      /  Gdim3
+16      AbM7
+17         /
+
+Groove Beguine1Sus
+Volume mf
+
+18       Gm7
+19        C7
+20       FM7
+21    F#dim3      /     F6
+
+Groove BeguineSus
+Volume m
+
+22      Ebm7
+23       Ab7
+24      DbM7      /     Bb
+25       Db7      /    Db6
+
+Groove Beguine1Sus
+Volume mp
+
+26       Fm6
+27       Bb9
+28         /
+29         /    Eb7
+
+Groove Beguine
+Cresc m mf 3
+
+30      AbM7
+31       Ab6
+32      AbM7
+33       Ab6
+
+Groove Beguine1
+Decresc m 2
+
+34      Bbm7
+35       Eb7
+36      Bbm7
+37    Bbdim3      /  Eb7b9
+
+Groove Beguine
+
+38      AbM7      / Ebdim3
+39       Ab6      /  Gdim3
+40      AbM7
+41         /
+
+Groove Beguine1
+Decresc mp 2
+
+42       Bb7      /    Eb7
+43       Ab6
+
+RepeatEnding
+
+44      Bbm7      /    Eb7
+
+Groove BeguineFill
+
+45       Ab6     /     Eb7
+
+RepeatEnd    /// do entire song 2x
+
+Groove Beguine2End
+Decresc ppp 2
+
+44      Bbm7      /    Eb7
+45       Ab6     z!
+

@@ -1,0 +1,96 @@
+// Willow Weep For Me
+
+Tempo 72
+KeySig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowBluesIntro
+Begin Solo
+  Voice JazzGuitar
+  Volume f
+  Harmony OpenBelow
+  Octave 5
+  Articulate 90
+  Begin Riff
+     81d+; 82g; 3d+; b; 2c+;
+     81d+; 82g; 3d+; b&; 2bn;
+	 81d+;82g;81a;82g; 8b;a;g;e;
+	 2a;
+  End
+End
+
+Cresc mp mf 4
+
+1          G      /     C7
+2         Gm      /     Bdim3@2.66
+3         Em      /     Am
+4         D7
+
+Repeat
+Groove SlowBlues
+Volume m
+
+5          G      /     C7
+6          G      /     C7
+7          G      /    Am7
+8          G    Am7      G     G7
+
+Groove SlowBluesFill1
+
+9         C9
+10        C9      /    Am7
+11        G7      /     C7      /
+
+RepeatEnding
+
+12        G7      /     D7
+
+Repeatend
+
+13     Dm7b5      /   G7b9
+
+Repeat
+Groove SlowBluesSus
+Swell m mf 8
+
+14        Cm      /  Am7b5
+15        Gm      /     G7
+16        Cm      /    Bb9
+17       Ab7      /     G7
+
+Groove SlowBluesWalk4Sus
+
+18        Cm      /  Am7b5
+19        Gm      /     G7
+20       Cm7     F9   Bbm7    Eb9
+21       Ab7      /     D7   D7#5
+
+Groove SlowBlues
+Decresc mp 4
+
+22         G      /     C7
+23         G      /     C7
+24         G
+25         /    Am7      G     G7
+
+Groove SlowBluesSus
+Cresc m 2
+
+26        C9      /    Gm7
+27        C9      /    Am7     D7
+
+RepeatEnding
+
+28         G
+29      G7&9
+
+RepeatEnd
+
+Groove SlowBLuesEnd
+Decresc ppp 2
+
+30         G     C7
+31        G6      /     z!
+

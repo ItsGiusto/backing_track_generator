@@ -1,0 +1,94 @@
+// The Twist
+
+Tempo 156
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo   /// used in the chorus for the "round-and" parts
+    Voice CleanGuitar
+    Volume f
+    Articulate 96
+    Octave 5
+    Rtime 5
+    Harmony 3Below
+End 
+
+Groove TwistIntro
+Swell mp f 4
+
+1          G
+2          C
+3          G
+4         C7
+
+Repeat
+Groove Twist4Sus
+Volume m
+
+5         G7
+6          /
+7          /
+
+Groove Twist4
+Cresc f 4
+
+8          /
+9         C7
+10         /      C
+11        G7
+
+Groove Twist
+Decresc mp 4
+
+12         /
+13        D7
+14        C7
+15        G7
+
+/// Chorus
+Groove TwistSus
+Volume m
+
+16         G
+17        G7
+
+Groove Twist
+Cresc mf 5
+
+18         /
+19         /    {2r; 4g;8;;}
+20         /    {4g;8;;4;8;;}
+21        C7
+22         /      /      C
+
+Groove Twist4
+Decresc m 4
+
+23        G7   {2r; 4g;8;;}
+24         /   {4g;}
+25        D7
+26        C7
+
+RepeatEnding 2
+
+Groove Twist4Sus
+
+27        G7   {2r;4g;8;;}
+
+Groove Twist
+Volume f
+28         /   {4g;}
+
+RepeatEnd
+
+Decresc mp 3
+29        G7      /      C    Eb7
+
+Groove TwistEnd
+
+30         D      /     G9
+31         /     z!
+
+

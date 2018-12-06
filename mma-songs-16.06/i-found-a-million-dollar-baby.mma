@@ -1,0 +1,83 @@
+// I Found A Million Dollar Baby
+
+Tempo 120
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice Piano3
+	Volume f
+	Articulate 80
+	Octave 6
+	Harmony Open
+	Begin Riff
+		2c+;8f;g;f;g;
+		4a;g;f;d;
+		8c;d;e;f;4g;d;
+		1c;
+	End
+End
+
+Groove FoxTrotIntro
+Swingmode On
+
+1      F     
+2      Dm    
+3      Gm    
+4      C7    
+
+Repeat
+Groove FoxTrot
+Repeat
+
+5      F     
+6	/
+7	/
+8      G7    
+9      C7    /    Cdim  
+10     C7    
+
+RepeatEnding
+
+11     /    /    /    C+    
+12     F     
+Groove FoxTrotPlus
+RepeatEnd
+
+
+13     C7    
+14     F 
+
+Groove FoxTrotSus
+    
+15     A7    
+16	/
+17     Dm    /    A7    
+18     Dm    
+19     G7    
+20	/
+21     Gm    
+22     C7    /    G7    C7   
+
+Groove FoxTrot
+ 
+23     F     
+24	/
+25	/
+26     G7    
+27     C7    /    Cdim  
+28     C7 
+
+RepeatEnding
+   
+29     C7    
+30     F / z     
+
+RepeatEnd
+Groove FoxTrotEnd
+Tempo *.8 1.5
+
+29     C7    
+30     F / z!

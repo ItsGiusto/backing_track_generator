@@ -1,0 +1,173 @@
+// Show Me
+
+Tempo 180
+Keysig G
+
+Groove Metronome3
+  z * 2
+
+Groove LatinWaltzIntro8
+
+Allgrooves Chord Articulate 90
+
+Begin Solo
+    Voice OrchestralHarp
+    Articulate 110
+    Harmony OpenBelow
+    Octave 5
+    Volume f
+    Begin Riff
+        4g+;f+;e+;
+        2d+;
+        4fn+;e+;d+;
+        2c+;
+        4e;fn;g;
+        4a;b;c+;
+        2.+2d+~;
+    End
+End
+
+Swell mp mf 8
+
+1         G
+2         /
+3         F
+4         /
+
+5        Em
+6         /
+7         D
+8        D7
+
+Repeat
+Groove LatinWaltz
+Volume m
+
+9         G
+10    D7sus
+11        G
+12    D7sus
+
+Groove LatinWaltzPlus
+Cresc mf 4
+
+13        G
+14    D7sus
+15        G
+16        /
+
+Groove LatinWaltz
+Volume m
+
+17       Bb
+18    F7sus
+19       Bb
+20    F7sus
+
+Groove LatinWaltzPlus
+Cresc mf 4
+
+21       Bb
+22    F7sus
+23       Bb
+24        /
+
+Groove LatinWaltzSus
+Cresc mp m 4
+
+25        D
+26        /
+27        /
+28       A7
+
+Groove LatinWaltz
+
+29        D
+30       A7
+31        D
+32        /
+
+Groove LatinWaltzSus
+Cresc mf 4
+
+33        /
+34        /
+35        /
+36       A7
+
+Groove LatinWaltz
+Decresc m 4
+
+37        /
+38        D
+39        /
+Chord Riff C123
+Chord Volume m  
+Walk Riff W123
+Bass Riff z
+
+40        /
+
+Groove LatinWaltzSusPlus
+Volume m
+
+41        G
+42    D7sus
+43        G
+44    D7sus
+
+Groove LatinWaltzSus
+
+45        G
+46       F6
+47       E7  E7sus
+48        /      /     E7
+
+Groove LatinWaltz
+Volume mf
+
+49       Am
+50        /      /     F9
+
+Groove LatinWaltzPlus
+Volume m
+
+51        G
+52      Eb7
+53        G
+54      Eb7
+
+Groove LatinWaltzSus
+Volume mf
+
+55        G
+56        /
+57     A7b5
+58        /
+
+Cresc m mf 4
+
+59        G
+60        /
+61        /
+62        /      /     D7
+
+Decresc m 2
+
+63        G
+64        /
+
+RepeatEnding
+Decresc mp 2
+
+65        /
+66       D7
+
+RepeatEnd
+
+Groove LatinWaltzEnd
+Decresc pp 2
+
+65        /
+66       G6  z!
+

@@ -1,0 +1,124 @@
+// Baubles Bangles And Beads
+
+Tempo 184
+Keysig Ab
+
+Groove Metronome3
+  z * 2
+
+Groove JazzWaltzIntro8
+Begin Solo
+	  Voice JazzGuitar
+	  Volume ff
+	  Harmony OpenBelow+8Below+16Below
+	  Articulate 110
+	  Octave 5
+	  Begin Riff
+	      4a;2+2.c+~;
+		  ~<>;
+		  4f;2+2.a~;
+		  ~<>;
+		  2b;4d+;
+		  4b;d+;b;
+		  2.+2e+ ~;
+	  End
+End
+
+Swell mp mf 8
+
+1         Ab
+2          /
+3         Fm
+4          /
+5        Bbm
+6          /
+7        Eb7
+8          /
+
+Repeat
+Groove JazzWaltz
+Cresc mp mf 8
+
+9       Bbm7
+10       Eb7
+11      AbM7
+12     Bdim7
+
+Groove JazzWaltzSus
+
+13      Bbm7
+14       Eb7
+15      AbM7
+16         /
+
+Groove JazzWaltz2
+Volume m
+
+17       Dm7
+18        G7
+19       CM7
+20    Ebdim7
+
+Groove JazzWaltz
+Decresc mp 4
+
+21       Dm7
+22        G7
+23       CM7
+24         /
+
+Groove JazzWaltz2Sus
+Cresc f 8
+
+25      F#m7
+26        B7
+27       EM7
+28         /
+
+Groove JazzWaltz
+
+29      Bbm7
+30       Eb7
+31      AbM7
+32        F7
+
+Groove JazzWaltz1
+Decresc m 4
+
+33      Bbm7
+34       Eb7
+35      AbM7
+36        F7
+
+Groove JazzWaltzSus
+
+37      Bbm7
+38       Eb7
+39       Gb7
+40        F7
+
+
+Groove JazzWaltz
+Decresc mp 2
+
+41      Bbm7
+42       Eb7
+
+RepeatEnding 2
+Cresc m 2
+
+43      AbM7
+
+Groove JazzWaltzFill
+
+44       Cm7     F7
+
+RepeatEnd
+
+Groove JazzWaltzEnd
+Decresc ppp 2
+Tempo *.9 2
+
+43      AbM7
+44      /       z!
+

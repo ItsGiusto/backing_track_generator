@@ -1,0 +1,140 @@
+// Make Someone Happy
+
+Tempo 136
+Keysig Eb
+
+Groove Metronome2-4
+    z * 2
+
+Groove SalsaIntro
+Begin Solo
+    Voice Flute
+	Octave 6
+	Harmony OpenBelow+8below
+	Cresc p ff 8
+	Articulate 90
+	Begin Riff
+	   1+4g ~;
+	   ~ 8f;e;4d;c;
+	   1+4g ~;
+	   ~ 8f;e;4d;c;
+	   4r;f;;;
+	   2f;43e;d;e;
+	   2f;a;
+	   1b;
+	End
+End
+
+Cresc p f 8
+
+1         Eb
+Seq 1
+2          /
+Seq 2
+3         Cm
+Seq 2
+4          /
+Seq 3
+5         Fm
+Seq 3
+6          /
+Seq 3
+7        Bb7
+8          /
+
+Repeat
+Groove Salsa
+Volume m
+
+9         Eb      /    Eb+
+10       Eb6
+11        Eb      /    Eb+
+12       Eb6
+
+Groove SalsaSus
+Cresc f 4
+
+13      Bbm7
+14       Eb7
+15      Bbm7
+16       Eb7
+
+Groove Salsa
+Decresc m 4
+
+17        Ab
+18         /
+19     Fm7b5
+20     Bb7b9
+
+Groove SalsaPlus
+Volume mf
+
+21        Eb      /    Fm7
+22       Gm7      /   C7b9
+23       Fm7
+24     Bb7b9
+
+Groove Salsa
+Volume m
+
+25        Eb      /    Eb+
+26       Eb6
+27        Eb      /    Eb+
+28       Eb6
+
+Groove SalsaSusPlus
+Cresc f 4
+
+29      Bbm7
+30       Eb7
+31      Bbm7
+32       Eb7
+
+Groove SalsaSus
+Decresc mp 4
+
+33        Ab
+34         /
+35      Abm7
+36       Db7
+
+Groove Salsa
+
+37        Eb      /    Fm7
+38       Gm7      /   Abm7
+39       Gm7
+40        C9
+
+Groove SalsaSusPlus
+Cresc mf 4
+
+41       Fm7
+42       Bb7      / Bb7/Ab
+43       Gm7
+44        C7
+
+Groove SalsaPlus
+Volume m
+
+45       Fm7
+46       Bb7
+
+RepeatEnding
+
+47        Eb      /   Abm7
+Groove SalsaFill
+48       Eb6      /    B&7
+
+RepeatEnd
+
+Groove SalsaEnd
+Tempo *.9
+Decresc pp 2
+
+47        Eb      /   Abm7
+48       Eb6     z!
+
+
+
+

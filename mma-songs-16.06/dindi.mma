@@ -1,0 +1,147 @@
+// Dindi
+
+// Yet another Jobim tune.
+
+Tempo 100
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+	Voice JazzGuitar
+	Volume f
+	Octave 5
+	Harmony Open / / 3
+	Articulate 110
+	Begin Riff
+	3+3e+;d+;b; d+;b;g;
+	3+3d&+;c+;a; c+;a;f;
+	3+3e+;d+;b; d+;b;g;
+	1d&+ f;
+	End
+End
+
+Swell mp f 4
+
+1       EbM7
+2       DbM7
+3       EbM7
+4       DbM7
+
+Groove BossaNova1Sus
+Volume m
+
+5       EbM7
+6       DbM7
+7       EbM7
+8       DbM7
+
+Cresc mf 2
+
+9        CM7
+10       Am9
+
+Decresc mp 2
+
+11       Dm9
+12       G13
+
+Groove BossaNovaSus
+
+13      EbM7
+14      DbM7
+15      EbM7
+16      DbM7
+
+Cresc m 4
+
+17       CM7
+18       Am9
+19       Dm9
+20       G13
+
+Repeat
+Groove BossaNovaPlus
+Volume mf
+
+21      EbM7
+22      DbM7
+23      EbM7
+24      Bbm7      /  Eb7b9
+
+Groove BossaNova
+Volume f
+
+25      AbM7
+26     AbmM7
+27       Eb6
+
+Groove BossaNovaFill
+
+Decresc mp 1
+28      Bbm7
+
+Groove BossaNova1Sus
+
+29      EbM7
+30      DbM7
+31      EbM7
+32      Bbm7      /  Eb7b9
+
+Groove BossaNova1SusPlus
+Cresc m 4
+
+33      AbM7
+34     AbmM7
+35       Eb6
+36     Am7b5      /     D7
+
+Groove BossaNova
+Volume mf
+
+37        Gm
+38      Ebm6
+39        Gm      /   Ebm6
+40        Gm      /   C7b9
+
+Volume f
+
+41        Fm
+42      C#m6
+
+Decresc mp 2
+
+43        Fm      /   C#m6
+44       Fm7      /  Bb7b9
+
+Groove BossaNovaSus
+
+45      EbM7
+46      DbM7
+47      EbM7
+48      Bbm7      /  Eb7b9
+
+Cresc m 2
+
+49      AbM7
+50     AbmM7
+
+RepeatEnding
+
+51       Eb6
+
+Groove BossaNovaFill
+
+52         /
+
+RepeatEnd
+Groove BossaNova2End
+Seq 3
+Chord-Sus MidiCresc 40 80 2
+Decresc ppp 2
+
+53       Eb6
+54         /
+

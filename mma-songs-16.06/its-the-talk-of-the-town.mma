@@ -1,0 +1,94 @@
+// Its The Talk Of The Town
+// Marty Symes, A.Y Neiburg, Jerry Livingston
+
+// This is a bit faster than most of the standard versions ...
+
+Tempo 100
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+	Voice Clavinet
+	Cresc mp f 4
+	Articulate 110
+	Harmony 3
+	Octave 5
+	Begin Riff
+		8e;f;;e;2f;
+		8f;g;;f;2g;
+		8c+;a;g;f;4e;d;
+		4c;d;2e;
+	End
+End
+
+Swingmode On
+
+1         F
+2        Gm
+3        Am
+4        C7
+
+Repeat
+Groove FoxTrot
+Cresc mp mf 8
+
+5         F      /  Abdim
+6       Gm7      /     C7
+7       Am7      /   A7+5
+8        Bb      /   Bbm6
+9         F
+10       D+      /     D7
+11       G9
+12      C11      /     C7
+
+Groove FoxTrotPlus
+DeCresc mp  8
+
+13        F      /  Abdim
+14      Gm7      /     C7
+15      Am7      /   A7+5
+16       Bb      /   Bbm6
+17        F
+18       D+      /     D7
+19       G7      /     C7
+20        F
+
+Groove FoxTrotSusPlus
+Volume m
+
+21       Gm      /     D7
+22       Gm      /   Adim
+23       Gm
+24      Am7      /     D7
+25       G7      /    Dm7
+26       G7      /     Dm
+27       G9
+28     C7+5
+
+Groove FoxTrotSus
+Volume mf
+
+29        F      /  Abdim
+30      Gm7      /     C7
+31      Am7      /   A7+5
+32       Bb      /   Bbm6
+33        F
+34       D+      /     D7
+
+RepeatEnding
+
+35       G7      /     C7
+36        F
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Tempo *.9 2
+35       G7      /     C7
+36        F
+
+

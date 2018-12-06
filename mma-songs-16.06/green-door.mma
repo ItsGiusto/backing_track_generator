@@ -1,0 +1,115 @@
+// Green Door
+
+Tempo 145
+KeySig A
+
+Transpose 1   // convert from A to Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove SwingIntro
+Begin Solo
+    Voice Piano2
+    Volume f
+    Articulate 90
+    Harmony OpenBelow
+    Octave 5
+    Begin Riff
+        4.e;8+2c;
+        4f;;8;g;4f;
+        4.d;8+2+2b-~;
+    End
+End
+
+1         A
+2         -F#m
+3         Bm
+4         -E7
+
+
+Repeat
+Label Sign
+Groove SwingWalk
+
+5         A
+6         D
+7         A
+8         /
+
+Groove Swing
+
+9         /
+10        D
+11        A
+12        /
+
+Groove SwingSus
+
+13       E7
+14        D
+15        A
+
+If Def Coda
+	Goto Coda
+Endif
+
+16        /
+
+Groove SwingPlus
+
+17        D
+18        /
+19        A
+20        /
+
+Groove Swing
+
+21        D
+22        /
+23        A
+24        /
+
+Groove SwingSus
+
+25       E7
+26       D7
+
+RepeatEnding
+
+27        A
+
+Groove SwingFill
+
+28        /
+
+RepeatEnd
+
+29        A
+
+Groove SwingFill
+
+30        /
+
+Set Coda
+Goto Sign
+
+Label Coda
+
+Groove Swing
+
+31        A
+
+Groove SwingSus
+
+32       E7
+33        D
+
+Groove SwingEnd
+
+34        A
+Seq
+Chord Riff C12
+Drum-Snare Riff D12
+35      A13 / z!
+

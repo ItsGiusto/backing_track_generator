@@ -1,0 +1,132 @@
+// Brazil
+
+Tempo 200
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove Samba
+Begin Solo
+	Voice Accordion
+	Harmony Open
+	Articulate 70
+	Octave 5
+	Begin Riff
+		4d;d#;e;r;
+		4dn;8d#;4e;8;4b;
+		4d;d#;e;r;
+		4dn;8d#;4e;8;4d;
+	End
+End
+
+Groove SambaIntro
+
+1   G       
+2   /       
+3   /       
+4   /       
+
+Repeat
+Groove Samba
+
+5   G       /       G+      
+6   G6      /       G+      
+7   G       /       G+      
+8   G6      /       G+      
+9   Am      /       Am#5    
+10  Am6     /       F/A     
+11  Am      /       Am#5    
+12  Am6     /       F7/A 
+13  Am      /       Am#5    
+14  Am6     /       F7/A    
+15  Am      /       Am#5    
+16  Am6     /       Am      Cm6/A   
+17  G       /       G+      
+18  G6      /       G+      
+19  Am      /       Am#5    
+
+Groove SambaSus
+
+20  Am6     /       Adim7 
+21  GM7     /       G7      
+22  Gb7     /       F7      
+23  E7      
+24  Dm      /       F7  
+
+Groove SambaPlus
+    
+25  E7      
+26  / 
+
+Groove SambaSus
+      
+27  /       
+28  Dm      /       F7     
+
+Groove SambaPlus
+
+29  E7      
+30  /       
+
+Groove SambaSus
+
+31  /       
+32  Dm      /       F7  
+
+Groove SambaPlus
+    
+33  E7      
+34  /    
+
+Groove SambaSus
+   
+35  Am     
+36  F/A  
+37  Am6     
+38  F/A 
+
+Groove Samba
+    
+39  Am      
+40  F/A     
+41  Am      
+42  Cm      /       Cdim7   
+43  G9      
+44  /   
+45  /       /       GM7     
+46  G       /       Bbdim   
+47  Am7     
+48  / 
+
+Groove SambaSus
+      
+49  Am      /       Eb9     
+50  D7      /       D9      
+51  G       /       G+  
+52  G6      /       G+     
+53  Am      /       Am#5    
+54  Am6     /       /       Adim7   
+55  G       /       G+      
+56  G6      /       G+      
+57  Am      /       Am#5    
+58  Am6     /       /       Adim7   
+59  G       /       G+      
+
+RepeatEnding
+
+60  G6      /       G+  
+
+Groove SambaFill    
+61  Am      /       Am#5    
+62  Am6     /       D7      
+
+RepeatEnd
+
+Groove SambaEnd
+Seq 3
+
+63  G6      /       G+      
+64  G       /       G+      
+65  G6      z!
+

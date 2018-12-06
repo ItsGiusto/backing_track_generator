@@ -1,0 +1,135 @@
+// Let There Be Love
+
+Tempo 130
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove ChaChaIntro
+MSet SoloRiff 
+	 Begin Riff
+	     23e;g;b;
+		 1e+;
+		 43f+;e+;d+;2c+ ;
+		 2b;
+	 End
+Endmset
+
+Begin Solo
+	 Voice Strings
+	 Octave 5
+	 Harmony 2
+	 Articulate 99
+	 Volume mf
+	 $SoloRiff
+End
+
+Begin Solo-Piano
+	 Voice TubularBells //Glockenspiel
+	 Octave 5
+	 Mallet Rate=8 Decay=-6
+	 Harmony 8Below
+	 Articulate 120
+	 Volume m
+	 $SoloRiff
+End
+
+Cresc mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+
+Repeat
+Groove ChaCha
+Volume m
+
+5      EbM9
+6       Gm7
+7      Bbm6
+8      C7b9
+
+Groove ChaCha1
+Volume +20
+
+9      Abm6
+10    Bb7b9
+11     EbM9
+12      Eb6      /  Ebdim
+
+Groove ChaCha
+Volume -20
+
+13      Fm7
+14    Bb7b9
+15     EbM9
+16      Eb6      /  Ebdim
+
+Groove ChaChaSus
+Swell m f 8
+
+17      Fm7
+18    Bb7b9
+19      Eb6
+20      Fm7      /  Bb7b9
+
+Groove ChaCha1Sus
+
+21     EbM9
+22      Gm7
+23     Bbm6
+24     C7b9
+
+Groove ChaChaSus
+Decresc mp 3
+
+25     Abm6
+26    Bb7b9
+27     EbM9      /   Edim
+28      Fm7      /  Bb7b9
+
+Groove ChaCha
+Cresc mf 4
+
+29     EbM9
+30      Gm7      /   Bbm6
+31       C9
+32       C7
+
+Groove ChaCha1
+Decresc mp 4
+
+33      Fm7
+34    Bb7b9
+
+RepeatEnding 2
+
+35       Eb      /  Ebdim
+36      Fm7      /    Bb7
+
+
+if ndef arp-change
+   set arp-change
+   Begin AllGrooves Arpeggio
+      Voice VoiceOohs
+	  Octave 5
+   End
+else
+   Begin AllGrooves Arpeggio
+     Voice Piano1
+	 Octave 6
+   End
+endif
+
+RepeatEnd
+
+Groove ChaChaEnd
+Decresc ppp 4
+Tempo *.8 2
+
+37       Eb      /   Abm6
+38      Eb6      /   z!
+

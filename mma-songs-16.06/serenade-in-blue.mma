@@ -1,0 +1,114 @@
+// Serenade In Blue
+
+Tempo 82
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove NiteJazzIntro
+Begin Solo
+   Voice Trombone
+   Octave 5
+   Harmony None
+   Articulate 100
+   Volume mf
+   Begin Riff
+       4e;g;b;g;
+       2e;8d;e;f;g;
+       2f;c+;
+       2.b;
+   End
+End
+
+Begin Solo-Harmony
+    Voice ChoirAahs
+    Volume mf
+    Articulate 120
+    Octave 5
+    HarmonyOnly 2Below
+End
+
+Solo Dupriff Solo-Harmony
+
+Swell p m 4
+
+1         Eb
+2         Cm
+3         Fm
+4        Bb7
+
+Repeat
+Groove NiteJazz
+Cresc p m 4
+
+5       EbM7
+6      Gm7b5      / C7#5b9
+7         F9      / Bb7#5b9
+8        Gm7      /   F#m7
+
+Groove NiteJazzSus
+Decresc mp 2
+
+9        Fm7      / Bb9sus
+10       G13   G7#5     C9 C7#5b9
+
+
+Groove NiteJazzPlus
+
+11       F13   F7#5 Bb9sus  Bb7b9
+
+RepeatEnding
+
+12       Eb6      /    Fm7     E9
+
+RepeatEnd
+
+13       Eb6      /   Bbm7    Eb9
+
+Repeat
+Groove NiteJazz
+Volume m
+
+14       Ab6
+15      Abm6      /   Abm7   Abm6
+16    Ebm6(add9)      /  Bb7b9
+17      Ebm7
+
+Groove NiteJazzSus
+Decresc mp 4
+
+18        F7      /    Gm7
+19    Abdim7      /   F7/A
+20       Bb7      /    Fm7
+21     B9#11      / Bb13b9
+
+Groove NiteJazzSusPlus
+Cresc m 4
+
+22      EbM7
+23     Gm7b5      /   C7b9
+24        F9      / Bb7#5b9
+25       Gm7      /   F#m7
+
+Groove NiteJazzSus
+Decresc mp 2
+
+26       Fm7      / Bb9sus
+27       G13   G7#5     C9
+
+RepeatEnding
+Groove NiteJazz
+
+28        F9      / Bb13b9
+29    Eb6(add9)      /      /    Eb9
+
+RepeatEnd
+Groove NiteJazzEnd
+Decresc pp 2
+
+28        F9      / Bb13b9
+29    Eb6(add9)     z!
+
+
+

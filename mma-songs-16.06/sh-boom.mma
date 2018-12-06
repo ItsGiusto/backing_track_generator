@@ -1,0 +1,130 @@
+// Sh Boom
+
+//  The Canadian soft-doo-wop group "The Crew Cuts" took this to #1
+//  in 1954. Highly recommended listening is the original version
+//  by the R&B group "The Chords".
+
+Tempo 128   // The Crew Cuts did it at about 128, The Chords at 138.
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove 50sRock
+Begin Solo
+    Voice VoiceOohs
+	Harmony OpenBelow+8Below
+	Octave 5
+	Volume fff
+	Articulate 80
+    Begin Riff
+	    8r;e+;;;c+;4g;8f;
+		8f;g;a;an;2b;
+		4e;8e+;2c+;8b;
+		8c+;b;c+;b;2b;
+    End
+End
+
+Swingmode On Skew=60
+
+1         Eb      /     Cm
+2        Fm7      /    B&7
+3         Eb      /     Cm
+4        Fm7      /    Bb7      z
+
+Repeat
+
+Groove 50sRock
+
+5         Eb      /     Cm
+6        Fm7      /    Bb7
+7         Eb      /     Cm
+8        Fm7      /    Bb7
+
+9         Eb      /     Cm
+10       Fm7      /    Bb7
+11        Eb      /     Cm
+12       Fm7      /    Bb7
+
+13        Eb      /     Cm
+14       Fm7      /    Bb7
+15        Eb      /     Cm
+16       Fm7      /    Bb7
+
+17        Eb      /     Cm
+18       Fm7      /    Bb7
+19        Eb      /    Ab7
+20        Eb      /    Ab7
+
+Groove 50sRockSus
+
+21        G7
+22         /
+23        C7
+24         /
+
+25        F7
+26         /
+27       Fm7      /    Bb7
+28         /
+
+Groove 50sRock
+
+29        Eb      /     Cm
+30       Fm7      /    Bb7
+31        Eb      /     Cm
+32       Fm7      /    Bb7
+
+33        Eb      /     Cm
+34       Fm7      /    Bb7
+35        Eb      /     Cm
+36       Fm7      /    Bb7
+
+Repeat
+
+37        Eb      /     Cm
+
+Groove 50sRockSus
+
+38       Fm7      /    Bb7
+
+Groove 50sRock
+
+39        Eb      /    Cm7
+
+Groove 50sRockSus
+
+40       Fm7      /    Bb7
+
+Groove 50sRock
+
+41        Eb      /     Cm
+
+If Def Coda
+	Goto Coda
+Endif
+
+Groove 50sRockSus
+
+42       Fm7      /    Bb7
+
+Groove 50sRock
+
+RepeatEnding
+
+43        Eb      /      z
+44         z
+
+RepeatEnd
+
+45        Eb      /      z
+
+Set Coda
+RepeatEnd
+
+Label Coda
+Groove 50sRockEnd
+
+46       Fm7      /    Bb7
+47        Eb     z!@1.5
+

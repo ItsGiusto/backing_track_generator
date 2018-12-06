@@ -1,0 +1,198 @@
+// Domino
+
+Tempo 185
+Keysig G
+
+Set BassRegister 5    // use a higher pitched left hand -- more musette-like
+
+Groove Metronome3
+ z * 2
+
+Groove FrenchWaltzIntro
+
+Begin Solo 
+  Voice Accordion
+  Volume f
+  Harmony OpenBelow
+  Articulate 90
+  Octave 5
+  Begin Riff
+    2b;4a;
+	4g;a;g;
+	4f;g;f;
+	4e;g;b;
+	2e+;
+  End
+End
+
+1          G
+Seq 1
+2          /
+3         D7
+4         Em
+5          /
+
+Begin AllGrooves
+ Bass-H Volume -20
+ Bass-M Volume -20
+ Bass-L Volume -20
+End
+
+Repeat
+Groove FrenchWaltz
+
+6         Em
+7          /
+8          /
+9          /
+
+Groove FrenchWaltz1
+
+10         /
+11         /
+12       Am6
+13         /
+
+Groove FrenchWaltz
+
+14        B7
+15         /
+16         /
+17         /
+
+Groove FrenchWaltz2
+
+18         /
+19         /
+20        Em
+21         /
+
+Groove FrenchWaltz
+
+22        E7
+23         /
+24        Am
+25         /
+
+Groove FrenchWaltz1
+
+26        D7
+27         /
+28         G
+29        B7
+
+Groove FrenchWaltz
+
+30       Dm6
+31        E7
+32        Am
+33       Am6
+
+Groove FrenchWaltzSus
+
+34        Em
+35        B7
+
+RepeatEnding
+
+36        Em
+
+Groove FrenchWaltz1Fill
+
+37         /
+
+RepeatEnding
+
+38        Em
+
+Groove FrenchWaltz2Fill
+
+39         /
+
+Repeat
+
+Groove FrenchWaltzSus
+
+40        Em
+41         D
+42        Am
+43         B
+
+Groove FrenchWaltz1Sus
+
+44        Em
+45         D
+46        Am
+47         B
+
+Groove FrenchWaltzSus
+
+48      F#m7
+49        B7
+50         E
+51         /
+
+Groove FrenchWaltz2Sus
+
+RepeatEnding
+
+52        B7
+53         /
+54         E
+55         /
+
+RepeatEnd
+
+
+56       F#7
+57         /
+58         B
+59         /
+
+RepeatEnd
+
+60        Em
+61         /
+
+
+Groove FrenchWaltzSus
+
+62        Am
+63       Am6
+
+64        Em
+65         /      /     Am
+66        B7
+67         /
+
+Groove FrenchWaltz
+
+68       Dm7
+69        E7
+70        Am
+71       Am6
+
+Groove FrenchWaltzSus
+
+72        Em
+73         /      /     Am
+74        B7
+75      B7#5      /     B7
+
+
+Groove FrenchWaltz1End
+Decresc ppp 6
+Tempo *.8 6
+
+76        Em
+77       Am6
+
+Seq 
+
+
+78        Em
+79       Am6
+
+80        Em
+81         /  z!
+

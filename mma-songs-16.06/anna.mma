@@ -1,0 +1,136 @@
+// Anna (El Negro Zumbon)
+
+Tempo 196
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SambaIntro
+Begin Solo
+  Voice Vibraphone
+  Harmony 3
+  Octave 5
+  Articulate 90 
+  Volume fff
+  Begin Riff
+     4.b;8;8a;g;4;
+     4.b;8;8a;g;4;
+	 4.b;8a;g;;1f~;
+  End
+End
+
+1        Bb
+2        Gm
+3        Cm
+Seq 2
+4        F7
+
+Repeat
+Groove Samba
+Repeat
+
+5        Bb
+6        F7
+7         /
+8        Bb
+
+Groove SambaSus
+
+9         /
+10       F7
+11        /
+
+RepeatEnding
+
+12       Bb
+Groove SambaPlus
+
+RepeatEnd
+
+Groove SambaFill
+
+13       Bb
+
+Groove SambaSus
+
+14        /
+15       F7
+16        /
+17       Bb
+
+18        /      /   Edim
+19       F7
+20        /
+21       Bb
+
+Groove SambaSusPlus
+
+22        /
+23       F7
+24        /
+25       Bb
+
+Groove SambaSusFill
+
+26        /
+
+Repeat
+
+Groove Samba
+
+27      Cm7      /     F9
+28        /
+29       Bb
+30        /      /  C#dim
+31      Cm7      /     F7
+32      Cm7      /     F7
+
+
+RepeatEnding
+
+33       Bb
+
+Groove SambaFill
+
+34        /
+
+RepeatEnd
+
+35       Bb
+
+Groove SambaSusPlus
+
+36        /
+37       F7
+38        /
+39       Bb
+
+Groove SambaSus
+
+40        /      /   Edim
+41       F7
+42        /
+43       Bb
+44        /
+
+45       F7
+
+RepeatEnding
+
+46        /
+
+
+47       Bb
+
+Groove SambaFill
+
+48       F7
+
+RepeatEnd
+
+Groove SambaEnd
+
+49        /
+50       Bb / z!
+

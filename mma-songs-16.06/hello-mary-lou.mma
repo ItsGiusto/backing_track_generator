@@ -1,0 +1,107 @@
+// Hello Mary Lou
+
+Tempo 194
+Keysig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove JiveIntro8
+
+Begin Solo
+ Voice CleanGuitar
+ Volume F
+ Octave 5
+ Harmony Open+8Below
+ Articulate 90
+ Begin Riff
+   4b;r;b;
+   4b;8;4;4.;
+   4b;r;b;
+   4b;8;4;4.;
+   4c+;r;c+;
+   4c+;8;4;4.;
+   1+2e+~;
+ End
+End
+
+Cresc p m 8
+
+1    Bb   
+2    /    
+3    Gm   
+4    /    
+5    Cm   
+6    /    
+7    F7   
+8    /    
+
+
+Repeat    // start with the chorus
+
+Groove Jive1
+Volume m
+
+9    Bb   /    /    Eb   
+10   Bb   /    /    F7   
+11   Eb   
+12   /    
+13   Bb   
+14   C9   /    Am   C7   
+15   F7   
+16   /    
+
+Groove Jive1Sus
+Swell f 8
+
+17   Bb   /    /    F9   
+18   Bb   
+19   D7   /    D+   D7   
+20   Gm   
+21   C9   /    C7   C9   
+22   F7   /    Dm   F7   
+
+RepeatEnding 2
+
+23   Bb   
+
+Groove Jive1Clap
+
+24   /    /    /    F7   
+
+// this is the verse
+
+Groove Jive1Plus
+Swell m f 8
+
+25   Bb   /    Dm   
+26   Gm   /    Bb6  
+27   Eb   
+28   /    
+29   Bb   
+30   /    /    Bbdim3 
+31   F7   
+32   /    
+
+Groove Jive1SusPlus
+Swell m mp 8
+
+33   Bb   /    Dm   
+34   Gm   /    Bb   
+35   Eb   
+36   /    /    Edim3 
+37   Bb   /    Gm   
+38   Cm7  /    F7-9 
+39   Bb 
+
+Groove Jive1Clap
+  
+40   /    
+
+RepeatEnd
+
+Groove JiveEnd
+Decresc ppp 2
+
+41   Bb   
+42   / / z!   

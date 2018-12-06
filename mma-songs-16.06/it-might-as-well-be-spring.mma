@@ -1,0 +1,74 @@
+// It Might As Well Be Spring
+
+Tempo 58
+Transpose -2
+Groove Metronome2-4
+	z * 2
+	
+Groove SlowJazzSus
+
+1      Dm7   
+2      Bm7   
+3      E7    
+4      Am7   / / D7
+
+Groove SlowJazz
+Repeat
+
+5      G6    /    C9    
+6      Bm7   E7    Am7   D7    
+7      G     
+8      Dm7   /    G7    
+9      C     /    C#m7  F#7   
+10     Bm7   /    E7    
+11     Am7   /    D7    D7/C  
+12     Bm7   E7    Am7   D7    
+13     G6    /    C9    
+14     Bm7   E7    Am7   D7    
+15     G     
+16     Dm7   /    G7    
+17     C     /    C#m7  F#7   
+18     Bm7   /    E7    
+19     Am7   /    D7    
+20     G     /    Dm7   G7
+  
+Groove SlowJazzWalkSus
+
+21     C     
+22     Dm7   
+23     /    /    G7    
+24     C     
+25     Am7   /    Am7/G 
+26     F#m7b5 /    B7    
+27     Em7   /    A7    
+28     Am7 /    D7    
+29     G6    /    C9    
+30     Bm7   E7    Am7   D7    
+31     G     
+32     Dm7   /    /    G7    
+33     C     /    C#m7  F#7   
+34     G6/B  /    Em7   
+35     Am7   /    D9    D7/C  
+36     B7    /    E7    
+37     A7    
+38     Cm7   /    F7    
+39     Bm    /    Em7   Em7/D 
+40     A7/C# /    Cm7   F9    
+41     Bm7   /    Em7   
+42     Am7   /    D7    
+
+RepeatEnding
+
+45     G     /    C6    
+46     G     z  /  D7
+
+Groove SlowJazzWalk
+
+RepeatEnd
+
+Groove SlowJazzEnd
+
+45  G / C6
+46  G  z!
+
+

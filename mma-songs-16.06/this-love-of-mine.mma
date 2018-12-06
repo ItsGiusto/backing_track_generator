@@ -1,0 +1,113 @@
+// This Love Of Mine
+
+Tempo 100
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+    Voice Piano1
+    Articulate 95
+    Harmony OpenBelow
+    Volume m
+    Octave 5
+    Begin Riff
+        8g;a;b;g; e;f;4+4a~;
+        ~ 8c+;a; e;a;e;a;
+        43d+;b;a; g;e;d;
+        2g; 
+    End
+End
+
+Swingmode On
+Swell mp f 4
+
+1         C
+2        Am
+3        Dm
+4        G7       A7b9
+Cut -3
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5       Dm7
+6        G7
+7         C
+8        C7      /    C7+
+
+Groove FoxTrotPlus
+Cresc mf 4
+
+9         F
+10      G7+
+11        C
+12        /      /     A7
+
+Groove FoxTrot
+
+13       Dm
+14       G7      /    G7+
+15        C      /     G+
+16        C      /    Cm6
+
+Groove FoxTrotSus
+Volume m
+
+17       D7      /    Am7
+18       D7      /    D9+
+19       G7
+20        /      /   A7b9
+
+Groove FoxTrotSusPlus
+Cresc mf 4
+
+21      Dm7
+22       G7
+23        C
+24       C7      /    C7+
+
+Groove FoxTrotSus
+Volume m
+
+25        F
+26      G7+
+27        C
+28        /      /   A7b9
+
+Groove FoxTrot
+Cresc mf 3
+
+29       Dm
+30       G7      /    E7+
+31       Am      /    Am7
+32       D7
+
+Groove FoxTrotPlus
+Decresc mp 2
+
+33        C      /     Em
+34       Dm      /    Db9
+
+RepeatEnding
+
+Groove FoxTrotFill
+       
+35       C6
+36        /      /     G7
+
+RepeatEnd
+
+Groove FoxtrotEnd
+Decresc ppp 2
+
+35       C6
+36        /  z!
+Fermata -4 4 130
+
+
+

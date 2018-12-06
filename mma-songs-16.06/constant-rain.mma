@@ -1,0 +1,95 @@
+// Constant Rain
+
+Tempo 144
+Keysig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove SambaIntro
+
+1        Bb
+2        Cm
+3        Bb
+4        Gm
+
+
+Repeat
+Groove Samba
+
+5        Cm      /  Cm7/Bb
+6      Cm6/A      /     F7
+7        Bb      /   BbM7/A
+8        Gm
+
+Groove SambaSus
+
+9        Cm      /  Cm7/Bb
+10     Cm6/A      /     F7
+11       Bb      /   BbM7/A
+12       Gm
+
+Groove Samba
+
+13      Cm7
+14    F7sus      /     F7
+15       Bb
+16        /
+
+Groove SambaPlus
+
+17      Cm7
+18        /      /     F7
+19      Bb6
+20      Cm7      /     F7
+
+Groove SambaSusPlus
+
+21      Cm7      /     F7
+22      Cm7      /     F7
+23       Bb
+24      Cm7
+
+Groove Samba
+
+25    F7sus      /     F7
+26      Bb6
+27       Gm
+28      Cm7
+
+Groove SambaSus
+
+29       F7
+30       Bb
+31       Gm
+32       Cm      /  Cm7/Bb
+
+Groove Samba
+
+33     Cm6/A      /     F7
+34       Bb      /   BbM7/A
+35       Gm
+36       Cm      /  Cm7/Bb
+
+Groove SambaPlus
+
+37     Cm6/A      /     F7
+
+RepeatEnding
+
+38       Bb      /   BbM7/A
+
+Groove SambaFill
+Drum-Whistle Rskip 0
+39       Gm
+
+RepeatEnd
+
+Groove SambaEnd
+Seq 3
+Decresc ppp 2
+Tempo *.8 2
+
+40       Bb
+41   Gm6(add9)>-2   z!    
+

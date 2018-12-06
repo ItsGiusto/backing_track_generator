@@ -1,0 +1,123 @@
+// Second Hand Rose
+
+Tempo 148
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+Begin Solo
+   Voice Piano1
+   Harmony Open
+   Volume ff
+   Articulate 90
+   Octave 5
+   Begin Riff
+       4c+;bn;b&;1+4a~;
+	   ~<>;
+	   4d+;c+;b;1+4a~;
+	   ~<>;
+	   4b;a;g;4+2a~;
+	   ~ 2b;
+	   1+2c+~;
+   End
+End
+
+Cresc pp mf 8
+
+1         F
+2         /
+3        Dm
+Seq 3
+4         /
+5        Gm
+6         /
+7        C7
+8         /
+
+Repeat
+Groove BigBand
+Swell m f 8
+
+5         F
+6         /
+7        G7
+8         /
+
+9        C7
+10        /
+11        F
+12        /
+
+Groove BigBandPlus
+Swell m mp 8
+
+13        /
+14        /      /      / F#dim7
+15      Gm7
+16       C7
+
+
+17       Gm
+18       C7
+19       F6
+20        F
+
+Groove BigBandSus
+Volume mf
+
+21        /
+22        /
+23       G7
+24        /
+
+25      Cm7      /     F7
+26      Cm7      /   F7#5
+27      Bb6
+28        /
+
+Groove BigBand
+Volume m
+
+29       Gm      /    Cm6
+30       Gm      /    Cm6
+31       Gm      /    Cm6     Gm
+32        /      /      /   C7b9
+
+33        F      /   Bbm6
+34        F      /   Bbm6
+35        F      /   Gbm6     G7
+36        /      /     C7
+
+Groove BigBandSusPlus
+Swell m mp 8
+
+37        F
+38        /
+39       G7
+40        /
+
+41      Gm7
+42       C9      /   C7b9
+
+RepeatEnding
+Volume m
+
+43        F      /  Ddim7
+
+Groove BigBandFill
+Volume mf
+
+44       C7
+
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc ppp 2
+Tempo *.8 2
+
+45        F
+46        /   /   z!
+

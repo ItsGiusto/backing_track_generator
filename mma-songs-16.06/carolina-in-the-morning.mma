@@ -1,0 +1,86 @@
+// Carolina In The Morning
+
+Tempo 130
+KeySig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+  Voice NylonGuitar
+  Volume f
+  Articulate 80
+  Octave 5
+  Harmony Open+8Below
+  Begin Riff
+    8c;d;e;f;g;a;b;c+;
+	8a+;e+;g+;e+;a+;e+;g+;e+;
+    4+8d+;8d+;43d+;e+;f+;
+	1g+;
+  End
+End
+
+Swingmode On Skew=60
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove FoxTrot
+Volume mp
+
+5         C
+6         /      /  C#dim3
+7        G7
+8         /
+9        Dm
+10        /      /     G7
+11    Cdim3
+12        C
+
+Groove FoxTrotSus
+Cresc mf 8
+
+13        F
+14        C
+15        F
+16       A7
+17       D7
+18        G
+19       Am      /     D7
+20       G7
+
+Groove FoxTrotPlus
+Decresc m 8
+
+21        C
+22        /      /  C#dim3
+23       G7
+24        /
+25       Dm
+26        /      /     G7
+27     Cdim3
+28       G7
+
+Groove FoxTrotSusPlus
+
+29        C
+30        /
+31        F
+32       D7      /     G7
+33        C
+34        /
+
+RepeatEnding
+Groove FoxTrotFill
+
+35       D7      /     G7
+36        C      /     G7
+
+RepeatEnd
+Groove FoxTrotEnd
+
+35       D7      /     G7
+36        C  

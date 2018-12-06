@@ -1,0 +1,97 @@
+// Speak Low
+
+// A great Kurt Weill song, lyrics by Ogden Nash.
+
+Tempo 120
+
+
+Keysig 1b
+
+Groove Bossanova
+	z * 2
+
+Begin Solo
+	Voice Violin
+	Octave 5
+	Articulate 90
+	Cresc pppp m 4
+End
+
+
+1       F    {1+2a ~;}
+2       B7   {~ 3+3f#;d#;f;}
+3       Am7   {4.a;8e;2c;}
+4       D7    {4.f#;8e;4c;}
+
+
+Repeat
+Repeat
+Groove Bossanova
+
+5       Gm9  
+6       C9   
+7       Gm9  
+8       C9   
+9       Gm9  
+10      C9   
+11      F6   
+12      D7   
+13      Bbm9 
+14      Eb9  
+15      Bbm9 
+16      Eb9  
+17      G9   
+18      C9   
+
+RepeatEnding
+
+Groove BossanovaFill
+
+19      F6    /     D7   
+20      Gm7   /     /     C7   
+
+RepeatEnd
+
+21      F    
+22 	/
+
+Groove BossanovaSus
+
+23      Fm7  
+24 	/
+25      Abm  
+26 	/
+27      EbM7 
+28 	/
+29      E7b9  /     /     E7   
+30      /     /     /     C7#5 
+31      Gm9  
+32      C9   
+33      Gm9  
+34      C9   
+35      Gm9  
+36      C9   
+37      F6   
+38      D    
+39      Bbm9 
+40      Eb9  
+41      F    
+42      /     /     D7   
+43      G9   
+44      C9#5 
+
+RepeatEnding
+Groove BossanovaFill
+
+45  F6
+46  /
+
+RepeatEnd
+
+Groove BossanovaEnd
+
+seq 3
+
+45      F6   
+46 	/
+

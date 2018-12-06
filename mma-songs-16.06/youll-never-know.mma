@@ -1,0 +1,109 @@
+// Youll Never Know
+
+// From the musical "Hello, Frisco, Hello". Sung by Alice Faye, 1943.
+
+Tempo 100
+Keysig 1b
+
+
+Groove Metronome2-4
+	z * 2
+
+Groove RhumbaSus
+
+Begin Solo
+	Voice JazzGuitar
+	Decresc f pp 4
+	Articulate 99
+	Harmony 8Below
+	Octave 6
+End
+
+
+Cresc mp mf 4
+
+1       FM7      {43c; f; e; 2f; }
+2       Gm7      {43d; g; f; 2g; }
+3       C7       {43c+;b; a; g; a; g; }
+4		F / / z  {2f; }
+
+Cut -1
+
+Groove Rhumba
+Repeat
+Volume mf
+
+5       F    
+6       F/A     /     Db7/Ab
+7       Gm   
+8 	/
+
+Set a $_Groove + Sus
+Groove $a
+
+9 	/
+10      Gm7   /     C7   
+11      F    
+12   /
+
+Groove $_LastGroove
+Volume ff
+
+13 	/
+14      /     /     Fdim 
+15      Gm    /     Gm+5 
+16      Gm6   /     Gm7  
+
+Groove $a
+Decresc mp 6
+
+17      /     /     C7   
+18      Gm7   /     C7   
+19      Am7   /     Db7  
+20      Gm7   /     Gm7   C7   
+21      F    
+22      F/A     /     Db7/Ab
+23      Gm   
+24 	/
+
+Volume mf
+
+25 	/
+26      Gm7   /     C7   
+27      D7    C/E     Fm6  
+
+Cresc ff 5
+Groove $_LastGroove
+
+28      D7    /     Ddim  D7   
+29      Gm7  
+30      Bbm6 
+31      F     /     A7   
+32      Am7b5 /     D7   
+
+Volume mf
+
+33      Gm   
+34      G7    /     C7   
+
+RepeatEnding
+
+35      F     /     Dm7  
+
+Groove RhumbaTriple
+
+36      Gm7   /     C7   
+
+Groove Rhumba1
+
+RepeatEnd
+
+Groove RhumbaEnd
+
+Decresc  pp  2
+Seq 3	
+
+37      FM7   
+38      FM7   /  z z!
+
+

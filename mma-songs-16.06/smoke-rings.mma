@@ -1,0 +1,94 @@
+// Smoke Rings
+
+Tempo 72
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+	
+Groove SlowJazzIntro
+Begin Solo
+   Voice TremoloStrings
+   Octave 4
+   Harmony OpenBelow
+   Articulate 110
+   Volume mf
+   Begin Riff
+      2b;g;
+	  2a;f;
+	  43e;d;e;f;g;a;
+	  1b;
+   End
+End
+
+1      Eb    
+2      Bb7   
+3      Eb    
+4      Bb7   
+
+Groove SlowJazz
+Repeat
+
+5      Eb    
+6      Bb7#5 
+7      Eb    
+8      Eb7   
+9      Ab    
+10     Fm7b5 /    Bb7b9 
+11     Eb    /    Cm7   
+12     Fm7   /    Bb7#5 
+13     Eb    
+14     Bb7#5 /    Eb6   
+15     F9    
+16	/
+17     Ab    
+18     Fm7b5 /    Bb7b9 
+19     Eb    /    Ab7   
+20     Eb    /    Bb7#5 
+
+Groove SlowJazzSus
+
+RepeatEnd
+
+Groove SlowJazzWalk
+
+21     Eb    
+22     Bb7#5 
+23     Eb    
+24     Eb7   
+25     Ab    
+26     Fm7   /    Bb7   
+27     Eb    
+28     Fm7   /    Bb7#5 
+29     Eb    
+30     Bb7#5 /    Eb6   
+31     F9    
+32     Cm7b5 /    F7    
+
+Groove SlowJazzWalkSus
+
+33     AbM7  
+34     Fm7b5 /    Bb7   
+35     Eb    /    Cm7   
+36     Fm7   /    Bb7#5 
+37     Eb    
+38     Bb7#5 
+39     Eb    
+40     Eb9   
+41     Ab    
+42     Fm7b5 /    Bb7b9 
+43     E&    /    Cm7   
+44     Fm7   /    Bb7#5 
+45     Eb    
+46     Bb7#5 /    Eb6   
+47     F9    
+48     /    /    /    Eb7   
+49     Ab    
+50     Fm7b5 /    Bb7b9 
+
+Groove SlowJazz
+
+51     Eb    /    Ab7   
+52     Eb6  z!
+Fermata -4 1 300
+

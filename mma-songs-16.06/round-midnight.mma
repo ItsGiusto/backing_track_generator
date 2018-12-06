@@ -1,0 +1,96 @@
+// Round Midnight
+
+Tempo 62
+Keysig E&
+
+Groove Metronome2-4
+ z * 2
+
+Groove JazzGuitar1Intro
+Seq 3
+
+Begin Solo
+    Voice Piano2
+    Volume f
+    Harmony OpenAbove
+    Articulate 90
+    Octave 4
+    Begin Riff
+        4r;16b-;e;f;b; 4.a;8b;
+        8b;2.;
+    End
+End
+
+Cresc pp m 2
+
+1       Eb  EbM7   Ebm7
+2       Bb7
+
+Repeat
+Groove JazzGuitar
+Bass Sequence B1234 / / *
+Volume m
+
+3        Eb   EbM7   Ebm7
+4        F7      /    Abm    Bb7
+5    Ebmsus4    Ebm
+6        F7 Eb7sus4      /    Eb7
+
+Decresc mp 4
+
+7      Abm7      /    Db9
+8       Ebm    Ab7
+
+
+RepeatEnding
+
+9      Cdim      /   F7b5
+10      Bb7      /  Bb7#5    Bb+
+
+RepeatEnd
+
+11     Cdim    Cb7 Ebsus4
+
+Begin Plectrum
+  Riff 1 0 90; 3 -20 90;
+  Capo 4
+End
+
+12       Eb      /    Eb7
+
+Groove JazzGuitarSus
+Bass Sequence B1234 / / *
+Cresc m 4
+
+13     Cdim      /   F7b5
+14      Bb7
+15     Cdim      /   F7b5
+16      Bb7      /   E9b5
+
+17      Abm      /     Bb   E9b5
+18     Cdim      /   F7b5
+19     DbM9      /   CbM7
+20      Abm      /   E9b5
+
+Groove JazzGuitar
+Bass Sequence B1234 / / *
+Cresc mf 4
+
+21       Eb   EbM7   Ebm7
+22       F7      /    Abm    Bb7
+23   Ebmsus4    Ebm
+24       F7 Eb7sus4    Eb7
+
+Decresc mp 3
+
+25     Abm7      /    Db9
+26      Ebm      /    Ab7
+
+27     Cdim    Fb5 Bb7sus4    Abm
+
+Groove JazzGuitarEnd1
+Decresc pppp 1
+
+28       Eb      /    Eb6
+
+

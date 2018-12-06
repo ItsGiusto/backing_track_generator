@@ -1,0 +1,88 @@
+// Give Me The Simple Life
+
+Tempo 120
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice Piano2
+	Volume f
+	Octave 5
+	Harmony OpenAbove
+	Articulate 70
+	Accent 1 10 3 10
+End
+
+	
+Groove Swing
+
+// The solo line combines swing/straight so we don't use SWINGMODE
+
+1      Dm7   /    G7    {8c+;4;8d+;b;4g;b&~;}
+2      Edim  /    A7    {~ 4b&;8c+;4.a;8a;}
+3      Dm7   /    G7    {81c+; 82a; 81f; 82d; 8c+;4b;4.c+~;}
+4      C     z          {~ 8r;8d#;81e;82g;4a;}  
+
+Delete Solo
+
+Repeat
+
+5      Dm    /    G7    
+6      Em7   /    A7    
+7      FM7   /    E7    
+8      Am    /    C7    
+9      F#m7b5 /    Fm6   
+10     C6    /    D#dim 
+11     Dm7   /    D9    
+12     Ab7   /    G7    
+
+Groove SwingPlus
+
+13     Dm7   /    G7    
+14     Em7   /    A7    
+15     FM7   /    E7    
+16     Am    /    C7    
+17     F#m7b5 /    Fm6   
+18     C     /    D#dim 
+19     Dm7   /    G7    
+20     C     /    Caug  
+
+Groove SwingSus
+
+21     FM7   /    Dm6   
+22     Em7   /    Am7   
+23     Dm7   /    G7    
+24     CM7   /    C6    
+25     Bm7b5 /    E7-9  
+26     Am    
+27     D9    
+28     Ab7b5 /    G7    
+
+Groove Swing
+
+29     Dm7   /    G7    
+30     Em7   /    A7    
+31     FM7   /    E7    
+32     Am    /    C7    
+33     F#m7b5 /    Fm6   
+34     C     /    D#dim 
+
+RepeatEnding
+
+35     Dm7   /    G7    
+Groove SwingEnd
+36     C     
+Groove $_LastGroove
+
+RepeatEnd
+
+
+37     Dm7   /    G7    
+38     Em7b5 /    A7    
+
+Groove SwingEnd
+
+39     Dm7   /    D#dim C6    
+40	/ / / z!
+

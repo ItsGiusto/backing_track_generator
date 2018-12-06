@@ -1,0 +1,99 @@
+// The Breeze And I
+
+Tempo 140
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove RhumbaIntro
+
+Begin Solo
+	Voice Piano1
+	Articulate 120
+	Harmony 3
+	Volume f
+	Octave 5
+	Begin Riff
+		23e;g;b;
+		23c+;e+;g+;
+		23f+;c+;a;
+		2.d;
+	End
+End
+
+Cresc p m 4
+
+1         Eb
+2         Cm
+3         Fm
+4        Bb7
+
+Repeat
+Groove Rhumba
+Repeat
+Swell mp mf 8
+
+5         Eb      /      /    Bb7
+6         Eb
+7         Eb      /     Eb
+8         Eb      /    Bb7
+
+9        Dbm
+10         /
+11        Eb
+
+RepeatEnding
+
+12         /      /      /    Bb7
+
+Groove Rhumba3
+
+RepeatEnd
+
+13         /
+
+Groove RhumbaSus
+Volume m
+
+14       Fm7
+15         /
+16        Eb
+17         /
+
+Volume mf
+
+18       Fm7      /      /    Bb7
+19         /
+Decresc mp 2
+20        Eb
+21         /      /      /    Eb7
+
+Groove Rhumba1Sus
+
+22       Ab6      /     Cm    Ab6
+23       Fm7      /      /    Bb7
+Cresc m 2
+24        Eb
+25         /      /   Abm6
+
+Decresc mp 4
+
+26        Fm      /      /    Bb9
+27         /      /    Bb7
+28        Eb
+
+RepeatEnding
+
+29         /      /    Bb7
+30        Eb
+31         /
+
+Repeatend
+
+Decresc pppp 3
+Tempo *.8 4
+
+32        Eb      /    Bb7
+33        Eb
+34         /      /    /    z!

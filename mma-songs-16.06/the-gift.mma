@@ -1,0 +1,113 @@
+// The Gift
+
+Tempo 100
+Keysig D Minor
+
+Groove Metronome2-4
+ z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+	Voice Vibraphone
+	Mallet Rate=64 Decay=-3
+	Volume m
+	Harmony Open+8below
+	Articulate 110
+	Octave 6
+	Begin Riff
+		2.+8d;8b;
+		2.+8a;8g;
+		2.+8e;8d;
+		2.c#;
+	End
+End
+
+1        Dm
+2        Am
+3        Em
+4        A7 / Dm
+
+Repeat
+Groove BossaNova
+Cresc mp m 8
+
+5        Dm
+6         /
+7        A7
+8         /
+9        D7
+10        /
+11       Gm
+12        /
+
+Groove BossaNovaSus
+
+13        /
+14    Em7b5      /     A7
+15       Dm
+Decresc p 4
+
+RepeatEnding
+
+16        /      /    Dm7
+17        E
+18        /
+19     A7b9
+20        /
+
+RepeatEnd
+
+21        /
+22      Cm7
+23       A7
+24       Dm
+25        /
+
+Groove BossaNova1Sus
+Volume m
+
+26       D7
+27        /
+28       Gm
+29        /
+30       E7
+31        /
+32       Am
+33       A7
+
+
+// Coda section ... cut/paste is easiest
+
+Groove BossaNova
+Cresc mp m 8
+
+5        Dm
+6         /
+7        A7
+8         /
+9        D7
+10        /
+11       Gm
+12        /
+
+Groove BossaNovaSus
+
+13        /
+14    Em7b5      /     A7
+15       Dm
+
+21        /
+22      Cm7
+23       A7
+
+34       Dm
+35        /
+
+Groove BossaNova2End
+
+Decresc ppp 4
+36       A7
+37        /
+38       Dm
+39        / z!
+

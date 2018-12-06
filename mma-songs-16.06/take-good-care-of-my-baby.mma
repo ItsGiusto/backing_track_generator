@@ -1,0 +1,142 @@
+// Take Good Care Of My Baby
+
+// Goffin/King
+
+Tempo 100
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwing
+Swell mp mf 8
+
+1          F
+2         Dm
+3        Gm7
+4         Bb      /     C9
+
+Groove EasySwingIntro
+
+5          F
+6         Dm
+7         Gm      /    Gm7
+8         Bb      /     C9
+
+Tempo 150
+
+// load the swing file and modify the arpeggio voicing
+Groove Swing
+Begin AllGrooves Arpeggio 
+   Voice $_Chord-Guitar_Voice[0]
+   Articulate 120
+   Volume mf
+   Octave -1
+End
+
+// Start 2nd section of song. Do it 2x
+
+Repeat
+Repeat
+Groove Swing
+Volume m
+
+9          F
+10      Dm/F
+11       Gm7
+12        C7
+
+Groove SwingWalk
+Cresc mf 2
+
+13         F
+14        Dm
+15       Gm7
+16        C9
+
+Groove Swing
+Decresc m 4
+
+17         F
+18        F7
+19        Bb
+20       Bbm
+
+Groove SwingPlus
+Decresc mp 4
+
+21         F
+
+RepeatEnding
+
+22        Dm
+23       Gm7
+24        C9
+
+RepeatEnd
+
+25       Gm7      /     C9
+26         F
+27         /
+
+Groove SwingWalk
+Volume m
+
+28       Gm7
+29        C7
+30         F
+31       Dm7
+
+Groove SwingWalkPlus
+Cresc mf 4
+
+32       Gm7
+33        C7
+34     Fmaj7      /    Dm7
+35       Gm7      /     C7
+
+Groove SwingWalkSus
+Decresc m 4
+
+36         F
+37      Dm/F
+38       Gm7
+39        C7
+
+Groove SwingWalk
+
+40         F
+41      Dm/F
+42       Gm7
+43        C9
+
+Groove Swing
+Volume mf
+
+44         F
+45        F7
+46        Bb
+47       Bbm
+
+Groove SwingSus
+Volume m
+
+48       F/C
+49        Dm
+50       Gm7
+51        C7
+
+RepeatEnding
+
+52         F
+53         /
+
+RepeatEnd
+
+Groove SwingEnd
+Decresc ppp 2
+
+54         F
+55         /      /     z!
+
+

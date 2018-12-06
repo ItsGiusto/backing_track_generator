@@ -1,0 +1,117 @@
+// Unchained Melody
+
+// The Righteous Bros. hit from 1965. Actually written for the
+// movie "Unchained" in 1955.
+
+// Righteous Bros. sing in C at about 66 bpm ... but we're going
+// to use Les Baxter's tempo of 92 (is this from the movie??)
+
+Tempo 92 
+Keysig G
+
+transpose 1  // we do it in Ab
+
+Groove Metronome2-4
+	   z * 2
+
+
+
+Groove SlowJazz1
+Begin Solo
+    Voice JazzGuitar
+    Volume ff
+	Harmony Open
+	Articulate 102
+	Octave 5
+	Begin Riff
+        4g;2.;
+		4g;2.;
+		4c+;8e+;d+;4c+;b;
+		2.a;
+	End
+End
+
+1        G
+2       Em
+3       Am
+Groove SlowJazzIntro
+Seq 4
+4       D7
+
+Repeat
+Groove SlowJazz1
+
+1         G
+2        Em
+3       CM7
+4        D7
+5       GM7
+6       Em7
+7       Am7
+8        D7
+
+Groove SlowJazz1Sus
+
+9       GM7
+10      Em7
+11      CM7
+12       D7
+13      GM7
+14      Em7
+15      Bm7      /     E7
+16      Am7      /     D7
+
+Groove SlowJazz1Walk
+
+17      GM7
+18        /
+19      Em7
+20        /
+21      Am7
+22       D7
+
+// This ending isn't in the sheet music. This is a neat way
+// to do a d.s. al fine in MMA. Same effect could be had with
+// a label/goto/eof combination.
+
+RepeatEnding
+
+23      GM7
+24        /
+
+// Here we go into 2/2 from 4/4. Rather than buggering with the
+// speed we've just combined bars. Note that since leading line
+// numbers are just comments bars 26, 28, etc. are just ignored
+// by MMA, but the sheet music has them so we leave them as reference.
+
+Groove SlowJazz1Sus
+Repeat
+
+25      C    / D7
+26       
+27      CM7  / B&M7
+28     
+29      CM7 / D7
+30       
+
+RepeatEnding
+
+31      GM7 
+32        
+
+
+RepeatEnd
+
+
+33      GM7
+34        
+
+RepeatEnd   // this repeats back to the start
+            // and a special "ending" for the final 2 bars
+
+Groove SlowJazzEnd
+Decresc ppp 2
+
+23      GM7
+24        /  / z!
+

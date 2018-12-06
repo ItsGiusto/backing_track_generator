@@ -1,0 +1,108 @@
+// A Ghost Of A Chance
+
+Tempo 68
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowJazz1Intro
+
+Begin Solo
+    Voice Piano1
+    Swell mp m 4
+    Harmony OpenBelow+8Below
+    Articulate 125
+    Octave 5
+    Rtime 5
+    Rvolume 5
+
+    /// I played this on my keyboard, converted to riff lines using MMA with
+    /// Midiinc file=/home/bob/test.mid octave=1 stripsilence=1540 volume=200 solo=1,riff,print
+    /// and cut/pasted it. Note, needed to add tildes to EOLs.
+
+    Begin Riff
+      <Offset=18> 110t 84/120;<Offset=90> 107t 86/102;<Offset=175> 102t 88/114; \
+         <Offset=279> 93t 86/84;<Offset=379> 409t 84/92~;
+      <Offset=6> 99t 81/124;<Offset=82> 106t 83/112;<Offset=171> 72t 84/90; \
+          <Offset=232> 119t 83/127;<Offset=347> 240t 81/110;<Offset=570> 213t 83/110~;
+      <Offset=12> 141t 79/78;<Offset=138> 90t 81/127;<Offset=221> 63t 83/114; \
+          <Offset=278> 89t 81/102;<Offset=373> 229t 79/76;<Offset=594> 81t 81/118; \
+          <Offset=663> 61t 83/102;<Offset=719> 83t 81/116~;
+     <Offset=39> 458t 79/96;
+    End
+End
+
+Cresc mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove SlowJazz1
+Decresc m mp 4
+
+5         C
+6      G7#5      /      / G7#5/F
+7     Em7b5      /     A7
+8     Dm7b5      /   G7b9
+
+Groove SlowJazz1Sus
+Cresc m 2
+
+9       CM7      /    Am7
+10       D7      /   G7#5
+
+RepeatEnding
+
+Groove SlowJazz1
+
+11        C      /     A7
+
+Groove SlowJazzFill
+
+12      Dm7      /     G7
+
+RepeatEnd
+Decresc mp 2
+
+13        C      /     F9
+14        C
+
+Groove SlowJazzSus
+Cresc m 4
+
+15      Dm7
+16     G7#5
+17        C
+18      Am7
+
+Groove SlowJazzWalkSus
+
+19   F#m7b5
+20     B7b9
+21       E9
+22     G7#5
+
+Groove SlowJazz1
+Decresc mf mp 4
+
+23        C
+24     G7#5      /      / G7#5/F
+25    Em7b5      /     A7
+26    Dm7b5      /   G7b9
+
+Groove SlowJazz1Sus
+Cresc m 4
+
+27      CM7      /    Am7
+28       D7      /   G7#5
+
+Groove SlowJazzEnd
+Decresc ppp 2
+
+29        C      /     A7
+30       C6      z!
+

@@ -1,0 +1,79 @@
+// Cant Help Lovin Dat Man
+
+Tempo 180
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+	
+Groove SwingPlus
+Begin Solo
+  Voice BrassSection 
+  Cresc m f 4
+  Articulate 70
+  Octave 5
+  Begin Riff
+    8g;;;2+8c+;
+    4b;8a;g#;2f#;
+	4a;8g;f#;2e;
+	2d;g;
+  End
+End
+
+Swingmode On Skew=45
+
+1       C    
+2       BM7  
+3       AM7  
+4       G7   
+
+Groove Swing
+
+Repeat
+
+5       CM7   /     Am7  
+6       Dm7   /     G7   
+7       CM7   /     Gm7   C7b9 
+8       F6    /     Bb9  
+9       Em7   /     Am7  
+10      Ab7   /     D7b9  G7b9 
+11      CM7   /     Ebdim
+12      Dm7   /     G7#5 
+13      CM7   /     Am7  
+14      Dm7   /     G7   
+15      CM7   /     Gm7   C7b9 
+16      F6    /     Bb9  
+17      Em7   /     Am7  
+18      Ab7   /     D7b9  G7b9 
+19      CM7   /     Dm7  
+20      Gm7   /     C7b9 
+21      F6   
+22      F#dim
+23      CM7  
+24      D7   
+25      Em7   /     EbM7 
+26      Dm7   /     D9   
+27      Dm7  
+28      G7   
+29      CM7   /     Am7  
+30      Dm7   /     G7   
+31      CM7   /     Gm7   C7b9 
+32      F6    /     Bb9  
+33      Em7   /     Am7  
+34      Ab7   /     D7b9  G7b9 
+35      CM7   /     Eb9  
+
+Repeatending
+
+36      AbM7  /     DbM7 
+
+Groove Swing1
+
+RepeatEnd
+
+Groove SwingEnd
+
+36      AbM7  /     DbM7 
+37      CM7  
+
+

@@ -1,0 +1,118 @@
+// Its All In The Game
+
+Tempo 88
+KeySig f
+
+Groove Metronome2-4
+   z * 2
+
+Groove Ballad128Intro1
+
+Begin Solo
+  Voice SynthVox
+  Volume f
+  Harmony OpenBelow
+  Articulate 66
+  Accent 1 10 3 10
+  Octave 5
+  Begin Riff
+     4f;;8.;16g;4f;
+	 1f;
+	 3a;;;4;8.;16b;4a;
+	 1a;
+	 3g;;;4;8.;16a;4g;
+	 1g;
+	 1+2c+ ~;
+  End
+End
+
+Cresc mp f 4
+
+1          F
+2          /
+3         Dm
+4          /
+5         Gm
+6          /
+7         C7
+8          /
+
+Solo Volume m
+
+Repeat
+Groove Ballad128
+Cresc m mf 4
+
+9          F
+10         /
+11         /    {4f;;8.;16g;4f;}
+12         /    {2f;}
+
+Groove Ballad128
+Decresc m 4
+
+13         /
+14         /
+15         /    {4a;;8.;16b;4a;}
+16         /    {2a;}
+
+Groove Ballad128Sus
+Decresc mp 4
+
+17         /
+18         /
+19         /      /      /     G7
+20         C      /      /     Fm
+
+Groove Ballad128
+Cresc mf 4
+
+21         C
+22       Dm7      /      /   G7b9
+23       Gm7      /     C7        {4c+;;8.;16d+;4c+;}
+24         /                      {2c+;}
+
+Groove Ballad128Plus
+Volume m
+
+25         F
+26         /
+27         /    {4f;;g;;}
+28         /    {2f;}
+
+Groove Ballad128SusPlus
+Volume mf
+
+29         /
+30         /
+31         /    {4f;;8.;16g;4f;}
+32         /
+
+Groove Ballad128
+Decresc mp 4
+
+33         /
+34         /
+35         /
+36         /
+
+Groove Ballad128Sus
+Cresc m 2
+
+37       Gm7
+38        C7
+
+RepeatEnding
+
+39         F      /   Fdim    {4.f;8;4.;8;}
+40        C7                  {2f;}
+
+
+RepeatEnd
+Groove Ballad128End
+Decresc ppp 2
+Tempo *.9 2
+
+41         F    {4f;;8.;16g;4f;}
+42         /      /     z!    {4f;}
+

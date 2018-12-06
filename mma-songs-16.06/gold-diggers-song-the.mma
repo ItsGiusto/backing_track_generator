@@ -1,0 +1,69 @@
+// Gold Diggers Song The
+
+Tempo 140
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove BigBand
+Begin Solo
+    Voice Oboe
+	Octave 5
+	Articulate 90
+	Harmony Open+8Above
+	Volume f
+	Begin Riff
+	  4e+;;8d+;c+;b;a;
+	  4d+;;8c+;b;a;g;
+	  4b&;;a&;;
+	  1g; 
+	End
+End
+
+1         Am
+2         Dm
+3        Bb7
+4         G7
+
+Repeat
+Label Sign
+Groove Bigband8
+
+5          C
+6        Dm7      /     G7
+7          C
+8         Dm      /     G7
+9          C      /     C+
+10         F      /    Ab7
+11         C      /    Dm7     G7
+
+if def Sign
+	Groove BigbandEnd
+	Seq 2
+	C / / z!
+	cut -1
+	eof
+endif
+
+RepeatEnding
+
+12         C      /     G7
+
+RepeatEnd
+
+13         C      /    Am6
+
+Groove BigBand8Sus
+
+14        Em      /    Am6
+15        Em      /    Am6
+16        B7      /   Adim
+17        Em      /     B7
+18        Em     Am
+19        Em
+20       Bb7      /     A7
+21       Ab7      /     G7
+
+Set Sign
+Goto Sign

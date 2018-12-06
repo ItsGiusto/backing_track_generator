@@ -1,0 +1,116 @@
+// Music To Watch Girls By
+
+Tempo 140
+KeySig G Minor
+
+Groove Metronome2-4
+ z * 2
+
+Groove BossanovaIntro
+Begin Solo
+  Voice BrassSection 
+  Harmony  None  8Below  OpenBelow+8Below  3Below+8Below
+  Articulate 90
+  Octave 5
+  Cresc m f 4
+  Begin Riff
+      4g;;;;
+	  4g;;;;
+	  4a;;;;
+	  2a;
+  End
+End
+
+Cresc mp m 4
+
+1        Gm
+2         /
+3        A7
+4        D7
+
+Begin Solo
+    Harmony OpenBelow+8Below
+    Octave 4
+    Volume m
+	Articulate 70
+End
+
+Repeat
+Groove BossaNova
+
+5        Gm
+6       Gm7      /    Gm6
+7        A7
+
+
+Solo Riff 4a;;2;
+8         /
+
+Groove BossaNova1Sus
+9       Cm6
+10        /
+11       A7
+
+RepeatEnding  3
+
+Solo Riff 2a;4;;
+
+12       D7      /      z
+
+Groove BossaNova2Sus
+
+13       Gm
+14      Gm7      /    Gm6
+15       A7
+
+Solo Riff 4a;;2;
+
+16        /
+
+Groove BossaNovaSus
+
+17      Cm6
+18        /
+19       A7
+20       D7
+
+Groove BossaNova
+Solo Riff 4g+;
+
+21       G7
+
+Solo Riff 4c+;
+
+22       Cm
+
+Solo Riff 4c+;
+
+23       F7
+24       Bb
+
+Solo Riff 4d+;
+
+25       D7
+
+Solo Riff 4d+;
+
+26       Gm
+
+Solo Riff 4a+;
+
+27       A7
+28       D7
+
+Solo Riff 4a;;2;
+
+29        z
+
+RepeatEnd
+
+Groove BossaNova2End
+Decresc ppp 4
+Repeat
+30       D7
+31       Gm      /     Cm      Gm
+Repeatend
+

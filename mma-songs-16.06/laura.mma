@@ -1,0 +1,84 @@
+// Laura
+// Raksin/Mercer. Done by "everyone" ... I really like the version
+// done by Roberto Inglez.
+
+Tempo 115
+Keysig A minor
+
+Groove Metronome2-4
+	   z * 2
+
+Groove RhumbaIntro
+Begin Solo
+	  Voice Strings
+	  Octave 5
+	  Harmony 3+8above
+	  Articulate 105
+	  Begin Riff
+	  		2.c+;3b;a;b;
+			2.a;3g;f;g;
+			23d;e;f;
+			2d;e;
+	  End
+End
+
+1        Am
+2        Dm
+3        Bm
+4        E7b9
+
+Repeat
+Groove Rhumba
+
+5       Am7
+6      D7b9
+7        G6
+8         /
+9       Gm7
+10     C7#5b9
+11      FM7
+12       F6
+
+Groove RhumbaSus
+
+13      Fm7
+14      Fm7      /   Abm6  Bb7b9
+15     EbM7
+16        /     Eb
+17    Am7b5      / D7b5b9
+18     D7b5      /     D7
+19      Bm7     Bm      G
+20       E9      /   E7b9
+
+Groove Rhumba1
+
+21      Am7
+22     D7b9
+23       G6
+24        /
+25      Gm7
+26     C7b9
+27      FM7
+28       F6
+
+Groove Rhumba1Sus
+
+29      Fm7
+30     Fdim
+31        C
+32       D9      /    G#m     Am
+33     D7b9      / D7#5b9
+34    G9sus      /     G9
+
+RepeatEnding
+
+35       C6      /      /    CM7
+36       C6
+
+RepeatEnd
+Groove RhumbaEnd1
+
+35       C6      /      /    CM7
+36       C6
+
+

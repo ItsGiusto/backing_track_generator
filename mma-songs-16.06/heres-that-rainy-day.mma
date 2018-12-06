@@ -1,0 +1,102 @@
+// Heres That Rainy Day
+
+Tempo 120
+Keysig G
+
+Set ArpeggioOctave 6
+Set ArpeggioVoice Piano1
+Set ScaleVoice Vibraphone
+
+Groove Metronome2-4
+	   z * 2
+
+Groove ChaChaIntro
+Begin Solo
+	  Voice Piano1
+	  Volume ff
+	  Octave 5
+	  Harmony Open+16Below
+	  Articulate 110
+	  Begin Riff
+	  		4d+;2;4;
+			4c+;2;4;
+			2b;;
+			1a;
+	  End
+End
+
+Cresc p m 4
+
+1         G
+2        C
+3        Em
+4        Am7
+
+Repeat
+Groove Chacha
+Cresc p mf 8
+
+5       GM9      /      / GM7/F#
+6     Bb7/F      /   E7b5
+7      EbM7
+8       Eb6
+9       Am7
+10       D7      /      / D7b5b9
+11      GM7
+12      Dm7      /     G7
+
+Groove ChaChaSus
+Volume m
+
+13      Cm7
+14       F9      /      F7#9  F9
+15     BbM7      /      /     E9
+16     EbM7
+17      Am7
+18      Am7  / Eb9  D7
+19      GM7
+20      Am7      /     D7
+
+Groove ChaCha1
+Decresc m mp 8
+
+21      GM7      / GM9/F#
+22    Bb7/F      /   E7b5
+23     EbM7
+24      Eb6
+25      Am7
+26       D7      /      / D7b5b9
+27      GM9
+28      Dm7      /   G9#5
+
+Groove ChaCha1Sus
+Volume m
+
+29      CM7
+30      Am7      /     D7   D7/C
+31      Bm7      /    Em7
+32     A7b5      /     A7
+33      Am7
+34        D      /    Am7   D7b9
+
+RepeatEnding
+
+35        G      /    Em7
+
+Groove ChaCha1Fill
+
+36      Am7      /     D9
+
+RepeatEnd
+
+Decresc ppp 4
+Tempo *.9 4
+
+37        G
+38      Bb6
+
+Groove ChaChaEnd
+
+39     EbM7      /   AbM7
+40       G6
+

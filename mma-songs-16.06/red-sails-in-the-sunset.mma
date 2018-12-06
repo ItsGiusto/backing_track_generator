@@ -1,0 +1,83 @@
+// Red Sails In The Sunset
+
+Tempo 70
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowJazzIntro
+
+Begin Solo
+	Voice Harmonica
+	Octave 5
+	Volume mp
+	Harmony Open
+	Articulate 100
+	Begin Riff
+		2a;3+3g;a;g;
+		4e;2.d;
+		2a;3+3g;a;g;
+		4a;2.d+;
+	End
+End
+
+1   C
+2   G
+3   C
+4   D7
+
+Repeat
+Groove SlowJazz
+
+5   G
+6   G7
+7   C       /       Cm
+8   G
+9   D7      /       Ddim3
+10  D7
+11  /
+12  G
+
+Groove SlowJazzSus
+
+13  /
+14  G7
+15  C       /       Cm
+16  G
+17  D7      /       Ddim3
+18  D7
+19  /
+20  G
+
+Groove SlowJazzWalk
+
+21  C
+22  G
+23  D7
+24  G
+25  C
+26  G
+27  A7
+28  D9      /       D7b9
+
+Groove SlowJazzWalkSus
+
+29  G
+30  G7
+31  C       /       Cm
+32  G
+33  D7      /       Ddim3
+34  D7
+35  /
+
+RepeatEnding
+
+36  G       /       D7
+
+RepeatEnd
+
+Groove SlowJazzEnd
+
+37  G
+38  /  / z!

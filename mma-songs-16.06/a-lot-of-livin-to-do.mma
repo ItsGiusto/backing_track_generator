@@ -1,0 +1,174 @@
+// A Lot Of Livin To Do
+
+Tempo 180
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+   Voice BrassSection
+   Octave 5
+   Harmony OpenAbove+8Above
+   Articulate 90
+   Volume ff
+   Begin Riff
+     4c;r;2c;
+	 4c;r;2c;
+	 4d;r;2d;
+	 4g;
+   End
+End
+
+Cresc pp f 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove BigBand
+Volume m
+
+5       CM7
+6         /
+7        C6
+8         /
+
+Groove BigBandPlus
+Cresc f 8
+
+9       CM7
+10       C7
+11       F6
+12        /
+
+Groove BigBandSus
+
+13      FM7
+14        /      /     G7
+15        C
+16        /
+
+Groove BigBand
+Decresc mp 8
+
+17      Dm7
+18       G7
+19        C
+20        /
+
+Groove BigBandSus
+
+21      CM7
+22        /
+23       C6
+24        /
+
+Groove BigBandPlus
+Volume mf
+
+25      CM7
+26       C7
+27       F6
+28        /
+
+Groove BigBandSusPlus
+Volume f
+
+29      FM7
+30        /      /     G7
+31        C
+32        /
+
+Groove BigBand
+Volume mf
+
+33      Dm7
+34       G7
+35        C
+36       C7
+
+Groove BigBandSusPlus
+Volume m
+
+37       F6
+38      Fm7
+39       Eb
+40        /
+
+Groove BigBand
+
+41       Bb
+42        /
+43        G
+44       G7
+
+
+Groove BigBandSus
+Cresc mp mf 8
+
+45      CM7
+46        /
+47       C6
+48        /
+
+
+Groove BigBand
+
+49      CM7
+50       C7
+51       F6
+52        /
+
+Groove BigBandSus
+Decresc m 4
+
+53      FM7
+54       G7
+55        C
+56        /
+
+Groove BigBand
+
+57      Dm7
+
+RepeatEnding
+
+58       G7
+59        C
+
+Groove BigBandFill
+
+60       G7
+
+
+RepeatEnd
+
+61       G7
+
+Groove BigBandSus
+
+62      Dm7
+63       G7
+
+// change to 3/4 time ... we ignore this
+
+64      Dm7
+65        Dm7
+66       Dm7
+
+// change to 2/4 time  ... again, ignore
+
+67     G7b9 
+
+// change to cut time ... still ignoring
+
+Groove BigBandEnd
+
+68       C6
+69        /   z!
+

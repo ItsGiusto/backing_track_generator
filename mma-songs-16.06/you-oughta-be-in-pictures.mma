@@ -1,0 +1,93 @@
+// You Oughta Be In Pictures
+
+Tempo 120
+KeySig C
+
+Groove Metronome2-4
+ z * 2
+
+Set  ArpeggioVoice Oboe
+
+Groove ModernJazzIntro
+Begin Solo
+ Voice Piano1
+ Volume ff
+ Articulate 90
+ Octave 5
+ Harmony Open+8Below
+ Begin Riff
+   4c+;;8b;a;b;c+;
+   4c+;b;a;c+;
+   4d+;e+;8f+;g+;f+;e+;
+   1d+;
+ End
+End
+
+Cresc p m 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove ModernJazz
+Swell m f 8
+
+5         C      /    CM7      C
+6        C7    Am7  D#dim3
+7       Dm7
+8        G7
+9        Dm      /     G7
+10        /
+11        C      /     C7    Am7
+12       Dm      /      /     G+
+
+Groove ModernJazz1
+Arpeggio Volume -60
+Swell mf 8
+
+13        C      /    CM7      C
+14       C7    Am7  D#dim3
+15      Dm7
+16       G7
+17       Dm      /     G7
+18        /
+19        C      /     C7    Am7
+20       B7
+
+Groove ModernJazzSus
+Volume mp
+
+21       Em      /     G+
+22       Em      /     G+
+23       Em      /      G
+24       Em     A7     Em
+25        G      /     Em
+26        G      /     D7
+27       Em      /     D7
+28       G7
+
+Groove ModernJazz
+Volume m
+
+29        C      /    CM7      C
+30      CM7    Am7  D#dim3
+31      Dm7
+32       G7
+33      Dm7      /     G7
+34        /      /      /      F
+
+RepeatEnding 
+
+35       Dm      /     G7
+36        C      /     G7
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Decresc ppp 2
+Bass-Trp Volume -50
+
+35       Dm      /     G7
+36        C      /     z!

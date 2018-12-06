@@ -1,0 +1,114 @@
+// I Wanna Be Loved By You
+
+// Baby-voiced by both Helen Kane (Betty Boop) &  Marilyn Monroe
+
+Tempo 124
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+
+Groove FoxTrotIntro
+Begin Solo
+    Voice Piano2
+    Harmony OpenBelow
+    Octave 6
+    Volume ff
+    Articulate 90
+    Begin Riff
+        4r;g;8a;a&;4g;
+        4r;a;8b;b&;4a;
+        4r;d;8f;e;4f;
+        1g;
+    End
+End
+
+Swingmode On
+
+Cresc pp m 4
+Solo Swell m ff 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5         C      /     Am      C
+6    Csus(add9) Csus(addb9)      /    Am7
+7       Ab+     B+    Bb7     A7
+8        D7
+
+Groove FoxTrotPlus
+Volume +20
+
+9        G7      /  C#dim
+10       G7
+11        C
+12       D7      /     G7
+
+Groove FoxTrot
+Decresc mp 4
+
+13        C      /     Am      C
+14     Csus(add9) Csus(addb9)      /    Am7
+15      Ab+     B+    Bb7     A7
+16       D7
+
+Groove FoxTrotSus
+Cresc m 4
+17       G7      /  C#dim
+18       G7
+19        C
+20       C7
+
+Groove FoxTrotSusPlus
+Decresc mp 4
+
+21        F
+22       Fm
+23        C      /      /    Am7
+24       C7
+
+Groove FoxTrotSus
+Cresc mf 4
+
+25        F      /    Am7
+26       D7
+27       G7     B+     Bb     A9
+28       D7      /     G7
+
+Groove FoxTrot
+Decresc mp 4
+
+29        C      /     Am      C
+30      Csus(add9) Csus(addb9)    /    Am7
+31      Ab+     B+    Bb7     A7
+32       D7
+
+Groove FoxTrotSus
+Cresc m 2
+
+33       G7      /  C#dim
+34       G7
+
+RepeatEnding
+
+Groove FoxTrotFill
+
+35        C
+36       D7      /      G7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc ppp 2
+Tempo *.8 2
+
+35        C
+37       D7      /      C  z!@3.1
+

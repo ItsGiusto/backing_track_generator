@@ -1,0 +1,155 @@
+// Ive Got My Love To Keep Me Warm
+
+Tempo 160
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+    Voice MutedTrumpet
+    Harmony OpenBelow
+    Octave 5
+    Cresc mf f 4
+    Articulate 90
+    Begin Riff
+       2e;4g;b;
+       4c+;;2;
+       2a;4f;g;
+       1b;
+    End
+End
+
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove BigBand
+Volume m
+       
+5      Eb/G
+6     Gbmb5   Gbm6      /  Gbmb5
+7        Fm
+8     Bb7b5  Ab9/Bb      /    Bb9
+
+Groove BigBandPlus
+Swell f 16
+
+9     Am7b5
+10       D7     
+11       Am7b5
+12       D7b9      /  F#mb5
+
+Groove BigBand
+
+13      Fm7      /    Bb7
+14        /
+15   Bb9sus
+16      Bb9
+
+Groove BigBandSus
+
+17     Eb/G      /      /  B7/F#
+18      Fm7      /    Bb9
+19      Eb6      /  Gbmb5
+20      Fm7      /    Bb7
+
+Groove BigBandSusPlus
+
+21     Eb/G
+22    Gbmb5   Gbm6      /  Gbmb5
+23       Fm
+24    Bb7b5  Ab9/Bb      /    Bb9
+
+Groove BigBandSus
+Volume mp
+
+25    Am7b5
+26       D7     
+27       Am7b5
+28       D7b5      /  F#mb5
+
+Groove BigBand
+Cresc mf 2
+
+29      Fm7      /    Bb7
+30        /
+31   Bb9sus
+32      Bb9
+
+Groove BigBandPlus
+Volume m
+
+33     Eb/G      /      /  B7/F#
+34      Fm7      /    Bb9
+35      Eb6
+36     D7b9/Eb
+
+Groove BigBand
+Volume mf
+
+37       Gm
+38        /      /     D+
+39      Gm7
+40       C7
+
+Groove BigBandSus
+Cresc f 2
+
+41      Fm7
+42       G7      /     C7
+43       Fm      /  Fm7b5
+44      Bb7      /  Fm7/C  Bb7/D
+
+Groove BigBandPlus
+Decresc mp 8
+
+45     Eb/G
+46    Gbmb5   Gbm6      /  Gbmb5
+47       Fm
+48    Bb7b5  Ab9/Bb      /    Bb9
+
+Groove BigBand
+
+49    Am7b5
+50       D7 
+51    Am7b5
+52    D7b9      /  F#mb5
+
+Groove BigBandSus
+Volume m
+
+53      Fm7      /    Bb7
+54        /
+55   Bb9sus
+56      Bb9
+
+Groove BigBandSusPlus
+Decresc mp 2
+
+57     Eb/G      /      /  B7/F#
+58      Fm7      /    Bb9
+
+RepeatEnding
+
+59       Eb      / Gbdim7
+
+Groove BigBandFill
+
+60      Fm9      /  Bb7/D
+
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc ppp 2
+
+61       Eb      /  Db6(add9)
+62      Eb6      /   z!
+

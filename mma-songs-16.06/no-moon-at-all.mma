@@ -1,0 +1,106 @@
+// No Moon At All
+
+Tempo 130
+Keysig D minor
+
+Groove Metronome2-4
+	   z * 2
+
+Groove EasySwingIntro
+Begin Solo
+   Voice JazzGuitar
+   Harmony OpenBelow+8Below+16Below
+   Volume f
+   Octave 5
+   Articulate 120
+   Begin Riff
+     2d+;a;
+	 2d&+;b;
+	 2e+;bn;
+	 1d;
+   End
+End
+
+1        Dm
+2       Bbm
+3        Em
+4        G7
+
+
+Repeat
+
+Groove EasySwing
+Swell m f 8
+
+5        Dm
+6         A
+7      Adim
+8         G
+
+Groove EasySwingWalk
+
+9      Gdim
+10        F      /    Bb7     A7
+11       Dm      /    Bb9
+12     E7b5      /   A9#5
+
+Groove EasySwing
+Swell mp f 8
+
+13       Dm
+14        A
+15     Adim
+16        G
+
+Groove EasySwingWalk
+
+17     Gdim
+18        F      /    Bb7     A7
+19       Dm
+20     A7b5      /     Dm    Eb7
+
+Groove EasySwingSus
+Cresc mp f 8
+
+21       D7
+22        /
+23       G7
+24        /
+
+Groove EasySwingWalkSus
+
+25       C7
+26        /   Bbm6     C7
+27        F
+28       A7     Gm     A7
+
+Groove EasySwing
+Volume m
+
+29       Dm
+30        A
+31     Adim
+32        G
+
+Groove EasySwingWalk
+Decresc mp 4
+
+33     Gdim
+34        F      /    Bb7     A7
+
+RepeatEnding
+
+Groove EasySwingFill
+
+35       Dm      /    Bb9
+36     A7b9      /     Dm
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc ppp 2
+Tempo *.8 2
+
+37       Dm      /    Bb9
+38     Eb13      /    D13
+

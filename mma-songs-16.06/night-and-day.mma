@@ -1,0 +1,106 @@
+// Night And Day
+
+Tempo 120
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove RhumbaIntro
+Cresc p mf 4
+
+1      Ebm   
+2	/
+3	/
+4      Bb7   
+
+Groove Rhumba3
+Volume mp
+Repeat
+
+5      Edim  
+6      Bb7   
+7      /    /    Eb    
+8      Ebm   /    Bb7   
+
+Groove Rhumba3Sus
+Volume +10
+
+RepeatEnd
+
+Groove Rhumba2Sus
+Volume mp
+
+9      B7    
+10     E     
+11     C7    
+12     F     /    Fm    Ddim  
+13     Eb    /    Ebm   
+14     Bb    /    Dbm6  
+15     Eb    /    Bb7  
+
+// Good example here of how to use truncate to
+// handle a 'split' bar. The groove change comes
+// in the middle of the bar ... 
+
+Truncate 2 Count=2
+16     Eb  
+Groove Rhumba
+Volume mf
+
+17     Eb6
+
+/// end of truncate
+
+Repeat
+
+18     Ebm 
+19     Bb7   /    /    Bb+   
+20     Eb    
+21	/
+22     Ebm   
+23     Bb7   /    /    Bb+   
+24     Eb    
+25	/
+26     Cm    
+27     B     
+28     Gm7   
+29     F7    Am    F7    Dm    
+30     Ab    Abm   Ab    
+31     Bb7   
+32     Eb    
+
+RepeatEnding
+
+Groove RhumbaTriple
+
+33	/
+
+Groove RhumbaSus
+
+RepeatEnd
+
+Groove Rhumba
+
+34	/
+35     Gb    
+36	/
+37     Eb    
+38	/
+39     Gb    /    Abm   Gb    
+40     Abm   /    Gb    
+41     Eb    
+42	/
+43     Cm    
+44     B     
+45     Gm7   
+46     F7 
+
+Groove RhumbaEnd
+Decresc ppp	4
+   
+47     Fm7   
+48     Bb7   /    Fm7   
+49     Eb    
+50	/ / z!
+cut -2.2

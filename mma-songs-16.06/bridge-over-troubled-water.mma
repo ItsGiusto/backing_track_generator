@@ -1,0 +1,192 @@
+// Bridge Over Troubled Water
+
+Tempo 84
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+    Voice Piano1
+    Octave 4
+    Volume f
+    Rvolume 10
+    Rtime 10   
+    Harmony OpenBelow+8Below
+    Articulate 110
+    Begin Riff
+       4.g+;8;4;f+;
+       2e+;4d+;c+;
+       4c+;b;8g;4.b;
+       4r;8c;e;4.f;16f;g;
+       4.e;4;4.;
+       2e;8r;16e+;a;g;c;8a&-;
+       4.e;4;4.;
+       2.e;
+    End
+End
+
+
+Groove PopSpiritualPlus
+Cresc mp m 8
+Solo Cresc m mf 4
+1        Eb      /     Bb
+2        Ab      /   Adim
+3        Eb      /     C7
+4        Ab      /    Abm
+
+Groove PopSpiritualIntro
+Solo Cresc f 4
+
+5        Eb
+6        Ab
+7        Eb
+8        Ab
+
+Repeat
+Groove PopSpiritual
+Volume m
+
+9        Eb
+10       Ab
+11       Eb
+12       Ab      /     Db     Ab
+
+Groove PopSpiritualPlus
+Cresc mf 4
+
+13       Eb
+14       Ab
+15       Eb      /     Ab
+16       Eb      /     Ab
+
+Groove PopSpiritual
+Cresc ff 4
+
+17       Eb      /     Bb     Cm
+18       Bb
+19        /      /      /    Bb9
+20       Eb      /  EbM7/D
+
+Groove PopSpiritualPlus
+Decresc m 8
+
+21      Eb7      /      /    Eb9
+22       Ab      /      F
+23       Bb      /    Eb7    Eb9
+24       Ab      /      /  F#dim
+
+Groove PopSpiritual
+
+25       Eb      /  C7sus     C7
+26       Ab      /     G7
+27       Cm      /    Eb7    Eb9
+28       Ab      /      /  F#dim
+
+
+RepeatEnding
+
+Groove PopSpiritualSus
+
+29       Eb      /  C7sus     C7
+30       Ab      /    Bb9    Bb7
+
+31       Eb   
+
+Solo Volume mf
+
+32       Ab   {2a;16e+;a;e;8.d&;8c;}
+
+Groove PopSpiritualSusPlus
+Solo Swell mf f 4
+
+33       Eb   {2b;8r;g;f;e;}
+34       Ab   {4e;4.;16e+;a;e;c;8a-; }
+35       Eb   {4.e;4g;8f;e;}
+36       Ab   {4.e;}
+
+RepeatEnd
+
+Groove PopSpiritualSus
+
+37       Eb      /     Cm
+38       Ab      /     Cm/G      G
+39       Cm
+40       F7
+
+Groove PopSpiritual
+
+Cresc mp m 8
+Solo Volume f
+
+41       Eb    { 4.g+;8;;f+;e+;d+; }
+42       Ab      /     Cm {2e+;4;c+; }
+43       Ab      /    Abm {2e+;4.;8; }
+44       Eb            {2+16e+;16g;4f;8e; }
+
+45       Ab           { 2e;16e+;a;e;16+8d&+;8c+; }
+46       Eb {2+8b;8g;f;e; }
+47       Ab {2e;; }
+48       Eb {1e; }
+
+49       Ab {2e; }
+
+Groove PopSpiritualSus
+Volume m
+
+Chord Sequence C1234
+50       Eb
+51        /
+52        /
+53       Ab      /     Db     Ab
+
+Groove PopSpiritualSusPlus
+Cresc mf 4
+
+54       Eb
+55       Ab
+56       Eb      /     Ab
+57       Eb      /     Ab
+58       Eb      /     Bb     Cm
+
+Groove PopSpiritualSus
+Decresc mp 4
+
+59       Bb
+60        /
+61       Eb      /  EbM7/D
+62      Eb7      /      /    Eb9
+63       Ab      /      F
+64       Bb      /    Eb7    Eb9
+
+Groove PopSpiritual
+Volume m
+
+65       Ab      /      /  F#dim
+66       Eb      /     Cm
+67       Ab      /     Cm      G
+68       Cm      /    Eb7    Eb9
+
+Groove PopSpiritualSus
+
+69       Ab      /   AbM7   F7/A
+70    Eb/Bb      /     Cm
+71       Ab      /     G7
+72       Cm
+
+Groove PopSpiritual
+Solo Volume f
+Decresc ppp 5
+
+73       F9      /    FM9 {2.r;8;g+;}
+74       Eb                {8f+;1.e+~;}
+75       Ab
+
+Groove PopSpiritualEnd
+Tempo *.9 2
+
+76        /      /    Abm  {2e+;a+;}
+Solo Strum 10
+Solo Harmony 3Above+3Below+8Below
+77       Eb  {1b+;}
+

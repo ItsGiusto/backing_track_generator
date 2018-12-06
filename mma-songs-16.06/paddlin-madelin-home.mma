@@ -1,0 +1,94 @@
+// Paddlin Madelin Home
+
+Tempo 240
+Keysig C
+
+Groove Metronome2-4
+	   z * 2
+
+Groove QuickStepIntro
+Begin Solo
+  Voice Piano1
+  Volume ff
+  Articulate 90
+  Harmony 3
+  Octave 6
+  Begin Riff
+    4c;r;c;
+    4c;r;c;
+    4d;r;d;
+    1d;
+  End
+End
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove QuickStep
+
+5         C      /      /   G7#5
+6         /
+7         C
+8         /
+9        D7      /      /   Ddim
+10        /
+11       D7
+12        /
+
+Groove QuickStepDuhSus
+
+13       G7
+14        /      /      /   G7#5
+15        C
+16        /      /      /     A7
+17       D7
+18        /
+19       G7      /    Dm7     G7
+
+Groove QuickStepHitSus
+
+20        /
+
+Groove QUickStepDuh
+
+21        C      /      /   G7#5
+22        /
+23        C
+24        /
+25       D7      /      /   Ddim
+26        /
+27       D7
+28        /      /   D7b5
+
+Groove QuickStepSus
+
+29        C
+30       Em
+31       Am      /    Am7
+32        D      /    Fm6
+33        C      /   Cdim
+34       G7      /   G7#5
+35        C      /     C7     A7
+36        /      /   A7b5
+37       D7      /      /     G9
+38        /      /   G9#5
+
+RepeatEnding 2
+
+Groove QuickStepHitSus
+
+39        C
+
+Groove QuickStep
+
+40       G7
+
+RepeatEnd
+Groove QuickStepEnd
+
+41        C      /    Dm7   G7b9
+42        C     /   z!
+

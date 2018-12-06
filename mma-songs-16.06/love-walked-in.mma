@@ -1,0 +1,88 @@
+// Love Walked In
+
+// From the film "Goldwyn Follies". Charted 5x in 1938; #8 in 1953.
+// Written by Gershwin, which might be why it was so popular ... ya think?
+
+Tempo 140
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove SwingIntro
+
+Begin Solo
+	Voice Piano1
+	Harmony Open
+	Volume f
+	Articulate 90
+	Octave 5
+	Begin Riff
+		8e+;4;8d+;4c+;b;
+		8c+;4;8b;4a;g;
+		8a;4;8g;4f;e;
+		1d;
+	End
+End
+
+1    Eb
+2    Cm
+3    Fm
+4    Bb7
+
+Repeat
+
+Groove Swing
+
+5    Eb
+6    Gm7 / Cm7 /
+7    F7
+8    Bb7sus /    Bb7
+9    Eb
+10   Gm7 / Cm7
+11   F7
+
+Groove SwingPlus
+
+12   Bb7
+13   Eb
+14   Eb7    /    /    Eb7#5
+15   AbM7
+16   C7#5
+17   Fm   /    C7#5
+18   Fm7
+19   Eb   /    Ab   Bb
+20   F9   /    Fm7  Bb7
+
+Groove SwingSus
+
+21   Eb
+22   Gm7 / Cm7
+23   F7
+24   Bb7sus /    Bb7
+25   Eb
+26   Gm7 / Cm7
+27   F7
+28   Bb7
+
+Groove Swing
+
+29   Eb
+30   Eb7    /    /    Eb7#5
+31   Ab
+32   Fm7  /    Abm6
+33   Eb   /    Eb7  C7
+34   Fm   /    Bb7
+
+Repeatending
+
+35   Eb
+36   /    /   Bb7
+
+RepeatEnd
+
+Groove SwingEnd
+Decresc mp p 2
+
+35   Eb
+36   /    /    z!

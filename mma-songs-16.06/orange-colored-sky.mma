@@ -1,0 +1,176 @@
+// Orange Colored Sky
+
+Tempo 126
+Keysig G
+
+Groove Metronome2-4
+   z * 2
+
+Groove ModernJazzIntro
+Begin Solo
+    Voice Piano2
+    Volume F
+    Articulate 90
+    Harmony OpenBelow
+    Octave 5
+    Begin Riff
+        8g;a;g;8+2a;
+        8e;f;g;2f;
+        43e;f;g; a;g;f;
+        1d;
+    End   
+End
+
+Swingmode On
+Cresc p mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat  /// for the DS/Coda
+Repeat  /// for the 1/2 endings
+Groove ModernJazz
+Volume m
+
+5        G6      / G#dim7
+6       Am7      / A#dim7
+7       Bm7      /    Em7
+8       Bm7      /     E7
+
+Begin Solo
+    Voice BrassSection
+    Harmony None
+    Articulate 70
+    Begin Riff  
+       4g;r;g;
+    End
+End
+
+Volume f
+9        C6      / C#dim7
+Volume mf
+
+Groove ModernJazz1
+
+RepeatEnding
+
+10     G6/D      /    Em7
+
+Groove ModernJazzFill
+
+11      Am7      /     D7
+12       G6      /    Am7     D7
+
+RepeatEnd
+
+13     G6/D      /    Em7
+
+Groove ModernJazzFill
+Volume m
+
+14      Am7      /     D7
+15       G6
+
+Groove ModernJazzSus
+Volume m
+
+16       C6
+17      F#7
+18   F#m7b5      /     B7
+19      Em7
+
+Begin Solo
+     Voice Trumpet
+     Harmony 3Below
+     Begin Riff
+         8g;r;g;r;g;r;g;r;
+         8g;r;g;r;g;r;g;r;
+     End
+End
+Volume mf
+
+20       Em      /      D
+21   C#m7b5      /     C6   G6/B
+
+Groove ModernJazz
+
+Begin Solo
+    Voice Trumpet
+    Harmony OpenBelow
+    Begin Riff  
+       4r;3r;f;g;4a;3r;a;b;
+       4c+;
+    End
+End
+Cresc mp mf 2
+
+22       D7      /    Am7
+23      Eb7      /     D7
+
+Groove ModernJazz
+Volume m
+
+24       G6      / G#dim7
+25      Am7      / A#dim7
+26      Bm7      /    Em7
+27      Bm7      /     E7
+
+Begin Solo
+    Voice BrassSection
+    Harmony None
+    Begin Riff  
+       4g;r;g;
+    End
+End
+
+Volume ff
+
+28       C6      / C#dim7
+
+Groove ModernJazz1
+Volume m
+
+29     G6/D      /    Em7
+
+RepeatEnding  /// really a To CODA
+
+Groove ModernJazz
+
+30      Am7      /     D7
+Groove ModernJazzFill
+31       G6      /     D7
+
+RepeatEnd  /// really a DS
+
+// This is the Coda
+
+Cresc m mf 4
+
+32      Cm7
+33      Ab9
+34      GM7      /     F7
+35   E7#5b9
+
+
+Begin Solo
+    Voice BrassSection
+    Harmony None
+    Begin Riff  
+       4b;r;b;
+    End
+End
+
+Volume f
+36      Am9
+
+Groove ModernJazz
+Volume m
+37      Am7      /      /     D7
+
+Groove ModernJazzEnd
+Decresc pppp 2
+38       G6      /     F9
+39   G6(add9)
+

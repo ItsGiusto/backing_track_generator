@@ -1,0 +1,77 @@
+// Am I Blue
+
+Tempo 60
+KeySig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowJazzIntro
+
+Begin Solo
+	Voice Piano2
+	Volume mf
+	Octave 6
+	Harmony Open
+	Articulate 90
+	Begin Riff
+		8f;a;c+;a;f;a;c+;a;
+		8f;a;d+;a;f;a;d+;a;
+		8g;b;d+;b;g;b;d+;b;
+		1c+;
+	End
+End
+
+SwingMode On
+
+1      F     
+2      Dm    
+3      Gm    
+4      C7    
+
+Groove SlowJazz
+Repeat
+
+5      F     
+6	/
+7      C9    
+8	/
+9      F     /    A7b5  D7    
+10     G7    /    Db7   C7    
+
+RepeatEnding
+
+11     F     /    F6    Cdim 
+12     C7    
+Groove SlowJazzWalk
+
+RepeatEnd
+
+13     F     /    Bb    Bbm   
+14     F     
+
+Groove SlowJazzSus
+
+15     Am    
+16	/
+17     E7    /    /    Dm6   
+18     /    /    E7    
+19	/
+20	/
+21     Am    /    /    F#dim 
+22     Gm7   C7  
+
+Groove SlowJazz
+  
+23     F     
+24	/
+25     C9    
+26	/
+27     F     /    F#dim D7    
+28     G7    /    Db7   C7
+
+Groove SlowJazzEnd
+    
+29     F     /    Bb    Bbm   
+30     F     z!
+

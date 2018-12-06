@@ -1,0 +1,121 @@
+// People
+
+Tempo 127
+KeySig Bb
+
+Groove Metronome2-4
+   z * 2
+
+Groove RhumbaIntro
+Begin Solo
+    Voice JazzGuitar
+	Harmony Open
+	Octave 5
+	Articulate 105
+	Volume ff
+	Begin Riff
+	    4b;2.f;
+		43g;a;b; 4g;a;
+		4c+;2.g;
+		4a;2.c+;
+	End
+End
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove Rhumba
+
+5      BbM7
+6       Cm7      /     F7
+7      BbM7
+8       Cm7      /      / F7sus4
+
+Groove Rhumba1
+
+9      BbM7
+10        /
+11      Am7
+12       D7
+
+Groove RhumbaSus
+
+13     GmM7
+14       C7
+15     GmM7
+16        /
+
+Groove Rhumba
+
+17    Gm7b5      /     C7
+18      FM7      /     F6
+19      G/B      /   Bbm6
+20      F/A      / Abdim7
+
+Groove Rhumba3
+
+21      Gm7
+22   C7sus4      /     C7
+23        E      F
+24      Cm7      /   F7#5
+
+Groove RhumbaSus
+
+25     BbM7
+26      Cm7      /     F7
+27     BbM7
+28      Cm7      /      / F7sus4
+
+Groove Rhumba3Sus
+
+29    Eb/Bb
+30     BbM7
+31      Fm7
+32      Bb9      /      / Bb7#5b9
+
+Groove Rhumba
+
+33     EbM7
+34      Cm7      /   Ebm6
+35       Bb
+36      Fm7      /   Fm7  Bb7b9
+
+Groove RhumbaSus
+
+37     BbM9
+38        /      / F7sus4
+39     Bb/D
+40    Em7b5      /   A7b5
+
+Groove Rhumba1Sus
+
+41     Bb/D      /    Gm7
+42      Cm7      /     F7
+43     BbM7
+44        /      /    Fm7    Bb7
+
+Groove Rhumba
+
+45     EbM7
+46        /      /   Ebm6
+47       Eb      /      /     Bb 
+48      Cm7
+
+RepeatEnding
+
+49      Bb6      /    Gb9
+Groove RhumbaTriple12
+50       F7
+
+RepeatEnd
+
+Groove RhumbaEnd1
+Decresc ppp 2
+Tempo *.8 2
+
+49      Bb6      /    Gb9
+50   Bb6(add9)   /    z!
+

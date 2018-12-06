@@ -1,0 +1,117 @@
+// Looking For A Boy
+// From the 1925 musical Tip-Toes.
+
+Tempo 124
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove SoftShoeIntro
+
+Begin AllGrooves Arpeggio
+    Voice JazzGuitar
+    Octave 5
+    Articulate 120
+    Direction Random
+End
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Harmony OpenBelow+8Below
+    Articulate 105
+    Octave 5
+    Begin Riff
+        4.d;8;2;
+        4.e;8;2;
+        4.a;8;2;
+        4.d+;8;2;
+    End
+End
+
+Swell mp f 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+
+Groove SoftShoe
+Volume m
+
+5        G      /     G6
+6         G      /     G6
+7        Gm      /     C7
+8         G      /     G6
+
+Groove SoftShoePlus
+Decresc mp 4
+
+9        Gm      /     C7
+10       D7
+11        G
+12        /      /     D7
+
+Groove SoftShoeSus
+Cresc m 4
+
+13        G      /     G6
+14        G      /     G6
+15       Gm      /     C7
+16        G      /     G6
+
+Groove SoftShoeSusPlus
+
+17       Bm      /    Bm6
+18      F#7
+19       Bm
+20        /      /     E7
+
+Groove SoftShoePlus
+Decresc mp 4
+
+21       Am
+22      Dm6      /     E7
+23       Am
+24      Dm6      /     E7
+
+Groove SoftShoeSusPlus
+Cresc m 4
+
+25       Am      /    Am7
+26       Em
+27        D
+28        /      /     D7
+
+Groove SoftShoe
+Decresc mf mp 4
+
+29        G      /     G6
+30        G      /     G6
+31       Gm      /     C7
+32        G      /     G6
+
+Groove SoftShoeSus
+
+33       Gm      /     C7
+34       D7
+
+RepeatEnding
+
+Groove SoftShoe
+
+35        G
+36        /      /   D7
+
+RepeatEnd
+
+Groove SoftShoeEnd
+Decresc ppp 2
+
+35        G
+36        / z!
+
+

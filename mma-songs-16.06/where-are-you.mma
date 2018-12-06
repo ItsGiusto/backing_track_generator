@@ -1,0 +1,106 @@
+// Where Are You
+
+Tempo 70
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove FolkyJazzPianoIntro
+
+Begin Solo
+    Voice Vibraphone
+    Volume f
+    Octave 6
+    Articulate 120
+    Harmony OpenBelow
+    Begin Riff
+        2.b;4g;
+        2.b;4g;
+        2.c+;4a;
+        4f;a;c+;d+;
+    End
+End
+
+Swell mp mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+
+Repeat
+Groove FolkyJazzPiano
+Volume m
+
+5         G
+6        Bm      /  Bbdim
+7       Am7      /    D11     D7
+8      Gdim      G
+
+Groove FolkyJazzPianoSus
+Decresc mp 2
+
+9       A13      /     A7
+10     Gdim      G
+
+RepeatEnding
+Cresc mf 2
+
+11      Am7      /     D7
+12      GM7      /     G6
+
+RepeatEnd
+
+Volume m
+
+13      Am9      /      /     D7
+
+Repeat
+
+14        G
+
+Groove FolkyJazzPianoPlus
+Cresc mf 2
+
+15        C      /    Am7
+16   B7sus4      /     B7
+17       Em      /     /  D7>1
+18      G/B
+
+Groove FolkyJazzPianoSusPlus
+Decresc mp 2
+
+19        C      /    Am7
+20   B7sus4      /     B7
+21       Em      /     A9
+22      Am7      /     D7
+
+Groove FolkyJazzPianoSus
+Volume m
+
+23        G
+24       Bm      /  Bbdim
+25      Am7      /    D11     D7
+26     Gdim      G
+
+Groove FolkyJazzPiano
+Decresc mp 2
+
+27      A13      /     A7
+28     Gdim      G
+
+RepeatEnding
+
+Bass Riff 1 4 5 90; 2 4 3 94; 3 4 2 99; 4 4 1 110;
+29      Am9      /      /     D7
+
+RepeatEnd
+
+Groove FolkyJazzPianoEnd
+Decresc ppp 2
+
+29      Am9      /      /     D7
+30        G      z!
+

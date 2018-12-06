@@ -1,0 +1,173 @@
+// I Get A Kick Out Of You
+
+Tempo 140
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove RhumbaIntro
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Harmony 3Below+8Below
+    Articulate 120
+    Octave 5
+    Begin Riff
+       23e;g;b;
+       23c+;b;g;
+       23f;a;c+;
+       1b;
+    End
+End
+
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove Rhumba
+Volume m
+
+5       Fm7      /    Fm6    Fm7
+6       Bb7
+7        Eb
+8        Gm
+
+Groove RhumbaSus
+
+9       Fm7      /    Fm6    Fm7
+10       Bb
+11       Eb
+12       Gm
+
+Groove Rhumba3
+Decresc mp 4
+
+13      Fm7
+14      Bb7
+15       Eb
+16      Gm7      /      /    Fm7
+
+Groove Rhumba3Sus
+Cresc m 4
+
+17        /
+18      Bb7
+19       Eb
+20       Gm
+
+Groove Rhumba2
+Begin Chord-Mallet
+  Volume ppp
+  Rskip 30
+End
+
+21      Fm7      /    Fm6    Fm7
+22      Bb7
+23       Eb
+24       Gm
+
+Groove Rhumba2Sus
+Begin Chord-Mallet
+   Volume ppp
+   Rskip 50
+End
+
+25      Fm7      /    Fm6    Fm7
+26      Bb7
+27       Eb      /      /    Cm6
+28       Gm
+
+Groove Rhumba3
+
+29      Fm7      /      /     F7
+30       Bb      /      A     Ab
+31       Eb
+32       Gm      /      /     Fm
+
+Groove Rhumba3Sus
+Cresc mp m 8
+
+33        /
+34      Bb7
+35       Eb
+36       Gm
+
+Groove Rhumba
+
+37      Eb7
+38       Ab      /    Eb7
+39       Db      /      /     Ab
+40       Db      /      /     Ab
+
+Groove RhumbaSus
+
+41       Cm      /      /    Eb7
+42       Cm      /      /    Eb7
+43     Edim
+44       C7
+
+Groove Rhumba1
+Decresc mp 8
+
+45       Fm
+46        /
+47     Bbm6      /      /     Fm
+48     Bbm6      /      /     Fm
+
+Groove Rhumba1Sus
+
+49       F7
+50        /
+51      Fm7
+52      Bb7
+
+Groove Rhumba
+Volume m
+
+53      Fm7      /    Fm6    Fm7
+54      Bb7
+55       Eb
+56       Gm
+
+Groove RhumbaSus
+Cresc mf 4
+
+57      Fm7      /    Fm6    Fm7
+58      Bb7
+59       Eb
+60       Gm
+
+Groove Rhumba3
+Decresc mp 4
+
+61      Fm7
+62      Bb7
+63       C7
+64        /
+
+Groove Rhumba3Sus
+
+65      Fm7
+66      Bb7
+
+RepeatEnding
+
+57      Eb
+58      Gm
+
+RepeatEnd
+
+Groove RhumbaEnd
+Decresc ppp 2
+Tempo *.8 2
+
+67       Eb
+68        / z!
+
+
+

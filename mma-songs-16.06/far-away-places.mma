@@ -1,0 +1,174 @@
+// Far Away Places
+
+Tempo 100
+Keysig F
+
+Groove Metronome3
+	z * 2
+
+Groove WaltzIntro
+
+Begin Solo
+    Voice Piano1
+	Volume f
+	Harmony 3below+8Below
+	Articulate 110
+	Octave 5
+	Begin Riff
+	    4f;g;a;
+		4b;a;g;
+		4c+;b;a;
+		2.f;
+	End
+End
+
+Swell mp mf 4
+
+1          F
+2         Gm
+3         C7
+4          F
+
+Repeat
+Groove Waltz
+Volume m
+
+5          F
+6          /
+7          /     Bb      F
+8          /
+
+Groove Waltz1
+Cresc mf 8
+
+9          /
+10         /
+11       Gm7
+12        C7
+
+Groove WaltzSus
+
+13         F
+14        F7
+15        Bb
+16      Bbm6
+
+Groove Waltz1Sus
+Decresc mp 4
+
+17         F
+18        C7
+19         F    Gm7
+20         F   Bdim3    Gm7
+
+Groove WaltzWalk
+Cresc m 4
+
+21         F
+22         /
+23         /     Bb      F
+24         /
+
+Groove WaltzWalkSus
+
+25         /
+26         /
+27       Gm7
+28        C7
+
+
+Groove Waltz
+Volume m
+
+29         F
+30        F7
+31        Bb
+32      Bbm6
+
+Groove Waltz1
+Decresc mp 4
+
+33         F
+34        C7
+35         F    Gm7  G#dim3
+36        F7     Bb     F7
+
+Groove WaltzWalkSus
+Cresc m 8
+
+37        Bb
+38         /      C
+39       Bbm      F  G#dim3
+40         F      /    Eb7
+
+Groove WaltzSus
+
+41        C7
+42         /    Gm7     C7
+43         F
+44         /      /     F7
+
+Groove Waltz1
+Decresc mp 4
+
+45        Bb
+46         /      C
+47       Bbm      F  G#dim3
+48         F      /    Ab9
+
+Groove Waltz1Sus
+Cresc m 4
+
+49        G7
+50        G9      /     G7
+51       Gm7
+52        C7
+
+Groove Waltz
+Decresc mp 4
+
+53         F
+54         /
+55         /     Bb      F
+56         /
+
+Groove WaltzSus
+
+57         /
+58         /
+59       Gm7
+60        C7
+
+Groove WaltzWalk
+
+61         F
+62        F7
+63        Bb
+64      Bbm6
+
+Groove Waltz
+Volume m
+
+65         F
+66        C7
+
+RepeatEnding
+
+67         F
+68       Gm7      /      F
+
+Groove Waltz1
+
+RepeatEnd
+
+Groove WaltzEnd
+Tempo *.9 4
+Decresc ppp 4
+
+Seq 2
+69         F      /     Bb
+Seq 2
+70         F     Gm     Gb
+71         F
+72         /     z!
+

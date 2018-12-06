@@ -1,0 +1,91 @@
+// Bad Leroy Brown
+
+// The Jim Croce version is in the key of G at this tempo.
+// I've transposed it here for the usual reasons.
+
+Tempo 146
+Keysig G
+Transpose -2
+
+// This is for the handclaps.
+
+Begin Solo-clap
+ Drumtype
+ Volume ff
+ Tone HandClap
+ Rvolume 20
+ Rtime 10
+End
+
+Groove Metronome2-4
+  z * 2
+
+Groove 50sRockIntro
+Begin Solo
+  Voice OverdriveGuitar
+  Volume f
+  Harmony OpenBelow+8Below
+  Octave 5
+  Articulate 60  /  /  50
+  Begin Riff
+    8g;g;a;a;g;g;a;a;
+    8g;g;a;a;b;b;a;a;
+    8g;g;a;a;g;g;a;a;
+	3g;;;;;;4;
+  End
+End
+
+Swingmode On 
+
+1          G      /     Em
+2          G      /     Em
+3          G      /     Em
+4          G
+
+Groove 50sRock
+
+Repeat
+
+5          G
+6          /
+7         A7
+8          /
+9         B7
+10         C
+11        D7
+12         G
+
+Groove 50sRockSus
+
+13         /
+14         /
+15        A7
+16         /
+17        B7
+18         C
+19        D7
+20         G
+
+Groove 50sRock      // Chorus
+
+Solo-Clap Riff 4r; *; r; *;
+21         G      z      G      z
+
+22         G
+23        A7
+24         /
+25        B7
+
+Solo-Clap Riff 4r; *; ; ;
+26         C
+27        D7      /      C
+
+RepeatEnding 3
+
+28         G
+
+RepeatEnd
+
+Groove 50sRockEnd
+
+29         G      /     z!

@@ -1,0 +1,92 @@
+// A Shine On Your Shoes
+
+Tempo 160
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove SwingIntro
+Begin Solo
+    Voice BrassSection
+	Octave 5
+	Harmony OpenBelow+8Below
+	Volume f
+	Articulate 90
+	Begin Riff
+       4e+;;b;g;
+	   2c+;4b;g;
+	   8b;a;4g;2f;
+	   4b;	   
+	End
+End
+
+1         Eb
+2        Cm7
+3        Fm7
+4        Bb7      z
+
+Repeat
+Repeat
+Groove Swing1
+
+5         Eb      /      /    Eb7
+6         Ab      /    Abm
+7         Eb      /    Eb7
+8         Ab
+
+Groove Swing1Sus
+
+9         Eb      /    Eb7
+10        Ab      /      /    Bb7
+
+RepeatEnding
+
+11        Eb      /     F7
+12       Bb7      /     F7    Bb7
+
+RepeatEnd
+
+
+13        Eb      /     F7
+14        Cm      /  Bbaug     D7
+
+Groove Swing1Plus
+
+15        Gm
+16        A7      /     D7  Bbaug
+17        Gm
+18        A7      /     D7
+
+Groove Swing1PlusSus
+
+19        Gm
+20        Cm      /      F
+21       Fm7      /      /    Bb7
+22         /      /     F7    Bb7
+
+Groove Swing1
+
+23        Eb      /      /    Eb7
+24        Ab      /    Abm
+25        Eb      /    Eb7
+26       Ab7
+
+Groove Swing1Sus
+
+27        Eb      /    Cm7
+28       Fm7      /    Bb7
+
+RepeatEnding
+
+29        Eb
+30       B&7     z
+
+RepeatEnd
+
+Groove Swing1End
+
+31        Eb      /     Ab    Abm
+32        Eb     z!
+
+

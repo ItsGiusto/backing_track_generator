@@ -1,0 +1,85 @@
+// Moonlight In Vermont
+
+Tempo 74
+Keysig Eb
+
+Groove Metronome2-4
+	   z * 2
+
+Groove SlowJazz1Intro
+
+Begin Solo
+	  Voice Vibraphone
+	  Volume f
+	  Harmony Open+8Below
+	  Articulate 110
+	  Octave 5
+	  Begin Riff
+	  		8e;g;b;c+;e+;c+;b;c+;
+			8e+;c+;e+;c+;b;c+;b;c+;
+			8e+;c+;a;f;a;f;a;f;
+			43b;;;2;
+	  End
+End
+
+
+1        Eb
+2        Cm7
+3        Fm7
+4        Bb7
+
+Repeat
+Groove SlowJazz
+Volume mp
+
+5       Eb6      /    Cm7
+6       Fm7      /    Bb7
+7       Eb6      /    Cm7
+8       Db9
+9       Fm7      / Bb7sus
+10       Eb    Fm7    Bb7
+
+Groove SlowJazzWalk
+Volume m
+
+11      Eb6      /    Cm7
+12      Fm7      /    Bb7
+13      Eb6      /    Cm7
+14      Db9
+15      Fm7      / Bb7sus
+16       Eb
+
+Groove SlowJazzSus
+Cresc m mf 4
+
+17     Am11      /     D7
+18      GM7      / G#dim7
+19     Am11      / Ab9#11
+20      GM7      /     G6
+
+Decresc mf m 4
+
+21    Bbm11      /    Eb7
+22     AbM7      /  Adim7
+23    Bbm11      /    Eb9
+24       Ab      / Bb7#5b9
+
+Groove SlowJazzWalk
+
+25      Eb6      /    Cm7
+26      Fm7      /   E7#9
+27      Eb6      /    Cm7
+28      Db9
+29      Fm7      / Bb7sus
+30       Eb
+
+RepeatEnd
+
+Groove SlowJazzEnd
+Tempo *.9 2
+Decresc p 2
+
+31       F9      /   /  E9
+32     EbM9  /  z!
+
+

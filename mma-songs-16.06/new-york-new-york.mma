@@ -1,0 +1,152 @@
+// New York New York
+
+Tempo 126
+Keysig F
+
+Groove Metronome2-4
+ z  * 2
+
+Groove MellowJazzIntro
+
+Begin Solo
+    Voice Trumpet
+    Volume f
+    Octave 5
+    Articulate 80
+    Harmony OpenBelow
+    Begin Riff
+       4f;;81e;82f;4d;
+       4f;;81e;82f;4d;
+       4f;;81e;82f;4d;
+       2.e;
+
+       4f;;81e;82f;4d;
+       4f;;81e;82f;4d;
+       4f;;81e;82f;4d;
+       4f;
+    End
+End
+Begin Solo-2
+    Voice TenorSax
+    HarmonyOnly OpenAbove
+    Octave 5
+    Articulate 70
+    Volume f
+End
+
+Solo DupRiff Solo-2
+Repeat
+
+Seq
+1          F
+2          /
+Seq
+3     C7sus4
+
+RepeatEnding
+
+4         /
+
+RepeatEnd
+
+Seq 4
+
+5         C7sus4
+
+Groove  MellowJazz
+
+6          F
+7          /
+8        Gm7      /     C7
+9        Gm7      /     C7
+
+Groove MellowJazzPlus
+
+10         F
+11        F6
+12       Gm7
+13        C7
+
+Groove MellowJazz
+
+14         F
+15         /
+16       Gm7      /     C7
+17        C7      /    Gm7     C7
+
+Groove MellowJazzPlus
+
+18         F
+19       FM7
+20        F7
+21         /
+
+Repeat
+Groove MellowJazzSus
+
+22      BbM7
+23      Bbm6
+24        F6
+25         F      /    Gm7      F
+
+Groove MellowJazzSusPlus
+
+26       Am7
+27        D7
+28       Gm7
+29        C7
+
+Groove MellowJazz
+
+30         F
+31         /
+32       Gm7      /     C7
+33        C7      /    Gm7     C7
+
+Groove MellowJazzPlus
+
+34        F7
+35         F
+36       Cm7
+37        F7
+
+Groove MellowJazzSus
+
+38        Bb      /      /   Bbm6
+39         /
+40       F/C      /      /   D7b5
+41         /     D7   C7/E  D7/F#
+
+42       Gm7      /    Am7
+43      BbM7      /    C11
+
+
+Solo Voice Strings
+Solo-2 Off
+
+RepeatEnding
+Solo Decresc m p 4
+
+44         F    {4f;;81e;82f;4d;}
+45        Dm    {4f;;81e;82f;4d;}
+46    C7sus4    {4f;;81e;82f;4d;}
+
+Groove MellowJazz
+
+47        F7    {4f;}
+
+RepeatEnd
+
+Solo Decresc m p 3
+Decresc ppp 4
+
+48         F    {4f;;81e;82f;4d;}
+49        Dm    {4f;;81e;82f;4d;}
+
+Groove MellowJazzEnd
+
+50         F    {4f;;81e;82f;4d;}
+51         F     z!    {4f;}
+
+
+

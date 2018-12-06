@@ -1,0 +1,115 @@
+// Oh Lonesome Me
+
+Tempo 166
+
+Groove metronome2-4
+
+	z * 2
+
+Begin Solo
+	Voice Accordion
+	Harmony OpenAbove
+	Octave 5
+	Volume mf
+	Articulate 90
+End
+	
+Groove CountrySwing
+
+1 	C    {4e;g;;;}
+2 	/    {4e;g;;;}
+3 	F    {4f;a;c+;a;}
+4 	G7   {4b;a;g;f;}
+5 	C    {4g;1+4e ~;}
+6 	z
+
+Delete Solo
+
+Repeat
+
+Groove CountrySwing
+
+Repeat
+
+7 	C
+8 	/
+9 	G7
+10 	/
+11 	/
+12 	/
+13 	C
+14 	/
+15 	/
+16 	C7
+17 	F
+18 	/
+19 	G7 /  Gdim
+20 	G7
+
+RepeatEnding
+
+21 	C
+22 	/
+
+Groove CountrySwingSus
+
+RepeatEnd
+
+23 	C
+24 	/
+
+Groove CountrySwing1
+
+25 	G
+26 	/
+27 	D7
+28 	/
+29 	/
+30 	/  /  D7sus4
+31 	G
+32 	/
+33 	/
+
+Groove CountrySwing2
+
+34 	/
+35 	D7
+36 	/
+37 	/
+38 	/
+39 	G
+40 	G7
+
+Groove CountrySwing
+
+41 	C
+42 	/
+43 	G7
+44 	/
+45 	/
+46 	/
+47 	C
+48 	/
+49 	/
+50 	C7
+51 	F
+52 	E /  F F#
+
+Groove CountrySwingSus
+
+53 	G7 /  Gdim
+54 	G7
+55 	C
+56 	E /  F F#
+
+Repeatend
+
+
+57 	G7 /  Gdim
+58 	G7 
+
+Groove CountrySwingEnd
+
+59 	C
+60 	  C6  z!
+

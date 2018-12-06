@@ -1,0 +1,116 @@
+// My Funny Valentine
+
+Tempo 84
+Keysig C minor
+
+Groove Metronome2-4
+    z * 2
+
+Groove DescendingJazzIntro
+
+AllGrooves Drum-Side Volume -30
+
+Begin Solo
+  Voice Strings
+  Volume f
+  Harmony 3Below
+  Octave 6
+  Articulate 110
+  Begin Riff
+     2e;4d;e;
+	 4c#;d;2e;
+	 2d;4e;f;
+	 2.g;
+  End
+End
+
+1        Cm
+2        B+
+3       Dm7
+4        G7
+
+Repeat
+
+Groove DescendingJazz
+Volume m
+
+5        Cm
+6        B+
+7       Cm7
+8       Cm6
+
+Groove DescendingJazzPlus
+Volume mf
+
+9        Ab
+10      Fm7
+11      Fm6      /     G7
+12       Fm      /     G7
+
+Groove DescendingJazz
+Volume m
+
+13       Cm
+14       G7
+15      Cm7
+16      Cm6
+
+Groove DescendingJazzSus
+Volume mp
+
+17       Ab
+18      Fm7      /    F7
+19      Abm
+20      Bb7
+
+Groove DescendingJazz
+Cresc m 4
+
+21       Eb      /    Bb7
+22       Eb      /    Bb7
+23       Eb      /    Bb7
+24       Eb      /    Bb7
+
+Groove DescendingJazzSusPlus
+Decresc mp 4
+
+25     EbM7      /     G7
+26       Cm
+27     AbM7      /    Ab6
+28      Ab7      /     G7
+
+Groove DescendingJazzSus
+Volume m
+
+29       Cm
+30    Cm7b5
+31      Cm7
+32      Cm6
+
+Groove DescendingJazz
+Cresc mf 4
+
+33       Ab
+34     D7b5      /     G7
+35       Cm
+36      Eb7
+
+Groove DescendingJazzSus
+Decresc mp 4
+
+37       Ab      /   AbM7
+38      Fm7      /    Bb7
+
+RepeatEnding
+
+39       Eb
+40       Dm7      /   G7
+
+RepeatEnd
+
+Groove DescendingJazzEnd
+Decresc ppp 2
+
+41       Eb
+42        /  / z!
+

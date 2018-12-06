@@ -1,0 +1,120 @@
+// The Nearness Of You (1938)
+
+Tempo 88
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove BeguineSusIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Octave 5
+    Harmony OpenBelow
+    Articulate 110
+    Begin Riff
+        43c;f;g;2a;
+        43d;f;a;2g;
+        8b;a;4g;a;b;
+        2c+;
+    End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove Beguine
+Volume m
+
+5         F      /     C9
+6        F9    Cm7      /   F7b9
+7        Bb
+8      Edim      /      /   Bbm6
+
+Groove Beguine1
+Cresc mf 2
+
+9       Am7      /    Ab7
+10      Gm7      /     C9
+11      Am7      /    Ab7
+12      Gm7      /     C9
+
+Groove Beguine
+Volume m
+
+13        F      /     C9
+14       F9    Cm7      /   F7b9
+15       Bb
+16     Edim      /      /   Bbm6
+
+Groove Beguine1
+Cresc f 2
+
+17      Am7      /    Ab7
+18      Gm7      /     C9
+19        F      /    Bb6
+20       F6
+
+Groove BeguineSus
+Volume mf
+
+21     C7b9
+22        /
+23      FM7      /    Eb6
+24       F7
+
+Groove Beguine1Sus
+Decresc m 2
+
+25       Bb
+26       D9      /      /   D7b9
+27      Gm7      /    Eb7
+28       C9      /     C7
+
+Groove Beguine
+Cresc mf 4
+
+29        F      /     C7
+30       F9    Cm7      /     F+
+31       Bb
+32     Edim      /      /   Bbm6
+
+Groove Beguine1
+Decresc m 4
+
+33      Am7      /    Ab7
+34      Gm7      /     C9
+35      Am7
+36     D7b9
+
+Groove Beguine
+Decresc mp 2
+
+37      Gm7
+38       C7     Bb      /     C9
+
+RepeatEnding
+
+39       F6
+
+Groove BeguineFill
+
+40        /      /     C7
+
+RepeatEnd
+
+Groove Beguine2End
+Decresc pppp 2
+
+39       F6      /  Bb6/F
+40       F6     z!
+
+
+

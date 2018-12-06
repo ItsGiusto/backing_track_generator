@@ -1,0 +1,116 @@
+// I Got It Bad
+
+Tempo 80
+KeySig G
+
+Groove Metronome2-4
+ z * 2
+
+
+Groove BluesIntro
+
+AllGrooves Chord Octave 5
+
+Begin Solo
+    Voice JazzGuitar
+    Harmony Open8Below
+    Articulate 110
+    Volume f
+    Octave 5
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+        4g;b;e+;d+;
+        2.c+;4f+;
+        2d+;4b;g;
+        1d;
+    End
+End
+
+Swell p mf 4
+
+1        G   /   C9#11
+2        G   /   C7#11
+3       D6/A  /   CM7
+4        D7
+
+Repeat
+Groove Blues
+Decresc mf mp 4
+
+5    Edim3/G      G    C/G      G
+6        B7      /    Em7
+7        A9      /    Em7
+8        A9
+
+Groove BluesSus
+Cresc m 4
+
+9       Am7
+10     B7#5     E7     A7    D13
+11       G6      /    Em7
+12      Am7      /     D7
+
+Groove Blues
+Decresc mp 4
+
+13   Edim3/G      G    C/G      G
+14       B7      /    Em7
+15       A9      /    Em7
+16       A9
+
+Groove BluesSus
+Cresc mf 4
+
+17      Am7
+18     B7#5     E7     A7    D13
+19       G6      / C#dim3
+20      Dm7      /     G7
+
+Groove Blues1
+
+21       C6
+22        /
+23       F7
+24        /
+
+Groove Blues1Sus
+Volume m
+
+25      GM7
+26      Bm7      /     E7
+27      Am7
+28    D9sus      /   D7b9
+
+Groove Blues
+Decresc mp 4
+
+29   Edim3/G      G    C/G      G
+30       B7      /    Em7
+31       A9      /    Em7
+32       A9
+
+Groove BluesSus
+
+33      Am7
+34     B7#5     E7     A7    D13
+
+RepeatEnding 
+
+35       G6      /   Em7
+
+Groove BluesTriple
+
+36      Am7      /    D7
+
+
+RepeatEnd
+
+Groove BluesEnd
+Seq 2
+
+Decresc pp 2
+
+35       G6   
+36      /   z!
+

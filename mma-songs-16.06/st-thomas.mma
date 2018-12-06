@@ -1,0 +1,52 @@
+// St Thomas
+
+Tempo 200
+
+// This is a great tenor sax improv number by Sonny Rollins.
+
+Groove Calypso1
+
+	z * 4
+
+Set VoiceCount 1
+	
+Repeat
+Groove Calypso
+
+1       C    
+2       Em7   /     A7   
+3       Dm7   /     G7   
+4       C     /     /     Gaug7  
+5       C    
+6       Em7   /     A7   
+7       Dm7   /     G7   
+8       C     /     /     Gaug7  
+
+if Eq $VoiceCount 4
+	Groove CalypsoSus
+	Set VoiceCount 0
+Endif
+
+9       Em7b5 /     Bb7  
+10      A7   
+11      Dm7   /     Dm7b5
+12      G7   
+13      C     /     C7   
+14      F     /     F#dim
+15      Dm7   /     G7   
+
+RepeatEnding 7
+
+Groove Calypso1
+Seq 4
+
+16      C    
+
+Inc VoiceCount
+RepeatEnd
+
+
+Groove CalypsoEnd
+
+		C z z!
+		

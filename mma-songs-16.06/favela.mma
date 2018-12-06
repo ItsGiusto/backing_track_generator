@@ -1,0 +1,89 @@
+// Favela
+
+Tempo 140
+Keysig G minor
+
+Groove Metronome2-4
+	   z * 2
+
+Groove BossaNovaIntro
+
+1        Gm
+2        Dm
+3        Gm
+4        Dm
+
+Repeat
+Groove BossaNova
+
+5       Gm7
+6       Dm7
+7       Gm7
+8       Dm7
+9       Gm7
+10      Dm7
+11      Gm7
+12        /
+
+Groove BossaNovaSus
+
+13      Cm7
+14      F13
+15     BbM7
+16      Bb7
+17    Em7b5      /   Ebm6
+18      Gm7      /    Dm7
+19      Gm7
+20        /
+
+Groove BossaNova
+
+21      Cm7
+22      Gm7
+23      Cm7
+24      Gm7
+25      Cm7
+26      Gm7
+
+Groove BossaNovaFill
+
+27     Eb7#9   D7#9      /   C7#9
+
+Groove $_LastGroove
+
+28        /
+
+Groove BossaNova1Sus
+
+29      Gm7
+30      Dm7
+31      Gm7
+32      Dm7
+33      Gm7
+34      Dm7
+35      Gm7
+36        /
+
+Groove BossaNova
+
+37      Cm7
+38      F13
+39     BbM7
+40      Bb7
+
+RepeatEnding
+
+41    Em7b5      /   Ebm6
+42      Gm7      /    Dm7
+43      Gm7
+44      Dm7
+
+RepeatEnd
+
+Groove BossaNova2End
+Decresc pp 4
+
+41    Em7b5      /   Ebm6
+42      Gm7      /    Dm7
+43      Gm7
+44       /

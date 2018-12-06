@@ -1,0 +1,111 @@
+// Sway Quien Sera
+
+Tempo 126
+Keysig E minor
+
+Groove Metronome2-4
+	   z * 2
+
+Groove ChaChaIntro8
+
+If Def WK3000
+   AllGrooves Chord         Voice  GrandPianoWide
+   AllGrooves Arpeggio-Sus  Voice  NeoBandoneon
+   Set SoloVoice ChoirStrings
+Else
+   Set SoloVoice TremoloStrings
+Endif
+
+Begin Solo
+	  Voice $SoloVoice
+	  Decresc f p 7
+	  Harmony 3+16below
+	  Octave 5
+	  Articulate 100
+      Begin Riff
+	      1e+;
+		  1d+;
+		  1c+;
+		  1b;
+		  1d+;
+		  1c+;
+		  1+4b~;
+    End
+End
+
+1        Em
+2         /
+3        Am
+4         /
+5        Dm
+6         /
+7        B7
+8         /  z
+
+Repeat
+Groove ChaCha
+Volume m
+Swell f 8
+
+9     F#dim      /     B7
+10    F#dim      /     B7
+11       Em
+12        /
+13       C9            B9
+14       C9           B7b9
+15      Em6
+Groove ChaChaFill
+16        /   z
+
+Groove ChaCha1
+Swell f 8
+
+17    F#dim      /     B7
+18    F#dim      /     B7
+19       Em
+20        /
+21       C9           B9 
+22       C9           B7b9
+23      Em6
+24       G6      /  Bbdim
+
+Groove ChaChaSus
+Cresc  f 8
+
+25       D7
+26        /
+27        G
+28        /
+29       B7      /  D#dim
+30       B7
+31       Em      /     C9   B7b9
+Groove ChaChaFill
+32       Em      z
+
+Groove ChaCha1Sus
+Decresc mp 8
+
+33    F#dim      /     B7
+34    F#dim      /     B7
+35       Em
+36        /
+37       C9              B9
+38       C9            B7b9
+
+RepeatEnding
+
+39      Em6
+Groove ChaChaFill
+40        /   z
+
+RepeatEnd
+
+
+41      Em6
+42       B7
+
+Groove ChaChaEnd
+
+43      Em6
+44        /
+

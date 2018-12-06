@@ -1,0 +1,117 @@
+// Sheik Of Araby
+
+Tempo $( 122 * 2 )
+Keysig Bb
+
+Groove Metronome2-4 
+  z * 2
+
+Groove QuickStepIntro8
+Begin Solo
+   Voice Trumpet
+   Octave 5
+   Volume f
+   Rtime 10
+   RVolume 1,20
+   Harmony Open8Below+OpenBelow+2Above
+   Articulate 80
+   Begin Riff
+      2.r;4f;
+      2.g;4f;
+      2.g;4f;
+      1+2g~;
+      ~ 4r;g;
+      2c+;b;
+      2a;g;
+      2f;r;
+   End
+End
+
+Swell mp mf 8
+
+1         Bb
+2          /
+3         Gm
+4          /
+5          /
+6         Cm
+7         /
+8          F7 / z
+
+Repeat
+Groove QuickStep
+Volume m
+9         Bb
+10         /      /      /   Fdim
+11        F9
+12         /
+
+Groove QuickStepHit
+Volume +10
+
+13         /
+14         /
+15        Bb
+16         /
+
+Groove QuickStep
+Volume +10
+
+17       Bb6
+18     Bbdim
+19        F9
+20         /
+
+Groove QuickStepDuh
+Decresc m 4
+
+21         /
+22        F7      /      /     F+
+23       Bb6
+24         /      /      /     F7
+
+Groove QuickStep
+Cresc mf 4
+
+25        Bb
+26         /      /      /   Fdim
+27        F9
+28         /
+
+Groove QuickStepSus
+Cresc f 4
+
+29         /
+30         /      /      /   A7b5
+31        D7
+32         /
+
+Groove QuickStepDuhSus
+Decresc m 6
+
+33      G7#5      /      /     G7
+34      G7#5      /      /     G7
+35        C7
+36         /
+
+Groove QuickStepSus
+
+37        F7
+38         /
+
+RepeatEnding 2
+
+39        Bb
+Groove QuickStepWalk
+40        F7
+
+RepeatEnd
+
+Groove QuickStepEnd
+Decresc p 2
+
+41        Bb
+42         /     z!
+
+
+

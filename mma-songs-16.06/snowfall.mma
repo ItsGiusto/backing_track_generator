@@ -1,0 +1,116 @@
+// Snowfall
+
+Tempo 86
+Keysig Db
+
+Groove Metronome2-4
+ z * 2
+
+Set PUSH0 .69
+
+Groove MellowJazzIntro
+
+Begin Solo
+    Voice Strings
+    Octave 5
+    Harmony 3Below
+    Articulate 110
+    Begin Riff
+        4.a;8+2+2.e~;
+        <>;
+        4.a;8+2+2.e~;
+        <>;
+    End
+End
+
+Swell p mp 4
+
+1        Db
+2        Bbm
+3        Ebm
+4        Ab7
+
+Repeat
+Groove MellowJazz
+Cresc mp m 4
+
+5      DbM7      / Db6(add9)
+6         /
+7      DbM7      / Dbm6(add9)
+8         /
+
+Groove MellowJazzPlus
+
+9        Db      /   DbM7
+10      Db7      /      /    Ab9
+11     DbM7      / Db6(add9)
+12        /
+
+Groove MellowJazz
+Cresc mf 4
+
+13     DbM7      / Db6(add9)
+14        /
+15     DbM7      / Dbm6(add9)
+16        /
+
+Groove MellowJazzPlus
+Decresc mp 4
+
+17       Db      /   DbM7
+18      Db7      /      /    Ab9
+19     DbM7      / Db6(add9)
+20        /
+
+Groove MellowJazzSus
+
+21   Bbm9      /    Eb7
+22      Ab6
+23      Dm7      /     G9
+24       C6
+
+Groove MellowJazzSusPlus
+Cresc m 2
+
+25   Bbm9      /    Eb7
+26      Ab6
+27      Dm7      /     G9
+28        C      /    Ab9
+
+Groove MellowJazzPlus
+
+29     DbM7      / Db6(add9)
+30        /
+31     DbM7      / Dbm6(add9)
+32        /
+
+Groove MellowJazz
+Decresc mp 4
+
+33      Db9      /   DbM7
+34      Db7      /      /    Ab9
+35     DbM7      / Db6(add9)
+
+RepeatEnding
+
+Groove MellowJazzFill
+
+36        /
+
+RepeatEnd
+
+Groove MellowJazzSus
+
+37        /
+
+Decresc p 2
+
+38   Ab9
+39   Ab9#5
+
+Groove MellowJazzEnd
+Decresc ppp 2
+
+40   Db6(add9)
+41        /   z!
+

@@ -1,0 +1,160 @@
+// Ridin High (Cole Porter, 1936)
+
+Tempo $( 118 * 2 )
+Groove Metronome2-4
+  z * 2
+
+Groove BroadwayIntro
+
+Begin Allgrooves
+   Begin Arpeggio-Piano
+      Rskip 60
+      Octave 6
+   End
+End
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Articulate 120
+    Harmony OpenBelow
+    Volume f
+    Begin Riff
+        4.c+;b;
+        4.a;g;
+        4.f;e;
+        2g;
+    End
+End
+
+Swell m mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Repeat
+Groove Broadway
+Volume m
+
+5       CM7      /     C7
+6     Cm7b5      /     C7
+7       Gm7      /     G7
+8         B      /     G7
+
+Groove Broadway2
+Volume mf
+
+9       CM7      /     C7
+10    Cm7b5      /     C7
+11      Gm7      /     G7
+12        B      /     G7
+
+Groove Broadway
+
+13       E7
+14        D      /     E7
+15        /      /      /     Am
+16      Dm7
+
+Groove Broadway1
+Decresc m 4
+
+17        B      /      C
+18       G7      /     A7  C#dim
+
+RepeatEnding
+
+Groove BroadwayFill
+
+19      Dm7      /     G7
+20        C      /   A&7     G7
+
+RepeatEnd
+
+Groove Broadway
+
+21    Dm7b5      /     G7      C
+22       Ab      /    Bb7
+
+
+Repeat
+Groove BroadwaySus
+Volume mf
+
+23       Eb
+24      Cm7      /     Eb
+25      Bb7
+26        /
+
+Decresc mp 1
+27       Eb
+
+Groove Broadway2Sus
+
+28      Cm7      /     Eb
+29      Bb7
+30        /
+31    Gm7b5      /     C7
+
+Groove Broadway2
+Swell mf 4
+
+32        /
+33     Edim      /     Fm
+34        /
+35       B7
+
+Groove BroadwaySus
+
+36        /
+37       G7      /      /      G
+38        /      /     G7
+
+Groove Broadway
+Volume m
+
+39      CM7      /     C7
+40    Cm7b5      /     C7
+41      Gm7      /     G7
+42        B      /     G7
+
+Groove Broadway1
+Volume mf
+
+43      CM7      /     C7
+44    Cm7b5      /     C7
+45      Gm7      /     G7
+46        B      /     G7
+
+Groove Broadway2
+Decresc m 4
+
+47       E7
+48        D      /     E7
+49        /      /      /     Am
+50      Dm7
+
+Groove Broadway
+Decresc mp 2
+
+51        B      /      C
+52       G7      /     A7
+
+RepeatEnding
+
+53      Ab7      /     G7      C
+
+Groove BroadwayFill
+
+54       Ab     /      Bb7
+
+RepeatEnd
+
+Groove BroadwayEnd
+Decresc ppp 2
+
+53      Ab7      /     G7      C
+54        /     z!

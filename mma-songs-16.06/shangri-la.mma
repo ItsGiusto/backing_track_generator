@@ -1,0 +1,98 @@
+// Shangri La
+
+// The Lettermen did this. Their key was Bb; tempo a bit faster (84)
+//  Charted #64 in 1969.
+
+
+
+Tempo 82
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowBoleroIntro
+Begin Solo
+	Voice VoiceOohs
+	Octave 5
+	Harmony 3
+	Volume mf
+	Articulate 120
+	Begin Riff
+		2e;4f;a;
+		2b;f;
+		2b;4g;e;
+		1g;
+	End
+End
+
+Cresc pp m 4
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove SlowBoleroSus
+Cresc mp mf 8
+
+5         F
+6       Dm7
+7        Gm
+8       Gm7      /   C7b9
+
+9         F
+10      Dm7
+11      Gm7
+12      Gb7      /   C7b9
+
+13        F
+14        /      z
+
+Groove SlowBolero
+Decresc mp 8
+
+15      Ab7
+16     DbM7
+17      Gb7
+18      FM7      /     F6
+
+19     BbM7
+20      Eb7
+21      Gm7
+22     C7b9
+
+23        F
+24      Dm7
+25       Gm
+26      Gm7      /   C7b9
+
+Groove SlowBoleroSus
+Chord-Sus Voice Strings
+Cresc f 8
+
+27        F
+28      Dm7
+29      Gm7
+30      Gb7      /   C7b9
+
+31    Am7b5
+32     D7b9      /      /     D7
+
+Groove SlowBolero
+
+33      Gm7
+34      Gb7      /   C7b9
+
+RepeatEnding
+
+35      FM7      /  Gb   // changed from Gb9b5 to plain old Gb
+36      FM7
+
+RepeatEnd
+Groove SlowBoleroEnd
+Decresc m pp 2
+
+35      FM7     /  Gb
+36      FM7     z!
+

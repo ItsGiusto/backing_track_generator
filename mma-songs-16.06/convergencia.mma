@@ -1,0 +1,99 @@
+// Convergencia
+
+Tempo 75
+keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice VibraPhone
+    Volume ff
+    Articulate 100
+    Harmony 8Below+3Below
+    Octave 5
+    Begin Riff
+        8c+;d+;2.c+;
+        8b;c+;2.b;
+        8a;b;2.a;
+        2g;
+    End
+End
+
+Groove SlowBoleroIntro
+Swell mp mf 4
+
+1        Eb6
+2        Cm7
+3        Fm7
+4      Bb13
+
+Repeat
+Groove SlowBolero
+Volume m
+
+5     Eb6/G
+6        F7
+7       Fm7
+8       Cb7      /  Bb7/F
+
+Groove SlowBolero1
+Decresc mp 4
+
+9     Eb6/G
+10       F7
+11      Fm7
+12      Bb9
+
+Groove SlowBoleroSus
+
+13       G7
+14       C7
+15      Fm7
+16       C7
+
+Groove SlowBolero1Sus
+Cresc mf 4
+
+17      Cm7      /     F9
+18      Bb7
+19     EbM6
+20       D7
+
+Groove SlowBoleroPlus
+Decresc mp 4
+
+21      Gm9
+22       C7
+23      Fm7
+24     EbM6
+
+
+Groove SlowBoleroSusPlus
+Cresc m 4
+
+25     D7b9
+26   Abdim7
+27     G7b9
+28      Cm7
+
+Groove SlowBolero
+
+29      Bb9
+30     AbM6      /   Bb11
+
+RepeatEnding
+
+Groove SlowBolero1
+
+31     Bb13
+
+RepeatEnd
+
+Groove SlowBoleroEnd
+Volume p
+
+32     EbM7 z!
+
+
+

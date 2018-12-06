@@ -1,0 +1,110 @@
+// Oh Johnny Oh
+
+Tempo $(100 * 2)
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice Piano1
+    Harmony OpenBelow+8Below
+    Articulate 110
+    Volume ff
+    Octave 6
+    Begin Riff
+        2g;4f;e;
+        2a;4g;f;
+        4d;e;f;a;
+        2.g;
+    End
+End
+
+Groove QuickstepIntro
+
+Swell mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Repeat
+Groove QuickStep
+Volume m
+
+5         C
+6         /      /  Gm7b5  C#dim
+7        G7
+8         /
+
+Groove QuickstepDuh
+
+9       Dm7
+10       G9      /     G7
+11        C
+12        /      /  F#dim      G
+
+Groove QuickStepHit
+Cresc mf 4
+
+13        C
+14    Ebdim
+15      Dm7      /     G7
+16        /      /     Dm     Bb
+
+Groove QuickStepDuhSus
+
+17       G7
+18        /      /     G+
+19       C6      /   C#m6  C#dim
+20       D7    Dm7     G7
+
+Groove QuickStep
+Cresc mp mf 4
+
+21        C
+22        /      /  Gm7b5  C#dim
+23       G7
+24        /
+
+Groove QuickStepSus
+
+25       Dm
+26        /
+27       E7
+28       G7      /      z
+
+Groove QuickStepDuh
+Decresc mp 4
+
+29        C
+30        /      /     Cm
+31       D7    DM7     D7
+32        /
+
+Groove QuickStepSus
+
+33       G7      /    Dm7     G7
+34        /      /    Dm7     G7
+
+RepeatEnding 2
+
+Groove QuickStepHit
+
+35        C  / Dm
+Begin Chord-Hit
+ Riff 1 4 90; 3 2 100
+ Rskip 0
+End
+36             G7
+
+RepeatEnd
+
+Groove QuickStepEnd
+Decresc ppp 2
+
+37        C  Ebdim    Dm7
+38        /     G7      C z!
+

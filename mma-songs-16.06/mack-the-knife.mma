@@ -1,0 +1,80 @@
+// Mack The Knife
+
+Tempo 168
+
+
+Groove Metronome2-4
+
+	z * 2
+	
+Groove Swing1
+
+// Intro
+
+Repeat
+
+1       C6   
+2 	/
+
+RepeatEnd
+
+3 	/ 
+
+// Pickup to main
+
+4       /  z!  G9
+
+cut -2
+
+Repeat
+
+5       C6   
+6 	/
+7       Dm   
+8       /     /     Dm7  
+9       G9
+10 	/
+11      C6   
+12 	/
+13      Am   
+14 	/
+15      Dm7  
+16 	/
+17 	/
+18      /     /     G7   
+19      C6   
+20      /     /     G9   
+
+Groove Swing1Sus
+
+21      C6   
+22 	/
+23      Dm   
+24      /     /     Dm7  
+25      G9   
+26 	/
+27      C6   
+28      /     /     C    
+29      Am   
+30      /     /     Am7  
+31      Dm7  
+32 	/
+33 	/
+34      /     /     G7   
+
+Groove Swing1Walk
+
+RepeatEnding 2
+
+35      C6   
+36      /     /     G9   
+
+groove Swing1Walk
+
+RepeatEnd
+Groove Swing1End
+
+37      C6   
+38 	C / / z!
+	cut -1
+

@@ -1,0 +1,94 @@
+// Do Nothin Till You Hear From Me
+
+Tempo 90
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove MellowJazzIntro
+Swell p mf 4
+
+1         G
+2        Em
+3        Am      /     D9
+4         /     z
+
+
+Repeat
+Groove MellowJazz
+Volume m
+
+5         G      /    GM7
+6        G7
+7       CM7
+
+Groove MellowJazzPlus
+Cresc mf 4
+
+8        F9
+9         G      Am7@2.5
+10       D9
+11        G      / G#dim7
+
+Groove MellowJazzSus
+Decresc mp 8
+
+12      Am7      /     D9
+13        G      /    GM7
+14       G7
+15      CM7
+
+Groove MellowJazzSusPlus
+
+16       F9
+17        G       Am7@2.5
+18       D9
+19        G      /     C7
+
+Groove MellowJazz
+Cresc m 4
+
+20      Fm7      /    Bb7
+21       Eb      /   EbM7
+22       Eb      /   EbM7
+23        /
+
+Groove MellowJazzPlus
+
+24       Eb      /    Eb9
+25      Am7      /     D7
+26        G      /     E9     Gm
+27        D      /     A7     D7@4.5
+
+Groove MellowJazzSusPlus
+Cresc mf 4
+
+28        /
+29        G      /    GM7
+30       G7
+31      CM7
+
+Groove MellowJazz
+Decresc mp 3
+
+32       F9
+33        G      /    Am7
+34       D9
+
+RepeatEnding
+
+35        G    Bb7    Eb9     D9
+
+Groove MellowJazzFill
+
+36        /  z
+
+RepeatEnd
+
+Groove MellowJazzEnd
+Decresc ppp 2
+
+37        G
+38        /  z!
+

@@ -1,0 +1,115 @@
+// California Dreamin'
+
+// The Mama's & Papa's did this in the key of Eb at about 112 bpm.
+// Never wanting to imitate (too much) I do this with a latin feel at 100.
+
+Tempo 100
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove  BossaNovaIntro
+
+Begin Solo
+	Voice Flute
+	Cresc mp mf 4
+	Articulate 70
+	Harmony Open
+	Octave 5
+	Begin Riff
+		8e;g;a;e;4d+;8c+;b;
+		8e;g;a;e;4d+;8c+;b;
+		8d;f;g;f;4b&;8a;g;
+		2.a;
+	End
+End
+
+Begin Drum-TR
+	Tone HighAgogo
+	Volume f mf m mp
+	Sequence D8 D1234 D13 D1
+End
+
+
+1       Am7
+2         /
+3        Gm
+4        Am / E7
+
+Repeat
+Groove BossaNova
+Cresc mp f 8
+
+5        Am      /      G
+6         F      /      G
+7       Bm7
+8        E7      /      F
+9         C      /     E7
+10       Am      /     F6
+11        E      /    Dm6
+12       E7
+
+Groove BossaNova1Sus
+
+13       Am      /      G
+14        F      /      G
+15      Bm7
+16       E7
+17       Am      /      G
+
+RepeatEnding
+
+18        F      /      G
+19      Bm7
+20       E7
+
+Groove BossaNovaFill
+
+21       Am      /      G
+
+Groove BossaNova
+
+22        F      /      G
+23      Bm7
+
+Groove BossaNovaFill
+
+24       E7      /      F
+
+Groove BossaNova
+
+25        C      /     E7
+26       Am      /      F
+27        E      /    Dm6
+28       E7
+
+Groove BossaNova1Sus
+
+29       Am      /      G
+30        F      /      G
+31      Bm7
+32       E7
+33       Am      /      G
+34        F      /      G
+35      Bm7
+36       E7
+
+RepeatEnd
+Groove BossaNova1Sus
+
+37        F      /      G
+38       Am      /      G
+39        F      /      G
+40       Am      /      G
+41        F      /      G
+
+Groove BossaNovaEnd
+Scale Range .7
+Scale Decresc ppp 4
+Decresc pp 4
+42        F
+43        /
+44      Am7/E   // the slash is to get the correct scale notes
+45        /
+

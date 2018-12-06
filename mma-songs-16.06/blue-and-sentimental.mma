@@ -1,0 +1,68 @@
+// Blue And Sentimental
+
+// I play this quite slowly, much after a version
+// by the tenor sax player Ike Quebec.
+
+Tempo 54
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice  ReedOrgan 
+	Harmony Open
+	Volume mp
+	Octave 5
+	Articulate 80
+End
+
+Groove SlowJazz2Intro
+Decresc mf pp 4
+
+1      Eb6   /    B7         { 4e+; d+; c#+; bn; } 
+2      Fm7   /    Bb7        { 4c+; 2.b; }
+3      Eb6   /    B7         { 4e+; d+; c#+; bn; }
+4      Fm7   /    Bb7   z    { 4c+; 4a; 2b; }
+
+Delete Solo
+
+Repeat
+Volume m
+
+Groove SlowJazz2
+
+5      Eb6   Db7   C7    
+6      F7    /    Bb7   
+7      F7    /    Bb7   
+8      Eb6   /    Bb7   
+9      Eb6   Db7   C7    
+10     F7    /    Bb7   
+11     F7    /    Bb7   
+12     Eb7   
+
+Groove SlowJazz2Sus
+
+13     Ab6   /    Adim  
+14     Eb6   
+15     Ab6   /    Adim  
+16     Eb6   /    Bb7   
+17     Eb6   Db7   C7    
+18     F7    /    Bb7   
+19     F7    /    Bb7   
+20     Eb7   D7    Db6   C7
+
+RepeatEnding
+
+Groove  SlowJazz2
+
+21     F7    /    Bb7   
+22     Eb6   / Bb7
+
+RepeatEnd
+
+Groove SlowJazz2End
+
+21     F7    /    Bb7   
+22     Eb6 / z!
+

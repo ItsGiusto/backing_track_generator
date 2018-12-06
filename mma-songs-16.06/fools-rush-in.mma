@@ -1,0 +1,77 @@
+// Fools Rush In
+
+Tempo 100
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice Piano2
+	Volume f
+	Articulate 90
+	Octave 5
+	Harmony Open+8Below
+	Begin Riff
+		4e+;8;8 d+; ; c+; ; b;
+		8b; c+; 4.a; 8b; a&; b&;
+		2g; 8g; ; 2f~;
+		~  4e; 4e&; 4en;
+	End
+End	
+
+Groove SwingIntro
+
+1       C  
+2       F    /  / Fm/Ab
+3       Em7  
+4       A7   
+
+Repeat
+Groove Swing2
+
+5       Dm7  
+6       G9   
+7       CM7  
+8       C6   
+9       Dm7  
+10      G7   
+11      C    
+12      CM7  
+13      F6   
+14      G7   
+15      Am    /     AmM7 
+16      Am7  
+17      D9   
+18 	/
+19      Dm7  
+20 	/
+
+Groove Swing2Plus
+
+21      Dm7  
+22      G7   
+23      C9   
+24      /     /     Am7  
+25      Dm7  
+26      G7   
+27      Bb9b5
+28      A7b9 
+29      Dm7  
+30      Fm6  
+31      Em7  
+32      Am7  
+33      Dm7  
+34      /     /     G7b9 
+
+RepeatEnding
+
+35      z    
+36      C9   
+
+RepeatEnd
+Groove Swing2End
+seq 3
+35    z
+36    C9 / z!
+

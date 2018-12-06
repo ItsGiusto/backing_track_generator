@@ -1,0 +1,97 @@
+// Song Sung Blue
+
+Tempo 120
+Keysig C
+Transpose 3  // from C to Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove EasySwingIntro
+
+1         C
+2        Bb
+3        Am      /      F
+4         G
+
+Groove EasySwing
+
+5         C
+6         /
+7         G
+8         /
+
+Groove EasySwingWalk
+
+9        G7
+10        /
+11        C
+12        /
+
+Groove EasySwingSus
+
+13       C7
+14        /
+Truncate 2
+15        /   // this is a 2/4 bar
+
+Groove EasySwing
+
+16        F
+17        /
+18        G
+19        /
+
+Groove EasySwingWalk
+
+20        C
+21        /
+22       Dm
+23       G7
+
+Repeat
+Groove EasySwing
+
+24        C
+25        /
+26        G
+27        /
+
+Groove EasySwingSus
+
+28        G
+29        /
+30        C
+31        /
+
+Groove EasySwing
+
+32       C7
+33        /
+Truncate 2
+34        /    /// this is a 2/4 bar
+35        F
+36        /
+
+Groove EasySwingSus
+
+37        G
+
+Repeatending 
+
+38        /
+
+Groove EasySwingFill
+
+39        C
+40       G7
+
+Repeatend 
+
+41        /
+
+Groove EasySwingEnd
+
+42        C
+43        /  z!
+

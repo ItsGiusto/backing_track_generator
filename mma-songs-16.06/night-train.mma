@@ -1,0 +1,90 @@
+// Night Train (Jimmy Forrest, 1951)
+
+Tempo 133
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove FastBluesSus
+Volume mp
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Repeat
+Label Sign
+Groove FastBlues
+Volume m
+
+5         C
+6         /
+7         /
+8        C7
+
+Groove FastBluesWalk
+Cresc f 4
+
+9        F7
+10        /
+11        C
+12       C7
+
+Groove FastBlues
+Volume m
+
+13       G7
+14       F7
+
+If Def Coda
+   Goto Coda
+Endif
+
+15        C
+16       C7
+
+Groove FastBluesSus
+Cresc f 4
+
+17        C
+18        /
+19        /
+20       C7
+
+Groove FastBluesWalkSus
+
+21       F7
+22        /
+23        C
+24        /
+
+Groove FastBlues
+Decresc mp 4
+
+25       F7
+26        /
+27        C
+28        /
+
+RepeatEnd
+Set Coda
+Goto Sign
+
+Label Coda
+
+Groove FastBluesSus
+Decresc ppp 4
+
+29        C      /     G7
+30        C      /    G+9
+
+Groove FastBluesEnd
+Seq 3
+
+31        /
+32   C6(add9)  z!
+
+

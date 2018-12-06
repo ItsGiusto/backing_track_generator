@@ -1,0 +1,96 @@
+// Undecided
+
+Tempo 170
+Groove Metronome2-4
+	z * 2
+
+Groove Swing
+Begin Solo
+	Voice Piano1
+	Volume f
+	Harmony Open
+	Octave 6
+	Articulate 80
+	Begin Riff
+		8b; c+; b; c+; 2a;
+		8b; c+; b; c+; 2a;
+		8b; c+; b; c+; 4a; 4c+;
+		2.d+;
+	End
+End
+
+Cresc p mf 4
+
+SwingMode On
+
+1      C
+2      Am
+3      Dm
+4      G7
+
+Delete Solo
+
+Repeat
+Repeat
+Groove Swing
+Volume mp
+
+5      C
+6	/
+7      F9
+8	/
+9      D7
+10     Dm7   /    Ab7   G7
+
+RepeatEnding
+
+Volume mf
+11     C     /    A7
+
+Volume p
+
+12     Dm7   /    G7
+
+RepeatEnd
+
+
+13     C
+Volume p
+14	/
+
+Groove SwingPlus
+Cresc p mf 8
+
+15     Gm7   /    C7
+16     Gm7   /    C7
+17     F
+18	/
+19     Am7   /    D7
+20     Am7   /    D7
+21     G7
+22	/
+23     C
+24	/
+25     F9
+26	/
+27     D7
+
+RepeatEnding  2
+
+28     Dm7   /    G7
+29    C
+30    C / G7 z
+
+RepeatEnd
+
+Decresc mf p 2
+label foo
+groove swingplus
+28     Dm7   /    Ab7   G7
+
+Groove SwingEnd
+
+29   C
+30	/ / z!
+
+

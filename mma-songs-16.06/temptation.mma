@@ -1,0 +1,142 @@
+// Temptation
+// From 1933. Hit for Bing Crosby; Everly Bros in 1961.
+
+Tempo 140
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BeguineIntro
+Begin Solo
+    Voice Piano1
+	Harmony 3Below
+	Octave 5
+	Articulate 110
+	Volume ff
+	Begin Riff
+	   1c;
+	   23d&;f;a&;
+	   1c+;
+	   1d&+;
+	End
+End
+
+Swell mp f 4
+Chord sequence -  // Chords clash with the melody timing
+
+1         C
+2         Db
+3         C
+4         Db
+
+Repeat
+Groove Beguine
+Volume m
+
+5         C
+6         /      /     Db
+7         C
+8         /      /     Db
+
+Groove BeguineSus
+Cresc mf 4
+
+9         C
+10       Db
+11        C
+12        /
+
+Groove Beguine
+Decresc mp 4
+
+13        /
+14        /      /     Db
+15        C
+16        /      /     Db
+
+Groove Beguine1
+
+17        C
+18       Db
+19        C
+20        /
+
+Groove Beguine1Sus
+Cresc m 4
+
+21      Bbm
+22        /      /    Eb7
+23       D7
+24        /
+
+Groove BeguineSus
+
+25      Db7      /     C7
+26       B7            C9   B9
+27      Bb7      /     A7
+28      Ab7      /     G7
+
+Groove Beguine
+Decresc mp 4
+
+29        C
+30        /      /     Db
+31        C
+32        /      /     Db
+
+Groove BeguineSus
+Cresc mf 4
+
+33        C
+34       Db
+35      Bbm
+36        F      /     F7
+
+Groove Beguine
+
+37        F      /     C7
+38        /      /    Bbm
+39        F      /     C7
+40        F      /     Bb
+
+Groove Beguine1
+Volume m
+
+41        F
+42       Gb
+43        F
+44       Db
+
+Groove BeguineSus
+Cresc mp mf 4
+
+45        C
+46       Db
+47        C
+48        /      /     Db
+
+RepeatEnding
+Groove Beguine
+Decresc mp 4
+
+49        C
+50        /      /     Fm
+51        C
+
+Groove BeguineFill
+
+52        G7
+
+RepeatEnd
+
+
+Groove BeguineEnd
+Decresc ppp 4
+
+49        C
+50        /      /     Fm
+51        C
+52        /      z!
+
+

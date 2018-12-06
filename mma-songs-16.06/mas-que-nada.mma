@@ -1,0 +1,148 @@
+// Mas Que Nada
+
+Tempo $( 88 * 2 )
+Keysig A Minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove SambaPlus
+ Begin Arpeggio
+   Sequence A4 / / A8
+   SeqRnd On
+ End
+DefGroove SambaPlus
+Groove SambaSusPlus
+ Arpeggio Groove SambaPlus
+DefGroove SambaSusPlus
+
+
+Groove SambaIntro
+
+Begin Solo
+   Voice Piano2
+   Volume ff
+   Harmony OpenBelow+8Below
+   Articulate 90
+   Octave 5
+   Begin Riff
+       4a;r;a;
+       4g;r;g;
+       4a;r;a;
+       1b;
+   End
+End
+
+1        Am
+2        Em
+3        Am
+4        Em / z
+
+Repeat
+Groove Samba
+Cresc mp f 8
+
+5        Am                 {1+1a~;}
+6         /
+7         /                 {2r;4c+;e+;}
+8        D7                 {2+8d+;4c+;8+2.a~;}
+
+9        Am        
+10        /                 {4.a;8e;4.a;8e;}
+11        /                 {1+2a~;}
+Groove SambaFill
+12        /
+
+Groove SambaPlus
+Cresc mp f 7
+
+13       Am                  {1+1a~;}
+14        /
+15        /                  {2r;4c+;e+;}
+16       D7                 {2+8d+;4c+;8+2.a~;}
+
+17       Am
+18        /                  {4.a;8e;4.a;8e;}
+19        /                  {1a;}
+Groove SambaFill
+20      Em7      {2+8g; 4f; 4e~;}
+
+Groove SambaSus
+Volume m
+
+21       Am      {~ 4.a;8g;;;f;}
+22       G7      /     Em  {8g;f;g;f;g;4f;e~;}
+23       Am                {~ 4.+8a;4g;8f;}
+24       G7      /    Em7  {4g;8;f;g;f;g;8+4.e~;}
+
+Groove Samba
+
+25       Am                 {~ 8e;4d;c;}
+26       E7                {4e;8;8+8g#;4;8+1a~;}
+27       Am
+28        /                {4.r;8+8a;4b;8+4.c+~;}
+
+Groove SambaSusPlus
+
+29        /                 {~ 8+8a;4d+;8+8b~;}
+30       G7      /    Em7  {~8b;;g;e;4g;8+1a~;} 
+31       Am                
+32        /                {4r;8a;;;;e+;;}
+
+Groove Samba
+
+33       Dm      /      /     G7   {4.e+;8+4d+;4+8b~;}
+34        /      /    Em7          {~ 4g;8;e;4g;8+1a~;}
+35       Am
+36       G7                        {2+8g;4f;8+8e~;}
+
+Groove SambaSus
+
+37       Am                         {~ 4.+4.a;8e;}
+38       G7                        {8g;f;g;f;g;f;g;f;}
+39       Am                        {8e;4.+4.a;8e;}
+40       G7                        {4.g;8f;4.g;8f;}
+
+Groove SambaPlus
+
+41       Am                        {2e;4d;c;}
+42       E7                        {4e;8;8+8g#;4g;8+1+2a~;}
+43       Am
+
+Groove SambaFill
+
+44        /
+
+RepeatEnd
+
+Repeat
+If Def End
+   Groove Samba
+   Decresc  mp 4
+Else
+   Groove SambaSus
+   Cresc mf 4
+Endif
+
+45       Am              {1+1a~;}
+46        /
+47        /              {2r;4c+;e+;}
+48       D7              {2+8d+;4c+;8+1a~;}
+
+If Def End
+  Groove SambaEnd
+  Decresc ppp 4
+Else
+  Groove SambaSusFill
+  Decresc m 4
+Endif
+
+49       Am
+50        /             {4.a;8e;4.a;8e;}
+          51        /   {1a;}
+52        /
+
+Set End
+RepeatEnd
+
+

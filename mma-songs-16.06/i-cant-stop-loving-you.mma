@@ -1,0 +1,111 @@
+// I Cant Stop Loving You
+
+Tempo 84
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove BalladIntro2
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Articulate 110
+    Harmony 3Below
+    Octave 5
+    Rtime 5
+    Rvolume 10
+    Begin Riff
+        2g;4.c+;8b;
+        2a;4e;d;
+        8f;e;f;e;4f;d;
+        1g;
+    End
+End
+
+Swell m f 4
+
+1         C
+2        Am
+3        Dm
+4        G7  /  C7
+
+Set Count 0
+Repeat
+Groove Ballad
+Volume m
+
+5         F
+6         /
+7         C
+8         /
+
+Groove BalladSus
+Cresc mf 8
+9        G7
+10        /
+11        C
+12        /      /     C7
+
+Groove Ballad1
+
+13        F
+14        /
+15        C
+16        /
+
+Groove Ballad1Sus
+Decresc mp 2
+
+17       G7
+18        /
+
+If ne $Count 2   /// For the 1st and 2nd time though
+  19        C      /     F7
+  Groove BalladFill
+  20        C
+else              /// final time
+  Groove Ballad1End
+  Seq 3
+  Decresc pp 2
+  Tempo *.8 2
+  21        C     Cm   Cmb5
+  22        C     z!
+  Eof
+Endif
+
+Groove Ballad
+Volume m
+
+23        C
+24       C7
+25        F
+26        /
+
+Groove BalladSus
+Decresc mp 4
+
+27        C
+28        /
+29       G7
+30        /
+
+Groove Ballad
+Cresc m 8
+
+31        C
+32       C7
+33        F
+34        /
+
+Groove BalladSus
+
+35        C
+36       G7
+37        C      /      F
+38       C7
+
+Inc Count
+RepeatEnd 3
+
+

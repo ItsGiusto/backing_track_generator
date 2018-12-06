@@ -1,0 +1,76 @@
+// Nature Boy
+
+// Nat King Cole did this at a VERY rubato tempo. I've heard
+// others do it much slower, much faster, as latin ... take your
+// pick. I think this gentle version preserves the feeling of the
+// piece, but YMMV.
+
+Tempo 96
+Keysig G minor
+
+Groove Metronome2-4
+	z * 2
+
+Groove PianoBalladIntro
+
+1   Gm      
+2   Am7&5       
+3   Gm   
+4   D7
+
+Repeat
+
+Groove PianoBallad  
+    
+5   Gm7     
+6   Am7b5   /       D7      
+7   Gm7     
+8   Am7b5   /       D7      
+9   Gm      GmM7    
+10  Gm7     Gm6     
+11  F#dim7  Gm7     
+12  Am7b5   /       D7 
+
+Groove PianoBalladSus
+     
+13  Am7b5   
+14  D7      
+15  Gm7     
+16  /       
+17  Em7b5   
+18  A7      
+19  D7      
+20  Ab7 
+
+Groove PianoBallad1
+    
+21  Gm7     
+22  Am7b5   /       D7      
+23  Gm7     
+24  Am7b5   /       D7      
+25  Gm      /       GmM7    
+26  Gm7     /       Gm6     
+27  F#dim7  /       Gm7     
+28  Am7b5   /       D7  
+
+Groove PianoBallad1Sus
+    
+29  Am7b5   
+30  D7      
+31  Gm7     
+32  /       
+33  A7b9    
+34  D7 
+
+RepeatEnding
+
+35  Gm7
+36  Am7b5   /       D7    
+
+RepeatEnd
+
+Groove PianoBalladEnd
+     
+37  Gm7  Am7b5   
+38  Gm7  /     z!
+

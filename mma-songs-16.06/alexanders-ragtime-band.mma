@@ -1,0 +1,80 @@
+// alexanders-ragtime-band
+
+Tempo 100
+
+Groove Metronome2-4
+	z * 2
+
+
+Groove Swing
+
+1 	C
+2 	/ / / C7
+3 	F
+4 	Dm7 / G7
+5 	C
+6 	/
+7 	D7
+8 	G7
+9 	C
+10 	/ / / C7
+11 	F
+12 	Dm7 / G7
+
+tempo 140 3
+
+13 	C / C7/Bb
+14 	F/A  / F#dim
+15 	C/G / G7
+
+// keychange, tempo now at 140
+
+16 	C / C7
+
+Groove BigBand8
+
+repeat
+Seq
+
+17 	F
+18 	/
+19 	C7
+20 	F
+21 	Bb
+22 	/
+23 	/
+24 	/
+25 	F
+26 	/
+27 	/
+28 	/
+29 	C / / Cdim
+30 	G7
+31 	C
+32 	C7
+33 	F
+34 	/
+35 	C7
+36 	F
+37 	Bb
+38 	/
+39 	/
+40 	/
+41 	F7
+42 	/
+43 	Bb
+44 	Fdim
+45 	F
+46 	/ / Fdim
+47 	C7
+
+repeatending
+
+48 	F Cdim C7 /
+
+repeatend
+Groove bigband4End
+Seq 4
+
+49 	F / / z!
+

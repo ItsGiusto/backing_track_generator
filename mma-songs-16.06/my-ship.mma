@@ -1,0 +1,74 @@
+// My Ship
+
+tempo 75
+Groove Metronome2-4
+
+	z * 2
+	
+// 4 bar Intro 
+
+Groove SlowJazz1Sus
+
+	F
+	Dm7
+	Gm7
+	C7 // beat 4 is pickup into main
+	
+Repeat
+
+Groove SlowJazz1Walk
+
+1       F     /     D7   
+2       Gm7   /     C7   
+3       F     /     D7   
+4       Gm7   /     C7   
+5       F     /     D7   
+6       Gm    /     A7   
+7       Dm7   /     G7   
+8       Gm7   /     C7   
+9       F     /     D7   
+10      Gm7   /     C7   
+11      F     /     D7   
+12      Gm7   /     C7   
+13      F     /     D7   
+14      Gm    /     A7   
+15      Dm    /     Gm7  
+16      F     /     D7   
+
+Groove SlowJazz1WalkSus
+
+17      Gm7   /     C7   
+18      Gm7   /     C7   
+19      Gm7   /     C7   
+20      F     /     E7   
+21      Am    /     Dm7  
+22      Am    /     Dm7  
+23      G7    /     Gdim
+24      G7    /     C9   
+25      F     /     D7   
+26      Gm7   /     C7   
+27      F     /     D7   
+28      Gm7   /     C7   
+29      F     /     D7   
+30      Gm    /     A7   
+
+
+RepeatEnding
+
+31      Dm    /     Gm7  
+32      F     /     /     C7   
+
+RepeatEnd
+
+33      Dm    /     C7   
+34      F     /     C7   
+35      F     /     Dm   
+36      Bb    /     C7   
+37      F     /     Dm7  
+38      Gm7b5
+
+Groove SlowJazzEnd
+
+39      F     /     Db7  
+40      F    z!
+

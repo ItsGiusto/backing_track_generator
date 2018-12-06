@@ -1,0 +1,127 @@
+// Till Then (1944)
+
+Tempo 84
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove MellowJazzIntro
+
+Begin AllGrooves
+    Begin Chord-Piano
+        Volume p
+        Rskip 40
+        Articulate 120
+    End
+End
+
+If Def WK3000
+   Begin AllGrooves
+       Begin Chord-Strings
+           Volume p
+           Octave 6
+           Voice MellowStrings
+       End
+   End
+Endif
+
+Begin Solo
+    Voice $_Chord-Strings_Voice
+    Harmony 3Below
+    Articulate 110
+    Octave 6
+    Begin Riff
+        2f;c+;
+        2d+;2a;
+        2g;b;
+        2.c+;
+    End
+End
+
+Cresc mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Groove Mellowjazz
+Volume m
+
+5       FM7      /     F6
+6       Gm7      /     C9
+7       FM7      /     F6
+8       Gm6      /     A7
+
+Groove MellowJazzPlus
+Cresc mf 4
+
+9        Bb      /   Bdim
+10       F6      /   D7b9
+11       Gm
+12       C9
+
+Groove MellowJazz
+
+13      FM7      /     F6
+14      Gm7      /     C9
+15      FM7      /     F6
+16      Gm6      /     A7
+
+Groove MellowJazzPlus
+Decresc mp 4
+
+17       Bb      /   Bdim
+18       F6      /   D7b9
+19       Gm      /     C9
+20        F      /     E7
+
+Repeat
+Groove MellowJazzSus
+Volume m
+
+21       Am
+22       E7
+23       Am
+24      Bm7      /     E7
+
+Groove MellowJazzSusPlus
+Cresc mf 4
+
+25       Am
+26       E7
+27      Am7
+28      Gm7      /     C9
+
+Groove MellowJazzPlus
+Volume m
+
+29      FM7      /     F6
+30      Gm7      /     C9
+31      FM7      /     F6
+32      Gm6      /     A7
+
+Groove MellowJazz
+Decresc mp 2
+
+33       Bb      /   Bdim
+34      FM7      /  F#dim
+
+Repeatending
+
+35      Gm7      /     C7
+
+Groove MellowJazzFill
+
+36        F      /   C7
+
+RepeatEnd
+
+Groove MellowJazzEnd
+Decresc pp 2
+Tempo *.8 2
+
+35      Gm7      /     C7
+36        F      z!
+

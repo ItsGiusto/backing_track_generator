@@ -1,0 +1,111 @@
+// Say It Isnt So
+
+Tempo 110
+KeySig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxTrot1Intro
+
+Begin Solo
+    Voice Piano1
+    Harmony OpenBelow+OpenAbove+8Above
+    Cresc mp mf 4
+    Octave 6
+    Articulate 95
+    Begin Riff
+        8e;;;; 2;
+        8e&;;;; 2;
+        8d;;;; 4e;f;
+        1g;
+    End
+End
+
+Swingmode On
+Swell mp mf 4
+
+1         G6
+2        G+
+3        G
+4        G / D7
+
+Repeat
+Groove Foxtrot1
+Volume m
+
+5        G6
+6         /
+7        G+
+8         /
+
+Groove FoxTrot1Plus
+Volume mf
+
+9         G
+10       Em      /    Em7
+11       A9
+12        /
+
+Groove FoxTrot1
+Decresc m 4
+
+13       D9
+14        /
+15   D7#5b9
+16        /
+
+Groove FoxTrot1Plus
+Decresc mf m 4
+
+17     Bm/D
+18      Am7      /     D9     D+
+19       G6
+20      Am7      /   D7b9
+
+Groove FoxTrot1Sus
+
+21       G6
+22        /
+23       G+
+24        /
+
+Groove FoxTrot1SusPlus
+
+25        G
+26        /      /      /    GM7
+27       G9
+28        /
+
+Groove FoxTrot1Sus
+Cresc mf 4
+
+29       Am      /      /   E11
+30    Am7b5
+31      G/D      /    GM7
+32    GM7/B      /    Eb7  Bbdim
+
+Groove FoxTrot1
+
+33    Em11/A      /     A7
+34    Am9      /     D9   D7b9
+
+RepeatEnding
+
+Groove FoxTrot
+
+35       G6      /    Em7
+
+Groove FoxTrotFill
+
+36      Am7      /  D7sus  D7#5b9
+
+RepeatEnd
+
+Groove FoxTrot1End
+Decresc pp 2
+Tempo *.8 2
+
+37       G6      /    Em7
+38       Am   AbM7     G6 z!
+

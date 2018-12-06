@@ -1,0 +1,124 @@
+// Papa Loves Mambo
+// This was a #4 hit for Perry Como in 1954.
+
+Tempo 160
+Groove Metronome2-4
+	   z * 2
+
+Groove MamboIntro
+
+Repeat
+
+Begin Solo
+	Voice Trumpet
+    Articulate 70
+	Octave 5
+	Rtime 2
+	Rvolume 10
+	Volume f fff f fff
+	Harmony Open
+	Begin Riff
+       8c;e;g;4b;8g;4e;
+	   4.c+;
+	   8d;f;a;4c+;8a;4f;
+	   4.d+;
+    End
+End
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Begin Solo
+  Harmony None
+  Volume f
+End
+
+Groove Mambo
+Repeat
+
+5       Dm7      /      /     G7
+6       Dm7      /     G7            {4.gd+;}
+7         C
+8         /                          {4.gc+;}
+9       Dm7
+10        C
+
+RepeatEnding 
+
+11       G7
+12        C                          {2r;4cg;}
+
+Groove Mambo1
+
+RepeatEnd
+
+
+13       G7
+14        C      /      /   Cdim
+
+Groove MamboSus
+
+15       G7      /    Dm7           {2r;4gd+;}
+16       G7      /      /   G7#5    {4gd+;}
+17        C                         {2r;4cg;}
+18        /                         {4cg;}
+19      Dm7                         {2r;4gd+;}
+20       G7      /      /   G7#5    {4gd+;}
+21        C                         {2r;4cg;}
+22        /      /      /   Cdim    {4cg;} 
+23       G7      /    Gm7           {2r;4g+d;}
+24       G7      /      /   G7#5    {4d+g+;}
+25        C                         {2r;4cg;}
+26        /      /      /    Cm6    {4cg;}
+
+27        G
+28       D7
+29       G7                         {4r;8d+;;;;;;}
+
+Begin Solo-1
+ Voice Piano1
+ Octave 6
+ Articulate 70
+ Volume ff
+ Begin Riff   /// a decending sweep on beats 3 & 4
+   2r;32g++;f++;e++;d++;c++;b+;a+;g+; g+;f+;e+;d+;c+;b;a;g;
+ End
+End
+
+30        /     z                   {4d+;}
+
+Groove Mambo1
+Repeat
+
+31      Dm7      /      /     G7
+32      Dm7      /     G7           {4gd+;r;gd+;}
+33        C
+34        /                         {4cg;r;cg;}
+35      Dm7
+36        C
+
+RepeatEnding        // Ending for 'C' section
+
+37       G7
+38        C                         {2r;4cg;}
+
+Groove Mambo
+
+RepeatEnd          // End of 'C' section
+
+RepeatEnding       // Ending for entire song, 1st time
+
+39      G7
+40      C                   {2r;4cg;}
+
+Groove Mambo1Sus
+RepeatEnd          // End entire song, 2nd time (including intro
+
+Groove MamboEnd
+
+390       G7
+400        C     z!          {2r;4ceg;}
+
+

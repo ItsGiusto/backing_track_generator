@@ -1,0 +1,117 @@
+// Evry Time We Say Goodbye
+
+Tempo 82
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove PianoBalladIntro2
+
+Begin Solo
+    Voice Strings
+    Harmony OpenBelow+Open8Below
+    Octave 5
+    Articulate 110
+    Swell m f 4
+    Begin Riff
+       4.g;8b;2c+;
+       4c+;b;8c+;d+;4e+;
+       43f+;e+;d+;4b;c+;
+       1b;
+    End
+End
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove PianoBallad
+Decresc m mp 4
+
+5        Eb      /     Cm
+6        Eb      /     Cm
+7        Eb      /     Cm
+8       Fm7      /    Bb7
+
+Groove PianoBalladSus
+Cresc mf 4
+
+9        Eb      /    Bb7
+10       Gb      /    Bb7
+11       Eb      /    Eb7
+12      Abm
+
+Groove PianoBallad2
+Decresc mp 4
+
+13       Eb      /  Ebdim
+14     Abm6      /      /    Bb7
+15      Bbm      /    Eb7
+16       Ab
+
+Groove PianoBallad2Sus
+Cresc m 4
+
+17      Abm
+18       G+     Eb
+19    Ebdim      /    Ebm    Bb7
+20     Abm6      /      /    Bb7
+
+Groove PianoBallad1
+
+21       Eb      /     Cm
+22       Eb      /     Cm
+23       Eb      /     Cm
+24      Fm7      /    Bb7
+
+Groove PianoBallad1Sus
+Cresc mp mf 4
+
+25       Eb      /    Bb7
+26       Gb      /    Bb7
+27       Eb      /    Eb7
+28       Ab      /    Abm
+
+Groove PianoBallad
+Volume m
+
+29       Eb      /  Ebdim
+30     Abm6    Bb7
+31      Eb7      /     Ab
+32     Abm7
+
+Groove PianoBalladSus
+
+33       Eb      /     C7
+
+RepeatEnding
+
+34       F9      /     Ab    Bb7
+
+Groove PianoBalladFill
+
+35       Eb      /  Ebdim
+36        /      /    Bb7
+
+
+RepeatEnd
+
+Decresc pppp 7
+
+37       F9      /    Fm7    Bb7
+38       Cm
+39    Ebdim      /    Bb7
+
+Groove PianoBallad
+
+40      Bbm      /    Cm7
+41       F7      /    Bb7
+
+Groove PianoBalladEnd
+
+42       Eb      /    Bb7
+43       Eb      z!
+

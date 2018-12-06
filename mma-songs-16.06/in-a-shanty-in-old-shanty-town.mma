@@ -1,0 +1,97 @@
+// In A Shanty In Old Shanty Town
+
+Tempo 154
+Keysig F
+
+Groove Metronome3
+ z * 2
+
+Groove WaltzIntro
+Begin Solo
+  Voice Trombone
+  Octave 5
+  Articulate 90
+  Volume f
+  Begin Riff
+   4c+;;;
+   4d+;;;
+   4f+;d+;b;
+   2c+;
+  End
+End
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove CountryWaltz
+
+5         F
+6        A7
+7        D7
+8         /
+
+Groove CountryWaltz2
+
+9        G7
+10      F#9
+11       G7
+12        /
+
+Groove CountryWaltzSus
+
+13       C7      /     G7
+14       C7
+15        F     Bb    Db7
+16        F      /     D7
+
+Groove CountryWaltz2Sus
+
+17       G7      F    Bbm
+18       G7
+19      Gm7
+20       C7
+
+Groove CountryWaltz1
+
+21        F
+22       A7
+23       D7
+24        /
+
+Groove CountryWaltz
+
+25       G7
+26      F#9
+27       G7
+28        /
+
+Groove CountryWaltzSus
+
+29       Bb   Edim     Bb
+30      Bbm
+31        F      /     A7
+32       D7
+
+Groove CountryWaltz1Sus
+
+33       Gm
+34       C7
+
+RepeatEnding 2
+Groove CountryWaltz1SusWalk
+
+35        F      /     G9
+36      Gm7   C7#5     C7
+
+RepeatEnd
+
+Groove CountryWaltzEnd
+Seq 3
+Tempo *.9 2
+
+37        F     Eb     E6
+38       F6  /  z!
+

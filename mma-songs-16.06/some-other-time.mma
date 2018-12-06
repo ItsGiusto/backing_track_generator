@@ -1,0 +1,97 @@
+// Some Other Time (On the Town, 1944)
+
+Tempo 66
+KeySig C
+
+Groove Metronome2-4
+  z * 2
+
+Set PUSH0 .7  /// a bit less swing
+
+
+Groove EvansishIntro
+
+Begin Solo
+     Voice Piano1
+     Volume f
+     Articulate 120
+     Harmony Open8Below
+     Octave 5
+     Begin Riff
+         4.c+;8;4.;8g;
+         4.a;8;4;c;
+         4d;e;f;a;
+         1g;
+     End    
+End
+
+Swell p m 4
+
+1         C
+2        Am
+3        Dm
+4        G7  /  z@3
+
+Repeat
+Groove Evansish1
+Volume m
+
+5       CM7      /  G7sus
+6       CM7  G7sus
+7       CM7      /  G7sus
+8       Gm7      /   D/F#    Fm6
+
+Groove Evansish1Plus
+Cresc mf 4
+
+9       Em7      /  A7sus
+10      Dm7    Em7    FM7  G7sus
+11      CM7      /  G7sus
+
+RepeatEnding
+
+12      CM7      /  G7sus
+
+
+RepeatEnd
+
+13      CM7      /   Bbm7    Eb7
+
+Groove Evansish1Sus
+
+Cresc  mp  m 4
+
+14     AbM7      / Eb7sus
+15     AbM7      / Eb7sus
+16     AbM7      /  Eb7b9
+17     AbM7 AM7#11
+
+Groove Evansish1SusPlus
+
+18     AbM7      /    G+7
+19      CM7    Em7    Am7    Eb7
+
+Cresc mf 2
+
+20    D7sus      /     D7
+21    G7sus
+
+Groove Evansish1Plus
+
+22      CM7      /  G7sus
+23      CM7  G7sus
+24      CM7      /  G7sus
+25      Gm7      /   D/F#    Fm6
+
+Groove Evansish1
+Decresc mp 2
+
+26      Em7      /  A7sus
+27      Dm7    Em7    FM7  G7sus
+
+Groove EvansishEnd
+Decresc pppp 2
+
+28      CM7      /  G7sus
+29      CM7      /  G7sus z!
+

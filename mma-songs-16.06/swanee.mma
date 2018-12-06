@@ -1,0 +1,124 @@
+// Swanee
+
+// From the 1919 musical "Sinbad", a bit hit for Al Jolson
+// written by Irving Caesar & George Gershwin
+
+Tempo 240   // This is in 2/2 so we double the tempo
+
+Groove Metronome2-4
+	z * 2
+
+// 4 bar intro
+
+Groove Bluegrass
+
+Begin Drum-Clap       // Add a handcap on the 1st beat. For intro only.
+	Tone Handclap
+	Sequence D1
+	Volume f
+End
+
+1      D     
+2	/
+3      Bm    
+4	/
+5      Em    
+6	/
+7      A7    
+8	/
+
+// VERSE: "I've been away from you ..."
+
+Repeat
+
+Groove BlueGrass
+
+9      Dm    /    Dm#5  
+10     Dm6   /    Dm#5  
+11     Dm    /    Dm#5  
+12     Dm6   /    Dm#5  
+13     Dm    /    Dm#5  
+14     Dm    /    Dm#5  
+15     Dm    /    Dm#5  
+16     Dm    /    Dm#5  
+17     G     
+18     Dm    
+19     G     
+20     Dm    /    A7    
+
+RepeatEnding
+
+21     Dm    
+22	/
+23     Bb7b5 
+24     A7    
+
+RepeatEnd
+
+
+25     Dm    
+26     Bb7   /    A7    
+27     Dm    
+28     E7    /    Bbm6  
+
+// CHORUS: "Swanee, how I love you ..."
+
+Repeat
+
+Groove BlueGrassSus
+
+29     D     
+30	/
+31     Daug  
+32	/
+33     G6    
+34     Em7   
+35     D     
+36	/
+37     D     
+38     Bb7   
+39     Em7   
+40	/
+41     Em7 
+42     A7   
+
+Begin Drum-Clap       // Add a handcap on 1,2,3 & 4
+	Tone Handclap
+	Sequence D1234
+	Volume mf
+End
+
+43     D 
+44     A7 
+
+Groove BlueGrassSus
+ 
+45     D     
+46	/
+47     Daug  
+48	/
+49     G6    
+50     Em7   
+51     D     
+52	/
+53     D     
+54     Daug  
+55     G     
+56     Em7   /    /    Ab7   
+57     A7    
+58	/
+
+RepeatEnding
+
+59     D     
+60	/
+
+RepeatEnd
+
+Groove BlueGrassEnd
+
+59  D
+60  / z!
+
+
+

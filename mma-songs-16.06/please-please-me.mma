@@ -1,0 +1,96 @@
+// Please Please Me
+
+Tempo 140
+Keysig E
+Transpose 1   // do it in F
+
+Groove Metronome2-4
+  z * 2
+
+Groove 60sRockIntro
+
+1         E
+2       C#m
+3       F#m
+4        B7
+
+Repeat
+Label Start
+
+Groove 60sRock
+
+5         E
+6         /
+7         A      /      E
+8         G      /      A      B
+
+Groove 60sRockSus
+
+9         E
+10        /
+11        A      /      E
+12        /
+
+Groove 60sRock
+
+13        A
+14      F#m
+15      C#m
+16        A
+
+Groove 60sRock1
+
+17        E
+18        A      /      B
+
+if def tocoda
+  goto coda
+endif
+
+19        E
+
+RepeatEnding
+
+20        A      /     B7
+
+RepeatEnd
+
+21        E
+
+Groove 60sRockSus
+
+22        A
+23        B
+24        E
+25        /
+
+Groove 60sRock1Sus
+
+26        A
+27        B
+28        E
+29        A      /      B
+
+Groove 60sRockSus
+
+30        E
+31        A      /     B7
+
+set tocoda
+goto start
+
+// The is the coda
+label coda
+
+32        E
+33        A      /      B
+
+Groove 60sRockEnd
+
+34        E      /      G
+35        C      /     B7
+
+Seq 2
+36        E z!
+
+

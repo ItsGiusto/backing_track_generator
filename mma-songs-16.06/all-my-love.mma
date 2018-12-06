@@ -1,0 +1,128 @@
+// All My Love
+// An old Al Jolson song from 1920??
+
+Keysig D minor
+Tempo 100
+
+Groove Metronome3
+	z * 2
+
+Groove WaltzIntro
+Begin Solo
+ Voice SlowStrings
+ Harmony Open+16Below
+ Octave 6
+ Articulate 99
+ Begin Riff
+  2.d+;
+  2.a+;
+  2.e+;
+  2.a+;
+ End
+End
+
+Groove WaltzIntro
+Cresc pp mp 4
+
+1        Dm
+2         A
+3        Em
+4        A7
+
+Set G1 Waltz1Walk
+
+Groove Waltz1
+Repeat
+Swell mp f 16
+
+5        Dm
+6        A7
+7        Dm
+8         /
+9         D
+10       D7
+11       Gm
+12        /
+
+Groove $G1
+
+13        A
+14       A7
+15       Dm
+16       Gm      /    Bb7
+17       Dm
+
+RepeatEnding
+
+18       E7
+19       A7
+20        /
+
+Groove Waltz1Sus  // Add strings for the 2nd time.
+Set G1 Waltz1WalkSus
+
+RepeatEnd
+
+21       A7
+22       Dm
+23        /     D7
+
+Repeat
+Groove Waltz
+Cresc mp f 12
+
+24       Gm
+25        /
+26       Dm
+27        /
+28       A7
+29        /
+30       Dm
+31        /     D7
+
+Groove WaltzWalk
+
+32       Gm
+33        /
+34       Dm
+35        /
+36        A
+37       E7
+38        A
+39       A7
+
+Groove WaltzSus
+Decresc f mp 12
+
+40       Dm
+41       A7
+42       Dm
+43        /
+44        D
+45       D7
+46       Gm
+47        /
+
+Groove WaltzWalkSus
+
+48        A
+49       A7
+50       Dm
+51       Gm      /    Bb7
+52       Dm
+53       A7
+
+RepeatEnding
+
+54       Dm
+55       A7
+
+RepeatEnd
+
+Groove WaltzEnd
+Tempo -20 2
+Seq 3
+
+56       Dm
+57        /
+

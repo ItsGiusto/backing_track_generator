@@ -1,0 +1,96 @@
+// East Of The Sun
+
+Tempo 110
+Keysig G
+
+Groove Metronome2-4
+	   z * 2
+
+Groove ModernJazzIntro
+
+Begin Solo
+    Voice MutedTrumpet
+	Volume ff
+	Articulate 70
+	Harmony Open+8Below
+	Octave 5
+	Begin Riff
+	    4.g;8;4;;
+		4.g;8;4;;
+		43c+;b;a;4b;c+;
+		1d+;
+	End
+End
+
+Cresc p m 4
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+
+Groove ModernJazz
+Cresc mp mf 8
+
+5         G
+6         /
+7         /      /      /     E7
+8         /
+9       Am7
+10        /      /      C6
+11      Cm6
+12       Cm
+
+Groove ModernJazz1
+Decresc mf mp 8
+
+13      Am7
+14       D7
+15       F#/C#   /     B7
+16       Em
+17       A7
+18        /
+19       Am7
+20       D7
+
+Groove ModernJazz1Sus
+Cresc mp mf 8
+
+21        G
+22        /
+23        /      /     E7
+24        /
+25      Am7
+26        /
+27       Cm
+28       Cm7
+
+Groove ModernjazzSus
+Volume m
+
+29       Am7
+30       Cm
+31        G      /     Em
+32       A7
+33       Am
+34       Cm      /     D7
+35        G
+36      Eb7
+
+Groove ModernJazz1
+
+37      Am7
+38       D7
+
+RepeatEnding
+39        G      /     Cm
+40        D7
+
+RepeatEnd
+
+Groove ModernJazzEnd
+
+39        G     /      Cm
+40        G     /      z!
+

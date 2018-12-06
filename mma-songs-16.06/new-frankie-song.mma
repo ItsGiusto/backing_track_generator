@@ -1,0 +1,65 @@
+// New Frankie And Johnnie Song
+
+Tempo 175
+
+Groove Metronome2-4
+
+	z * 2
+
+
+Groove BlueGrassClap
+
+// 4 bar intro
+
+	F / D7
+	G7 / C7
+	F
+	C7
+
+
+// Song for 8 times
+
+Repeat
+Groove BlueGrass
+
+2 	F / / z
+3 	F7
+4 	Bb
+5 	Db
+6 	F / / z
+7 	F7
+8 	G7
+9 	C7
+10 	F / / z
+11 	F7
+12 	Bb
+13 	Db
+14 	F/C /  D7
+
+RepeatEnding 7
+
+Groove BlueGrassBottle
+
+15 	G7 /  C7
+16 	F
+
+Groove BlueGrassBottleClap
+
+17 	C7
+
+Repeatend
+
+18 	G7 /  C7
+
+Groove BlueGrassBottleClap
+
+19 	F
+20 	D7
+21 	G7
+22 	C7
+
+groove Bluegrassend
+
+23 	F
+24 	/
+

@@ -1,0 +1,113 @@
+// Cotton Candy
+// A hit for trumpter Al Hirt in 1964.
+
+Tempo 180
+KeySig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove JiveIntro
+Begin Solo
+    Voice Trumpet
+    Harmony OpenBelow
+    Octave 5
+    Articulate 70
+    Rtime 10
+    Rvolume 10
+    Volume f
+    Begin Riff
+        4c+;8f;;a;;4c+;
+        4b;8e;;g;;4b;
+        4a;8d;e;f;g;a;b;
+        2c+;
+    End
+End
+
+Cresc mp f 4
+
+1          F
+2         Em
+3         Dm      /     G7
+4          C
+
+Repeat  // do entire song 2x
+Groove Jive1
+Repeat
+Volume m
+
+5          C
+6          F
+7          C
+8          F
+
+Groove Jive1Plus
+Cresc mf 2
+
+9          C
+10         F      /      G
+11         F      /      G
+12         C
+
+Groove Jive1Clap
+
+RepeatEnd
+
+Groove Jive1Sus
+Cresc mp mf 4
+
+13         F      /      E
+14         F      /      E
+15         F      /      E
+16         D
+
+Groove Jive1SusPlus
+Decresc m 4
+
+17         F      /      E
+18         F      /      E
+19         F      /      E
+20         D
+
+Groove Jive1Sus
+
+21         /
+22         E
+23         C
+24         F
+
+Groove Jive1Plus
+Volume mf
+
+25         C
+26         F
+27         C
+28         F      /      G
+
+Groove Jive1Sus
+Volume f
+
+29         F      /      G
+30         C
+
+Groove Jive1
+Decresc mf 2
+
+31         F
+32        Em
+
+RepeatEnding 
+
+33        Dm      /     G7
+34         C      z
+
+RepeatEnd  // do song 2nd time
+
+Groove JiveEnd
+Decresc ppp 2
+
+33        Dm      /     G7
+34         C      z!
+
+
+

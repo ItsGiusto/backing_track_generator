@@ -1,0 +1,115 @@
+// Ill Never Smile Again
+
+Tempo 110
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxtrotIntro
+
+Begin AllGrooves
+   Chord Voicing Mode=Key
+   Chord-Piano Voicing Mode=Key
+   Chord-Sus Octave 6
+   Chord-Sus Voice Strings
+   Arpeggio Voice Vibraphone
+   Arpeggio Rskip 60
+End
+
+Begin Solo
+     Voice Vibraphone
+     Octave 5
+     Volume mf
+     Harmony 2Above
+     Articulate 130
+     Begin Riff
+         43e+;b;g; 4d&+;g;
+         43c+;g;e; 4b;e;
+         43a;f;c; 4a;c+;
+         2b;
+     End
+End
+
+Cresc p mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5       Fm7
+6       Bb7
+7        Eb
+8         /      /  Ebdim
+
+Groove FoxtrotPlus
+Decresc mp 4
+
+9       Fm7
+10      Bb7
+11       Eb
+12        /
+
+Groove FoxtrotSus
+Cresc m 4
+
+13      B7+      /    Bb7
+14       Eb
+15      Abm      /    Bb+
+16     EbM7      /      /     D6(add9)
+
+Groove FoxtrotSusPlus
+Cresc mf 2
+
+17        G      /     D7
+18        G      /  Ebdim
+19      Fm7/C 
+20      Bb7     Eb  Ebdim
+
+Groove Foxtrot
+Volume m
+
+21      Fm7
+22      Bb7
+23       Eb
+24        /      /  Ebdim
+
+Groove FoxtrotPlus
+Decresc mp 4
+
+25      Fm7
+26      Bb7
+27      Eb7
+28        /
+
+Groove FoxtrotSus
+Cresc m 2
+
+29     AbM7      /      /    Ab6
+30      Abm
+Decresc p 4
+31       Eb
+32      Gm7      /     C7
+
+33      Fm7
+34        /      /    B7+    Bb7
+
+RepeatEnding
+
+35       Eb      /  Ebdim
+Groove FoxtrotFill
+36      Bb7     Eb  Ebdim
+
+RepeatEnd
+
+Groove Foxtrotend
+Decresc ppp 2
+
+37       Eb
+38        /  z!
+

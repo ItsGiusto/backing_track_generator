@@ -1,0 +1,92 @@
+// Everybody Loves My Baby
+
+Tempo 170
+Keysig F	
+
+Begin Solo
+	Voice BrassSection
+	Volume f
+	Octave 5
+	Articulate 65
+	Harmony Open
+End
+
+Groove Metronome2-4
+	z * 2
+	
+Groove Swing1
+Swingmode On
+
+1      Dm                 {4a; r; 8a; ; ; ; }
+2      G7                 {4bn; r; 8b; ; ; ; }
+3      C7                 {4c+; r;8c+; ; ; ; }
+4      A7    /    C7      {8c#+ ;b; 4a; g; a; }
+
+Repeat
+
+Groove SwingWalk
+
+5      Dm6   
+6	/
+7	/
+8	/
+9      G7    
+10     C7    /    C7#5  
+11     F6    
+12     A7    
+13     Dm6   
+14	/
+15	/
+16	/
+17     A     /    A#dim7 
+18     E7    
+19     A     /    Abdim7 
+20     C7    
+
+Groove SwingWalkSus
+
+21     F7    /    Fdim7 
+22     F7    /    Fdim7 F     
+23     /    /    Fdim7 
+24     F7    
+25     Bb    /    F+    
+26     Bb    /    G7    
+27	/
+28     C7    /    A7    
+29     Dm    
+30	/
+31	/
+32	/
+33     G7    
+34     C7    
+
+Groove SwingWalkPlusSus
+
+RepeatEnding
+
+35     F     /    Bb9   
+36     A7    
+
+
+RepeatEnd
+
+Groove SwingWalkPlusSus
+
+Begin Solo
+	Voice Trumpet
+	Volume ff
+	Octave 5
+	Articulate 65
+	Harmony None
+End
+
+37     F     
+38     A7    
+39     G7    
+40     C7    
+
+Groove Swing1End
+
+41     F        { 4r; 8c+; 4a; 8a; 4g; }  
+42	/ z!        { 4f; }
+

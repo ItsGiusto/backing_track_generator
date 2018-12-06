@@ -1,0 +1,82 @@
+// Ten Cents A Dance
+
+Tempo 100
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingIntro
+Begin Solo
+ Voice Trombone
+ Octave 5
+ Articulate 100
+ Volume mf
+ Harmony OpenAbove
+ Begin Riff
+   8e;4;8c;2e;
+   8g;4;8b;2c+;
+   8c+;b;a;g;f;e;d;c;
+   1b-;
+ End
+End
+
+1    Eb   
+2    Cm   
+3    Fm   
+4    Bb7  
+
+Repeat
+Groove Swing
+
+5    Eb   Ebdim 
+6    Fm7  /    Bb7  
+7    Eb   /    F7   
+8    Gm   /    F#m  Bb7  
+9    Eb   /    Ebdim 
+10   Fm7  /    Bb7  
+
+Groove SwingPlus
+
+11   Eb7  /    Ab   
+12   Dm7  /    G7   
+
+Groove SwingSus
+
+13   C7b9 
+14   Fm   
+15   C7b9 
+16   Fm   
+17   D9   
+18   Gm   
+
+Groove SwingPlusSus
+
+19   C7b9 /    C7#5b9 C7b9 
+20   F7   /    Bb7  
+
+Groove Swing
+
+21   Eb   /    Ebdim 
+22   Fm7  /    Bb7  
+23   Eb7  /    Ab   
+24   Dm7  /    G7   
+25   C7b9 
+26   Fm7b5 
+
+RepeatEnding
+Groove SwingWalk
+
+27   Eb   /    AbM7 
+28   Gm   
+29   Eb   
+30   Bb7  
+
+RepeatEnd
+
+Groove SwingEnd
+Tempo *.7 2
+
+31   Eb   Eb+  AbM7 Eb7b5 
+32   Gm   B&7  Eb   
+

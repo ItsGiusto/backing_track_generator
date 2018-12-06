@@ -1,0 +1,179 @@
+// El Bimbo
+
+Tempo $( 2 * 110 )
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+// CHange the arps to something a bit slower
+
+Groove SambaPlus
+ Begin Arpeggio
+    Voice Marimba
+    Volume f
+    Octave 5
+    Sequence A4  / A2
+    SeqRnd On
+    Articulate 120
+    Harmony 2Above
+    Range 1
+ End
+DefGroove SambaPlus
+
+Groove SambaSusPlus
+ Arpeggio Groove SambaPlus
+DefGroove SambaSusPlus
+
+Begin Solo
+    Voice Organ3
+    Harmony 3Below
+    Octave 6
+    Articulate 120
+    Volume ff
+    Begin Riff
+        2.e;8d;e;
+        2.d;8   e;d;
+        1+1e~;
+        ~ <>;
+        2.e+;8d+;e+;
+        2.f+;8e+;d+;
+        1+4e+ ~;
+    End
+End
+
+Groove Samba
+Cresc p mf 4
+
+1         E7
+2         Dm
+3         E7 
+4         E7
+
+Groove SambaIntro
+Decresc p 4
+Solo Harmony OpenBelow
+
+5         E7
+6         Dm
+7         E7 
+Groove SambaFill
+8         E7
+
+Label Sign
+Repeat
+Groove Samba
+Volume m
+
+9          z
+10        Am
+11         /
+12         /
+
+Groove SambaPlus
+Cresc mf 4
+
+13         /
+14        Dm
+15         /
+16         /
+
+Groove Samba
+Decresc mp 4
+
+17         /
+18       Dm7
+19        G7
+20       Dm7
+
+Groove SambaSus
+
+21        G7
+22         C
+
+RepeatEnding
+
+23         C      /      G      F
+
+Groove SambaFill
+Cresc m 1
+
+24         /
+
+RepeatEnd
+
+25         C
+26         /
+
+Groove SambaPlus
+Volume m
+
+27         /
+28         /      /     E7
+29         /
+30         /
+
+Groove Samba
+Decresc mp 4
+
+31      E7b9      /      /     E7
+32        Am
+33         /
+34         /
+
+Groove SambaSusPlus
+Cresc mf 4
+
+35      AmM7      /    Am7
+36       Dm7
+37        G7
+38      Dm/F
+
+Groove SambaSus
+Volume m
+
+39        E7
+40        Am
+41      A7/G
+42      Dm/F
+
+Groove SambaPlus
+
+43        B7
+
+If Def Coda
+  Goto Coda
+Endif
+
+44        E7      /     F6
+45         G      /     G6
+
+Groove SambaFill
+
+46        E7      /      /      z
+
+Set Coda
+Goto Sign
+
+Label Coda
+
+47        E7
+48        Dm
+49        E7
+
+Groove SambaSusPlus
+Decresc mp 4
+
+50        Dm
+51        E7
+52      Dm/F
+53      Am/E
+
+Groove SambaEnd
+Decresc ppp 4
+
+54     E7sus
+55         /      /     E7
+56        Am
+57         /     z!
+

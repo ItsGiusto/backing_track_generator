@@ -1,0 +1,106 @@
+// Tenderly
+
+// The original for this is in 3/4, but Oscar Peterson and
+// Ben Webster both do it in 4/4 ... so who am I to argue?
+
+Tempo 72
+Keysig Eb		
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowJazz1Intro
+Begin Solo
+    Voice Piano1
+	Volume f
+	Articulate 95
+	Harmony Open
+	Octave 5
+	Begin Riff
+	    2+8 e+; 8; d+;e+;
+		2+8 d+; 8e+;d+;e+;
+		2+8 c+; 8e+;d+;e+;
+		2b;
+	End
+End
+Cresc p m 4
+
+1      Eb    
+2      Gm    
+3      Fm    
+4      Bb7   
+
+Repeat
+
+Groove SlowJazz1
+Cresc p f 4
+
+5      EbM7  
+6      Bb+7  
+7      Ebm9  
+8      Ab13  
+
+Groove SlowJazz1Walk
+Cresc p f 4
+
+9      Fm9   
+10     Db9   
+11     EbM7  
+12	/
+
+Groove SlowJazz1Sus
+
+13     Db9   
+14     Bb13  
+15     Db9   
+16     Bb13  /    G7b9  
+
+Volume mp
+
+17     Cm    /    CmM7  Cm7   
+18     F9    
+19     Bb7sus 
+20     /    /    Bb9  
+
+Groove SlowJazz1
+Cresc p f 4
+ 
+21     EbM7  
+22     Bb+7  
+23     Ebm9  
+24     Ab13
+
+Groove SlowJazz1WalkSus
+Volume mf
+
+25     Fm9   
+26     Db9   
+27     EbM7  
+28	/
+
+Groove SlowJazz1Sus
+Cresc p f 4
+
+29     Db9   
+30     Bb13  /    G7b9  
+31     Cm    /    CmM7  Cm7   
+32     F9    /    F#dim7 
+
+Groove SlowJazz1
+Decresc p 4
+
+33     Gm7   /    Gb7   
+34     Fm7   /    Bb7   
+
+RepeatEnding
+
+35     Eb6   
+36	/
+
+RepeatEnd
+
+Groove SlowjazzEnd
+
+37     Eb6   
+38	/ / z!
+

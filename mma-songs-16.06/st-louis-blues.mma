@@ -1,0 +1,133 @@
+// St Louis Blues
+
+Tempo 124
+
+Groove Metronome2-4
+ z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Articulate 110
+    Harmony Openbelow
+    Volume f
+    Begin Riff
+        8r;g;a;g;a;4.g;
+        2fn;4r;f;
+        2e;4r;e;
+        1d;
+    End
+End
+
+Swingmode On
+Swell p mf 4
+
+1         G
+2        Dm
+3        Am
+4        D7
+
+Groove FoxTrot
+Volume m
+
+5        Gm      /     D7
+6        Cm      /     D7
+7        A7      /   A7b5
+8        D7
+
+Groove FoxTrotSus
+Cresc mf 2
+
+9        Cm      /    Eb7
+10       D7
+11       Gm
+12       Eb      /     D7
+
+Groove FoxTrot
+Decresc m 2
+
+13       Gm     D7
+14       Cm      /     Gm
+15       D7
+16        /
+
+Groove FoxTrotPlus
+Decresc mp 4
+
+17        /
+18        /
+Begin Arpeggio
+  Riff A2
+  Volume mf
+  Rskip 0
+  Harmony 3Below
+End
+19       Gm      /     A7
+Arpeggio Riff A1
+20       D7
+
+Repeat
+Groove FoxTrotSus
+Cresc mf 4
+
+21       G7
+22        C7
+23        G
+24       G7
+
+Groove FoxTrot
+Cresc mp mf 4
+
+25        C7
+26        C
+27        G
+28        /      /      /    Db7
+
+Groove FoxTrotSus
+Decresc m 2
+
+29       D7
+30      Eb7      /    D7
+31        G
+32        /      /     D7
+
+RepeatEnd
+Repeat
+
+Groove FoxTrot
+Volume mf
+
+33        G      G6   G   G6
+34        G      G6   G   G6
+35        G      C      G      C
+36        G      C     G7
+
+Groove FoxTrotSusPlus
+Decresc m 4
+
+37       Am      /     C7
+38       Am      /     C7
+39        G      C      G      C
+40        G      C     G7
+
+Groove FoxTrotPlus
+Decresc mp 2
+
+41       D7
+42       D7
+
+RepeatEnding
+
+43        G
+44        /    /   D7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc ppp 2
+Tempo *.8 2
+
+45        G    /    C7
+46        G    z!
+

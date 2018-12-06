@@ -1,0 +1,139 @@
+// My Cuteys Due At Two To Two Today
+
+Tempo 180
+
+Groove Metronome2-4
+ z * 2
+
+Groove SwingIntro
+Begin Solo
+  Voice BrassSection
+  Volume f
+  Octave 5
+  Articulate 90
+  Harmony OpenBelow
+  Begin Riff
+     4g;;;;
+	 8b&;4;2+8;
+	 8c+;4;8+2;
+	 4d+;2.c+;
+  End
+End
+
+Cresc pp mf 4
+
+1          G
+2      Bbdim3
+3         Am
+4         D7
+
+Repeat
+Groove Swing
+Volume m
+
+5          G      /  Bbdim3
+6        Am7      /     D7
+7          G      /  Bbdim3
+8        Am7      /     D7
+
+Groove SwingWalk
+
+9          G
+10         /
+11         /
+12         /
+
+Groove Swing
+Volume mf
+
+13        E7
+14         /
+15        Am
+16         /
+
+Groove SwingPlus
+
+17        A7
+18         /
+19        D7
+20         /
+
+Groove SwingSus
+Decresc mp 8
+
+21         G
+22         /
+23        A7
+24         /
+
+Groove SwingPlusSus
+
+25        D7
+26         /
+27         G      /     C9
+28         G
+
+Groove SwingWalkSus
+Cresc mf 8
+
+29        B7
+30         /
+31        E7
+32         /
+
+Groove SwingSus
+
+33        A7
+34         /
+35        D7      z
+36         /
+
+Groove SwingPlus
+Volume m
+
+37         G
+38         /
+39        A7
+40         /
+
+Groove SwingPlus
+
+41       Am7      /     D7
+42       Am7      /     D7
+43        B7
+44         /
+
+Groove SwingWalkPlus
+Volume mf
+
+45        E7
+46         /
+47        A7
+48         /
+
+Groove Swing
+Volume m
+
+49        D7
+50         /
+
+RepeatEnding
+
+51         G      /  Bbdim3
+
+Groove SwingTriple
+Chord-Guitar Voice BrassSection
+Cresc f 1
+
+52       Am7      /     D7
+
+RepeatEnd
+Groove SwingEnd
+Decresc ppp 2
+
+53         G      /  Bbdim3
+54         G      /  z!
+
+
+
+

@@ -1,0 +1,97 @@
+// Wasted Days And Wasted Nights
+
+Tempo 94
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBluesIntro
+Begin Solo
+    Voice BrassSection
+    Cresc mp mf 4
+    Octave 6
+    Harmony OpenAbove+8Below
+    Articulate 110
+    Begin Riff
+        4r;8e;;g;;a;c+;
+        2.a;4b;
+        2a;b;
+        2d+;
+    End
+End
+SwingMode On
+
+Swell mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Repeat
+Groove SlowBlues
+Cresc mp mf 4
+
+5         C
+6         /
+7        G7      /    Dm7
+8        G7      /      /    Dm7
+
+Groove SlowBluesSus
+Decresc mp 4
+
+9        G7      /      /    Dm7
+
+RepeatEnding
+
+10       G7
+11        C
+12        /      z
+
+
+RepeatEnd
+
+
+13       G7
+14        C
+15        /     C7
+
+Groove SlowBluesFill2
+Cresc m mf 8
+
+
+16        F
+17        /
+18        C
+19        /      /      /    Am7
+
+Groove SlowBluesFill
+
+20       D7
+21        /
+22       G7      /    Dm7
+23       G7      z
+
+Groove SlowBluesWalk4Sus
+Volume m
+
+24        C
+25        /
+26       G7      /    Dm7
+27       G7      /      /    Dm7
+
+Groove SlowBlues
+Decresc mp 2
+
+28       G7      /      /    Dm7
+29       G7
+
+Groove SlowBluesEnd
+Seq 3
+Decresc ppp 2
+
+30        C      /      F
+31        C    z!
+

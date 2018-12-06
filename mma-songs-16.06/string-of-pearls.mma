@@ -1,0 +1,113 @@
+// String Of Pearls
+
+Tempo 132
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+    Voice BrassSection
+    Octave 4
+    Harmony 3below
+    Articulate 70
+    Begin Riff
+        8b++;4;8r;4;8b+;8+8 ~;
+        ~ 8r;4r;8b; 4;8r;
+        4r; 8b-;8+8; 8g+;a+;an+;
+        8b+;g+;a+;f+;g+;e+;4f+;
+    End
+End
+
+Groove FoxtrotIntro
+Solo  Cresc m ff 4
+Swell m f 4
+
+1        Bb
+2        /
+SwingMode On
+3        / 
+4       /
+
+Begin Solo
+  Volume ff
+  Harmony None
+  Articulate 90
+End
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5        Eb
+6         /
+7         /
+8         /
+
+Groove FoxTrotPlus
+Volume mf
+
+9         /
+10        /      /     F9    Bb7
+
+Decresc m 2
+
+11      Eb6      /    Cm7      G   {2.r;8;b+;}
+Groove FoxTrotSus
+Swingmode On
+12    Bb7b5    Bb7 Eb9sus   Eb9+   {8e++;c++;r;c++;bn+;;4b&+;}
+
+Groove FoxTrotPlus
+Cresc mf 4
+
+13       Ab
+14        /
+15        /
+16        /
+
+Groove FoxTrotSusPlus
+Volume m
+
+17        /
+18        /      /    Bb7    Eb7
+
+Groove FoxTrotSus
+SwingMode On
+Cresc mf 2
+
+19      Ab6            {2.r;3g+;a+;an+;}
+20      Bb7            {8b+;b;r;d+;f+;a+;4d+;}
+
+Groove FoxTrot
+Volume m
+
+21       Eb
+22        /
+23        /
+24        /
+
+Groove FoxTrotPlus
+Decresc mp 4
+
+25        /
+
+RepeatEnding 2
+
+26      Cm7      /     F9    Bb7
+SwingMode On
+27      Eb6                         {2.r;3e+;g+;b+;}
+
+Chord-Piano Sequence C1234
+28     Adim      /    Fm7    Bb7    {8c++;r;8e+;;4a+;b+;}
+
+
+RepeatEnd
+Decresc ppp 3
+
+29      Cm7      /     Ab    Bb7
+
+Groove FoxTrotEnd
+
+30    Eb6(add9)
+31        /  z!
+

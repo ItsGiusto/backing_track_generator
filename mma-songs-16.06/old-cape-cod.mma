@@ -1,0 +1,83 @@
+// Old Cape Cod
+
+Tempo 90
+KeySig Eb
+
+Groove Metronome2-4
+	z * 2
+	
+Groove EasySwing
+AllGrooves Plectrum Capo -2
+
+Begin Solo
+    Voice JazzGuitar
+	Volume ff
+	Articulate 110
+	Harmony Open
+	Octave 5
+	Begin Riff
+	    4f;8c+;2+8b;
+		4e;8b;2+8a;
+		4r;8d+;c+;d+;c+;b;g;
+		2f;d;
+	End
+End
+
+1       Bbm7  /     EbM7 
+2       Ab    /     Db7  
+3       C7   
+4       Db9   /     Bb7  
+
+Repeat
+Groove EasySwingWalk
+
+5       Eb   
+6       Bbm7  /     Eb9  
+7       Ab   
+8       Db9  
+9       Eb    /     C7   
+10      F7   
+11      Bb7   /     Fm7  
+12      Bb7  
+13      Eb   
+14      Bbm7  /     Eb9  
+15      Ab   
+16      Db9  
+17      Eb    /     C7   
+18      F7    /     Bb7  
+19      Eb   
+20      Bbm7  Eb7   Bbm7  Eb7b9
+
+Groove EasySwingSus
+
+21      Ab    /     Bb7  
+22      Eb    /     Edim 
+23      Fm7   /     Bb7b9
+24      EbM7  /     Eb7  
+25      Ab    /     Adim 
+26      Eb    Bbm   C7   
+27      Fm7   /     F7   
+28      Bb7   /     Bb7+
+
+Groove EasySwingWalkSus
+
+29      Eb   
+30      Bbm7  /     Eb9  
+31      Ab   
+32      Db9  
+33      Eb    /     C7   
+34      F7    /     Bb7  
+
+RepeatEnding
+
+
+35      Eb    /     Cm7  
+36      Fm7   /     Bb7  
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+37      Eb    /     Fm7   E7   
+38      Eb6  / z!
+

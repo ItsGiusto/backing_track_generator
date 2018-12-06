@@ -1,0 +1,128 @@
+// Happy Days Are Here Again
+
+Tempo $((120 * 2))
+
+Groove Metronome2-4
+ z * 2
+
+Groove QuickStepIntro8
+
+Begin Solo
+    Voice BrassSection
+    Volume f
+    Articulate 80
+    Harmony 8Below
+    Octave 5
+    Begin Riff
+        2c+;a;
+        2a;e;
+        2a;e;
+        2g;c;
+        4d;e;f;g;
+        4a;b;c+;d+;
+        1+2f+ ~;
+    End
+End
+
+Cresc mp mf 8
+Solo Cresc mf f 8
+
+1         C
+2         /
+3        Am
+4         /
+
+5        Dm
+6         /
+7        G7
+8         /
+
+Repeat  // for entire song
+Repeat  // 'A' section
+
+Groove QuickStep
+
+9         C
+10        /     G+
+11        C
+12        /     Em
+
+Groove QuickStepHit
+
+13        C
+14        /     G+
+15        C
+16        /      /      /   Cdim
+
+Groove QuickStepDuh
+
+17       G7
+18        /
+19        /
+20        /
+
+Groove QuickStepSus
+
+21        C
+22        F
+23        C
+
+RepeatEnding
+
+24       G7
+
+RepeatEnd
+
+25        /      /    Am6
+
+Groove QuickStepWalk
+
+26        E
+27      F#m      /    G#m   B7  
+28        E      /     B7
+29        E      /     Cm
+
+Groove QuickStepDuhSusWalk
+
+30        G
+31       Am      Bm     /  D7
+32        G
+33        /
+
+Groove QuickStepDuh
+
+34        C
+35        /     G+
+36        C
+37        /     Em
+
+Groove QuickStepSus
+
+38        C
+39        /     G+
+40        C
+41        /      /      /   Cdim
+
+Groove QuickStepDuhSus
+
+42       G7
+43        /
+44        /
+45        /
+
+Groove QuickStep
+
+46        C
+47        F
+
+Repeatending
+
+48        C
+49        G7
+
+RepeatEnd
+
+Groove QuickStepEnd
+
+48        C
+49        /  z!

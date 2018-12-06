@@ -1,0 +1,108 @@
+// Eleanor Rigby
+
+
+Tempo 132
+KeySig E minor
+
+Groove Metronome2-4
+  z * 2
+
+
+Groove BalladIntro
+
+Begin Solo
+    Voice ChoirAahs
+    Articulate 95
+    Octave 4
+    Harmony 2Above+2Below
+    Volume mf
+End
+
+Begin Solo-V
+    Voice PizzicatoString
+    Articulate 105
+    Octave 5
+    Harmony 3
+    Volume m
+End
+
+AutoSoloTracks Solo Solo-V
+
+Label Start
+
+Swell mp mf 8
+
+Repeat        // This is the 8 bar intro
+
+1          C     {2+8e+; 8f+;g+;4a+ ~;}
+2          /     {~ 4g+;f+;e+;b~;}
+3         Em     {1g;}  {2.r;8a;b;}
+4          /     {} {8g;b;g;b;g;b;g;b;}
+
+RepeatEnd 
+
+Repeat
+Groove BalladSus
+Cresc m mf 4
+
+5         Em
+6          /
+7          /
+8          C
+
+Groove Ballad1
+Decresc mp 4
+
+9          /      /     Em
+10         /
+11         /
+12         /
+
+Groove Ballad1Sus
+Cresc m 4
+
+13         C
+14         /      /     Em
+15         /
+16         /
+
+Groove Ballad
+Decresc mp 4
+
+17         C
+18        Em
+19         /
+20         /
+
+Groove BalladSus
+Cresc mf 2
+
+21         C
+
+If Def Coda
+  Goto Coda   // 3rd time, do final 2 bars
+Endif
+
+RepeatEnding
+
+22        Em
+
+RepeatEnd
+
+23        Em
+
+// After 2 verses we want to go back to the top (DS al Coda)
+
+Set Coda
+Goto Start
+
+Label Coda
+
+Groove BalladEnd
+
+Decresc pppp 2
+Tempo *.6 2
+Seq 2
+24        Em
+Seq 4
+25         /     z!

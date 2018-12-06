@@ -1,0 +1,121 @@
+// End Of A Love Affair
+
+Tempo 90
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBoleroIntro
+Begin Solo
+    Voice RhodesPiano
+    Articulate 110
+    Harmony 3Above+2below
+    Octave 5
+    Volume f
+    Begin Riff
+       4.f;8; 43f;e;d;
+       2c;4r;8d;e;
+       4.g;8; 43g;a;b;
+       1c+;
+    End
+End
+
+Swell mp mf 4
+
+1         F
+2         Dm7
+3         Gm7
+4         C7
+
+Repeat  // this is the DS, entire song 2x
+Repeat
+Groove SlowBolero
+Volume m
+
+5       Gm7      /     C7
+6       FM7      /      F
+7       Fm7      /    Bb7
+8      EbM7      /     Eb
+
+Groove SlowBoleroPlus
+Swell m mf 4
+
+9      Ebm7      /    Ab7
+10     Ebm7      /    Ab7
+11     DbM7      /     C7
+
+RepeatEnding
+
+12        F
+
+RepeatEnd
+
+13        F
+
+Groove SlowBolero1Sus
+Volume mp
+
+14      Dm7      /     G7
+15      Dm7      /     G7
+16      Dm7      /     G7
+17      Dm7      /     G7
+
+Groove SlowBoleroSusPlus
+Cresc m 4
+
+18      CM7
+19      Am7      /     D7
+20      Dm7      /     G7
+21      Gm7      /     C7
+
+Groove SlowBolero1Sus
+Cresc mf 4
+
+22      Gm7      /     C7
+23      FM7      /      F
+24      Fm7      /    Bb7
+25     EbM7      /     Eb
+
+Groove SlowBolero
+Decresc m 4
+
+26     Ebm7      /    Ab7
+27     Ebm7      /    Ab7
+28     DbM7      /     C7
+29       Cm      /     F7
+
+Groove SlowBoleroPlus
+Decresc mp 4
+
+30     BbM7
+31      Bbm
+32        F
+33   Abdim7
+
+Groove SlowBolero
+
+34      Gm7      /     C7
+35      Gm7      /     C9
+
+RepeatEnding   // a DS/Coda
+Groove SlowBoleroSus
+
+36       F6
+37      Gm7      /     C7
+
+RepeatEnd
+
+Groove SlowBoleroSus
+Decresc ppp 6
+
+38        F
+39      Bb7
+40        F
+41      Bb7
+
+Groove SlowBoleroEnd
+
+42        F
+43        /  z!
+

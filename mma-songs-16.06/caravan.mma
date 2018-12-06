@@ -1,0 +1,112 @@
+// Caravan
+
+Tempo 200
+
+Groove Metronome2-4
+  z * 2
+
+Groove Desert
+
+Begin Drum-TriSolo
+    Tone OpenTriangle
+    Volume f
+    Sequence - 
+End
+
+Set Counter 0   // This is used to determine the last ending for groove switch
+
+Cresc ppp mp 8
+
+	z * 4
+
+1      Edim  /    C7    
+2      Edim  /    C7    
+3      Edim  /    C7
+Drum-TriSolo Riff 1 0 90 * 2
+4      Edim  /    C7	z  
+
+Repeat  // we do the whole piece 2x intro AABA, intro AABA
+Repeat
+
+inc Counter
+
+Cresc p f 12
+Groove Desert
+
+5      Edim  /    C7    
+6      Edim  /    C7    
+7      Edim  /    C7    
+8      Edim  /    C7    
+9      Edim  /    C7    
+10     Edim  /    C7    
+11     Edim  /    C7    
+12     Edim  /    C7    
+13     Edim  /    C7    
+14     Edim  /    C7    
+15     Edim  /    C7    
+16     Edim  /    C7    
+
+Decresc  mp 4  
+
+If eq $Counter 6
+	Groove DesertEnd
+Endif
+
+17     Fm 
+18     /
+19     /
+20     /
+
+RepeatEnding   // End of A section ... this is played 2x
+
+Repeatending  // End of B, go back and play A a 3rd time.
+
+
+
+// This is the B section
+
+Groove DesertSus
+
+Volume mf
+
+21     F7    
+22     /
+23     F#dim 
+24     F+    
+25     Bb7   
+26     /
+27     Fm    
+28     Bb7   
+29     Eb7   
+30     /
+31     /
+32     /    /    Gdim  
+33     Ab    
+34     /
+35     C7    /    Fm6   
+36     Ebdim /    C7    
+
+RepeatEnd
+
+RepeatEnding  // 1st time though entire song (AABA)
+
+// This is our 8 bar intro a 2nd time, but with a different
+// pattern
+
+Groove DesertFill
+Volume fff
+Decresc fff mf 8
+
+	z * 4
+
+Decresc  mp 4
+
+1      Edim  /    C7    
+2      Edim  /    C7    
+3      Edim  /    C7
+Drum-TriSolo Riff 1 0 90 * 2
+4      Edim  /    C7	z
+
+
+RepeatEnd  // Outer repeat
+

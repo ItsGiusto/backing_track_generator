@@ -1,0 +1,116 @@
+// White Cliffs Of Dover ... a swing version
+
+Tempo 182
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro8
+Begin Solo
+  Voice BrassSection
+  Articulate 70
+  Harmony OpenBelow+8Below
+  Octave 5
+  Volume ff
+  Begin Riff
+    4.b;8r;2e+;
+	4r;
+	4.e+;8r;2c+;
+	4r;
+	4f+;e+;d+;c+;
+	4b;a;g;f;
+	1b;
+  End
+End
+
+Cresc p f 8
+
+1        Eb
+2         /
+3        Cm
+4         /
+
+5        Fm
+6         /
+7       Bb7
+8         /
+
+Repeat
+Groove BigBand
+Volume mp
+
+9        Eb
+10       Gm      /      /    Eb7
+11       Ab      /      /  Ebdim
+12       Eb      /      /    Cm7
+
+Groove BigBandSus
+Volume m
+
+13       Fm      /    Fm7
+14      Bb9      /      /    Bb7
+15       Eb      /     Cm
+16      Fm7      /    Bb7
+
+Groove BigBand
+Volume mf
+
+17       Eb
+18       Gm      /      /    Eb7
+19       Ab      /      /  Ebdim
+20       Eb      /      /     Cm
+
+Groove BigBandPlus
+Decresc mp 8
+
+21       Fm      /    Fm7
+22      Bb9      /      /    Bb7
+23       Eb      /    Fm7
+24       Eb      /      /    Eb7
+
+Groove BigBand
+
+25       Ab      /    Ab+
+26      Ab6      /      /  Ebdim
+27       Eb
+28      Eb7
+
+Groove BigBandSus
+Cresc m 4
+
+29       Ab      /     Fm
+30       Cm
+31      Cm7      /     F7
+32      Fm7      /    Bb7
+
+Groove BigBand
+
+33       Eb
+34       Gm      /      /    Eb7
+35       Ab      /      /  Ebdim
+36       Eb      /      /    Cm7
+
+Groove BigBandSusPlus
+Decresc mp 4
+
+37       Fm      /    Fm7
+38      Bb9      /      /    Bb7
+
+RepeatEnding 2
+
+39       Eb      /    Eb7
+
+Groove BigBandFill
+
+40      Fm7  Fm7b5    Bb7
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc ppp 2
+Tempo *.8 2
+
+41       Eb      /  Fm7b5
+42       Eb    z!
+

@@ -1,0 +1,95 @@
+// Bidin' My Time
+
+Tempo 108
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxtrotIntro
+
+Allgrooves Chord-Sus Voice SynthStrings1
+
+Begin Solo
+    Voice SynthStrings1
+    Cresc mf ff 4
+    Octave 5
+    Articulate 110
+    Harmony OpenBelow+8Above
+    Begin Riff
+        8e;f;g;f;2b;
+        43c+;b;g;2e;
+        8f;g;f;g;4a;b;
+        2d+;2b;
+    End
+End
+
+SwingMode On
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5        Eb      /     Ab
+6       Fm7      /    Bb7
+7        Eb      /    Ab6
+8       Fm7      /    Bb7
+
+Groove FoxTrotSus
+Cresc mf 4
+
+9        Eb      /     C7
+10      Fm7      /    Abm
+11       Eb      /    Bb7
+12       Eb
+
+Groove FoxTrotPlus
+
+13       G7      /      C
+14       G7      /      C
+15       G7
+16        F      /      C
+
+Groove FoxTrotSusPlus
+Decresc m 4
+
+17      Bb7      /     Eb
+18      Bb7      /     Eb
+19      Cm7   Ebm6     F7
+20   Bb7      /    Bb7
+
+Groove FoxTrot
+
+21       Eb      /     Ab
+22      Fm7      /    Bb7
+23       Eb      /     Ab
+24      Fm7      /    Bb7
+
+Groove FoxTrotPlus
+Decresc mp 2
+
+25       Eb      /     C7
+26      Fm7      /   Abm6
+
+RepeatEnding 2
+
+Groove FoxTrotFill
+
+27       Eb      /    Bb7
+28       Eb      /      /    Bb7
+
+RepeatEnd
+
+Groove FoxtrotEnd
+Decresc ppp 2
+
+27       Eb      /    Bb7
+29       Eb  z!
+

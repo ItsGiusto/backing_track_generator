@@ -1,0 +1,78 @@
+// I'm Sitting On Top Of The World1;3D
+
+Tempo 170
+
+Groove Metronome2-4
+
+	z * 2
+
+Groove Bigband8
+    z / / F
+    / / FM7 /
+    Bb
+    F
+    /
+    G7
+    C7
+    F
+    F / z C7
+    
+Repeat
+Seq
+
+2 	F /  FM7
+3 	Bb
+4 	F
+5 	/
+6 	G7
+7 	C7
+8 	F
+9 	Gm7 /  /  C7#5
+
+Groove BigBand8Sus
+
+10 	F /  FM7
+11 	Bb
+12 	F
+13 	/
+14 	G7
+
+Groove $_LastGroove
+
+15 	C7
+16 	F
+17 	F7
+18 	Bb
+19 	E7
+20 	F
+21 	/
+
+Groove BigBand8Sus
+
+22 	Dm /  DmM7
+23 	Dm7 /  Dm6
+24 	G7
+25 	C7 /  /  C7#5
+
+Groove $_LastGroove
+
+26 	F /  FM7 F7
+27 	Bb
+28 	F /  C9#5
+29 	F
+30 	G7 /  G7#5
+31 	C7
+
+RepeatEnding 2
+
+
+32 	F /  Db7
+33 	G7 z / C7#5
+
+RepeatEnd
+Groove BigBand4End
+Seq 3
+
+34 	F /  Bb
+35 	F z  z!
+

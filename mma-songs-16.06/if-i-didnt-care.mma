@@ -1,0 +1,111 @@
+// If I Didnt Care (Inkspots, 1939)
+
+Tempo 94
+Keysig Bb
+
+Groove Metronome2-4
+   z * 2
+
+Groove EvansishIntro
+Begin Solo
+    Voice JazzGuitar
+    Volume ff
+    Articulate 110
+    Harmony OpenBelow
+    Octave 5
+    Begin Riff
+        3:2b;c+;d+;2e+;
+        3:2g;a;b;2c+;
+        3:2e;f;g;2b;
+        2f;
+    End
+End
+
+Swell mp mf 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove Evansish1
+Volume m
+
+5      BbM7      /   F7#5
+6      BbM7
+7      BbM7      /   F7#5
+8      BbM7
+
+Groove Evansish1Plus
+Cresc mf 4
+
+9        C7
+10        /
+11        /
+12        /
+
+Groove Evansish1
+Decresc m 2
+
+13    Am7b5
+14       D7
+15      Gm7
+16        /
+
+Groove Evansish1Sus
+Volume mf
+
+17       C7
+18        /
+19      Cm7
+20       F7
+
+Groove Evansish1SusPlus
+Decresc m 2
+
+21     BbM7      /   F7#5
+22     BbM7
+23     BbM7      /   F7#5
+24     BbM7
+
+Groove Evansish1
+
+25       C7
+26        /
+27        /
+28        /
+
+Groove Evansish1Sus
+Volume mf
+
+29    Am7b5
+30       D7
+31       G7
+32        /
+
+Groove Evansish1Plus
+Decresc m 2
+
+33       C7
+34      Cm7      /     F7
+
+RepeatEnding
+Decresc mp 2
+
+35     BbM7
+
+Groove EvansishFill
+
+36       Cm7  /   F7
+
+RepeatEnd
+
+Groove EvansishEnd
+Decresc ppp 2
+Tempo *.8 2
+
+35     BbM7
+37        / z!
+
+

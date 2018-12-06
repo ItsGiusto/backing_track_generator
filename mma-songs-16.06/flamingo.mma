@@ -1,0 +1,122 @@
+// Flamingo (1940)
+
+Tempo 114
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove R&BIntro
+ 
+Begin AllGrooves
+  Begin Bass-Guitar
+    Voice JazzGuitar
+    Octave 5
+    Rskip 50
+    Volume m
+  End
+  Begin Chord-Organ
+    Rskip 50
+  End
+  Begin Arpeggio
+    Volume m
+    Rskip 40
+    Harmony OpenBelow
+  End
+End
+
+Begin Solo
+    Voice JazzGuitar //BrassSection
+    Volume f
+    Articulate 80
+    Harmony OpenBelow
+    Octave 6
+    Begin Riff
+        8f;4;8;4;4;
+        8d;4;8;4;4;
+        43g;;;4;;
+        2c+;
+    End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove R&B
+Volume m
+
+5         F
+6       Gm7      /     C7
+7        Fm
+8       Bb7      /   Bbm7
+
+Volume mf
+
+9       Db7
+10      Gm7      /     C7
+11        F
+12      Gm7      /     C7
+
+Groove R&BPlus
+Volume m
+
+13        F
+14      Gm7      /     C7
+15       Fm
+16      Bb7      /   Bbm7
+
+Decresc mp 4
+
+17      Db7
+18      Gm7      /     C7
+19        F      /     Db
+20        F
+
+Groove R&BSus
+Cresc mf 3
+
+21     Bbm7
+22      Eb7
+23       Ab
+24     Cdim      /     F7
+
+Groove R&BSusPlus
+Volume m
+
+25      Bbm      /    Eb7
+26      Bbm
+27       C7
+28      Gm7      /     C7
+
+Groove R&B
+Volume mf
+
+29        F
+30      Gm7      /     C7
+31       Fm
+32      Bb7      /   Bbm7
+
+Decresc mp 2
+
+33      Db7
+34      Gm7      /    C11
+
+RepeatEnding
+
+35        F
+36        /      /     C7
+
+RepeatEnd
+
+Groove R&BEnd
+Decresc ppp 2
+
+35        F
+38        /  z!
+

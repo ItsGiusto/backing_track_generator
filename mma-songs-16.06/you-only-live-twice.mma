@@ -1,0 +1,143 @@
+// You Only Live Twice
+
+Tempo 90
+Keysig F
+
+Groove Metronome2-4
+   z * 2
+
+Groove BossaNovaIntro
+
+Begin Solo
+    Voice Strings
+    Harmony OpenBelow
+    Octave 6
+    Articulate 105
+    Volume f
+    Begin Riff
+        8f;16e;f;8e;16d;e;4d;c;
+        8e&;16d;e;8d;16c;d;4c;b-;
+        1c;
+    End
+End
+
+Begin Solo-2
+    Voice Trumpet
+    Harmony 3Below
+    Octave 6
+    Volume m
+    Articulate 90
+    Begin Riff
+        2c;;
+        2c;g;
+        8.r;16f;8;;4g;;
+        8.r;16f;8;;4g;;
+    End
+End
+
+Swell mp mf 3
+1         F
+2        Cm
+3         F
+Decresc pp 1
+4         C7
+
+
+Repeat
+Groove BossaNova
+Volume m
+
+5         F
+6        Cm
+7       Bbm
+8         F
+
+Groove BossaNovaSus
+Volume mf
+
+9       Bbm
+10       C7      /    Bbm
+11        C
+12       C7
+
+Groove BossaNova
+Volume m
+
+13        F
+14       Cm
+15      Bbm
+16        F
+
+Groove BossaNovaPlus
+Cresc f 3
+
+17      Bbm
+18       C7      /    Bbm
+19        F
+20        /
+
+Groove BossaNova1SusPlus
+Volume m
+
+21     Bbm7
+22        C
+23      Ebm
+24        C
+
+Groove BossaNovaSus
+Volume mf
+
+25     Bbm7
+26        C
+27     Bbm7
+28       C7
+
+Groove BossaNova
+Volume m
+
+29        F
+30       Cm
+31      Bbm
+32        F
+
+Groove BossaNova1Sus
+Decresc p 2
+
+33      Bbm
+34       C7      /    Bbm
+
+RepeatEnding
+
+Groove BossaNovaFill
+Seq 3
+
+Begin Solo-2 
+  Begin Riff
+      8.r;16f;8;;4g;;
+      8.r;16f;8;;4g;;
+  End
+End
+
+35        F
+36        /
+
+RepeatEnd
+
+Tempo *.8 3
+
+Groove BossaNova2End
+Seq 2  // this is a 4 bar seq, start at bar 2
+AdjustVolume ratio=40
+Decresc ppp 3
+
+Begin Solo
+ Begin Riff
+        8f;16e;f;8e;16d;e;4d;c;
+        8e&;16d;e;8d;16c;d;4c;b-;
+        2.f;
+    End
+End
+37        F
+38     Eb(add9)/F
+39        F  z!
+

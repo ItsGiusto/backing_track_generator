@@ -1,0 +1,135 @@
+// It Only Takes A Moment
+
+// From musical "Hello, Dolly!". This is sung by
+// Cornelius Hackl & Dolly Levi ... quite sweet.
+// Mind you, they don't have the latin flair with the
+// bossanova beat ... the tempo is about the same as this.
+
+Tempo 110
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+	Voice Strings
+	Octave 5
+	Harmony 3
+	Articulate 110
+	Begin Riff
+		2f;1b- ~;
+		~ 3+3g;f;e;
+		2f;1b- ~;
+		~ <>;
+	End
+End
+
+1    BbM7 /    Gm7  
+2    Cm7  /    F7   
+3    BbM7 /    Gm7  
+4    Cm7  /    F9   
+
+Label Segna
+Repeat
+Groove BossaNova
+
+5    BbM7 /    Gm7  
+6    Cm7  /    F7   
+7    BbM7 /    Gm7  
+8    Cm7  /    F7   
+9    BbM7 /    Bb6  
+10   Gm   
+
+RepeatEnding
+
+11   G7b9 
+
+Groove BossaNovaSus
+
+12   G7   
+13   Cm   
+14   Cm7  /    G9   
+15   Cm   
+16   Cm7  /    G9   
+17   Cm   
+18   /    
+19   Cm7
+
+Groove BossaNovaFill
+
+20   F9   
+
+RepeatEnd
+
+21   G7b9
+
+Groove BossaNovaFill
+
+22   G7#5 
+
+Groove BossaNova1Sus
+
+23   Cm7  
+24   Cm7b5 
+25   Bb   /    Gm   
+26   Cm7b5 
+27   Bb   /    Gm   
+28   Cm7  /    F7   
+
+If def ToCoda
+	goto Coda
+Endif
+
+29   Bb   
+30   /    
+
+// Interlude ... which is not done in the movie version
+
+Groove BossaNovaSus
+
+31   BbM7 
+32   Bb6  
+33   Cm7  
+34   F7   
+35   BbM7 
+36   Bb6  
+37   Cm7  
+38   F7   
+39   BbM7 
+40   /    
+41   Gm7  
+42   /    
+43   Cm7b5 
+44   /    
+45   F7b9 
+46   /    
+
+Set ToCoda
+Goto Segna
+
+Label Coda
+
+47   Bb   
+48   /    
+49   BbM7 
+50   Bb6  
+51   Cm7  
+52   F7   
+53   BbM7 
+54   Gm7  
+55   C9   
+56   Cm7b5 
+57   Bb   /    Gm   
+58   Cm7b5 
+59   Bb   /    Gm   
+60   Cm7b5 
+
+Groove BossaNova2End
+Decresc m pp 4
+
+61   Bb   /    Gm   
+62   Cm7  /    F7   
+63   BbM7 
+64   Bb6  
+

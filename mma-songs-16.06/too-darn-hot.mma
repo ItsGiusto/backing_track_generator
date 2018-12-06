@@ -1,0 +1,218 @@
+// Too Darn Hot
+
+Tempo 180
+Keysig E minor
+
+Transpose -4
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzRockIntro8
+
+Begin AllGrooves Arpeggio
+   Voice JazzGuitar
+   Range 1.2
+   Direction Up
+End
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Articulate 120 
+    Octave 6
+    Harmony OpenBelow+8Below
+    Begin Riff
+        4e+;
+        4d+;
+        4b;
+        2.r;4b;
+        4.e+;
+        4.d+;
+        4.b;
+    End
+End
+
+Swell mp f 8
+Repeat
+
+1        Em 
+2        Bm7
+3        Em 
+4        B7 
+
+RepeatEnd
+
+Repeat 
+Groove JazzRock
+Volume m
+
+5        Em      /     Bm7
+6        Em      /     B7
+7        Em      /    Bm7
+8        Em      /     B7
+
+Groove JazzRockPlus
+Cresc mf 4
+
+9        Em      /   Em7/D
+10    Em6/C#      /     C7
+11    B7sus      /   C7b5
+12       B7
+
+Groove JazzRock
+
+13       Em      /   Em7/D
+14    Em6/C#      /     C7
+15    B7sus      /   C7b5
+16       B7
+
+Groove JazzRockSus
+Volume m
+
+17       E6      /   C#m7
+18     F#m7      /     B7
+Cresc mf 2
+19       E6      /    C#7
+20     F#m7      /     B7
+
+
+Groove JazzRockSusPlus
+
+21        E      / E#dim7
+22     F#m7      /     B9
+23       Em      /    Bm7
+
+Chord Riff 1 2 120; 3 4. 110
+Bass  Riff 1 2 1 115; 3 4. 5 100 
+
+RepeatEnding 
+
+24       Em      /     B7
+
+// The bridge. This is for the 2nd and 3rd time though. There are
+// really 2 versions of the bridge so we copy the entire part into 2
+// endings (with the 1st or 2nd bridge ending) to the main song endings.
+
+Repeatending    // 2nd time
+
+25       Em
+
+Keysig E
+
+Groove JazzRockWalk
+Volume m
+
+26        E
+27        /    D#+7     E
+28        /
+29        /
+
+Groove JazzRockWalkSus
+Cresc f 4
+
+30        /
+31        /    D#+      E
+32        /
+33       B7
+
+Groove JazzRockWalk
+Decresc m 4
+
+34        E     E7
+35        A      E      A   Edim
+36        E      A      E     C7
+37       F7      /     B7
+
+Groove JazzRockWalkPlus
+Cresc mf 2
+
+38        E      /      A
+39        C7      /     B7
+
+// this is the 1st ending of the bridge
+
+40        E
+41        /
+
+
+Groove JazzRockWalkSusPlus
+Volume m
+
+42       Em      /    Bm7
+43        E
+44       Em      /    Bm7
+45        E
+
+Groove JazzRockWalkSus
+
+46        C
+47       A7      /     B7
+48        E
+49        /
+
+RepeatEnd  // 3rd ending
+
+25       Em
+
+Groove JazzRockWalk
+Volume m
+
+26        E
+27     D#+7      /      E
+28        /
+29        /
+
+Groove JazzRockWalkSus
+Cresc mf 4
+
+30        /
+31        /    D#+      E
+32        /
+33       B7
+
+Groove JazzRockWalk
+Decresc m 4
+
+34        E     E7
+35        A      E      A   Edim
+36        E      A      E     C7
+37       F7      /     B7
+
+// this is the 2nd ending of the bridge.
+
+Groove JazzRockWalkPlus
+
+50        E      /      A
+51       C7      /     B7
+52        E      /      A
+53       C7      /     B7
+
+Groove JazzRockWalkSusPlus
+Cresc mf 4
+
+54        E      /      A
+55       C7      /      /     B7
+56        E
+57        /
+
+Groove JazzRockWalk
+Decresc m 4
+
+58       Em      /    Bm7
+59        E
+60       Em      /    Bm7
+61        E
+
+Groove JazzRockPlus
+Decresc p 2
+
+62      CM7
+63        A     B7
+
+Groove JazzRockEnd
+Decresc ppp 2
+
+64        E
+65       Em      /      E z!
+

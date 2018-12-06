@@ -1,0 +1,101 @@
+// There's A Kind Of Hush
+
+Tempo 130
+Keysig Bb
+
+Groove metronome2-4
+	z * 2
+
+Groove 8BeatIntro
+
+Begin Solo
+  Voice Organ1
+  Articulate 99
+  Octave 5
+  Harmony 3
+  Volume m
+  Begin Riff
+    4b;f;2;
+	4g;8b;;4c+;b;
+	4c+;g;2;
+	4f;a;2c+;
+  End
+End
+
+1    Bb   
+2    Gm   
+3    Cm   
+4    F7   
+
+Solo Volume mp
+
+Repeat
+Groove 8Beat
+
+5    Bb   
+6    D7   
+7    Gm   
+8    Bb7  
+9    Eb   
+10   F7   
+11   Bb   {4r;b;;;}
+12   F7   
+
+Groove 8Beat1
+
+13   Bb   {2r;b;}
+14   D7   
+15   Gm   {2r;g;}
+16   Bb7  
+17   Eb   
+18   F7   
+19   Bb   
+20   Bb7  {4b;;;;}
+
+Groove 8BeatSus
+
+21   Eb   
+22   Eb6  
+23   EbM7 
+24   Eb6  
+25   Bb   {1b;}
+26   /    {4b;}
+27   /    {1b;}
+28   Bb7  {4b;;;;}
+
+Groove 8Beat1Sus
+
+29   Eb   
+30   Eb6  
+31   EbM7 
+32   Eb6  
+33   F7   {4f;;;;}
+34   /    
+35   /    
+36   /    {4f;r;f;}
+
+Groove 8Beat
+
+37   Bb   
+38   D7   
+39   Gm   
+40   Bb7  
+41   Eb   
+42   F7   
+
+RepeatEnding
+
+Groove 8Beat1
+
+43   Bb   
+44   F7   {4f;;;;}
+
+RepeatEnd
+
+Groove 8BeatEnd
+Decresc p 2
+Alltracks Decresc p 2
+
+45   Bb   /    Cm7  
+46   Bb6  /    /    z! {2.b;}   
+

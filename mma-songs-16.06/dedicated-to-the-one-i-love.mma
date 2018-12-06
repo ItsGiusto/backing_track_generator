@@ -1,0 +1,178 @@
+// Dedicated To The One I Love
+
+Tempo $(70 * 2)   /// The real tempo is 70 when counting 2 per bar
+KeySig G    /// M&P sing in this key
+Transpose  3
+
+Groove Metronome2
+ z * 2
+
+
+Groove Ballad68
+Cresc ppp m 4
+
+         G * 2  // our intro
+1        D7
+2        D9
+3         G
+4        Em
+5         C
+
+Groove Ballad68Plus
+Swell m p 8
+
+6        D9
+7         G
+8        Em
+9         C
+
+Groove Ballad68Sus
+
+10       D9
+11       Em
+12       Bm
+13      Am7
+
+Cresc f 4
+
+14       D7
+15        G
+16        /
+
+Groove ballad68sus
+
+17       D7
+
+Repeat
+
+Groove Ballad68
+Volume m
+
+18       D9
+19        G
+
+Groove Ballad68-44
+
+20        /  Em
+
+Groove Ballad68
+Swell m f 8
+
+21        C
+22       D7
+23        G
+
+Groove Ballad68-44
+
+24        /   Em
+
+Groove Ballad68
+
+25        C
+
+Groove Ballad68Sus
+
+26       D9
+27       Em
+28        G
+29        /
+
+ /// my score shows the next bar as 2/4,,
+ /// but I think leaving 6/8 works better???
+
+30        z   
+
+RepeatEnding
+
+Groove Ballad68
+Cresc mf 8
+
+31        G
+32        /
+33        /
+34        /
+35       G7
+36        /
+37        /
+38        /
+
+Groove Ballad68SusPlus
+Volume m
+
+39        G
+40        /
+41        /
+42        /
+43       A7
+44        /
+45       D9       /    D7
+46        /
+47        /
+
+Groove Ballad68Sus
+
+48       D9
+49        G
+
+
+Groove Ballad68-44
+
+50        /    Em
+
+Groove Ballad68
+
+51        C
+52       D7
+53        G
+
+Groove Ballad68-44
+
+54        /    Em
+
+Groove Ballad68Sus
+
+55        C
+
+Groove Ballad68
+Decresc mp 8
+
+56       D9
+57       Em
+58       Bm
+59      Am7
+60       D7
+61       G7
+62        /
+
+Groove Ballad68Sus
+Cresc mf 8
+
+63       Bm      /   Em
+64        G
+65       Bm      /    C
+66       Bm      /    z
+67       Eb
+68        /
+69       D7
+
+Decresc m 2
+
+70        /
+71        /      /      z
+
+RepeatEnd
+
+Groove Ballad68Sus
+Decresc pppp 7
+AllTracks Decresc -50 7
+
+72       Em
+
+Repeat
+
+73       Em
+74        C
+
+RepeatEnd 3
+
+

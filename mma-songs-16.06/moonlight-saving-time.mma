@@ -1,0 +1,109 @@
+// Moonlight Saving Time
+
+Tempo 120
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove SwingIntro
+
+Begin Solo
+    Voice Piano2
+    Volume f
+    Articulate 110
+    Octave 5
+    Harmony OpenBelow+8Above
+    Begin Riff
+        81a;82d+;81c+;82a;4f;a;
+        4d+;4!a;2a;
+        4g;a;b;d+;
+        2.c+;
+    End
+End
+
+Cresc mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove Swing
+Volume m
+
+5         F      /    FM7
+6        F6      /     C+
+7        F6      /     C+
+8       Am7      / Abdim7
+
+Groove SwingPlus
+Cresc mf 4
+
+9       Gm7      /     C7
+10       Gm      /     C7     C+
+11       F6      /    Dm7
+12       G9      /     C7
+
+Groove Swing
+Decresc mp 4
+
+13        F      /    FM7
+14       F6      /     C+
+15       F6      /     C+
+16      Am7      /  Abmb5
+
+Groove SwingSus
+Cresc m 4
+
+17      Gm7      /     C7
+18       Gm      /     C7     C+
+19       F6      /    Db9
+20        F
+
+Groove SwingPlusSus
+Volume mf
+
+21       F7      /    Cm7
+22       F7
+23      Bb6    Cm6  C#mb5
+24    Bb6/D      /   BbM7    Bb7
+
+Groove SwingWalkPlus
+Decresc f m 4
+
+25       G7      /    Dm7
+26       G7
+27       C7
+28       G7      /     C7
+
+Groove Swing
+
+29        F      /    FM7
+30       F6      /     C+
+31       F6      /     C+
+32      Am7      /  Abmb5
+
+Groove SwingPlus
+Decresc mp 2
+
+33      Gm7      / F#dim7
+34     C7/G      /     C7
+
+RepeatEnding
+
+Groove SwingFill
+
+35       G7      /     C7
+36        F      /     C7
+
+RepeatEnd
+
+Groove SwingEnd
+Decresc ppp 2
+
+35       G7      /     C7
+37        F    Bb6     F6 z!
+

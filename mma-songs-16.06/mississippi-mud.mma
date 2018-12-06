@@ -1,0 +1,123 @@
+// Mississippi Mud
+
+Tempo $( 80 * 2 )
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+
+Groove BigBandIntro2
+Chord Sequence -
+
+Begin Solo
+    Voice Banjo
+    Swell m mf 4
+    Articulate 120
+    Mallet Rate=16 Decay=-7
+    Harmony 3+8Above
+    Octave 5
+    Rskip 0
+    Begin Riff
+        4c+;8r;4.c+;
+        4a;8r;4.a;
+        4d;8r;4.d;
+        1g;
+    End
+End
+
+Set Fine 0
+
+Swell mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Label DS
+Groove BigBand
+Volume m
+
+5         C
+6       Ab7
+7        C7      /     B7    Bb7
+8        A7
+
+Groove BigBandPlus
+
+9        D7
+10     Gdim     G7      /   G7#5
+11        C      /      /   Cdim
+12        C      /      /   Cdim
+
+Groove BigBand
+Decresc mp 4
+
+13        C      /      /   Cdim
+14        C   Cdim     G7
+15        C
+16      Ab7
+
+Groove BigBandSus
+Cresc mf 4
+
+17       C7      /     B7    Bb7
+18       A7
+19       Dm      /     A7
+20       Dm
+21        /      /     A7
+22       Dm
+
+Groove BigBandPlus
+Volume m
+
+23        F      /  F#dim
+24        C      /     A7
+
+if eq 2 $Fine
+    Groove BigBandEnd
+    Decresc ppp 2
+
+    25       D7
+    26       G7   G7#5      C  z!
+    Eof
+
+Else
+
+    25       D7
+    26       G7   G7#5      C
+Endif
+
+Repeat
+
+Groove BigBand1
+Volume m
+
+27       Am      /   E7#5     E7
+28       Am      /     F7
+29       Am      /   E7#5     E7
+30       Am      /     F7
+
+Groove BigBand1Sus
+Decresc mp 4
+
+31       D7
+32       G7
+
+RepeatEnding
+
+33        C   Cdim      C
+Groove BigBand1Fill
+Volume -80
+34      Eb7     D7     G7
+
+RepeatEnd
+
+35        C   Cdim      C
+Groove BigBandFill
+36      Eb7     D7      G
+
+Inc Fine
+goto DS
+

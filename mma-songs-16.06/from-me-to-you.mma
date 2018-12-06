@@ -1,0 +1,113 @@
+// From Me To You
+
+// Beatles version is in key of C (transpose 5) at tempo 135
+
+Tempo 135
+
+// Set up the solo instumentation. SOLO tracks aren't effected
+// by grooves, so these settings will stick for the entire song.
+
+Begin Solo 
+	Voice Harmonica
+	Articulate 99
+	Octave 5
+	Harmony Open
+End
+
+
+Groove Metronome2-4
+	z * 2
+	
+Groove 8beat
+
+Volume mp
+Solo Volume ff
+
+// Just for demo purposes we've set the solo stuff here
+// via RIFF, at the end we use the {} notation (which is probably
+// more readable in this kind of a situation.
+
+Solo Riff 2.r;8g;a;
+1	 z
+Solo Riff 4b;8a;g;4a;4a;
+1      G     
+Solo Riff 2e;4r;8g;a;
+2      Em  
+Solo Riff 4b;8a;g;4a;4a;
+3      G     
+Solo Riff 2.e;
+4      Em    
+
+Repeat
+Repeat
+Groove 8Beat
+
+5      G     
+6      Em    
+7      G     
+8      D7   
+9      C7    
+10     Em    
+11     G     /    D7    
+
+RepeatEnding
+
+12     G     /    Em    
+
+RepeatEnd
+
+13     G     
+
+Groove 8BeatSus
+
+14     Dm7   
+15     G7    
+16     C     /    G7    
+17     C     
+18     Em7   
+19     A7    
+20     D7    
+
+Groove 8BeatEnd
+
+21     D7+   
+
+Groove 8Beat1
+
+22     G     
+23     Em    
+24     G     
+25     D7    
+26     C7    
+27     Em    
+28     G     /    D7    
+
+RepeatEnding
+
+29     G     
+
+Repeatend
+
+// The boys have this short 4 bar ending. We've included it here
+// to show how to use the {} notation for solo tracks
+
+Groove 8Beat
+
+Solo Harmony None
+Volume mp
+
+Solo Decresc f pp 4
+
+30     G    {2.r;8gc+;8+2.gb ~;}   
+31     Em   {~ 8ec+;8+2.eb ~;}
+32     G+   {~ 8gc+;8+2.gb ~;}
+33     G     
+
+Groove 8BeatEnd
+Volume p
+
+Tempo *.8
+
+34     Em  / / z!  { 2.egb;}
+
+

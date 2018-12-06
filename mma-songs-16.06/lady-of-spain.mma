@@ -1,0 +1,84 @@
+// Lady Of Spain
+// For all the accordion players :)
+
+Tempo 120
+Keysig c
+
+Groove Metronome2-4
+	z * 2
+
+Groove BeguineSus
+Begin Solo
+   Voice Accordion
+   Harmony 3+8above
+   Volume f
+   Articulate 99
+   Octave 5
+   Begin Riff
+    1d;
+	1e;
+	43d;e;f;4e;d;
+	2.e;
+   End
+End
+
+1      Dm    
+2      Am    
+3      Dm    
+4      Am    / z
+
+Groove Beguine
+
+5      Am    
+6	/
+7      /    /    Dm6   
+8      Am    /    Dm6   
+9      Am    
+10	/
+11     /    /    Gm6   
+12     A     /    A7    
+13     D     /    G7    
+14     C     /    F7    
+15     Bb    /    Eb7   
+16     Ab    /    /    Ab7   
+17     Cm    
+18     Adim  
+19     Fm6   
+20     G7    / z
+
+
+Repeat
+Groove Beguine1
+
+21     C     
+22	/
+23     G7    
+24	/
+25	/
+26     G7+5  
+27     C     
+28     /    /    Gm6
+
+Groove Beguine1Sus
+   
+29     A7    
+30	/
+31     Dm    
+32	/
+
+RepeatEnding
+
+33     D7    
+34	/
+35     Fm6   
+36     G7    / z
+
+RepeatEnd
+
+Groove BeguineEnd
+
+37     D7    
+38     G7    
+39     C6    
+40	/ z z!
+

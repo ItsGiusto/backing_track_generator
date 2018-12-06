@@ -1,0 +1,88 @@
+// Come Rain Or Come Shine
+
+Tempo 134
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingIntro
+AllGrooves Plectrum Capo -2
+
+Begin Solo
+	Voice Piano2
+	Volume f
+	Harmony 3
+	Articulate 70
+	Octave 5
+	Begin Riff
+		4a;8;;;4;8;
+		4a;8;;;4;8;
+		4b;c+;b;a;
+		1c+;
+	End
+End
+
+Swingmode On Skew=55
+
+1   F       
+2   Dm      
+3   Gm      
+4   C7      
+
+Repeat
+Groove EasySwing
+Seq
+
+5   F       /       FM7     F6      
+6   A7      /       A7#5    A7      
+7   Dm      
+8   Dm7     
+9   G7      
+10  C7    
+11  F7      
+12  /       Gb7     Cm7     F7   
+   
+Groove EasySwingWalk
+
+13  Bbm     
+14  Fm      
+15  Bbm     
+16  C7b5    /       C7      
+17  Fm6
+18  Ebm6     
+19  Adim3    Fdim3    C7      Bbdim3
+20  Cdim3    G7      G7b5    C9      
+21  F       /       FM7     F6    
+
+Groove EasySwingWalkFill
+ 
+22  A7      /       A7#5    A7      
+23  Dm      
+24  Dm7     
+25  Bdim3 //Dm6     
+26  B9      /       B7      
+27  A13     /       A7      
+28  /       
+29  D7      
+
+Groove EasySwingSus
+
+30  / 
+31  G7      
+32  /       /       /       Gm      
+33  Dm7     /       G7      
+34  G       /       E7b5    A7      
+
+RepeatEnding
+
+35  D7      /       A&7   
+36  G7      /       C7      
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+35  D7      /       G7      
+36  C7      /       z!   
+

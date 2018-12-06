@@ -1,0 +1,95 @@
+// They All Laughed
+
+Tempo 140
+KeySig G
+
+Groove Metronome2-4
+   z * 2
+
+Groove SwingIntro2
+Begin Solo
+   Voice BottleBlow 
+   Octave 5
+   Harmony Open+8Above
+   Rtime 20
+   Volume mf
+   Articulate 70
+   Begin Riff
+     4g;;2;
+     8b&;4;8;4;;
+     4c+;;2;
+     43d+;b;a;4g;2f#~;
+   End
+End
+
+1         G
+2        B&
+3       Am7
+4        D7
+
+Repeat
+Groove Swing
+Volume m
+
+5         G     Em
+6       Am7      /     D7
+7       Am7      /    Cm6
+8         G    Bb7     A7     D7
+9         G     Em
+10      Am7      /     D7
+11       G6      /    Em7
+12      Am7      /     D7
+
+Groove SwingWalk
+Cresc f 8
+
+13        G     Em
+14      Am7      /     D7
+15      C#7      /    F#7
+16       Bm      /     E7
+17       D6      D      /    Bm6
+18       A7
+19       D7      /     F7     E7
+20       D7      /    DM7     D7
+
+Groove SwingSus
+Decresc p 8
+
+21       G7      /      /      G
+22       G7
+23        /     G6     G7     B7
+24     E7#5
+25       A7
+26        /
+27      Am7      /     C6
+28      Eb7      /     D7
+
+Groove SwingPlus
+Cresc mf 8
+
+29        G     Em
+30      Am7      /     D7
+31       B7      /     E7
+32       A7
+33        G      /     E7
+34      Am7      /     D7
+
+RepeatEnding
+
+35        G      /   G7#9
+36     A7b9      /   D7b9
+
+RepeatEnd
+
+Decresc  pp 6
+
+37       Eb
+38     Bb/D      /   D7/C
+39      G/B      /     E7
+40      Am7      /     D7
+
+Groove SwingEnd
+
+41        G
+42        /
+

@@ -1,0 +1,114 @@
+// When I Need You
+
+// Hit for Leo Sayer in 1977
+
+Tempo 110
+KeySig G
+
+Groove Metronome3
+  z * 2
+
+Groove CountryWaltzIntro
+Arpeggio Sequence -
+
+Begin Solo
+ Voice Clavinet
+ Octave 5
+ Volume m
+ Harmony OpenBelow
+ Articulate 110
+ Begin Riff
+   2.+4b ~;
+   ~ 4r; b;
+   4b;c+;d+;
+   2.d+;
+   2.g;
+   2.a;
+   2.a;
+ End
+End
+
+1          G
+2          /
+3          /
+Seq 1
+4          /
+Seq 1
+5         Em
+6         Am
+7         D7
+Seq 1
+8          /
+
+Repeat
+Groove CountryWaltz
+
+9          G
+10         /
+11         /
+12         /
+13         D
+14         /
+15        D7
+16     D#dim3
+17        Em
+18         /
+19         /
+20         /
+21         D
+22         /
+
+Groove CountryWaltzSus
+
+23         G
+24         /
+25         /
+26         /
+27        D7
+28        D7
+29         /
+30     D#dim3
+31        Em
+32         /
+33         /
+34         /
+35         D
+36         /
+
+Groove CountryWaltz1
+
+37        Em
+38         /
+39         D
+40         /
+41        Em
+42         /
+43         D
+
+Groove CountryWaltz
+
+44         /
+45         G
+46        Em
+47        Am
+48         /
+49       Am7
+50         /
+51    Dsus/A
+
+RepeatEnding
+
+52        D7
+
+RepeatEnd
+
+
+Groove CountrywaltzEnd
+Seq 2
+Tempo *.9
+Decresc pp 2
+
+53        D7
+54         G
+55         /     z!
+

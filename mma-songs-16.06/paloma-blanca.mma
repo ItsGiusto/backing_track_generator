@@ -1,0 +1,102 @@
+// Paloma Blanca
+
+// This was actually a disco-ish tune in 1975. We're doing it here
+// as a latin number ... which I greatly prefer. You do what you want :)
+
+Tempo 120
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove BeguineIntro
+Begin Solo
+	Voice Piano1
+	Harmony 3
+	Volume f
+	Articulate 60
+	Octave 5
+	Begin Riff
+		4c+;8;;;4;4d+~;
+		~ 4.+2c+;
+		4f+;8;;;e+;d+;1c+~;
+	End
+End
+
+1    F    
+2    Dm7  
+3    Gm7  
+4    C7   /    /    z    
+
+Repeat           /// for entire song
+
+Groove Beguine
+Repeat
+
+5    F    /    Bb   
+6    F    
+7    /    /    Bb   
+8    F    
+9    /    /    Bb   
+10   F    
+11   /    /    C7   
+12   F    
+
+RepeatEnding
+
+Groove BeguineFill
+
+13   / / / z   
+
+Groove Beguine1
+
+RepeatEnd
+
+Groove BeguineFill
+
+14   z    
+
+Groove BeguineSus
+
+15   F    
+16   Bb   
+17   /    
+18   /    
+19   F    
+20   /    
+21   Bb   
+22   /    
+
+Groove Beguine1Sus
+
+23   /    
+24   F    
+25   C    
+26   F    
+
+Groove Beguine
+
+27   / 
+28   F    /    Bb   
+29   F    
+30   /    /    Bb 
+31   F    
+32   /    /    Bb  
+33   F    
+34   /    /    C7   
+35   F    
+
+Groove BeguineFill
+
+36  z
+
+RepeatEnd
+   
+Groove BeguineEnd
+Seq 2
+Tempo -10  3
+  
+41   F    
+42   C    
+43   F 
+

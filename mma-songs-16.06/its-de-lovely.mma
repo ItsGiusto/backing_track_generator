@@ -1,0 +1,82 @@
+// Its De Lovely
+
+Tempo 130
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+	
+Begin Solo
+	Voice Trombone
+	Volume f
+	Harmony Open
+	Octave 6
+	Articulate 90
+End
+
+Groove FoxtrotSus
+
+1      F    {4c; 8; 2; 8; }  
+2      F+   {4c#; 8; 2; 8;} 
+3      F     {4d; 8; 4; 8d#; 4e;}
+4      /    /    /    C7+5   {4f; a; 2c+;}
+
+Cut -1
+
+Repeat
+
+Groove Foxtrot
+
+5      F     
+6      F+    
+7      F     
+8	/
+9	/
+10     F#dim 
+11     C7    
+12     /    /    /    D7    
+13     Gm    
+14     EbM7  
+15     Em7b5 
+16     /    Eb    Em7b5 Gm    
+17	/
+18     Ddim  
+19     C6    
+20     G7    /    C7    
+
+Groove FoxtrotSus
+
+21     F7    
+22	/
+23     Bb    /    F7    F+    
+24     Bb    
+25     Bbm6  
+26	/
+27     C7    
+28	/
+29     F     
+30     F+    
+
+Groove Foxtrot
+
+31     F     
+32     /    F+    Dm    F     
+33	/
+34     FM7   
+35     Am7b5 
+36     D7    
+37     D+    /    /    C7    
+38	/
+
+RepeatEnding
+
+39     Gm7   /    /    Gm7b5 
+40     F     /    Bb    C+    
+
+RepeatEnd
+
+Groove FoxtrotEnd
+
+41     Gm7   /    /    Gm7b5 
+42     F      /  /   z!
+

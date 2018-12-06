@@ -1,0 +1,160 @@
+// Feelings
+// This has been voted by some as the worst song EVER :)
+
+Tempo 90
+Keysig g
+
+Groove Metronome2-4
+ z * 2
+
+
+Groove 8BeatIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Articulate 110
+    Volume ff
+    Octave 5
+    Harmony OpenBelow 
+    Begin Riff
+        8b;2.e;
+        4.c+;8r;a;b;a;e;
+        8b;2.e;
+        4b;;;;
+    End
+End
+
+Swell mp f 4
+
+1        Em
+2        Am
+3         C
+4        B7
+
+Groove 8Beat
+Volume m
+
+5        Em
+6         /
+7       Em7
+8         A
+
+Groove 8Beat1
+
+9        Am
+10       D7
+11        G
+12      F#m      /     B7
+
+Groove 8Beat
+Cresc mf 4
+
+13       Em
+14        /
+15      Em7
+16        A
+
+Groove 8Beat1
+Decresc mp 4
+
+17       Am
+18       D7
+19        G
+20       E7
+
+Groove 8BeatSus
+Cresc f 12
+
+21        C
+22      Am7      /     D7
+23       Bm
+24       E7
+
+Groove 8Beat1Sus
+
+25       Am
+26       D7
+27       Bm
+28       E7
+
+Groove 8Beat1Sus
+
+29        C
+30       Am      /     D7
+31       Bm
+32       E7
+
+Groove 8Beat
+Decresc mp 4
+
+33       Am
+34       D7
+35     F#m7
+36       B7      /   B7b9
+
+// This is the "DS" section. In the original we have a DS al Coda.
+// Here we define the 8 bar section and execute it here and at bar 52.
+
+mset coda
+    
+    Groove 8BeatSus
+
+    37       Em
+    38        /
+    39      Em7
+    40        A
+
+    Groove 8Beat1Sus
+
+    41       Am
+    42       D7
+    43        G
+    44       E+      /     E7
+endmset
+
+$Coda
+
+Groove 8Beat1
+Volume m
+
+45        C
+46       Am      /     D7
+47       Bm
+48       E7
+
+Groove 8Beat
+Decresc mp 4
+
+49       Am
+50       D7
+51      F#m
+52     B7b9
+
+$Coda
+
+Groove 8BeatSus
+Decresc pppp 16
+AdjustVolume Ratio=20
+
+Repeat
+
+53        C
+54       Am      /     D7
+55       Bm
+56       E7
+
+57       Am
+58       D7
+
+if def EndFlag
+    Groove 8BeatEnd
+    AdjustVolume Ratio=20
+Endif
+
+59      Bm7
+60       E7
+
+Set EndFlag
+RepeatEnd
+
+

@@ -1,0 +1,199 @@
+// Waltz For Debby
+
+Tempo 170
+Keysig Eb
+
+Groove Metronome3
+ z * 2
+
+Groove JazzWaltzIntro8
+Begin Solo
+  Voice VoiceOohs
+  Volume f
+  Harmony OpenBelow+8Below
+  Octave 5
+  Articulate 80
+  Begin Riff
+    4e;r;e;
+	2.e;
+	4e;r;e;
+	2.e;
+	4f;r;4f;
+	2.f;
+	2.b;
+  End
+End
+
+
+Cresc pp mf 8
+
+1         Eb
+2          /
+3         Cm7
+4          /
+5         Fm
+6          /
+7        Bb9
+8          /
+
+Repeat
+Groove JazzWaltz
+Volume m
+
+9        Gm7
+10       Cm7
+11       Fm7
+12       Bb7
+Cresc f 2
+13        G7
+14      Bbm6      /     C7
+
+Groove JazzWaltz1
+Decresc  mp 4
+
+15        F7
+16       Bb7
+17       Eb7
+18        Ab
+19     Fm7b5
+20       Bb7
+
+Groove JazzWaltzSus
+Cresc f 2
+
+21       Gm7
+22       Cm7
+23       Fm7
+24       Bb7
+
+Groove JazzWaltz2
+Volume m
+
+25       Gm7
+26       Cm7
+27       Fm7
+28       Bb7
+Cresc mf 2
+29        G7
+30      Bbm6      /     C7
+
+Groove JazzWaltz1Sus
+Volume m
+
+31        F7
+32       Bb7
+33       Eb7
+34        Ab
+
+Groove JazzWaltz
+Decresc mp 4
+
+35        A7
+36        D7
+37       Bm7
+38       Am7
+Cresc m 2
+39       GM7
+40      F#m7
+
+Groove JazzWaltz2Sus
+Volume mf
+
+41       Fm7
+42       Bb7
+Volume m
+43       Gm7
+44      C7b5      /     C7
+45       Fm7
+46        G7
+47       Cm7
+
+Groove JazzWaltz1Sus
+Cresc mf 4
+
+48       Bbm
+49      AbM7
+50        G7
+51       Cm7
+52        F9
+
+Groove JazzWaltz1
+Decresc mp 4
+
+53      GbM7
+54      CbM7
+55       Fm7
+56       Bb7
+
+Groove JazzWaltz2
+Volume m
+
+57       Gm7
+58       Cm7
+59       Fm7
+60       Bb7
+Cresc f 2
+61        G7
+62      Bbm6      /     C7
+
+Groove JazzWaltzSus
+Volume m
+
+63        F7
+64       Bb7
+65       Eb7
+66        Ab
+67     Fm7b5
+68       Bb7
+Decresc p 2
+69       Gm7
+70      C7b5      /     C7
+
+Groove JazzWaltz1Sus
+Cresc m 2
+
+71       Am7
+72      D7#5
+73       Gm7
+74      Eb11      /    Eb7
+
+Groove JazzWaltz2
+Volume mf
+
+75      AbM7      /    Ab6
+76      G7#5
+Decresc mp 3
+77        Cm
+78       Cm7
+79        F7
+
+Groove JazzWaltzSus
+Volume m
+80      Adim
+81       Eb6
+82     Ebdim
+Decresc p 3
+83       Fm7
+84       Bb9      /  Bb7b9
+
+Repeatending
+
+Groove JazzWaltz
+
+85        Eb
+
+Groove JazzWaltzFill
+
+86       B&7
+
+Repeatend
+
+Groove JazzWaltzEnd
+Tempo *.8 2
+Decresc ppp 2
+
+87        Eb
+88    E&6(add9) / z!
+
+
+

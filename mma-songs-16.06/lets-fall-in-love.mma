@@ -1,0 +1,95 @@
+// Lets Fall In Love
+
+Tempo 130
+Keysig C
+
+Groove metronome2-4
+
+	z * 2
+	
+Groove Swing1
+Begin Solo
+    Voice Piano1
+	Volume f
+	Articulate 110
+	Harmony Open
+	Octave 5
+	Begin Riff
+	   2c+;4g;e;
+	   8b&;a;4g;a;b;
+	   4d+;c+;b;a;
+	   4b;a;g;b;
+	End
+End
+
+Volume f
+SwingMode On
+
+1 	C
+2 	Gm7
+3 	Dm
+4 	G7
+
+Repeat
+Groove Swing1
+
+Volume mf
+Cresc f 40
+
+5 	C
+6 	Dm7 /  G7
+7 	C /  Em7b5 A7b9
+8 	Dm7 /  G7 G7/F
+9 	Em7 /  Am7
+10 	Dm7 /  G7
+11 	Em7 /  A7
+12 	Dm7 /  G7
+13 	C
+14 	Dm7 /  G7
+15 	C /  Em7b5 A7b5
+16 	Dm7 /  G7 G7/F
+17 	Em7 /  Am7
+18 	Dm7 /  G7
+19 	Bm11
+20 	E7
+
+volume mp
+
+21 	Am7
+22 	/
+23 	D7
+24 	/  /  D7b9
+
+volume mf
+
+25 	CM9
+26 	C
+27 	Em7 /  A7b9
+28 	Dm7 /  G7
+
+Groove Swing1Plus
+
+29 	C
+30 	Dm7 /  G7
+31 	C /  Dm7b5 A7b9
+32 	Em7 /  G7 G7/F
+33 	Em7 /  Am7
+
+volume f
+repeatending 2
+
+34 	Dm7 /  G7
+35 	C /  F
+36 	C /  G7
+
+repeatend
+37 	Dm7
+
+0 	/  /  z
+38 	G7
+
+Groove Swing1End
+
+39 	C /  G7
+40 	C / / z!
+

@@ -1,0 +1,97 @@
+// A Fool Such As I
+
+// Old-time country guys do this around 110bpm ... not being all that old
+// or county ... we'll do it as a pop ballad at 128 :)
+
+Tempo 128
+
+Groove Metronome2-4
+	z * 2
+
+Groove RockBalladSusIntro
+
+Begin Solo
+    Voice Strings
+	Volume f
+	Harmony OpenBelow+8Below
+	Articulate 120
+	Octave 6
+	Begin Riff
+	    2c;4d;e;
+		2c;4d;e;
+		4f;e;d;e;
+		2d;
+	End
+End
+
+1          C
+2         Am
+3         Dm
+4         G7      /      z
+
+Repeat
+Groove RockBallad1
+
+5          C
+6         E7
+7          F
+8          C
+
+Groove RockBallad1Voice
+
+9          /      /   Cdim3      C
+10       Gm6      /     A7
+11        Dm
+12        G7      /      z
+
+Groove RockBallad1
+
+13         C
+14        E7
+15         F
+16         C      /      F
+
+Groove RockBallad1Voice
+
+17         C      /   Bdim3     Am
+18        Dm      /     G7
+19         C
+20        C7
+
+21         F
+22         /
+23         C      /      F    Fm6
+24         C      /   Gdim3
+
+Groove RockBallad1
+
+25         G
+26         C      /   Bdim3     Am
+27        Em      /     Dm
+28       Fm6     G7      z
+
+29         C
+30        E7
+31         F
+32         C      /      F
+
+Groove RockBallad1Voice
+
+33         C      /   Bdim3     Am
+34        Dm      /     G7
+
+RepeatEnding
+
+35         C
+36        Dm     G7      z
+
+// make the backup group female :)
+AllGrooves Chord-Sus Octave 5
+
+RepeatEnd
+
+Groove RockBalladEnd1
+
+37         C      /      F
+38         C     z!
+

@@ -1,0 +1,103 @@
+// I Cried For You
+
+Tempo 144
+Keysig F
+
+Groove Metronome2-4
+	   z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+	  Voice Piano1
+	  Harmony Open
+	  Articulate 90
+	  Volume f
+	  Octave 5
+	  Begin Riff
+	  		4a;2c+;4a;
+			4d+;c+;b;a;
+			4b;a;g;f;
+			1g; 		
+	  End
+End
+
+Cresc mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove FoxTrot
+Cresc mp mf 8
+
+5         F
+6        Am      /     D7
+7        G7      /     Dm
+8        G7
+9       Gm7      /     C7
+10      Gm7      /     C7
+11        F
+12        F6
+
+Groove FoxTrotPlus
+Decresc mf mp 8
+
+13       C+      /   F
+14       Am      /   Cdim
+15       C7
+16        /
+17        /
+18        /
+19     Fdim
+20       C7
+
+Groove FoxTrotSus
+Volume m
+
+21        F
+22       Am      /     D7
+23       G7      /    Dm7
+24       G7
+25      Gm7
+26       C7      /    Gm6
+27       A7      /      G
+28       Cm      /     A7
+
+Groove FoxTrotSusPlus
+Volume mf
+
+29       D7      /      C
+30      Fm6      /     D7
+31      Fm6      /      C     D7
+32        /
+33       G7      /      F
+34      Bbm      /     G7
+35      Bbm      /      F     G7
+36        /
+
+Groove FoxTrot
+Decresc mf mp 8
+
+37        F
+38       Am      /     D7
+39       G7      /    Dm7
+40       G7
+41      Gm7      /     C7
+42      Gm7      /     C7
+
+RepeatEnding
+
+43        F      /     Bb
+44        F
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+43        F      /     Bb
+44        F      /     z!
+
+

@@ -1,0 +1,119 @@
+// La Paloma
+
+Tempo 120
+KeySig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove LightTangoIntro
+
+Begin Solo
+    Voice Piano1
+    Volume f
+	Harmony OpenBelow+8Below
+	Articulate 90
+	Octave 5
+	Begin Riff
+        1+8g ~;
+		~ 4a;8b;4c+;b;
+		43d+;c+;b;c+;b;a;
+		1g;
+    End
+End
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Repeat
+Groove LightTango
+
+5         C
+6         /
+7         Em
+8         Dm
+9         G7
+
+Groove LightTangoSus
+
+10        Dm
+11        /
+12        G7
+
+RepeatEnding
+
+13        C
+
+Groove LightTangoFill
+
+14        /
+
+RepeatEnd
+
+15        C
+16        /
+
+Repeat
+Groove LightTango1
+
+17        C
+18        Em
+19        Dm
+20        G7
+
+Groove LightTango1Sus
+
+21        Dm
+22        G7
+
+RepeatEnding
+
+23        C
+
+Groove LightTangoFill
+
+24        /
+
+
+RepeatEnd
+
+25        C
+26        /      z
+
+Groove LightTango
+
+27        C
+28        /
+29       G7
+30       Dm
+
+Groove LightTangoSus
+
+31       G7
+32       Dm      /     G7
+33        C
+34        /      z
+
+Groove LightTango
+
+35        C
+36        /
+37       G7
+38       Dm
+
+Groove LightTangoSus
+
+39       G7
+40       Dm      /     G7
+41        C
+42       G7
+
+Groove LightTangoEnd
+
+43        /
+44        C
+
+

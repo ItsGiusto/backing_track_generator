@@ -1,0 +1,125 @@
+// I Have Dreamed
+
+Tempo 110
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BeguineIntro
+
+Begin AllGrooves
+     Chord  Voicing Mode=Key
+     Chord-Sus Voicing Mode=Key
+End
+
+Begin Solo
+    Voice VibraPhone
+    Volume F
+    Octave 6
+    Articulate 110
+    Harmony OpenBelow+8Below
+    Begin Riff
+        4.e;8d;2e;
+        4.g;8f;2e;
+        4.a;8g;2f;
+        2.b;
+    End    
+End
+
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+Solo Mallet Rate=16 Decay=-2
+4       Bb7
+
+
+Repeat
+Groove Beguine
+Volume m
+
+5       Eb6
+6         /      /    Bb7
+7    Eb6(add9)      /    Eb6
+8         /
+
+Groove Beguine1
+Volume mp
+
+9         /
+10        /      /    Bb7
+11      Bb9
+12        /
+
+Groove Beguine
+
+13       F6
+14        /      /     C7
+15   F6(add9)      /     F6
+16        /      /    Bb7
+
+Groove BeguineSus
+Cresc m 4
+
+17      Eb6
+18       Cm      /     F7
+19      Bb7
+20        /      /     D7
+
+Groove Beguine1Sus
+Cresc mf 4
+
+21        G
+22        /      /     D7
+23      GM7      /      G
+24        /
+
+Groove Beguine
+Decresc m 4
+
+25        G
+26        /
+27      Bb7
+28        /
+
+Groove Beguine1
+Decresc mp 4
+
+29       Eb
+30       G7
+31       Cm
+32       F9      /     F7
+
+Groove BeguineSus
+Cresc m 4
+
+33       Eb
+34       Ab      /     G7
+35       Cm
+36       F7
+
+Groove Beguine
+Decresc mp 2
+
+37     EbM9      /   Adim
+38       Ab      /    Bb7
+
+Repeatending
+
+39       Eb
+
+Groove Beguinefill
+
+40      Eb6  /   B&7
+
+RepeatEnd
+
+Groove Beguine2End
+Decresc ppp 2
+
+39       Eb
+40      Eb6  z!
+
+

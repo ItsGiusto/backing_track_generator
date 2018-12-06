@@ -1,0 +1,84 @@
+// Thats All
+
+Tempo 72
+Keysig C
+
+Groove Metronome2-4
+	   z * 2
+
+Groove JazzGuitar1Intro
+Begin Solo
+	  Voice Piano1
+	  Volume f
+	  Articulate 90
+	  Harmony Open
+	  Octave 6
+	  Begin Riff
+	    4c;e;g;e;
+        8a;g;f;e;4d;e;
+		8d;e;f;g;4a;g;
+		2.g;
+	  End
+End
+
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Groove JazzGuitar
+Repeat
+
+5         C      /    Dm7
+6       Em7      /    Fm7     G7
+7       Em7      /     A9
+8       Dm7      /     G7
+9       Am7     /      D9
+10      Em7      / Ebdim7
+
+RepeatEnding 
+
+11      Em7      /   A7
+12     D7b5      /     G7
+
+Groove JazzGuitarSus
+
+RepeatEnd
+
+13      Em7   A7b9    Dm7   G7b9
+14        C
+
+Repeat
+Groove JazzGuitar1
+
+15      Gm7      /     C9
+16      FM9      /     D9
+17      Gm7      /     C9
+18      FM7      /     F6
+19      Am7      /     D9
+20      GM9      /     E9
+21      Am7      /     D9
+22      Dm7      /     G7
+
+Groove JazzGuitar1WalkSus
+
+23        C      /    Dm7
+24      Em7      /    Fm7     G7
+25      Em7      /     A9
+26      Dm7      /     G7
+27      Am7      /     D9
+28      Em7      / Ebdim7
+
+RepeatEnding
+
+29      Em7   A7b9    Dm7   G7b9
+30        C      /     G7
+
+RepeatEnd
+
+Groove JazzGuitarEnd
+
+30      Em7   A7b9    Dm7   G7b9
+31        C / / z!
+

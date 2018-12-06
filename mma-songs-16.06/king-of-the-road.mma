@@ -1,0 +1,72 @@
+// King Of The Road
+Keysig C
+
+Groove Metronome2-4
+	   z * 2
+
+Groove ShuffleBoggieIntro4
+Begin Solo
+	  Voice Piano2
+	  Volume f
+	  Articulate 90
+	  Harmony 3
+	  Octave 5
+	  Begin Riff
+	  		4c+; 3;;; 4; ;
+			4c+; 3;;; 4; ;
+			4d+; 3;;; 4; ;
+			1d+;
+	  End
+End
+
+1    C    
+2    Am   
+3    Dm   
+4    G7   
+
+Groove ShuffleBoggie 
+Repeat
+
+5    C    
+6    F    
+7    G7   
+8    C    
+9    /    
+10   F    
+11   G7   
+12   /    
+13   C    
+14   F    
+15   G7   
+16   C    
+17   /    /    /    C9   
+18   F    
+19   G7   
+
+RepeatEnding
+
+20   C    
+Groove ShuffleBoggie1
+
+RepeatEnding
+
+21   C
+
+Groove ShuffleBoggieSus
+
+23   C    
+24   F    
+25   G7   
+26   C    
+27   /    
+28   F    
+29   G7   
+30   /    
+Groove ShuffleBoggie
+
+RepeatEnd
+
+Groove ShuffleBoggieEnd
+
+22  C
+    / z!

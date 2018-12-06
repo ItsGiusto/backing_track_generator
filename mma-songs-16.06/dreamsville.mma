@@ -1,0 +1,110 @@
+// Dreamsville
+
+Tempo 65
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowJazz1Intro
+AllGrooves Chord Voicing Mode=Key2
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 4
+    Volume mf
+    Harmony OpenBelow+8Below
+    Articulate 130
+    Begin Riff
+       81r;<grace>16f#+;82g+;  81c+;<grace>16g+;82g;   8g+;4.c+;
+       81r;<grace>16g+;82a&+; 81c+;<grace>16g+;82a&;  8a+;4.c+;
+       81r;82a;   81e+;82a+;  3g+;d+;<grace>16c#++;4+3d++;
+       81r;<grace>16d#++;82e++; 81c++;82a+; 81f+;82c+; 81a&;82f;
+    End    
+End
+
+Swell mp mf 4
+Arpeggio Sequence -
+
+1       CM7>3
+2      C7b5>3
+3       FM7      /    Em7
+4       Dm7      /   DbM7
+
+Repeat
+Groove SlowJazz
+Volume m
+
+5       CM9
+6       Gm7
+7       CM9
+8       Gm7      /      /    F#9
+
+Groove SlowJazzSus
+Volume mf
+
+9       Cm9      /      /     F9
+10      Dm7      /   Ebm7
+11      Em7      /      /     A7
+12      Dm7      /   G7b9     G9
+
+Groove SlowJazz
+Decresc m 2
+
+13      CM9
+14      Gm7
+15      CM9
+16      Gm7      /      /    F#9
+
+Groove SlowJazzPlus
+
+17      Cm9      /      /     F9
+18      Dm7      /   Ebm7
+19      Dm7      /      /    Db9
+20      CM9
+
+Groove SlowJazzSusPlus
+Cresc mf 4
+
+21      Am6      /    B7+
+22      Em9      /      /   A7b9
+23     F#m7      /      /      D
+24       F9
+
+Groove SlowJazzSus
+Volume m
+
+25      Bm6      /    C#9
+26      Am6      /   B7b9
+27      Gm6      /   A7b9
+28      Dm7      / G7b5b9   G7b9
+
+Groove SlowJazz
+
+29      CM9
+30      GM7
+31      CM9
+32      Gm7
+
+Groove SlowJazzSus
+Decresc mp 2
+
+33      Cm9      /      /     F9
+
+RepeatEnding
+
+34      Dm7      /   Ebm7
+35      Dm7      /      /    Db9
+36      CM9
+
+RepeatEnd
+
+34      Dm7      /   Ebm7
+
+Groove SlowJazzEnd
+Decresc ppp 2
+
+37      Dm7      /      /    Db9
+38      CM9
+39        /
+

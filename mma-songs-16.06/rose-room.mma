@@ -1,0 +1,119 @@
+// Rose Room
+
+Tempo 175
+Keysig G
+
+Groove Metronome2-4
+   z * 2
+
+Groove SwingPlus
+  Begin Arpeggio
+      Sequence Swing8    A4   /   A2
+      Rskip      50     30   /   20
+      Volume     mp     /    /   p
+      Voice Piano3
+      Articulate 110
+      Harmony OpenBelow
+   End
+DefGroove SwingPlus
+
+Groove SwingPlusSus
+   Arpeggio Groove SwingPlus
+DefGroove SwingPlusSus
+
+Groove SwingIntro
+
+Begin Solo
+    Voice Piano2
+    Volume f
+    Articulate 95
+    Octave 6
+    Harmony 3Below
+    Begin Riff
+        4d;;
+        4e;;
+        4c;;;
+        4d; 
+    End
+End
+
+Cresc mp mf 4
+
+1         G
+2        Em
+3        Am
+4        D7      G      /     Eb
+
+Repeat
+Groove Swing
+Volume m
+
+5         A      /     A9
+6        D7
+7       GM7
+8        G6
+
+Groove SwingPlus
+
+9        G7
+10        /
+11        C
+12        /
+
+Groove Swing
+Decresc mp 4
+
+13       Cm
+14        /
+15        G      /     G7
+16       E7
+
+Groove SwingSus
+
+17       A7
+18        /
+19       D7      /   A7b5
+20       D7      G      /    Eb7
+
+Groove SwingPlusSus
+Swell mf 4
+
+21        A      /     A9
+22       D7
+23      GM7
+24       G6
+
+Groove SwingSus
+Cresc m 4
+
+25       G7
+26        /
+27        C
+28        /
+
+Groove Swing
+
+29       Cm
+30        /
+31        G      /     G7
+32       E7
+
+Groove SwingPlus
+Decresc mp 2
+
+33       A7      /     A9
+34       D7
+
+RepeatEnding 2
+
+Groove SwingFill
+35        G      /     Cm
+36        D7     G     /      E&7
+
+RepeatEnd
+
+Groove SwingEnd
+35        G      /     Cm
+36        G      z!
+
+

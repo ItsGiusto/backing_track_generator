@@ -1,0 +1,80 @@
+// Bibbidi Bobbidi Boo
+
+Tempo 105
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingIntro
+Begin Solo
+    Voice Piano1
+    Harmony OpenBelow+8Below
+    Articulate 90
+    Octave 6
+    Volume f
+    Begin Riff
+        3c;;; 4; 3;;; 4;
+        3d;;; 4; 3;;; 4;
+        3b-;a-;g-; a-;g-;f-; 43g-;a-;b-;
+        1c;
+    End
+End
+
+Cresc m ff 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove Swing
+Volume m
+
+5         F
+6         /
+7        C7
+8         /      /      F     C7
+
+Groove SwingPlus
+Cresc f 4
+
+9         F
+10        /
+11       C7
+12        /      /      F
+
+Groove SwingWalkSus
+Volume m
+
+13       Bb
+14        F      /     Dm
+15       G7
+16       C7
+
+Groove SwingWalkPlusSus
+Cresc mf 4
+
+17        F
+18        /
+19       C7
+20        /
+
+RepeatEnding
+Groove SwingFill
+Volume m
+
+21        /      /      F
+
+RepeatEnd
+
+Groove SwingEnd
+Seq 2
+Volume f
+
+22        /      /      F   z!
+
+
+

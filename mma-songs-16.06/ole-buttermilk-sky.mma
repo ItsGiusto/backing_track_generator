@@ -1,0 +1,121 @@
+// Ole Buttermilk Sky
+
+Tempo 115
+KeySig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove ModernJazzIntro
+Begin Solo
+  Voice Clarinet
+  Volume f
+  Harmony OpenBelow
+  Articulate 99
+  Octave 6
+  Begin Riff
+     4r;e;81g;82e;4g;
+	 1+4b ~;
+	 ~ 4a;g;f;
+	 2b-;
+  End
+End
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Groove ModernJazz
+Swell mp f 8
+
+5        Eb
+6         /      /     Ab
+7        Eb      /     Ab
+8        Eb      /     Ab
+
+9        Eb     Ab     Eb
+10        /      /     Ab    Bb7
+11       Eb
+12        /      /  Bb9#5
+
+Groove ModernJazz1
+Volume m
+
+13       Eb
+14        /      /     Ab
+15       Eb   EbM7    Eb6
+16        /
+
+17       Fm
+18      Bb7      /     Ab   Fdim
+19       Eb      /     Ab
+20       Eb      /      /    Eb7
+
+Groove ModernJazzSus
+Swell m f 8
+
+21       Ab
+22      Eb9      /    Eb7
+23       Ab      /    Bb7
+24      Eb7
+
+25       Eb      /    Abm
+26       Eb
+27       F9      /     F7
+28      Bb7      /     Ab    Bb7
+
+Repeat
+Groove ModernJazz1
+Swell m mp 8
+
+29       Eb
+30        /      /     Ab
+31       Eb      /     Ab
+32       Eb      /     Ab    Bb7
+33       Eb     Ab     Eb
+34        /      /     Ab    Bb7
+35       Eb
+36        /      /  Bb9#5
+
+Groove ModernJazz2
+Volume mp
+
+37       Eb
+38        /      /     Ab
+39       Eb
+40        /
+41       Fm
+42      Bb7      /     Ab   Fdim
+43       Eb      /     Ab
+44       Eb      /  Bb9#5
+
+Groove ModernJazzSus
+Volume m
+
+45       Eb
+46        /      /     A&
+47       Eb
+48        /
+49       F7
+50       Fm      /     Ab    Bb7
+
+RepeatEnding
+
+51       Eb      /     Ab
+52       Eb      /     B&7
+
+AllGrooves Bass-Trp VOice Clarinet
+AllGrooves Arpeggio Voice Clarinet
+
+RepeatEnd
+
+
+Groove ModernJazzEnd
+Tempo *.8 2
+Decresc pp 2
+
+51       Eb      /     Ab
+53       Eb		 /     z!
+
+

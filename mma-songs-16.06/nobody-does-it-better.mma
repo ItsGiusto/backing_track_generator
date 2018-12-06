@@ -1,0 +1,99 @@
+// Nobody Does It Better
+
+Tempo 66
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove BalladIntro
+
+Begin AllGrooves Arpeggio-Plus
+    Voice JazzGuitar
+    Range 1
+End
+
+Begin Solo
+    Voice Piano1
+    Articulate 90
+    Harmony 3Below
+    Octave 5
+    Volume mf
+    Begin Riff
+       4.dgbg+; 16fngd+;db; gc#+;cb&; eg;ec+; e&fcn+; cna; a-f;ec+;
+       4.dgb; 16gbe+; aa#d#+; 4fnandn+;16d-g--;d-g#--;e-a--;f-b--;
+   End
+End
+
+Decresc f mp 2
+
+1         z!
+2          /
+
+Repeat
+Groove Ballad
+Volume m
+
+3        CzD      /     Cm
+4         G7
+5          C      /     Cm
+6          G      /     G7
+
+Groove BalladPlus
+Cresc mf 4
+
+7          C      /     Cm
+8     B7#5b9   B7b9    Em7
+9        Am7      /   Am7          D7
+10         G     G7     Cm
+
+Groove BalladSus
+Volume m
+
+11         G      /     G7
+12         C      /     Cm
+13         G      /   G7/B
+14        A9      /    Ab9
+
+Groove BalladSusPlus
+Cresc mf 2
+
+15         G      /     G7
+16         C      /     Cm
+17        B7   E7b9    Am7     D7
+
+Volume m
+
+RepeatEnding
+
+Groove BalladFill
+
+18         G
+
+RepeatEnd
+
+19         G
+
+Groove Ballad
+Cresc mf 4
+
+20         C      /     Cm
+21        G7
+22         C      /     Cm
+23        G7
+
+Groove BalladPlus
+Decresc mp 2
+
+24         C      /     Cm
+25    B7#5b9   B7b9    Em7
+
+Groove BalladEnd
+Decresc ppp 4
+
+26       Am7      /      G
+27       CM7 C#m7b5    D11
+28         G   Gdim     Cm
+29         G    z!
+
+

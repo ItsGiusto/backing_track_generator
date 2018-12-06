@@ -1,0 +1,185 @@
+// Grand Night For Singing
+
+Tempo $( 3 * 63 )
+Keysig G
+
+Groove Metronome3
+  z * 2
+
+Groove FastWaltzIntro
+Begin AllGrooves
+   Begin Chord
+      Voice JazzGuitar   
+      Octave 5
+      Duproot -1,-2
+      Strum 5
+      Rtime 5
+      RVolume 5
+   End
+   Begin Arpeggio
+       Harmony OpenBelow
+   End
+End
+
+Cresc mp mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+// This is the main verse. Gets played a total of 3 times
+Repeat
+Groove FastWaltz
+Volume m
+
+5         G
+6        D7
+7        G6
+8         G
+
+Groove FastWaltzPlus
+
+9        G6
+10        G
+11      Am6
+12       B7
+
+Groove FastWaltzSus
+Cresc f 8
+
+13       Em
+14       B+
+15       G6
+16       A7
+
+Groove FastWaltzSusPlus
+
+17      Am7
+18    D7(6)
+19      GM7
+20       G6     D7
+
+Groove FastWaltz
+
+21        G
+22       D7
+23       G6
+24        G
+
+Groove FastWaltzPlus
+Decresc m 8
+
+25       G6
+26        G
+27      Am6
+28       B7
+
+Groove FastWaltzSusPlus
+
+29       Em
+30       B+
+31       G6
+32       A7
+
+Groove FastWaltzSus
+
+33       D7
+34       G9
+35       C7
+36        /
+
+Groove FastWaltzPlus
+Decresc mp 4
+
+37       G6
+38        /
+39      Am7
+40       D7
+
+Groove FastWaltzSus
+
+41        G
+42       C6
+
+RepeatEnding 
+
+43        G
+44        D7
+
+RepeatEnding
+
+43        G
+45        /
+
+// Interlude
+Groove FastWaltzWalk
+Volume m
+
+46        G
+47        /
+48       D9
+49        /
+
+Groove FastWaltzWalkSus
+Volume +10
+
+50       D+
+51        /
+52      GM7
+53        /
+
+Groove FastWaltzWalk
+Volume +10
+
+54       B+
+55        /
+56        C
+57       A7
+
+Groove FastWaltzWalkPlus
+Volume mf
+
+58        G
+59       A7
+60      Am7
+61       D7
+
+Groove FastWaltzWalkSusPlus
+
+62        G
+63        /
+64      Am7
+65       D7
+
+Groove FastWaltzSus
+Volume +10
+
+66        B
+67        /
+68     C#m7
+69      F#7
+
+Groove FastWaltzSusPlus
+Volume mf
+
+70        D
+71        /
+72     Adim
+73        /
+
+Groove FastWaltzSus
+
+74      Em7
+75       A7
+76      Am7
+77       D7
+
+RepeatEnd  // this forces the verse for a 3rd time
+
+Groove FastWaltzEnd
+Seq 3
+Decresc ppp 2
+
+43        G
+44        /  z!

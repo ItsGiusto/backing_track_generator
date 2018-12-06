@@ -1,0 +1,76 @@
+// Spooky (1968)
+
+Tempo 110
+Keysig E minor
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+    Voice CleanGuitar
+    Harmony 3Below
+    Octave 4
+    Swell m f 4
+    Articulate 60
+    Begin Riff
+        4r;a;8;4.;
+        4r;g;8;4.;
+        4r;a;8;4.;
+        4r;g;8;
+    End
+End
+
+Groove SoftRockIntro
+Chord Sequence z
+Cresc pp mf 4
+
+1       Dm7
+2        G6
+3       Dm7
+Bass Riff 1 2 1 90;
+4        G6
+
+
+Repeat
+Groove SoftRock
+Volume m
+
+5       Dm7
+6        G6
+7       Dm7
+8        G6
+
+Groove SoftRock2
+Volume mf
+
+9       Dm7
+10       G6
+11      Dm7
+12       G6
+
+Groove SoftRockSus
+Volume f
+
+13      Dm7
+14        /
+15       G6
+16     Abdim
+
+Groove SoftRock2Sus
+Decresc m 2
+
+17      Dm7
+18       G6
+
+RepeatEnding 3
+
+19      Dm7
+Groove SoftRockFill
+20      Am7  /  G6
+
+RepeatEnd
+Groove SoftRockEnd
+Decresc ppp 2
+
+19      Dm7
+20      Am7  z!

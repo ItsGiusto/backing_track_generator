@@ -1,0 +1,96 @@
+// Blues In The Night
+
+Tempo 86
+Keysig Bb
+
+Groove Metronome2-4
+	
+	z * 2
+
+Groove SlowBlues
+
+0  z / / Bb
+1    Bb    
+2	/
+3	/
+4      Bb7   
+5      Eb7   
+6	/
+7      C7    F7 /   F+    
+8      Bb
+
+Groove SlowBluesWalk4
+    
+9      F7    
+10     C7    /    F7    
+11     Bb    
+12	/
+
+Groove SlowBlues
+
+13     Bb7   
+14     F7+5  /    Bbm7  Eb7   
+15     Bb    
+16	/
+
+Groove SlowBluesWalk8
+
+17     Eb9   
+18     /   /   /    F7    
+19     Bb    
+20	/
+
+Groove SlowBluesWalk4
+
+21     E7    
+22     C7    /    F7    
+23     Bb    
+24	/
+
+Repeat
+Groove SlowBluesSus
+
+25     Eb9   
+26     Ebm6  /    /    F7    
+27     Db7   
+28     C+    /    C7    
+29     G7b9  
+
+RepeatEnding
+
+30     Gm7b9 /    C7    
+31     F7    
+32     Cm7b9 /    F7    
+
+Groove SlowBluesWalk4Sus
+
+RepeatEnd
+
+33     Gm7b9 /    C7    
+34     F7    /    Ebm/Gb 
+35     Abm6  /    F7/A  
+36     Bb7   
+37     C7    /    F7 
+
+Groove SlowBlues
+   
+38     Bb    
+39	/
+40	/
+41     Bb7   
+42     Eb7   
+43	/
+44     C7    F7   /  F+    
+45     Bb    
+46     F7    
+47     C7    /    F7    
+48     Bb    
+49	/
+
+Groove SlowBluesEnd
+
+50     Bb7   
+51     C7b9  /    F7    
+52     C7    /    F7sus4 
+53     Bb   / z! 
+

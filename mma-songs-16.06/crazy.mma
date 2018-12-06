@@ -1,0 +1,97 @@
+// Crazy
+
+Tempo 78
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowCountryIntro
+AllGrooves Chord Octave 5
+
+Cresc p m 4
+1         Eb
+2         Fm
+3         Eb
+4       -B&7
+
+Repeat
+
+Groove SlowCountry
+Cresc mp mf 8
+
+5         Eb
+6         C7
+7         Fm
+8          /
+
+Groove SlowCountryPlus
+
+9        Bb7
+10         /
+11        Eb      /   //Bbdim3
+12       Fm7      /   //Bb7
+
+Groove SlowCountrySus
+Decresc mf mp 8
+
+13        Eb
+14        C7
+15        Fm
+16         /
+
+Groove SlowCountrySusPlus
+
+17       Bb7
+18         /
+19        Eb      /     Ab
+20        Eb      /   //Eb7
+
+Groove SlowCountryFill
+Volume m
+
+21        Ab
+22         /
+
+Groove SlowCountryFillPlus
+
+23        Eb
+24         /
+
+Groove SLowCountryWalkFill
+
+25        F7
+26         /
+
+Groove SlowCountryWalkFillPlus
+
+27       Bb7
+28       Bb+
+
+Groove SlowCountryWalk
+Volume mf
+
+29        Eb
+30        C7
+31        Fm
+32         /
+
+Groove SlowCountryFill
+
+33        Ab      /     Gm
+34        Fm      /     Cm
+
+RepeatEnding
+Volume m
+
+35       Fm7      /    Bb7
+36        Eb      /      /      z
+
+Repeatend
+Groove SLowCountryEnd
+Decresc m mp 2
+
+37       Fm7      /    Bb7
+38        Eb      /      z
+
+

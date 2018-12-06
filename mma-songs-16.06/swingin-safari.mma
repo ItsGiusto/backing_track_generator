@@ -1,0 +1,75 @@
+// Swingin Safari
+
+Tempo 150
+Groove Metronome2-4
+	z * 2
+
+Groove Swing
+
+1	z
+
+Label Start
+Repeat
+
+2      G     
+3      C     
+4      G     
+5      D7    
+6      G     
+7      C     
+8      G     /    D7    
+
+RepeatEnding
+
+9      G     
+
+Groove SwingWalk
+
+RepeatEnd
+
+Groove SwingPlus
+
+10     G     
+11     G     
+12     C     
+13     G     
+14     D7    
+15     G     
+16     C
+17     G     /    D7
+18     G 
+
+Groove Swing
+    
+19     G     
+20     C     
+21     G     
+22     D7    
+23     G     
+24     C    
+
+If Def Coda
+	Groove SwingEnd
+EndIf
+ 
+25     G     /    D7   
+26     G     
+
+if Def Coda
+	eof
+EndIf
+
+Groove SwingSus
+
+27     G     
+28     C     
+29     G     
+30     D7    
+31     G     
+32     C     
+33     G     
+34     D7 
+   
+Groove SwingPlusSus
+Set Coda
+Goto Start

@@ -1,0 +1,102 @@
+// Lazybones
+
+Tempo 98      /// this is Charmicael's tempo
+Keysig D
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+    Voice Piano1
+    Harmony 2Below
+    Articulate 105
+    Volume f
+    Octave 5
+    Rtime 10
+    Rvolume 10
+    Begin Riff
+        4.a;8f;2d;
+        81a;82^b;81f#;82^g;2a;
+        43^b;^;^;4;g;
+        1a;
+    End
+End
+
+Swell mp mf 4
+
+1         D
+2        Bm  / Bm7
+3        Em  / Em7
+4        A7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5         D      /      G
+6         D      /      G
+7         D      /      G    A7+
+8         D      /     D7
+
+Groove FoxtrotSus
+Cresc mf 4
+
+9       GM7  C9#11 F#m7b5    B7+
+10       Em
+11     E7/B  Bb7b5     A7    A11
+
+RepeatEnding
+Groove FoxtrotFill
+Seq 2
+12        D   D/F#   Fdim    Em7
+
+
+RepeatEnd
+Groove FoxtrotFill
+13        D    Em7   Fdim   D/F#
+
+Repeat
+Groove FoxtrotSusPlus
+Cresc mp m 4
+
+14        G      /     G6
+15      GM7      /      G
+16        D      /     A7
+17        D    Em7   Fdim   D/F#
+
+Groove FoxtrotPlus
+Swell m f 4
+
+18       G9      /     F9
+19       E7      /     A7
+20       E9
+21       A9     A7    A11     A7
+
+Groove Foxtrot
+Cresc mf 4
+
+22        D      /      G
+23        D      /      G
+24        D      /      G    A7+
+25        D      /     D7
+
+Groove FoxtrotSus
+Decresc mp 4
+
+26      GM7  C9#11 F#m7b5    B7+
+27       Em
+28     E7/B  Bb7b5     A7    A11
+
+
+RepeatEnding
+
+29        D      /     C7     D6
+
+RepeatEnd
+Groove FoxtrotEnd
+Decresc pp 2
+
+30        D      /     G9
+31        D     z!
+

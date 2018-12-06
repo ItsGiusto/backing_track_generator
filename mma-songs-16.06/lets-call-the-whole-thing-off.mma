@@ -1,0 +1,126 @@
+// Lets Call The Whole Thing Off
+
+Tempo 120
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove Foxtrot1Intro
+Begin Allgrooves
+  Chord-sax Voicing Mode=Key
+  Chord     Voicing Mode=Key
+  Chord-Piano Voicing Mode=Key
+  Chord-Sus   Voicing Mode=Key
+End
+
+Begin Chord-sax
+ Sequence  C13 C1234  C8 C1
+ Volume  m mp m mf
+ SeqRnd Off
+End
+
+Begin Solo
+    Voice Piano1
+    Articulate 110
+    Harmony 3Below+8Above
+    Octave 5
+    Volume ff
+    Begin Riff
+        8g;4;8b;4a;g;
+        8e;4d;8e;2e;
+        8a;;;;4;b;
+        1d+;
+    End
+End
+
+Swingmode Off
+
+Cresc mp mf 4
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove FoxTrot1
+Volume m
+
+5         G     Em     G6
+6        C6     Am     D7
+7         G     Em     G6
+8        C6     Am     D7
+
+Groove Foxtrot1Sus
+Volume mf
+
+9         G      /     G7
+10        C      /     Cm
+11        G      /     Em
+12       A7      /     D7
+
+Groove Foxtrot1Plus
+Decresc f m 4
+
+13        G      /     G6
+14       C6      /     D7
+15        G      /     G6
+16       C6      /     D7
+
+Groove Foxtrot1
+
+17        G      /     G7
+18        C      /      G    Cm6
+19        G      C     D7
+20        G
+
+Groove Foxtrot1Sus
+Cresc mf 2
+
+21      Em6
+22      F#7      /     Bm     D6
+23       E7      /     C6
+24       D7      /     /      Edim
+
+Groove Foxtrot1SusPlus
+Volume m
+
+25      Em6
+26      F#7      /     Bm     D6
+27       E7      /     C6
+28       D7
+
+Groove Foxtrot1
+Cresc mf 2
+
+29        G      /     G6
+30       C6      /     D7
+31        G      /     G6
+32       C6      /     D7
+
+Groove Foxtrot1Plus
+Volume m
+
+33        G      /     G7
+34        C      /      G    Cm6
+Decresc mp 2
+35        G      C     D7
+36       B7      /     E7
+
+
+RepeatEnding
+
+37       C6     Bm
+
+Groove FoxtrotFill
+
+38        G      /    Eb7     D+
+
+RepeatEnd
+
+Groove Foxtrot1End
+Decresc ppp 2
+
+37       C6     Bm
+39        G  A#dim     G6 z!
+

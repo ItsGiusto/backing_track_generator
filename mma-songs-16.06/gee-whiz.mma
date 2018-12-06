@@ -1,0 +1,112 @@
+// Gee Whiz (Carla Thomas)
+
+Tempo 64
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove R&B-BalladIntro
+
+Begin AllGrooves
+  Begin Arpeggio 
+     Octave 5
+     Harmony 3Below
+     RPitch Offsets=-2-2 Rate=5 Scale=Scale
+     Range  .9
+     Volume mp
+     Articulate 150
+  End
+End
+
+Begin Solo
+   Voice Organ1
+   Octave 5
+   Articulate 110
+   Harmony OpenBelow
+   Swell mp mf 4   
+   Begin Riff
+       2.a;3g;a;g;
+       2.f;4a;
+       2.g;3b;a;b;
+       2.c+;
+   End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7      /      /    C13
+
+Repeat
+Groove R&B-Ballad
+Volume m
+
+5         F      /     F+
+6        Bb      /    Bbm
+7         F      /     F+
+8        Bb      /     C7
+
+Groove R&B-BalladPlus
+Decresc mp 2
+
+9         F      /     Dm
+10       Gm      /     C7
+
+RepeatEnding
+
+11        F      /     Dm
+12       Gm      /     C7
+
+RepeatEnd
+
+13        F      /     Bb
+
+Groove R&B-BalladSus
+Volume m
+
+14        F      /     F7
+15       Gm      /     C7
+16        F      /     Dm
+17       Gm      /     C7
+
+Groove R&B-BalladSusPlus
+Cresc mf 4
+
+18        F      /     F7
+19       Bb      /     C7
+20        F      /     Dm
+21       G9
+
+Groove R&B-BalladSus
+Decresc m 4
+
+22       C7
+23        F      /     F+
+24       Bb      /    Bbm
+25        F      /     F+
+
+Groove R&B-Ballad
+
+26       Bb      /     C7
+27        F
+28       Dm
+29        F      /     Dm
+
+Groove R&B-BalladSus
+Decresc mp 2
+
+30     Bb/F      /     C7
+
+Tempo *.8 3
+
+31        /
+
+Groove R&B-BalladEnd
+Decresc ppp 2
+
+32        F
+33        / z!
+

@@ -1,0 +1,113 @@
+// Whats Your Name
+
+Tempo 66
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove Rock128Intro
+Cresc ppp m 2
+
+1          C      /     Am
+2         Dm      /     G7
+
+Repeat
+Groove Rock128
+Volume m
+
+3          C      /    Am7
+4        Dm7      /     G7
+
+Groove Rock128Sus
+
+5          C      /    Am7
+6        Dm7      /     G7
+
+Groove Rock128
+Volume mf
+
+7          C      /    Am7
+8        Dm7      /     Em
+
+Groove Rock128Plus
+Arpeggio Sequence Swing8
+Decresc mp 2
+
+9          C      /      F
+
+RepeatEnding
+
+10         C
+
+RepeatEnd
+
+11         C      /     C7
+
+Groove Rock128SusPlus
+Arpeggio Sequence Swing8
+Volume m
+
+12         F
+13        Fm
+
+Groove Rock128Sus
+Volume mf
+
+14         C      /     G7
+15         C
+
+Groove Rock128Plus
+Arpeggio Sequence Swing8
+Cresc ff 4
+
+16         F      /     Db
+17         C    CM9     Am
+
+Groove Rock128
+
+18       Dm7      /     D7
+19        G7
+
+Groove Rock128Sus
+
+// the next bar is 2/4
+Truncate 2
+20       /    z
+
+Groove Rock128
+Volume m
+
+21         C      /     Am
+22       Dm7      /     G7
+
+Groove Rock128Plus
+Arpeggio Sequence Swing8
+Cresc mf 2
+
+23         C      /    Am7
+24       Dm7      /     G7
+
+Groove Rock128Sus
+Cresc f 2
+
+25         C      /    Am7
+26       Dm7      /     Em
+
+Groove Rock128Plus
+Arpeggio Sequence Swing8
+Decresc pppp 6
+
+27         C      /      F
+28         C
+
+Groove Rock128Sus
+
+29         F
+30        G7
+
+Groove Rock128End
+
+31         C      /     F7
+32         C      z!
+

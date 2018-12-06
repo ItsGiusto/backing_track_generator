@@ -1,0 +1,104 @@
+// Non Dimenticar (1951)
+
+Tempo 86
+KeySig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BeguineIntro
+
+Begin Solo
+    Voice Strings
+    Harmony OpenBelow
+    Octave 5
+    Volume mf
+    Articulate 120
+    Begin Riff
+       8b;c+;d+;b;2c+;
+       8g;a;b;g;2a;
+       8c+;b;a;g;4a;g;
+       1f;
+    End
+End
+
+Decresc mp pp 4
+
+1         Bb
+2         Gm
+3         Cm
+4         F7
+
+Repeat
+Groove Beguine
+Volume m
+
+5         Bb      /   BbM7
+6         Bb      /     G9
+7        Cm7      /     F7
+8       Bdim      /    Cm7
+
+Groove Beguine1
+Decresc mp 4
+
+9          /
+10        F9      /    Cm7    F7+
+11        Bb      /   Bdim
+12       Cm7      /      /     F9
+
+Groove Beguine
+
+13        Bb      /   BbM7
+14        Bb      /     G9
+15       Cm7      /     F7
+16      Bdim      /    Cm7
+
+Groove BeguineSus
+Cresc m 4
+
+17         /
+18        F9      /    Cm7     F7
+19        Bb      /    Ebm
+20     Bbdim      /    Bb7
+21       Fm7      /    Bb7
+
+Groove Beguine1Sus
+
+22       Fm7      /    Bb7   Bb7+
+23       Eb6
+24         /
+25       Gm7      /     C7
+
+Groove Beguine
+Volume mp
+
+26       Gm7      /     C7
+27       Cm7
+28      Ebm6      /      /     F7
+29        Bb      /   BbM7
+30        Bb      /     G9
+
+Groove Beguine1
+Cresc m 4
+
+31       Cm7      /     F7
+32      Bdim      /    Cm7
+33        F9      /    Cm7
+34        F9      /    Cm7    Ebm
+
+RepeatEnding
+
+35        Bb      /     Eb    Ebm
+
+Groove BeguineFill
+Volume mp
+36        Bb      /     C7
+
+RepeatEnd
+
+Groove Beguine2End
+Decresc pppp 2
+
+35        Bb      /     Eb    Ebm
+36        Bb     z!
+

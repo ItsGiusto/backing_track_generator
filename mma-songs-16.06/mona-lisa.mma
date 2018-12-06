@@ -1,0 +1,82 @@
+// Mona Lisa
+
+Tempo 70
+Keysig Eb
+
+Groove Metronome2-4
+	   z * 2
+
+Groove PianoBalladIntro
+
+Begin Solo
+	  Voice SlowStrings
+	  Cresc mp  f 4
+	  Octave 5
+	  Harmony OpenAbove
+	  Articulate 99
+	  Begin Riff
+	  	8e;g;4b;2;
+		8c;e;4g;2;
+		8f;g;a;b;c+;b;a;g;
+		2.f;
+	End
+End
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove PianoBallad
+Cresc mp m 4
+
+5      EbM7
+6         /
+7       Gm7      /     C7
+8       Fm7      /    Bb7
+
+Groove PianoBallad1
+
+9       Fm7      /    Bb7
+10      Fm7      /    Bb7
+11      Fm7      /    Bb7
+12     EbM7
+
+Groove PianoBalladSus
+Decresc mp 4
+
+13        /
+14        /
+15      Gm7      /   Bbm7    Eb7
+16     AbM7
+
+Groove PianoBallad1Sus
+Cresc f 8
+
+17     Abm7      /      /    Db7
+18     EbM7      /     C7
+19      Fm7      /    Bb7
+20     EbM7      /   Bbm7    Eb7
+
+Groove PianoBallad1
+
+21     AbM7      /  Adim7
+22      Gm7      /     C7
+23      Fm7      /    Bb7
+
+RepeatEnding
+
+24     EbM7      /    Fm7    Bb7
+
+RepeatEnd
+Decresc p 2
+
+25     EbM7
+26    Fm7b5      /  Bb7b9
+
+Groove PianoBalladEnd
+
+27     EbM7
+28        /  / z!
+

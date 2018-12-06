@@ -1,0 +1,112 @@
+// Be Anything
+
+Tempo 72
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove SlowBluesIntro
+
+Begin Solo
+    Voice SynthVox
+    Volume F
+    Harmony 3Below+Open8Below
+    Articulate 120
+    Octave 5
+    Begin Riff
+        2f+;c+;
+        2d+;a;
+        8r;f+;e&+;d+;4c+;8b;a&;
+        2g;
+    End
+End
+
+Swell p m 4
+
+1         F
+2         Dm7
+3         Fm7
+4        C7      /      /    F7+
+
+
+Groove SlowBlues
+Volume m
+
+5        Bb
+6       Bbm
+7         F
+8     Abdim3
+
+Groove SlowBluesFill3
+Cresc mf 3
+
+9       Gm7
+10       C7
+11        F
+12     B7b9      /      F    F7+
+
+Groove SlowBluesSus
+Volume m
+
+13       Bb
+14      Bbm
+15        F
+16    Abdim3
+
+Groove SlowBluesFill1
+Cresc mf 2
+
+17      Gm7
+18       C7
+19       F9
+20        /
+
+Repeat
+Groove SlowBlues
+Decresc mf m 4
+
+21       Bb
+22        A      /     A7
+23       D7      /     G7
+24       C7
+
+Groove SlowBluesSus
+Cresc mf 2
+
+25       Dm      /    Dm7
+26       G7      /      /   Gdim3
+27      Gm7
+28     C9#5      /      /    F7+
+
+Groove SlowBluesFill3
+Decresc f m 4
+
+29       Bb
+30      Bbm
+31        F      /      /  Am7b5
+32      D7+      /     D7
+
+Groove SlowBluesFill1
+Decresc mp 2
+
+33       G7      /     G9
+34      Gm7    Gm6      /   C7b9
+
+RepeatEnding
+
+35        F
+
+Groove SlowBlues34Triple
+
+36     Fdim3>1   C7    F7+>1
+
+RepeatEnd
+
+Groove SlowBluesEnd
+Seq 2
+Decresc ppp 2
+
+37        F      /    Bb6  Bbdim3
+38        F     z!
+

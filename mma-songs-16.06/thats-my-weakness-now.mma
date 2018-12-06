@@ -1,0 +1,104 @@
+// Thats My Weakness Now
+
+Tempo 200
+Keysig Eb
+
+Groove Metronome2-4 
+	   z * 2
+
+Groove QuickStepIntro
+
+Begin Solo
+	  Voice SynthVox
+	  Volume f
+	  Harmony Open+8Below
+	  Articulate 90
+	  Octave 6
+	  Begin Riff
+	    2b;g;
+        4an;b;2g;
+        4f;g;a;an;
+        1b;
+      End
+End
+
+Cresc mp mf 4
+	  
+1        Eb
+2       /
+3       F7
+4       Bb7
+
+Repeat
+Groove Quickstep
+Volume m
+
+5        Eb
+6     Ebdim     Eb
+7         /
+8     Ebdim     Eb      /  Bbdim
+
+Volume f
+
+9       Bb7
+10       F+    Bb7
+11       F7      /    Bb7
+
+Groove QuickStepHit
+
+12       Eb
+
+Groove QuickStepDuh
+Volume mf
+
+13        /
+14    Ebdim     Eb
+15        /
+16    Ebdim     Eb      /  Bbdim
+
+Decresc m 4
+
+17      Bb7
+18       F+    Bb7
+19       F7      /    Bb7
+20       Eb      /    Eb7
+
+Groove QuickstepSus
+Decresc mp 8
+
+21       Ab
+22        /      /     Ab7
+23       Eb
+24        /
+
+25        /      /     Cm
+26      Bbm      /     C7
+27       F7      /   F7b5
+
+Groove QuickStepHitSus
+
+28      Bb7      /  Bb7#5
+
+Groove QuickStepDuh
+Cresc mf 8
+
+29       Eb
+30    Ebdim     Eb
+31        /
+32    Ebdim     Eb    /   Bbdim
+
+33      Bb7
+34       F7    Bb7
+35       F7      /    Bb7
+
+RepeatEnding 2
+
+Groove QuickStepHit
+36       Eb      /     Bb  Bb7#5
+
+RepeatEnd
+
+Groove QuickStepEnd
+
+37       Eb  z!
+

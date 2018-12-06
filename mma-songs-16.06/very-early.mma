@@ -1,0 +1,133 @@
+// Very Early
+
+Tempo 120
+Keysig C
+
+Groove JazzWaltzIntro
+  z * 2
+
+Groove JazzWaltzIntro
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Harmony 3Below
+    Octave 5
+    Articulate 110
+    Begin Riff
+        2c+;4g;
+        2b;4e;
+        2a;4d;
+        2.g;
+    End
+End
+
+Swell mp mf 4
+
+1          CM7
+2         Am9
+3         Dm9
+4         G9
+
+Repeat
+Groove JazzWaltz
+Volume m
+
+5        CM7
+6        Bb9
+7       EbM7
+8      Ab7#9
+
+Groove JazzWaltzSus
+Cresc mf 4
+
+9       DbM7
+10       G13
+11       CM7
+12     Bb9b5
+
+Groove JazzWaltz
+Decresc mp 4
+
+13       DM7
+14       Am7
+15      F#m7
+16      B7b9
+
+Groove JazzWaltzSus
+
+17       Em7
+18      Ab13
+
+Cresc m 2
+
+19      DbM7
+
+RepeatEnding
+
+Groove JazzWaltzFill
+
+20     G9sus
+
+RepeatEnd
+
+Groove JazzWaltzFill
+
+21       G7+
+
+Repeat
+Groove JazzWaltz2
+Decresc mf m 4
+
+22       BM9
+23    Ab13b9
+24      DbM7
+25      Bb13
+
+Groove JazzWaltz1Sus
+
+26       BM7
+27       G13
+28       CM7
+29       Ab7
+
+Groove JazzWaltz2Sus
+Cresc mf 4
+
+30      DbM7
+31       G13
+32       CM9
+33    A7b5b9
+
+Groove JazzWaltz
+Decresc m 2
+
+34       Dm7
+35        F6     G7
+36       Dm7    Em7
+37       FM7      /     G7
+
+Groove JazzWaltz2
+Decresc mp 2
+
+38       FM7      /    Em7
+39       Dm7      /    CM7
+
+RepeatEnding
+
+Groove JazzWaltz2Sus
+
+40       BM7
+
+Groove JazzWaltzFill
+
+41         /
+
+RepeatEnd
+
+Groove JazzWaltzEnd
+Decresc p 2
+
+40       BM7
+41         / z!
+
+

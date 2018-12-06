@@ -1,0 +1,86 @@
+// When I Take My Sugar To Tea
+
+Tempo 124
+Keysig 1b
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+	Voice Piano1
+	Volume f
+	Harmony 3above
+	Octave 5
+	Articulate 80
+	Begin Riff
+		4f;;8;g;4f;
+		4f;;8;g;4f;
+		4g;;8;a;4g;
+		1c+;
+	End
+End
+
+Cresc p mf 4
+Swingmode On
+
+1      F     
+2      Dm    
+3      Gm    
+4      C7 
+
+Delete Solo
+   
+Repeat
+Groove FoxTrot
+Repeat
+
+5      F     /    F#dim 
+6      C7    
+7      F     /    F#dim 
+8      C7    
+9      Am7   /    D7    
+10     Gm7   /    Eb7   
+11     A7    D7    G7    C7    
+
+RepeatEnding
+
+12     F6    /    C7    
+
+Groove FoxTrotSus
+
+RepeatEnd
+
+13     F     /    F7
+
+Groove FoxTrotPlus
+    
+14     Bb    
+15	/
+16     Eb7   
+17	/
+18     F     
+19	/
+20     Db7   
+21     C7    
+
+Groove FoxTrot
+
+22     F     /    F#dim 
+23     C7    
+24     F     /    F#dim 
+25     C7    
+26     Am7   /    D7    
+27     Gm7   /    Eb7   
+
+RepeatEnding
+
+28     A7    D7    G7    C7    
+29     F 
+
+RepeatEnd
+Tempo *.8 2
+Groove FoxTrotEnd
+
+28     A7    D7    G7    C7   
+29     F   / z!

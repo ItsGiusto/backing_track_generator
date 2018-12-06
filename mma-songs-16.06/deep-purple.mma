@@ -1,0 +1,85 @@
+// Deep Purple
+
+Tempo 120
+KeySig F
+
+Groove Metronome2-4
+	z * 2
+	
+Groove FoxTrotSus
+Bass-Sus Volume p
+Chord-Sax SeqRnd Off
+
+Begin Solo
+	Voice $_Bass_Voice
+	Octave 3
+	Volume ff
+	Articulate 80
+End
+
+Bass Sequence -
+
+1      F          {4.c+;8;4;;}
+2      Dm         {4.d+;8;4;4;}
+3      Gm         {3+3d+;c+;b;a;g;f;}
+4      C z / C7   {2e;}
+
+Delete Solo
+Repeat
+
+Groove FoxTrot
+
+5      F     
+6      F#dim 
+7      Gm    /    D+    Gm7   
+8      C13   /    C9   C9    
+9      FM7   F6    F     FM7   
+10     Cm    
+11     D7    /    C     
+12     Fm    /    DM7   D7    
+13     Gm    /    Abdim Gm6   
+14     Bbm   /    Bbm6  
+15     Am7   /    Cdim  F6    
+16     Abdim 
+17     Gm7   /    Gdim  C7    
+18     C9    /    C7+   
+19     F     /    F#dim 
+20     C7    
+
+Groove FoxTrotPlus
+
+21     F     
+22     F#dim 
+23     Gm    /    D+    Gm7   
+24     C13   /    C9   C9    
+25     FM7   F6    F     FM7   
+26     Cm    
+27     D7    /    C     
+28     Fm    /    DM7   D7    
+29     Gm    /    Abdim Gm6   
+30     Bbm   /    Bbm6  
+31     Am7   /    Cdim  F6    
+32     Abdim 
+
+Groove FoxTrotSusPlus
+
+33     Bb6   /    Bbm6  C7    
+34     Gm    /    Abm   C7    
+
+RepeatEnding
+
+Groove FoxTrot1Sus
+
+35     F     /    Bb    
+36     F     /    C7    
+
+RepeatEnd
+label foo
+Groove FoxTrot1End
+
+Tempo *.8 2
+
+37     F     FM7   Bb9   Bb13  
+38     F   /  z!
+
+

@@ -1,0 +1,114 @@
+// Gonna Get Along Without Ya Now
+
+// This is the Tereas Brewer song. I have no idea when, where or how.
+
+Tempo 170
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove JiveIntro
+Begin Solo
+    Voice Piano1 
+    Harmony 3
+	Volume ff
+	Octave 5
+	Articulate 90
+	Begin Riff
+	    4f;8;4;8;4;
+        4d;8;4;8;4;
+        4g;8;4;8;4;
+        4c+;;2;
+	End
+End
+
+Cresc pp m 4
+
+1    F    
+2    Dm   
+3    Gm   
+4    C7   
+
+Repeat
+Groove Jive
+Volume m
+
+5    F    
+6    Am   
+7    Gm7  /    C7   
+8    F    /    C7
+
+Groove JivePlus
+
+9    F    
+10   Am   
+11   Gm7  /    C7   
+12   F   /     Am
+
+Groove JiveSus
+
+13   F
+14   Dm7  
+15   Gm7  
+16   C9   
+
+Groove JiveSusPlus
+
+17   F   /  Am
+18   Dm7  
+19   Gm9  
+20   C9   
+
+Groove JiveClap
+
+21   /  
+
+Groove Jive
+  
+22   F    
+23   Am   
+24   Gm7  /    C7   
+25   F    /    C7
+
+Groove JiveClap
+
+26   F    
+27   Am   
+
+Groove JiveSus
+
+28   Gm7  /    C7   
+
+RepeatEnding 2
+
+Groove JiveClap
+
+29   F
+
+RepeatEnd
+
+Decresc pppp 8
+
+Groove JiveClap
+30   F   
+
+Groove Jive 
+     F
+    Am
+    Gm7 / C7
+
+Groove JiveClap
+   
+    F
+
+Groove Jive
+
+	F
+    Am
+
+Groove JiveEnd
+
+    Gm7 / C7
+    F   /  z!
+

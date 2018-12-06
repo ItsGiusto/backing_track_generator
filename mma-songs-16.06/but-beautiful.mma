@@ -1,0 +1,121 @@
+// But Beautiful (Bing Crosby 1947)
+
+Tempo 60
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Set Push0 .7  /// not quite swing 
+
+Groove EvansishIntro
+
+Begin AllGrooves
+   Chord-strings Volume p
+   Arpeggio-Piano Octave 6
+End
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Harmony Open8Above+2Below
+    HarmonyVolume 40
+    Articulate 110
+    Volume mf
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+        8b;a;g;f;4e;d;
+        2.e;4d;
+        8a;g;a;g;2a;
+        2f;d;
+    End
+End
+
+Swell mp m 4
+
+1         G
+2        Em
+3        Am
+4        D7  / /  z!
+
+
+Repeat
+Groove Evansish
+Volume m
+
+5         G
+6     G#dim
+7       Am9
+8     Bbdim
+
+Groove EvansishPlus
+Cresc mf 4
+
+9         G
+10      Dm6      /     E7
+11       A9
+12        /
+
+Groove Evansish
+Decresc p 4
+
+13       D7      /      /  F#dim
+14        G      /    Em7
+15      Am7      /      /     D7
+16        G
+
+Groove EvansishSus
+Cresc m 3
+
+17      Em6      /    Em7
+18       A9
+19      Am7
+20        /     Cm      /     D7
+
+Groove EvansishSusPlus
+
+21      GM9
+22    G#dim
+23      Am9
+24    Bbdim
+
+Groove EvansishPlus
+Cresc mf 4
+
+25        G
+26       Dm      /     E7
+27       A9
+28        /
+
+Groove Evansish
+Volume f
+
+29        D      /     D7
+30        G      /    Em7
+31      Am7      /    B7+     B7
+32       Em      /     F9
+
+Groove EvansishPlus
+Decresc mp 2
+
+33        G      /    Bb7
+34      Am7      /    Ab7
+
+RepeatEnding
+
+35        G
+
+Groove EvansishFill
+
+36       D7
+
+
+RepeatEnd
+
+Groove EvansishEnd
+Decresc ppp 2
+Tempo *.8 2
+37        G
+38        /  /  z!
+

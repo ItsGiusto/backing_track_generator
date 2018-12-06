@@ -1,0 +1,102 @@
+// Sposin
+
+Tempo 144
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove QuickStepIntro
+Begin Solo
+    Voice Piano2
+	Volume f
+	Harmony OpenAbove+8Above
+	Octave 4
+	Articulate 90
+	Begin Riff
+	    4b-;c;e;f;
+		4c;e;g;b;
+		4c+;a;f;c;
+		1d;
+	End
+End
+
+1        Eb
+2        Cm7
+3        Fm7
+4        Bb9
+
+
+Repeat
+Groove QuickStep
+
+5        Eb      /   AbM7
+6       Gm7      /   C7b9
+7       Fm7
+8       Bb9
+
+Groove QuickStepDuh
+
+9       Eb6      /   AbM7
+10      Gm7      /   C7#5
+11      Fm7
+12      Bb9
+
+Groove QuickStep
+
+13       Eb
+14        /
+15      Cm7
+16        /
+
+Groove QuickStepSus
+
+17       F9
+18        /
+19      Fm7
+20        /
+
+Groove QuickStep
+
+21       Eb      /   AbM7
+22      Gm7      /   C7b9
+23      Fm7
+24      Bb9
+
+Groove QuickStepDuhSus
+
+25      Eb6      /    Fm7    Gm7
+26    Am7b5      /   Bbm7    Eb9
+27      Ab6
+28    Dm7b9      /   G7b9
+
+Groove QuickStep
+
+29      Cm7      /   Eb/G
+30   Gbdim7      /    Fm7  Fm
+31      Dm7      /     G7
+32      Cm7      /     F9
+
+Groove QuickStepSus
+
+33    Eb/Bb      /      / Bb7/Ab
+34       G7   C7#5    Fm7  Bb7b9
+
+RepeatEnding
+
+35       Eb
+
+Groove QuickStepHit
+
+36      Fm7      /    Bb7
+
+
+RepeatEnd
+Groove QuickStepEnd
+Decresc ppp 2
+Tempo *.8 2
+
+35       Eb
+36      Db9     D9   EbM9   z!
+
+

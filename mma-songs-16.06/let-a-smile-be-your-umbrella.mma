@@ -1,0 +1,108 @@
+// Let A Smile Be Your Umbrella
+
+Tempo $(110 * 2)
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove QuickstepIntro
+
+Begin Solo
+    Voice Trombone
+    Octave 4
+    Volume f
+    Harmony OpenBelow
+    Articulate 90
+    Begin Riff
+        2f+;e+;
+        2d+;c+;
+        2b;a;
+        2g;
+    End
+End
+
+Cresc mp f 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove QuickStep
+Volume m
+
+5         F      /      /  F#dim
+6        Bb      /      /      F
+7        Bb      /      /      F
+8      Fdim      /      F
+
+Groove QuickStepSus
+Cresc mf 4
+
+9        C7
+10        /      /   Cdim
+11       C7      /    Gm7
+12       C7
+
+Groove QuickStepDuh
+Decresc m 4
+
+13       Gm
+14       C7
+15        /
+16    F#dim      /     C7
+
+Groove QuickStepDuhSus
+
+17        F
+18        /      /     E7
+19        F
+20        /
+
+Groove QuickStepSus
+Volume mf
+
+21       D7
+22       Cm
+23       D7      /      C
+24       Fm      /     D7
+
+Groove QuickStepSusWalk
+Volume f
+
+25       G7
+26        /
+27       C7
+28        /
+
+Groove QuickStep
+Decresc m 4
+
+29        F      /      /   Fdim
+30       Bb      /      F
+31       Bb      /      F
+32      Eb9      /     D9
+
+Groove QuickStepDuh
+Decresc mp 2
+
+33       G7
+34      Gm7      /     C7
+
+
+RepeatEnding 2
+
+35        F
+36        /     C7
+
+RepeatEnd
+
+Groove QuickStepEnd
+Decresc ppp 2
+
+35        F
+37        / z!
+

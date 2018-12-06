@@ -1,0 +1,104 @@
+// I Was Doing All Right
+
+Tempo 104
+Keysig g
+
+Groove Metronome2-4
+ z * 2
+
+Groove ModernJazzIntro
+
+Begin Solo
+ Voice Piano1
+ Volume f
+ Harmony Open+8below
+ Articulate 90
+ Octave 5
+ Begin Riff
+   43d+;;;;c+;b;
+   4e+;d+;2b;
+   43a;;;b;a;g;
+   2.f;
+ End
+End
+
+Decresc m pp 4
+Chord-trp Sequence -
+
+1    G    
+2    Em   
+3    Am   
+4    D7   / / z
+
+Repeat
+Groove ModernJazz 
+Swell m f 8
+
+5    G6   /    G#dim7 
+6    Am7  /    D7   
+7    G6   /    G#dim3
+8    Am7  /    D7   
+9    GM7  /    G7   
+10   Em7  /    Am7  
+11   GM7  /    Am7  
+12   Bm7  /    CM7
+
+Groove ModernJazz1
+Swell m mp 8
+
+13   G6   /    G#dim3 
+14   Am7  /    D7   
+15   G6   /    G#dim3 
+16   Am7  /    D7   
+17   GM7  /    G7   
+18   Em7  /    Am7  
+19   GM7  /    Am7  
+20   Bm7  /    /    B7   
+
+Groove ModernJazzSus
+Volume mp
+
+21   E6   
+22   /    /    B7b9 
+23   E6   
+24   A9   
+25   E6   /    EM7  
+26   C#m  /    G#m  
+27   A    /    E    
+28   Am   /    A#dim3 
+
+Groove ModernJazz1Sus
+Cresc mf 8
+
+29   G6   /    G#dim3 
+30   Am7  /    D7   
+31   G6   /    G#dim3 
+32   Am7  /    D7   
+33   GM7  /    G7   
+34   Em7  /    Am7  
+
+Groove ModernJazzSus
+
+35   G    /    Em   
+
+RepeatEnding
+
+36   Am7  
+37   G6   /    Eb7  
+
+Groove ModernJazz
+
+38   C    /    D7   
+
+RepeatEnd
+
+Decresc pp 4
+
+39   Am7  
+40   G6   /    Eb7  
+
+Groove ModernJazzEnd
+
+41   CM7  /    D7   
+42   G    /    z!   
+

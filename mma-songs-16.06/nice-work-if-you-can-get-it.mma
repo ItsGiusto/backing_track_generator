@@ -1,0 +1,106 @@
+// Nice Work If You Can Get It
+
+Tempo 148
+Keysig G
+
+Groove Metronome2-4
+    z * 2
+
+Groove FoxtrotIntro
+Begin Solo
+    Voice MutedTrumpet
+	Articulate 90
+	Harmony Open+8Below
+	Octave 5
+	Volume f
+	Begin Riff
+	   4e+;;d+;;
+	   4c+;2.;
+	   4d+;;a;;
+	   1g;
+	End
+End
+
+Cresc mp f 4
+
+1         E
+2        Am
+3       Dm7
+4         G
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5        B7      /     E7
+6        A7      /     D7
+7        G7      /     C7
+8        A7      /   A7b9
+
+Volume mf
+
+9       G/D
+10       Am      /    G/B
+11       C6    G/B  Bbdim    Am7
+12        G
+
+Groove FoxTrotPlus
+Swell f 8
+
+13       B7      /     E7
+14       A7      /     D7
+15       G7      /     C7
+16       A7      /   A7b9
+
+Groove FoxTrotSus
+
+17      G/D
+18      Am7      /    G/B
+19       C6    G/B  Bbdim    Am7
+20        G
+
+Groove FoxTrotPlus
+Volume mp
+
+21       Em
+22       C9
+23      Em7
+24       A7
+
+Groove FoxTrotSusPlus
+Cresc m 4
+
+25       Dm      /   Dm/F
+26     A7/E      /     A7
+27      Am7
+28     D7#5      / D7#5/C
+
+Groove FoxtrotSus
+Decresc mp 4
+
+29       B7      /     E7
+30       A7      /     D7
+31       G7      /     C7
+32       A7      /   A7b9
+
+Groove Foxtrot
+Volume m
+33      G/D
+34      Am7      /    G/B
+35       F7      /     E7
+36      Am7      /   Am7   D7#5
+
+RepeatEnding
+
+37        G      /    Eb7     D7
+Groove FoxtrotFill
+38       G6
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc pp 2
+
+37        G      /    Eb7     D7
+38       G6
+

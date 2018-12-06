@@ -1,0 +1,188 @@
+// Lady Madonna
+
+Tempo $( 106 * 2 )
+Keysig G
+
+Groove Metronome2-4
+   z * 2
+
+/// Change the sequence for the '1' arps.
+
+Groove Blues1
+Begin Arpeggio
+ Sequence A4 / / A8
+ SeqRnd On
+ Harmony 2Above
+ Rskip 70
+ Direction Random
+End
+DefGroove Blues1
+
+Groove Blues1Sus
+Begin Arpeggio
+  Sequence A4 / / A8
+  SeqRnd On
+  Harmony 2Above
+  Rskip 70
+  Direction Random
+End
+DefGroove Blues1Sus
+
+///// Intro
+
+Groove BluesIntro
+Begin Solo
+    Voice Piano2
+    Harmony 2Below+8Below
+    Octave 5
+    Volume f
+    Articulate 105
+    Begin Riff
+        4b;;;a;
+        4a;2g;4;
+        4c+;;;b;
+        2.d+;
+    End
+End
+
+Begin Solo-2
+    Voice Banjo
+    HarmonyOnly 2Above
+    Articulate 140
+    Volume mp
+    Octave 5
+End
+
+Solo DupRiff Solo-2
+
+Swell m mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+/// Song
+
+Groove Blues
+Volume m
+
+5         G
+6         C
+7         G
+8         C
+
+Groove Blues1
+
+9         G
+10        C      /      G
+11       Eb      /      F
+12        G
+
+Groove BluesSus
+
+13        /
+14        C
+15        G
+16        C
+
+Groove Blues
+
+17        G
+18        C      /      G
+19       Eb      /      F
+20        G
+
+Label Sign
+
+Groove Blues1
+Volume mf
+
+21       Cm
+22        /
+23       F7
+24        /
+
+Groove Blues1Sus
+Cresc f 4
+
+25       Bb
+26        /
+27        /
+28        /
+
+Groove Blues1
+Volume mf
+
+29       Cm
+30        /
+31       F7
+32        /
+
+Repeat
+
+Groove Blues1Sus
+Volume m
+
+33       Bb
+34      Cm6
+35   D7sus4
+36       D7
+
+Groove Blues
+Cresc mf 4
+
+37        G
+38        C
+39        G
+40        C
+
+Groove Blues1
+Decresc m 2
+
+41        G
+42        C      /      G
+
+If Def ToCoda
+ Goto Coda
+Endif
+
+43       Eb      /      F
+
+RepeatEnding
+
+44        G
+
+
+Groove BluesSus
+
+45        /
+46        C
+
+
+Groove BluesTripleSus
+
+47        G
+48       F7
+
+RepeatEnd
+
+Groove BluesTriple
+
+49        G
+
+Set ToCoda
+Goto Sign
+
+Label Coda
+
+Groove BluesEnd
+Seq 2
+Decresc ppp 3
+Tempo *.8 3
+
+50       Eb      /      F
+51        G
+52        /   z!
+
+

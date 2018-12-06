@@ -1,0 +1,140 @@
+// So Many Stars
+
+Tempo 98
+Keysig Db
+
+Groove Metronome2-4
+  z * 2
+
+Groove BossaNovaIntro
+AllGrooves Arpeggio Octave 5
+
+Begin Solo
+    Voice Strings
+    Octave 5
+    Harmony OpenBelow+8Below
+    Volume mf
+    Articulate 120
+    Begin Riff
+        2+8d;8e;f;e;
+        2+8d;8e;f;g;
+        2.a;4g;
+        2.a;
+    End
+End
+
+Decresc mf mp 4
+
+1        Db
+2       Bbm
+3       Ebm
+4       Ab7
+
+Repeat
+Groove BossaNova
+Volume m
+
+5    GbM7
+6    Ab13b9
+7      Abm7
+8     Db7b9      /   Db13
+
+Groove BossaNovaPlus
+Decresc mp 2
+
+9      GbM7
+10      B13
+
+Groove BossaNova1Sus
+Volume m
+
+11       Fm      /   Db/F
+12      Fm6      /    Fm7
+13     FmM7      /    Fm7
+14   Bb7#5#9
+
+Groove BossaNova
+Cresc mf 4
+
+15   GbM7
+16   Ab13b9
+17    Db6(add9)
+18   Bb9sus      / Bb7#5#9
+
+Groove BossaNova2Sus
+Decresc m 2
+
+19   GbM7
+20   Ab13b9
+21     Abm7
+22    Db7b9      /   Db13
+
+Groove BossaNovaSusPlus
+Decresc mp 2
+
+23     GbM7
+24      B13
+
+Groove BossaNova1SusPlus
+Cresc m 4
+
+25       Fm      /   Db/F
+26      Fm6      /    Fm7
+27     FmM7      /    Fm7
+28   Bb7#5#9
+
+
+Groove BossaNovaSus
+Swell mf 4
+
+29   GbM7
+30   Ab13b9
+31    Db6(add9)
+32     GbM7
+
+Groove BossaNovaPlus
+Volume mp
+
+33     Gm11
+34   Gb13#11
+35     Fm11
+36   Bb13b9
+
+Groove BossaNovaSusPlus
+Cresc m 2
+
+37    Ebm11
+38   Ab13b9
+39      F13      /    F7+
+40   Bb7sus      / Bb7b5#9
+
+Groove BossaNova
+
+41   GbM7
+42   Ab13b9
+43      Fm9
+44     Bb7+
+
+Groove BossaNovaSus
+Decresc mp 2
+
+45     Ebm9
+46   Ab13b9
+
+Repeatending
+
+47    Db6(add9)
+
+Groove BossaNovaFill
+
+48    Cb6(add9)
+
+RepeatEnd
+
+Groove BossaNova2End
+Decresc ppp 2
+
+47    Db6(add9)
+48    /  z!
+
+

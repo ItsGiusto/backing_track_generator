@@ -1,0 +1,106 @@
+// Sermonette
+
+Tempo 125
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove FoxtrotIntro
+Begin Solo
+    Voice AcousticBass
+    Octave 4
+    Articulate 70
+    Volume fff
+    Harmony Open8Below
+    Begin Riff
+        2a;f;
+        4.a;8r;81a;82g;4f;
+        2g;f;
+        2.g;
+    End
+End
+
+Cresc m f 4
+
+1         F
+2         Dm
+3         Gm
+4         C7
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5         F
+6         /      /     F6 D7b5/F#
+7       C/G
+8        C7      /   Am/C  A7/C#
+
+Groove FoxTrotPlus
+Volume mf
+
+9        Dm      /    F/A     Bb@4.5
+10        /    F/A    Gm7 F#dim7
+11        G      /     G7
+12       C7
+
+Groove FoxTrotSusPlus
+Cresc m f 4
+
+13        F
+14        /      /     F6 D7b5/F#
+15      C/G
+16       C7      /   Am/C  A7/C#
+
+Groove FoxTrot
+Decresc m 4
+
+17       Dm      /     Bb
+18      F/A      /    Gm7
+19        F      /    Gm7   C7b9
+20        F
+
+Groove FoxTrotSus
+
+21       C7      /   C7b5   C7@4.5
+22        /
+23        F      /     Bb
+24        F      /      /  A7/C#
+
+Groove FoxTrotSusPlus
+Volume mf
+
+25       Dm      /     Am     Bb6@4.5
+26        /   F6/A    Gm7 F#dim7
+27        G      /     G7
+28       C7
+
+Groove FoxTrotPlus
+Decresc m 4
+
+29        F      /    FM7      F7@4.5
+30        /
+31      Bb6      /  Bdim7
+32     F6/C      /   Bb/D  Gm7b5
+
+Groove FoxTrot
+Decresc mp 2
+
+33        F      /    Dm7      G9@4.5
+34        /     G7     C7
+
+RepeatEnding
+
+Groove FoxTrotFill
+
+35        F     F7  Bb6/D        F@4.5
+36        /
+
+RepeatEnd
+Groove FoxTrotEnd
+Decresc pp 2
+
+35        F     F7  Bb6/D        F@4.5
+37        /      /     F6 z!
+

@@ -1,0 +1,80 @@
+// At The Jazzband Ball
+
+Tempo 200
+KeySig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Repeat 
+
+// Verse
+
+Groove DixieMarch
+
+1        Gm
+2         /
+3         /
+4         /      /     C7
+
+Groove DixieMarchSus
+
+5        F7
+6        Bb      /     G7
+7        C7
+8        F7      /     D7
+
+Groove DixieMarch
+
+9        Gm
+10        /
+11        /
+12        /
+
+Groove DixieMarchPlus
+
+13       C7
+14        /
+15        /
+16       F7      /     D7
+
+/// Chorus
+
+Groove DixieMarch
+
+17       G7
+18        /
+19       C7
+20        /
+
+Groove DixieMarchSus
+
+21       F7
+22        /
+23       Bb
+24        /      /     D7
+
+Groove DixieMarchSusPlus
+
+25       G7
+26        /
+27       C7
+28        /
+
+Groove DixieMarchSus
+
+29       Eb      /   Edim
+30       Bb      /     G7
+
+RepeatEnding 2
+
+31       C7      /     F7
+32        /
+
+RepeatEnd 
+
+Groove DixieMarchEnd
+
+31       C7      /   F7
+32       /       z!
+

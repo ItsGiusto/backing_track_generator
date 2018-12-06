@@ -1,0 +1,171 @@
+// Pigalle
+
+Tempo 180
+Keysig C Minor
+
+Groove Metronome3
+  z * 2
+
+Set BassRegister 2
+
+Groove FrenchWaltzIntro
+Begin Solo
+   Voice Violin
+   Articulate 90
+   Octave 4
+   Harmony Open
+   Decresc f p 4
+   Begin Riff
+    4g+;;;
+    4g+;;;
+    4g+;;;
+    2g+;
+   End
+End
+
+1         C
+2       CM7
+3        C6
+4         /    z
+Cut -2
+
+Groove FrenchWaltz
+
+Cresc mp mf 8
+
+5        Ab      /     Cm
+6         /
+7        Ab      /     Cm
+8         /
+9       Fm6
+10        /
+11       G7
+12        /
+
+Groove FrenchWaltz1
+Cresc mp mf 8
+
+13      Fm6      /     G7
+14        /
+15      Fm6      /     G7
+16        /
+17      Fm6
+18       G7
+19       Cm
+20        /      /   Cdim
+
+Groove FrenchWaltzSus
+Decresc  mp 8
+
+21      Bb7
+22        /
+23       Eb
+24        /      /  Bbdim
+25      Bb7
+26        /
+27       Eb
+28        /      /    Eb+
+
+Groove FrenchWaltz1Sus
+Decresc mf mp 8
+
+29      Fm6
+30       G7
+31       Cm
+32        /
+33      Ab6
+34      Fm6
+35       G7
+Groove FrenchWaltz2Fill
+36        /
+
+Keysig C
+GrooveClear
+set BassRegister 4		
+
+Repeat
+Groove FrenchWaltz
+Volume m
+
+37        C
+38      CM7
+39       C6
+40      CM7
+41        C
+42        /
+43       G7
+44        /
+
+Groove FrenchWaltzSus
+Volume +10
+
+45      Dm7
+46       G7
+47      Dm7
+48       G7
+49      Dm7
+50       G7
+51        C
+52        /
+
+Groove FrenchWaltz2
+Decresc mp 8
+
+53        /
+54      Gm7
+55        C
+56       C7
+57        F
+58      FM7
+59       F6
+60        /
+
+Groove FrenchWaltz2Sus
+Volume m
+
+61      Am7
+62       D7
+63      Am7
+64       D7
+65       G9
+66      Dm7
+67       G7
+68        /
+
+Groove FrenchWaltz1
+Cresc mp mf 8
+
+69        C
+70      CM7
+71       C6
+72      CM7
+73        C
+74        /
+75       G7
+76        /
+label foo
+Groove FrenchWaltz3
+
+77      Dm7
+78       G7
+79      Dm7
+80       G7
+81       Dm
+82       G7
+
+RepeatEnding
+
+83        F      C
+
+Groove FrenchWaltz3Fill
+
+84       G7
+
+RepeatEnd
+
+Groove FrenchWaltz1End
+Seq 3
+
+85        F      C
+86        /  z!
+ fermata -3 1 300

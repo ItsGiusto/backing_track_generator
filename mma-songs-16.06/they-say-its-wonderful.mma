@@ -1,0 +1,88 @@
+// They Say Its Wonderful
+
+Tempo 100
+Keysig F
+
+Groove Metronome2-4
+	   z * 2
+
+Groove PianoBalladIntro
+
+Begin Solo
+  Voice JazzGuitar
+  Volume ff
+  Harmony Open
+  Octave 5
+  Articulate 94
+  Begin Riff
+    4c+;;f;8g;a;
+    4b;;e;;
+    1+2f~;
+  End
+End
+
+1         F6/A   /   Dm7
+2         Gm7    /   Gb7
+3         F
+4         F/A    /    Db9/Ab  z
+
+Repeat
+Groove PianoBallad
+Cresc mp f 8
+
+5       Gm7
+6    Bbm7/Db      /     C7
+7       F/A
+8    Abdim7
+9     Gm7b5
+10     C7b9      /     C7
+11   F9
+12    F#dim3
+
+Groove PianoBalladSus
+Decresc mp 8
+
+13      Gm7
+14   Bbm6/Db      /     C7
+15      F/A
+16    Abdim3
+17    Gm7b5
+18     C7b9      /     C7
+19       F7      /   F9b5     F9
+20     F7#5
+
+Groove PianoBallad1
+Volume m
+
+21       Bb
+22    BbmM7
+23      F/A
+24       Am
+25        /
+26    G#dim3      /     E7
+27       Am
+28     Abm6
+
+Groove PianoBallad1Sus
+Volume mf
+
+29      Gm7
+30   Bbm6/Db      /     C7
+31      Am7
+32   D7#5b9      /     D7
+33    G7sus      /     G9    Gm7
+34        /      /  Gb7b5
+
+RepeatEnding
+
+35       F6      /    Dm9
+36      Gm9      /    F/A   Abm6
+
+RepeatEnd
+
+Groove PianoBalladEnd
+Decresc pp 2
+
+37       F6      /    Dm7
+38      Gm7    Gb7     F7   z!
+

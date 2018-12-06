@@ -1,0 +1,105 @@
+// Hooray For Hollywood
+
+Tempo 200
+KeySig f
+
+Groove Metronome2-4
+	z * 2
+
+Groove QuickStepIntro
+
+Cresc p ff 4
+1      F     
+2      Dm    
+3      Gm    
+4      C7    
+
+Repeat
+Volume mf
+Groove QuickStep
+
+5      F     
+6	/
+7	/
+8	/
+9      A7    
+10     Em7   
+11     A7    
+12	/
+
+13     Bb    /    /    Bbm   
+14	/
+15     F     /    Faug  
+16     Dm    
+17     A     /    E7    
+18     A  
+
+Groove QuickStepHit
+
+19	/
+20     /    /    Ab7 
+  
+Groove QuickStepSus
+
+21     C     
+22	/
+23     C#dim 
+24	/
+25     G7    /    C#dim 
+26     G7    
+27     C7 
+
+Groove QuickStepHitSus
+  
+28	/
+29     F  
+
+Groove QuickStep
+
+30	/
+31	/
+32	/
+33     A7
+
+Groove QuickStepHit
+    
+34     Em7   
+35     A7
+
+Groove $_LastGroove
+
+
+36	/
+
+37     Bb    
+38	/
+39     Bbm   
+40	/
+41     F     
+42     /    /    F7    
+43     D7    /    C     
+44     D7 
+  
+Groove QuickStepSus
+
+45     Gm    
+46     /    /    Bbm   
+47     F     /    Cm6   D7    
+48	/
+49     Gm7   
+50     C7    /    /    F     
+
+RepeatEnding
+
+Groove QuickstepHit
+
+51     /    /    F#dim 
+52     C7    
+
+RepeatEnd
+
+Groove QuickStepEnd
+
+53     F    /    C7    
+54     F     
+

@@ -1,0 +1,140 @@
+// Something Good
+
+Tempo 140
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove ModernJazzIntro
+Begin Solo
+    Voice JazzGuitar
+    Harmony OpenBelow
+    Octave 5
+    Volume f
+    Articulate 110
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+        4c+;a;b;a;
+        4c+;2.a;
+        4g;a;b;a;
+        1g;
+    End
+End
+
+Swell mp f 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove ModernJazz
+Volume m
+
+5         F
+6        F6
+7         E
+8      Ddim      /      /     C7
+
+Groove ModernJazz1
+Volume mf
+
+9         F
+10       F6
+11       C9
+12       C7
+
+Groove ModernJazz
+Volume m
+
+13        F
+14       F7
+15       Bb
+16     Bbm6
+
+Groove ModernJazz2
+Decresc mf mp 4
+
+17        F
+18       C7
+19        F
+20        /      /      /     F7
+
+Groove ModernJazzSus
+Cresc mf 8
+
+21       Bb
+22      Db7
+23        F
+24        /
+
+Groove ModernJazz1Sus
+
+25       Bb
+26      Db7
+27       C9
+28       C7
+
+Groove ModernJazz
+Volume m
+
+29        F
+30       F7
+31       Bb
+32     Bbm6
+
+Groove ModernJazzSus
+Cresc mf 2
+
+33        F
+34        E      /     C7
+
+RepeatEnding
+Decresc mp 2
+
+35        F
+
+Groove ModernJazzFill
+
+36      Gm7      /      /     C7
+
+GrooveClear
+Set ArpeggioVoice JazzGuitar
+
+RepeatEnd
+Volume m
+
+37        F
+38        /
+
+Groove ModernJazz2Sus
+
+39       C7
+40      Am7      /      /      F
+41      Gm7
+42     Bbm6
+
+Groove ModernJazz2
+Decresc mp 4
+
+43        F
+44        /
+45       Bb
+46        /      /      /     C7
+
+Groove ModernJazz
+Tempo *.8 4
+Decresc ppp 4
+
+47        F
+48        E      /     C7
+
+Groove ModernJazzEnd
+
+49        F
+50        /  z!
+

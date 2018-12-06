@@ -1,0 +1,131 @@
+// Scotch N Soda
+
+Tempo 88
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BluesIntro
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Octave 5
+    Harmony OpenBelow
+    Articulate 110
+    Begin Riff
+        4g;f;8g;4.f;
+        8r;a;g;4a;4.g;
+        4d+;c+;b;g;
+        1c+;
+    End
+End
+
+Begin Solo-Harmony
+   Voice JazzGuitar
+   Articulate 120
+   HarmonyOnly OpenBelow+8Below
+   Volume ff
+   Octave 6
+End
+
+Solo DupRiff Solo-Harmony
+
+Swingmode On  // this only effects the next 4 bars
+Cresc mp mf 4
+
+1      Ab7
+2        Abm7
+3        Dm
+4       F7
+
+
+Repeat
+Groove Blues
+Volume m
+
+5      AbM7
+6       Db9
+7       Eb6
+8       Gm7      /     C7
+
+Groove Blues1
+Cresc mf 2
+
+9        F7
+10      Fm7      /    Bb7
+
+Decresc mp 2
+RepeatEnding
+
+11       Dm
+Groove BluesTripleL
+Chord Octave 4
+12      +Abm>1      /     G7
+
+RepeatEnd
+
+13      Eb9      /   Bbm7
+Groove BluesTripleL
+Chord Octave 4
+14      +Eb9>1      /   Eb+7
+
+Repeat
+Groove BluesSus
+Volume m
+
+15     AbM7
+16        /
+17       Eb      /    Fm7    Bb7
+18     EbM7
+
+Groove Blues1Sus
+Volume mf
+
+19       F9
+20        /
+Cresc f 2
+21      Bb7
+22      Fm7      /    Bb7
+
+Groove Blues1
+Volume mf
+23     AbM7
+24      Db9
+Volume m
+25      Eb6
+26      Gm7      /     C7
+
+Groove BluesTripleL
+Volume mf
+27       F7
+
+Groove Blues
+Cresc m mf 3
+
+28      Fm7      /    Bb7
+29      Gbm>2
+30       C7
+
+Groove BluesSus
+Volume m
+
+31      Fm7
+32      Bb7      /    Ab7
+
+RepeatEnding
+Groove BluesTripleL
+Chord Octave 4
+33       Eb/Bb
+
+Groove Blues
+34       / /// +E&+7
+
+RepeatEnd
+Tempo *.8 1
+Groove BluesEnd
+Decresc ppp 2
+
+34       Eb
+35       /  z!

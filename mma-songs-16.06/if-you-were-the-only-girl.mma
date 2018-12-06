@@ -1,0 +1,135 @@
+// If You Were The Only Girl
+
+Tempo 150
+Keysig C
+
+Groove Metronome3
+ z * 2
+
+Groove JazzWaltzIntro8
+AllGrooves Chord Voicing Mode=Key
+
+Begin Solo
+    Voice OrchestralHarp
+    Harmony 3Below
+    Octave 6
+    Articulate 120
+    Volume f
+    Begin Riff
+        4.c+;8d+;4e+;
+        2c+;4d+;
+        4.a;8b;4c+;
+        2.g;
+        4.f+;8e+;4d+;
+        4.c+;8b;4a;
+        2g;4b;
+        2.+2g~;
+    End
+End
+
+Swell mp mf 8
+
+1          C
+2          /
+3         Am7
+4          /
+5         Dm7
+6          /
+7         G7
+8          /
+
+Repeat
+Groove JazzWaltz
+Volume m
+
+9          C
+10        A7
+11        D7
+12         /
+
+Groove JazzWaltz1
+
+13        G7
+14         /
+15         C  Ebm&5
+16       Dm7     G7
+
+Groove JazzWaltzSus
+Cresc mf 4
+
+17         C
+18         /
+19       Dm7
+20         /
+
+Groove JazzWaltz1Sus
+
+21        G7
+22        G+
+23         C
+24         /
+
+Groove JazzWaltz2
+Decresc m 4
+
+25         /
+26        A7
+27        D7
+28         /
+
+Groove JazzWaltz2Sus
+Decresc mp 4
+
+29        G7
+30         /
+31         C  Ebm&5
+32        G7
+
+Groove JazzWaltz
+Cresc mf 4
+
+33        Am
+34         /
+35        Em
+36         /
+
+Groove JazzWaltz1
+Cresc f 4
+
+37         F      /     F+
+38        G7      /     G+
+39         C    Gm6
+40        A7
+
+Groove JazzWaltz
+Decresc mf 4
+
+41        Dm
+42        Fm
+43         C
+44        A+      /     A7
+
+Groove JazzWaltz1
+Decresc m 2
+
+45        D7
+46       Dm7      /     G7
+
+RepeatEnding  
+
+47         C      /     Eb
+
+Groove JazzWaltzFill
+
+48        Dm     G7
+
+
+RepeatEnd
+
+Groove JazzWaltzEnd
+Decresc ppp 2
+Tempo *.8 2
+
+49         C
+50         /     z!
+

@@ -1,0 +1,120 @@
+// The Long And Winding Road
+
+Tempo 78
+Keysig C Minor
+
+Groove Metronome2-4
+	z * 2
+
+Groove GuitarBalladIntro
+
+If Def WK3000
+    AllGrooves Bass       Voice  ChorusFingeredBass
+    AllGrooves Arpeggio-8 Voice  12StringGuitar
+    StackValue BlockOrgan3
+Else
+    StackValue Organ1
+Endif
+
+Begin Solo
+	Voice $_StackValue
+	Volume m
+	Harmony OpenAbove
+	HarmonyVolume 60
+	Octave 4
+	Articulate 100
+	Begin Riff
+		4e+;d+;c+;8g;8+2.b~;
+		~ 4g;
+		2.a;4f;
+		2.b;
+	End
+End
+
+Solo MidiCresc 30 100 4
+Cresc ppp mp 4
+
+1   Cm      
+2   Gm      
+3   Fm      
+4   +Bb7     
+
+Repeat
+Groove GuitarBallad
+Volume m
+
+5   Cm7     
+6   Ab6
+7   Eb      /       Eb7     
+8   Ab      
+
+Groove GuitarBallad1
+Decresc mp 4
+
+9   /       /       Eb      
+10  Cm7     
+11  Fm7     /       Bb7     
+12  Ebsus4  /       Eb7     
+
+Groove GuitarBallad
+Cresc m 4
+
+13  Ab      /       Eb      
+14  Cm7     
+15  Fm7     /       Bb7     
+
+RepeatEnding
+Groove GuitarBallad1
+
+Begin Drum-ChiHat
+  Volume +40
+  Riff D8 * 2
+End
+
+16  Eb      
+
+RepeatEnding
+
+Begin Drum-ChiHat
+  Volume +40
+  Riff D8 * 2
+End
+
+17  Eb 
+
+Groove GuitarBalladSus
+
+/// If we have included the wk3000 patch file we set the
+/// sustained voice to an organ. Problem is that the organ
+/// sound(s?) on the caiso are pretty much on/off ... velocity
+/// doesn't have much effect. So, we'll cheat and fix up a nice
+/// cresc using low-level midi.
+
+If Def wk3000
+   Begin Chord-Sus
+       Volume m
+       Voice BlockOrgan3
+	   MidiCresc 20 90 4   // cool!
+   End
+Else
+   Chord-Sus Cresc pppp $_Chord-Sus_Volume[0]  4
+Endif
+
+18  Eb      /       Ab      
+19  Eb      /       Fm7     Bb7 
+20  Eb      /       Ab      
+21  Eb      /       Fm7     Bbm7    
+
+Groove GuitarBallad
+
+RepeatEnd
+
+22  Eb  
+
+Groove GuitarBalladEnd
+Tempo *.8 2
+Decresc ppp 2
+    
+23  Ab6  
+24  Eb  
+

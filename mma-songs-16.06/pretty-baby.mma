@@ -1,0 +1,82 @@
+// Pretty Baby (Tony Jackson, 1916).
+
+Tempo 115
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingIntro
+
+Begin Solo
+   Voice Piano1
+   Volume ff
+   Harmony OpenBelow+8Below
+   Octave 5
+   Articulate 110
+   Rtime 0,10
+   Rvolume 0,20
+   Begin Riff
+       8e+;d+;c+;b; c+;b;a;g;
+       8c+;b;a;g;2c+;
+       8a;b;c+;a; f;g;a;f;
+       4b;a;2f;
+   End
+End
+
+Swingmode On
+Swell mp mf 4
+
+1         Eb
+2         Cm
+3         Fm
+4        Bb7      /      /     Eb
+
+Repeat
+Groove Swing
+Volume m
+
+5        Bb7      /    Fm7
+6        Bb7      /      /    Eb+
+
+Decresc mp 2
+
+7         Eb      /      /    Bb+
+8         Eb      /      /  Ebdim
+
+Groove SwingSus
+Cresc mf 4
+
+9        Bb7      /    Fm7
+10       Bb7      /      /    Bb+
+11        Eb
+12         /
+
+Groove SwingPlus
+Decresc m 4
+
+13       Eb7
+14        Ab
+15        C7
+16       Fm7      /    Bb7     Eb
+
+Groove SwingPlusSus
+
+17        Bb      /    Fm7
+18       Bb7
+19        C7     F7    Bb7
+
+Decresc mp 1
+
+RepeatEnding 2
+Groove SwingTriple
+
+20        Eb      /    Bb7
+
+RepeatEnd
+
+Groove SwingEnd
+
+21        Eb     z!@1.5
+
+

@@ -1,0 +1,114 @@
+// Our Day Will Come
+
+Tempo 105
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove ChaChaIntro
+
+Begin AllGrooves Arpeggio
+	  Rskip 30 // from the lib value of 10
+	  Harmony OpenBelow
+End
+
+Begin Solo
+  Voice Organ1
+  Octave 6
+  Harmony Open
+  Articulate 90
+  Volume m
+  Begin Riff
+     2d;1b~;
+	 ~ 2f;
+	 1+2g ~;
+  End
+End
+
+Swell p m 4
+
+1         G
+2        Em   /   D
+3        G
+4        /    /   D7
+
+Repeat
+Groove ChaCha
+Volume m
+
+5         G
+6       Bb7
+7       Am7
+8        D7
+
+Groove ChaCha1
+Swell m f 8
+
+9         G
+10      Bb7
+11      Am7
+12       D7
+
+Groove ChaCha
+
+13      Dm7
+14       G7
+15      CM7
+16       C6
+
+Groove ChaChaSus
+Volume mf
+
+17      Cm7
+18        /
+19      Bm7      /    Bb7
+20      Am7      /     D7
+
+Groove ChaCha1Sus
+Cresc f 4
+
+21        G
+22      Bb7
+23      Am7
+24       D7
+
+Groove ChaCha
+Decresc m 4
+
+25        G
+26      Bb7
+27      Am7
+28       D7
+
+Groove ChaChaSus
+Volume mp
+
+29      Dm7
+30       G7
+31      CM7
+32      Cm7
+
+Groove ChaCha1Sus
+Cresc m 2
+
+33        G      /    Em7
+34      Am7      /     D7
+
+RepeatEnding
+
+35        G
+36        /     /     D7
+
+AllGrooves Arpeggio Voice Trumpet
+AllGrooves Arpeggio Octave 6
+
+RepeatEnd
+
+Groove ChaChaEnd
+Decresc ppp 2
+Tempo *.9 2
+
+35        G
+36        /    /  z!
+

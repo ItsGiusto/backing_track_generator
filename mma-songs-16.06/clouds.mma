@@ -1,0 +1,103 @@
+// Clouds (Played by Cannonball Adderley)
+
+Tempo 132
+Keysig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove BossaNovaIntro
+AllGrooves Arpeggio Voice Vibraphone
+
+Begin Solo
+    Voice Vibraphone
+    Harmony OpenAbove
+    Octave 6
+    Articulate 140
+    Volume m
+    Rtime 5
+    RVolume 5
+    Accent 1 20 3 10
+    Begin Riff
+        43b;a;b; a;g;a;
+        43g;f;g; f;e;f;
+        43e;d;e; d;c;e;
+        8e;c;a-;4f-;
+    End
+End
+
+Swell mp mf 4
+
+1        Bb
+2        Gm7
+3        Cm7
+4        F7
+
+
+Repeat
+Groove BossaNova
+Volume m
+
+5        Bb
+6         /
+7       Gm7
+8         /
+
+Groove BossaNovaPlus
+Volume mf
+
+9       Cm7
+10     G7b9
+11      Cm7
+12        /
+
+Groove BossaNova1Sus
+Volume m
+
+13        /
+14        /
+15       Ab
+16        /
+
+Groove BossaNova
+Cresc mf 4
+
+17    Adim7
+18       F7
+19       Bb
+20        /
+
+Groove BossaNovaSusPlus
+Decresc f mf 4
+
+21     D7b9
+22      Gm7
+23       C7      /     F7
+24    Ddim7      /   G7b9
+
+RepeatEnding 2
+Groove BossaNova
+DeCresc m 2
+
+25     D7b9
+26      Gm7
+
+Groove BossaNovaFill
+Decresc mp 2
+
+27       C7
+28      Cm7      /   F7b9
+
+RepeatEnd
+Groove BossaNova2End
+Decresc ppp 4
+
+29    Cdim7
+30     F7b9
+
+Tempo *.8 2
+
+31      Bb   / Gm
+32     Bb   /   z!
+
+

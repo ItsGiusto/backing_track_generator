@@ -1,0 +1,77 @@
+// Al Di La
+
+Tempo 85 
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BalladIntro
+Begin Solo
+  Voice Fantasia
+  Cresc m ff 4
+  Harmony Open+8below
+  Octave 5
+  Articulate 96
+  Begin Riff
+    4.d;8;2;
+    4.e;8;2;
+    4.d;8;4;;
+    1d;
+  End
+End
+
+1    Bb   
+2    Eb   
+3    Bb   
+4    /    
+
+Repeat
+Groove Ballad
+Swell mp f 4
+
+5    Bb   
+6    Dm   
+7    Cm7  
+8    F7   
+
+Groove BalladSus
+Volume m
+
+9    Bb   
+10   Dm   
+11   Cm7  
+12   F7   
+
+Groove Ballad1
+Cresc m f 4
+
+13   Eb   
+14   Ebm6 
+15   Bb   
+
+RepeatEnding 2
+
+16   C9   /    Ebdim3 
+
+Groove Ballad1Sus
+Decresc  mp 4
+Chord-sus Volume -30
+
+17   Bb   /    Dbdim3 
+18   Cm7  /    F7   
+19   Bb   /    Bdim3 
+20   Cm7  /    F7   
+
+RepeatEnd
+
+21   Gm   
+
+Groove Ballad1End
+Decresc pppp 4
+
+22   C9   
+23   Cm7  /    F7b9 
+24   Bb   
+25   /    /    z!   
+

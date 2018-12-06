@@ -1,0 +1,88 @@
+// For Sentimental Reasons
+
+Tempo 120
+KeySig F
+
+Groove Metronome2-4
+	z * 2
+	
+Groove FoxTrotSus
+Bass-Sus Volume ff
+
+Begin Solo
+	Voice Violin
+	Decresc m  pp  4
+	Articulate 95
+	Octave 6
+	Begin Riff
+		2c+; 8b;a;g;f;
+		8a;8+2.a;
+		2g;8f;e;d;e;
+		2.f;
+	End
+End
+
+// Note the use of -/+ to create a decending chord line in the intro
+
+1      +F     /   +C7    
+2      F     /    Dm    
+3      G     /    -Dm    
+4      -F     /    -C7   -C9#5  
+
+Groove FoxTrot
+
+Repeat
+
+5      F     /    Dm7   
+6      Gm7   /    C7    
+7      F     /    Dm7   
+8      Gm7   /    C7    
+9      F     /    Dm7   
+10     G9    /    C7    
+11     F     /    D7    
+12     Gm7   /    C7    C9#5  
+13     F     /    Dm7   
+14     Gm7   /    C7    
+15     F     /    Dm7   
+16     Gm7   /    C7    
+17     F     /    Dm7   
+18     Gm7   /    C7    
+19     F     /    Gm7   
+20     G#dim /    F/A
+
+Groove FoxtrotSus
+
+21     Gm7   /    C7    
+22     F     /    F#dim 
+23     Gm7   /    C7    
+24     F     
+25     Em7b5 /    A7    
+26     Dm7   
+27     G9    
+28     C7    /    C9#5  
+
+Groove $_LastGroove
+
+29     F     /    Dm7   
+30     Gm7   /    C7    
+31     F     /    Dm7   
+32     Gm7   /    C7    
+33     F     /    Dm7   
+34     G9    /    C7    
+
+RepeatEnding
+
+35     F     /    Abdim 
+36     Gm7   /    C7    C9#5  
+
+Groove FoxTrotPlus
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+37     F     /    Bbm7  Eb7   
+38     F     z!
+
+	Cut -2
+

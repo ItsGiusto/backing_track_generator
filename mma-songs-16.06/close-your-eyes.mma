@@ -1,0 +1,109 @@
+// Close Your Eyes
+
+Tempo 100
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzGuitar1Intro
+Begin Solo
+    Voice Piano1
+    Volume f
+    Harmony OpenBelow+8Below
+    Octave 5
+    Articulate 110
+    Begin Riff
+        4.f;8g;2a;
+        4.d;8e;2f;
+        43d+;c+;b;;a;g; 
+        1c+;
+    End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm7
+3        Gm7
+seq 3
+4        C7 
+
+
+Repeat
+Groove JazzGuitar
+Decresc m mp 4
+
+5      Bbm6
+6        C7
+7      Bbm6
+8        C7
+
+Groove JazzGuitarSus
+Cresc mf 4
+
+9        Fm
+10        /      /    Bbm
+11       Fm
+12        /
+
+Groove JazzGuitarPlus
+Volume m
+
+13     Bbm6
+14       C7
+Decresc mp 2
+15     Bbm6
+16       C7
+
+Groove JazzGuitarWalkSusPlus
+
+17       Fm
+18        /      /     C7
+19        F      /     C7
+20        F
+
+Groove JazzGuitarWalk
+Volume m
+
+21      Cm7
+22        /      /     F7
+23      Cm7      /      F
+24       F7
+
+Groove JazzGuitarPlus
+Decresc mp 4
+25      Bb7
+26        /
+27      Db7
+28       C7
+
+Groove JazzGuitarSus
+Cresc mf 4
+
+29     Bbm6
+30       C7
+31     Bbm6
+32       C7
+
+Groove JazzGuitarWalk
+Volume m
+
+33       Fm      /      /     Db
+34       C7
+
+RepeatEnding 
+
+Groove JazzGuitarPlus
+
+35        F     Ab/Eb      G/D    Gb/Db
+36        F/C      /     C7
+
+
+RepeatEnd
+Decresc ppp 2
+Groove JazzGuitar
+
+37        F     Ab/Eb      G/D     Gb/Db
+38        F/C     z!
+Fermata -4 1 300

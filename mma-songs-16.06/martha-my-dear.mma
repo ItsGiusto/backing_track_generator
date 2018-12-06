@@ -1,0 +1,152 @@
+// Martha My Dear
+
+Tempo $( 91 * 2 )
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove SoftRockIntro
+
+Begin Solo
+   Voice Piano1
+   Articulate 90
+   Harmony OpenBelow+2Above+8Above
+   Volume f
+   Octave 4
+   Rtime 5
+   Rvolume 5
+   Begin Riff
+      4f;2a;4b;
+      1g;
+      4a;;;c+;
+      1b;
+   End
+End
+
+Cresc mp mf 4
+
+1         F
+2        Gm
+3        Am
+4        C7
+
+
+Repeat
+Label Start
+Groove SoftRock
+Volume m
+
+5        Eb
+6         /
+Seq 2   // just make sure it's not 3 which sounds "off"
+Truncate 2
+7        D7  // 2/4 bar
+
+8        Gm      /      F
+
+Groove SoftRock1
+Cresc mf 4
+
+9        C7
+10        F
+11       F7
+12       Bb
+
+Groove SoftRockSus
+Decresc m 4
+
+13       Ab      /      /     Bb
+14        /
+15       Ab      /      /     Bb
+16        /
+
+Groove SoftRock2
+Decresc mp 2
+
+17       Ab      /      /     Bb
+18        /
+
+If Def Coda
+ Goto Coda
+Endif
+
+Groove SoftRock1Sus
+Cresc m 4
+
+19      Dm7
+20        /
+21      Gm7
+22        /
+
+Groove SoftRock2
+Cresc mf 4
+
+23        F
+24        /
+25        /
+26        /
+
+Groove SoftRock1
+Decresc mp 4
+
+27       C7
+28        /
+29        /
+30        /      /      A
+
+Groove SoftRockSus
+Cresc m 4
+
+31       Dm
+32      Dm7
+33      Gm7
+34        /
+
+Groove SoftRock2Sus
+
+35       Dm
+36       G9
+37        /
+38       Dm
+
+Groove SoftRock1
+Cresc mf 4
+
+39       G7
+40        /
+41     BbM9
+42        /
+
+Groove SoftRock
+Decresc mp 4
+
+43       Bb
+44        /
+45       F6
+46        /
+47       Gm
+
+Groove SoftRockFill
+Cresc m 2
+
+48        /
+49        /
+
+RepeatEnd 
+
+Set Coda
+Goto Start
+
+Label Coda
+
+Groove SoftRockEnd
+Seq 2
+Decresc ppp 2
+Tempo *.8 3
+
+50      Bb7
+51       Eb
+52        /  z!
+
+

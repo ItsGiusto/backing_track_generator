@@ -1,0 +1,79 @@
+// Comes Love
+
+Tempo 120
+Groove Metronome2-4
+	z * 2
+
+Groove Swing2
+
+Begin Solo
+	Voice TenorSax
+	Volume m
+	Octave 5
+	Harmony Open
+	Articulate 80
+End
+
+Keysig Bb
+
+SwingMode On
+Decresc pp 4
+
+  Em  {8g;a;g;f#;g;f#;fn;f#;}
+  G   {4f;2.en;}
+  Fm  {8f;f#;fn;en;f;e;d#;e;}
+  Ebm D7  {4d#;2dn;}
+
+Delete Solo
+Volume m
+Repeat
+Seq
+1       Gm   
+2 	/
+3       D7   
+4 	/
+5       C    
+6       D7    /     Eb7  
+7       Gm   
+8       Em7b5
+9       Gm   
+10 	/
+11      D7   
+12 	/
+13      C    
+14      D7    /     Eb7  
+15      Gm   
+16      Eb    /     D7   
+
+Groove Swing2Plus
+
+17      G7   
+18 	/
+19      Cm    /     G7   
+20      Cm7  
+21      F7   
+22      Am7b5
+23      D7    /     Ddim
+24      D7   
+25      Gm   
+26 	/
+27      D7   
+28 	/
+29      C    
+30      D7    /     Eb7  
+
+RepeatEnding
+
+31      Gm   
+32      Em7b5 /     Eb7   D7   
+
+Groove Swing2
+
+RepeatEnd
+
+Groove Swing2End
+Seq 3
+
+33      Gm    /     Cm7  
+34      Gm   / z!
+

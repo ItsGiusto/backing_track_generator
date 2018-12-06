@@ -1,0 +1,115 @@
+// Fly Me To The Moon (In Other Words)
+
+Tempo 148
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+  Voice Piano1
+  Volume f
+  Harmony OpenBelow+8Below
+  Articulate 80
+  Octave 6
+  Begin Riff
+     8c;4e;8d;c;d;4e;
+	 8d;4e;8d;c;d;4e;
+	 8d;4e;8f;e;d;e;f;
+	 2.g;
+  End
+End
+
+Cresc pp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove BossaNova
+Volume m
+
+5       Am7
+6       Dm7
+7        G7
+8       CM7
+
+Groove BossaNova1Sus
+Swell m mf 8
+
+9       FM7
+10    Bm7b5
+11     E7b9
+12      Am7      /      /   A7b9
+
+Groove BossaNova
+
+13      Dm7
+14       G9      /      /   G7b9
+15      CM9
+16      Am7      /      /    Am9
+
+Groove BossaNovaSus
+Decresc mp 8
+
+17      Dm7
+18       G7
+19    Fdim7      /    CM7
+20      Bm7      /     E7
+
+Groove BossaNova
+
+21      Am7
+22      Dm7
+23       G7
+24      CM7
+
+Groove BossaNova3Sus
+Chord-Sus Volume -40
+Bass-Sus  Volume -40
+Cresc mf 8
+
+25      FM7
+26    Bm7b5
+27     E7b9
+28      Am7      /      /   A7b9
+
+Groove BossaNova
+
+29      Dm7
+30       G9      /      /   G7/F
+
+RepeatEnding
+
+31    Em7b5
+32     A7b9
+
+Groove BossaNovaSus
+Volume m
+
+33      Dm7
+34     Dm7      /      /   G7b9
+
+Groove BossaNovaFill
+Volume mf
+
+35       C6
+36      Bm7      /     E7
+
+RepeatEnd
+
+37    Em7b5      /    Bb9
+38     A7b9
+
+Groove BossaNovaEnd
+Decresc ppp 4
+Tempo *.8 4
+
+39      Dm7
+40       G7      /      /   G7b9
+41       C6      /    Bb6     B6
+42   C6(add9)    /     z!
+

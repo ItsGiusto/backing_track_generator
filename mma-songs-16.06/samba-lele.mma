@@ -1,0 +1,81 @@
+// Samba Lele (Brasilian, trad.)
+
+Tempo $(95 * 2)
+Keysig C
+
+Groove Metronome2-4
+   z * 2
+
+Groove SambaIntro
+
+Begin Solo
+    Voice Trumpet
+    Octave 5
+    Volume f
+    Harmony 3Below
+    Articulate 80
+    Begin Riff
+       4g;8c+;;4;8;;
+       2b;4d+;r;
+       4b;8;;4;8;;
+       2c+;r;
+    End
+End
+
+Cresc mp mf 4
+1         C
+2         G
+3         G
+4        C /  G7
+
+
+Repeat
+Groove Samba
+Volume m
+
+5         C
+6        G7
+7         /
+8         C
+
+Groove SambaPlus
+Volume mp
+
+9         /
+10       G7
+11        /
+12        C
+
+Groove SambaSus
+Cresc mf 4
+
+13        /
+14       G7
+15        /
+16        C
+
+Groove SambaSusPlus
+Decresc m 4
+
+17        /
+18       G7
+19        /
+20        C
+
+RepeatEnding 3
+
+Groove SambaSusFill
+Decresc mp 2
+
+21       G7
+22        C      /     G7
+
+RepeatEnd
+
+Groove SambaEnd
+Cresc ff 2
+
+23       G7
+Seq 1
+24        C z! C z!@3.1 
+

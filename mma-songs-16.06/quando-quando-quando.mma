@@ -1,0 +1,159 @@
+// Quando Quando Quando
+
+// Note the tempo. This is 2x the "real" samba, but
+// mma needs 4 beats/measure in its samba beat.
+
+Tempo 192
+Keysig Bb
+
+
+Groove Metronome2-4
+	z * 2
+
+Groove SambaIntro
+Cresc m f 4
+
+1         Bb
+2         Gm
+3         Bb
+4         F7      /      z
+
+Repeat    // entire song 2x
+
+Repeat
+Groove Samba   // "A" 2x
+Volume m
+
+5         Bb      /  Bdim3
+6        Cm7      /     F7
+Groove SambaPlus
+Arpeggio Volume -20
+7        Cm7      /     F7    Cm7
+Groove Samba
+8         F7
+
+Cresc mf 4
+
+9        Cm7      /     F7
+10        Bb
+11       Bb6
+12      BbM7
+
+Decresc mp 4
+
+13        Bb      /  Bdim3
+14       Cm7      /     F7
+Groove SambaPlus
+Arpeggio Volume -20
+15       Cm7      /     F7    Cm7
+Groove Samba
+16        F7
+
+Groove SambaSus
+Cresc f 4
+
+17       Cm7
+18        Bb
+19         /
+
+RepeatEnding
+
+Groove SambaFill
+
+20         /
+
+RepeatEnd
+
+Groove SambaFill
+
+21        Bb
+
+// "B" section
+
+Groove Samba
+Volume m
+
+22         /      /   BbM7
+23       Fm7      /    Bb7
+24       Fm7      /    Bb7    Fm7
+25       Bb7
+
+Groove SambaSus
+Volume mp
+
+26         /
+27        Eb
+28         /
+29         /
+
+Groove Samba
+Volume m
+
+30       Gm7
+31         /      /      /     C7
+32       Gm7      /     C7    Gm7
+33        C7
+
+Groove SambaSusPlus
+Cresc mf 4
+
+34       Gm7      /     C7
+35       Cm7      /     F7
+36       Cm7      /     F7    Cm7
+
+Groove SambaSusFill
+
+37        F7
+
+Groove SambaPlus
+Volume m
+
+38        Bb      /  Bdim3
+39       Cm7      /     F7
+40       Cm7      /     F7    Cm7
+41        F7
+
+Groove Samba
+Volume f
+
+42       Cm7      /     F7
+43        Bb
+44       Bb6
+45      BbM7
+
+Decresc m 4
+
+46        Bb      /  Bdim3
+47       Cm7      /     F7
+48       Cm7      /     F7    Cm7
+
+Groove SambaFill
+
+49        F7
+
+RepeatEnding
+
+Groove Samba
+Cresc f 4
+
+50       Cm7
+51        Bb
+52         /
+
+Groove SambaFill
+
+53         /      /      z
+
+RepeatEnd
+
+Groove SambaEnd
+Decresc ppp 4
+Tempo *.9 4
+
+54       Cm7
+55        Bb
+56         /
+57         /     z!
+
+
+

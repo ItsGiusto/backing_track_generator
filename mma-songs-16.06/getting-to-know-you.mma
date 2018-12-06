@@ -1,0 +1,114 @@
+// Getting To Know You
+
+Tempo 130
+KeySig C
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+   Voice PizzicatoString
+   Octave 5
+   Harmony 3Below+2Above+8Below
+   Articulate 99  // doesn't matter
+   Volume mf
+   Rtime 10
+   Begin Riff
+       4c+;8;;4;
+       4c+;8;;4;
+       8d+;c+;b;a;g;f;e;d;
+       1g;
+   End
+End
+
+Groove ShowTuneIntro
+Swell mp f 4
+
+1         C
+2         Am7
+3         Dm7
+4         G7
+
+Repeat
+Groove ShowTune
+Volume m
+
+5         C      /    CM7
+6        C6
+7       Dm7
+8        G7
+
+Groove ShowTunePlus
+
+9       Dm7      /     G7
+10      Dm7      /     G7
+11      CM7      /    Am7
+12      Dm9      /     G7
+
+Groove ShowTune1
+Cresc mf 4
+
+13        C      /    CM7
+14       C6      /     C7
+15      FM7      /     F6
+16      FM7
+
+Groove ShowTune2
+
+17      Am7
+18       D7
+19      Dm7
+20       G7
+
+Groove ShowTune1Plus
+Decresc m 4
+
+21        C      /    CM7
+22       C6
+23      Dm7
+24       G7
+
+Groove ShowTune
+Volume mf
+
+25      Dm7      /     G7
+26      Dm7      /     G7
+27       C7
+28        /
+
+Groove ShowTune2Plus
+Volume mp
+
+29      FM7      /     F6
+30      Dm7      /     G7
+31      CM7      /     C7
+32        F
+
+Groove ShowTune
+Cresc mf 4
+
+33      CM9      /     A7
+34      Dm7      /     G7
+35       C6
+36      Am7      /     D7
+
+Groove ShowTunePlus
+Decresc mp 2
+
+37      Dm7
+38       G7
+
+RepeatEnding
+
+39       C6
+40        / / G7
+
+RepeatEnd
+
+Groove ShowTuneEnd
+Decresc ppp 2
+
+39       C6
+41        / z!
+
+

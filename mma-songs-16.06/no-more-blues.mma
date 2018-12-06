@@ -1,0 +1,125 @@
+// No More Blues
+
+Tempo 182
+Keysig D minor
+
+Groove Metronome2-4										
+
+	z * 2
+
+Groove BossaNovaIntro
+Cresc ppp mf 4
+
+1   +Dm      
+2   Bm      
+3   -E7      
+4   -A7  / z
+
+Repeat
+Groove BossaNova
+Volume m
+
+5   Dm      
+6   /       /       /       Dm
+7   Bm7b5   
+8   E7b5    
+9   Em7b5   
+10  A7b9    
+11  Dm      
+12  Em7b5   /       A7b9    
+13  Dm      /       Dm
+14  Bm7b5   /       E7      
+15  Am      
+16  /       
+17  BbM7    
+18  /       
+19  Em7b5   
+20  A7b9 
+
+Groove BossaNova1Sus
+Volume mf 
+  
+21  Dm      
+22  /       /       /       Dm 
+23  Bm7b5   
+24  E7b9    
+25  Em7b5   
+26  A7b9    
+27  Dm      
+28  D7      
+29  Gm      /       Gm
+30  A7/E    /       A7      
+31  Dm      
+32  Dm/
+33  Bm7b5   /       E7b9    
+34  A7b9    
+35  Dm      
+
+Groove BossaNovaFill
+Volume f
+
+36  Em7     /       A7#5    
+
+// The piece goes from D minor (1 flat) to D major (2 sharps) here.
+
+Groove BossaNovaSus
+Cresc mp mf 16
+
+37  DM7     
+38  D#dim7  
+39  Em7     
+40  /       
+41  A7      
+42  /       
+43  Ddim7   
+44  DM7     
+45  F#m7    
+46  Fdim7   
+47  Em7     
+48  /       
+49  E7      
+50  /       
+51  Em7b5   
+52  A7b9 
+
+Groove BossaNova
+Decresc mf p 16
+   
+53  DM7     /       DM7/C#  
+54  Bm7     
+55  E7      
+56  /       
+57  F#      
+58  F#7     
+59  Bm7     /       Bbm7    
+60  Am7     /       D7b9    
+61  GM7     
+62  C9      
+63  F#m7    
+64  B7      /       B7#5    
+65  E7      
+66  Em7   /       /       A7/G    
+67  F#m7    
+68  B7b9 
+   
+69  E7 
+70  Em7   /       A7      
+
+RepeatEnding
+
+71  D
+   
+Groove BossaNovaFill
+    
+72  /       
+
+RepeatEnd
+
+Groove BossaNovaEnd
+Decresc m p 2
+Seq 3
+
+71  D       
+72  / / /  z!    
+cut -1
+

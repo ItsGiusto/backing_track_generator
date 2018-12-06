@@ -1,0 +1,104 @@
+// After You've Gone
+
+Tempo 120
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+// 4 bar intro
+
+Groove Swing
+
+Begin AllGrooves Arpeggio
+    Octave 5
+    Volume mp
+End
+
+Begin Solo
+	Voice Trumpet
+	Volume mf
+	Articulate 90
+	Harmony 2Below
+	Octave 5
+	Begin Riff
+		3+3e; g; b; 2d+;
+		3+3e; a&; b; 2c+;
+		3+3d; f; g; 4a; bn;
+		4.c+;
+	End
+End
+
+Cresc mf f 4
+
+1       EbM7
+2        Ab9
+3        Dm7      /      /     G7
+4          C      /      z     
+
+Groove Swing1
+Repeat
+Volume mf
+
+5       EbM7
+6        Ab9
+7        Dm7
+8         G7
+
+Groove Swing1Plus
+Decresc  mp 3
+
+9         C9
+10        F9
+11       Bb6
+12       Fm7      /    Bb7
+
+Groove Swing
+Cresc mp ff  8
+
+13      EbM7
+14       Ab9
+15       Dm7
+16        G7
+
+Groove SwingPlusSus
+Volume f
+
+17        Cm      /     G7
+18       Cm7      /    Ab9
+19        Bb      /     D7
+20        Gm      /    Em7   A7b9
+
+Groove SwingWalk
+Volume mf
+
+21       Dm7      /    Gm7
+22       Cm7      /     F7
+
+Decresc m 2
+
+23        Bb
+
+RepeatEnding 2
+
+24       Fm7      /    Bb7
+Groove SwingSus   // effects the first 4 bars after repeating
+
+RepeatEnd
+
+25         /     z!
+
+Groove Swing1End
+SwingMode On
+
+Begin Solo
+   Articulate 70
+   Volume m
+End
+
+Decresc mp 2
+Tempo *.9 2
+
+26        Bb      /     F7    {8d+; c+; 4b; f; a; }
+27        Bb      z     z!      /    {4.b; }
+

@@ -1,0 +1,136 @@
+// Let It Be Me
+// Everly Bros. recorded in "G" at 90bpm.
+// For a change for pace I'm doing it as a cha-cha :)
+
+
+Tempo 120
+KeySig F
+
+Groove Metronome2-4
+	   z * 2
+
+Groove ChaChaIntro
+
+Begin Solo
+   Voice Flute
+   Harmony Open+8Below+8Above
+   Octave 5
+   Articulate 70
+   Cresc mp ff 8
+   Rtime 6
+   Rvolume 10
+   Begin Riff
+     4.a;8;4;;
+	 1a;
+	 4.b;8;4;;
+	 1b;
+	 4.a;8;4;;
+	 1a;
+	 4.c+;8b;4g;g;
+	 1f;
+   End
+End
+
+Cresc p mf 8
+
+1         F
+2         /
+Seq
+3        C7
+4         /
+Seq
+5         F
+6         /
+7        C7
+8         F
+
+
+Groove ChaCha  /// 2nd time the groove is set in the ending to chacha1
+Repeat
+Volume m
+
+9         F
+10       C7      /      /  C#dim
+11       Dm
+
+Decresc mp 1
+12       A
+
+Groove ChaChaSus
+
+13       Bb
+14        F
+15      Gm7      /   C7b9
+16        F
+
+Groove ChaCha1
+Swell mp mf 8
+
+17        /
+18       C7      /      /  C#dim
+19       Dm
+20       Am
+
+Groove ChaCha1Sus
+
+21       Bb
+22        F
+23      Gm7      /   C7b9
+24        F
+
+Groove ChaChaSus
+Cresc mp mf 8
+
+25       Bb
+26       Am
+27       Bb
+28        F
+
+Groove ChaCha
+
+29      Gm7
+30        F
+31       Bb
+32        A
+
+Groove ChaChaSus
+Decresc mf mp 8
+
+33        F
+34       C7      /      /  C#dim
+35       Dm
+36       Am
+
+Groove ChaCha
+
+37       Bb
+38        F
+
+RepeatEnding
+
+39      Gm7      /   C7b9
+
+
+Groove ChaCha1Fill
+
+Scale Cresc p ff 1
+
+40        FzS  F
+
+Groove ChaCha1Sus
+
+RepeatEnd
+
+Tempo *.85 8
+Groove ChaCha
+Decresc  ppp 8
+Alltracks Decresc ppp 8 
+
+Repeat
+
+41      Gm7      /   C7b9
+42        F
+
+RepeatEnd 4
+
+

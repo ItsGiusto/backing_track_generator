@@ -1,0 +1,152 @@
+// I'll Remember April (1942)
+
+Tempo 140
+Keysig g
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzRhumbaIntro
+Begin AllGrooves
+    Begin Chord
+       Voice JazzGuitar
+       Duproot -1,1    /// Add root one octave above and below
+    End
+    Begin Arpeggio
+       Octave 5
+       Range 1.5
+       Rskip 30
+    End
+End
+
+Begin Solo
+    Voice Piano1
+    Octave 5
+    Volume f
+    Harmony Openbelow+Open8Below
+    Articulate 110
+    RVolume 5
+    Begin Riff
+        4r;b;c+;d+;
+        8b+;a+;g+;f+;e+;d+;c+;b;
+        43g;a;b;4c+;b;
+        8d+;r;2.d+;
+    End
+End
+
+Swell mp mf 4
+
+1         G
+2        Em
+3        Am
+Bass Riff 1 2 1 90
+4        D7
+
+
+Repeat
+Groove JazzRhumba
+Volume m
+
+5         G
+6        G6
+7       GM7
+8        G6
+
+Groove JazzRhumbaPlus
+Cresc mf 4
+
+9       Gm7
+10      Gm6
+11      Gm7
+12      Gm6
+
+Groove JazzRhumba
+Decresc mp 3
+
+13      Cm6
+14       D7
+15       F9
+16       E9      /     E7
+
+Groove JazzRhumbaSus
+
+17      Am7
+18     D7b9
+19      GM7
+20       G6
+
+Groove JazzRhumbaSusPlus
+Cresc m 2
+
+21      Cm7
+22       F7
+23     BbM7
+24      Bb6
+
+Groove JazzRhumbaSus
+Swell mf 4
+
+25      Cm7
+26       F7
+27     BbM7
+28      Bb6
+
+Groove JazzRhumbaSusPlus
+Cresc mf 3
+
+29      Am7
+30       D7
+31      GM7
+32       G6
+
+Groove JazzRhumbaSus
+Volume m
+
+33     F#m7
+34       B9
+35      EM7      /     E6
+36      Am7      /     D7
+
+Groove JazzRhumba
+
+37        G
+38       G6
+39      GM7
+40       G6
+
+Groove JazzRhumbaPlus
+Volume mf
+
+41      Gm7
+42      Gm6
+43      Gm7
+44      Gm6
+
+Groove JazzRhumba
+Decresc m 2
+
+45      Cm6
+46       D7
+47       F9
+48       E9      /     E7
+
+Groove JazzRhumba
+
+49      Am7
+50     D7b9
+
+RepeatEnding 
+
+51        G
+Groove JazzRhumbaFill
+
+52     Am7      /    D7
+
+RepeatEnd
+
+Groove JazzRhumbaEnd
+Decresc ppp 2
+
+53        G
+54        /  z!
+

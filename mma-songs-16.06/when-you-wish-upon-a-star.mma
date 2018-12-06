@@ -1,0 +1,113 @@
+// When You Wish Upon A Star
+
+Tempo 115
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Transpose 5  // otherwise we end up with too much range for tenor sax
+
+Groove ModernJazzIntro
+Begin Solo
+  Voice Piano1
+  Articulate 140
+  Harmony OpenBelow+8Below
+  Octave 6
+  Volume ff
+  Begin Riff
+     4.c;8a;4g;4e;
+	 4d;e;2c;
+	 8e;d;4c;8b-;c;4d;
+	 1g;
+  End
+End
+
+Cresc pp m 4
+Groove Modernjazz
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove ModernJazz
+Volume m
+
+5         C      /     A+     A7
+6        Dm      /    Dm7
+7        G7
+8      Cdim      C
+
+Groove ModernJazz1
+Volume mf
+
+9       CM9      /   Cdim
+10      Am7     Dm
+11        F      /     G9
+12        C      /     G9     G7
+
+Groove ModernJazz
+Volume f
+
+13        C      /     A+     A7
+14       Dm      /    Dm7
+15       G7
+16     Cdim      C
+
+Groove ModernJazzSus
+Decresc m 8
+
+17      CM9      /   Cdim
+18      Am7     Dm
+19        F      /     G9
+20        C
+
+Groove ModernJazz
+
+21       Fm      /     Em
+22        C
+23       Dm      /  Bbdim     G7
+24     Cdim      C
+
+Groove ModernJazz1Sus
+Volume m
+
+25        /     Am    Am6    Am7
+26       D7
+27       Fm
+28       G7      /    Abm     G7
+
+Groove ModernJazz
+Decresc mp 4
+
+29        C      /     A+     A7
+30       Dm      /    Dm7
+31       G7
+32     Cdim      C
+
+Groove ModernJazzSus
+
+33      CM9      /   Cdim
+34      Am7     Dm
+
+AllGrooves Arpeggio Voice Piano2
+AllGrooves Bass-Trp Voice Piano2
+
+RepeatEnding
+
+Groove ModernJazzFill
+
+35        F      /     G9
+36        C      /    Dm7     G+
+
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Decresc ppp 2
+Tempo *.8 2
+
+37        F      /     G7
+38        C     z!
+

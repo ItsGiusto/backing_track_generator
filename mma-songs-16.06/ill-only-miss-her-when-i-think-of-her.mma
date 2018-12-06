@@ -1,0 +1,109 @@
+// Ill Only Miss Her When I Think Of Her
+
+Tempo 70
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove StringBalladIntro
+
+Begin Solo
+   Voice Piano1
+   Octave 5
+   Articulate 110
+   Harmony OpenBelow+8Below
+   Cresc m ff 4
+   Begin Riff
+       8g;;2d+;4b;
+       8g;;4e+;b;e+;
+       43a;b;c+;d+;c+;b;
+       1a;
+   End
+End
+
+Cresc ppp mp 4
+
+1          G
+2         Em
+3         Am
+4         D7
+
+/// end of intro
+
+Groove StringBalladStrum
+Cresc mp m 4
+
+5         Am    Am7    Am6   Fdim
+6        Am7      /     D9
+7          G      /      /   D7#5
+8          G      /    Eb7      G
+
+Groove StringBalladVoice
+Decresc mp 4
+
+9        Am6
+10      B7b9      /    Bb7     B7
+11        Em
+12        G7
+
+Groove StringBalladVoiceStrum
+Volume mp
+
+13         C      /     E7
+14        Am      /   Gdim
+15         G
+16       Cm6
+
+Groove StringBalladPlus
+Decresc m mp 4
+
+17         G
+18        A7
+19        D7
+20       Dm6      /   E7b9
+
+Groove StringBalladStrumPlus
+
+21        Am    Am7    Am6   Fdim
+22       Am7      /     D9
+23         G      /      /   D7#5
+24         G      /    Eb7      G
+
+Groove StringBallad
+Volume m
+
+25       Am6
+26      B7b9      /    Bb7     B7
+27        Em
+28        G7
+
+Groove StringBalladStrum
+Decresc mp 4
+
+29         C      /     E7
+30        Am      /   Gdim
+31         G      /    Cm6
+32         G      /     Cm
+33         G      /   D7#5
+
+Groove StringBalladVoiceStrum
+Decresc p 4
+
+34       Dm6      /   E7b9
+35        Am
+36        F9
+37       GM7      /     G6
+
+Groove StringBalladVoice
+
+38       Bb7
+39      EbM7
+
+Groove StringBalladEnd
+Decresc ppp 2
+
+40     Ab7b5
+41         G / z!
+
+

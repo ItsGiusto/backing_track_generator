@@ -1,0 +1,71 @@
+// Yesterday
+
+// This features the same tempo, etc. that "the boys" used. I'm a bit 
+// surprised that my memory puts it much slower ... oh well. The orginal
+// music and recording are in F. My singer, with her smoke affected voice,
+// needs it a bit lower :)
+
+
+Tempo 98
+Keysig F
+
+Transpose -5
+
+Groove Metronome2-4
+	z * 2
+
+Groove GuitarBalladIntro
+Seq 3
+
+
+1   F       
+2   /  
+     
+Set RptCount 2
+
+Repeat
+Groove GuitarBallad
+Repeat
+
+3   F       
+4   Em7     /       A7      
+5   Dm      /       Dm7     
+6   Bb      /       C7      
+7   F       /       /       C       
+8   Dm7     /       G7      
+9   Bb      F  
+	     
+Groove GuitarBallad1
+
+RepeatEnd nowarn $RptCount
+
+Groove GuitarBalladSus
+
+10  Em7     /       A7      
+11  Dm      C       Bb      Dm      
+12  Gm      /       C7      
+13  F       
+14  Em7     /       A7      
+15  Dm      C       Bb      Dm      
+16  Gm      /       C7      
+17  F
+
+Groove GuitarBallad1Sus
+       
+18  /       
+19  Em7     /       A7      
+20  Dm      /       /       Dm7     
+21  Bb      /       C7      
+22  F       /       /       C       
+23  Dm7     /       G7      
+24  Bb      F
+
+Set Rptcount 1
+RepeatEnd
+label foo
+Groove GuitarBalladEnd
+Tempo *.8  2
+       
+25  F       /       G7      
+26  Bb      F       / 
+

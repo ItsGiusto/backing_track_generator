@@ -1,0 +1,123 @@
+// Beyond The Sea
+
+Tempo 120
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingIntro1
+
+Begin Solo
+	Voice Accordion
+	Volume mf
+	Articulate 100
+	Harmony Open+8Above
+	Octave 5
+	Begin Riff
+		3+3f; g; a; 2f;
+		3+3d; e; f; 2d;
+		3+3c; d; e; 2c;
+		2.g <p>;
+	End
+End
+
+Cresc p f 4
+
+1          F
+2         Dm
+3         Am
+4         C7
+
+Repeat	// this is for the sign (the entire song)
+Repeat	// this is for the verse
+
+Groove EasySwing
+
+Seq
+Cresc mp mf 10
+
+5          F      /     Dm
+6         Bb      /     C7
+7          F      /     Dm
+8         Bb      /     C7
+9          F      /     A7
+10        Dm      /     C7
+11         F      /     Dm
+12        Bb      /     D7
+13        Gm      /     C7
+14        Dm      /     Bb
+
+RepeatEnding
+
+Groove EasySwing2Fill
+Seq 3
+
+15        G7
+16         C      /     C7
+
+RepeatEnd
+
+Volume mf
+
+17       Gm7      /     C7
+18         F      /     E7
+
+Groove EasySwing2Sus
+Cresc  mf f 8
+
+19         A      /  F#dim
+20        D6      /     E7
+21         A      /  F#dim
+22        D6      /     E7
+23         A
+24         /      /     G7
+
+Groove EasySwingSus
+
+25         C      /     Am
+26         F      /     G7
+27         C      /     Am
+28        Dm      /     G7
+29         C      /     C7
+30        Am      /     C7
+31         F      /     Dm
+32        Bb      /     C7
+33         F      /     Dm
+
+Groove EasySwingWalkSus
+DeCresc  mp 10
+
+34        Bb      /     C7
+35         F      /     A7
+36        Dm      /     C7
+37         F      /     Dm
+
+Groove EasySwing2Sus
+
+38        Bb      /     D7
+39        Gm      /     C7
+40        Dm      /     Bb
+41        G7      /     C7
+
+RepeatEnding
+
+Groove EasySwingFill
+Seq 4
+
+42         F
+
+RepeatEnd
+
+Decresc mp  off 9   //  Fade out.
+Repeat
+
+43         F      /     C7
+44        Dm      /     Bb
+RepeatEnding 2
+45        G7      /     C7
+Repeatend
+46         G      /     z!
+
+
+

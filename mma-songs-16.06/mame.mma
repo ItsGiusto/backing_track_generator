@@ -1,0 +1,95 @@
+// Mame
+
+Tempo 160
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove BigbandIntro
+
+Cresc pp m 4
+
+Begin Solo
+	Voice Piano2
+	Articulate 80
+	Volume ff
+	Harmony 3
+	Octave 5
+	Begin Riff
+		4r;e+;;;
+		4r;e+;;;
+		4r;e+;;;
+		1f+;
+	End
+End
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove  Bigband
+Volume mf
+
+5         C      /     C6
+6       CM7      /  C#dim
+7       Dm7
+8        G7
+9        Dm      /     A+
+10      Dm7      /     G7
+11      CM7      /     C6
+12      CM7
+
+Groove BigBandPlus
+Cresc m f 8
+
+13       Am      /    G#+
+14      Am7      /    Am6
+15       Em
+16       A9
+17       Dm      /     A+
+18      Dm7      /     G7   G7+5
+19        C      /  C#dim
+20      Dm7      /     G7
+
+Groove BigBand
+Volume m
+
+21        C      /     C6
+22      CM7      /  C#dim
+23      Dm7
+24       G7
+25       Dm      /     A+
+26      Dm7      /     G7
+27       E7
+28      Dm6     E7
+
+Groove BigBandSus
+Cresc m f 8
+
+29       Am      /    G#+
+30      Am7      /  Ebdim
+31       Em
+32       A9
+33       Dm      /     A+
+34      Dm7      /     G7
+35       Em      /     B+    Em7
+36       A9
+37       D7
+38      Dm7      /     G7   G7b9
+
+RepeatEnding
+
+39        C      /   Cdim
+40      Dm7      /     G7
+
+
+RepeatEnd
+
+Groove BigBand2End
+
+41        C
+42        /  z!
+

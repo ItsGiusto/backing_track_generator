@@ -1,0 +1,92 @@
+// Daydream
+
+Tempo 112
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove EasySwingIntro
+Seq 2
+
+1          C
+2          /
+
+Repeat
+Groove EasySwing
+Swell m mf 4
+
+3          C
+4         A7
+5        Dm7
+6         G7
+
+Groove EasySwingSus
+Swell m mp 4
+
+7          C
+8         A7
+9        Dm7
+10       G11      /     G7
+
+Groove EasySwingWalk
+Cresc m mf 4
+
+11         F      /  F#dim3
+12         C      /     A7
+13         F      /  F#dim3
+14         C      /     A7
+
+Groove EasySwingWalkSus
+Decresc mp 4
+
+15         F      /  F#dim3
+16         C      /     A7
+
+RepeatEnding
+
+17       Dm7
+18     G7sus      /     G7
+
+
+RepeatEnding
+
+19       Dm7
+20     G7sus     G7
+
+RepeatEnd
+
+21       Dm7
+22     G7sus      /     G7
+
+Groove EasySwing
+Volume m
+
+23         C
+24        A7
+25       Dm7
+26        G7
+
+Groove EasySwingSus
+Volume mp
+
+27         C
+28        A7
+29       Dm7
+30       G11      /     G7
+
+
+Groove EasySwing
+Decresc pppp 8
+Alltracks Decresc pppp 8
+
+Repeat
+
+31         F      /  F#dim3
+32         C      /     A7
+33         F      /  F#dim3
+34         C      /     A7
+
+RepeatEnd
+
+

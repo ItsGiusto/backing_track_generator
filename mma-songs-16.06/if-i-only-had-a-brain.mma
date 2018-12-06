@@ -1,0 +1,101 @@
+// If I Only Had A Brain
+
+Tempo 140
+
+Groove Metronome2-4
+ z * 2
+
+Set ChordVoice Piano1
+
+Groove SoftShoeIntro
+
+Begin Allgrooves
+  Begin Arpeggio
+     Voice Jazzguitar
+     Articulate 120
+  End
+End
+
+Cresc p mf 4
+
+1         F      /    Dm7
+2       Gm7      /    C7
+3       FM7      /      F
+4        C7
+
+Repeat
+Groove Softshoe
+Volume m
+
+5         F      /    Dm7
+6       Gm7      /     C7
+7         F
+8         /
+
+Groove SoftshoePlus
+Cresc mf 4
+
+9        Bb      /    Gm7
+10       C7
+11        F     Bb      F
+12      Gm7      /     C7
+
+Groove Softshoe
+Volume m
+
+13        F      /    Dm7
+14      Gm7      /     C7
+15        F
+16        /
+
+Groove SoftshoePlus
+Swell mf 4
+
+17       Bb      /    Gm7
+18       C7
+19        F     Bb      F
+20      Cm7      /     F7
+
+Groove SoftshoeSus
+Cresc mf 4
+
+21       Bb      /   Ddim
+22      Am7      /   D/F#
+23      Gm7      /     C7
+24      FM7      /     F6
+
+Groove SoftshoeSusPlus
+Decresc mp 4
+
+25    Em7b5      /     A7
+26       Dm
+27       G9
+28     Cdim      /     C7
+
+Groove Softshoe
+Volume m
+
+29        F      /    Dm7
+30      Gm7      /     C7
+31        F
+32        /
+
+Groove SoftshoePlus
+Decresc mp 2
+
+33       Bb      /    Gm7
+34       C7
+
+Repeatending  2
+
+35        F     Bb      F
+36      Gm7      /      C   C7
+
+RepeatEnd
+
+Groove SoftshoeEnd
+Decresc ppp 2
+
+35        F     Bb      F
+36        /     z!
+

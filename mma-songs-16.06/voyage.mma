@@ -1,0 +1,117 @@
+// Voyage (Kenny Barron, 1986)
+
+//Tempo 220  // Getz's tempo ... too damned fast for little me
+Tempo 150
+Keysig Ab
+
+Groove Metronome2-4
+  z * 2
+
+// By defining this solo riff here it plays
+// the "A" melody the very first time though.
+// If you want it to play on both repeats ... just
+// put a repeat/repeatend around the block :)
+
+Begin Solo
+    Voice JazzGuitar
+    Articulate 120
+    Harmony OpenBelow
+    Octave 5
+    Rtime 10
+    RVolume 10
+    Swell mf ff 9
+    Begin Riff
+        8c+;b;a;8+2g;
+        4r;8;f;g;a;4r;
+        8d+;c&+;an;8+2a&;
+        8r;f;b&;a;an;c+;f+;c+;
+        4.e+;8d+;8r;f;a;c+;
+        8r;c+;b;e+;d+;c+;a;en;
+        8c+;b;a;8+2g;
+        4r;
+    End
+End
+Swingmode on
+
+Repeat  // outer repeat does whole song
+Repeat
+
+// "A"
+Groove ModernJazz 
+Volume m
+
+
+1    Fm6(add9)
+2         /
+3    Gbm6(add9)
+4      F7b9
+
+Groove ModernJazz2
+Volume mf
+
+5      Bbm7
+6     Gdim7      /     C7
+7    Fm6(add9)
+
+Groove ModernJazzFill
+Seq 2
+
+RepeatEnding
+
+8     Gdim7      /     C7
+
+RepeatEnd
+
+9    Fm6(add9)
+
+// "B"
+
+Groove ModernJazzSus
+Volume m
+
+10       Db
+11      Em7      /     A7
+12        D
+13      Fm7      /    Bb7
+
+Groove ModernJazz2Sus
+Cresc mf 4
+
+14       Eb
+15     F#m7      /     B7
+16        E
+
+Groove ModernJazzFill
+Seq 2
+
+17    Gdim7      /     C7
+
+// "C"
+
+Groove ModernJazz 
+Decresc mp 4
+
+18   Fm6(add9)
+19        /
+20   Gbm6(add9)
+21     F7b9
+
+Groove ModernJazz2
+Volume m
+
+22     Bbm7
+23    Gdim7      /     C7
+
+RepeatEnding 2
+
+Groove ModernJazzFill
+
+24   Fm6(add9)
+25    Gdim7      /     C7
+
+RepeatEnd
+Groove ModernJazzEnd
+Decresc pp 2
+
+24   Fm6(add9)
+25    Gdim7 z!

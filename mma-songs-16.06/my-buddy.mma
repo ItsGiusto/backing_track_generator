@@ -1,0 +1,78 @@
+// My Buddy
+
+Tempo 90
+Keysig G
+
+Groove Metronome3
+ z * 2
+
+Groove Waltz1Intro
+Begin Solo
+ Voice TremoloStrings
+ Octave 4
+ Harmony Open
+ Articulate 110
+ Volume f
+ Begin Riff
+   2d+;4b;
+   2d+;4b;
+   4e+;d+;c+;
+   2.d+;
+ End
+End
+
+Cresc mp mf 4
+
+1         G
+2         G#dim
+3         Am
+4         D7
+
+Repeat
+
+Groove Waltz1
+Cresc mp mf 4
+
+5         G
+6     G#dim
+7        D7
+8         /
+
+Groove WaltzSus
+Decresc mf mp 4
+
+9         G
+10     Gdim
+11      Am7
+12       D7
+
+Groove Waltz1Walk
+Volume m
+
+13        G
+14        /
+15       E7
+16        /
+
+Groove Waltz1WalkSus
+Decresc mp 4
+
+17      Am7
+
+RepeatEnding 2
+
+18        /
+19       D7
+20        /
+
+RepeatEnd
+
+
+21       D7
+
+Groove WaltzEnd
+Seq 3
+
+22        G
+23        / / z!
+

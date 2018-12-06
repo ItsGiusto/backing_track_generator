@@ -1,0 +1,158 @@
+// Change Partners
+// Fred Astaire in "Carefree"  1938. 
+// Latin version was done by Sinatra/Jobin.
+ 
+Tempo 132
+Keysig f
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzRhumbaIntro
+
+Arpeggio Octave 5
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Articulate 99
+    Octave 5
+    Harmony OpenBelow
+    Begin Riff
+        4.c;8;2;
+        4.d;8;2;
+        43e;f;g;a;b;d+;
+        2c+;
+    End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+Bass Riff 1 2 1 80
+4        C7
+
+Repeat
+Groove JazzRhumba
+Volume m
+
+5         F
+6         /
+7    G#dim7
+8         /
+
+Groove JazzRhumbaPlus
+Cresc mf 4
+
+9        C7
+10        /
+11      Gm7
+12     Bbm6
+
+Groove JazzRhumba
+
+13      F/A
+14   G#dim7
+15     Gm11
+16       C7      / G#dim7
+
+Groove JazzRhumbaPlus
+Decresc mp 4
+
+17      Gm7
+18       C7
+19       F6      / F#dim7
+20      Gm7      /     C9
+
+Groove JazzRhumba
+Cresc m 2
+
+21        F
+22        /
+23   G#dim7
+24        /
+
+Groove JazzRhumbaPlus
+
+25       C7
+26        /
+27      Gm7
+28     Bbm6
+
+Groove JazzRhumbaSus
+Cresc mf 4
+
+29      F/A
+30   G#dim7
+31     Gm11
+32       C7      / G#dim7
+
+Groove JazzRhumbaSusPlus
+Swell f 4
+
+33      Gm7
+34       C7
+35       F6
+36     Bbm7      /    Eb9
+
+Groove JazzRhumbaSus
+Decresc m 2
+
+37       Ab
+38      Ab6
+39     AbM7
+40      Ab6
+
+Groove JazzRhumbaSusPlus
+Decresc mp 2
+
+41       Ab
+42      Ab6
+43      Gm7
+44   BbM9/C      /   C7b9
+
+Groove JazzRhumba
+Volume m
+
+45        F
+46        /
+47   G#dim7
+48        /
+
+Groove JazzRhumbaPlus
+
+49       C7
+50        /
+51      Gm7
+52     Bbm6
+
+Groove JazzRhumba
+Decresc mp 4
+
+53      F/A
+54    Db/Ab   C7/G
+55   Cm6/Eb
+56     D7b9
+
+Groove JazzRhumbaPlus
+
+57      Gm7
+58    Gm11/C      /   C7b9
+
+RepeatEnding
+Groove JazzRhumbaFill
+Cresc m 2
+
+59       F6
+60      Gm7      /   C7b9
+
+RepeatEnd
+Groove JazzRhumbaEnd
+Decresc ppp 2
+
+61       F6
+62        / z!
+
+

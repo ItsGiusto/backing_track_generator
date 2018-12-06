@@ -1,0 +1,99 @@
+// A White Sport Coat
+
+Tempo 130
+
+Groove Metronome2-4
+	z * 2
+
+Groove 50sRockIntro
+Begin Solo
+    Voice SynthVox 
+	Cresc mf fff 4
+	Articulate 110
+	Harmony OpenBelow+8Below
+	Octave 5
+    Begin Riff
+        2.c+;4g;
+        2.a;8g;a;
+        4d+;f+;g+;f+;
+        1d+;		
+	End
+End
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+Repeat
+
+Begin Solo
+    Volume f
+	Octave 6
+End
+
+Groove 50sRock1
+
+5          C
+6          /
+7        Dm7
+8         G7     {4r;b;a;1g~;}
+
+9          F
+10        G7
+11         C      /    Am7  {4r;e;f;1e~;}
+12       Dm7      /     G7
+
+Groove 50sRock1Sus
+
+13         C
+14         /
+15       Dm7
+16        G7 {4r;b;a;2g~;}
+
+Groove 50sRock1
+
+17         F
+18        G7
+19         C      /      F   {8.e;16r;8.e;16r; 8.g;16r;8.g;16r;}
+20         C                 {8.e;16r;8.e;16r; 2g;}
+
+Groove 50sRock1Sus
+
+21        G7                 {1+1g~;}
+22         /
+23         C                 {1+1c+~;}
+24         /
+
+Groove 50sRock1
+
+25        D7                {1+1d+~;}
+26         /
+27        G7                {1+1g+~;}
+28         /
+
+Groove 50sRock1Sus
+
+29         C
+30         /
+31       Dm7
+32        G7
+
+Groove 50sRock1
+
+33         F
+34        G7
+
+RepeatEnding
+
+35         C      /    Am7
+36       Dm7      /     G7
+
+RepeatEnd
+
+Groove 50sRockEnd
+
+37         C
+38         /     z!
+	cut -2
+

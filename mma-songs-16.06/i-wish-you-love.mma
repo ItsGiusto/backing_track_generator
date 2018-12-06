@@ -1,0 +1,129 @@
+// I Wish You Love
+
+Tempo 75
+KeySig Eb
+
+Begin Solo
+  Voice Bandoneon
+  Articulate 90
+  Harmony OpenBelow
+  Octave 5
+  Volume mp
+End
+
+Groove Metronome2-4
+	z 
+	z             {2.r;4e;}
+
+Groove EasySwingSus
+Plectrum Capo -2
+
+// 4 bar intro
+
+1 	Ebm            {1+4e+ ~;}
+2 	Abm            {~ 8d&+;c&+;b;a;g&;a;}
+3 	Bb7            {2b;4r;4e;}
+4 	Abm7 / / z     {4g&;2f;}
+
+Solo Volume -30
+
+// verse or introduction. Dramatic intro in the French style :)
+
+5 	Ebm            {4r;g&;r;g;}
+6 	/              {2g&;e;}
+7 	Abm6 /  Cb6    {4r;e;r;g&;}
+8 	Bb7            {2f;d;}
+9 	Ebm            {4e;r;e;}
+10 	/  /  Cb7      {2e;an-;}
+11 	Abm6           {4r;2e;4;}
+12 	Bb7            {4r;2d;}
+13 	Ebm            {4r;g&;r;g;}
+14 	Gb6 /  Ab E&dim3  {4b;r;e;an-;}
+15 	Db             {4r;f;r;f;}
+16 	/  /  Abm7     {4f;r;2c&;}
+17 	Eb             {4r;e;r;e;}
+18 	Eb  Ebm6 Cb7   {4r;e;2an-;}
+19 	Abm6           {4r;a;c&+;e+;}
+
+// The next bar should be played with the first beat ending the
+// durge, a 1/4 rest and then a triplet picking up the melody.
+// In this arrangement I use a accel. to change the tempo ... almost
+// makes the triplets sound "paused".
+
+Tempo 100 1
+Chord-Sus Riff 1 2 90 0 80 0;
+20 	Bb7 z  Edim3     {2d+;}
+
+Repeat
+
+Groove ChaCha
+
+22 	Fm7 /  Bb7
+23 	Fm7 /  Bb7
+24 	EbM7 /  Eb6
+25 	EbM7 /  Eb6
+
+Groove ChaCha1
+
+26 	Fm7
+27 	Bb7
+28 	Eb6
+29 	Edim3
+
+Groove ChaCha
+
+30 	Fm6 /  Bb7
+31 	Fm7 /  Bb7
+32 	EbM7 /  Eb6
+33 	EbM7 /  Eb6
+
+Groove ChaCha1
+
+34 	Fm7
+35 	Bb7
+36 	Eb7 /  Ebdim3
+37 	Eb7
+
+Groove ChaChaSus
+
+38 	Ab
+39 	Abm
+40 	Eb /  Bbm7
+41 	C7
+
+Groove ChaCha
+
+42 	Fm
+43 	F9
+44 	Bb7 Ebm6 Bbdim3
+45 	Bb7 /  Edim3
+
+Groove ChaCha1Sus
+
+46 	Fm7 /  Bb7
+47 	Fm7 /  Bb7
+48 	EbM7 /  Eb6
+49 	EbM7 /  Eb6
+
+Groove ChaCha
+
+50 	Fm7
+
+Repeatending
+
+51 	Bb7
+52 	Eb
+
+Groove ChaChaFill
+
+53 	Ebdim3 / z
+
+Repeatend
+
+Groove ChaChaEnd
+
+54 	Bb7
+Seq 1
+55 	Eb
+56 	/ / / z!
+

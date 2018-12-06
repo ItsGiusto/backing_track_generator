@@ -1,0 +1,87 @@
+// Me And My Shadow
+
+Tempo 120
+keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove SoftShoeIntro
+
+Begin Solo
+	Voice Piano1
+	Volume mf
+	Articulate 120
+	Octave 4
+	Begin Riff
+		4e;8r;c+;4b;8r;c+;
+		4e;8r;c+;b;c+;b;c+;
+		4f;8r;c+;4b;8r;c+;
+		4f;8r;c+;b;c+;b;c+;
+	End
+End
+
+Swingmode On
+
+1   Eb6       
+2   Cm7      
+3   Fm7      
+4   Bb7      
+
+
+Repeat
+Groove SoftShoe
+
+5   Eb6     
+6   /       
+7   Abm6    
+8   Ab6     
+9   Fm7     
+10  Bb11    /       Bb7b9   
+11  EbM9    
+12  /       /       Bb+  
+
+Groove SoftShoeSus
+
+13  Eb6     
+14  /       
+15  D       
+16  D7b9    
+17  Cm      
+18  Ebm6    /       F7      
+19  Bb6     
+20  /       Bb7
+
+Groove SoftShoePlus
+    
+21  Eb9     
+22  /       /       A7#5b9  
+23  AbM7    
+24  /       /       Db9     
+25  C11     
+26  /       /       Gb9     
+27  F9      
+28  Bb7b9   /       Bb7#5  
+
+Groove SoftShoeSusPlus
+ 
+29  Eb6     
+30  /       
+31  Abm6    
+32  Ab6     
+33  Fm7     
+34  Bb11    /       Bb7b9  
+ 
+RepeatEnding
+
+35  Eb6     
+36  / / B&7
+
+RepeatEnd
+
+Groove SoftShoeEnd
+
+37  Eb6       
+38  /    / z!  
+
+

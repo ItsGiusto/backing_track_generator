@@ -1,0 +1,109 @@
+// Love Letters (1945)
+
+Tempo 88
+Keysig Ab
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBoleroIntroSus
+
+Begin AllGrooves
+    Chord-Sus Voice ChoirAahs
+End
+
+Chord-Sus Volume -50
+
+Begin Solo
+    Voice Strings
+    Octave 5
+    Volume f
+    Articulate 99
+    Harmony 3Above
+    Begin Riff
+        4r;a;;;
+        2a;4;;
+        1+2b ~;
+    End
+End
+
+Swell p m 4
+
+1        Ab
+2        Fm
+3        Bbm
+4       Eb7
+
+Repeat
+Groove SlowBolero
+Volume m
+
+5        Ab
+6         /
+7        Fm
+8         /
+
+Groove SlowBoleroPlus
+
+9      Bbm7
+10    Eb7b9
+11       Ab
+12        /
+
+Groove SlowBolero
+Swell f 8
+
+13       Fm
+14     Fdim      /     G7
+15       Cm
+16     Ebm6      /     F7
+
+Groove SlowBoleroPlus
+
+17      Bbm
+18     Cdim
+19      Bbm
+20     Dbm6      /    Eb7
+
+Groove SlowBoleroSus
+Cresc mf 4
+
+21       Ab
+22        /
+23       Fm
+24        /
+
+Groove SlowBolero1Sus
+
+25      Bbm
+26    Eb7b9
+27      Ab7
+28        /
+
+Groove SlowBolero1
+Volume m
+
+29       Db
+30     Dbm6
+31       Ab
+32    Abdim
+
+Groove SlowBolero
+Decresc mp 2
+
+33     Bbm7
+34        /      /  Eb7b9    Eb7
+
+RepeatEnding
+
+35       Ab
+36        /   Bdim   Bbm7  Eb7b9
+
+RepeatEnd
+
+Groove SlowBoleroEnd
+Decresc ppp 2
+
+37       Ab
+38        /  z!
+

@@ -1,0 +1,98 @@
+// I Left My Heart In San Francisco
+
+Tempo 100
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove ModernJazzIntro
+Begin Solo
+   Voice Piano1
+   Volume f
+   Harmony Open+8Below
+   Articulate 110
+   Octave 5
+   Begin Riff
+     4b+;8a+;g+;4f+;e+;
+     4g+;f+;e+;d+;
+     4e+;8d+;c+;4b;c+;
+	 2a;
+   End
+End
+
+Swingmode On Skew=60
+
+Cresc ppp mp 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+
+
+Repeat
+Groove ModernJazz
+Volume m
+
+5        Bb
+6         /    Gm7  C#dim
+7       Cm7
+8         /
+9        F9      /    Cm7
+10        /      /     F7
+11       Bb      /    Cm7
+12       Bb      /    Cm7  C#dim
+
+Groove ModernJazz1
+Swell f 8
+
+13       Bb
+14      Dm7      /   Gdim
+15       Am
+16      Am7      /   D7b9
+17      Gm7
+18       C9      C   C7b9
+19       F9      /   Fdim
+20      Cm7      /     F7
+
+Groove ModernJazzSus
+Decresc mp 8
+
+21       Bb
+22        /    Gm7  C#dim
+23      Cm7
+24        /
+25       F9      /    Eb6
+26       F9      /     Eb    Eb6
+27        D      /      C
+28       D7
+
+Groove ModernJazz
+Cresc m 8
+
+29       G7      /      /     G9
+30        /      /      F     G7
+31        C      /      /    Gm7
+32       C9
+33       F9
+34      Cm7      /     F7
+
+RepeatEnding
+
+35       Bb
+36       F7
+
+GrooveClear
+Set ArpeggioVoice Clarinet
+
+RepeatEnd
+
+Groove ModernJazzEnd
+DeCresc off 3
+Tempo *.9 2
+
+37      Bb6      /  Ab69
+38    Bb69       /  z!
+

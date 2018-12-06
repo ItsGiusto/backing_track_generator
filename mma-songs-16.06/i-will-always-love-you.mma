@@ -1,0 +1,176 @@
+// I Will Always Love You (Whitney Houston Version)
+
+Tempo 68
+Keysig A
+Transpose 6  // from A to Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove SlowCountryIntro
+
+Allgrooves Chord Voicing Mode=Key
+
+Begin Solo
+    Voice Strings
+    Octave 5
+    Harmony OpenBelow
+    Articulate 120
+    Volume mf
+    Begin Riff
+       2+4+8a;8b;
+       2+4+8a;8b;
+       4!!d+;;c#+;b;
+       2b;    
+    End
+End
+
+Swell mp mf 4
+
+1         A
+2         F#m
+3         Bm
+4         E7   
+
+
+Repeat
+Groove SlowCountry
+Volume m
+
+5         A      /      /    E
+6         A      /      /   A
+7       F#m      /      A        
+8         D      /      E            
+
+Groove SlowCountrySus
+Cresc mf 4
+
+9         A      /      /    E
+10        A      /      /   A
+11      F#m      /          A
+12        D      /      E
+
+Groove SlowCountrySusPlus
+Volume m
+
+13        A      /      /    F#m
+14        D      /      E
+15        A      /    F#m
+16        D      /      E
+
+RepeatEnding
+
+Groove SlowCountryWalk
+Decresc mp 4
+
+17        A
+18        /
+19        D
+20      C#m
+
+Groove SlowCountryWalkSus
+
+21      Bm7      /      E
+
+RepeatEnd
+
+Groove SlowCountryWalkSus
+Decresc mp 2
+
+22        A      /    D/A
+23        A      /      E
+
+Groove SlowCountry
+Volume mf
+
+24        A      /      /    E
+25        A      /      /   A
+26      F#m      /    A
+27        D      /      E
+
+Groove SlowCountrySus
+Volume f
+
+28        A      /    E
+29        A      /    C#m
+Decresc mp 2
+30      F#m      /    A
+31        D      /      E
+
+/// we have a DS here. Easier to cut/paste
+
+Groove SlowCountry
+Cresc m 4
+
+5         A      /      /    E
+6         A      /      /   A
+7       F#m      /    A
+8         D      /      E
+
+Groove SlowCountryFillPlus
+
+9         A      /      /    E
+10        A      /      /   A
+11      F#m      /    A
+
+// This is coda section
+
+Cresc mf 4
+
+32        D      /      E
+
+Groove SlowCountrySus
+Begin Solo
+   Volume mp
+   MidiCresc mp mf 1.5
+   Harmony 3Above
+   Riff  4r;2.e;
+End
+33        /
+
+/// since we're transposing this is actually in C
+Keysig B
+
+Solo Riff 2.b;
+34        B      /      /    G#m
+Decresc mp 2
+35        E      /     F#
+36        B      /    G#m
+
+Groove SlowCountrySusPlus
+Volume m
+
+37      C#m      /     F#
+38        B      /    G#m
+39        E      /     F#
+40        B      /    G#m
+
+Groove SlowCountryWalkSusPlus
+Volume mf
+
+41      C#m      /     F#
+42        B      /    G#m
+43        E      /     F#
+44        B      /    G#m
+
+Groove SlowCountryWalkPlus
+Volume f
+
+45        E      /     F#
+46        /
+47        B
+48        E
+
+Groove SlowCountry
+Decresc mp 2
+
+49     B/D#
+50   F#sus4      /     F#
+
+Groove SlowCountryEnd
+Decresc ppp 2
+
+51        B
+52        /  z!
+
+

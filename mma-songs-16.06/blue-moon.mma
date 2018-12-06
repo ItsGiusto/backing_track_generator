@@ -1,0 +1,85 @@
+// Blue Moon
+
+
+Tempo 140
+Keysig Eb
+
+Groove Metronome2-4
+
+	z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+	Voice NylonGuitar
+	Volume f
+	Articulate 90
+	Octave 5
+End
+
+Swingmode On
+
+1    Eb                 {2e; g;   }    
+2    Cm                 {2e; g;   }    
+3    Fm                 {3+3f; e;   f;   2f;  }    
+4    Bb7  /    /    z   {8f; e;   f;   g;   2a;  }    
+
+Repeat
+Groove Foxtrot
+
+5    Eb   /    Cm7  
+6    Fm7  /    Bb7  
+7    Eb   /    Cm7  
+8    Fm   /    Bb7  
+9    Eb   /    Cm7  
+10   Fm7  
+11   Eb   /    Ab   
+12   Eb   /    Bb7 
+ 
+Groove FoxTrotSus
+
+13   Eb   /    Cm7  
+14   Fm7  /    Bb7  
+15   Eb   /    Cm7  
+16   Fm   /    Bb7  
+17   Eb   /    Cm7  
+18   Fm7  
+19   Eb   /    Fm7  
+20   Eb   
+
+Groove FoxtrotPlus
+
+21   Fm7  /    Bb7  
+22   Eb   
+23   Fm7  /    Bb7  
+24   Eb   
+25   Abm  /    Db7  
+26   Gb   
+27   Bb   /    F7   
+28   Fm7  /    Bb7  
+
+Groove FoxTrot
+
+29   Eb   /    Cm7 
+30   Fm7  /    Bb7  
+31   Eb   /    Cm7  
+32   Fm   /    Bb7 
+
+Groove FoxTrotSus
+	 
+33   Eb   /    Cm7  
+34   Fm7  
+
+RepeatEnding
+
+35   Eb   /    Fm7  
+36   Eb   /    Bb7  
+
+RepeatEnd
+
+
+Tempo *.8 1.5
+
+37   Eb   /    Fm7  
+38   Eb   z!    
+Fermata -4 1 200

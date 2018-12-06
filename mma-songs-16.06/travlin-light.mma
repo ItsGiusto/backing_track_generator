@@ -1,0 +1,123 @@
+// Travlin Light -- Paul Whiteman with Billie Holiday, 1942
+
+Tempo 74
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove NiteJazzIntro
+
+Begin AllGrooves
+  Arpeggio-Piano Voice JazzGuitar
+
+  Begin Bass
+     Rvolume 4
+     Rtime 0
+  End
+
+  Begin Bass-Accent
+     Rvolume 0
+     Volume p
+  End
+End
+
+Begin Solo
+   Voice Piano1
+   Harmony OpenAbove
+   Octave 5
+   Volume f
+   Articulate 110
+   Begin Riff
+      43c+;b;a;2f;
+      43d;e;d;2c;
+      4b;a;g;f;
+      2g;
+   End
+End
+
+Swell p mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7    F/A Abdim7
+
+Repeat
+Groove NiteJazz
+Volume m
+
+5        Gm
+6         /      /     C9
+7        F9      / F#dim7
+8         /    F/A Abdim7
+
+Groove NiteJazzPlus
+Cresc mf 4
+
+9       Gm7
+10        /      /     C7
+11        F      / F#dim7
+12     C9/G    F/A Abdim7
+
+Groove NiteJazzSus
+Cresc f 2
+
+13      Gm7
+14        /      /     C9
+15        F      / F#dim7
+16        /    F/A Abdim7
+
+Groove NiteJazzSusPlus
+Decresc m 4
+
+17      Gm7
+18        /      /     C7
+19      Gm7      /   GbM7
+20       F6    Gb9     F9     B9@3.5   BbM9@4.5
+
+Groove NiteJazz
+
+21        /
+22        /      /    Am7    FM7
+23      Am7      /    FM7
+24        /     B9   F6/C    Bb9@3.5    Am7@4.5
+
+Groove NiteJazzSus
+Cresc mf 2
+
+25        /      /    Ab7
+26      Gm7
+27    Gm11/C
+28       C9    F/A Abdim7
+
+Groove NiteJazzPlus
+Decresc m 3
+
+29      Gm7
+30        /      /     C9
+31       F9      / F#dim7
+32        /    F/A Abdim7
+
+Groove NiteJazz
+Decresc mp 2
+
+33      Gm7
+34        /      /     C7
+
+RepeatEnding
+
+Groove NiteJazzPlus
+
+35      Gm7      /   GbM7
+36        F    F/A Abdim7
+
+
+RepeatEnd
+
+Groove NiteJazzEnd
+Decresc ppp 2
+
+37      Gm7      /   GbM7
+38       F6     z!
+

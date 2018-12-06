@@ -1,0 +1,131 @@
+// Out Of My Dreams  (from Oklahoma!)
+
+Tempo 135
+Keysig F
+
+Groove Metronome3
+ z * 2
+
+Groove Waltz1SusIntro
+Begin Solo
+    Voice TremoloStrings
+    Octave 5
+    Articulate 110
+    Harmony 3Below+8Below
+    Cresc m f 4
+    Begin Riff
+        2c+;8a;f;
+        4d+;a;f;
+        2d+;8b;g;
+        2.c+;
+    End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove WaltzSus
+Cresc mp mf 8
+
+5         F
+6         /
+7        Em
+8       A11      /     A7
+
+9        Dm
+10      Dm7
+11       G7
+12     Bbm6
+
+Groove Waltz
+Volume m
+
+13        F
+14        /
+15      Dm7
+16       G9
+
+Groove Waltz1
+Decresc mp 4
+
+17        C
+18      Gm9
+19       C7
+20        /
+
+Groove Waltz1Sus
+
+21        F
+22        /
+23       Em
+24      A11      /     A7
+
+Groove WaltzSus
+Cresc mf 4
+
+25       Dm
+26      Dm7
+27       G7
+28     Bbm6
+
+Groove WaltzWalk
+Decresc m 4
+
+29       F+      /      F
+30      FM7      /      F
+31     C7b5
+32        /      /     C7
+
+Groove WaltzWalkSus
+
+33        F
+34        /
+35     Ebm6
+36        /      /     C7
+
+Groove WaltzSus
+Cresc mf 4
+
+37        F
+38        /
+39       Bb
+40        /
+
+Groove Waltz1
+Decresc mp 4
+
+41        F
+42      FM7
+43      Gm7
+44       C7
+
+RepeatEnding
+Groove Waltz
+
+45   F
+46  /
+47  /
+48  C7
+
+RepeatEnd
+
+Groove WaltzEnd
+decresc ppp 4
+Tempo *.8 4
+
+Seq 2
+45        F
+Seq 2
+46        /
+47        /
+48        / z!
+
+
+// RepeatEnd
+
+

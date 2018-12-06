@@ -1,0 +1,206 @@
+// Penny Lane
+
+Tempo 112
+Keysig G
+
+Set Rcount 1// 1    // used in the first repeat to skip on the DS
+
+// Create tracks for solo stuff
+
+Begin Solo-Drum
+  DrumType
+  Tone RideBell
+End
+
+Begin Solo-Flute
+  Voice Flute
+  Harmony OpenBelow
+  Octave 6
+  Articulate 90
+  Volume m
+End
+
+Begin Solo-Horn
+  Voice BrassSection
+  Harmony OpenBelow+8Below
+  Volume m
+  Articulate 90
+  Octave 6
+End
+
+/////////////////
+
+Groove Metronome2-4
+ z * 2
+
+Groove EasySwingIntro
+Begin Solo
+  Voice Strings
+  Octave 5
+  Harmony 3Below+8Below+16Below
+  Volume m
+  Articulate 101
+  Begin Riff
+     4.d+;8c+;4b;c+;
+	 4.d+;8c+;4b;c+;
+	 1+2d+ ~;
+  End
+End
+
+1          G
+2         Em
+3         Am
+4         D7
+
+Label DS
+Repeat
+Groove EasySwing
+
+5          G
+6        Am7      /     D7
+7          G
+8        Gm7
+
+Groove EasySwingFill
+
+9        Gm6
+10      EbM7
+
+if ndef FluteDone
+   Begin Solo-Flute Riff
+      2r;4r;8r;16g;a;
+      16c;g;2a;
+   End
+   Set FluteDone
+Endif
+
+Groove EasySwingWalk
+
+11        D7
+
+RepeatEnding nowarn $Rcount
+
+12         /
+
+RepeatEnd
+
+13         C
+
+Repeat
+Groove EasySwingSus
+14         F
+15         /
+
+Begin Solo-Horn Riff
+   4.fn;8d;e;d;4c;
+   4d;4e;4.c;
+End
+
+16        Bb
+17         /
+
+Groove EasySwingWalkSus
+
+18         F
+19         /
+20        Bb
+
+if def InDs
+   Goto Coda
+Endif
+
+21        D7
+
+Groove EasySwingSus
+
+22         G
+23       Am7      /     D7
+24         G
+
+Begin Solo-Flute Riff
+	  2r;8d+;e+;fn+;2.d ~;
+End
+
+25       Gm7
+26       Gm6
+
+
+Groove EasySwingFill
+
+27      EbM7
+28        D7
+
+
+RepeatEnding 
+
+if ndef Firedone
+   Begin Solo-Drum Riff
+     16;;;;8;;;
+   End
+   Set FireDone
+Endif
+
+29         C
+
+RepeatEnd
+
+30        D7
+
+Set Rcount 0
+Set InDS
+Goto DS
+
+Label Coda
+
+31        D7
+
+Begin Solo-Flute
+   Octave 7
+   Volume -30
+   Begin Riff
+    4.d+;8c+;4b;c+;
+    4.d+;8c+;4b;a;
+    1g;
+   End
+End
+
+Groove EasySwingSus
+
+32         G
+33         /      /      /    Bm7
+
+Begin Solo-Horn
+   Volume -30
+   Articulate 70
+   Begin Riff
+     4r; 8g;a; b;a; g;a;
+	 4b;8;;2;
+   End
+End
+
+34         C
+35         /
+
+
+Groove EasySwing
+
+36         G
+37         /
+
+Begin Solo-Horn Riff
+   2r;4g;a;
+   8b;c+;b;a;2g;
+End
+
+38         C
+
+Tempo *.8 3
+Decresc ppp 3
+
+39         /
+
+Groove EasySwingEnd
+
+40         G
+41         /
+

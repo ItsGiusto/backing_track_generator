@@ -1,0 +1,111 @@
+// Polka Dots And Moonbeams
+
+Tempo 60
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove MellowJazzIntro
+
+Begin Solo
+    Voice Piano1
+    Volume mf
+    Articulate 120
+    Octave 5
+    Rtime 10
+    Harmony OpenBelow+8Below
+    Rvolume 10
+    Begin Riff
+        8c+;; a;; 2f;
+        8g;; f;; 2d;
+        43c+;a;e; 2g;
+        1c+;
+    End
+End
+
+Swingmode On
+Swell mp mf 4
+
+1         F
+2         Gm7
+3         Am7
+4         C7
+
+Repeat
+Groove MellowJazz
+Volume m
+
+5         F      /    Dm7
+6       Gm7      /  C7/Bb
+7       Am7      /    Dm7
+8       Gm7      /  Em7b5   A7b9@3.5
+
+Groove MellowJazzPlus
+Volume +10
+
+9        Dm      / DmM7/C#
+10    Dm7/C      /    Am7   Abm7@3.5
+11      Gm7      /     C7  C9/Bb@3.5
+12      Am7   D7b9    Gm7     C7
+
+Groove MellowJazz
+Decresc m 4
+
+13        F      /    Dm7
+14      Gm9      /  C7/Bb
+15      Am7      /    Dm7
+16      Gm7      /  Em7b5   A7b9@3.5
+
+Groove MellowJazzSus
+Cresc +20 4
+
+17       Dm      / DmM7/C#
+18    Dm7/C      /    Am7   Abm7@3.5
+19      Gm7      /     C9   C7b9@3.5
+20       F6      /  Bm7b5     E7
+
+Groove MellowJazzSusPlus
+
+21        A      / A#dim7
+22      Bm7      /     E7   E7/D@3.5
+23     C#m7      /   F#m7
+24      Bm7      /     E7
+
+Groove MellowJazzPlus
+Decresc mp 8
+
+25        A      / A#dim7
+26      Bm7      /     E7
+27       A7      /     D7
+28      Gm7      /     C9
+
+Groove MellowJazz
+
+29        F      /    Dm7
+30      Gm9      /  C7/Bb
+31      Am7      /    Dm7
+32      Gm7      /  Em7b5   A7b9@3.5
+
+Groove MellowJazzPlus
+Cresc m 2
+
+33       Dm      / DmM7/C#
+34    Dm7/C      /    Am7   Abm7@3.5
+
+Repeatending
+Decresc mp 2
+
+35      Gm7      /     C9   C7b9
+Groove MellowJazzFill
+36       F6 / C7
+
+RepeatEnd
+
+Groove MellowJazzEnd
+Decresc ppp 2
+
+88      Gm7      /     C9   C7b9
+89       F6    Eb6     E6 F6(add9)
+
+

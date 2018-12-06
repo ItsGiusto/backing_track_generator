@@ -1,0 +1,86 @@
+// You Cant Go Home Again
+// Chet Baker, 1977
+
+Tempo 68
+KeySig Db
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBoleroIntro
+
+Begin Solo
+    Voice  Vibraphone
+    Octave 5
+    Harmony None
+    Articulate 90
+    Volume f
+    Begin Riff
+        8d;8g;d;8+2g;
+        8d;g;d;8+2b;
+        8g;e;g;8+4+8e;8g;
+        2a;        
+    End
+End
+
+SwingMode On
+
+Swell p m 4
+
+1        Db
+2       Bbm
+3       Ebm
+4       Ab7  /  /  G7
+
+
+Repeat
+Groove SlowBolero
+Volume m
+
+5      GbM7      /    /    Cm7b5/Gb
+6       Fm7      /    /    Bbm7
+7      Ebm7      /      /    Ab7
+8      DbM7      /     /    Db7
+
+Groove SlowBoleroPlus
+Cresc mf 4
+
+9      GbM7      /   /  Ebm6
+10      Fm7      /   /  Bbm7
+11     Ebm7      /   /  Ebm7b5
+12   Dbsus4      /   DbM7
+
+Groove SlowBoleroSus
+Decresc mp 4
+
+13    Gm7b5      /     C7
+14      FM7
+15    Bm7b5      /     E7
+16    Am7b5      /     D7
+
+Groove SlowBolero1Sus
+Volume m
+
+17    Gm7b5      /     C7
+18      Fm7  Fm7b5  / Bb7b9
+
+Decresc mp 1
+
+19      Ebm11    /  /    Ab7
+
+RepeatEnding
+
+20       Db      /   Ebm7
+
+Groove SlowBoleroIntro
+Seq 4
+
+21       Db      /    /  G7
+
+RepeatEnd
+
+Groove SlowBoleroEnd
+Decresc ppp 2
+
+20       Db      /   Ebm7
+22       Db      z!

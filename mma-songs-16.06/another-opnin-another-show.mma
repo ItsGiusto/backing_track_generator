@@ -1,0 +1,156 @@
+// Another Opnin Another Show
+// From Cole Porter's "Kiss Me Kate"
+
+Tempo 300
+KeySig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove BroadwayIntro
+Begin Solo
+  Voice Flute
+  Octave 6
+  Harmony Open+8Above
+  Articulate 40 55 70 95
+  Volume f
+  Rtime 5
+  Rvolume 10
+  Begin Riff
+      8e+;d+;c+;b; a;g;f;e;
+      8e+;d+;c+;b; a;g;f;e;
+	  8f+;e+;d+;c+;b; a;g;f;
+	  1b&;
+  End
+End
+
+Cresc pp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove Broadway
+Repeat
+Swell m f 8
+
+5        Eb
+6         /
+7         /
+8         /      /      /     Bb
+
+Groove Broadway1
+
+9       Eb6
+10        /
+11        /
+12        /      /      /    Bb7
+
+Groove Broadway
+Swell m f 8
+
+13       Eb
+14        /
+15    Bbdim3      /      /    Bb7
+16        /
+
+Groove BroadWaySus
+
+17       Eb      /      /   C7b9
+18        /      /   Abm9
+19      Bb7
+
+RepeatEnding
+
+20       Eb      /    Bb7
+
+
+RepeatEnd
+
+21       Eb      /     D7
+
+Groove BroadwaySus
+Volume mp
+
+22       Gm
+23        /
+24       D7      C    Fm6     D7
+25        /
+
+Volume m
+
+26       Gm
+27        /
+28      Eb7      /      /     D7
+29        /
+
+Volume mf
+
+30       Gm
+31        /
+32       C9     Bb    Cm6      F
+33        /      /      /     F7
+
+Groove Broadway1
+Cresc m f 8
+
+34       Bb      /   BbM7
+35      Bb7      /    Gm7
+36       C7   F7#5      /     Bb
+37      Bb7
+
+Groove Broadway1Sus
+
+38       Eb
+39        /
+40        /
+41        /      /      /     Bb
+
+Volume m
+
+42      Eb6
+43        /
+44        /
+45        /      /      /    Bb7
+
+Groove Broadway
+
+46       Eb
+47        /
+48    Bbdim3      /      /    Bb7
+49        /
+
+RepeatEnding
+
+Groove Broadway1
+
+50       Eb      /      /   C7b9
+51        /      /   Abm9
+52      Bb7
+53       Eb      /    Bb7
+
+RepeatEnd
+
+Groove BroadwaySus
+Decresc ppp 12
+
+54       Eb      /      /   C7b9
+55        /
+56       F7
+57      Fm7      /      /    Bb9
+
+Groove Broadway1Sus
+
+58        /      /    Cm7
+59       B+      /     Eb
+60      Bb7
+61    Bb7b5      /    Bb7
+
+
+Groove BroadwayEnd
+
+62       Eb
+63        /
+

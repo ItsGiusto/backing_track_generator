@@ -1,0 +1,97 @@
+// Watch What Happens
+
+Tempo 90
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossaNovaIntro
+
+Begin Solo
+	Voice JazzGuitar
+	Volume f
+	Articulate 110
+	Harmony Open
+	Octave 5
+	Begin Riff
+		8e;g;b;c+;e+;c+;e+;c+;
+		8e;g;b;c+;e+;c+;e+;c+;
+		8e+;c+;b;a;4g;f;
+		1e;
+	End
+End
+
+1        Eb
+2        Cm7
+3        Fm
+4        Eb
+
+Repeat
+Groove BossaNova
+Repeat
+
+5      EbM7      /    Eb6
+6         /
+7        F9      /    Cm7
+8        F9
+9       Fm7      /    Bb9
+10      Fm7      /    Bb7
+
+RepeatEnding
+
+11     EbM7      /    EM7
+12      FM7      /    EM7
+
+Groove BossaNova3Sus
+
+RepeatEnd
+
+13     EbM7      /    EM7
+14      FM7      /   GbM7
+
+Groove BossaNova
+
+15      GM7
+16        /      /     G6
+17      Gm7      /     C9
+18      Gm7      /     C9
+19        F      /     F6
+20      FM7      /     F6
+21      Fm7      /    Bb7
+22      Fm7    Bb9  Bb7b9
+
+Groove BossaNova1Sus
+
+23     EbM7      /    Eb6
+24        /
+25       F9      /    Cm7
+26       F9
+27      Fm7      /    Bb9
+28      Fm7      /    Bb9
+29       Eb      /    Eb6
+30       E6      /     D6
+
+Groove BossaNova
+
+31       Eb      /    Eb6
+
+RepeatEnding
+
+Groove BossaNova1Sus
+
+32       E6      /     D6
+33     EbM7      /    Eb6
+34     EbM7      /    Eb6
+
+RepeatEnd
+
+Groove BossaNova2End
+Tempo *.9 4
+Decresc pp 4
+
+32       E6      /     D6
+33     EbM7      /    Eb6
+34     EbM7      /    Eb6
+35     EbM7
+

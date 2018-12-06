@@ -1,0 +1,111 @@
+// Robbins Nest
+
+Tempo 115
+
+Groove Metronome2-4
+  z * 2
+
+Groove ModernJazzIntro
+Begin Solo
+  Voice JazzGuitar
+  Volume f
+  Harmony OpenBelow+8Below
+  Articulate 90
+  Octave 6
+  Begin Riff
+     8d+;c+;g;e;d+;4.+2c+ ~;
+ 	 ~ 4r; 3c;e;g;
+	 8d+;c+;b;a; 4g;a;
+	 1g;
+  End
+End
+
+Swingmode On Skew=70
+Cresc mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove ModernJazz
+Volume m
+
+5         C
+6         /
+7       Ab7
+8         /
+
+Groove ModernJazz2
+Cresc mf 4
+
+9        C6      /    Ab7
+10      Dm7      /   G7b9     C6
+11        /      /      /   Cdim
+12      Dm7      /     G7
+
+Groove ModernJazz
+Decresc mp 4
+
+13        C
+14        /
+15      Ab7
+16        /
+
+Groove ModernJazzSus
+Volume m
+
+17       C6      /    Ab7
+18      Dm7      /   G7b9     C6
+19        /      /    Db9      C
+20        /
+
+Groove ModernJazz
+Decresc mp 4
+
+21       E7
+22        /
+23       A7
+24        /
+
+Groove ModernJazz2Sus
+Cresc f 4
+
+25       D7
+26        /
+27     G7#5
+28      Dm7      /     G7
+
+Groove ModernJazz
+Volume m
+
+29        C
+30        /
+31      Ab7
+32        /
+
+Groove ModernJazz2
+Decresc mp 2
+
+33       C6      /    Ab7
+34      Dm7      /     G7   G7#5
+
+RepeatEnding
+
+Groove ModernJazzFill
+Decresc p 2
+
+35       C6
+36        /      /     G7
+
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Decresc ppp 2
+Tempo *.8 2
+
+35       C6
+37      Db7      /     C6 z!
+

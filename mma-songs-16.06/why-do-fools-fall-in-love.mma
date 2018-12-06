@@ -1,0 +1,141 @@
+// Why Do Fools Fall In Love
+
+Tempo 140
+Keysig E
+
+Transpose 1
+
+Groove Metronome2-4
+ z * 2
+
+SeqClear   // No accomp. for the bass solo bars
+
+Begin Solo
+ Voice AcousticBass //VoiceOohs
+ Octave 3
+ Harmony 8Above
+ Cresc pp m 4
+ HarmonyVolume 50
+ Articulate 110
+End
+
+// I don't think these chords are right, but it doesn't matter
+// since we're just doing a harmony note in octaves.
+
+Repeat
+1          E      /      A    { 4e;8.;16;4c+;8.;16; }
+2          D      /      A    { 4f;8.;16;4b;c+; }
+RepeatEnd
+
+Groove Rock128IntroSus
+Cresc ppp mf 8
+
+3          E      /   C#m7
+4       F#m7      /      B
+5          E      /   C#m7
+Seq 3
+6       F#m7      /      B
+
+Seq
+7          E      /   C#m7
+8       F#m7      /      B
+9          E
+Seq 3
+10         /   F#m7      z
+
+Repeat
+Groove Rock128
+Volume mp
+
+11         E      /   C#m7
+12      F#m7      /      B   C#m7
+13         /
+14      F#m7      /      B      E
+
+Groove Rock128Plain
+Cresc m 2
+
+15         /      /   C#m7
+16      F#m7      /      B      E
+17         /
+18         /
+
+Groove Rock128
+Cresc m f 8
+
+19         /      /   C#m7
+20      F#m7      /      B   C#m7
+21         /
+22      F#m7      /      B      E
+
+Groove Rock128Plain
+
+23         /      /   C#m7
+24      F#m7      /      B      E
+25         /
+26         D      A      D      A
+
+Groove Rock128Sus
+Volume mp
+
+27         /
+28      F#m7
+29      C#m7
+30        D6      /     E6      A
+
+Groove Rock128PlainSus
+Swell m f 8
+
+31         /
+32      F#m7
+33       F#7
+34        B7      /      /      E
+
+Groove Rock128Sus
+
+35         /      /   C#m7
+36      F#m7      /      B
+37      C#m7
+38      F#m7      /      B      E
+
+Groove Rock128PlainSus
+Volume m
+
+39         /      /   C#m7
+40      F#m7      /      B      E
+
+RepeatEnding
+
+41         /
+42         /
+
+RepeatEnd
+
+Groove Rock128
+Swell m p 8
+
+43         /
+44         /      /      /      A
+45         /
+46         /
+
+Groove Rock128Plain
+
+47         B
+48         /
+49         E
+50         /
+
+Groove Rock128Sus
+Decresc pppp 8
+
+Repeat
+
+51         /      /   C#m7
+52      F#m7      /      B   C#m7
+53         /
+54      F#m7      /      B      E
+
+RepeatEnd
+
+

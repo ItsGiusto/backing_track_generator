@@ -1,0 +1,91 @@
+// (The) Peacocks (Jimmy Rowles)
+
+Tempo 52
+Keysig Bb Minor
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice Piano1
+    Octave 4
+    Volume mf
+    Articulate 120
+    Strum 10
+    StrumAdd 5
+    Riff 2.b-dfabd+f+;4f;
+End
+
+1      Bbm7      /  F7alt
+
+Groove NiteJazz
+Begin AllGrooves
+    Arpeggio-Piano Octave 5
+    Chord-Sus      Octave 5
+End
+
+// Delete this after we learn the song!!!!
+Begin Drum-mmm
+    Tone OpenTriangle
+    Volume mf
+    trigger beats=1   Sticky=true Sequence={d1}
+End
+
+Repeat
+Label DS
+Groove NiteJazz
+Cresc mp mf 4
+
+2       Bbm      /  BbmM7
+3       Bb7      /   Bbm6
+4       Bbm      /  BbmM7   F#m7
+5       Fm7      /   Bb13
+
+Groove NiteJazzPlus
+Volume m
+
+6      Ebm7
+7         /
+8      C7#9      /   F7#9
+
+If def CODA 
+   Goto CODA
+EndIf
+
+RepeatEnding
+
+9       Bbm      /  F7alt
+
+RepeatEnd
+
+10      Bbm
+
+Groove NiteJazzSus
+Cresc mp mf 4
+
+11    Cm7b5      /     F7
+12      Bbm
+13    Cm7b5      /     F7
+14      Bbm      /  BbmM7
+
+Groove NiteJazzSusPlus
+Decresc mp 4
+
+15   Ebm7b5      /    Ab7
+16    DbmM7
+17    Eb7b5
+18     C7#9      /      /  F7alt
+
+set CODA
+Goto DS
+
+Label CODA
+Decresc ppp 3
+
+19    BbmM7
+
+Groove NiteJazzEnd
+
+20     C7#9      /   F7#9
+21    BbmM7  z!
+

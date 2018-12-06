@@ -1,0 +1,119 @@
+// In The Cool Cool Cool Of The Evening
+
+Tempo 138
+KeySig C
+
+Groove Metronome2-4
+    z * 2
+
+Groove SwingIntro
+Begin AllGrooves Chord 
+  Voice JazzGuitar
+  Articulate 90
+  Octave 5
+End
+
+AllGrooves Chord-Guitar Voicing Mode=Key
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 6
+    Volume f
+    Harmony OpenBelow
+    Articulate 110
+    Begin Riff
+        4f#;8d;a-;b-;d;4e;
+        2d;g;
+        4f#;8d;a-;b-;d;4e;
+        4a-;c#;2e;
+    End
+End
+
+Swingmode On
+Swell mp mf 4
+
+1         D
+2         G /
+3         D
+4         A7
+
+
+Repeat
+Groove Swing
+Volume m
+
+5         D      /      G
+6         D      /      G
+7         D      /      G
+8         D
+
+Groove SwingSus
+Cresc mf 4
+
+9        Eb      /     Ab
+10       Eb      /     Ab
+11       Eb      /     Ab
+12       Eb
+
+Groove SwingPlus
+Decresc m 4
+
+13       F9
+14       Bb
+15       F9
+16       Bb
+
+Groove SwingPlusSus
+
+17       G9
+18        C
+19       G9
+20       C7
+
+KeySig F
+
+Groove SwingWalk
+Volume mf
+
+21        F
+22        /
+23        /      /    D7+   D7b9
+24       Gm      /    Gm7
+
+Groove SwingWalkPlus
+Decresc f mf 4
+
+25       C7
+26        /
+27        /      /   C7b9
+28        F      /     C7
+
+Groove SwingWalkSus
+
+29        F
+30        /
+31        /      /    Cm7     F7
+32       Bb
+
+Groove SwingWalkPlusSus
+Volume m
+
+33        /      /    Bbm
+34        F    Cm6     D7
+
+RepeatEnding
+
+Groove SwingFill
+
+35       Gm      /     C7
+36        F      /    Bb7     A7
+
+
+RepeatEnd
+
+Groove SwingEnd
+Decresc ppp 2
+
+35       Gm      /     C7
+37        F      z!
+

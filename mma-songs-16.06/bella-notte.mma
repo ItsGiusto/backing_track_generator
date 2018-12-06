@@ -1,0 +1,85 @@
+// Bella Notte  .... yup, from Disney's "Lady & the Tramp"
+
+Tempo 80
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowJazz1Intro
+Begin Solo
+   Voice SlowStrings
+   Volume f
+   Harmony OpenAbove
+   Octave 5
+   Articulate 110
+   Begin Riff
+      4+3b;3a;b;2a;
+	  4+3g;3f;g;2f;
+	  23e;a;c+;
+	  1d+;
+   End
+End
+
+Cresc ppp mp  4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+
+Repeat
+Groove SlowJazz1
+Volume mp
+
+5         G
+6         /
+7         /
+8        D7
+
+Groove SlowJazz1Sus
+Cresc m 4
+
+9         /      /    Am7
+10        /      /     D7
+11       Am      /     D7
+12        G
+
+Groove SlowJazz1
+Cresc mf 4
+
+13      Dm7
+14        /
+15      CM7      /     G+
+16        C
+
+Groove SlowJazz1Walk
+Volume m
+
+17      Em7      /     A7
+18      Em7      /     A7
+19      Am7
+20       D7      /      /     D+
+
+Groove SlowJazz1
+Decresc p 2
+
+21        G
+22      Dm6      /     E7
+
+RepeatEnding
+
+23      Am7      /     D7
+24        G      /     D7
+
+RepeatEnd
+
+Groove SlowJazzEnd
+Decresc ppp 2
+
+23      Am7      /     D7
+24        G     z!
+ 
+
+

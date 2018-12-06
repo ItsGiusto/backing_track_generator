@@ -1,0 +1,107 @@
+// Look To The Sky
+
+Tempo 120
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossaNovaIntro
+
+Begin Solo
+	Voice Piano1
+	Harmony Open
+	Articulate 110
+	Volume mf
+	Octave 5
+	Accent 1 20
+	Begin Riff
+		4.b;8;43;;;
+		4.b;8;43;;;
+		1b;
+		43e+;d+;d&+;2b;
+	End
+End
+
+Cresc mp mf 4
+
+1   EbM7    
+2   Ebm7
+3   Gm7     
+4   Eb      
+
+Repeat
+Groove BossaNova
+Volume m
+
+5   EbM7    
+6   /       
+7   Ebm7    
+8   Ab7     
+9   EbM7    
+10  /       
+11  Gm7     
+12  C7b9    
+
+Groove BossaNova1Sus
+Volume mf
+
+13  Fm7     
+14  /       
+15  Abm7    
+16  Db7     
+17  Gm7     
+18  Gbdim   
+19  Fm7     
+20  Bb7#5 
+
+Groove BossaNova
+Decresc mp 8
+
+21  EbM7    
+22  /       
+23  Ebm7    
+24  Ab7     
+25  EbM7    
+26  /       
+27  Gm7
+28  C7b9    
+
+Groove BossaNovaSus
+Cresc mp mf 8
+
+29  Fm7     
+30  /       
+31  Abm7    
+32  Db7     
+33  GbM7    
+34  EM7#11  
+
+RepeatEnding
+
+35  EbM7   
+
+Groove BossaNovaFill
+ 
+36  /       
+
+RepeatEnd
+
+37  EbM7    
+38  Gm7     /       /       C7b9    
+
+Groove BossaNova
+Decresc mf ppp 8
+
+39  Fm7     
+40  EM7#11  
+41  EbM7    
+42  Abm7    /       Db7b9 
+
+Groove BossaNova2End
+  
+43  GbM7    
+44  EM7#11 
+45  EbM7   
+46  /  z z!     
+

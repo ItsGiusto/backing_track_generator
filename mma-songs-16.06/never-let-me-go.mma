@@ -1,0 +1,103 @@
+// Never Let Me Go (1956)
+
+Tempo 80
+KeySig Bb
+
+Groove Metronome2-4
+       z * 2
+
+Groove SlowBluesIntro
+
+Begin AllGrooves
+    Arpeggio Rskip 70
+    Scale Rskip 30
+End
+
+Begin Solo
+    Voice Piano1
+    Harmony OpenBelow
+    Articulate 90
+    Octave 5
+    Volume f
+    Begin Riff
+        8b;d+;b;d+;2b;
+        8g;b;g;b;2g;
+        8e;g;e;g;4c;e;
+        2.f;
+    End
+End
+
+Swell mp mf 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove SlowBlues
+Volume m
+
+5       Gm7
+6      C7b9
+7       Fm7
+8     Bb7b9
+
+Groove SlowBluesFill1
+Cresc mf 3
+
+9      EbM7
+10       D7
+11     DbM7
+12       C7
+
+Groove SlowBlues
+
+13      Cm7
+14     F7b9
+15    BbmM7
+16        /
+
+Groove SlowBluesFill3
+Decresc mp 4
+
+17     AbM7
+18   G7#5b9
+19      CM7      /    Dm7
+20      Em7      /   A7#5   D7b9
+
+Groove SlowBluesSus
+Cresc m 2
+
+21      Gm7
+22     C7b9
+23      Fm7
+24    Bb7b9
+
+Groove SlowBluesWalk4Sus
+
+25     EbM7
+26       D7
+27      Gm7
+28       C9
+
+Groove SlowBluesSus
+Decresc mp 2
+
+29      Cm7
+30     F7b9
+
+RepeatEnding
+Groove SlowBluesWalk4Sus
+
+31      Bb6
+32     A7#5      /   D7b9
+
+RepeatEnd
+Groove SlowBluesEnd
+Seq 3
+Decresc ppp 2
+
+33      Bb6
+34        /  /  z!
+

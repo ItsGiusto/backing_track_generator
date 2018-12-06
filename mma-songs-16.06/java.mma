@@ -1,0 +1,103 @@
+// Java
+
+Keysig 1b
+
+Tempo 188
+
+Groove Metronome2-4
+	z * 2
+
+Groove DixieMarchIntro
+
+Begin Solo
+	Voice Banjo
+	Volume f
+	Articulate 90
+	Octave 5
+	Harmony Open
+	Begin Riff
+		4f+;;c+;;
+		4a;;2f;
+		8d;;;;4c;;
+		4f;
+	End
+End
+
+Cresc pp f 4
+
+1      F     
+2	/
+3      /    /    C7    
+4      F     
+
+Groove DixieMarch
+Repeat
+
+5      F     
+6	/
+7	/
+8	/
+9	/
+10	/
+11     C7    
+12	/
+13     F     
+14	/
+15     Bb7   
+16	/
+17     F     
+18     D7    
+19     G7    /    C7    
+
+RepeatEnding
+
+20     F  
+
+Groove DixieMarchPlus   
+
+RepeatEnd
+
+
+21     F     
+
+Repeat
+Groove DixieMarchSus
+
+22     A7    
+23     Dm    
+24     A7    
+25     Dm    
+26     G7    
+27     C     
+28     G7    
+29     C
+
+Groove DixieMarchPlus
+     
+30     F     
+31	/
+32	/
+33	/
+34	/
+35	/
+36     C7    
+37	/
+
+Groove DixieMarch
+
+38     F     
+39	/
+40     Bb7   
+41	/
+42     F     
+43     D7    
+44     G7    /    C7    
+45     F     
+
+RepeatEnd
+
+Groove DixieMarchEnd
+
+46     /    /    C7    
+47     F    z! 
+

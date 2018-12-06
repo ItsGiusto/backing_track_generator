@@ -1,0 +1,140 @@
+// It's The Hard Knock Life (Annie)
+
+Tempo 150
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SoftShoeIntro
+Begin AllGrooves Bass
+   Volume f
+   Articulate 60
+End
+Begin AllGrooves Drum-Kick
+   Volume m
+   Tone SnareDrum1
+End
+
+Begin Solo
+    Voice Piano2
+    Articulate 80
+    Octave 5
+    Volume ff
+    Harmony 2Below+8Below
+    Begin Riff
+        8b;;;;;;c+;b;
+        1a;
+        1g;
+        2f;
+    End
+End
+
+Volume f
+1        Bb
+2        A
+3        Gm
+Volume mp
+4        F7
+
+Repeat   /// actually a DS/Coda
+Groove SoftShoe
+Volume m
+
+5        Bb      /      F     Bb
+6         /
+7        Dm      /      /     Eb
+8         /
+
+Groove SoftShoePlus
+Volume mf
+
+9        Dm      /      /     Eb
+10        /
+11       Dm      /      /      F
+12        /
+
+/// This is actually a "to Coda" Using Repeatending works fine
+RepeatEnding 2
+Groove SoftShoe
+Volume m
+
+13       Bb
+14        /
+15       Bb      /      F     Bb
+16        /
+
+Groove SoftShoeSus
+Volume mf
+
+17       Dm      /      /     Eb
+18        /
+19       Dm      /      /     Eb
+20        /
+
+Groove SoftShoe
+Decresc m 4
+
+21       Dm         F@4.5
+22        /
+23       Bb
+24        /
+
+Groove SoftShoeSusPlus
+
+Drum-Kick Riff D4
+25     Ebm7
+26        /
+27     C#m7
+28        /
+
+Groove SoftShoe
+Decresc mf mp 4
+
+Drum-Kick Riff D4
+29      Bm7
+30        /
+Drum-Kick Riff D8
+31        G
+32        C
+
+Groove SoftShoeSus
+Cresc m 2
+
+33      Cm7
+34        /
+35     Bbm7
+36        /
+
+Groove SoftShoe
+
+37     Abm7
+38        /
+Drum-Kick Riff D8
+Decresc mp 2
+39        E
+40        A
+
+Groove SoftShoeSus
+Volume f
+
+41       A+
+42        /      /      F
+
+RepeatEnd  /// This is the coda section
+Groove SoftShoeSus
+Volume m
+
+43       Bb      /      z
+44        F
+45       Bb      /      z
+46        F
+
+Groove SoftShoeEnd
+Cresc ff 2
+
+47       Bb      /   F7
+48       Bb     z!
+Cut -3.1
+
+

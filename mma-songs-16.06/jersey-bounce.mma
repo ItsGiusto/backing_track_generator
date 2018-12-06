@@ -1,0 +1,88 @@
+// Jersey Bounce
+
+Tempo 120
+Keysig C
+Swingmode On
+
+Groove Metronome2-4
+	z * 2
+
+Groove Easyswing
+
+Begin Solo
+	Voice Altosax
+	Volume m
+	Octave 5
+	Articulate 80
+End
+
+1      C                {4.c+e+g+; 2+8; }
+2      Am               {4.c+e+a+; 2+8; }
+3      Dm               {3+3d+a+; d+g+; d+a+; 4d+f+a+; d+f+b+; }
+4      G7               {2.d+g+b+; 8r; 8d#; }
+
+Solo Off
+
+Repeat
+Groove EasySwingWalk
+
+5      C                {8e; 8g; 8b; r; 4d+; 8c+; 8+2.+8e~; }
+6	/	                {~8f; }
+7      D9               {8f#; 8a; 8c+; r; 4e+; 8d+; 8+2.+8a~; }
+8	/	                {~8e; }
+9      G9               {8f; 8a; 8b; r; 4e+; 8d+; 8+2.+8a~; }
+10	/		           	{~8d#; }
+11     C     /    Ebdim {8e; 8g; 8b; r; 8d+; 8c+; 8a; 8f#; }
+12     Dm7   /    G13	{8f; 8a; 8c+; 8+4.e+; 8d#; }
+13     C                {8e; 8g; 8b; r; 4d+; 8c+; 8+2.+8e~; }
+14	/		            {~8f; }
+15     D9    	        {8f#; 8a; 8c+; r; 4e+; 8d+; 8+2.+8a~; }
+8	/	                {~8e; }
+17     G9   	        {8f; 8a; 8b; r; 4e+; 8d+; 8+2.+8a~; }
+18	/			        {~8d#; }
+19     C     /    Ab9   {8e; 8g; 8a; 8c+; 4b&; 8a&; 8+1c+~; }
+20     C
+
+Groove EasySwingWalkSus
+
+Begin Solo
+	 Voice Trumpet
+	 Volume f
+	 Octave 5
+End
+
+
+21     C9              {4.a; 8+2;  }
+22	/	               {8a; g; d+; 8+2a; }
+23     Bb9             {4.g; 8+2; }
+24	/		           {8g; f; c+; 8+2g; }
+25     Ab              {4.f; 8+2; }
+26	/		           {4f; e&; b&; 8a&; 8+2g~; }
+27     G7              {~8r; g; ; ; }
+28     G7#5            {8d#; 8+2g; 8r; d; }
+
+Groove EasySwingWalk
+Begin Solo
+	Voice Altosax
+	Octave 5
+End
+
+29     C               {8e; 8g; 8b; r; 4d+; 8c+; 8+2.+8e~; }
+30	/		           {~8f; }
+31     D9              {8f#; 8a; 8c+; r; 4e+; 8d+; 8+2.+8a~; }
+32	/		           {~8e; }
+33     G9              {8f; 8a; 8b; r; 4e+; 8d+; 8+2.+8a~; }
+34	/		           {~8d#; }
+35     C     /    Ab9  {8e; 8g; 8a; 8c+; 4b&; 8a&; 8+2c+~;  }
+
+RepeatEnding
+
+36     C
+
+RepeatEnd
+
+Groove EasyswingEnd
+Seq 2
+
+	C / / z!
+cut -1

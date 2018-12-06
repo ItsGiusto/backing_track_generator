@@ -1,0 +1,116 @@
+// One Boy
+
+Tempo 120
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove BalladIntro
+
+Begin Solo
+  Voice OrchestralHarp
+  Volume f
+  Harmony OpenBelow
+  Octave 5
+  Articulate 110
+  Begin Riff
+      2c+;g+;
+	  2a+;e+;
+	  2d+;f+;
+	  1g+;
+  End
+End
+
+Cresc mp ff 4
+
+1        C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove Ballad
+Volume mp
+
+5         C      /     Em
+6       Dm7      /     G7
+7         C      /     E7
+8         F      /    Fm6
+
+Groove Ballad1
+Volume m
+
+9         C      /     Am
+10      Dm7      /     G7
+11        C      /     Em
+12       F6      /     G7
+
+Groove Ballad
+Cresc f 4
+
+13        C      /     Em
+14      Dm7      /     G7
+15        C      /     E7
+16        F      /    Fm6
+
+Groove BalladSus
+
+17        C      /     Am
+18       F6      /      /     G7
+19        C
+20       C7
+
+Groove Ballad
+Decresc m 4
+
+21        F
+22        C
+23        F
+24        C
+
+Groove Ballad1Sus
+Volume mp
+
+25        F
+26        C
+27      Am7      /     D9
+28     G7sus      /     G9
+
+Groove Ballad
+Volume m
+
+29        C      /     Em
+30      Dm7      /     G7
+31        C      /     E7
+32        F      /   D7b9
+
+Groove Ballad1Sus
+Cresc mf 4
+
+33        C      /     Am
+34       F6      /     G7
+35        C      /     Am
+36       F6      /     G7
+
+Groove Ballad
+Decresc mp 4
+
+37        C      /      F
+38        C      /      F
+39        C
+
+RepeatEnding
+Groove BalladFill
+
+40        G7
+
+Repeatend
+
+Groove Ballad1End
+seq 4
+
+40        /  z!
+
+
+

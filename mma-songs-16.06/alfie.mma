@@ -1,0 +1,93 @@
+// Alfie
+
+Tempo 76
+KeySig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowJazzIntro
+Begin Solo
+  Voice Piano1
+  Volume f
+  Harmony OpenBelow+8Below
+  Articulate 90
+  Octave 5
+  Begin Riff
+    16g;f;e;f;2.g;
+	16a;g;f;g;2.a;
+	43d+;a;f; g;a;g;
+	1g;
+  End
+End
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Groove SlowJazz1
+Repeat
+
+5         C
+6       Dm7
+7         C
+8       Em7      /     A7
+
+Groove SlowJazz1Sus
+
+9       Dm7
+10      Em7      /    Am7
+11      Dm7
+12     Cdim
+
+
+RepeatEnding
+Groove SlowJazz1
+
+13      Dm7
+14       G7
+
+Groove SlowJazz1Walk
+
+RepeatEnd
+
+Groove SlowJazz1
+
+15      Bm7
+16      Eb6      /    Am7
+
+Groove SlowJazz1Sus
+
+17      Bm7
+18        /      /    Am7
+
+Groove SlowJazz1Walk
+
+19      Bm7
+20      Eb6      /    Am7
+21       Dm
+22       G7
+
+Groove SlowJazz1WalkSus
+
+23        C
+24      Dm7
+25   F#m7b5      /     F7
+26      Em7      /    Am7
+
+Groove SlowJazz1
+
+27   F#m7b5      /     F7
+28      Em7      /    Am7
+29       D7
+
+Groove SlowJazzEnd
+
+30      Dm7
+seq 1
+31     Cdim
+seq 1
+32      Dm7      /     G7
+33       C    z!

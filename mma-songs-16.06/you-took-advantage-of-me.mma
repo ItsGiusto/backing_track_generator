@@ -1,0 +1,116 @@
+// You Took Advantage Of Me
+
+Tempo 110
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+   Voice Piano1
+   Harmony OpenBelow
+   Octave 5
+   Articulate 110
+   Volume ff
+   Begin Riff
+       8d+;;4b;g;
+       8e+;;4c+;g;
+       8d;c; d;e; f;g; a;g;
+       1b;
+   End
+End
+
+Groove BigbandIntro
+
+Chord Sequence -
+Chord-hits1 Sequence -
+
+Swingmode On
+Swell m f 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat   // do song 2x
+Repeat
+Groove BigBand
+Volume m
+
+5        Eb      /   Edim
+6       Bb7
+7        Eb      /  Ebdim
+8       Fm7    Bb7      /    F7b9
+
+Groove BigBandPlus
+Cresc mf 2
+
+9        Eb      /      /    Eb7
+10       Ab      /   Abm6
+11       Eb    Eb+    Bb7
+
+RepeatEnding
+
+Groove BigBandFill
+Volume m
+Chord-Hits1 Volume -50
+
+12       Eb     B7    Eb7
+
+RepeatEnd
+
+Groove BigBand1Fill
+Volume m
+Chord-Hits1 Volume -50
+
+13       Eb      /      /     Gm
+
+Groove BigBandSus
+Cresc mp m 4
+
+14       Cm      /     D7
+15       G7&5      G7b5     C7
+16       F7&5      Bb7@2.5
+17       Eb
+
+Groove BigBandSusPlus
+Cresc mf 4
+
+18       Cm      /     D7
+19       G7&5      G7b5     C7
+20       F7&5       Bb7@2.5
+21       Bb     Eb    Bb7
+
+Groove BigBand
+Decresc m 4
+
+22       Eb      /   Edim
+23      Bb7
+24       Eb      /  Ebdim
+25      Fm7    Bb7      /    F7b9
+
+Groove BigBandPlus
+Decresc mp 2
+
+26       Eb      /      /    Eb7
+27       Ab      /   Abm6
+
+Repeatending
+
+28       Eb    Eb+    Bb7
+
+Groove BigBandFill
+Volume mp
+Chord-Hits1 Volume -50
+
+29       Bb7
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc ppp 2
+
+28       Eb    Eb+    Bb7
+29       Eb    z! 
+

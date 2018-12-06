@@ -1,0 +1,129 @@
+// Im On My Way
+
+Tempo $( 124 * 2)
+KeySig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove BWmarchIntro8
+Begin Solo
+   Voice Trumpet
+   Harmony 3Below
+   Octave 5
+   Articulate 70
+   Volume f
+   Rtime 5
+   Rvolume 10
+   Stretch 200
+   Begin Riff
+       8.f;16;8;g;
+       8a;f;4g;
+
+       8.a;16;8;b;
+       8c+;a;4b;
+
+       8.b;16a;8g;a;
+       8.b;16a;8g;a;
+
+       2+4c+~;
+   End
+End
+
+Cresc mp mf 4
+
+1          F
+2          /
+3         Dm
+4          /
+5         Gm
+6          /
+7         C7
+8          /
+
+Repeat
+Groove BWMarch
+Volume m
+
+9          F      /    Dm7
+10        G7      /     C7
+11         F      /    Dm7
+12        G7      /     C7
+
+Groove BWMarchPlus
+Volume mf
+
+13         F      /    FM7
+14        G7      /     C7
+15         F
+16         /
+
+Groove BWMarchPlus2
+Cresc f 4
+
+17        Bb      /    Gm7
+18        C7      /     F7
+19        Bb      /    Gm7
+20        C7      /     F7
+
+Groove BWMarchSusPlus
+Decresc m 2
+
+21        Bb      /   BbM7
+22        C7      /     F7
+23        Bb
+24         /
+
+Groove BWMarchSus
+
+25         F      /     C7
+26         F      /    Bb6
+27         F      /     C7
+28         F      /      /     G9
+
+Groove BWMarchSusPlus2
+Volume mf
+
+29         C      /     G7
+30         C      /     G7
+31         C
+32         /      /     C7
+
+Groove BWMarch
+Volume m
+
+33         F      /    Dm7
+34        G7      /     C7
+35         F      /    Dm7
+36        G7      /     C7
+
+Groove BWMarchPlus
+Decresc mp 4
+
+37         F      /    FM7
+38        G7      /     C7
+39         F      /     C7
+40        F7      /      /     Bb
+
+Groove BWMarchSusPlus
+
+41         F
+42         /      /     C7
+
+RepeatEnding 2
+
+Groove BWMarchFill
+Cresc mf 2
+
+43         F      /     Bb
+44         F      /     C7
+
+
+RepeatEnd
+
+Groove BWMarchEnd
+Decresc pp 2
+
+45         F      /    Bb6
+46         F      /     z!
+

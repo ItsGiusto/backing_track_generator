@@ -1,0 +1,114 @@
+// The Continental
+
+Tempo 140
+Keysig Ab
+
+Groove Metronome2-4
+	z * 2
+
+Groove RhumbaIntro
+
+Begin Solo
+	Voice TremoloStrings
+	Harmony OpenAbove
+	Volume f
+	Octave 4
+	Articulate 110
+	Begin Riff
+		23e+;c+;d+;
+		2e+;1e+~;
+		~ 43e+;c+;d+;
+		2e+;
+	End
+End
+
+1    Eb   
+2    Cm7  
+3    A&7  
+4    Eb7  
+
+Repeat
+Groove Rhumba
+
+5    Ab   
+6    /    
+7    /    
+8    /    
+9    /    
+10   /    /    Adim 
+11   Eb7  /    Adim 
+12   Eb7  
+
+Groove Rhumba1
+
+13   Bbm  
+14   /    
+15   /    
+16   /    
+17   Eb7  /    Adim 
+18   Eb7  /    Ddim 
+19   Ab   /    Ddim 
+20   Eb7  
+
+Groove RhumbaSus
+
+21   Ab   /    Eb7  
+22   Ab   /    Eb7  
+23   Ab7  /    Ebm7 A&7  
+24   /    /    F7   
+25   Bbm  /    F    
+26   Bbm  /    F7   
+27   Bbm  /    /    Eb7  
+28   /    
+29   Ab   
+
+Groove Rhumba3
+
+30   /    
+31   /    
+32   /    
+33   Eb7  
+34   Adim 
+35   Eb7  Adim Eb7  Adim 
+36   Eb7  Adim Eb7  
+37   /    
+38   Bbm7 /    Eb7  
+39   Ab   /    Ab7  
+
+RepeatEnding 
+
+Groove RhumbaTriple12
+
+40   B&m  Eb7  
+
+RepeatEnd
+
+
+41   Bbm  /    Ebm7 
+
+Groove RhumbaTripleSus
+
+42   Cm7  /    Ab7  
+
+Groove RhumbaSus
+
+43   Bbm  /    Ebm7 
+
+Groove RhumbaTripleSus
+
+44   Cm7  /    Ab7  
+
+Groove $_LastGroove
+
+45   Bbm  /    Ebm7 
+46   Cm7  /    Ab7  
+
+Groove RhumbaEnd
+
+47   Bbm  /    Ebm7 
+48   Cm7  /    Ab7  
+49   Bbm  /    Eb7  
+50   Ab   z!   
+Cut -3
+
+

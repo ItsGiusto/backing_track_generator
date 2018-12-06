@@ -1,0 +1,109 @@
+// Anything Goes (Cole Porter, 1934)
+
+Tempo $(80 * 2)
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzRhumbaIntro
+
+AllGrooves Bass Articulate 45
+
+Begin Solo
+    Voice Piano1
+    Harmony 3Below+8Below
+    Articulate 90
+    Octave 5
+    Volume ff
+    RTime 5
+    RVolume 10
+    Begin Riff
+        4r;8c+;2;
+        4r;8c+;2;
+        4r;8d+;2;
+        2.g+;
+    End
+End
+
+Decresc f p 4
+
+1         C
+2        Am
+3        Dm
+Bass Riff B13
+4        G7
+
+Repeat
+Repeat
+Groove JazzRhumba
+Volume m
+
+5         C
+6         /
+7         /      /      /     Am
+8         /      /     C7
+
+Groove JazzRhumbaPlus
+Cresc f 3
+
+9       Dm7      /      /      C
+10      Dm7      /    Fm6
+
+RepeatEnding
+
+11        C      /     F6
+12        C     G+
+
+RepeatEnd
+
+13        C      /     F6
+14        C     B7
+
+Groove JazzRhumbaSus
+Volume m
+
+15        E
+16       B9     B7
+17       E7
+18       B7
+
+Groove JazzRhumbaSusPlus
+Swell f 4
+
+19       Em
+20      Em7
+21    C#dim  D#dim  C#dim     G7
+22        /
+
+Groove JazzRhumba
+Cresc mp mf 4
+
+23        C
+24        /
+25        /      /      /     Am
+26        /      /     C7
+
+Groove JazzRhumbaPlus
+Decresc mp 2
+
+27      Dm7      /      /      C
+28      Dm7
+
+RepeatEnding 2
+
+29        C     F6      C    Dm7
+
+Groove JazzRhumbaFill
+
+30        C     /       G7
+
+RepeatEnd
+
+Groove JazzRhumbaEnd
+Decresc ppp 2
+
+29        C     F6      C    Dm7
+30        C     z!
+
+

@@ -1,0 +1,137 @@
+// Vaya Con Dios
+
+Tempo 96
+KeySig C
+
+Groove Metronome3
+ z * 2
+
+Groove CountryWaltzIntro8
+Arpeggio   Sequence -
+
+Begin Solo
+  Voice Strings
+  Articulate 110
+  Harmony OpenBelow
+  Volume f
+  Octave 5
+  Begin Riff
+     4c+;4.;8;
+     8c+;4.b;8r;a;
+     4a;2.+4g~;
+     4r;
+     4b;a;g;
+     4a;f;d;
+     1+4c~;
+  End
+End
+
+Solo Swell m mf 8
+Cresc mp mf 8
+
+1          C
+2          F
+3          C
+4          /
+5         G7
+6        Dm7
+7          Am
+8          /
+
+Repeat
+Groove CountryWaltz
+Volume m
+
+9          C
+10         /
+11        G7
+12         /
+
+Groove CountryWaltzSus
+
+13       Dm7
+14        G7
+15         C
+16        C7
+
+Groove CountryWaltz2
+
+17         F
+18         /
+19         C
+20         /
+
+Groove CountryWaltz2Sus
+
+21        G7
+
+RepeatEnding
+
+22       Dm7      /     G7
+23         C
+24         /
+
+
+RepeatEnd
+
+25       Dm7      /     G7
+26         C
+27         /
+
+Groove CountryWaltzSus
+
+28       Gm7
+29        C7
+30         F
+31         /
+
+Groove CountryWaltz2
+
+32       Gm7
+33        C7
+34         F
+35         /
+
+Groove CountryWaltz2Sus
+
+36       Am7
+37        D7
+38         G
+39         /
+
+Groove CountryWaltzSus
+
+40       Am7
+41        D7
+42        G7      /    Dm7
+43         /      /     G7
+
+Groove CountryWaltz
+
+44         C
+45        C6
+46        G7
+47         /
+
+Groove CountryWaltz
+
+48       Dm7
+49        G7
+50         C
+51        C7
+
+Groove CountryWaltzSus
+
+52         F
+53         /
+54         C
+55         /
+
+Groove CountryWaltzEnd
+Decresc pp 4
+
+56        G7
+57       Dm7
+58         C      /    Dm7
+59         C     z!
+

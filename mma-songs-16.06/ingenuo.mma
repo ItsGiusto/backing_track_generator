@@ -1,0 +1,178 @@
+// Ingenuo
+
+Tempo $(60 * 2)
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice Flute
+    Octave 6
+    Harmony OpenAbove
+    Articulate 80
+    Stretch 200   // this is in 4 beat time, score is in 2/4
+End
+
+Label Start
+
+Groove Beguine 
+Volume m
+
+1         F      /   Am/E
+2        Dm      /   Dm7/C
+3      E7/B      /   Dm/A
+4     E7/G#
+
+Groove BeguineSus
+Cresc mf 4
+
+5        Eb      /   Gm/D
+6        Cm      /  Cm7/Bb
+7      D7/A      / Cm6/Eb
+8        D7
+
+Groove Beguine
+Volume m
+
+9        Gm
+10   G#dim7
+11    FM7/A
+12       D7
+
+Groove Beguine1
+Decresc mp 4
+
+13       G9
+14       G7
+15       C7      /     F7
+16     Bbm7      /    Eb7
+
+// "B"
+Groove Beguine
+Cresc mf 8
+
+17       Ab      /   Cm/G
+18       Fm      /  Fm7/Eb
+19     G7/D
+20        /
+
+21       C7
+22        /
+23       F7      /    Gb7
+24       F7
+
+Decresc m 4
+
+25      Bbm
+26    Bdim7
+27        F
+28    Am7b5      /     D7
+
+Groove BeguineSus
+Decresc mp 2
+
+29       Gm
+30    Gm7b5      /     C7
+
+If Def Coda
+  Goto Coda
+Endif
+
+31        F    { 8.r;16f-;a-;c;f;e; }
+32      F+7    { 16g ;f;e&;d&; 6bn-;a-;g-; f-;e-;e&-; }
+
+// "C"
+Repeat
+Keysig Bb
+
+Groove Beguine1Sus
+Volume m
+
+33     Bb/D    { 4d-;}
+34       Bb    { 16r;8b-;16d;f;8b;16d+; }
+35       D7    { 2d+; }
+36        /    { 16r;8a-;16d;16f#;8a;16c+; }
+
+Groove Beguine
+Cresc mf 2
+
+37       G7    { 2bn; }
+38        /
+39       Cm
+40        /
+
+Groove Beguine1
+Cresc f 2
+
+41   C#dim7
+42       A7
+43       Bb      /   Dm/A
+44       Gm      /   Gm7/F
+
+Groove Beguine1Sus
+Decresc m 4
+
+45       C7
+46        /
+47        F
+48       F7      /    Ab7    { 3f-;f#-;g-; 8a&-; 6a-;b-;c; }
+
+// "D"
+Groove Beguine
+
+49       Db                  { 2d&; }
+50        /                  { 16r;8a&-;16d&;16f;8e;16d; } 
+51        C                  { 2c; }
+52        /                  { 16r;8g-;16c;en;8d;16c; }
+
+Groove BeguineSus
+Cresc mf 2
+
+53       Bb                  { 2b-; }
+54        /                  { 16r;d-;f-;b-;d;8c;16b-; }
+55       D7                  { 2a-; }
+56        /                  { 16r;a-;a;f#;d;a-;g#-;d-; }
+
+Groove Beguine
+Volume m
+
+57       Eb      /   Gm/D    { 2e-; }
+58   C#dim7                  
+59      Bb7      /    Ab7
+60       G7
+
+Groove Beguine1
+Decresc mp 2
+
+61       C7
+62       F7
+
+RepeatEnding
+
+63       Bb     { 8b-;16r;16f-;b-;d;f;en; }
+
+Groove BeguineFill
+
+64      F+7     { 16g;f;e;d&; 6bn-;a-;g-; f-;en-;e&-; }
+
+RepeatEnd
+
+65       Bb    { 8b-;16r;f-;b-;d;f;b; }
+
+Groove BeguineFill
+
+66       C7    { 16d+;c+;b;g; 6en;d;c; b-;a-;c-; } 
+
+
+Set Coda
+Goto Start
+Label Coda
+
+Groove Beguine2End
+Decresc ppp 2
+
+67        F    { 16f;e;e&;d;c#;cn;bn-;b&-; }
+68        /    /  z! { 16a-; }
+
+

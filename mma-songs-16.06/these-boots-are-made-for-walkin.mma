@@ -1,0 +1,168 @@
+// These Boots Are Made For Walkin
+// Based on Nancy's hit in 1966.
+
+Tempo 160   // her tempo
+Keysig C    // the hit was in F 
+
+Groove Metronome2-4
+  z * 2
+
+Groove 60sRockIntro
+
+// In the original the bass line is on a fretless (upright, actually)
+// which I can't duplicate. Close enough for friends.
+
+Mset BassRiff
+  Begin Solo Riff
+    4g;8;;4g&;8;;
+	4f;8;;4e;8;;
+	4e&;8;;4d;8;;
+	2d&;c;
+  End
+Endmset
+
+Begin Solo
+  Voice AcousticBass
+  Volume ffff
+  Octave 4
+  Harmony OpenAbove
+  Articulate 90
+End
+
+$BassRiff
+
+Cresc p m 4
+
+1         C
+2         /
+3         /
+4         /
+
+
+Repeat
+Groove 60sRock
+Volume m
+
+5         C
+6         /
+7         /
+8         /
+
+Groove 60sRockSus
+
+9         /
+10        /
+11        /
+12        /
+
+Groove 60sRock
+
+13        F
+14        /
+15        /
+16        /
+
+Groove 60sRockSus
+
+17        C
+18        /
+19        /
+20        /
+
+Groove 60sRock1
+
+21       Eb
+22        C
+23       Eb
+24        C
+
+Groove 60sRock1Sus
+
+25       Eb
+26        C z
+27        /
+$BassRiff
+28        C
+
+Groove 60sRock1
+
+29        /
+30        /
+31        /
+32        /
+
+Groove 60sRock
+
+33        /
+
+Begin Drum-Snare
+  Riff D13
+  Riff D1234
+  Volume ffff
+End
+
+34        /
+35        /
+
+RepeatEnd
+
+Groove 60sRock
+
+36        C
+37        /
+38        /
+39        /
+
+Groove 60sRockSus
+
+40        /
+41        /
+42        /
+43        /
+
+Groove 60sRock
+
+44        F
+45        /
+46        /
+47        /
+
+Groove 60sRockSus
+
+48        C
+49        /
+50        /
+51        /
+
+Groove 60sRock1
+
+52       Eb
+53        C
+54       Eb
+55        C
+
+Groove 60sRock1Sus
+
+56       Eb
+57        C
+58        /
+
+$BassRiff
+59        C
+
+Groove 60sRock
+Decresc ppp 8
+
+60        /
+61        /
+62        /
+63        /
+
+Groove 60sRockEnd
+
+64        /
+
+Seq 1
+65        /
+66        / / z!
+

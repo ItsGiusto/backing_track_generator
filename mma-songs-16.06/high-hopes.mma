@@ -1,0 +1,102 @@
+// High Hopes
+
+// Frank Sinatra & Eddie Hodges introduced this song in
+// the 1959 Academy Award-winning move "High Hopes".
+
+Tempo 120
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwing
+AllGrooves Plectrum Capo -1
+
+Begin Solo
+	Voice Piano1
+	Octave 5
+	Volume f
+	Harmony 3
+	Articulate 80
+	Begin Riff
+		4c+; 8; ; 2;
+		4c+; 8; ; 2;
+		4c+; 8; ; 2;
+		4g; a; b; c+;
+	End
+End
+
+Groove EasySwing2
+
+1      F     
+2      Dm    
+3      Gm    
+
+Groove EasySwing1
+
+4      C7    /    /    C     
+
+Repeat
+
+Groove EasySwingWalk
+
+5      F6    
+6      F#dim 
+7      Gm7   
+8      C7    
+9      F     /    Dm7   
+
+Groove EasySwingEnd
+
+10     Gm7   /    C7    
+
+Groove EasySwingWalk
+
+11     F     
+12     Bb    
+13     C7    
+14     F     
+15     /    /    /    F#dim 
+16     Gm7   /    G#dim 
+17     Gm7   /    C7    
+18     F     
+
+Groove EasySwingWalkSus
+
+19     Bb    
+20     /    /    /    Bdim  
+21     F     
+22     /    /    /    Dm7   
+23     G7    
+24	/
+25     C7    
+26	/
+27     F     
+28     F7    
+29     Bb    
+30     Bdim  
+
+Groove EasySwing2
+
+31     F     /    F#dim 
+32     Gm7   /    C7    
+33     F     /    F#dim 
+
+Groove EasySwingWalk
+
+34     Gm7   /    C7    
+35     F     /    F#dim 
+36     Gm7   /    C7    
+
+RepeatEnding
+
+37     F     /    Dm7   
+38     Gm7   /    C7    
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+39     F     
+40	/ z!
+ 

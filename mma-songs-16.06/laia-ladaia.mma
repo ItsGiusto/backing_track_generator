@@ -1,0 +1,125 @@
+// Laia Ladaia
+
+Tempo 126
+KeySig E minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove BossaNovaIntro1
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Articulate 99
+    Harmony Open+8Below
+    Octave 5
+    Begin Riff
+        4g;8e;;g;e;;;
+        8g;e;;;4c#;4+1+1e ~;  //this is bar 2,3 and 4
+    End
+End
+
+Decresc f mp 4
+
+1       Em7      /     A7
+2       Em7      /      A
+3       Em6
+4         /
+
+
+Repeat
+Groove BossaNova1Sus
+Volume m
+
+5        Em      A7@4.5
+6         /
+7        Em      A7@4.5
+8         /
+
+Groove BossaNovaSusPlus
+Cresc mf 4
+
+9       Am7
+10       D9
+11       G6
+12       C9
+
+Groove BossaNova3Sus
+Cresc f 4
+
+13       Em       A7@4.5
+14        /
+15       Em       A7@4.5
+16        /
+
+Groove BossaNovaSusPlus
+Decresc mf 4
+
+17      Am7       C9@4.5
+18        /      /     D9
+19        G       Em@4.5
+20        /
+
+Groove BossaNova1Sus
+Decresc m 4
+
+21     A/C#      /      /  F#/C#
+22        /      /     Bm
+23       Em      A9@4.5
+24        /
+
+Repeat
+Groove BossaNova
+Volume m
+
+25      Em7      /     A7
+26      Em7      /     A7
+27       Em      /     A7
+28      Em7      /     A7
+
+Groove BossaNovaPlus
+Cresc f 4
+
+29      Gm7      /     C7      Gm7@4.5
+30        /      /     C7
+31      Gm7      /      /     C7    Gm7@4.5
+32        /      /     C7
+
+Groove BossaNova
+Decresc m 4
+
+33      Em7      /     A7
+34      Em7      /     A7
+35      Em7      /     A7
+
+RepeatEnding
+
+Groove BossaNovaFill
+
+36      Em7      /     A7
+
+RepeatEnd
+
+37      Em7      /     A7
+
+Decresc mp 2
+
+38      Em6
+39       C9
+
+if def DS 
+  Groove BossaNovaEnd
+  Seq 3
+  Decresc ppp 2
+  40      Em9
+  41        /  z!
+  Cut -2
+else
+  Cresc f 2
+  40      EM9
+  41      /
+endif
+
+set DS
+RepeatEnd   /// do entire song 2x

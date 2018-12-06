@@ -1,0 +1,78 @@
+// Side By Side
+
+Tempo 140
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove BigBandIntro
+Begin Solo
+	Voice Trumpet
+	Harmony Open
+	Volume f
+	Articulate 60
+	Octave 5
+	Begin Riff
+		8g;a;an;8+2b;
+		8c+;d+;e+;8+2e+;
+		2e+;c+;
+		2b;
+	End
+End
+
+Swingmode On
+1   Eb      
+2   Cm      
+3   Fm      
+4   Bb7     
+
+Repeat
+Groove BigBand
+Repeat
+
+5   Eb      
+6   Ab      /       Eb      
+7   /       
+8   Ab      /       Eb      
+9   Ab      /       Adim7   
+10  Eb/Bb   /       C7      
+11  F7      /       Bb7     
+12  Eb      
+
+Groove BigBandPlus
+
+RepeatEnd
+
+Groove BigBandSus
+
+13  G7#5    
+14  G7      
+15  C7      
+16  /       
+17  F7      
+18  /       
+19  Bb7     /       Bbdim7  
+20  Bb7    
+
+Groove BigBandPlus
+ 
+21  Eb      
+22  Ab      /       Eb      
+23  /       
+24  Ab      /       Eb      
+25  Ab      /       Adim7   
+26  Eb/B&   /       C7      
+
+RepeatEnding
+
+27  F7      /       Bb7     
+28  Eb      /       Fm7     Bb7     
+
+RepeatEnd
+
+Groove BigBandEnd
+
+27  F7      /       Bb7     
+29  Eb      Ab      Eb    z!  
+

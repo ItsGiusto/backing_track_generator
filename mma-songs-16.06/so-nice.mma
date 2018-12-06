@@ -1,0 +1,93 @@
+// So Nice (Summer Samba)
+
+Tempo 120
+Groove Metronome2-4
+	z * 2
+	
+Begin Solo
+	Voice Piano3
+	Volume f
+	Articulate 99
+	Octave 5
+End
+
+Begin Solo-Viol
+	Voice Strings
+	Volume f
+	Articulate 100
+	HarmonyOnly 3Above
+	Octave 4
+End
+
+AutoSoloTracks  Solo Solo-viol
+Keysig 1b
+
+Groove Rhumba1
+
+1      F     {2c+;2.f~;}
+	   /     {~8f;g;a;b;4c+;} 
+2      Dm    {2d+;2.f~;}
+	   /     {~8f;g;a;b;4c+;}
+3      Gm    {2d+;2.g~;}
+	   /     {~8d;e;f;g;4a;}
+4      C7    {1+4g~;}
+	/
+
+Delete Solo Solo-Viol
+
+
+Repeat
+Groove RhumbaSus
+
+5      F     
+6	/
+7      Bm7   
+8      E7    
+9      BbM7  
+10     Bb6   
+11     Eb9   
+12	/
+
+Groove Rhumba1
+
+13     Am7   
+14     D7b9  
+15     Gm7   
+16     Em7b5 /    A7#5  
+17     Dm11  
+18     G7    
+
+Groove Rhumba1Sus
+
+19     Gm7   
+20     Db9   /    C9    
+21     F     
+22	/
+23     Bm7   
+24     E7    
+25     BbM7  
+26     Bb6   
+27     Eb9   
+28	/
+29     Am7   
+30     D7b9  
+
+Groove Rhumba
+
+31     Gm7   
+32     C7b9  
+33     F     
+34     Bb9   
+
+RepeatEnding
+
+35     F     
+36     Gm7   /    C7b9  
+
+RepeatEnd
+
+Groove RhumbaEnd1
+
+37     F6    
+38	/ / z!
+

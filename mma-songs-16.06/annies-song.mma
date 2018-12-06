@@ -1,0 +1,151 @@
+// Annies Song
+
+Tempo 150
+Keysig D
+
+Groove CountryWaltzIntro
+Repeat
+Seq 1
+1         D
+2     Dsus4
+
+RepeatEnd
+Seq 4
+3         D
+
+Groove CountryWaltz
+
+4     Dsus4
+5         G
+6         A
+7        Bm
+
+Groove CountryWaltz2
+
+8         G
+9         D
+10     D/
+11      D
+
+Groove CountryWaltz
+
+12      D/A
+13        G
+14      F#m
+15       Em
+
+Groove CountryWaltz2
+
+16        G
+17       A7
+18        /
+19        /
+
+Groove CountryWaltz
+
+20        /
+21        G
+22        A
+23       Bm
+
+Groove CountryWaltz2
+
+24        G
+25        D
+26     D/
+27      D
+
+Groove CountryWaltz
+
+28      D/A
+29        G
+30      F#m
+31       Em
+
+Groove CountryWaltz2
+
+32       A7
+33        D
+34    Dsus4
+35        D
+
+Groove CountryWaltz
+
+36    Dsus4
+
+Repeat
+
+Groove CountryWaltzSus
+
+37        G
+38        A
+39       Bm
+40        G
+
+Groove CountryWaltz2Sus
+
+41        D
+42     D
+43      D
+44      D/A
+
+Groove CountryWaltz
+
+45        G
+46      F#m
+47       Em
+48        G
+
+Groove CountryWaltz2
+
+49       A7
+50        /
+51        /
+52        /
+
+Groove CountryWaltzSus
+
+53        G
+54        A
+55       Bm
+56        G
+
+Groove CountryWaltz2Sus
+
+57        D
+58     D
+59      D
+60      D/A
+
+Groove CountryWaltz
+
+61        G
+62      F#m
+63       Em
+64       A7
+
+RepeatEnding
+
+Groove CountryWaltz2Sus
+
+65        D
+66    Dsus4
+67        D
+68    Dsus4
+
+RepeatEnd
+
+Groove CountryWaltz2Sus
+
+69        D
+70    Dsus4
+71        D
+72    Dsus4
+
+Groove CountryWaltzEnd
+Seq 2
+
+73        D
+74    Dsus4
+75        D z!
+

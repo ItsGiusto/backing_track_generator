@@ -1,0 +1,125 @@
+// Cleopatra Had A Jazz Band (1917)
+
+Tempo $( 70 * 2 )
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove FoxTrotIntro
+Cresc p m 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Groove Foxtrot
+Volume m
+
+5         G      /     E7
+6        A7
+7        D7
+8         G
+
+Groove FoxTrotPlus
+Swell mf 8
+
+9         G      /     Bm     Bb
+10       Am
+11       A7
+12       D7   Ddim     D7     D+
+
+Groove FoxTrot
+
+13        G      /     E7
+14       A7
+15       D7      /  Ebdim
+16       Em      /      /  F#dim
+
+Groove FoxTrotSus
+Volume mp
+
+17       Em      /     A7
+18       Em      /      /     A7
+19       Em      /     A7
+20       D7      /     Bm     Bb
+
+Repeat
+Groove FoxTrot
+Volume m
+
+21       A7
+22       D7
+23        G
+24        /      /     Bm     Bb
+
+Groove FoxTrotPlus
+Decresc mp 2
+
+25       A7
+26       D7
+27       G7
+28        /      /     E+     E7
+
+Groove FoxTrotSusPlus
+Cresc m 4
+
+29       A7      /    Em6    Eb7
+30       D7
+31      G/B      /     Am
+32        G  Bm/F#      /    Em7
+
+Groove FoxTrotSus
+
+33       D7      /      /   Fdim
+34     A7/E
+35       A7
+36       D7      /     Bm     Bb
+
+Groove FoxTrot
+Cresc mf 2
+
+37       A7
+38       D7
+39        G
+40        /      /  Bbdim
+
+Groove FoxTrotPlus
+Decresc m 4
+
+41      Am7      /     D7
+42       G7      /  F#7b5
+43        B      /   Bdim
+44       B7      /     C7     B7
+
+Groove FoxTrotSusPlus
+Decresc mp 4
+
+45       E7
+46       A7
+47       D7
+48        G      /     Bm     Bb
+
+Groove FoxTrot
+Decresc p 2
+
+49      Am6      /     D7
+50      Am6      /     D7
+
+RepeatEnding
+
+Groove FoxTrotFill
+
+51        G
+52        /      /     Bm     Bb
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc ppp 2
+Tempo *.8 2
+
+51        G
+53        /  z!
+

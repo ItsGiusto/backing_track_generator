@@ -1,0 +1,115 @@
+// Steppin Out With My Baby
+
+Tempo 170
+Keysig D minor
+
+Groove Metronome2-4
+	   z * 2
+
+Groove QuickStepIntro
+Begin Solo
+	  Voice VoiceOohs
+	  Cresc mp ff 4
+	  Harmony 16Below
+	  Octave 6
+	  Articulate 66
+	  Begin Riff
+	     8d;4;8+2;
+		 8d;4;;;
+		 4d;;;f;
+		 1a;
+	  End
+End
+
+Volume p
+1        Dm
+2        Bb
+Volume mp
+3         G
+4        A7
+
+Repeat
+Groove QuickStep
+Volume m
+
+5        Dm      /  Dm7/C
+6     Gm/Bb      /     A7
+7        Dm      /  Dm7/C
+8     Gm/Bb      /     A7
+
+Groove QuickStepWalk
+Volume mp
+
+9        Dm      /  Dm7/C
+10    Gm/Bb      /  Em7b5
+
+Groove QuickStepHitWalk
+Cresc m 2
+
+11       Dm      /   Dm/F    Gm6
+12   G#dim7     A7    Dm6
+
+Groove QuickStepDuh
+Decresc mp 4
+
+13       Dm      /  Dm7/C
+14    Gm/Bb      /     A7
+15       Dm      /  Dm7/C
+16    Gm/Bb      /     A7
+
+Groove QuickStepDuhWalk
+Cresc mf 4
+
+17       Dm      /  Dm7/C
+18    Gm/Bb      /  Em7b5
+19       Dm      /   Dm/F    Gm6
+20   G#dim7     A7    Dm6
+
+Groove QuickStepSus
+Volume m
+
+21       D6    DM7
+22        D    DM7      /     D6
+23      DM7
+24      Em7      /     A7
+
+Groove QuickStepHitSus
+Volume mf
+
+25       D6    DM7
+26       D6    DM7      /     D6
+27      Em7      /     A7
+28      Em7      /     A7
+
+Groove QuickStepDuhSus
+Decresc mp 4
+
+29       Dm      /  Dm7/C
+30    Gm/Bb      /     A7
+31       Dm      /  Dm7/C
+32    Gm/Bb      /     A7
+
+Groove QuickStepDuhSusWalk
+Volume m
+
+33       Dm      /  Dm7/C
+34    Gm/Bb      /  Em7b5
+
+RepeatEnding
+
+Groove QuickStepHitSus
+
+35      D/F#      /  Fdim7
+36      Em7   E&7  D6@2.5
+
+RepeatEnd
+
+Groove QuickStepHitSus
+
+Decresc pp 2
+
+35     D/F#      /  Fdim7
+Tempo *.9
+36      Em7  /  D6@2.5     z!
+Cut -1.25
+

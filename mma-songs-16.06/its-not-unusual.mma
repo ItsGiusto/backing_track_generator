@@ -1,0 +1,168 @@
+// Its Not Unusual
+
+Keysig G
+Tempo 180
+
+Groove Metronome2-4
+   z * 2
+
+Mset Hits 
+ Begin Bass-Hits
+   Voice Trumpet
+   Volume m
+   Octave 5
+   Harmony 3Below
+   Articulate 80
+   Rvolume 10
+   Rtime 4
+   Sequence {1 8 5 90}
+ End
+EndMset
+
+Groove JazzRockIntro8
+Begin Solo
+   Voice Trumpet
+   Cresc m fff 8   
+   Harmony 3Below+8Below
+   Octave 5
+   Articulate 80
+   Rvolume 10
+   Rtime 4
+   Begin Riff
+      8g;r;;8g;;
+	  8g;r;;8g;;
+	  8a;r;;8a;;
+	  8a;r;;8a;;
+
+      8g;r;;8g;;
+	  8g;r;;8g;;
+	  8a;r;;8a;;
+	  8a;r;;8a;4;
+   End
+End
+
+Repeat
+
+1         G
+2         /
+3        Am
+4         /
+
+
+RepeatEnd
+
+Repeat
+Groove JazzRockWalk
+
+$Hits
+
+5         G
+6         /
+7       Am7
+8        D7
+
+Groove JazzRock
+
+9         G
+10        /
+11      Am7
+12        /
+
+Groove JazzRockSus
+
+13       Bm
+14        /
+15      Am7
+16        /
+
+Groove JazzRockSusPlus
+
+17       D7
+18       D9
+
+RepeatEnding
+
+19        G
+20        /
+
+Groove JazzRockSus
+
+21       D7
+Solo Riff 8d+;r;;8d+;;
+22        /
+
+RepeatEnd
+
+23        G
+24        /
+Solo Riff 8g;r;;8g;;
+
+Groove JazzRockSus
+$Hits
+25      Am7
+26        /
+27       D7
+28        /
+
+Groove JazzRockPlus
+
+29        G
+30        /
+
+Repeat
+Groove JazzRock
+$Hits
+Bass-Hits Riff 1 4. 1++ 110; 2 4. 1++ 100; 3 2 5+ 100;
+31        G
+32        /
+
+Groove JazzRockWalkPlus
+
+33      Am7
+34        /
+35       D7
+36        /
+
+Groove JazzRockWalk
+
+37      Bm7
+38      Bb7
+39      Am7
+40       D7
+
+
+RepeatEnd
+Groove JazzRock
+
+41        G
+42        /
+43      Am7
+44       D7
+
+Groove JazzRockSusPlus
+
+45        G
+46        /
+47      Am7
+48        /
+
+Groove JazzRockSus
+
+49       Bm
+50        /
+51      Am7
+52        /
+
+Groove JazzRock
+
+
+53       D7
+54        /
+55        G
+56        /
+
+Groove JazzRock
+
+57      Am7      /     D7
+58        G      z!
+

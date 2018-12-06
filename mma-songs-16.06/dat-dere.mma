@@ -1,0 +1,93 @@
+// Dat Dere
+
+Tempo 100
+Keysig C Minor
+Transpose up maj 2
+
+Groove Metronome2-4
+ z * 2
+
+Groove ModernJazzIntro
+Begin Solo
+  Voice Piano1
+  Volume f
+  Harmony OpenBelow
+  Articulate 77
+  Octave 6
+  Begin Riff
+    3f;r;g;c;f;2e;
+	3f;r;g;c;f;2e;
+	4d+;3c+;g;e;f;r;e;f;e;1g~;
+  End
+End
+
+Cresc mp mf 4
+
+1        Cm
+2     Am7b5
+3     Dm7b5
+4        G7#9
+
+
+Repeat  // entire song
+Repeat  // "A"
+Groove ModernJazz
+Volume m
+
+5        Cm      /    Eb7
+6     Am7b5      /    Ab7
+7        Cm      /    Ab7
+8     Dm7b5      /     G7
+
+Groove ModernJazz1
+Cresc f 3
+
+9        Cm      /    Eb7
+10    Am7b5      /    Ab7
+11    Dm7b5      /     G7
+
+RepeatEnding
+Decresc mf 1
+
+12       Cm      /   G7#9
+
+RepeatEnd
+DeCresc mf 1
+
+13       Cm
+
+// "B"
+
+Groove ModernJazzSus
+Volume m
+
+14      Cm7     G7     Cm
+15      Gm7     D7    Gm7
+16      Cm7      /    Ab7
+17    Dm7b5      /     G7
+
+Groove ModernJazz1Sus
+
+Cresc mf 2
+
+
+18      Cm7     G7     Cm
+19      Gm7     D7    Gm7
+
+RepeatEnding
+
+Groove ModernJazzFill
+Decresc mp 2
+
+20    Dm7b5      /   G7#9
+21       Cm      /   G7#9
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Decresc ppp 2
+Tempo *.8 2
+
+20    Dm7b5      /   G7#9
+21       Cm     /   z!
+

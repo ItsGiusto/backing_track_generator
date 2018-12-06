@@ -1,0 +1,102 @@
+// Tangerine
+
+// Mercers/Scheetzinger
+// Written for the 1942 Musical "The Fleet's In"
+// I have a recording of the Tommy Dorsey Band doing this with
+// Dick Haymes singing the 1st verse, a instrumental, and Helen Forrest
+// singing the 2nd. The tempo for Haymes is 100 BPM; then the instrumental
+// and Forrest kick up the pace at about 156. So, my 150 is probably a
+// decent compromise ... of course, if you like it slow and drippy you
+// can do what YOU want :)
+
+Tempo 150
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove BeguineIntro
+
+Begin Solo
+	Voice Marimba
+	Mallet Rate=32 Decay=-8
+	Volume ff
+	Harmony Open
+	Articulate 100
+	Octave 5
+	Begin Riff
+		8f;4;8;4;4;
+		8f;4;8;4;4;
+		8a;4;8;4;4;
+		1g;
+	End
+End
+
+Cresc mp mf 4
+
+1    F
+2    Dm
+3    Am
+4    C7   /    D+
+
+
+Repeat
+Groove Beguine
+Cresc mp m 8
+
+5    Gm7  /    C7
+6    Gm7  /    C7
+7    F    /    F6
+8    /    /    Bdim3
+9    Gm7  /    C7
+10   Gm7  /    C7
+11   FM7
+12   D7b9 /    D+
+
+Groove Beguine1
+Cresc mp m 8
+
+13   Gm7  /    C7
+14   Gm   /    C7
+15   F    /    F6
+16   /    /    E7
+17   A    /    F#m
+18   Bm7  /    E9
+19   A7
+20   D9   /    D7b9
+
+Groove BeguineSus
+Volume mf
+
+21   Gm7
+22   C7   /    C9
+23   F    /    F6
+24   /    /    Bdim3
+25   Gm7  /    C7
+26   Gm7  /    C7
+27   A7   /    A7b5
+28   D9
+
+Groove Beguine
+Decresc mf mp 8
+
+29   Gm   /    Bb
+30   Em7  /    A7
+31   Dm7  /    F
+32   G7
+33   Bb   /    Gm7
+34   /    /    C7b9
+
+RepeatEnding
+
+35   F
+36   /
+
+RepeatEnd
+
+Groove Beguine2End
+Tempo *.8 2
+37   F
+38   /  z!
+
+

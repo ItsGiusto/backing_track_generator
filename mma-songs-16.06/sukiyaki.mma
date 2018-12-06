@@ -1,0 +1,105 @@
+// Sukiyaki  (1961)
+
+Tempo $( 74 * 2 )
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BoleroIntro
+
+AllGrooves Chord-Sus Voice  SynthStrings2
+
+Begin Solo
+    Voice SynthStrings2
+    Articulate 110
+    Volume m
+    Octave 6
+    Harmony OpenBelow+8Below
+    Begin Riff
+        1d+;
+        1b;
+        1g;
+        1e;
+    End
+End
+
+Swell m mf 4
+
+1         G
+2        Em
+3         G
+4        Em
+
+Repeat
+Groove BoleroSus
+Volume m
+
+5         G
+6        Em
+7         G
+8        Em
+
+Groove Bolero
+Cresc mf 4
+
+9         G
+10       Bm
+11       Em
+12      Am7      /     D7
+
+Groove BoleroFill
+Decresc m 4
+
+13        G
+14       Am
+15        C
+16       B7
+
+Groove Bolero
+
+17       Em      /      C
+18       Bm      /    Am7
+
+RepeatEnding  // 1st ending
+
+Groove BoleroSusFill
+Volume f
+
+19        G      /      C
+20       Bm      /     Am
+
+RepeatEnding   // 2nd ending
+Volume f
+Groove BoleroSusFill
+
+21    G
+22    G7
+
+// This is the coda in the sheet music
+
+Groove BoleroSus
+Cresc mp mf 4
+
+25        C
+26        /
+27        G      /    GM7
+28       G7
+
+Groove BoleroSusFill
+Decresc m 4
+
+29       Cm
+30        /
+31        G      /     A7
+32       D7
+
+RepeatEnd  /// 3rd ending
+
+Groove BoleroEnd
+Seq 3
+Decresc pp 2
+Tempo *.9 2
+
+23        G      /      C
+24        G     z!

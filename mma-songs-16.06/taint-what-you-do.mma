@@ -1,0 +1,100 @@
+// Taint What You Do
+
+Tempo 170
+Keysig Ab
+
+Groove Metronome2-4
+  z * 2
+
+Groove BoggieWoggie3
+
+Begin Solo
+   Voice Piano1
+   Harmony 3Below+3above
+   Articulate 90
+   Octave 5
+   Volume f
+   Begin Riff
+       8a;4;2;
+       8d+;4;2;
+       8a;4;2;
+       1e;
+   End
+End
+
+Swell m mf 4
+
+1        Ab
+2       Db  
+3        Ab 
+4       Eb7
+
+Repeat  /// do song 2x
+
+Repeat
+Groove BoggieWoggie
+Volume m
+
+5        Ab      /    Ab7
+6      Bbm7      /    Eb9
+7        Db      /     Ab
+8      Bbm7      /    Eb7
+
+Groove BoggieWoggie1
+Cresc f 4
+
+9        Ab      /    Ab7
+10     Bbm7      /    Eb9
+11       Ab      /    Eb9
+
+RepeatEnding
+
+12       Ab
+
+
+RepeatEnd
+
+13       Ab      /    Ab7
+
+Groove BoggieWoggieSus
+Decresc m 4
+
+14       Db      /   Ebm7
+15       Db      /    Eb7
+16       Ab
+17      Ab7
+
+Groove BoggieWoggie2Sus
+
+18       Db      /   Ebm7
+19     Edim
+20       Ab      /   Adim
+21      Eb9
+
+Groove BoggieWoggie2
+Volume mf
+
+22       Ab      /    Ab7
+23     Bbm7      /    Eb9
+24       Db      /     Ab
+25     Bbm7      /    Eb7
+
+Groove BoggieWoggie1
+
+26       Ab      /    Ab7
+27     Bbm7      /    Eb9
+
+RepeatEnding   // doing whole song 2x
+
+28       Ab      /    Eb9
+29       Ab
+
+RepeatEnd
+
+Groove BoggieWoggieEnd
+Decresc mp 2
+
+28       Ab      /    Eb9
+29       Ab      z!
+
+

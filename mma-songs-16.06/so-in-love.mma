@@ -1,0 +1,135 @@
+// So In Love
+// From "Kiss Me, Kate", Cole Porter.
+
+Tempo 150
+Keysig F minor
+
+Groove Metronome2-4
+	   z * 2
+
+Groove RhumbaIntro
+Begin Solo
+	  Voice Vibraphone
+	  Mallet Rate=16 Decay=-6
+	  Volume f
+	  Harmony 3+8below
+	  Articulate 110
+	  Octave 5
+	  Begin Riff
+	  		2c+;4;4+1~;
+			~<>;
+			2b;4;4+1~;
+	  End
+End
+
+1        Fm
+2        Ab
+3        Bbm
+4        C7
+
+
+Groove Rhumba
+Cresc mp m 8
+
+5        Fm
+6         /
+7        C7
+8         /
+9        Fm
+10        /
+11      Bbm
+12        /
+13       Eb
+14    Eb7b9
+15       Ab
+16      Ab7
+17       Db
+18       G7
+19        C
+20        /      /   C7b9
+
+Groove RhumbaSus
+Cresc mp mf 16
+Chord-Sus Cresc m 16
+
+21       Fm
+22        /
+23       C7
+24        /
+25       Fm
+26        /
+27      Bbm
+28        /
+29       Eb
+30       Db
+31      Dbm
+32        /
+33     AbM7      /    Ab6
+34      Eb7      /     Db    Eb7
+35       Ab
+36        /
+
+
+Set V 1
+Repeat
+Volume m
+Groove $V Rhumba1 Rhumba3
+
+37       Db
+38      Eb7
+39       Ab
+40        /
+41       Db
+42      Eb7
+43       Ab
+44        /
+45       Db
+46      Eb7
+47       Ab      /   AbM7
+48      Ab6      /     C7
+49       Fm      /      /    Fm7
+50      Fm6      /     G7
+51        C
+52        /      /   C7b9
+
+Groove $V Rhumba1Sus Rhumba3Sus
+Chord-Sus Cresc p mp 12
+
+53       Fm
+54        /
+55       C7
+56        /
+57       Fm
+58        /
+59      Bbm
+60        /
+61       Eb
+62      Eb7
+63     Ebm6
+64       F7
+65      Bbm
+66      Dbm
+67       Ab
+68        /      /    Abm
+69    Abdim
+70        /
+71     Bbm7
+72      Eb7
+
+RepeatEnding
+
+73       Ab
+74        /
+
+Inc V
+
+RepeatEnd
+
+73       Ab
+74        /
+
+Groove RhumbaEnd1
+
+75        /
+76        / z!
+

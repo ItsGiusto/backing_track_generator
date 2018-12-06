@@ -1,0 +1,89 @@
+// Johnson Rag
+
+Tempo 150
+
+Groove Metronome2-4
+	z * 2
+
+Groove BigbandIntro
+Begin Solo
+	  Voice SynthBass2
+	  Octave 3
+	  Articulate 120
+	  Volume fff
+	  Begin Riff
+	  		4g;r;b;
+			4d+;r;8b;d+;4b;
+			4g;r;b;
+			4d+;r;8b;d+;4b;
+			4a;r;c+;
+			4e+;r;8c+;e+;4c+;
+			4a;r;c+;
+			1d+;
+	  End
+End
+
+Swingmode On
+Cresc pp mp 8
+1    G    
+2    /    
+3    /    
+4    /    
+5    Am   
+6    /    
+7    /    
+8    D7   /    /    z    
+
+Repeat
+Groove BigBand
+Volume m
+
+9    G    
+10   /    Ebm  G    D7+5 
+11   G    
+12   /    Ebm  G    G#dim 
+13   D7   
+14   /    /    /    G#dim 
+15   D7   
+16   Eb7  D7   G    D7+5 
+17   G    
+18   /    Ebm  G    D7+5 
+19   G    
+20   /    Ebm  G    G#dim 
+21   D7   
+22   /    /    /    G#dim 
+23   D7   
+24   Eb7  D7   G    
+
+Groove BigBandSus
+
+25   Dm7  /    G7   
+26   Dm7  /    G7+5 
+27   C    
+28   /    Dm7  D#dim C6   
+29   Em7  /    A7   
+30   Em7  /    A7   
+31   D    Db   C    Dm7-5 
+32   D6   Bbm  Am   D7+5 
+33   G    
+34   /    Ebm  G    D7+5 
+
+Groove BigBand
+
+35   G    
+36   /    Ebm  G    G#dim 
+37   D7   
+38   /    /    /    G#dim  
+
+RepeatEnding
+
+39   D7   
+40   Eb7  D7   G    z    
+
+RepeatEnd
+
+41   D7
+Groove BigBandEnd
+Seq 2
+42   Eb7  D7   G    z!
+

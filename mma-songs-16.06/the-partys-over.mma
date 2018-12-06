@@ -1,0 +1,112 @@
+// The Partys Over
+
+Tempo 94
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove SonIntro
+Begin Solo
+    Voice Piano1
+	Volume f
+	Harmony Open+16Below
+	Octave 5
+	Articulate 90
+	Begin Riff
+	    4e+;8d+;c+;4b;c+;
+		2d+;c+;
+		8f+;e+;d+;c+;b;a;g;a;
+		2b;
+	End
+End
+
+Cresc p m 4
+
+1        Eb
+2        Cm
+3        Fm
+Bass Riff 1 4 4 90
+4       Bb7
+
+Repeat
+Groove Son
+Volume m
+
+5        Eb      /    Cm7
+6       Fm7      /    Ab7    Bb7
+7        Eb      /    Cm7
+8       Fm7      /    Ab7    Bb7
+
+Groove SonSus
+Volume +20
+
+9        Eb      /      /  Bb7/F
+10     Eb/G      /      /     Ab
+11     Bbm7
+12    Eb7b9
+
+Groove SonPlus
+Decresc mp 4
+
+13      Ab6
+14      Db9
+15     EbM7
+16        /
+
+Groove Son
+
+17      Dm7
+18       G7
+19       C7      /     F7
+20      Bb7      /    Ab7    Bb7
+
+Groove SonSus
+Cresc m 4
+
+21       Eb      /    Cm7
+22      Fm7      /    Ab7    Bb7
+23       Eb      /    Cm7
+24      Fm7      /    Ab7    Bb7
+
+Groove SonSusPlus
+
+25       Eb      /      /  Bb7/F
+26     Eb/G      /      /     Ab
+27     Bbm7
+28      Eb7      /  Eb7#5
+
+Groove SonSus
+Decresc mp 8
+
+29       Ab
+30      Bb7      /  Bb7#5
+31    Gm7b5
+32       C7
+
+Groove Son
+
+33      Fm7
+34      Bb7
+35     EbM7
+36      Cm7
+
+Groove SonSus
+Cresc m 4
+
+37      Fm7
+38      Bb7
+
+RepeatEnding
+
+39       Eb      /    Cm7
+40      Bb7
+
+RepeatEnd
+Groove SonEnd
+Decresc pp 2
+Tempo *.8 2
+
+39       Eb
+40        /  z!
+

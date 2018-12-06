@@ -1,0 +1,121 @@
+// Samba De Orfeu
+
+Tempo 210
+
+Groove Metronome2-4
+ z * 2
+
+Groove SambaIntro1
+Begin Solo
+  Voice Vibraphone
+  Volume ff
+  Mallet Rate=16 Decay=-20
+  Harmony OpenBelow+8Above
+  Octave 5
+  Articulate 90
+  Begin Riff
+    8c+;4;8;;4;8r;
+	8a;4;8;8;4;
+    4.d;8f;4a;8f;8r;
+	2g;
+  End
+End
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat // entire song
+Repeat
+Groove Samba
+
+5       CM7
+6         /
+7         /
+8         /
+
+Groove SambaSus
+
+9         /
+10        /      /  C#dim
+11      Dm7
+12        /
+
+Groove Samba
+
+13        /
+14        /
+15       Dm
+16        /
+
+Groove SambaFill
+
+17       G7
+
+RepeatEnding
+
+18        /
+19      CM7
+20       C6
+
+
+RepeatEnd
+
+21        /
+22        C
+23        /
+
+Groove Samba
+
+24      Gm7
+25       C7
+26      FM7      /     F6
+27      FM7
+
+Groove SambaSusPlus
+
+28      Fm7
+29      Bb7
+30       G7
+31        /
+
+Groove Samba
+
+32      CM7
+33        /
+34        /
+35        /
+
+Groove SambaPlus
+
+36        /
+37        /      /  C#dim
+38      Dm7
+39        /
+
+Groove Samba
+
+40        /
+41        /
+42       Dm
+43        /
+
+Repeatending
+
+Groove SambaSusFill
+
+44       G7
+45        /
+46        C
+47        G7
+
+RepeatEnd
+
+Groove SambaEnd
+
+44       G7
+45        /
+46        C
+47        /  z!
+

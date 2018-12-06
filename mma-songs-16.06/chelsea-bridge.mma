@@ -1,0 +1,105 @@
+// Chelsea Bridge
+
+Tempo 56
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove NiteJazzIntro
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Articulate 120
+    Octave 4
+    Harmony OpenBelow+OpenAbove
+    Begin Riff
+        8c#+;2b;
+        8c#+;2bn;
+        8g;a&;g;a&;2g;
+        2a;        
+    End
+End
+
+Swell mp mf 4
+
+1          F+
+2          DmM7
+3          G7b9
+4          C13  
+
+Groove NiteJazz
+Repeat
+Cresc m mf 4
+
+5       DmM7
+6      F9#11
+7       DmM7      /  F9#11
+8       D7b9      /     D7
+
+Groove NiteJazzPlus
+Decresc mp 4
+
+9         G9
+10       C13
+11        F6
+
+RepeatEnding
+
+Drum-Conga Riff 1 0 90; 1.5 0 90; 2 0 90; 2.5 0 90; 3 0 90; 4 0 90 
+12        /  z
+
+Groove NiteJazzSus
+
+RepeatEnd
+
+13        E9      /    Eb9
+
+Repeat
+Keysig Ab
+Groove NiteJazz
+Volume m
+
+14    Bb7sus4      /    Eb7
+15       Ab6      /    Fm9
+16    Bb7sus4      /     A9
+17       Ab9
+
+Groove NiteJazzSusPlus
+Cresc mf 4
+
+18      DbM7      /   E7/D
+19      CbM7
+20        Bm
+21     F9#11     E9    Eb9
+
+Keysig F
+
+Groove NiteJazz
+Decresc mp 4
+
+22      DmM7
+23     F9#11
+24      DmM7      /  F9#11
+25      D7b9      /     D7
+
+Groove NiteJazzSus
+Decresc p 2
+26        G9
+27       C13
+
+RepeatEnding
+Groove NiteJazzSusPlus
+Cresc m 2
+
+28        F6
+29        E9    /    Eb9
+
+RepeatEnd
+
+Groove NiteJazzEnd
+Decresc ppp 2
+
+30        F6
+31         / z!
+

@@ -1,0 +1,110 @@
+// Jungle Drums
+
+// An oldie written by Carmen Lombardo, Charles O'Flynn &  Ernesto Lecuona.
+// A drippy-slow version was used in the 1990 movie Cry Baby (Johnny Depp, Amy Locane,
+// Susan Tyrrell, Polly Bergen, Iggy Pop). Artie Shaw did a swing-time recording.
+
+Tempo 120
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove BeguineIntro
+
+Begin Solo-Drum
+	Drumtype
+	Tone LowTom1
+	Volume ff
+	Rtime 10
+	Rvolume 30
+	Begin Riff
+		4; 8r;8; 8;8;
+		8;8;8;r;4;4;
+		4;4;4;
+		4;
+	End
+End
+
+
+1         z           // 4 bar intro of drums.
+2         /
+3         /
+4         /
+
+Repeat
+Groove Beguine
+
+5         G
+6         /      /      /     D7
+7         G
+8         /      /     D7
+9         G
+10       D7
+11        G
+12        /
+
+Groove BeguineSus
+
+13        /
+14        /      /      /     D7
+15        G
+16        /      /     D7
+17        G
+18       D7
+19        G
+20        /      /     G7
+
+Groove Beguine1
+
+21        C
+22        /      /      /     G7
+23        C
+24        /
+25       Cm
+26        /
+27        /
+28        /
+
+Groove Beguine1Sus
+
+29        G
+30        /
+31        /
+32        /      /     D7
+
+RepeatEnding
+
+33        G
+
+Groove BeguineFill
+
+34        /
+
+RepeatEnd
+
+Groove BeguineEnd
+
+// An 8 bar ending. We re-use our drum-solo track to
+// get that toms pounding once again.
+
+Decresc Off 8
+
+Begin Drum-Solo
+	Rskip 10
+	Volume FFF
+End
+
+Repeat
+
+RndSet Line  8;;;r;8;8;r;8;  8;r;;8;;r;  8;;;;r;;8;  4;;;;
+RndSet Banger  LowTom1 LowTom2 MidTom1 MidTom2
+Solo-Drum Riff $Line
+Solo-Drum Tone $Banger
+
+35        G
+36        /      /     D7
+
+RepeatEnd 4
+
+

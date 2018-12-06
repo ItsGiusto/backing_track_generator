@@ -1,0 +1,95 @@
+// Tumbling Tumbleweeds
+
+Tempo 70
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove MellowJazzIntro
+
+Begin Solo
+     Voice Jazzguitar
+     Volume mf
+     Octave 6
+     Articulate 140
+     Harmony OpenBelow+8Below
+     Rtime 5
+     Rvolume 5
+     Begin Riff
+        4f;r;3f;a;c+;f;a;c+;
+        4d;r;3d;f;a;d;f;a;
+        4a;r;3e;a;c+;e;a;c+;
+        4c+;r;3c+;b&;f;4c+;
+     End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Am
+4        C7
+
+Groove MellowJazz
+Volume m
+
+5         F
+6         /      /      /     F7
+7         E
+8         /      /      /     E7
+
+Groove MellowJazzPlus
+Decresc mp 2
+
+9         F
+10        C      /      /  C#dim3
+11       G7
+12        C      /      /     C+
+
+Groove MellowJazzSus
+Cresc m 2
+
+13        F
+14        /      /      /     F7
+15        E
+16        /      /      /     E7
+
+Groove MellowJazzSusPlus
+Cresc mf 4
+
+17        F
+18        C      /      /  C#dim3
+19       G7
+20        C
+
+Groove MellowJazz
+Volume m
+
+21      Fm6     /     G7
+22        C
+23      Am6      /     B7
+24       Em      /     B7     G9
+
+Groove MellowJazzSus
+Swell m mf 4
+
+25        F
+26        /      /      /     F7
+27        E
+28        /      /      /     E7
+
+Groove MellowJazz
+Decresc mp 2
+
+29        F
+30        C      /      /  C#dim3
+
+Groove MellowJazzEnd
+Tempo *.8 2
+Decresc ppp 2
+
+31       G7
+32        C / z!
+
+

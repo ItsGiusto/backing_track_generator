@@ -1,0 +1,105 @@
+// Midnight Sun
+
+Tempo 72
+Keysig Ab
+
+Groove Metronome2-4
+  z * 2
+Groove SlowJazz2Intro
+
+Begin AllGrooves
+      Arpeggio-Plus  Voice Vibraphone
+End
+
+Begin Solo
+    Voice Vibraphone
+    Octave 6
+    Harmony OpenBelow
+    Articulate 90
+    Volume f
+    RVolume 20
+    RTime 10
+    Begin Riff
+        8a&;g;g&;f; en;e&;dn;d&;
+        8g;g&;f;en; e&;dn;d&;c;
+        8g&;f;en;e&; dn;d&;c;b-;
+        4a-;c;2f;
+    End
+End
+
+Swell mp mf 4
+1        Ab
+2         G
+3        Gb
+4        F7
+
+Repeat
+Groove SlowJazzWalk
+Volume m
+
+5      AbM7
+6         /
+7      Abm7
+8    Db7#11
+
+Groove SlowJazzWalkSus
+Cresc f 4
+
+9      GbM7
+10        /
+11     Gbm7
+12   Cb7#11
+
+Groove SlowJazzSus
+Decresc m 4
+
+13      EM7
+14        /
+15      Em7
+16    A7#11
+
+RepeatEnding  /// 1st
+Groove SlowJazz
+Decresc mp 2
+
+17     AbM7      /    Fm7
+
+Groove SlowJazzFill
+
+18     Bbm7      /    Eb7
+
+RepeatEnding  /// 2nd
+Groove SlowJazzWalkSus
+Decresc mp 2
+
+19     AbM7
+20    Ddim7      /     C7
+
+/// "next strain"
+
+Groove SlowJazzSusPlus
+Cresc m 4
+
+21      CM7
+22      Cm7      /     F7
+23     BbM7
+24      Cm7      /     F7
+
+Groove SlowJazzPlus
+Swell mf 4
+
+25     BbM7
+26     Bbm7      /    Eb7
+27      Cm7      /     F7
+28     Bbm7      /    Eb7
+
+RepeatEnd  /// 3rd and final ending
+
+Groove SlowJazzEnd
+Decresc ppp 2
+
+17     AbM7      /    Fm7
+18     Bbm7     z!
+
+
+

@@ -1,0 +1,103 @@
+// Any Time
+
+Tempo 135
+Keysig G
+Transpose -2
+
+Groove metronome2-4
+	z * 2
+
+//Groove CountrySwing1Sus
+Groove CountrySwingIntro
+
+Begin Solo
+	Voice JazzGuitar
+	Volume mf
+	Articulate 90
+	Harmony Open
+	Octave 5
+	Begin Riff
+		4d+; g; a; b;
+		3+3g; a; b; 4a; g;
+		4a; b; c+; d&+;
+		2.d+;
+	End
+End
+
+1    GM   
+2    Em   
+3    Am   
+
+// In the last bar of the intro we use beatadjust to overlay
+// 2 bars. The last 2 beats of the first bar and the 1st 2
+// of the 2nd bar are set to z! (silence). The reason for
+// all this is that we want the fiddle on the 1st beat, not 3 and 4.
+
+4    D7   z    z!   
+BeatAdjust -4
+Groove CountrySwing
+	z! / D7
+
+// Okay, here's the song
+
+Repeat
+Groove CountrySwing		// struming guitars
+
+5    E7   
+6    /    
+7    A7   
+8    /    
+9    D7   
+10   /    
+11   GM   
+12   /    
+13   CM   
+14   Cm   
+15   GM   
+16   E7   
+
+Groove CountrySwing1  // add random fiddle
+
+17   A7   
+18   /    
+19   D7   Am   E#7  /    
+20   D7   GM   /    B7b5 
+
+Groove CountrySwing   // no fiddle
+
+21   E7   
+22   /    
+23   A7   
+24   /    
+25   D7   
+26   /    /    Db7  C7   
+27   B7   
+28   /    
+
+Groove CountrySwing2	// sober fiddler
+
+29   E7   
+30   /    
+31   A7   
+32   /    /    C#dim 
+
+Groove CountrySwingSus // sad, sustained fiddler
+
+33   D7   
+
+Repeatending 2
+
+34   D7   
+35   GM   /    CM   /    
+36   GM   
+
+Repeatend
+
+Groove CountrySwingEnd
+
+37   D7   
+38   /    
+39   GM   /    CM   /    
+40   GM   z!   
+
+

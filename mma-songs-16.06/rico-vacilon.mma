@@ -1,0 +1,137 @@
+// Rico Vacilon
+
+Tempo 128
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove ChaChaIntro
+
+Begin Solo
+	Voice Xylophone
+	Cresc  m ff 4
+	Harmony 3+8below
+	Articulate 100
+	Octave 5
+	Begin Riff
+		8b;;2r;4b;
+		8b;;4b;r;4b;
+		4.b;8;;;;;
+		1b;
+	End
+End
+
+1    Bb
+2    /
+3    /
+Solo Volume m
+Solo Mallet Rate=16 Decay=-4
+4    / / / z!
+
+Repeat         // do most of the song 2x
+
+// Section 'A'
+Groove ChaCha
+Repeat         // do 'A' 2x
+Cresc m mf 4
+
+5    Bb6  /    F7
+6    /
+7    Cm7 /    F13
+
+RepeatEnding
+
+8    Bb6  /    Eb7  z
+
+Groove ChaChaSus
+
+RepeatEnd
+
+9    Bb6  /    F7#5 z
+
+/// Section 'B'
+
+Groove ChaCha
+Volume mf
+
+10   Bb6  /    Bdim7
+11   F9
+12   Cm7  Ab9  F7
+13   BbM7
+
+Groove ChaCha1
+Volume m
+
+14   A7sus /    Ab7b5
+15   Gm7
+16   C13
+17   F    /    /    z
+
+// section 'C'
+
+Groove ChaCha
+Decresc mf mp 8
+Repeat            // Do 'C' 2x
+
+18   Bb6  /    F7
+19   /
+20   Cm7 /    F13
+
+RepeatEnding
+
+21   Bb   /    Eb7  z
+
+Groove ChaCha1Sus
+
+RepeatEnd
+
+22   Bb   /    F7#5 z
+
+// Section 'D'
+
+Groove ChaCha
+Cresc f 4
+
+23   Bb6  /    Bdim7
+24   F9
+25   Cm7  /    B7
+26   Bb6
+
+Groove ChaCha1Sus
+Volume m
+
+27   Bb7  /    Ab7b5
+28   Cm7
+29   C13
+30   F7   /    /    z
+
+Groove ChaCha
+
+If Def wk3000
+    AllGrooves Arpeggio-Sus Voice DrawbarOrgan2
+Endif
+
+RepeatEnd   // do whole thing 2x
+
+// Outro
+
+Decresc pp 8
+Repeat
+
+31   Bb6  /    F7
+32   /
+
+Repeatending
+
+33   Cm7 /    F13
+34   Bb6
+
+RepeatEnd
+
+Groove ChaChaEnd
+
+33   Cm7 /    F13
+34   Bb6  /    /    z!
+
+

@@ -1,0 +1,99 @@
+// Ida Sweet As Apple Cider (1903)
+
+Tempo 140
+KeySig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+Begin Solo
+    Voice Piano1
+    Harmony 3Below+8Below
+    Octave 5
+    Volume fff
+    Articulate 80
+    Begin Riff
+        4c+;g;c+;g;
+        4a;e;a;e;
+        2d;f;
+        1g;
+    End
+End
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove BigBand
+
+5         C
+6         /      /      /  C#dim
+7        G7
+8         /
+
+Groove BigBandPlus
+
+9         /
+10        /
+11        C
+12        /      /     E7
+
+Groove BigBand
+
+13       A7
+14        /    AM7     A7
+15       D9      /     D7
+16        /
+
+Groove BigBandSus
+
+17       D9      /     D7
+18        /
+19       G7      /      F    Bbm
+20       G7
+
+Groove BigBandSusPlus
+
+21        C
+22        /      /      /  C#dim
+23       G7
+24        /
+
+Groove BigBandPlus
+
+25        /
+26        /
+27        C
+28        /      /     E7
+
+Groove BigBand
+
+29       A7
+30        /    AM7     A7
+31       D9      /     D7
+32        /
+
+Groove BigBandSus
+
+33        C
+34       D7   D7#5     G7
+
+RepeatEnding
+
+35        C
+
+Groove BigBandFill
+
+36       G7      F    Bbm     G7
+
+
+RepeatEnd
+
+Groove BigBand
+
+37        C      /      F
+38        C      z!
+

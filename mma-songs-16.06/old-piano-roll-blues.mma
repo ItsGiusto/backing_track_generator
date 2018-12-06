@@ -1,0 +1,79 @@
+// Old Piano Roll Blues
+
+Tempo 140
+Keysig C
+
+Transpose -7   // from C to F
+
+Groove Metronome2-4
+	   z * 2
+
+Groove BigBandIntro
+Begin Solo
+	  Voice Piano2
+	  Volume fff
+	  Harmony Open
+	  Articulate 90
+	  Octave 4
+	  Begin Riff
+	    8r; c+; ; ; ; g; 4c+;
+		8r; c+; ; ; ; a; 4c+;
+		8r; d+; ; ; ; a; 4d+;
+		2d+;
+	  End
+End
+
+Swingmode On
+Cresc pp m 4
+
+1         C
+2        Am
+3        Dm
+4        G7      /      z
+
+Repeat
+Groove BigBand
+Volume m
+
+5        G7      /      /   Gdim
+6        G7
+7         C
+8         /
+9        G7
+10        C
+
+Groove BigBandPlus
+Volume +10
+
+11       D7
+12       G9      /     G7   Gdim
+13       G7      /      /   Gdim
+14       G7
+15        C      /      /  Em7b5
+16       A7
+
+Groove BigBandSus
+Volume -10
+
+17       Dm
+18      Fm6
+19        C
+20       A7      /      /   Gdim
+21       G7      /      /   Gdim
+22       G7
+
+RepeatEnding 2
+
+23        Dm     /      G7
+24        C
+
+RepeatEnd
+
+Groove Bigband4End
+Decresc p 4
+
+25       Dm      /     G7
+26       Em      /     A7
+27       Dm      /     G7
+28       C      z!
+

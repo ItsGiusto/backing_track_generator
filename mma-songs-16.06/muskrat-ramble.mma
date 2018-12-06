@@ -1,0 +1,98 @@
+// Muskrat Ramble
+
+Tempo 200   // this is cut time
+
+KeySig 2b
+
+Groove Metronome2-4
+	z * 2
+
+Groove DixieMarchIntro
+
+Begin Solo
+	Voice Banjo
+	Volume f
+	Articulate 90
+	Octave 5
+
+	Harmony Open
+	Begin Riff
+		8b;4f;8b;f;b;4;
+		8b;4g;8b;g;b;4;
+		8c+;4g;8c+;g;c+;4;
+		4c+;an;f;e&;
+	End
+End
+
+Cresc mp f 4
+1      Bb    
+2      Gm   
+3      Cm    
+4      F7    
+
+Delete Solo
+
+Repeat
+Volume mf
+Groove DixieMarch
+
+5      Bb    
+6      F7    
+7	/
+8      Bb    
+9	/
+10     Dm    
+11     A7    
+12     Dm    /    F7  
+
+Groove DixieMarchPlus
+  
+13     Bb    
+14     F7    
+15	/
+16     Bb   /  F7
+
+Groove DixieMarchSusPlus
+ 
+17     G7    
+18     Cm7   /    Gdim  B9    
+19     C9    /    Cm7   F7    
+20     Bb    
+
+Groove DixieMarchSus
+
+21     C7    /    E     
+22     F7    
+23     Bb    
+24     /    /    Gdim  
+
+Groove DixieMarchPlus
+
+25     Cm7   F7    
+26	/
+27     Bb    
+28	/
+
+Groove DixieMarch
+
+29     C7    /    E     
+30     F7    
+31     Bb    
+32     Bb7   /    A7    Ab7   
+33     G7    
+34     Cm7   
+
+RepeatEnding
+
+35     C7    /    Cm7   F7    
+Seq 4
+36     Bb    /  F7
+
+RepeatEnd
+
+Groove DixieMarchEnd
+
+35     C7    /    Cm7   F7    
+36     Bb    /   z!
+
+

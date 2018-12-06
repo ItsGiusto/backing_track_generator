@@ -1,0 +1,113 @@
+// Nancy With The Smiling Face
+// Frank Sinatra, 1944
+
+Tempo 70
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BossaNovaIntro
+Begin AllGrooves 
+    Arpeggio Octave 5
+End
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 4
+    Articulate 140
+    Volume f
+    Harmony OpenAbove
+    Begin Riff
+        4g;8e+;g; 4e+;g;
+        4c+;8e+;c+; 4e+;c+;
+        4f+;8a+;f+; 4a+;f+;
+        1g+;
+    End
+End
+
+Chord Sequence -  // no chords on the intro
+Swell p m 4
+
+1        Eb
+2        Cm
+3        Fm
+4      Gm / C7b9
+
+Repeat
+Groove BossaNova
+Volume m
+
+5       Fm7
+6       Fm9      / Bb13b9
+7      EbM9      /    Ab9
+8       Gm7      / Gbdim7
+
+Groove BossaNovaSus
+Cresc mf 3
+
+9       Fm7      /     Eb
+10    Dm7b5      /   G7#5
+11      Cm7      /     F7
+12      Fm7      /   C7b9
+
+Groove BossaNovaPlus
+Volume m
+
+13      Fm7
+14      Fm9      / Bb13b9
+15     EbM9      /    Ab9
+16      Gm7      / Gbdim7
+
+Groove BossaNova
+Decresc mp 3
+
+17      Fm7      /     Eb
+18      Dm7      /   G7#5
+19      Cm7      /    Fm7 Bb7b9sus
+20      Eb6      /      /   G7#5
+
+Groove BossaNovaSusPlus
+Cresc m 4
+
+21    Cm6(add9)
+22    Dm7b5      /   G7#5
+23    Cm6(add9)
+24       F9      / Bb13b9
+
+Groove BossaNovaPlus
+Volume mp
+
+25     EbM9      /    Cm7
+26      Fm7      /  Dm7b5   G7#5
+27      Cm7      /     F7
+28   Bb9sus      /   C7b9
+
+Groove BossaNovaSus
+Cresc mf 4
+
+29      Fm7
+30      Fm9      / Bb13b9
+31     EbM9      /    Ab9
+32      Gm7      / Gbdim7
+
+Groove BossaNova
+Decresc mp 2
+
+33      Fm7      /     Eb
+34    Dm7b5      /   G7#5
+
+RepeatEnding
+
+35      Cm7      /    Fm7 Bb7b9sus
+36      Eb6      /    Gm7   C7b9
+
+RepeatEnd
+Groove BossaNova2End
+Seq 3
+Decresc ppp 2
+
+35      Cm7      /    Fm7 Bb7b9sus
+36      Eb6      z!
+
+

@@ -1,0 +1,118 @@
+// Love Is Here To Stay
+
+Tempo 112
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+
+Begin Solo
+	Voice VoiceOohs
+	Begin Riff
+		4f;8r;f;4;8;
+		4f;r;f;
+		4f;8r;f;4;8;
+		4f;r;f;
+		4g;8r;g;4;8;
+		4f;r;d;
+		2c;
+	End
+	Octave 5
+	Harmony 3
+	Articulate 70
+	Volume f
+End
+
+Swell mp mf 8
+
+1          F
+2          /
+3         Dm
+4          /
+5         Gm
+6          /
+7         C7
+8          /      z
+
+Delete Solo
+
+Repeat
+
+Groove FoxTrot
+Swell f mp 8
+
+9         G9
+10       Gm7      /     C7   C7b9
+11        F6
+12       Gm7      /     C7
+
+Groove FoxTrotSus
+
+13        G7
+14       Gm7      /     C7  C7/Bb
+15     Am7b5      /     D9   D9/C
+16     Bm7b5      /   E7b9
+
+Groove FoxTrotPlus
+Volume m
+
+17       Am7      /   D7b9
+18       Gm7      /   C7b9
+19       FM7      /   BbM7
+20     Em7b5      /     A7
+
+Groove FoxTrot
+Cresc mf 4
+
+21        Dm      /   Dm#5    Dm7
+22        G7
+23       Gm7
+24        C7
+
+Groove FoxTrotSusPlus
+Decresc mp 8
+
+25        G9
+26       Gm7      /     C7   C7b9
+27        F6
+28       Gm7      /     C7
+
+Groove FoxTrot
+
+29        G7
+30       Gm7      /     C7  C7/Bb
+31     Am7b5      /     D9   D9/C
+32     Bm7b5      /   E7b9
+
+Groove FoxTrotSus
+Volume m
+
+33       Am7      /   D7b9
+34       Gm7      /   C7b9
+35       FM7      /  Am7b5   D7#5
+36       Gm7      /  Bm7b5   E7b9
+
+Groove FoxTrotSusPlus
+Volume mp
+
+37       Am7      /   D7b9
+38       Gm7      /     C9
+
+RepeatEnding
+Groove FoxTrotFill
+Decresc p 2
+
+39        F6
+40         /     C7
+
+RepeatEnd
+
+Groove FoxtrotEnd
+Decresc pp 2
+Tempo *.9 2
+
+41        F6
+42         /      /     z!
+
+

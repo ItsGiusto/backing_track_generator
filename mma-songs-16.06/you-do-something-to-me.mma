@@ -1,0 +1,110 @@
+// You Do Something To Me
+// Cole Porter, 1929.
+
+Tempo 148
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+Begin Solo
+   Voice TremoloStrings
+   Volume ff
+   Harmony 3Below+8Below
+   Articulate 110
+   Octave 5
+   Begin Riff
+       1e;
+       1d;
+       4e;2f;4g;
+       1b;
+   End
+End
+
+Swell mp mf 4
+
+1         Eb
+2         Cm
+3         Fm
+4        Bb7
+
+
+Repeat
+Groove BigBand
+Volume m
+
+5        Eb6
+6        Am7      /     D7
+7        Eb6
+8        Ab7
+
+Groove BigBandSus
+
+9        Gm7
+10      C7b9
+11       Fm7
+12       Bb7
+
+Groove BigBand
+Volume mf
+
+13       Fm7
+14        C7
+15       Fm7
+16    Db7#11      /     C7
+
+Groove BigBandPlus
+Decresc mp 4
+
+17       Cm7
+18        F7
+19       Fm7
+20       Bb7
+
+Groove BigBandSusPlus
+Cresc mf 8
+
+21       Gm7
+22    F#dim7
+23     Bb7/F
+24      C7/E
+
+Groove BigBandSus
+
+25        B7
+26       Bb7
+27       Fm7
+28       Bb7
+
+Groove BigBand
+Volume m
+
+29       Eb6
+30       Am7      /     D7
+31       Eb6      /    Ab7
+32       Gm7      /     C7
+
+Groove BigBandPlus
+Decresc p 4
+
+33        F9
+34       Fm7      /    Bb7
+
+RepeatEnding 2
+
+35       Eb6
+
+Groove BigBandFill
+
+36       Fm7      /    Bb7
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc ppp 2
+Tempo *.8 2
+
+37       Eb6
+38        Eb z!
+

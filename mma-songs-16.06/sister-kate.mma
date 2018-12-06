@@ -1,0 +1,145 @@
+// Sister Kate (If I Could Shimmy Like My)
+
+Tempo 100
+KeySig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BluesIntro
+Begin Solo
+  Voice MutedTrumpet
+  Volume f
+  Harmony OpenBelow+8Below
+  Octave 5
+  Articulate 90
+  Begin Riff
+     8b;;c+;b;4+8+16d&+;16d+;
+	 8e+;;4d&+;2b;
+	 8f;;4a;c+;a;
+	 1b;
+  End
+End
+
+Swingmode On
+
+1         Eb
+2         Cm
+3         Fm
+4         Bb7
+
+// This is the "A" or "verse" which is done 2x (with lyric)
+// Recommended order is AABA
+
+Groove Blues
+Repeat
+
+5       Bb7
+6         /
+7        Eb
+8         /
+
+Groove Blues1
+
+9        Eb      /  Gbdim
+10      Fm7
+11      Bb7
+12       Eb
+
+Groove Blues
+
+13      Bb7
+14        /
+15       Eb
+16        /
+
+Groove BluesSus
+
+17        /      /  Gbdim
+18       F7
+19       B7      /    Bb7
+20       Eb      /    Eb7
+
+Groove BluesTriple
+
+21       B7      /    Bb7
+22       Eb      /    Bb7
+
+Groove Blues1Sus
+
+RepeatEnd
+
+// This is the "B" interlude or instrumental part. Total 16 bars.
+
+Repeat
+
+Groove Blues1
+
+23      Bb7
+24        /
+25       Eb
+26      Eb7
+
+RepeatEnding
+
+Groove Blues1Sus
+
+27      Bb7
+28        /
+29       Eb
+30        /
+
+RepeatEnd
+
+Groove Blues
+
+31       Ab      /   Adim
+32       Eb      /     C7
+33       F7      /    Bb7
+34       Eb      /     C7
+
+Groove BluesSus
+
+35       F7      /    Bb7
+36       Eb
+
+/////  A copy of the "A" to make life simpler
+
+Groove Blues
+
+5       Bb7
+6         /
+7        Eb
+8         /
+
+Groove Blues1Sus
+
+9        Eb      /  Gbdim
+10      Fm7
+11      Bb7
+12       Eb
+
+Groove Blues1
+
+13      Bb7
+14        /
+15       Eb
+16        /
+
+Groove BluesSus
+
+17        /      /  Gbdim
+18       F7
+19       B7      /    Bb7
+20       Eb      /    Eb7
+
+Groove BluesEnd
+Seq 3
+Tempo *.8 2
+Decresc ppp 2
+
+21       B7      /    Bb7
+22       Eb       z!
+
+
+

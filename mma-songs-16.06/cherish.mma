@@ -1,0 +1,176 @@
+// Cherish
+
+// The Association, 1966.
+// They sing in Gb (really) and then do a bump on the DS to Ab.
+// Their tempo was 115.
+
+Tempo 115
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Mset Bells
+ Begin Bass-Bells
+    Voice VibraPhone
+	Octave 5
+	Harmony OpenBelow
+	Articulate 120
+	Rtime 10
+	Rvolume 10
+	Volume ff
+	Sequence { 2 4 5 90; 3.5 8 1 90; }
+ End
+EndMset
+
+
+Groove 8BeatIntro
+$Bells
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove 8Beat
+$Bells
+
+5         F
+6     Gm7/F
+7        Eb
+8        C7
+
+Groove 8Beat1
+
+9         F
+10    Gm7/F
+11       Eb
+12       C7
+
+Groove 8Beat
+$Bells
+
+13       Am
+14       Bb
+15       Am
+16       Bb
+
+Groove 8BeatSus
+$Bells
+
+17       Am
+18       Bb     Am     Gm
+19       Bb
+20        /
+
+RepeatEnding
+
+Groove 8Beat
+
+21        C
+22        /
+
+RepeatEnd
+
+Groove 8Beat1
+
+23        C
+24        /
+
+Groove 8BeatSus
+
+25       Gm
+26        C
+27       Am
+28        E
+
+Groove 8Beat1Sus
+
+29        C
+30        F      /    Dm7
+31       Bb
+32       Gm
+
+Groove 8BeatSus
+
+33       Eb
+34        C
+35        /      z
+
+Groove 8Beat1Sus
+
+36        F
+37      C/E
+38    Cm/Eb
+39       D7
+
+Groove 8BeatSus
+$Bells
+
+40       Bb
+41       C7
+42       Dm      /     Bb
+43      Gm7
+
+Groove 8Beat
+
+44      Eb6
+45       C
+
+// this is a DS. I've just cut/pasted
+
+Groove 8Beat
+$Bells
+
+5         F
+6     Gm7/F
+7        Eb
+8        C7
+
+Groove 8Beat1
+
+9         F
+10    Gm7/F
+11       Eb
+12       C7
+
+Groove 8Beat1Sus
+$Bells
+
+13       Am
+14       Bb
+15       Am
+16       Bb
+
+Groove 8Beat
+$Bells
+
+17       Am
+18       Bb     Am     Gm
+
+// and this is the coda
+
+Groove 8BeatSus
+
+46       Eb
+47        /
+
+Groove 8Beat1Sus
+
+48        C
+49        /      /      F     Bb
+50        C
+51        /     /       F     Bb
+
+Groove 8BeatSus
+
+52        C
+53        /
+
+
+Groove 8BeatEnd
+
+53   F6(add9)
+54        /   / z!
+

@@ -1,0 +1,107 @@
+// Manhattan
+
+Tempo 114
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove SwingIntro
+Begin Solo
+    Voice Strings
+    Harmony OpenBelow+8Below+16Below
+    Articulate 110
+    Volume f
+    Octave 5
+    Begin Riff
+        2c+;43a;g;f;
+        2d+;43a;g;f;
+        b;a;g;f;
+        1c+;
+    End
+End
+
+Swell mp mf 4
+
+1         F
+2         Dm
+3         Gm
+4         C7
+
+
+Repeat
+Groove Swing
+Volume m
+
+5         F      /    F/A Abdim7
+6       Gm7      /     C7
+7       FM7      /    Bb6
+8       Am7      / Abdim7
+
+Groove SwingWalk
+Cresc mf 4
+
+9      C7/G      / F#dim7
+10     C7/G      /   C7#5
+11        F      /     D7
+12      Gm7      /     C7
+
+Groove SwingPlus
+Decresc m 4
+
+13        F      /    F/A Abdim7
+14      Gm7      /     C7
+15      FM7
+16      Dm7
+
+Groove SwingSus
+
+17       G7
+18        /
+19      Gm7     C7
+20        /      /   C7b9
+
+Groove SwingWalkSus
+Cresc mf 4
+
+21        F      /     D7
+22      Gm7      /     C7
+23        F      /    Bb6
+24      Am7      / Abdim7
+
+Groove SwingPlusSus
+
+25     C7/G      / F#dim7
+26     C7/G      /     C7  C7/Bb
+27    Am7b5
+28     D7b9
+
+Groove Swing
+Cresc m mf 4
+
+29      Gm7
+30      Eb9
+31        F      /    Dm7
+32       G7
+
+Groove SwingWalkSus
+Decresc m 2
+
+33        F      /    F/A Abdim7
+34      Gm7      /     C7   C7b9
+
+RepeatEnding
+
+Groove SwingFill
+
+35        F      / Abdim7
+36      Gm7      /     C7
+
+RepeatEnd
+
+Groove SwingEnd
+Decresc pp 2
+
+37        F      /    Bb6
+38        F      z!
+

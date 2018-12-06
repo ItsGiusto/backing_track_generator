@@ -1,0 +1,85 @@
+// Buster Rides Again
+
+Tempo 178
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzRhumbaIntro
+
+1        Bb
+2        Gm
+3        Cm
+Bass Riff 1 8. 1 90; 2 8. 5 90; 3 4. 1+ 90;
+4        F7
+
+Repeat
+Groove JazzRhumba
+
+5        Bb
+6         /
+7         /
+8         /
+
+Groove JazzRhumbaPlus
+
+9         /
+10        /
+11        /
+12        /
+
+Groove JazzRhumbaSus
+
+13      Eb9
+14        /
+15        /
+16        /
+
+Groove JazzRhumbaSusPlus
+
+17        /
+18        /
+19      Gb7
+20     F7#5
+
+Groove JazzRhumba
+
+21       Bb
+22        /
+23        /
+24        /
+
+Groove JazzRhumbaPlus
+
+25        /
+26        /
+27        /
+28        /
+
+Groove JazzRhumbaSus
+
+29      Eb9
+30        /
+31        /
+32        /
+
+Groove JazzRhumbaSusPlus
+
+33        /
+34        /
+
+RepeatEnding
+
+35      Gb7      /   F7#5
+Groove JazzRhumbaFill
+36       Bb      /   F7
+
+RepeatEnd
+Groove JazzRhumbaEnd
+
+35      Gb7      /   F7#5
+36       Bb     z!
+
+
+

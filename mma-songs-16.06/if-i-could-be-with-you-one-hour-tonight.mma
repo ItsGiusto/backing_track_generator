@@ -1,0 +1,70 @@
+// If I Could Be With You One Hour Tonight
+
+Tempo 120
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove FoxtrotIntro
+Cresc mp f 4
+Alltracks Volume p
+
+Begin Solo
+  Voice Flute
+  Octave 5
+  Harmony Open
+  Cresc mp f 4
+  Articulate 90
+  Begin Riff
+    4c; 8;b;4a;;
+	4e;8;f;2g;
+	43f;g;a;2a;
+	2g;
+  End
+End
+
+1      C
+2      Am7
+3      Dm
+4      G7
+
+Set Count 1
+
+Volume m
+Repeat
+
+Groove $Count FoxTrot FoxTrotPlus
+
+5      G7    /    Dm7
+6      G7    /    G9
+7      C     /    E7
+8      A7    /    A7#5b9 A9
+9      D9    /    D9b5
+10     G7    /    G9
+11     C     /    Gm    A9
+12     D7    /    G7
+
+Groove $Count FoxTrotSus FoxTrotSusPlus
+
+13     G7    /    Dm7
+14     G7    /    G9
+15     C     /    E7
+16     A7    /    A7#5b9 A9
+17     F     /    B7
+18     C     E7    A7
+
+Inc Count
+RepeatEnding 2
+
+19     D9    /    G7
+20     C     /    G7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Tempo *.6 1.1
+
+19     D9    /    G7
+21     C     z!
+

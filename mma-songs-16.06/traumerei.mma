@@ -1,0 +1,77 @@
+// Traumerei (Robert Schumann, 1838)
+
+Tempo 48    //// very slow!
+Keysig F
+
+Groove Metronome2-4
+Seq 2
+  z / / z!
+
+Set Direction Both
+Set Harmony OpenBelow
+Set Bass
+
+Repeat
+Groove Arpeggio48
+Cresc m mf 2
+
+1         F
+2         /     Bb
+3         F     Gm      /      F 
+Decresc m 1
+4         /     C7
+
+Cresc m mf 2
+5         F 
+6         /      A 
+Decresc mp 1
+7        Dm      Fm6@2.5   C@3  F#dim@4.5 
+Groove Arpeggio8Sus
+8        G7      /      C     C7 
+
+RepeatEnd
+Groove Arpeggio4Sus
+Cresc m mf 2
+9         F
+10        /   D7b9@1.5
+Groove Arpeggio8Sus
+Decresc m mp 2
+11       Gm      D7@2.5    Gm@3    Cm6@4.5
+12       Gm      F7@4.5
+
+Groove Arpeggio4
+13       Bb
+14        /   A7b9
+//Tempo *.9 2
+Groove Arpeggio8
+Decresc m  mp 2
+15       Dm      A7@2.5     Dm@3    Gm6@4.5
+16       Dm      A7@2.5     Dm@3     C7@4
+
+Cresc m mf 1
+Groove Arpeggio4Sus
+17        F
+18        /     Bb
+Groove Arpeggio8Sus
+19        F     Gm      /      F
+Decresc mf m 1
+20        /     C7
+
+Tempo *.9 1.2
+Groove Arpeggio4Sus
+21        F
+Decresc mp 1
+22        /     G9
+Fermata -3 1 150
+
+Groove Arpeggio8Sus     
+Arpeggio Harmony None
+Chord-Sus Riff 1 4. 90 0 50 0
+23        F
+
+Tempo *.9 1
+Decresc pp 1
+Arpeggio Sequence -
+24        /     C7      F z!
+Fermata -2 1 150
+

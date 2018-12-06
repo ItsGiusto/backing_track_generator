@@ -1,0 +1,105 @@
+// Singin In The Rain
+
+Tempo 130
+KeySig G
+
+Groove Metronome2-4
+  z * 2
+
+
+Groove FoxTrotIntro
+Begin Solo
+   Voice Piano1
+   Harmony Open+8below
+   Articulate 120
+   Volume f
+   Octave 5
+   Rtime 5
+   RVolume 5
+   Begin Riff
+       2+8.d+;16b;8.a;16g;
+       2+8.e+;16b;8.a;16g;
+       8.a;16;8.;16; 8.c+;16;8.;16;
+       2d+;
+   End
+End
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove FoxTrot
+
+5         G
+6         /
+7         /
+8         /
+
+Groove FoxTrotPlus
+
+9         /
+10        /      /      /  G#dim
+11       D7
+12        /     D9      /     D7
+
+Groove FoxTrot
+
+13        /
+14        /
+15        /
+16        /
+
+Groove FoxTrotSus
+
+17        /
+18        /
+19        G
+20       G6      /      /      G
+
+Groove FoxTrot
+
+21        /
+22        /
+23        /
+24        /
+
+Groove FoxTrotSusPlus
+
+25        /
+26        /      /      /  G#dim
+27       D7
+28       D9      /      /     D7
+
+Groove FoxTrotPlus
+
+29        /
+30        /
+31        /
+32       D9      /      /     D7
+
+Groove FoxTrot
+
+33        /
+34        /
+
+RepeatEnding
+Groove FoxTrotFill
+
+35        G 
+36        /     /       D7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+35        G     G6      /      G
+36        /     /       z!
+
+
+
+
+
+
+   

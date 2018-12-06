@@ -1,0 +1,105 @@
+// Clap Hands Here Comes Charlie
+
+Tempo $( 100 * 2 )
+
+Groove Metronome2-4
+  z * 2
+
+Groove CharlestonIntro
+
+// Just some hand claps for intro
+Begin Solo
+    Drumtype
+    Tone HandClap
+    Volume ff
+    Begin Riff
+       4;r;*;
+       4;;r;*;
+       4r;*;;r;
+       4;
+    End
+End
+
+1         C
+2        F7
+3        C
+4        G7
+
+
+Repeat
+Groove Charleston
+
+5         C
+6        F7
+7         C
+8        F7
+
+Groove Charleston1
+
+9         C      /     A7
+10       D7      /     G7
+11        C      /      G
+12        Dm      /     G7
+
+Groove Charleston
+
+13        C
+14       F7
+15        C
+16       F7
+
+Groove CharlestonPlus
+
+17        C      /     A7
+18       D7      /     G7
+19        C
+20        /
+
+Groove CharlestonSus
+
+21       Am
+22        /
+23       F7
+24        /
+
+Groove CharlestonSusPlus
+
+25       A7
+26        /
+27       D7
+28       G7
+
+Groove CharlestonPlus
+
+29        C
+30       F7
+31        C
+32       F7
+
+Groove Charleston1
+
+33        C      /     A7
+34       D7      /     G7
+
+RepeatEnding 2
+
+Groove CharlestonWalk
+
+Begin Walk
+  Direction Down Up
+  Sequence W1234
+End
+
+35        C
+36       D7      /     G7
+
+
+RepeatEnd
+
+Groove CharlestonEnd
+Tempo *.8 2
+Decresc ppp 2
+
+37        C      /     G7
+38        C     z!
+

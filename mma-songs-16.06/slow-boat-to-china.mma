@@ -1,0 +1,121 @@
+// Slow Boat To China
+
+Tempo 112
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice TremoloStrings
+    Volume mf
+    Articulate 110
+    Harmony OpenBelow+8Below
+    Octave 5
+    Begin Riff
+        2b;4d+;b;
+        2d+;b;
+        43c+;e+;d+;4c+;e+;
+        1f+;
+    End
+End
+
+Groove FoxTrotIntro
+Swell mp mf 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5        Bb      /    Dm7
+6        G7
+7        Cm
+8        A7
+
+Groove FoxTrotPlus
+Begin Arpeggio
+  Voice TremoloStrings 
+  Articulate 140
+  Harmony 3
+  Octave 5
+End
+Cresc mf 4
+
+9        Bb
+10       D7
+11      Eb6
+12    Dm7b5      /     G7
+
+Groove FoxTrot
+Decresc mp 4
+
+13      Cm7
+14       A7
+15       Bb      /    Ab9
+16       G7
+
+Groove FoxTrotSus
+Cresc m 4
+
+17       C7      /    Gm7
+18       C9
+19      Cm7      /     /   Cm7#5
+20       F9
+
+Groove FoxTrotSusPlus
+
+21       Bb      /     Dm
+22       G7
+23      Cm7
+24       A7
+
+Groove FoxTrotPlus
+Decresc mp 4
+Begin Arpeggio
+  Voice TremoloStrings 
+  Articulate 120
+  Harmony Open
+  Octave 5
+End
+
+25       Bb
+26       D7
+27       Eb
+28    Dm7b5      /     G7
+
+Groove FoxTrot
+
+29      Cm7
+30      Ab7
+31       Bb      /    Ab7
+32       G7
+
+Groove FoxTrotSus
+Cresc m 4
+
+33       C7
+34      Cm7      /   B7#9
+
+RepeatEnding
+
+Groove FoxTrotFill
+
+35       Bb
+36      Cm7      /   F7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc ppp 2
+
+37       Bb
+38      Cm7       Bb  z!
+
+
+

@@ -1,0 +1,119 @@
+// Youd Be Surprised
+
+Tempo 120
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove ChaChaIntro
+
+Begin AllGrooves Arpeggio
+   Voice JazzGuitar
+   Octave 5
+   Volume m
+   Articulate 110
+   Rskip 40
+End
+
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Articulate 110
+    Harmony OpenBelow
+    Octave 6
+    Rtime 6
+    Rvolume 10
+    Begin Riff
+        4.f;8; ;g;a;8+1c+~;
+        ~ <>;
+        4.c+;8; ; b;a;8+1g~;
+    End
+End
+
+Swell mp mf 4
+
+1         F
+2         /
+3        C7/G
+4        C7      /      /      z@3.5
+
+
+Repeat
+Groove ChaCha
+Cresc mp mf 4
+
+5         F
+6         /      /      /  F#dim3
+7      C7/G      /     C7
+8         /
+
+Groove ChaCha1
+
+9      C7/G      /     C7
+10     C7/G      /     C7
+11        F
+12        /
+
+Groove ChaCha
+Decresc mp 4
+
+13       Bb
+14      Bbm      /   Bbm6
+15        F
+16       D7      / D7b5/Ab
+
+Groove ChaChaSus
+Cresc m 4
+
+17       G7
+18        /
+19       C7      /    Gm7
+20       C7      /      z
+
+Groove ChaCha1Sus
+
+21        F
+22        /      /      /  F#dim3
+23     C7/G      /     C7
+24        /
+
+Groove ChaCha
+Cresc mf 8
+
+25     C7/G      /     C7
+26     C7/G      /     C7
+27        F
+28       F7
+
+Groove ChaCha1
+
+29       Bb      /    Bb6
+30      Bbm      /   Bbm6
+31        F
+32        /  F7/Eb   D7#5
+
+Groove ChaCha
+Decresc mp 2
+
+33     C7/G      /     C7
+34        /
+
+RepeatEnding
+
+35        F      /  F#dim3
+
+Groove ChaChaFill
+
+36     C7/G      /     C7      z@3.535
+
+
+RepeatEnd
+
+Groove ChaChaEnd
+Decresc pp 2
+Tempo *.8 2
+
+37        F      /    Bb6
+38       F6    z!
+

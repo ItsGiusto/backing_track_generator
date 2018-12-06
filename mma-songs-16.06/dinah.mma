@@ -1,0 +1,108 @@
+// Dinah
+
+Tempo 180
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove EasyswingIntro2
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Articulate 120
+    Harmony 3Below+8Below
+    Octave 5
+    Begin Riff
+        2g;b;
+        2g;b;
+        2a;c+;
+        1d+;
+    End
+End
+
+Swell mp mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+
+Repeat
+Groove EasySwing2
+Volume m
+
+5         G
+6         /
+7         /
+8       Em7
+
+Groove EasySwing2Fill
+
+9       Am7
+10       D7
+11        G      /  Bbdim
+12      Am7      /     D7
+
+Groove EasySwing42
+Volume mf
+
+13        G
+14        /
+15        /
+16      Em7
+
+Groove EasySwing2Fill
+Cresc f 4
+
+17      Am7
+18       D7
+19        G      /     C7
+20        G      /     B7
+
+Groove EasySwing2Sus
+Volume m
+
+21       Em
+22      Eb+
+23    Em7/D
+24   C#m7b5      /     C9   B7b9
+
+Groove EasySwing42Sus
+Cresc mf 4
+
+25      Em7
+26       A7
+27      Am7
+28       D7
+
+Groove EasySwing42
+Decresc mp 6
+
+29        G
+30        /
+31        /
+32      Em7
+
+Groove EasySwing42Fill
+
+33      Am7
+34       D7
+
+RepeatEnding 2
+
+35        G      /     C7
+36        D7
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc ppp 2
+
+35        G      /     C7
+36        G   z!
+
+
+

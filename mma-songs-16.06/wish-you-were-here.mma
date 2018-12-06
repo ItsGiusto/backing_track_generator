@@ -1,0 +1,122 @@
+// Wish You Were Here
+
+Tempo 104
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove BeguineIntro
+Begin AllGrooves Chord
+   Voice NylonGuitar
+   Articulate 130
+   Volume mp
+   DupRoot -1
+   Voicing Mode=Key
+End
+
+Begin Solo
+    Voice Piano1
+    Articulate 110
+    Harmony 3Below
+    Octave 5
+    Volume f
+    Begin Riff
+        4f;r;43f;g;a;
+        4f;r;43f;g;a;
+        4g;r;43g;a;b;
+        2c+;
+    End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Groove Beguine
+Volume m
+
+5         F      /     F6
+6         /
+
+Decresc mp 2
+
+7       Fm6
+8         /
+
+Groove BeguineSus
+Cresc mf 3
+
+9         F      /     F6
+10        /
+11       Fm      /    Fm6
+12        /
+
+Groove Beguine1
+
+13       Gm      /    Gm7
+14        /
+
+Decresc mp 2
+
+15      C9+
+16        /      /     C7
+
+Groove Beguine1Sus
+
+17      Gm7      /     C7
+18      C9+
+19       F6      /    FM7
+20       F6      /      F
+
+Repeat
+Groove Beguine
+Volume m
+
+21        /      /     F6
+22        /
+
+Decresc mp 2
+
+23      Fm6
+24        /
+
+Groove BeguineSus
+Cresc m 4
+
+25        F      /     F6
+26       Cm      /     F7
+27      Bb6
+28        /      /   BbM7
+
+Groove Beguine1Sus
+Cresc mf 4
+
+29      Bbm      /   Bbm6
+30        /
+31        F#5 / F
+32    Bb(b5)
+
+Groove BeguineSus
+Decresc m 2
+
+33      Gm7      /     C7
+34      C9+
+
+RepeatEnding
+Decresc mp 2
+
+35       F6
+36        / / F
+
+RepeatEnd
+
+Groove Beguine2End
+Decresc ppp 2
+
+35       F6
+37       / z!
+

@@ -1,0 +1,113 @@
+// Lulu's Back In Town (1935)
+
+Tempo $(84 * 2)
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxTrotIntro
+
+AllGrooves Arpeggio Rskip 80
+
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Harmony OpenBelow+8Below
+    Articulate 80
+    Octave 5
+    Begin Riff
+        8b;;;;4an;; 
+        4a;; 2g;
+        4f;g;a;an;
+        1b;        
+    End
+End
+
+SwingMode On
+Swell p mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat    // do song 3 times
+Repeat
+
+Groove FoxTrot
+Volume m
+
+5        Eb      /     F7
+6       Bb7      /     Eb
+7         /      /     F7
+8       Bb7      /     Eb    Eb7
+
+Groove FoxTrotPlus
+Cresc mf 4
+
+9        Ab      /    Abm
+10       Eb      /     C7
+
+RepeatEnding
+
+11       F7      /    Fm7    Bb7
+
+Groove FoxTrotFill
+
+12       Eb      /      /    Bb7
+
+RepeatEnd
+
+13       F7      /    Fm7    Bb7
+
+Groove FoxTrotFill
+
+14       Eb
+
+Groove FoxTrotSus
+Volume mp
+
+15       Cm      /     Gm     Fm
+16       Eb
+17       Cm      /     Gm     Fm
+18       Eb
+
+Groove FoxTrotSusPlus
+Cresc mf 4
+
+19       Cm      /     Gm     Fm
+20       Eb      /      /     C+
+21       F7      /     Dm     F7
+22      Bb7
+
+Groove FoxTrot
+Volume m
+
+23       Eb      /     F7
+24      Bb7      /     Eb
+25        /      /     F7
+26      Bb7      /     Eb    Eb7
+
+Groove FoxTrotPlus
+Decresc mp 2
+
+27       Ab      /    Abm
+28       Eb      /     C7
+
+RepeatEnding 2
+
+29       F7      /    Fm7    Bb7
+
+Groove FoxTrotFill
+
+30       Eb      /    B&7
+
+RepeatEnd 
+
+Groove FoxTrotEnd
+Decresc ppp 2
+
+29       F7      /    Fm7    Bb7
+30       Eb     z!

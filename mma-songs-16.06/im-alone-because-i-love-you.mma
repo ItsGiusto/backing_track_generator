@@ -1,0 +1,113 @@
+// Im Alone Because I Love You
+
+Tempo 120
+Keysig Ab
+
+Groove Metronome3
+ z * 2
+
+Groove Waltz1Intro
+Begin Solo
+   Voice MusicBox
+   Harmony OpenBelow+OpenAbove
+   Octave 6
+   Articulate 140
+   Swell p mf 4
+   Begin Riff
+       8a;b; c+;b;4a;
+       4f;8a;;4;
+       8b;;;;4;
+       2.e+;
+   End
+End
+
+Cresc pp m 4
+
+1        Ab
+2        Fm
+3        Bbm
+4        Eb7
+
+Repeat
+Groove Waltz
+Cresc mp m 4
+
+5        Ab
+6        F7
+7       Bb7
+8         /
+
+Groove WaltzSus
+
+9       Eb7
+10        /
+11       Ab
+12      Eb7
+
+Groove Waltz1
+Cresc mf 4
+
+13       Ab
+14       F7
+15      Bb7
+16        /
+
+Groove Waltz1Sus
+Volume m
+
+17        /
+18        /
+19      Eb7
+20        /
+
+Groove Waltz
+Volume mf
+
+21       Ab
+22      Ab7
+23       Db
+24        /
+
+Groove WaltzSus
+Cresc f 4
+
+25      Bb7
+26        /
+27      Eb7
+28        /
+
+Groove Waltz1
+Decresc mp 6
+
+29       Ab
+30       F7
+31      Bb7
+32        /
+
+Groove Waltz1Sus
+
+33      Eb7
+34        /
+
+Repeatending
+
+Groove Waltz1Walk
+Begin Walk
+  Direction up down
+  Volume +50
+End
+
+35       Ab
+36       Eb7
+
+RepeatEnd
+
+Groove Waltz
+Seq 3
+Tempo *.8 2
+Decresc ppp 2
+
+37       Ab  Db
+38       Ab  z!
+
+

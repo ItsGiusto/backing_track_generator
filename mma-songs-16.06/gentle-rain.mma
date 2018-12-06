@@ -1,0 +1,123 @@
+// Gentle Rain
+
+Tempo 110
+Keysig C minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove BossanovaIntro
+Begin Solo
+  Voice JazzGuitar
+  Volume ff
+  Articulate 110
+  Octave 5
+  Harmony OpenBelow+8Below
+  Begin Riff
+    1e+;
+	2+43d+;43c+;d+;
+	1c+;
+	1bn;
+  End
+End
+
+Cresc pp mf 4
+
+1        Cm
+2        Gm7
+3        Fm7
+4        G7
+
+
+Repeat
+
+Groove Bossanova
+Volume m
+
+5        Cm
+6         /
+7      G7/B
+8         /
+
+Groove BossanovaSus
+Volume mf
+
+9      Bbm7
+10   Eb7sus      /    Eb7
+11     AbM7
+12    /
+
+Groove Bossanova
+Decresc mp 8
+
+13    Am7b5
+14       D7
+15    Gm7b5
+16       C7
+
+Groove Bossanova1Sus
+
+17    Fm7b5
+18    Dm7b5      /    Db7
+19       Cm
+20    Dm7b5      /     G7
+
+Groove Bossanova
+Cresc mf 4
+
+21       Cm
+22        /
+23     G7/B
+24        /
+
+Groove Bossanova3Sus
+Volume m
+
+25     Bbm7
+26   Eb7sus      /    Eb7
+27     AbM7
+28        /
+
+Groove Bossanova
+
+29    Am7b5
+30       D7
+31    Gm7b5
+32       C7
+
+Groove BossanovaSus
+Decresc mp 4
+
+33    Fm7b5
+34    Dm7b5      /    Db7
+35       Cm
+36     Bbm7      /    Eb7
+
+Groove Bossanova
+Cresc m 4
+
+37     AbM7
+38   Eb7sus      /   Eb13
+39     AbM7
+40      Gm7
+
+Repeatending
+
+Groove BossanovaFill
+Seq 3
+Cresc mf 2
+
+41       Cm
+42   Dm7b5      / G7
+
+RepeatEnd
+
+Groove Bossanova2End
+Seq 3
+Decresc ppp 2
+Tempo *.8 2
+
+41      Cm
+42      /     /  z!
+
+

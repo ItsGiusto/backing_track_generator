@@ -1,0 +1,98 @@
+// These Foolish Things
+
+Tempo 86
+Keysig Eb
+Groove Metronome2-4
+ z * 2
+
+Groove MellowJazzIntro
+Begin Solo
+    Voice Piano1
+    Octave 5
+    Articulate 140
+    Harmony OpenAbove+8Below
+    Volume f
+    Begin Riff
+        8r;g;e;g; 4e;g;
+        8r;g;e;g; 4c;e;
+        8r;a;f;c; 4f;a;
+        2.b;
+    End
+End
+
+Swingmode On
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove MellowJazz
+
+5       Eb6      /    Cm7
+6       Fm9      /    Bb7
+7       Eb6      /    Cm7
+8        F9      /    Bb7
+
+Groove MellowJazzSus
+
+9       Eb9
+10       Ab      /     C7
+11       F7
+12      Fm7      /    Bb7
+
+Groove MellowJazzPlus
+
+13      Eb6      /    Cm7
+14      Fm9      /    Bb7
+15       Eb      /     Cm
+16       F9      /    Bb7
+
+Groove MellowJazzSusPlus
+
+17      Eb9
+18       Ab      /     C7
+19       F9      /    Bb7
+20       Eb      /     D7
+
+Groove MellowJazzSus
+
+21      Gm7
+22       Cm      /     D9
+23      Gm7
+24       C9
+
+25       Bb      /    Gm7
+26     EbM7      /     F7
+27      Bb7      /  Bbdim
+28       Fm      /    Bb7
+
+Groove MellowJazz
+
+29      Eb6      /    Cm7
+30      Fm9      /    Bb7
+31      Eb6      /    Cm7
+32       F9      /    Bb7
+
+Groove MellowJazzPlus
+
+33      Eb9
+34     AbM7      /     C7
+
+RepeatEnding
+
+35       F9      /    Bb7
+
+Groove MellowJazzFill
+
+36       Eb  Bbdim      /    Bb+
+
+RepeatEnd
+
+Groove MellowJazzEnd
+Decresc pppp 2
+
+35       F9      /    Bb7
+37       Eb     z!
+

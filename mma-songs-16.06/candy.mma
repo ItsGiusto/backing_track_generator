@@ -1,0 +1,105 @@
+// Candy  ... 1944 song by Mak David, etc.
+
+Tempo 138
+KeySig Bb
+
+Groove Metronome2-4
+    z * 2
+
+Groove BigBandIntro
+Begin Solo
+    Voice Piano1
+	Harmony Open
+	Volume f
+	Octave 5
+	Articulate 90
+	Begin Riff
+	    2b;4;
+		43g;a;b;4c+;d+;
+		2c+;4;
+		4f+;e+;c+;a;
+	End
+End
+
+Cresc mp m 4
+1       Bb
+2       Gm
+3       Cm
+4       F7
+
+
+Repeat
+Groove BigBand
+Volume m
+
+5      EbM7
+6       Ebm      /      /   Ebm7
+7       Dm7
+8         /      /      /   Dbm7
+
+Groove BigBandPlus
+
+9       Cm7
+10        /      /      /     F7
+11      Bb6
+12      Fm9      /    Bb7  Bb7#5
+
+Groove BigBand
+
+13     EbM7
+14      Ebm      /      /   Ebm7
+15      Dm7
+16        /      /      /   Dbm7
+
+Groove BigBandSus
+
+17      Cm7
+18        /      /     F9   F7b9
+19      Bb6      /   EbM7
+20      Bb6
+
+Groove BigBand
+
+21      Bm7   Bbm7    Am7
+22        /      /     D7
+23      Em7   Ebm7    Dm7
+24       G9
+
+Groove BigBandSusPlus
+
+25      Gm7
+26       C7
+27      Cm7
+28       F7      /  Bb7#5
+
+Groove BigBand
+
+29     EbM7
+30      Ebm      /      /   Ebm7
+31      Dm7
+32        /      /      /   Dbm7
+
+Groove BigBandSus
+
+33      Cm7
+34        /      /     F9   F7b9
+
+RepeatEnding
+
+35       Bb
+
+Groove BigBandFill
+
+36       F7
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc ppp 2
+Tempo *.8 2
+
+35       Bb      /   C7b9     F9
+36       Bb     /    z!
+
+
+

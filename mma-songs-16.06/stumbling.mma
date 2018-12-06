@@ -1,0 +1,116 @@
+// Stumbling
+
+// I don't know anything more about this song than that
+// it was written by  Zez Confrey and it's sort of cute.
+
+Tempo 130
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+
+Groove SwingIntro
+Begin Solo
+    Voice Clarinet
+	Cresc mp f 4
+	Articulate 90
+	Octave 5
+	Harmony Open
+	Begin Riff
+	   8d;e;g;a;4b;8d;e;
+	   8g;a;4b;8d;e;g;a;
+	   4b;a;g;e;
+	   2.d;
+	End
+End
+
+Swingmode On
+
+1    G    
+2    Em   
+3    Am   
+4    D7   /    /    z!   
+
+Repeat
+Groove Swing
+Cresc mp f 4
+
+5    G    
+6    /    
+7    /    /    G7   
+8    E7   
+
+Groove SwingPlus
+
+9    A7   
+10   / 
+
+Groove Swing 
+
+11   /    A9   A13  A7-5 
+12   A7  
+
+Groove SwingSus
+Decresc mp 4
+
+13   D7   /    /    D9   
+14   D7   /    /    D#dim3 
+15   Em   /    /    Em9  
+16   Em   
+
+Groove Swing
+
+Volume m
+
+17   A7   /    /    A13  
+18   A7   
+19   D    Gm6  Ddim3 D7   
+20   /    D9   D7   D+   
+
+Groove SwingPlus
+Cresc mp f 4
+
+21   G    
+22   /    
+23   /    /    G7   
+24   E7   
+
+Groove SwingPlus
+
+25   A7   
+26   /
+    
+Groove Swing
+
+27   /    A9   A13  A7-5 
+28   A7
+
+Groove Swing
+Decresc mp 4
+
+29   Cm   
+30   /    
+31   G    /    D7   
+32   G    
+
+Groove SwingPlus
+Volume m
+
+33   A7   
+34   D7   
+
+RepeatEnding
+
+Groove Swing
+
+35   G    
+36   D7 
+
+RepeatEnd
+
+Groove SwingEnd
+
+37   G    
+38   /    /    z!   
+

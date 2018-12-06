@@ -1,0 +1,116 @@
+// Love Is The Tender Trap
+
+Tempo 105
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+    Voice Piano1
+    Harmony OpenBelow+8Below
+    Octave 6
+    Volume f
+    Begin Riff
+        8d;c;d;c;4e&;
+        8f;e;f;e;4g;
+        8b;a;g;f;4g;f;
+        1c+;
+    End
+End
+
+Swingmode On
+Cresc mp mf 4
+
+1         F / Eb
+2        Dm / Eb/G
+3        Gm / G7
+4        C6 C C7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5         F
+6     F#dim
+7       Cm7
+8        C7
+
+Groove FoxTrotPlus
+Volume mf
+
+9       Cm7      /    F13
+10     BbM9      /     Bb
+11      A+7
+12       D7    Am7     Dm     D7@3.5     G9@4.5
+
+Groove FoxTrotSus
+Decresc mp 2
+
+13        /
+
+// When we jump to the coda we skip this bar. And we have a repeat
+// ending faking a DS/Coda. So, we skip this bar the 3rd time. Just
+// a matter of setting a flag in the 3rd (bride) ending...
+
+If Ndef CODA
+
+14      Gm7      /   C7b9
+
+EndIf
+
+RepeatEnding
+
+15        F      /   G7b5      C7@4.5
+
+Groove FoxTrotFill
+
+16        /   C7b5     C7
+
+RepeatEnding
+
+17        F      /    Bb9
+
+/// this is the bridge
+
+18        F      /      /   Fdim
+
+Groove FoxTrotSusPlus
+Volume m
+
+19    Em7b5
+20       A7
+21       Dm      /     Gm
+22       Dm      /      /   Fdim
+
+Groove FoxTrotSus
+Cresc mf 2
+
+23    Em7b5
+24       A7
+25       Dm      /     F7
+26      Gm7      /    Gb7     C7@4.5
+
+Set Coda
+
+RepeatEnd
+Decresc mp 3
+
+27      Gm7      /      /     C7
+28      Cm6      /     F7  Am7b5
+29       D7    CM7     D7
+
+Groove FoxTrot
+
+30       Gm      /   GmM7
+31      Gm7      /     C7    Gb7@3.5      F@4.5
+
+Groove FoxTrotEnd
+Decresc ppp 2
+
+32        /      /     Gb
+Seq 1
+33      FM7       Gb6@2.5     F6
+

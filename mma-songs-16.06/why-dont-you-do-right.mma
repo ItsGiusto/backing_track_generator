@@ -1,0 +1,138 @@
+// Why Dont You Do Right
+
+// Peggy Lee did this as a big band number at 130bpm.
+// I like the Lil Green (more original) version as a blues.
+// Both Lee and Green sing in F. I'll leave in the sheet music
+// version of G
+
+Tempo 91
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove SlowBluesIntro
+Begin Solo
+    Voice Piano2
+    Harmony OpenBelow
+    Octave 5
+    Volume f
+    Articulate 110
+    Rtime 5,10
+    Rvolume 10
+    Begin Riff
+        4g;;2e;
+        81b&;82a;4g;81a;82b;4a;
+        2b;a;
+        1e;        
+    End
+End
+
+Swell mp f 4
+
+1          Em
+2          C7 
+3          B7
+4          Em7
+
+Repeat
+Groove SlowBlues
+Volume m
+
+5         Em      /    Em7
+6         C7      /     B7
+7         Em      /    Em7
+8         C7      /     B7
+
+Groove SlowBluesWalk4
+Cresc mf 4
+
+9        Am7
+10         /      /      /     B7
+
+Groove SlowBlues12Triple
+
+11        Em      /    Em7
+12       Am6      /     B7
+
+Groove SlowBluesSus
+Volume m
+
+13       Am7      /     B7
+14       Am7      /      /     B7
+15        Em      /    Em7
+16        C7      /     B7
+
+Groove SlowBlues
+Decresc mp 4
+
+17        Em      /    Em7
+18        C7      /     B7
+19        Em      /    Em7
+20        C7      /     B7
+21       Am7
+22         /      /      /     B7
+
+Groove SlowBlues12Triple
+
+23        Em      /    Em7
+
+Groove SlowBLues34Triple
+
+24       Am6      /     B7
+
+Groove SlowBluesSus
+Cresc m 4
+
+25       Am7      /     B7
+26       Am7      /      /     B7
+27        Em
+28        B7
+
+Groove SlowBlues
+Cresc mf 4
+
+29        Em      /    Em7
+30        C7      /     B7
+31        Em      /    Em7
+32        C7      /     B7
+33       Am7
+34         /      /      /     B7
+
+Groove SlowBlues12Triple
+Decresc mp 2
+
+35        Em      /    Em7
+36       Am6      /     B7
+
+Groove SlowBluesSus
+Cresc m 4
+
+37       Am7      /     B7
+38       Am7      /      /     B7
+39        Em
+
+Groove SlowBLues4Triple
+
+RepeatEnding
+
+40         /
+
+RepeatEnd
+
+41         /
+
+Groove SlowBluesWalk4
+
+42         /      /      /    Em7
+43        C7      /     B7
+
+Groove SlowBluesEnd
+Decresc ppp 4
+Tempo *.9 4
+
+44        Em      /     C7
+45        Em
+46         /      /    Em6
+47        E6   z!
+

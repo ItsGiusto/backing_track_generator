@@ -1,0 +1,129 @@
+// Baltimore Oriole
+
+Tempo 70
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove ModernJazzIntro
+
+Begin Allgrooves Walk
+  Direction Down
+  Articulate 60
+End
+
+Begin Solo
+   Voice TremoloStrings
+   Volume m
+   Articulate 95
+   Octave 6
+   Harmony 16Below+OpenBelow
+   Accent 1 10 3 5
+   Begin Riff
+     43g;a;g; 8b;a;4g;
+	 43e;g&;e; 8b;a;4g;
+	 43c+;b;a;g;f;e;
+	 2.d;
+   End
+End
+
+Cresc pp mp 4
+
+1        Gm
+2        Ebm
+3        Am
+4        D7
+
+Groove ModernJazz
+Volume m
+
+5        Gm      /    Gm7
+6         C      /    Cm6
+7        Gm      /      /    Gm7
+8        C7      /     D+    Gm
+
+Groove ModernJazz1
+Decresc mp 4
+
+9        Cm      /    Cm7
+10        F      /    Ab7
+11       Gm      /    Gm7
+12       C7      /     D+     Gm
+
+Groove ModernJazzSus
+Cresc mf 8
+
+13       Cm      /      G
+14       Eb      /      F
+15       Gm      /      D
+16       Gm      /     C9
+
+Groove ModernJazz1
+
+17      Cm6
+18      Eb7      /  C#dim
+19       D7
+20        /
+
+Repeat
+Groove ModernJazz1Sus
+Volume m
+
+21       Gm      /    Gm7
+22        C      /    Cm6
+23       Gm      /      /    Gm7
+24       C7      /     D+    Gm
+
+Groove ModernJazz
+Volume mp
+
+25       Cm      /    Cm7
+26        F      /    Ab7
+27       Gm      /    Gm7
+28       C7      /     D+     Gm
+
+Groove ModernJazz1
+Cresc mf 4
+
+29       Cm      /      G
+30       Eb      /      F
+31       Gm      /      D
+32       Gm      /     C9
+
+Groove ModernJazzSus
+Volume m
+
+33      Cm6
+34      Eb7      /     C7      D7
+35       Gm      /    Gm7
+36       C9      /   EbM7   D7#5
+
+Repeatending
+
+Groove ModernJazz
+
+37       Gm      /    Gm7
+38       C9      /    Eb7     D7
+
+Groove ModernJazzFill
+
+39      Gm6      /      C
+40       Gm      /      D7
+
+Repeatend
+
+Groove ModernJazzFill
+Decresc ppp 4
+
+37       Gm      /    Gm7
+38       C9      /    Eb7     D7
+
+Groove ModernJazzEnd
+Tempo *.8 2
+
+39      Gm6      /      C
+40       Gm      /  z!
+
+
+

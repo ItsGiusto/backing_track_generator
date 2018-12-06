@@ -1,0 +1,92 @@
+// Here, There And Everywhere
+// Lennon/McCartney, from Beatles album Revolver.
+
+Tempo 82       // pretty close to original tempo
+Keysig F       // Beatles did it in G
+
+Groove Metronome2-4
+	   z * 2
+
+Groove SlowJazz1Intro
+Begin Solo
+	  Voice Piano1
+	  Volume F
+	  Articulate 90
+	  Harmony Open
+	  Octave 5
+	  Begin Riff
+	    2.f;4;
+		43d+;e+;f+;4e+;d+;
+        43b;c+;d+;c+;b;a;
+        1c+;
+      End
+End
+
+Cresc p m 4
+
+// I put in a 4 bar intro. Quite different from the original.
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+// This follows the original.
+
+Repeat
+Groove SlowJazz1
+Cresc mp mf 8
+
+5         F      /    Gm7
+6       Am7      /     Bb
+7         F      /    Gm7
+8       Am7      /     Bb
+9       Em7      /     A7
+10       Bb      /     A7
+11       Dm      /     Gm
+
+RepeatEnding
+
+12      Gm7      /     C7 
+
+RepeatEnd
+
+
+13      Gm7      /    Eb7
+
+Repeat
+Groove SlowJazz1Sus
+Volume m
+
+14       Ab      /     Fm
+15      Bbm      /     C7
+16       Fm
+17     Bbm7      /     C7
+18        F      /    Gm7
+19      Am7      /     Bb
+20        F      /    Gm7
+21      Am7      /     Bb
+22      Em7      /     A7
+23       Bb      /     A7
+24       Dm      /     Gm
+
+RepeatEnding
+
+25      Gm7      /     C7  
+
+RepeatEnd
+
+25      Gm7      /     C7    Gm7
+
+Decresc mf off 6
+
+26        F      /    Gm7
+27      Am7      /     Bb
+28        F      /    Gm7
+
+Groove SlowJazzEnd
+Tempo *.8 2
+
+29      Am7      /     Bb
+30        F / z!
+ 

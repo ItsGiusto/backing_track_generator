@@ -1,0 +1,115 @@
+// Who (1925)
+
+Tempo $( 124 * 2 )
+Keysig D
+
+Groove Metronome2-4
+  z * 2
+
+Groove QuickstepIntro
+
+Begin AllGrooves
+    Chord-Piano Voicing Mode=Key2
+    Chord-Guitar Voicing Mode=Key2
+End
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Articulate 90
+    Harmony OpenBelow
+    Begin Riff
+        4d+;f+;e+;d+;
+        4e+;d+;c+;b;
+        4d+;c+;b;a;
+        1g;        
+    End
+End
+
+Swell p mf 4
+
+1         D
+2        Bm
+3        Em
+4        A7
+
+Repeat
+Groove Quickstep
+Volume m
+
+5        D6      /    Em7
+6     Fdim7      /  D6/F#
+7        D6
+8         /
+
+Groove QuickstepDuh
+Cresc mf 4
+
+9        A7      /    Bm7
+10    Cdim7      /  A7/C#
+11       A7
+12        /
+
+Groove QuickstepHit
+Decresc m 2
+
+13        /
+14        /
+15      Em7
+16       A7
+
+Groove QuickstepSus
+Cresc mf 2
+
+17       D6      /    Em7
+18    Fdim7      /  D6/F#
+19      Em7
+20       A7
+
+Groove Quickstep
+
+21       G6
+22        /
+23        /
+24        /
+
+Groove QuickstepDuhSus
+Volume m
+
+25       D6
+26        /
+27        /
+28        /
+
+Groove QuickstepSus
+Cresc mf 4
+
+29       A7      /    Bm7
+30    Cdim7      /  A7/C#
+31       A7
+32        /
+
+Groove QuickstepHit
+Decresc mp 2
+
+33        D      /   D7/C
+34     G6/B      /  Gm/Bb
+
+RepeatEnding 2
+
+Groove QuickstepHitSus
+
+35      D/A      /  Em11/A
+36       D       /  A7
+
+Repeatend
+
+Groove QuickstepEnd
+Decresc ppp 2
+
+35      D/A      /  Em11/A
+36       D6      z!
+
+
+
+

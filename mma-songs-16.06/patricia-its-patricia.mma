@@ -1,0 +1,159 @@
+// Patricia, It's Patricia
+
+// By Preez Prada. My recording has the tempo at 140 and
+// the key of (very odd!) of Db.
+
+
+Tempo 138
+
+Groove Metronome2-4
+	z * 2
+
+Groove MamboIntro
+Begin Solo
+  Voice Trumpet
+  Harmony OpenBelow+8Below
+  Octave 6
+  Articulate 90
+  Accent 1 40 3 30
+  Volume f
+  Begin Riff
+    8e;g;
+	8e;g;e;g; e;g;e;g;
+	8f;g;
+	8g;
+  End
+End
+
+Cresc p f 4
+
+1          C
+2         Am
+3          F
+4         G7
+
+Repeat
+Groove Mambo
+Volume m
+
+5          C
+6          /
+7         G7
+
+Groove Mambo2
+Cresc f 1
+
+8        Dm7      /   G9#5
+
+Groove Mambo
+Volume m
+
+9         G7
+10         /
+11         C
+12       Dm7      /   G9#5
+
+Groove Mambo3
+Cresc f 4
+
+13         C
+14         /
+15        G7
+
+Groove Mambo2
+
+16       Dm7      /     G7
+
+Groove Mambo
+Volume m
+
+17         /
+
+RepeatEnding      /// this is actually a "to coda"
+Volume mf
+
+18         /
+19         C
+
+Groove Mambo1
+Cresc f 4
+
+20         /
+21         /
+22         /
+23        G7
+
+Decresc m 4
+
+24         /      /    Dm7     G7
+25         /
+26         /      /    Dm7     G7
+27        C6
+
+Groove Mambo2
+
+28         /
+
+Groove Mambo3
+Volume mf
+
+29         C
+30         /
+31        G7
+32       Dm7      /   G9#5
+
+Volume f
+
+33        G7
+34         /
+35         C      /   G9#5
+
+Groove Mambo2
+
+36         /
+
+Repeat
+Groove MamboSus
+Volume m
+
+37         C
+38         /
+39       Dm7
+40        G7
+
+Groove Mambo3Sus
+Cresc f 4
+
+41       Dm7
+42         /     G7    Dm7     G7
+43       CM7      /      C
+44        C6
+
+Groove MamboSus
+Decresc m 4
+
+45         C
+46         /
+47        G9
+48         /
+
+Groove Mambo1Sus
+
+49        G7
+50       Dm7      /     G+
+51        C6
+52         /      /   G9#5
+
+RepeatEnd
+
+RepeatEnd   /// this is actually the "coda"
+Volume m
+
+53        G7
+
+Groove MamboEnd
+Volume f
+
+54         C     z!
+Cut -3
+

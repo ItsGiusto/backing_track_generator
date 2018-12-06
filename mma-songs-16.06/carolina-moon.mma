@@ -1,0 +1,103 @@
+// Carolina Moon
+
+Tempo 125
+Keysig F
+
+Groove Metronome3
+  z * 2
+
+Groove CountryWaltzIntro
+
+Allgrooves Chord-Sus Volume +20
+
+Begin Solo
+     Voice Piano1
+     Octave 5
+     Volume f
+     Articulate 99
+     Harmony 3Below
+     Begin Riff
+         4.f;8b;bn;c+;
+         4.d;8f;g;a;
+         4.g;8b;c+;d+;
+         2.c+;
+     End
+
+End
+
+Arpeggio Volume -40 -20 -10 -5
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove CountryWaltz
+
+5         F
+6         /
+7        Bb
+8      Bbm6
+
+Groove CountryWaltz1
+
+9       FM7
+10       C7
+11        F
+12       C9
+
+Groove CountryWaltz
+
+13        F
+14        /
+15       Bb
+16     Bbm6
+
+Groove CountryWaltz1
+
+17      FM7
+18       C7
+19        F
+20        /
+
+Groove CountryWaltzSus
+
+21       Bb
+22        /
+23        F
+24        /
+
+Groove CountryWaltz1Sus
+
+25       G7
+26        /
+27       C9
+28      C7+
+
+Groove CountryWaltz1
+
+29        F
+30        /
+31       Bb
+32      Bbm
+
+Groove CountryWaltz
+
+33        F
+34       G7    Gm6  C13b9
+
+RepeatEnding
+
+35        F
+36       C7
+
+RepeatEnd
+
+Groove CountryWaltzEnd
+seq 3
+
+37        F    FM7    Db6
+38       F6    z!
+

@@ -1,0 +1,121 @@
+// If I Fell (Beatles, 1964)
+
+Tempo 100  // Beatles did it at 110, but for instrumental a tad slower is better
+
+Keysig Bb 
+
+Groove BalladIntro2
+
+Begin AllGrooves
+   Begin Arpeggio-Plus
+       Voice Piano1
+       Harmony OpenBelow
+       Range 1
+   End
+   Begin Chord-Sus
+       Volume mp
+   End
+End
+
+Begin Solo
+    Voice CleanGuitar
+    Octave 5
+    Volume f
+    Harmony OpenBelow
+    Articulate 90
+End
+
+Volume p
+        z
+        z      { 2.r;8bn-;c#; }
+Seq 1
+Swell mp f 8
+1      Bm7     { 8d;en;bn-;c#;4d;8b-;c; }
+2       Bb     { 8d;fn;b&-;cn;4.d;8b-; }
+3        A     { 4a-;2.a; }
+Seq 1
+4      F#m     { 8g#;4f#;8+4c#;8bn-;c; }
+Seq 1
+5       Bm7    { 8d;en;bn-;c#;4d;8b-;c; }
+6        Bb    { 8d;fn;b&-;cn;4.d;8b-; }
+7       Cm7    { 2c;8d;4e&;8+2f~; }
+8        F7
+
+Repeat
+Volume m
+Groove Ballad1
+
+9        Bb      /     Cm
+10       Dm      /      /  Dbdim
+11      Cm7
+12       F7
+
+Groove Ballad1Plus
+Cresc mf 4
+13       Bb      /     Cm
+14       Dm      /      /  Dbdim
+15      Cm7
+16       F7
+
+RepeatEnding
+
+17       Bb
+Groove BalladFill
+18      Ebm      /     F7
+
+RepeatEnd
+
+Groove Ballad1
+19      Bb7
+
+Repeat
+Volume mp
+Groove Ballad1Sus
+
+20      Bb7
+21       Eb
+22      Ebm
+23        /
+
+Groove Ballad1SusPlus
+Swell mf 4
+
+24       Bb
+25       F7
+26       Bb      /     Cm
+27       Dm      /      /  Dbdim
+
+Groove BalladSus
+
+28      Cm7
+29       F7
+30       Bb      /     Cm
+31       Dm      /      /  Dbdim
+
+Groove Ballad1
+
+32      Cm7
+
+RepeatEnding
+
+33       F7
+
+Groove BalladFill
+
+34      Bb7
+
+RepeatEnd
+
+35       F7
+36       Bb
+
+Groove Ballad1End
+Decresc p 4
+Tempo *.8 4
+
+37      Ebm
+38       Bb
+39      Ebm
+40       Bb  z!
+
+

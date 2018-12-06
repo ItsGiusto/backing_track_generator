@@ -1,0 +1,70 @@
+// Lover Man
+
+Tempo 60
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove SlowbluesIntro
+Begin Solo
+   Voice Clarinet
+   Octave 5
+   Harmony Open
+   Volume f
+   Articulate 90
+   Begin Riff
+       8d+;e+;d+;8+2f+;
+	   8c+;d+;c+;8+2e+;
+	   8b;a;b;8+4a;4b;
+	   4a;bn;c+;c#+;
+   End
+End
+
+Swingmode On
+
+1       Dm   
+2       C    
+3       Bb   
+4       Am   G  F A7
+
+Groove Slowblues
+Repeat
+
+5       Dm7   /     G7   
+6       Dm7   /     G7
+7       Gm7   /     C7   
+8       Gm7   /     C7
+9       Fm7 
+10      Bb7  
+11      Bbm7  Eb7   Gm7   C7
+
+
+RepeatEnding 
+
+12      FM7     /   /   A7   
+
+RepeatEnding
+
+
+13      FM7    /     Bb7  
+
+Groove SlowBluesSus
+
+14      Am    /     Am(maj7)
+15      Am7   /     D7   
+16      GM7   /     Am7  
+17      Bm7   /     Am7   D7   
+18      Gm    /     Gm(maj7)
+19      Gm7   /     C7   
+20      FM7   /     Eb7  
+21      Gm6 /     A7   
+
+Groove SlowBluesWalk4
+
+RepeatEnd
+Groove SlowBluesEnd
+Seq 4
+
+22      F    /  /   z!
+

@@ -1,0 +1,132 @@
+// Walk On The Wild Side
+
+Tempo 74
+KeySig C
+
+
+// Two bars of just bells for metronome
+
+
+Begin Drum-Low
+	Sequence   {1 1 60; 3 1 50}
+	Tone  LowWoodBlock
+End
+
+Begin Drum-Bells
+    Tone JingleBell
+    Cresc pppp p 2
+    Sequence {1 0 80 * 12}
+    Accent 1 10 3 10
+End
+
+  z * 2
+
+Groove Blues128Intro
+Begin Solo
+    Voice PickedBass
+    Volume m
+    Articulate 140
+    Harmony OpenBelow
+    Octave 6
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+        4c+;b;2c+;
+        43c+;b;a; g;a;b;
+        2a;e;
+        2.g;    
+    End
+End
+
+Begin Drum-bells
+    Tone JingleBell
+    Decresc p ppp 4
+    Sequence {1 1 80 * 12}
+End
+
+1          C
+2         Bm
+3         Am
+4         G7
+
+// start 'A'
+
+Groove Blues128
+Begin Drum-bells
+    Tone JingleBell
+    Sequence {1 1 20 * 12}
+End
+
+Volume m
+
+5          C      /     F7
+Drum-Bells Sequence -
+
+6          C      /      F      C
+7          /      /     F7
+8          C      /      F      C
+
+Groove Blues128Plus
+Decresc mp 4
+
+9          G      /      /      F G+7@4.5
+10         C      /      F      C
+11         G      /      /      F G+7@4.5
+12         C      /     C7      F
+
+Groove Blues128Sus
+Cresc mf 4
+
+13         C      /      /     C7
+14         F
+15         C      /     Bb      C
+16        F7
+
+Groove Blues128SusPlus
+
+17         C      /    Gm7      C
+
+Repeat
+Groove Blues128Sus
+Volume m
+
+18        F7
+19         C      /     Bb      C
+Volume mp
+20        F7
+21         C      /    Gm7      C
+
+Groove Blues128SusPlus
+Cresc m 3
+
+22         G      /      /      F G+7@4.5
+23         C      /     C7      C
+24         G      /      /      F G+7@4.5
+
+RepeatEnding
+Groove Blues128Sus
+Cresc mf 2
+
+25         C      /     C7      F
+26         C      /      /     C7
+
+Groove Blues128
+Decresc mp 2
+
+27        F7
+28         C      /     Bb      C
+29        F7
+30         C
+
+RepeatEnd
+Groove Blues128Sus
+
+31         C      /      F      C
+
+Groove Blues128End
+Decresc ppp 2
+
+32         G      /      /    G+9  G@4.5
+33         C      /     z!
+
+

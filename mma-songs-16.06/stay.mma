@@ -1,0 +1,90 @@
+// Stay
+
+Tempo 125
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove RockBalladSusIntro
+
+Begin Solo
+    Voice ChoirAahs
+    Octave 5
+    Harmony 3Below
+    Articulate 90
+    Begin Riff
+       1+4g ~;
+       ~4g;43f;g;a;
+       1 g;
+       2c+;
+    End
+End
+
+Cresc p mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove RockBallad
+Volume m
+
+5         G      /     Em
+6         C      /     D7
+7         G      /     Em
+8         C      /     D7
+
+Groove RockBallad1
+Cresc mf 4
+
+9         G      /     Em
+10        C      /     D7
+11        G      /     Em
+12        C      /     D7
+
+Groove RockBallad
+Decresc mp 4
+
+13        G      /     Em
+14        C      /     D7
+15        G      /     Em
+16        C      /     D7
+
+Groove RockBallad1Voice
+Cresc mf 4
+
+17        G      /     Em
+18        C      /     D7
+19       Em
+20        /
+
+Groove RockBallad1
+Volume m
+
+21        G      /     Em
+22        C      /     D7
+23        G      /     Em
+24        C      /     D7
+
+Groove RockBallad
+Decresc mp 2
+
+25        G      /     Em
+26        C      /     D7
+
+Repeatending
+
+27        G      /     Em
+28        G      /     D7
+
+RepeatEnd
+
+Groove RockBalladEnd1
+Decresc ppp 2
+
+27        G      /     Em
+28        G      z!
+

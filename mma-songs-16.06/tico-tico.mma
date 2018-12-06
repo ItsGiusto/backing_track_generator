@@ -1,0 +1,130 @@
+// Tico
+
+Tempo 150
+Keysig A minor
+
+Transpose 3   // we'll do it in Dminor  for tenor sax.
+
+Groove Metronome2-4
+ z * 2
+
+
+Groove SambaIntro
+Begin Solo
+  Voice Piano1
+  Harmony OpenBelow+8Above
+  Volume ff
+  Articulate 110
+  Octave 5
+  Begin Riff
+     4a;
+	 4g;
+	 4f;
+	 4e;
+  End
+End
+
+Begin Solo-1
+  Voice Piano1
+  Harmony OpenBelow+8Above
+  ChShare Solo
+  Articulate 120
+  Volume ff
+  Mallet Rate=8 Decay=-3
+  Begin Riff
+      4.r;2a;
+      4.r;2g;
+      4.r;2f;
+  End
+End
+
+Cresc p mf 4
+
+1        Am
+2         G
+3         F
+4        E7
+
+Repeat
+
+Groove Samba
+Volume m
+
+5        Am
+6        E7
+7         /
+8        Am
+
+Groove SambaPlus
+Arpeggio Voice Flute
+Volume +10
+
+9        Dm
+10       Am
+11       B7
+12        E
+
+Groove Samba
+Decresc p 8
+
+13       Am
+14       E7
+15        /
+16       Am
+
+Groove SambaSus
+
+17       Dm
+18       Am
+19       E7
+20       Am
+
+Groove Samba
+Cresc mf 8
+
+21        C
+22       G7
+23        /
+24        C
+
+Groove Samba
+
+25        /      /     /     A+
+26       Dm      /     G7
+27        /
+28        C      /     G7
+
+Groove SambaPlus
+Chord-Sus Voice Flute
+Volume m
+
+29        C
+30       G7
+31        /
+32        C
+
+Groove Samba
+Volume f
+
+33        F      /      /  F#dim
+34      C/G
+
+RepeatEnding  2
+
+35      Dm7      /     G7
+
+Groove SambaFill
+
+36        C     /    E7
+
+RepeatEnd
+
+Groove SambaEnd
+Seq 3
+Decresc pp 2
+Tempo *.8 2
+
+35      Dm7      /     G7
+
+37        C      /      z!
+

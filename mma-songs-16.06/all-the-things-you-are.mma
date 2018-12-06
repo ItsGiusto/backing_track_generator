@@ -1,0 +1,117 @@
+// All The Things You Are
+
+Tempo 136
+Keysig G
+
+Groove Metronome2-4
+   z * 2
+
+Groove FoxTrotIntro
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Octave 6
+    Harmony 3Below
+    Articulate 95
+    Begin Riff
+        4b;;43;;;
+        4g;;43;;;
+        4e;;43;;;
+        1d;
+    End
+
+End
+
+Cresc mp mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5        Em
+6        Am
+7        D7
+8         G
+
+Groove FoxTrotPlus
+Decresc +20 m 4
+
+9         C
+10      F#7
+11        B
+12        /
+
+Groove FoxTrotSus
+
+13       Bm
+14       Em
+15       A7
+16        D
+
+Groove FoxTrotSusPlus
+Volume +20
+
+17        G
+18      C#7
+19       F#
+20        /
+
+Groove FoxTrotSus
+
+21     Abm7
+22      C#7
+23       F#
+24        /
+
+Groove FoxTrot
+Volume m
+
+25     A&m7
+26      Bb7
+27       Eb
+28       G+
+
+Groove FoxTrotPlus
+Volume +20
+
+29       Em
+30       Am
+31       D7
+32        G
+
+Groove FoxTrotSus
+Volume m
+
+33        C
+34       Cm
+35        G
+36     Gdim
+
+Groove FoxTrot
+Decresc -20 2
+
+37      Am7
+38       D9
+
+RepeatEnding
+
+Groove FoxTrotFill
+
+39        G      /      C
+40        G      /      D7
+
+
+RepeatEnd
+Decresc ppp 2
+
+39        G      /      C
+40        G      z!
+
+
+

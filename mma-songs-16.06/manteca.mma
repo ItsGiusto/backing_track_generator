@@ -1,0 +1,102 @@
+// Manteca
+
+Tempo $(95 * 2)
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove CalypsoIntro
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Articulate 90
+    Harmony 3Below
+    Volume f
+    Begin Riff
+        4f;a&;8;4b;
+        4a&;b;8;4c+;
+        2.d+;4g;
+        1b;
+    End
+End
+
+Cresc mp f 4
+
+1        Bb
+2        Ab
+3        Gm
+4        Bb7
+
+Repeat
+Repeat
+Volume m
+Groove CalypsoPlus
+
+Arpeggio Range .9
+
+Arpeggio Riff 1 4 90; 2 4 90; 3 8 90; 3.5 4 90; 4.5 4 90;
+5       Bb7
+
+Arpeggio Riff 1.5 8 90; 2 8 90; 2.5 4 90; 3.5 4. 90;
+6         /
+
+Arpeggio Riff 1 4 90; 2 4 90; 3 8 90; 3.5 4 90; 4.5 4 90;
+7         /
+
+Arpeggio Riff 1.5 8 90; 2 8 90; 2.5 4 90; 3.5 4. 90;
+8         /
+
+Groove Calypso
+Cresc mf 4
+
+9         /
+10        /
+11        /   Ab7@2.5    Db7@4.5
+12        /   Gb7@1.5     F7@3
+
+RepeatEnd
+
+Groove CalypsoSusPlus
+Volume m
+
+13     Abm7
+14        /      /  Db7b9
+15     GbM7
+16    Cm7b5      /   F7b5
+
+Groove Calypso1Sus
+Cresc mf 4
+
+17      Bb7
+18      Eb9      /     A7
+19     AbM7
+20        /
+
+Groove CalypsoSusPlus
+Decresc m 4
+
+21     Abm7
+22    Db7#9
+23     GbM7
+24   F#m7b5      /      /     B7
+
+
+Groove Calypso1
+Decresc mp 2
+
+25    Fm7b5
+26    Bb7b9
+
+RepeatEnding 2
+
+27    Cm7b5
+28     F7b9
+
+RepeatEnd
+Decresc ppp 2
+
+29    Cm7b5
+Volume f
+Groove CalypsoEnd
+30    Bb /  z!

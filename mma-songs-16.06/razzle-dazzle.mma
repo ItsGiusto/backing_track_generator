@@ -1,0 +1,207 @@
+// Razzle Dazzle
+
+Tempo 130
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove SoftShoeIntro8
+Begin AllGrooves
+  Begin Arpeggio
+    Voice NylonGuitar
+    Volume mf
+    Articulate 110
+    Octave 4
+  End
+  Chord Voicing Mode=Key
+End
+
+Begin Solo
+    Voice Strings
+    Articulate 90
+    Harmony 3Below+8Below
+    Octave 5
+    Volume ff
+    Begin Riff
+        8f;;r;e;4f;
+        1r;
+        8f;;r;e;4f;
+        1r;
+        8g;;r;f;4g;
+        1r;
+        8g;;r;f;4g;
+    End
+End
+
+// This is supposed to be a finger snap, but that's not standard GM
+// so we use a slapstick. Note how we set the autosolo so that we can
+// add a slap anytime using a {} notation (hidden in a macro).
+Begin Solo-Slap
+   Drumtype
+   Tone Slap
+   Volume mf
+End
+AutoSoloTracks Solo-Slap
+Set Slap134 {4*;r;*;;}
+Set Slap13  {4*;r;*;}
+Set Slap12  {4*;r;*;}
+Set Slap1   {4*;}
+
+Cresc mp mf 8
+1          F
+2          /    $Slap134
+3          /
+4          /    $Slap134
+5         Gm
+6          /    $Slap134
+7          /
+8          /    $Slap134
+
+Repeat
+Groove SoftShoe
+Volume m
+
+9          F
+10         /      /  Abdim
+11        C7
+Chord Riff C1234
+
+12         /   $Slap134
+
+Groove SoftShoeSus
+Cresc mp mf 4
+13         /
+14         /      /  C#dim
+15       Dm7      /     G7
+16        C7
+
+Groove SoftShoePlus
+Decresc m 2
+
+17         F
+18         /      /      /    Db7
+19        C7
+Chord Riff C1234
+20         /  $Slap134
+
+Groove SoftShoe
+
+21        F7
+22         /
+Decresc mp 2
+23        Bb
+24         /
+
+Groove SoftShoeSusPlus
+Cresc f 4
+
+25         /
+26      Bbm6
+27         F
+28        G9
+
+Groove SoftShoeSus
+Volume m
+
+29         F
+30        C7
+31         F
+32         /    Gm7     C7
+
+RepeatEnding
+
+Groove SoftShoe
+
+Chord Riff C1234
+33         F   $Slap13
+Chord Riff 1 4 90; 1.66 4 90; 2.33 4 90; C34
+34        C7  $Slap12
+
+RepeatEnd
+
+Chord Riff C1;C34
+35         F    $Slap13
+Chord Riff 1 4 90; 1.66 4 90; 2.33 4 90; C34
+36      Bbm7      /    Eb7   $Slap12
+
+KeySig Ab
+
+Repeat
+
+Groove SoftShoeSus
+Volume m
+
+37        Ab
+38         /      /  Cbdim
+39       Eb7
+Chord Riff C1234
+40         /    $Slap134
+
+Groove SoftShoeSusPlus
+Cresc mf 2
+
+41       Bb7
+42         /      /      /   Edim
+43        Fm      /    Bb7
+44       Eb7
+
+Groove SoftShoe
+
+45        Ab
+46         /
+47       Eb7
+Volume +20
+Chord Riff C1234
+48         /
+
+Groove SoftShoeSus
+Volume mp
+
+49       Ab7
+50         /
+Cresc m 2
+51        Db
+Chord Riff C1234
+52         /  $Slap134
+
+Groove SoftShoeSusPlus
+Decresc mp 4
+
+53         /
+54    Bbm7b5
+55        Ab
+56       Bb9
+
+RepeatEnding
+
+Groove SoftShoe
+
+57        Ab
+58       Eb7
+59        Ab
+Chord Riff 1 4 90; 1.66 4 90; 2.33 4 90; 3 4 90; 4 4 90;
+60       Eb7  $Slap13
+
+RepeatEnd
+
+Groove SoftShoePlus
+
+61        Ab
+62         /
+63       Eb7
+64         /
+
+Groove SoftShoeEnd
+Decresc ppp 4
+
+65        Ab
+Seq 1
+66         /
+Seq 1
+67         /
+Solo-Slap Volume ff
+68         /     z!  $Slap1
+
+
+

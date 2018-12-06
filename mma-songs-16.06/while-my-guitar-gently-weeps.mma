@@ -1,0 +1,177 @@
+// While My Guitar Gently Weeps
+
+Tempo 114
+KeySig A minor
+
+Groove Metronome2-4
+	   z * 2
+
+Groove 60sRockIntro
+
+Begin AllGrooves Chord-Sus
+  Voice Organ2
+  Volume m
+  Octave 6
+  Unify Off
+End
+
+Begin Solo
+    Voice CleanGuitar
+	Harmony OpenBelow+8Below
+	Octave 5
+	Articulate 70
+	Begin Riff
+	   8.a;16;8.;16;8.;16;8.;16;
+	   8.a;16;8.;16;;;8.;16;8;
+	   8.a;16;8.;16;8;16b;8;16c+;8;
+	   2d+;4r;8c+;d+;
+	   4.e+;c+;4a;
+	   4.d+;b;4g;
+	   4.d+;a;4f#;
+	   1d+;
+	End
+End
+
+Solo MidiPan  Left100 right100 32
+Bass MidiPan  Left40
+Walk MidiPan  Left40
+Chord-Sus MidiPan Right40
+Chord-Straight MidiPan Right30
+
+Solo Cresc m ff 8
+
+1        Am
+2     Am7/G
+3    Am6/F#
+seq 3
+4         F
+Seq 
+5        Am
+6         G
+7         D
+Seq 3
+8        E7
+
+
+Repeat
+Groove 60sRock
+Cresc mp mf 5
+
+9        Am
+10       C6
+11      Am6
+12      FM7
+
+13       Am
+14        G
+
+Begin Solo
+   MidiPan Left Right 2m
+   Volume f
+   Begin Riff
+     2r;8c++;;;a+;
+     8g#+;;a+;g+;4e+;4e+;
+   End
+End
+
+15        D
+16       E7
+
+Groove 60sRockSus
+Volume m
+
+17       Am
+18       C6
+19      Am6
+
+Begin Solo
+  MidiPan Center
+  Riff 2r;8a;;4;
+End
+
+20      FM7
+
+Solo Riff 8a;;4;
+21       Am
+22        G
+
+Solo Riff 8r;d+;2e+;8r;d+;
+23        C
+Solo Riff 8d+;4e+;a+;8g+;e+;d+;
+24       E7
+
+Keysig A
+
+Groove 60sRock1
+Cresc mf 4
+
+25        A
+26     C#m7
+27     F#m7
+28      C#m
+
+29       Bm
+30        /
+Solo Riff 8e+;4;8d+;e+;b;b+;b;
+31        E
+Solo Riff 8a+;b;f#+;a;e+;g#;d+;a;
+32        /
+
+Groove 60sRock1Sus
+Decresc m 4
+
+33        A
+34     C#m7
+35      F#m
+36      C#m
+
+37       Bm
+38        /
+Solo MidiPan Left Right 2m
+Solo Riff 4.r;8b+;e++;c+;4b+;
+39        E
+Solo Riff 8r;g#+;e++;b+;16a+;f#+;8e+;16c+;b;8a;
+40        /
+
+RepeatEnd
+
+KeySig A Minor
+
+Groove 60sRock
+Cresc mf 5
+
+41       Am
+42       C6
+43      Am6
+Solo MidiPan Center
+Solo Riff 2.r;8f;g;
+44      FM7
+Solo Riff 1a;
+45       Am
+46        G
+Solo MidiPan Right Left 2m
+Solo Riff 4r;8g+;a+;4c+;8.c+;16a+;
+47        D
+Solo Riff 8g#+;a+;4;8;g#+;16e+;8d+;
+48       E7
+
+Groove 60sRockSus
+Decresc mp 8
+
+49       Am
+50       C6
+51      Am6
+52      FM7
+
+53       Am
+54       G7
+
+Groove 60sRockEnd
+Tempo *.8 2
+
+55        C      /      /     F6
+56        C      /    z!
+
+// Just to be nice to the next song
+AllTracks MidiPan Center
+Solo MidiPan Center

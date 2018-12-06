@@ -1,0 +1,93 @@
+// Best Thing For You
+
+Tempo 180
+Keysig C
+
+Groove Metronome2-4
+	   z * 2
+
+Groove SoftShoeIntro
+Begin Solo
+  Voice Piano1
+  Volume ff
+  Harmony Open+8below
+  Articulate 100
+  Octave 5
+  Begin Riff
+    4g;8r;g;4;
+    4a;8r;a;4;
+	4a;8r;a;4a;;
+	1b;
+  End
+End
+1         C
+2         Am7
+3         Dm7
+4         G7sus  /  B
+
+Repeat
+Groove Softshoe
+
+5        B7
+6         /
+7      Em/G      /  Edim7
+8      Dm/F      /  Dm7b5
+9       C/G
+10      Dm7    F9/G     G7
+11      C/E      /   G7/D
+12        C
+
+Groove SoftShoePlus
+
+
+13       B7
+14        /
+15     Em/G      /  Edim7
+16     Dm/F      /  Dm7b5
+17      C/G
+18      Dm7    F9/G     G7
+19        C
+20        /
+
+Groove SoftShoeSus
+
+
+21       Ab
+22        /      / Bbm9/Ab     Ab
+23     Bbm7
+24      Eb7
+25       Fm
+26    Dm7b5
+27      C/E      /   G7/D
+28        C
+
+Groove SoftShoeSusPlus
+
+
+29       B7
+30        /
+31     Em/G      /  Edim7
+32     Dm/F      /  Dm7b5
+33      C/G
+34        /      /      /     Am
+35    D7sus
+36       D7      / Fm6/Ab
+
+Groove SoftShoeSus
+
+
+37      C/G
+38      Dm7    F9/G      /     G7
+
+RepeatEnding 2
+
+39        C      /  Ebdim
+40      Dm7      /     G7
+
+RepeatEnd
+
+Groove SoftShoeEnd
+
+41        C      /      F
+42   C6(add9)   /    z!
+

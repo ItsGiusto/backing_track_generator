@@ -1,0 +1,112 @@
+// Frenesi
+
+Tempo 116
+Keysig Ab
+
+Groove Metronome2-4
+   z * 2
+
+
+Groove RhumbaIntro
+Begin Solo
+  Voice Organ1
+  Harmony OpenBelow+8Above
+  Octave 5
+  Articulate 95
+  Volume mf
+  Accent 1 20
+  Begin Riff
+    4.a;8;
+	4.b;8;
+	4.d+;8;
+	2e+;
+  End
+End
+
+Cresc p mf 4
+
+1        Ab6
+2        Dbm
+3        Bbm
+4        Eb7  z
+
+Repeat
+Groove Rhumba
+Volume m
+
+5      Bbm7      /    Eb7
+6      Bbm7      /    Eb7
+7      Bbm7      /    Eb7
+8      Bbm7      /    Eb7
+
+Groove RhumbaSus
+Volume +20
+
+9       Ab6      /   AbM7
+10        /      /  Abdim3    Eb7
+11      Ab6
+12        /      z
+
+Groove Rhumba
+Volume m
+
+13     Bbm7      /    Eb7
+14     Bbm7      /    Eb7
+15     Bbm7      /    Eb7
+16     Bbm7      /    Eb7
+
+Groove Rhumba1
+Cresc m mf 4
+
+17      Ab6      /   AbM7
+18        /      /  Abdim3    Eb7
+19      Ab6
+20        z
+
+Groove Rhumba3Sus
+Decresc mp 8
+
+21      CM9      /     C6
+22     Bbm6
+23      CM9      /     C6
+24        z
+
+Groove Rhumba3
+
+25      CM9      /     C6
+26      Db9      /  Dm7b5
+27     Bbm7
+28      Eb9      z
+
+Groove Rhumba
+Cresc mf 8
+
+29     Bbm7      /    Eb7
+30     Bbm7      /    Eb7
+31     Bbm7      /    Eb7
+32     Bbm7      /    Eb7
+
+Groove RhumbaSus
+
+33      Ab6      /   AbM7
+34     Bbm7      /    Eb7
+
+RepeatEnding
+
+35      Ab6      /     E9
+36      Eb7      z
+
+
+RepeatEnd
+
+37      Ab6
+38        /      /  A9#11
+
+Groove RhumbaEnd1
+Decresc ppp 2
+Tempo *.8 2
+
+39   Ab6(add9)
+40        /  z!
+
+

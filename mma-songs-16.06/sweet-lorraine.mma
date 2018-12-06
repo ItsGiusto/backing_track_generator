@@ -1,0 +1,105 @@
+// Sweet Lorraine
+
+Tempo 120
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+    Voice SynthStrings1
+    Swell mp f 4
+    Octave 5
+    Harmony 3Below+2Above
+    Articulate 98
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+       4g;;2.~;
+       ~ 8e;f; g;a;f;e;
+       4e;;f;e;
+       1d;
+    End
+End
+
+Cresc mp f 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5         G      /     E7
+6        A7      /     D7
+7        Em      /     C7
+8        B7
+
+Groove FoxTrotSus
+Cresc mf 4
+
+9        E7      /     A7
+10       D7
+
+RepeatEnding
+
+11        G
+12      Am7      /     D7
+
+RepeatEnd
+
+13        G
+
+Groove FoxTrotFill
+14       G7
+
+Repeat
+Groove FoxTrot
+Volume m
+
+15        C      /     E7
+16       Am      /     C7
+17        F      /     E7
+18       Am      /     C7
+
+Groove FoxtrotPlus
+Swell f 4
+
+19       F7      /     E7
+20       A7      /     D7
+21       F7      /     E7
+22       A7      /     D7
+
+Groove FoxTrotSus
+Cresc mf 4
+
+23        G      /     E7
+24       A7      /     D7
+25       Em      /     C7
+26       B7
+
+Groove FoxTrotSusPlus
+Decresc mp 2
+
+27       E7      /     A7
+28       D7
+
+Repeatending
+
+29        G
+30       G7
+
+RepeatEnd
+Groove FoxTrotEnd
+Decresc ppp 2
+
+29        G
+30        /  z!
+
+

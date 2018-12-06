@@ -1,0 +1,70 @@
+// (The) Water Is Wide
+
+Tempo 90
+
+Groove Metronome2-4
+  z * 2
+
+Groove FolkBalladIntro
+
+Begin Solo
+   Voice Harmonica
+   Octave 5
+   Volume pp
+   Harmony 3Below+8Below
+   Articulate 80
+   Begin Riff
+      4r;g;;8;;
+      1d+;
+      4d+;b;g;2.d ~;
+   End
+End
+ 
+1         G
+2        D7
+3        G
+4        D7      /      G
+
+
+Repeat
+Groove FolkBallad
+
+Truncate 2
+5         /
+6         G
+7         /
+
+Groove FolkBalladSus
+
+8         /
+9         /
+Truncate 2
+10        /
+11       D7
+12        /
+
+Groove FolkBallad1
+
+13       Bm
+14        /      /     Em
+15        /
+16        C
+
+Groove FolkBallad1Sus
+
+17       D7
+18        /
+
+RepeatEnding 2
+
+19        G
+20        /
+
+RepeatEnd
+
+Groove FolkBalladEnd
+
+21        G
+22        /    z!
+
+

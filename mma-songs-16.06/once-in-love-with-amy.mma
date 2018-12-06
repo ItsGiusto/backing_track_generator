@@ -1,0 +1,95 @@
+// Once In Love With Amy
+
+Tempo 120
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+	Voice Piano1
+	Harmony Open+8Below
+	Octave 6
+	Volume m
+	Articulate 90
+	Begin Riff
+		4.d+;8b;4d+;b;
+		8d+;4;8b;4d+;b;
+		4c+;d+;e+;c+;
+		1a;
+	End
+End
+
+
+1   G       
+2   G#dim3
+3   Am7     
+4   D7      
+
+Repeat
+Groove FoxTrot
+
+5   G       /       G#dim3   
+6   D7      
+7   G       /       G#dim3   
+8   D7      
+9   G       /       G7      
+10  C       /       G       
+11  Am7     /       G       
+12  A7      /       D7b9    D7
+
+Groove FoxTrotPlus
+ 
+13  G       /       G#dim3   
+14  D7      
+15  G       /       G#dim3   
+16  D7      
+17  G       /       G7      
+18  C       /       G       
+19  Am7     /       G       
+20  B7      /       E7b9    E7
+
+Groove FoxTrotSus
+
+21  Am7     /       /       D9
+22  GM7     /       C9
+23  GM7     /       C9      
+24  GM7     /       E7b9    E7      
+25  Am7     /       /       D9      
+26  GM7     /       C9      
+27  D       z       A7   z
+28  D7
+
+Groove FoxTrotSusPlus
+
+29  G       /       G#dim3
+30  D7
+31  G       /       G#dim3   
+32  D7      
+33  G       /       G7      
+34  C       /       G       
+35  Am7     /       G       
+36  B7      /       E7b9    E7
+
+Groove FoxTrotPlus
+
+37  Am      
+38  A9      /       D7      
+
+RepeatEnding
+
+39  G
+
+Groove FoxTrotFill
+
+40  Am7     /       D7      
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+41  G       
+42  / z!
+

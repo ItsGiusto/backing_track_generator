@@ -1,0 +1,110 @@
+// Body And Soul
+
+Tempo 90
+
+Groove Metronome2-4
+ z * 2
+
+Groove Jazzguitar1Intro
+
+Begin Solo
+  Voice TremoloStrings
+  Articulate 110
+  Harmony 3Below+8Below
+  Volume m / / mp
+  Octave 5
+  Begin Riff
+     1a&+;
+	 1f+;
+	 1e&+;
+	 2.c+;
+  End
+End
+
+Cresc pp m 4
+
+1        Db
+2        Bbm
+3        Ebm
+4        Ab7
+
+Repeat
+Groove JazzGuitar
+Volume m
+
+5      Ebm7      /    Bb9
+6      Ebm7      /    Ab7
+7      DbM7    Gb7
+8       Fm7      /  Edim7
+
+Groove JazzGuitarSus
+Decresc mp 4
+
+9      Ebm7      / Ebm7/Db
+10    Cm7b5      /     F7
+11     Bbm7      /   Ebm9  Ab7#5
+12      Db6      /    Fm7  Bb7b9
+
+Groove JazzGuitarWalk
+Cresc mf 4
+
+13     Ebm7      /    Bb9
+14     Ebm7      /    Ab7
+15     DbM7    Gb7
+16      Fm7      /  Edim7
+
+Groove JazzGuitarWalkSus
+Volume m
+
+17     Ebm7      / Ebm7/Db
+18    Cm7b5      /     F7
+19     Bbm7      /   Ebm9  Ab7#5
+20      Db6      /    Em7     A7
+
+Keysig D
+Groove JazzGuitar1
+Volume mp
+
+21        D      /    Em7
+22     D/F#      /    Gm7     C7
+23     F#m7    Bm7    Em7     A7
+24        D
+
+Groove JazzGuitar1Sus
+Volume m
+
+25      Dm7      /     G9
+26      CM7      / Ebdim7
+27      Dm7      /     G7   G7#5
+28       C9     B9    Bb9  E9#11
+
+KeySig D minor
+Groove JazzGuitarSus
+Decresc mp 4
+
+29     Ebm7      /    Bb9
+30     Ebm7      /    Ab7
+31     DbM7    Gb7
+32      Fm7      /  Edim7
+
+Groove JazzGuitar
+Cresc mf 4
+
+33     Ebm7      / Ebm7/Db
+34    Cm7b5      /     F7
+
+RepeatEnding
+
+35     Bbm7      /   Ebm9  Ab7#5
+36       Db      /   Ab7
+
+RepeatEnd
+
+Groove JazzGuitarEnd1
+Tempo *.8 2
+Decresc ppp 2
+
+35     Bbm7      /   Ebm9  Ab7#5
+36       Db      /  z!
+
+

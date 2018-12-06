@@ -1,0 +1,82 @@
+// Swingin Down The Lane
+
+Tempo 144
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+	Voice Piano2
+	Volume mf
+	Articulate 98
+	Octave 5
+	Begin Riff
+		2d+;b;
+		2g;b;
+		2a;c+;
+		2a;
+	End
+End
+
+1   G       
+2   Em      
+3   Am      
+4   D7      
+
+Repeat
+Groove FoxTrot
+
+5   G       /       G+      
+6   G       /       A7      
+7   A9      
+8   /       
+9   D7      /       D7b5    
+10  Am7     /       D7      
+11  G6      
+12  /       /       Dm6 
+    
+Groove FoxTrotPlus
+
+13  E7      
+14  /       
+15  A7      
+16  /       
+17  /       
+18  /       
+19  D9      
+20  /       D7     
+ 
+Groove FoxTrotSus
+
+21  G       /       G+
+22  G       /       A7      
+23  A9      
+24  /       
+25  D7      /       D7b5    
+26  Am7     /       D7      
+27  G6      
+28  / 
+
+Groove FoxTrotSusPlus
+     
+29  E7b9    /       E7      
+30  /       
+31  B7      
+32  Em      
+33  D9      /       D7b9    
+34  D7      
+
+RepeatEnding 2
+
+35  G       
+36  D7      
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+37  G       /       C       
+38  G       z!
+

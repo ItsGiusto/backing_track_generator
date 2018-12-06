@@ -1,0 +1,168 @@
+// Jean
+// Sung by Oliver in 1969. 
+
+Tempo 100
+Keysig Eb
+
+Groove Metronome3
+  z * 2
+
+
+Groove WaltzIntro
+Begin Solo
+    Voice Piano1
+    Harmony OpenBelow
+    Articulate 110
+    Octave 5
+    Begin Riff
+        4.e;8g;4b;
+        4.e;8g;4c+;
+        4.f;8a;4c+;
+        4b;a;f;
+    End
+End
+
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Groove Waltz
+Volume m
+
+5        Eb
+6        Gm
+7        Ab
+8        Bb
+
+Groove Waltz1
+Volume mp
+
+9        Eb
+10       Cm
+11       Fm
+12       Bb
+
+Groove Waltz
+Volume m
+
+13       Eb
+14      Eb7
+15      Ab6     Ab
+16     Eb/G
+
+Groove Waltz1
+Decresc mp 8
+
+17       Fm
+18     Bb11
+19       Eb
+20       Bb
+
+Groove Waltz
+
+21       Eb
+22       Gm
+23       Ab
+24       Eb
+
+Groove WaltzSus
+Swell mf 8
+
+25       Eb
+26       Cm
+27       Fm
+28      Bb7
+
+Groove Waltz
+
+29       Eb
+30      Eb7
+31      Ab6     Ab
+32     Eb/G
+
+Groove WaltzSus
+Cresc m 4
+
+33       Fm
+34     Bb11
+35       Eb
+36        /      /    Eb7
+
+Groove WaltzWalk
+Decresc mp 4
+
+37       Ab
+38    Adim7
+39   EbM7/Bb
+40       Eb      /    Eb7
+
+Groove WaltzWalkSus
+
+41       Ab
+42    Adim7
+43   EbM7/Bb
+44       Eb
+
+Groove WaltzWalk
+Volume m
+
+45       Ab
+46    Adim7
+47       Gm
+48       Cb     Bb
+
+Repeat
+
+If Def Fine
+   Decresc pppp 16
+Else
+   Volume m
+Endif
+
+Groove Waltz
+
+49       Eb
+50       Gm
+51       Ab
+52       Bb
+
+Groove WaltzSus
+
+53       Eb
+54       Cm
+55       Fm
+56       Bb
+
+Groove Waltz
+
+57       Eb
+58      Eb7
+59      Ab6     Ab
+60       Eb
+
+Groove WaltzSus
+
+If Def Fine
+    Tempo *.8 4
+Endif
+
+61      Fm7
+62     Bb11     Bb   Bb11
+63       Eb
+
+If Def Fine
+   Groove WaltzEnd
+   Seq 4
+   64      Eb6
+Else
+    64     B&7
+Endif
+
+Set Fine
+
+RepeatEnd
+
+

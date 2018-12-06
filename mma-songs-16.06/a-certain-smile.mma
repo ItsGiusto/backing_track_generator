@@ -1,0 +1,109 @@
+// A Certain Smile 
+
+Tempo 166
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove BossaNovaIntro8
+
+Begin Solo
+    Voice Strings
+    Octave 5
+    Harmony 3Above
+    Articulate 100
+    Unify On
+    Swell mf ff 8
+    RVolume 10
+    Begin Riff
+        1+2f ~;
+        ~ 4a;f;
+        1+2d ~;
+        ~ 4e;f;
+        2g;f;
+        2g;2a;
+        1+2c+ ~;
+    End
+End
+
+Cresc mp mf 8
+
+1          F
+2          /
+3         Dm
+4          /
+5         Gm9
+6          /
+7         C7
+8          /
+
+Repeat
+Groove BossaNova
+Volume m
+
+9      Gm7/C
+10        C7
+11       FM7
+12       Dm7
+
+Groove BossaNova1Sus
+
+13       Gm7
+14        C7
+15       FM7
+16         /
+
+Groove BossaNova
+
+17       Em7
+18        A7
+19      DmM7    Dm7
+20        G7
+
+Groove BossaNovaPlus
+
+21       CM7      /    Am7
+22       Dm7      /     G7
+23       Gm7
+24        C7      /    Dm7
+
+Groove BossaNovaSusPlus
+
+25     Gm7/C
+26        C7
+27       FM7
+28       Dm7
+
+Groove BossaNovaSus
+
+29       Gm7
+30        C7
+31        A7
+32        D7
+
+Groove BossaNova
+
+33      BbM7
+34      D7b9
+35       Gm7
+36      Bbm7      /    Eb7 Eb7/Db
+
+Groove BossaNovaSus
+
+37     FM7/C      /    Dm7
+38       Gm7      /     C7
+
+RepeatEnding 2
+
+Groove BossaNovaFill
+
+39    F6(add9)
+40         /     C7
+
+RepeatEnd
+Groove BossaNova2End
+
+41    F6(add9)
+42         /     z!
+

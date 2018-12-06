@@ -1,0 +1,96 @@
+// Aint Misbehavin
+
+Tempo 100
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove GuitarBalladIntro
+
+Mset Intro
+	Begin Riff
+		8r;e;f;e;b;4.b;
+		8r;e;f;e;8c+;4.;
+		8r;f;g;f;3+3c+;b;a;
+		1f;
+	End
+msetend
+
+Begin Solo
+	Voice Piano1
+	Volume m
+	Articulate 90
+	Octave 5
+	$Intro
+End
+
+Begin Solo-1
+	Voice SoloVoice
+	Volume mp
+	HarmonyOnly OpenBelow
+	Articulate 100
+	Octave 6
+	$Intro
+End
+
+
+1        Eb
+2        Cm
+3        Fm
+4       B&7
+
+Repeat
+Groove GuitarBallad
+
+5        Eb
+6       Bb9
+7        Eb      /     G7
+8        Ab      /   Abm7
+9        Eb      /    Gb7
+10      Bb9
+11       Eb
+12       F7      /    Bb7
+
+Groove GuitarBallad1
+
+13       Eb
+14      Bb9
+15       Eb      /     G7
+16       Ab      /   Abm7
+17       Eb      /    Gb7
+18      Fm6      /    Bb9
+19       Eb      /     Ab
+20      Eb7      /      /     G7
+
+Groove GuitarBalladSus
+
+21       Cm
+22      Ab7
+23       F7
+24       C7
+25       F6
+26      Cm7      /     F9
+27      Bb7      /     C7
+28       F7      /    Bb7
+
+Groove GuitarBallad1Sus
+
+29       Eb
+30      Bb9
+31       Eb      /     G7
+32       Ab      /   Abm7
+33       Eb      /    Gb7
+34      Bb9
+
+Repeatending
+
+35      Eb9
+36      B&7
+
+RepeatEnd
+Groove GuitarBalladEnd
+
+37      Eb9
+38      Eb6 / z!
+

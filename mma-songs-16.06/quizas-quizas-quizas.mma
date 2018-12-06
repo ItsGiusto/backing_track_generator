@@ -1,0 +1,83 @@
+// Quizas Quizas Quizas (Perhaps, Perhaps, Perhaps)
+
+Tempo 110
+Keysig E Minor
+
+Groove Metronome2-4
+	z * 2
+
+Groove LightTangoIntro
+Begin Solo
+	Voice Piano2
+	Volume f
+	Articulate 80
+	Harmony 8Below
+	Octave 5
+	Begin Riff
+		2.e;4b-;
+		4g;8r;e;4f;8r;d#;
+		1+2e~;
+	End
+End
+
+1   Em      /       B7      
+2   Em      /       B7      
+3   Em      /       Am6     
+4   Em      /       z       
+
+Repeat
+Groove LightTango
+
+5   Em      
+6   Am      /       B7      
+7   Em      
+8   Am      /       B7      
+9   Em      /       /       B7      
+10  Em      /       B7      
+11  Em      /       Am6     
+12  Em      /       z 
+
+Groove LightTangoSus
+      
+13  Em      
+14  Am      /       B7      
+15  Em      
+16  Am      /       B7      
+17  Em      /       /       B7      
+18  Em      /       B7      
+19  Em      /       Am6     
+20  Em      /       F#m7    
+
+Groove LightTango1
+ 
+21  B7      /       /       F#m7    
+22  B7      
+23  E       
+24  /       /       F#m7    
+25  B7      /       F#m7    
+26  B7      
+27  E       
+28  /       /       z 
+
+Groove LightTangoSus
+       
+29  Em      
+30  Am      /       B7      
+31  Em      
+32  Am      /       B7      
+33  Em      /       /       B7      
+34  Em      /       B7      
+
+RepeatEnding
+
+35  Em      /       F#m7b5  
+36  Em       /       z       
+
+RepeatEnd
+
+37  Em      /       Am6     
+
+Groove LightTangoEnd
+
+38  Em      
+

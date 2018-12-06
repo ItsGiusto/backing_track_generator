@@ -1,0 +1,106 @@
+// Beyond The Reef
+// This song was recorded by Elvis Presley on 27th May 1966, but not released until 1980
+// His version is a very dull, 70 bpm ... as a latin ballad it doesn't sound all that bad :)
+
+Tempo 100
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove RhumbaIntro
+
+Mset Riff
+ 	Begin Riff
+		2a;4d+;c+;
+		4.g;8a;2b;
+		2c+;a;
+		1f;
+	End
+EndMset
+
+Begin Solo
+	Voice SteelGuitar
+	Octave 4
+	Articulate 105
+	Volume f
+	$Riff
+End
+
+Begin Solo-1
+	Voice ChoirAahs
+	Octave 5
+	Articulate 120
+	Volume mp
+	HarmonyOnly Open+8Below
+	$Riff
+End
+
+1        Bb
+2        Gm
+3        Cm
+4         F
+
+Set Pass 1
+Repeat
+Groove $pass Rhumba Rhumba3
+Cresc mp mf 8
+
+5        C7
+6         /
+7         F
+8         /      /      /   Fdim
+9        Gm
+10       C7
+11        F
+12        /
+
+Groove $pass RhumbaSus Rhumba3Sus
+
+13       C7
+14        /
+15        F
+16        /      /      /   Fdim
+17       Gm
+18       C7
+19        F
+
+Groove $pass Rhumba Rhumba3
+DeCresc  mp 8
+
+20       F7
+21       Bb
+22        /      /    Bbm
+23        F
+24        /      /     D7
+25       Gm
+26        /      /    Bbm
+27       C7
+
+Groove $pass RhumbaSus Rhumba3Sus
+Cresc mf 4
+
+28        /      /      F
+29       C7
+30        /
+31        F
+32        /      /      /   Fdim
+33       Gm
+34       C7
+
+RepeatEnding
+
+35        F
+36        /
+
+Inc Pass
+
+RepeatEnd
+Groove RhumbaEnd1
+Decresc mp 2
+
+35        F
+36        / z!
+
+
+

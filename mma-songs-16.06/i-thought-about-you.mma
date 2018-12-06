@@ -1,0 +1,102 @@
+// I Thought About You
+
+Tempo 110
+KeySig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove ModernJazzIntro
+
+Begin Solo
+   Voice JazzGuitar
+   Octave 6
+   Harmony Open+8Below
+   Articulate 110
+   Volume ff
+   Begin Riff
+      8r;f;a;c+;e+;d+;c+;a;
+	  8r;d;f;a;c+;b;a;g;
+	  8r;g;b;d+;4c+;d+;
+	  1c+;
+   End
+End
+
+Swingmode On
+
+1         F
+2        Dm
+3        Gm
+4        C7  / / z!
+
+Repeat
+Groove ModernJazz
+
+5       FM7      /     E7
+6        A7      /     D7
+7        G7
+8         /
+
+Groove ModernJazzSus
+
+9       Gm7      /     C7
+10    Edim7      /     A7
+11      Dm7      /     G7
+12      Cm7      /     F7
+
+Groove ModernJazz
+
+13     BbM7
+14     Bbm7      /    Eb7
+15      FM7
+16        /
+
+Groove ModernJazz1
+
+17    Bdim7      /     E7
+18    Bdim7      /     E7
+19      Am7      /     D7
+20      Gm7      /     Cm9
+
+Groove ModernJazz
+
+21      FM7      /     E7
+22       A7      /     D7
+23       G7
+24        /
+
+Groove ModernJazz1Sus
+
+25      Gm7      /     C7
+26    Edim7      /     A7
+27      Dm7      /     G7
+28      Cm7      /     F7
+
+Groove ModernJazz
+
+29     BbM7
+30     Bbm7      /    Eb7
+31      FM7
+32    Bdim7      /     E7
+
+Groove ModernJazz1
+
+33      Am7      /     D7
+34      Gm7      /     C7
+
+RepeatEnding
+
+35      FM7
+36     Gm7      /    C7
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Decresc ppp 2
+Tempo *.8 2
+
+35     FM7
+36     /     /  z!
+
+
+

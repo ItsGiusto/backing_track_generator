@@ -1,0 +1,120 @@
+// Because Of You
+
+Tempo 96
+KeySig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxtrotIntro
+Begin Solo
+  Voice TremoloStrings
+  Octave 5
+  Harmony OpenBelow+8Below
+  Articulate 105
+  Begin Riff
+     4r;g;a;g;
+	 4.e+;8d+;4c+;b;
+	 4a;b;c+;d+;
+	 4.b;
+  End
+  Cresc pp m 4
+End
+
+Cresc p m 4
+1        Eb
+2        Cm
+3        Fm
+4       Bb7  z! /  /
+
+Groove FoxTrotSus
+BeatAdjust -4
+		 z! Bb7  Bbdim3  
+
+
+Repeat
+Groove FoxTrotSus
+Volume m
+Seq 1
+
+5       Bb7
+6        Fm      /    Fm7    Bb7
+7        Eb
+8         /      /  Bbdim
+
+Groove FoxTrot
+Volume +10
+
+9       Bb7
+10       Fm      /    Fm7    Bb7
+11       Eb
+12        /      /    Bb+
+
+Groove FoxTrotPlus
+Volume m
+
+13      Bbm
+14       C7      /     C+
+15       Fm      /     C+
+16       Fm
+
+Groove FoxTrotSus
+Decresc m p 4
+
+17       F9
+18     F7b9
+19      Fm7      /    Abm
+20      Bb7      /  Bbdim
+
+Groove FoxTrotSusPlus
+Cresc mf 4
+
+21      Bb7
+22       Fm      /    Fm7    Bb7
+23       Eb
+24        /      /    Bb+
+
+Groove FoxTrot
+Volume m
+
+25      Bbm
+26       C7    Bbm      /     C7
+27       Fm      /     C7
+28       Fm
+
+Groove FoxTrotSus
+Volume -10
+
+29       Ab
+30       D7
+31       Eb
+32       Cm      /     G7    Cm7
+
+Groove FoxTrot
+Volume m
+
+33       F9
+34      Bb7
+
+RepeatEnding
+
+Groove FoxTrotFill
+
+35       Eb
+36        /      /  Bbdim
+
+Begin AllGrooves Arpeggio
+    Voice Clarinet
+	Volume pp
+	Articulate 120
+End
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Tempo *.8 2
+Decresc ppp 2
+
+37       Eb      /     Ab
+38       Eb      /     z!
+

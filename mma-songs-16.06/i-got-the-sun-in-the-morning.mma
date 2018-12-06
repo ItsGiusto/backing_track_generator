@@ -1,0 +1,90 @@
+// I Got The Sun In The Morning
+
+Tempo 140
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+ Voice JazzGuitar
+ Volume f
+ Harmony Open+8Below
+ Articulate 90
+ Octave 6
+ Begin Riff
+   4c;8e;4f;4.;
+   4d;8e;4f;4.;
+   4g;8f;4d;4.;
+   1c;
+ End
+End
+
+Groove SwingIntro
+
+1      F     
+2      Dm  
+Groove Swing  
+3      Gm7  
+4      C7    
+
+Repeat
+Groove Swing
+
+5      C7 /    F6    
+6      C7 /    F6    
+7      C7 /    F6    
+8      /    /    /    F7    
+9      Bb    /    F/A   
+10     Gm7   /    F6    
+11     Bb    /    F     
+12     Gm7   /    F6    
+
+Groove SwingSus
+   
+13     C7 /    F6 
+14     C7 /    F6    
+15     C7 /    F6    
+16     /    /    /    F7    
+17     Bb    /    F/A   
+18     Gm7   /    F6    
+19     Bb    /    F     
+20     Gm7   /    F6   
+
+Groove SwingPlus
+ 
+21     A7    
+22     /    /    /    D7sus 
+23	/
+24     /    /    D9  
+
+Groove SwingPlusSus
+  
+25     G7    
+26     /    /    /    BbM7
+27	/
+28     /    /    C9   
+
+Groove SwingWalk
+ 
+29     C7 /    F6    
+30     C7 /    F6    
+31     C7 /    F6    
+32     /    /    /    F7    
+33     Bb    /    F/A   
+34     Gm7   /    F6    
+35     Bb    /    F     
+36     Gm7   /    F6    F7    
+37     Bb    /    F/A   
+38     Abdim /    Gm7   
+39     /    /    C7b9     F6    
+
+RepeatEnding
+
+40     /    /    C7    
+
+RepeatEnd
+
+Groove SwingEnd
+
+41     C7    Gb7   F    z!
+

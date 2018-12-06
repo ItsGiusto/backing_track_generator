@@ -1,0 +1,100 @@
+// At Last
+
+Tempo 60
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove SlowBluesIntro
+
+Begin Solo
+    Voice Organ1
+    Octave 5
+    Harmony OpenBelow
+    Articulate 120
+    Begin Riff
+        2.c+;8.d+;16e+;
+        2.a;8.b;16c+;
+        4d+;c+;b;a;
+        1g;
+    End
+End
+
+Solo Swell p mp 4
+Cresc mp m 4
+
+1         C
+2         Am
+3         Dm
+4        G7
+
+Groove SlowBlues
+Decresc m mp 4
+
+5         C      /     Am
+6       Dm7      /     G7    Dm7
+7         C      /     Am
+8       Dm7      /    G9+     G7
+
+Groove SlowBluesSus
+
+
+9         C      /    Am7
+10      Dm7      /    Fm6     G7
+11        C      /     Am
+12      Fm6      /    G13     G7
+
+Groove SlowBluesWalk4
+Decresc m mp 4
+
+13        C      /     Am
+14      Dm7      /     G9    Dm7
+15        C      /     Am
+16      Dm7      /    G9+     G7
+
+Groove SlowBluesWalk4Sus
+Swell mp m 4
+
+17        C      /    Am7
+18      Dm7      /    Fm6     G7
+19        C      /    Fm6
+20        C      /     G7     C7
+
+Groove SlowBluesSus
+Volume mp
+
+21      FM7      /   G7b9
+22      CM7     C6      /      B
+23      Am6      / B7#5b9   B7b9
+24       Em      /      /    Am6
+
+Groove SlowBluesWalk4Sus
+Cresc m 2
+
+25    Am7b5      /     D7
+26      GM7      /     G6      C
+27      Am7      /   D7b9
+28        G    Dm7    G13     G7
+
+Groove SlowBlues
+
+29        C      /     Am
+30      Dm7      /     G9    Dm7
+31        C      /     Am
+32      Dm7      /    G9+     G7
+
+Groove SlowBluesSus
+Decresc mp 2
+
+33        C      /    Am7
+34      Dm7      /   G7b9     G7
+
+Groove SlowBluesEnd
+Seq 3
+Decresc ppp 2
+
+35        C      /    Fm6
+36       C6      z!
+
+

@@ -1,0 +1,113 @@
+// Ill Be Seeing You
+
+Tempo 110
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove BigBandIntro
+Begin Solo
+     Voice JazzGuitar
+     Articulate 110
+     Swell mf f 4
+     Harmony OpenBelow+8Below
+
+     /// played by bob and converted with MMA. 
+     /// MidiInc file=~/foo.mid Solo=1,riff,print Volume=150 StripSilence=76
+
+     Begin Riff
+           <Offset=0> 331t 75/124;<Offset=309> 70t 72/108;<Offset=402> 170t 70/102; \
+               <Offset=579> 201t 67/87;<Offset=763> 362t 70/93~;
+           <Offset=361> 391t 72/96;
+           <Offset=13> 189t 68/99;<Offset=203> 163t 70/105;<Offset=388> 191t 68/76; \
+               <Offset=580> 203t 67/82~;
+           <Offset=14> 488t 65/82;
+     End
+End
+
+Swell mp m 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove BigBand
+Volume m
+
+5        Eb
+6        G7
+7        Fm      /     C7
+8        Fm
+
+Groove BigBandPlus
+Decresc mp 4
+
+9         /      /     C7
+10       Fm      /    Bb7
+11       Eb      /    Fm7
+12    F#dim      /   Eb/G
+
+Groove BigBandSus
+Cresc mf 4
+
+13      Cm7
+14        /
+15      Fm7
+16        /
+
+Groove BigBandSusPlus
+
+17      Bb7
+18    Bb7#5
+19      Eb6
+20    Bb9#5
+
+Groove BigBand
+Volume m
+
+21       Eb
+22       G7
+23       Fm      /     C7
+24       Fm
+
+Groove BigBandPlus
+Decresc mp 4
+
+25        /      /     C7
+26       Fm      /    Bb7
+27    Gm7b5
+28       C7
+
+Groove BigBandSus
+Cresc m 4
+
+29       Fm      /  Dm7b5
+30       G7
+31      Cm7
+32       F9
+
+Groove BigBandSusPlus
+Decresc mp 2
+
+33      Fm7
+34     Abm6
+
+RepeatEnding
+
+35       Eb
+
+Groove BigBandFill
+
+36      Fm7    Bb7  Bb7#5
+
+RepeatEnd
+
+Groove BigBand1End
+Decresc ppp 2
+
+37       Eb    FM7    Em7
+38      Eb6   z!
+

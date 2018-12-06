@@ -1,0 +1,77 @@
+// Shoo Fly Pie And Apple Pan Dowdy
+
+Tempo 130
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+
+Begin Solo
+	Voice Piano2
+	Harmony Open
+	Octave 5
+	Volume m
+	Articulate 90
+	Begin Riff
+		8a;4f;2f;
+		8f;4d;2d;
+		3+3a;g;a;4a;;
+		1g;
+	End
+End
+
+1   F       
+2   Bb      
+3   F       
+4   C7      
+
+Repeat
+Groove FoxTrot
+Repeat
+
+5   F       
+6   Bb      /       C7      
+7   F       /       Abdim7  
+8   G7      /       C7      
+9   F       /       F/A     
+10  Bb      /       F/A     
+11  F       /       Bb      
+12  F/C     C7      F6      
+
+Groove FoxTrotSus
+
+RepeatEnd
+
+Groove FoxTrot1
+
+13  A7      
+14  /       
+15  D9      
+16  /       
+17  G7      
+18  /       
+19  C7      /       F#dim7  
+20  Gm7     /       C7   
+
+Groove FoxTrotPlus
+   
+21  F       /       F/A     
+22  Bb      /       C7      
+23  F       
+24  G7      /       C7      
+25  F       /       F/A     
+26  Bb      /       F/A     
+
+RepeatEnding
+
+27  F       /       Bb      
+28  F/C     C7      F6    
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+27  F       /       Bb      
+28  F/C     C7      F6  z!

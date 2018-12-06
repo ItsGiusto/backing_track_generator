@@ -1,0 +1,208 @@
+// Eleanor Rigby
+
+/// No library used here. All the accomp is done with chords
+///  and bass tracks. A lot of work to do it this way, but having
+///  a lib would be just a hard :)
+
+Tempo 132
+KeySig E minor
+
+Groove Metronome2-4
+  z * 2
+SeqClear   /// needed here to turn off clicker
+
+Include stdpats
+
+Seqsize 4
+
+Begin Solo
+    Voice ChoirAahs
+    Articulate 95
+    Octave 4
+    Harmony 2Above+2Below
+    Volume mf
+End
+
+Begin Arpeggio
+    Voice PizzicatoString
+    Articulate 80
+    Volume mp
+    Range .5
+    Octave 5
+End
+
+Begin Chord-Violin
+    Voice Violin
+    Articulate 90
+    Volume mp
+    Octave 5
+End
+
+Begin Chord-Sus
+    Voice Viola
+    Articulate 100
+    Unify On
+    Octave 5
+    Volume mp
+End
+
+Begin Bass-Viola
+    Voice Viola
+    Articulate 70
+    Octave 5
+    Volume m
+    Harmony 2Above
+End
+
+Begin Bass-Cello
+    Voice Cello
+    Octave 3
+    Volume mp
+    Articulate 80
+End
+
+
+
+////////////////////////////////////////////////////////
+/// Song starts here
+
+Label Start
+Seq    // make sure we're starting at the right spot
+       // nescessary since we're jumping back from
+       // an un-even seq point
+
+// For the intro we add in some electronic voices
+
+
+Chord-Violin Sequence  {1 1+1+2 90} z z z
+Arpeggio     Sequence  z  z  { 4 8 90; 4.5 8 90} A8
+Chord-Sus    Sequence  {1 1 90 0 90 0 * 4 }
+Bass-Viola   Sequence  {1 1 1 90 * 4}
+Bass-Cello   Sequence  {1.5 8 5 80; 2 8 6 80; 2.5 8 7 80; 3 1 1+ 80} z \
+                       {1 8 5 90; 2.5 8 5 80; 3 1 1+ 90}  z
+
+Repeat        // This is the 8 bar intro
+
+Begin Solo Riff
+    2+8e+; 8f+;g+;4a+ ~;
+    ~ 4g+;f+;e+;b~;
+    1g;
+End
+
+Swell mp mf 8
+
+1          C
+2          /
+3         Em
+4          /
+
+RepeatEnd
+
+// Verse, done a total of 3 times
+
+Repeat
+
+Chord-Violin Sequence  {1 1+1+1+1 90 } z z z
+Arpeggio     Sequence  z z  z A8
+Chord-Sus    Sequence  -
+Bass-Viola   Sequence  {1 1 1 90 * 4}
+Bass-Cello   Sequence  {1 1 1 80 * 4} {2.5 4. 5 90; 4.5 4. 4 80} {2 2 3 90} {1 1 1 90}
+
+Seq
+Cresc mp m 4
+
+5         Em
+6          /
+7          /
+8          C
+
+Chord-Violin Sequence  {1 1 90} {1 1 90 * 4}
+Arpeggio     Sequence  z
+Chord-Sus    Sequence  -
+Bass-Viola   Sequence  {3 4 3- 90} \
+                       {3.5 8 5- 90; 4 8 1 90; 4.5 8 2 90} \
+                       {1 4 3 90; 2.5 4. 2 90; 4.5 4. 1 90} \
+                       {2.5 4. 7- 90;4. 1 1 90}
+Bass-Cello   Sequence  {1 1 1 80 * 4}
+
+Seq
+Volume mp
+
+9          /      /     Em
+10         /
+11         /
+12         /
+
+Chord-Violin Sequence  {1 1 90 * 4} / z z
+Arpeggio     Sequence  z
+Chord-Sus    Sequence  z z {1 1 90 0 90}
+Bass-Viola   Sequence  {1 1 1 90 * 4} \
+                       {1 4 1 90; 2 4 2- 90; 3 4 3- 90; 4 4 3- 90} \
+                       {1 1 1 90 * 4} /
+Bass-Cello   Sequence  {1 1 1 90 * 4} / {1 1 1 80}
+
+Seq
+Volume m
+
+13         C
+14         /      /     Em
+15         /
+16         /
+
+Chord-Violin Sequence  {1 1 90} {1 1 90 * 4} { 1 1+1 90} z
+Arpeggio     Sequence  z
+Chord-Sus    Sequence  {1 1 90 0 90}
+Bass-Viola   Sequence  {1 1 1 90 * 4}
+Bass-Cello   Sequence  {1 1 1 80}
+
+Seq
+Cresc mf 4
+
+17         C
+18        Em
+19         /
+20         /
+
+Chord-Violin Sequence  {1 1 90} {1 1 90 * 4} { 1 1+1 90} z
+Arpeggio     Sequence  {4.5 8 90}{1 4 90; 2 8 90; 2.5 4 90; 3. 4 90; 4.5 8 90}
+Chord-Sus    Sequence  {1 1 90 0 90}
+Bass-Viola   Sequence  -
+Bass-Cello   Sequence  {1 1 1 80}
+
+Seq
+Decresc mp 2
+
+21         C
+
+If Def Coda
+  Goto Coda   // 3rd time, do final 2 bars
+Endif
+
+RepeatEnding
+
+22        Em
+
+RepeatEnd
+
+23        Em
+
+// After 2 verses we want to go back to the top (DS al Coda)
+
+Set Coda
+Goto Start
+
+Label Coda
+
+Seq
+
+Chord-Violin Sequence  {1 1 90} {1 2 80}
+Arpeggio     Sequence  -
+Chord-Sus    Sequence  {1 1 90 0 90 0 * 2} {1 2 90 0 90 0}
+Bass-Viola   Sequence  {1 4. 3 90; 2 4. 1 90; 3 2. 5- 90} {1 2 3- 90}
+Bass-Cello   Sequence  {1 1 1 80} {1 2 1 80}
+
+Decresc pppp 2
+Tempo *.6 2
+
+24        Em
+25         /     z!

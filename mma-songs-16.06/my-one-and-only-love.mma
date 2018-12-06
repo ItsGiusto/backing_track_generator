@@ -1,0 +1,105 @@
+// My One And Only Love
+
+Transpose  3
+Tempo 66
+KeySig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingSus
+Begin Solo
+    Voice JazzGuitar
+	Articulate 99
+	Harmony Open
+	Volume f
+	Octave 5
+	Begin Riff
+	    8g-;c;;;2;
+		8a-;c;;;2;
+        8d;e;f;e;d;b-;a-;g-;
+		1g-;
+	End
+End
+
+Swell p f 4
+
+1       CM7  
+2       Am   
+3       G7   
+4 	/ / / z
+
+Groove EasySwing
+
+Repeat
+Volume m
+
+5       CM7   C     Am7   
+6       D7    /     G7   
+7       C     /     F
+8       G7    /     Em7   A7   
+
+Decresc mp 2
+
+9       Dm7   /     G7    Em7
+10      Am7   /     D7   
+
+RepeatEnding
+
+11      Dm7   G7   
+12      Em7   A7    Dm7   G7   
+
+Groove EasySwingSus
+
+RepeatEnd
+
+13      Dm7   G7   
+14      C6    /     F#m7b5  
+
+Repeat
+
+Groove EasySwing
+Volume m
+
+15      Em   
+16      F#m7  /     B7   
+17      Em   
+18      F#m7  /     B7 
+  
+Groove EasySwingWalk
+Volume mf
+
+19      Em   
+20 		/
+
+Decresc mp 2
+
+21      Dm7   /     Bb9
+22      Dm7   /     G7   
+
+Groove EasySwingSus
+Cresc mf 4
+
+23      CM7   C     Am7
+24      D7    /     G7   
+25      C     /     F
+26      G7    /     Em7   A7   
+
+Groove EasySwingWalkSus
+Decresc m 3
+
+27      Dm7   /     G7    Em7   
+28      Am7   /     D7   
+29      Dm7   /     G7b9 
+
+RepeatEnding
+
+30      C6   
+
+RepeatEnd
+
+Groove EasySwingEnd
+Tempo *.7 1
+Decresc pppp 1
+31      C     Dm7   G7    C6   
+

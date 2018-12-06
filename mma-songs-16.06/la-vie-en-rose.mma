@@ -1,0 +1,114 @@
+// La Vie En Rose
+
+// Most English versions are much slower, but the original version
+// by Edith Piaf is a bit faster (~82 for the chorus, 70 for the verse)
+//. If the queen of dirge can do it at this "happy" speed, so can we.
+
+Tempo 80
+Keysig C
+
+Transpose 7
+
+Groove Metronome2-4
+ z * 2
+
+Groove BalladIntro //SlowJazz1Intro
+
+Begin AllGrooves 
+   Begin Arpeggio-Plus
+     Voice Piano1
+     Volume mp
+   End
+   Begin Chord-Sus
+      Voice Accordion
+   End
+End
+
+Begin Solo
+ Voice Piano1
+ Volume f
+ Harmony Open
+ Articulate 90
+ Octave 5
+ Begin Riff
+   4.c+;8b;4a;g;
+   4.a;8g;4f;e;
+   4.d;8e;4f;g;
+   2g;8f;
+ End
+End
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+// Verse
+
+//Tempo 60
+//Volume mp
+//Groove BalladSus//SlowJazzSus
+//Truncate 1.5 Side=Left
+
+//5      G7&9
+
+//Tempo 66 
+
+//Groove Ballad1Sus//SlowJazzSus
+
+//6          C      /      /   A7&9
+//7         Dm      /      /     G7
+//8          C      /     Gm
+//9         A7      /    Dm7     G7
+
+Repeat
+// Chorus
+Tempo 80
+Volume m
+Groove Ballad //SlowJazz1
+Swell f 8
+
+10         C
+11       CM7      /     C6
+12         C
+13       Dm7      /     G7
+
+Groove Ballad1Plus //SlowJazz1Walk
+
+14        Dm      /     G7
+15         /
+16       Dm7      /     G7
+17         C   F#m6    Dm7     G7
+
+Groove BalladSusPlus //SlowJazz1WalkSus
+Volume p
+18         C
+19       CM7      /     C6
+20         C      /      /     C7
+21         F
+
+Groove BalladSus //SlowJazz1Sus
+Volume mp
+
+22        Fm
+23         C
+24    Ebdim3
+25       Dm7      /      /   G7b9
+
+Groove Ballad1 //SlowJazz1
+Cresc f 4
+
+26         C
+27       CM7      /     C6
+28       Dm7      /      /     G7
+
+RepeatEnding 
+29         C      /     G7
+
+RepeatEnd
+
+Groove BalladEnd //SlowJazzEnd
+Seq 2
+
+30         C    Cm7      C     z!
+

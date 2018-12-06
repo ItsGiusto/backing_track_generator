@@ -1,0 +1,106 @@
+// God Bless The Child
+
+Tempo 64
+KeySig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice Organ3
+    Volume f
+    Articulate 120
+    Octave 6
+    Harmony Open8Below+OpenAbove
+    Begin Riff
+        4g;;2e;
+        4c;;2e;
+        4a;;g;a;
+        2.f;
+    End
+End
+
+Groove SlowBluesIntro
+Swell mp f 4
+
+1        Eb
+2        Cm
+3        Fm
+4        Bb7
+
+Repeat
+Groove SlowBlues
+Volume m
+
+5      EbM7    Eb7    Ab6
+6      EbM7    Eb7    Ab6
+7      Bbm7      /    Eb7
+8      Bbm7   E9b5    Eb9
+
+Groove SlowBluesSus
+Cresc mf 4
+
+9      AbM7      /    Ab6
+10      Abm      /   Abm6
+11      Gm7      /   C7b9
+12      Fm9      /    Bb7
+
+Groove SlowBluesWalk4
+Decresc mp 2
+
+13      Eb6
+
+RepeatEnding
+
+Groove SlowBlues12Triple
+
+14       Cm    Gm7    Fm7    Bb7
+
+RepeatEnd
+
+Groove SlowBlues34Triple
+
+15      Ab7      /     G7
+
+Groove SlowBluesWalk4
+Volume m
+
+16       Cm      /   CmM7
+17      Cm7      /    Cm6
+18       Gm
+19       D7      /     C7
+
+Groove SlowBluesWalk4Sus
+Cresc f 4
+
+20       Cm      /   CmM7
+21      Cm7      /    Cm6
+22       Gm      /     C7
+23     B9b5    Bb9    Fm7    Bb7
+
+Groove SlowBluesFill3
+Decresc mp 4
+
+24     EbM7    Eb7    Ab6
+25     EbM7    Eb7    Ab6
+26     Bbm7     /    Eb9
+27     Bbm7   E9b5    Eb9
+
+Groove SlowBluesSus
+Cresc m 2
+
+28     AbM7      /    Ab6
+29      Abm      /   Abm6
+
+Decresc p 2
+
+30      Gm7      /     C9   C7b9
+31      Fm9      /    Bb7
+
+Groove SlowBluesEnd
+Seq 3
+Decresc pp 2
+
+32      Eb6
+33        /  z!
+

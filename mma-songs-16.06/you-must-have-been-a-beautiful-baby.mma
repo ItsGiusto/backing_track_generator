@@ -1,0 +1,79 @@
+// You Must Have Been A Beautiful Baby
+
+Tempo 128
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove ChaChaIntro
+
+Begin Solo
+ Voice Marimba
+ Volume f
+ Harmony Open
+ Articulate 100
+ Octave 5
+ Begin Riff
+   4g;;8;;;;
+   4e;;8;;;;
+   4f;;;;
+   1g;
+ End
+End
+
+Cresc pp m 4
+
+1        Eb
+2        Cm
+3        Fm
+4        G7
+
+Repeat
+Groove ChaCha
+
+5         C    Dm7   Cdim3      C
+6        C+  DM7#5   C7#5
+7        F9      /    Cm7
+8        F9    Cm7    Eb+     F9
+
+Groove ChaCha1
+
+9      AbM7      /    Bb6    Bb7
+10     AbM7      /    Bb6    Bb7
+11     EbM7      /      /   Cdim3
+12      Fm7      /    Bb7     G7
+
+Groove ChaCha
+
+13        C    Dm7   Cdim3      C
+14       C+  DM7#5   C7#5
+15       F9      /    Cm7
+16       F9    Cm7    Eb+     F9
+
+Groove ChaChaSus
+
+17     AbM7      /    Bb6    Bb7
+18     AbM7      /    Bb6    Bb7
+19       Eb      /    Cm7
+20       F9      /   Cdim3
+
+Groove ChaCha
+
+21       Eb      /     G7
+22       C7      /   C7#5     C7
+
+RepeatEnding 2
+
+23       F9      /   AbM7    Bb7
+
+Groove ChaChaFill
+
+24       Eb
+
+Repeatend
+
+Groove ChaChaEnd
+
+23       F9      /   AbM7    Bb7
+24       Eb

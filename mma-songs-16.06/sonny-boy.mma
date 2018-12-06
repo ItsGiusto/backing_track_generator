@@ -1,0 +1,120 @@
+// Sonny Boy
+
+Tempo 90  // our tempo is a bit less sentimental :)
+KeySig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BluesIntro
+
+Begin AllGrooves
+  Begin Chord-Sus
+     Voice ChoirAahs
+     Voicing Mode=Key
+     Octave 6
+  End
+  Chord Voicing Mode=Key
+End
+
+Cresc p mf 4
+
+1         Eb
+2         Cm
+3         Fm
+4        Bb7
+
+
+Groove Blues
+Volume m
+
+5         Eb    Abm     Eb    Abm
+6         Eb
+Cresc mf 2
+7         Gm     Cm     Gm     Cm
+8         Gm      /    Eb9
+
+Groove Blues1
+
+9         Ab      /    Bb9
+10        Eb     G7    Bbm     C7
+Decresc mp 2
+11        Bb      /   E&m7     F7
+12       Bb7
+
+Repeat
+
+Groove BluesSus
+Volume m
+
+13        Eb
+14     Gm7b5      /     C7
+15        Fm
+16       Fm7      /    Bb7
+
+Groove Blues1Sus
+
+17        Eb
+18    Bbdim7
+19       Fm7
+20       Bb7
+
+Groove Blues
+Volume mf
+
+21        Eb
+22     Gm7b5      /     C7
+23        Fm
+24       Fm7      /    Bb7
+
+Groove Blues1
+
+25        Cm
+26       Fm7      /    Bb7
+27        Eb      /    Ab7
+28        Eb
+
+Groove BluesSus
+Cresc f 4
+
+29        G7
+30         /
+31      C7b9
+32         /
+
+Groove Blues1Sus
+
+33       Cm7
+34        F7
+35       Bb7      / Bbdim7
+36       Bb7
+
+Groove Blues
+Volume m
+
+37        Eb
+38     Gm7b5      /     C7
+39        Fm
+40       Fm7      /    Bb7
+
+Groove Blues1
+Decresc mp 2
+
+41        Cm
+42       Fm7      /    Bb7
+
+
+RepeatEnding
+
+43        Eb
+44       Fm7      /    Bb7
+
+RepeatEnd
+
+Groove BluesEnd
+Seq 3
+Decresc ppp 2
+
+43        Eb
+45      AbM9      /   Abm6     Eb
+

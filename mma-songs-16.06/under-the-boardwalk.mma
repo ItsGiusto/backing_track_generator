@@ -1,0 +1,101 @@
+// Under The Boardwalk
+
+Tempo 130
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+
+Groove R&B-BalladIntro    // import the R&B-Ballad groove set
+Drum-G Volume f           // create drum track
+
+Stackvalue $_Debug
+Debug Warnings=Off
+Begin AllGrooves Drum-G   // and apply to all grooves
+ Sequence  {D1 Shift .5; D1 Shift .65}
+ Tone LongGuiro
+ Volume fff               // not a dup, it's needed!
+End
+Debug $_Stackvalue
+
+Groove R&B-BalladIntro
+
+Begin Solo
+    Voice BrassSection
+    Harmony OpenBelow
+    Octave 5
+    Cresc m f 4
+    Articulate 90
+    Begin Riff
+        4g;81r;82g;4;
+        4f#;81r;82f#;4;
+        4g;81r;82g;4;
+        4a;
+    End
+End
+
+1         G
+2         F#dim3
+3         G
+4         D7
+
+Repeat
+Groove R&B-Ballad
+
+5         G
+6         /
+7        D7
+8         /
+
+Groove R&B-BalladSus
+
+9         /
+10        /
+11        G
+12        /
+
+Groove R&B-BalladPlus
+
+13        C
+14        /
+15        G
+16        /
+
+Groove R&B-BalladSusPlus
+
+17        /
+18       D7
+19        G
+Solo Volume mf
+20        /         {2r;8;d;e;d;}
+
+Groove R&B-Ballad
+
+21       Em         {4e;;}
+22        /         {2+8r;8e;;e&;}
+23        D         {4d;;}
+24        /         {2+8r;8d;;d#;}
+
+Groove R&B-BalladSus
+
+25       Em         {4e;;}
+26        /         {2+8r;8e;;e&;}
+27        D         {4d;;}
+28        /         {2+8r;8d;;d#;}
+
+
+RepeatEnding  2
+
+Groove R&B-Ballad
+
+29       Em         {8e;dn;4e;r;4e;}
+30        /         {4e;}
+
+RepeatEnd
+
+Groove R&B-BalladEnd
+
+29       Em         {8e;dn;4e;r;4e;}
+31        /  z!     {4e;}
+

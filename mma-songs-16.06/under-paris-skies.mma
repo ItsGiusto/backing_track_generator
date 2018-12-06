@@ -1,0 +1,221 @@
+// Under Paris Skies
+
+Tempo 190
+Keysig Ab
+
+Set BassRegister 5    // use a higher pitched left hand -- more musette-like
+
+Groove Metronome3
+ z * 2
+
+Groove FrenchWaltzIntro
+
+Begin Solo 
+  Voice Accordion
+  Volume f
+  Harmony OpenBelow
+  Articulate 90
+  Octave 5
+  Begin Riff
+    8f;g;f;en;f;g;
+	8a;b;a;g;a;b;
+	4c+;b;a;
+	4g;en;d;
+  End
+End
+
+1        Fm
+2      Bbm7
+3         C
+4        C7
+
+
+Groove FrenchWaltz
+
+5        Fm
+6         /
+7         /
+8         /
+
+9      Bbm7
+10        /
+11     Bbm6
+12     Bbm7
+
+Groove FrenchWaltz1
+
+13       C7
+14        /
+15        /
+16        /
+
+17       Fm
+18      Bbm
+19       Fm
+20       C7
+
+Groove FrenchWaltz
+
+21       Fm
+22        /
+23        /
+24        /
+
+25     Bbm7
+26        /
+27     Bbm6
+28     Bbm7
+
+Groove FrenchWaltz2
+
+29       C7
+30        /
+31        /
+32        /
+
+33       Fm
+34     Bbm7
+35       Fm
+36        /
+
+Groove FrenchWaltz
+
+37     Bbm7
+38        /
+39        /
+40      Eb7
+
+41      Ab6
+42        /
+43        /
+44     AbM7
+
+
+Groove FrenchWaltz1
+
+45       Db
+46     Bbm7
+47     Bbm6
+48        /
+
+49        C
+50       C7
+51       Fm
+52       C7
+
+Repeat
+Groove FrenchWaltz
+
+53       Fm
+54        /
+55        /
+56        /
+
+57     Bbm7
+58        /
+59     Bbm6
+60     Bbm7
+
+Groove FrenchWaltz2
+
+61       C7
+62        /
+63        /
+64        /
+
+65        F
+66        /
+67        /      /      z
+68        /
+
+KeySig F
+
+Groove FrenchWaltzSus
+
+69      FM7
+70        /
+71        /
+72        /
+
+73      Cm7
+74        /
+75       F7      /      z
+76        /
+
+
+Groove FrenchWaltz2Sus
+
+77       Bb
+78        /
+79        /      /      z
+80        /
+
+81      Bbm
+82        /
+83     Bbm6
+84        z
+
+Groove FrenchWaltz
+
+85        F
+86       A7
+87       Dm
+88       A7
+
+89       Dm
+90       C7
+91        F
+92      Gm7
+
+Groove FrenchWaltzSus
+
+93        F
+94        /
+95    F#dim      /      z
+96        /
+
+97        C
+98       C7
+99       Fm
+100      C7
+
+KeySig Ab
+
+Groove FrenchWaltz
+
+101      Fm
+102       /
+103       /
+104       /
+
+105    Bbm7
+106       /
+107    Bbm6
+108    Bbm7
+
+Groove FrenchWaltz1
+
+109      C7
+110       /
+111       /
+112       /
+
+113      Fm
+114       /
+115       /
+
+RepeatEnding
+
+116       /
+
+RepeatEnd
+
+Groove FrenchWaltzEnd
+Tempo *.8 4
+Decresc ppp 4
+
+116      /
+117    Bbm7
+118      C7
+119      Fm z!
+

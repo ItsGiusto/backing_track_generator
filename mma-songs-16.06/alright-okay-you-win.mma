@@ -1,0 +1,91 @@
+// Alright Okay You Win
+
+Tempo 140   /// about the speed that Peggy Lee used.
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove BigBandIntro
+
+1         Eb
+2         Cm
+3         Fm
+4        Bb7
+
+Repeat
+
+Groove BigBand
+
+5         Eb      /      /    Bb+
+6         Eb      /      /    Bb+
+7         Eb
+8        Eb7
+
+Groove BigBandSus
+
+9         Ab
+10         /
+11        Eb
+12         /
+
+Groove BigBandPlus
+
+13       Bb7
+14       Ab9
+15        Eb      /    Ab7
+
+RepeatEnding
+
+16        Eb
+
+RepeatEnd
+
+17       Eb6
+
+Groove BigBand
+
+18         /
+19         /
+20        Eb
+21         /
+
+Groove BigBandSusPlus
+
+22       Ab9
+23         /
+24        Eb      EbzCA
+25       Bb7
+
+Groove BigBandSus
+
+26        Eb      /      /    Bb7
+27        Eb      /      /    Bb+
+28        Eb
+29       E&7
+
+Groove BigBandSusPlus
+
+30       Ab9
+31         /
+32        E&
+33         /
+
+Groove BigBandPlus
+
+34       B&7
+35       A&9
+36        Eb      /    Ab6    Ab9
+37        Eb
+
+Groove BigBand
+
+38         /     Ab     Eb
+39         /     Ab     Eb     Ab
+
+Groove BigBandEnd
+
+40        Eb      /     Ab    Cb7
+41        Eb   E9&6 E&6(add9)     z!
+
+

@@ -1,0 +1,179 @@
+// Oh Pretty Woman
+
+// Roy Obison took this to #1 in 1964. I think it was
+// put into the movie at a later date.
+// His tempo is around 128, key A
+
+
+// NOTE: cool way we handle the bass guitar riffs, and
+//       the 2/4 bars.
+
+Tempo 128
+KeySig G
+
+Groove Metronome2-4
+  z * 2
+
+SeqClear
+
+Transpose -2
+
+Set BRiff1 8d;;f;a;2c+;
+Set BRiff2 8d;;f;a;c+;e+;d+;c+;
+
+Begin Solo
+	Voice FretlessBass
+	Volume f
+	Octave 3
+	Articulate 80
+End
+
+
+Begin Drum-Kick
+	Tone KickDrum1
+	Volume mf
+	Sequence {1 0 90 * 4 }
+End
+
+1	z
+
+Begin Drum-Snare
+	Tone SnareDrum2
+	Volume mp
+	Sequence {1 0 90 * 4 Shift .5}
+End
+
+    z
+2	z	{8d;;f;a;1c+~;}
+3	z   {~8d;;f;a;}	
+4	z   {1c+;}
+5	z	{ $BRiff2 }
+6	z	{ $BRiff2 }
+7	z	{ $BRiff2 }
+
+Groove 60sRock
+
+8	z   {8d;;f;a;c+;e+;b;b;}    // pickup bar "Pret-ty" 
+
+Repeat
+
+9      G     
+10     Em    
+11     G     
+12     Em    
+13     C     
+Seq 
+Truncate 2
+14	/     // 2/4 bar 
+Seq
+15  D7    
+16	/
+17	/
+18	/
+19	/	{ $BRiff2 }
+20	/	{ $BRiff2 }
+21	/	{ $BRiff2 }
+
+RepeatEnding
+
+22	/	{ $BRiff1 }
+
+Groove 60sRockSus
+
+RepeatEnd
+
+23	/	{ $BRiff1 }
+
+Groove 60sRock1
+
+24     Cm    
+25     F7    
+26     Bb    
+27     Gm    
+28     Cm    
+29     F7    
+30     Bb    
+31	/
+32     Cm    
+33     F7    
+34     Bb    
+35     Gm    
+36     Cm    
+37     F7    
+38     Bb    
+39     G7    
+40     Em7   
+41     Cm    
+42     D7    
+
+Groove 60sRock1Sus
+
+43     G     
+44     Em    
+45     Cm    
+
+Solo Volume f
+
+46     D7    { $BRiff1 }
+47	/		{ $BRiff2 }
+48	/		{ $BRiff2 }
+49	/		{ $BRiff1 }
+
+Groove 60sRock
+
+50     G     
+51     Em    
+52     G     
+53     Em    
+54     C
+Truncate 2     
+55	C     // A 2/4 bar
+Seq
+56  D7    
+57	/
+58	/
+59	/
+60	/
+61	/
+62	/
+
+Volume p
+
+63	/
+64	/
+65	/
+66	/
+67	/	
+
+Solo Volume p
+
+
+68	/	{ $BRiff1 }
+69	/	{ $BRiff1 }
+
+Solo Volume mf
+Cresc f 5
+
+70	/	{ $BRiff1 }
+71	/	{ $BRiff2 }
+
+Solo Volume f
+
+72	/	{ $BRiff2 }
+73	/	{ $BRiff2 }
+74	/	{ $BRiff2 }
+75	/	{ $BRiff2 }
+
+Solo Volume ff
+
+76	/	{ $BRiff2 }
+77	/	{ $BRiff2 }
+78	/	{ $BRiff2 }
+79	/	{ $BRiff2 }
+
+Groove 60sRockEnd
+Volume ff
+
+80	D7
+81	/ z!
+

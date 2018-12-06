@@ -1,0 +1,114 @@
+// Cry
+
+// Sung by Johnny Ray & The Four Lads.
+
+Tempo 110
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingIntro
+Begin Solo
+   Voice TremoloStrings
+   Octave 5
+   Harmony 3Below
+   Volume mf
+   Articulate 110 
+   Rvolume 10
+   Rtime 5
+   Begin Riff
+       4b;2f;4g;
+	   4b;a;g;f;
+	   <articulate=80>43c+;;;<articulate=100 >4e+;c+;
+	   2a;
+   End
+End
+
+Swell mp f 4
+
+1         Bb
+2         Gm
+3         Cm
+4         F7
+
+Repeat
+Groove EasySwingWalk
+Volume m
+
+5        Ebm     Bb
+6        Ebm     Bb
+7         D7      /      C     Fm
+8         D7
+
+Groove EasySwingWalkSus
+Cresc mf 4
+
+9         Gm
+10     F#dim
+11        G9
+12         /      /     G7
+
+Groove EasySwingSus
+Decresc mp 4
+
+13        Cm      /      G     Cm
+14       Cm7     F7
+15        Bb      /    Bb7    Fm6
+16        G7   G7-9     G7
+
+Groove EasySwing
+Volume m
+
+17        C7
+18         /
+19       Cm7
+20        F7
+
+Groove EasySwingWalkFill
+
+21      Ebm6    Bb6
+22      Ebm6    Bb6
+23        D7      /      C     Fm
+24        D7
+
+Groove EasySwingWalkSus
+Volume mf
+
+25        Gm
+26     F#dim      /     Gm
+27        G9
+28         /
+
+Groove EasySwingSus
+Decresc mp 4
+
+29        Cm      /      G     Cm
+30       Eb6      /   Ebm6
+31        Bb
+32        G9      /    F#7     G7
+
+Groove EasySwing
+Cresc m 2
+
+33        C9
+34       Cm9      /   F7-9
+
+RepeatEnding
+
+Groove EasySwingFill
+
+35        Bb      /    Ab9
+36       Bb6      /     F7
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc ppp 2
+Tempo *.8 2
+
+37        Bb      /    Ab9
+38       Bb6      /     z!
+
+
+

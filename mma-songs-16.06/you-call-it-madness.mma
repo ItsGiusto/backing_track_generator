@@ -1,0 +1,110 @@
+// You Call It Madness
+
+Tempo 120
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+
+Groove ChaChaIntro
+Begin Solo
+    Voice Piano3
+    Articulate 120
+    Harmony 3Below+8Below
+    Volume f
+    Octave 5
+    Begin Riff
+        4g;2;4;
+        2.g;
+        1a;
+    End
+End
+
+Cresc mp mf 3
+
+1         G
+2        /
+3        Am
+4        D7 
+
+
+Repeat
+Groove ChaCha
+Volume m
+
+5       CM7
+6        F9
+7       GM9      /     C7
+8       Bm7      /     E7
+
+Groove ChaCha1
+Decresc mp 4
+
+9       Am7      / G#dim7
+10      Am7      /     D7
+11        G      /     C7
+12        G      /      /   G7#5
+
+Groove ChaChaSus
+Cresc m 4
+
+13      CM7
+14       F9
+15      GM7      /     C7
+16      Bm7      /     E7
+
+Groove ChaCha1Sus
+
+17      Am7      / G#dim7
+18      Am7      /     D7
+19        G      /     C6
+20        G      /     G7
+
+Groove ChaCha
+Decresc mp 4
+
+21    Dm7      /     G7
+22    Dm7      /     G7
+23        C      /     E7
+24      Am7
+
+Groove ChaChaSus
+Cresc m 4
+
+25    Bm7      /     E7
+26    Bm7      /     E7
+27      Am7      /     F9
+28       D7      /      /    Db9
+
+Groove ChaCha
+
+29      CM7
+30       F9
+31      GM9      /     C7
+32      Bm7      /     E7
+
+Groove ChaCha1
+Decresc mp 2
+
+33      Am7      / G#dim7
+34      Am7      /     D7
+
+RepeatEnding
+
+Groove ChaChaFill
+
+35        G      /     C7
+Groove ChaCha1Fill
+36      GM7      /     D7
+
+RepeatEnd
+
+Groove ChaChaEnd
+Tempo *.8 2
+Decresc p 2
+
+35        G      /     C7
+36      GM7      z!
+Fermata -4 1 200
+

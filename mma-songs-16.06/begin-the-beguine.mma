@@ -1,0 +1,212 @@
+// Begin The Beguine
+
+// I have no idea what the "right" tempo for this song is.
+// Frank Sinatra does it at 150bpm ... your choice I guess.
+
+Tempo 110
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove Beguine1Sus
+
+Begin Solo
+	Voice Fantasia
+	Decresc f mp 4
+	Articulate 76
+	Harmony Open
+	Rtime 20
+	Mallet Rate=16 Decay=-10
+	Octave 5
+	Begin Riff
+		3+3b-; c; d; 2f;
+		3+3b-; c; d; 2f;
+		3+3d; e; f; 2g;
+		3+3f; e; d; 4c; b-;
+	End
+End
+
+Cresc p mf 4
+
+1         Bb
+2         Gm
+3         Dm
+4         F7      /      /     Bb
+
+Groove Beguine
+Volume mf
+
+5         Bb
+6        Gm7      /     Bb
+7       BbM7
+8        Gm7      /      /     Bb
+
+9          /      /     Gm
+10         /      /     Bb
+11        F7
+12         /
+
+13        F7
+14         /
+15        Cm
+16         /      /      /    Cm7
+
+17        F7
+18    F7sus4
+19       Bb9
+20        Bb
+
+Groove BeguineSus
+Volume mp
+Cresc mf 8
+
+21         /
+22       Gm7      /     Bb
+23      BbM7
+24       Gm7      /      /     Bb
+
+25         /      /   BbM7
+26         /    Gm7     Bb
+27        F7
+28         /
+
+29        F7
+30        Cm      /     F7
+31       Cm7      /     Cm
+32         /      /    Cm7
+
+33        F7
+34         /
+35        Bb
+36         /
+
+37       Bbm
+38       Eb7
+39        Ab
+40        Ab
+
+41       Abm
+42         /      /    Db7
+43      GbM7
+44         /      /     Gb
+
+Groove Beguine1
+Volume f
+
+45      Edim
+46         /
+47         F
+48        Gb
+
+49         F
+50      Ebm7      /    Cm7
+51         F
+52        F7
+
+Groove Beguine1Sus
+Volume mf
+
+53        Bb
+54       Gm7      /     Bb
+55      BbM7
+56       Gm7      /      /     Bb
+
+57         /
+58       Bb7
+59        F7
+60         /
+
+61       Ebm
+62     Cm7b5      /    Ebm
+63       Cm7
+64         /
+
+65         F      /     F7
+66       Cm7
+67       Bb9
+68        Bb      /      /    Dm7
+
+Groove Beguine
+
+69        Bb
+70       Gm7      /     Bb
+71      BbM7
+72       Gm7      /     Bb    Dm7
+
+Volume ff
+
+73        Bb
+74        Gm      /     Bb
+75        F7
+76         /
+
+Volume f
+
+77        Eb
+78       Cm7
+79        Dm
+80        Gm
+
+Volume mf
+
+81       Cm7      / F7sus4
+82        F7
+83       Gm7
+84        Bb      /      /    Dm7
+
+85        Bb
+86        Gm      /     Bb
+87      BbM7
+88       Gm7
+
+Groove Beguine1Sus
+Volume f
+Decresc mp 20
+
+89        Bb
+90         /
+91        F7
+92         /
+
+93        Eb
+94       Cm7
+95        Dm      /    Dm7
+96        G7
+
+97       Cm7      / F7sus4
+98         /
+99       Cm7
+100        /
+
+101      Fm7
+102        /
+103       Bb
+104     BbM7
+
+105      Cm7
+106        /
+107    Cm7b5
+108        /
+
+Groove BeguineEnd
+
+// This is a nice ending. The BegineEnd playes a nice scale
+// ending in a full chord. To add cheese, we slow down
+// the last bar.
+
+Volume mf
+Decresc p 3
+
+Seq 1
+109       Bb
+Seq 1
+110      Gm7
+Seq 1
+111     BbM7
+	Seq 4
+	Tempo *.7 1
+112     BbM7
+
+
+

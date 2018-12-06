@@ -1,0 +1,102 @@
+// I Feel The Earth Move
+
+Tempo 119
+Keysig C minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove SoftRockIntro
+
+Bass Sequence {1 1 1 90 * 8}
+Chord Sequence C24
+
+1        Cm7
+Chord Sequence {2 8 90; 2.5 2. 90}
+2          /
+Chord Sequence C24
+3          /
+Chord Riff C234;
+Bass Riff 1 8 1 90; 1.5 8 1 90; 2 2 1 90;
+4          /
+
+Repeat
+Groove SoftRock
+Bass Sequence {1 1 1 70 * 8}
+
+5        Cm7
+6          /      /     F7
+7        Cm7
+8          /
+
+9         F7
+10         /
+11       Cm7
+12         F      /     Bb
+
+Groove SoftRockSus
+Bass Sequence {1 1 1 70 * 4 }
+
+13      EbM7      /    Eb6
+14      AbM7      /    Ab6
+15       Fm7
+16       Bb9
+
+17      EbM7      /    Eb6
+18      AbM7
+19       Fm7
+20       Bb9      /      F
+
+Groove SoftRock2
+Bass Sequence {1 1 1 70 * 8 }
+
+21       Cm7
+22         /      /     F7
+23       Cm7
+24         /
+
+Groove SoftRock2Sus
+Bass Sequence {1 1 1 70 * 4 }
+
+25        F7
+26         /
+27       Cm7
+28         F
+29       Cm7
+30         F      /     Bb
+
+Groove SoftRockSus
+
+31      EbM7      /    Eb6
+32      AbM7     Ab
+33       Fm7
+34       Bb9
+
+Groove SoftRock2
+Bass Sequence {1 1 1 70 * 4 }
+
+35      EbM7      /      /    Eb6
+36      AbM7
+37       Fm7
+38       Bb9      /      F
+
+39       Cm7
+40         F
+41       Cm7
+42         /      F      /
+
+RepeatEnd
+
+Groove SoftRockSus
+Decresc pppp 8
+Bass Sequence {1 1 1 70 * 8 }
+Repeat
+
+43       Cm7
+44         /      /     F7
+45       Cm7
+46         /      /      F
+
+Groove SoftRockEnd
+Bass Sequence {1 1 1 70 * 4 }
+RepeatEnd

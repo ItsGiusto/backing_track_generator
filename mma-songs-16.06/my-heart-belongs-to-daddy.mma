@@ -1,0 +1,108 @@
+// My Heart Belongs To Daddy
+
+Tempo 126
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BeguineIntro
+Begin Solo
+  Voice Piano1
+  Harmony OpenBelow+Open8Below+8Below
+  Articulate 110
+  Octave 5
+  Volume f
+  Begin Riff
+      4e+;b;d&+;a;
+      1c+;
+      4a;f;g;e;
+      1f;
+  End
+End
+
+Swell mp f 4
+
+1        Eb
+2        Cm
+3        Fm
+4        Bb7  G7#5@4
+
+
+Repeat
+Groove Beguine
+Volume m
+
+5        Cm
+6         /
+7         /
+8     Dm7b5
+
+Groove BeguineSus
+Cresc f 4
+
+9        G7
+10        /
+11       Fm  / G7
+12       Cm      /      /   G7#5
+
+Groove Beguine
+Decresc m 4
+
+13       Cm
+14        /
+15        /
+16    Dm7b5
+
+Groove Beguine1
+
+17       G7
+18        /
+19       Fm   / G7
+20       Cm
+
+Groove Beguine1Sus
+
+21        /  G7@4
+22        Cm
+23        /
+24       G7
+
+Groove BeguineSus
+Volume mf
+
+25        /
+26        /
+27        /
+28        C
+
+Groove Beguine
+Decresc m 4
+
+29        /      /     G7
+30        C
+31        /      /     C7
+32        F  
+
+Groove Beguine1
+Decresc mp 4
+
+33       Fm
+34        C
+
+RepeatEnding
+
+35    Dm7b5      /     G7
+
+Groove BeguineFill
+
+36        C
+
+RepeatEnd
+
+Groove Beguine2End
+Decresc ppp 2
+
+35    Dm7b5      /     G7
+36        C      z!
+

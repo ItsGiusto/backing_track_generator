@@ -1,0 +1,168 @@
+// Ring Of Fire
+// Johnny Cash, 1963.
+
+Tempo 218
+KeySig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove HillCountryIntro
+Begin AllGrooves
+  Chord Voice NylonGuitar
+  Begin Arpeggio
+     Voice NylonGuitar
+     Rskip 70
+     Articulate 110
+  End
+End
+
+Begin Solo
+    Voice Trumpet
+    Harmony OpenBelow+OpenAbove+8Below
+    Octave 5
+    Volume ff
+    Articulate 90
+    Begin Riff
+        4r;c;4d;e;
+        4.f;8;;;4;
+        4g;e;1+1f~;
+        ~ <> ~;
+        ~ 4.d;8;
+        8d;;4;e;c;
+        1+1d ~;
+    End
+End
+Swingmode On
+
+Swell mp mf 8
+
+1         z!
+2         Bb
+3         Eb      /     Bb
+Seq 1
+4          /      /     Eb
+Seq 1
+5         Bb
+6          /      /     Eb
+7         Bb      /     Eb
+8         Bb
+
+// A little horn solo duplicating Cash's Mariachi stuff
+// Played in various places
+
+Mset Horns 
+  Begin Solo
+    Decresc f mp 3
+    Begin Riff
+      4.f;8;;;4;
+      4g;e;
+      2+1f ~;
+    End
+  End
+EndMset
+
+// Main title
+
+Repeat
+Groove HillCountry
+Decresc m mp 5
+
+9         Bb
+10         /      /     Eb
+$Horns
+11        Bb
+truncate 2
+12        Eb          // 2/4 bar
+13        Bb
+14         /
+
+Groove HillCountryPlus
+Cresc mf 5
+
+15         /
+16         /      /     F7
+$Horns
+17        Bb
+truncate 2
+18        F7          // 2/4 bar
+19        Bb
+20         /
+
+Groove HillCountry
+Volume m
+
+21         /
+22         /      /     Eb
+$Horns
+23        Bb
+truncate 2
+24        Eb          // 2/4 bar
+25        Bb
+26         /
+
+Groove HillCountryPlus
+Decresc mp 3
+
+27         /
+truncate 2
+28        F7     // 2/4 bar
+29        Bb
+30         /
+
+Groove HillCountrySus
+Cresc m 4
+
+31        F7
+32         /
+33        Eb
+34         /     Bb
+
+Groove HillCountrySusPlus
+
+35        F7
+36         /
+37        Eb
+38         /     Bb      /     F7
+
+Groove HillCountrySus
+Decresc mp 5
+
+39        Bb
+40         /
+41         /      /     F7
+42        Bb
+43         /      /     F7
+
+RepeatEnding
+
+44        Bb
+Groove HillCountryFill
+45         /      /     F7
+
+RepeatEnd
+
+46        Bb
+Groove HillCountryFill
+47         /      /     F7
+
+Groove HillCountrySus
+Cresc mf 4
+
+48        Bb
+49         /
+50         /      /     F7
+51        Bb
+52         /      /     F7
+
+Decresc pppp 4
+Repeat
+
+53        Bb
+54         /      /     F7
+
+Groove HillCountryEnd
+
+RepeatEnd
+
+

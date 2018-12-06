@@ -1,0 +1,89 @@
+// Once In A While
+
+Tempo 110
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwing2
+
+Begin Solo
+	Voice Organ3
+	Volume m
+	Harmony 3
+	Articulate 90
+	Octave 7
+	Begin Riff
+		3+3g;;;2;
+		3+3g;;;2;
+		3+3a;b;c+;;b;a;
+		1b;
+	End
+End
+
+1   Eb      
+2   Cm      
+3   Fm 
+
+Groove EasySwingIntro
+Seq 4
+     
+4   Bb7     
+
+
+Repeat
+Groove EasySwing
+
+5   Eb      
+6   /       
+7   Gm     /       C7      
+8   /       
+9   Fm      
+10  /       /       Bb7     
+11  Eb6     
+12  Fm7     /       Bb7 
+
+Groove EasySwingWalk
+    
+13  Eb      
+14  /       
+15  Gm     /       C7      
+16  /       
+17  Fm      
+18  /       /       Bb7     
+19  Eb      /       Ab      
+20  Eb  
+
+Groove EasySwingSus
+
+21  G6      
+22  Am7     /       D7      
+23  G6      
+24  Am7     /       D7      
+25  G6      
+26  Am7     /       D7      
+27  G       /       Gdim    
+28  Fm7     /       Bb7   
+
+Groove EasySwingFill
+
+29  Eb      
+30  /       
+31  Gm     /       C7      
+32  /       
+33  Fm      
+34  /       /       Bb7     
+
+RepeatEnding
+
+35  Eb      /       Ab      
+36  Eb      
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+35  Eb      /       Ab      
+36  Eb   / z!
+

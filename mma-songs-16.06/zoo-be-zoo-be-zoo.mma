@@ -1,0 +1,171 @@
+// Zoo Be Zoo Be Zoo
+
+Tempo 128
+Keysig F
+
+Groove Metronome2-4
+   z * 2
+
+Groove BeguineIntro
+Begin Solo
+   Voice Flute
+   Volume ff
+   Articulate 100
+   Harmony OpenBelow
+   Octave 6
+   Begin Riff
+      2r;8a;b;c+;c;
+	  4b;8;a;4g;8;f;
+	  4e;8;f;4g;b;
+	  2f;
+   End
+End
+
+Cresc pp mf 4
+
+1         F
+2        Gm
+3        C7
+4        F
+
+Solo Volume m
+
+Repeat
+Groove Beguine
+Volume m
+
+5       Gm7
+6         /      /     C7
+7       FM7
+8         /
+
+Decresc mp 4
+
+9       Gm7      /     C7
+
+RepeatEnding
+
+10       C7      /    Gm7     C7
+
+Begin Solo Riff
+  4r;8f;g;a;b;c+;d+;
+  8c+;d+;2c+;
+End
+
+11        F
+12        /
+
+Groove Beguine1
+
+RepeatEnd
+
+13        C      /    Gm7
+
+Begin Solo Riff
+   4r;8f;g;a;b;c+;d+;
+   8c+;d+;c+;b;a;g;4f;
+End
+
+14        F
+15       F7
+
+Groove BeguineSus
+Volume mf
+
+16       Bb
+17       Ab
+18       Bb
+19       Ab
+
+Groove Beguine1
+Volume f
+
+20       Bb
+21       C7
+22       Bb
+23       C7
+
+Groove Beguine
+Decresc mp 8
+
+24      Gm7
+25        /      /     C7
+26      FM7
+27        /
+
+Groove Beguine1Sus
+
+28      Gm7      /     C7
+29        /      /    Gm7
+30        F
+31        /                  {2r;8a;b;c+;c;}
+
+Groove Beguine
+Volume m
+
+32      Gm7                  {4.b;}
+33        /      /     C7    {2r;8a;b;c+;c;}
+34      FM7                  {4.f;}
+35        /                  {2r;8a;b;c+;c;}
+
+Groove Beguine1
+Volume mp
+
+36      Gm7      /     C7    {4b;8b;a;4g;8g;f;}
+37      Gm7      /     C7    {4e;8;f;4g;a;}
+38        F
+39        /                  {2r;8a;b;c+;c;}
+
+Groove BeguineSus
+Cresc mf 4
+
+40      Gm7      /     C7    {4.b;}
+41      Gm7      /     C7    {2r;8a;b;c+;c;}
+42      FM7                  {4.f;}
+43        /
+
+Groove Beguine
+Volume m
+
+44      Gm7      /     C7
+45        /      /    Gm7
+
+Volume mp
+
+46        F                   {4r; 8f;g; a;b; c+;d+;}
+47        /                   {8c+;d+; c+;b; a;g; 4f;}
+
+// The sheet music has a DS al Fine ... easier to copy/paste
+
+Groove Beguine1
+Volume m
+
+16       Bb
+17       Ab
+18       Bb
+19       Ab
+
+Groove Beguine1Sus
+Cresc mf 4
+
+20       Bb
+21       C7
+22       Bb
+23       C7
+
+Groove BeguineSus
+Decresc mp 4
+
+24      Gm7
+25        /      /     C7
+26      FM7
+27        /
+
+Groove BeguineEnd
+Decresc pppp 4
+
+28      Gm7      /     C7
+29        /      /    Gm7
+30        F
+31        /     z!
+

@@ -1,0 +1,88 @@
+// Linda
+
+Tempo 116
+Keysig 1#
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+	Voice Piano1
+	Volume f
+	Articulate 90
+	Accent 1 30
+	Octave 6
+	Harmony 8 //Open
+	Begin Riff
+		8g; a; 4b; 2;
+		8f; g; 4a; 2;
+		8e; f; 4g; 2;
+		4a; f; d;
+	End
+End
+
+SwingMode On
+
+1      G     
+2      Bm7   
+3      Am    
+4      D7    
+
+Delete Solo
+
+Repeat
+Groove FoxTrot
+
+5      G     
+6	/
+7      /    /    G#dim 
+8      Am7   /    D7    
+9	/
+10	/
+11     /    /    D9    
+12     G   
+
+Groove FoxTrotSus
+  
+13     C     
+14     G     
+15     /    /    /    D7    
+16     G     
+17     B7    
+18     Em    
+19     A7    
+20     Am7   /    D7   
+
+Groove FoxTrotPlus
+ 
+21     G     
+22	/
+23     /    /    G#dim 
+24     Am7   /    D7    
+25	/
+26	/
+27     /    /    D9    
+28     G     
+
+Groove FoxTrotSus
+
+29     C
+30     G     
+31     /    /    /    Dm    
+32     E7    
+33     Am7   
+34     /    /    F#dim 
+
+ RepeatEnding
+
+35     G     /    Am7   
+36     G     /    D7    
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+35     G     /    Am7   
+36     Cm    /    G    z! 
+

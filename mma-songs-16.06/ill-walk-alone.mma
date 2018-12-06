@@ -1,0 +1,94 @@
+// I'll Walk Alone (1944)
+
+Tempo 75
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove MellowJazzIntro
+
+Begin Solo
+    Voice Strings
+    Volume mf
+    Articulate 110
+    Harmony OpenBelow+OpenAbove
+    Octave 5
+    Begin Riff
+        4g; 8a;b; c+;b; a;g;
+        2f; 2d;
+        4e; 8f;g; a;g; f;e;
+        1d;
+    End
+End
+
+Swell mp f 4
+
+1         G
+2        Em7
+3        Am
+4        D7
+
+
+Repeat
+Groove MellowJazz
+Volume m
+
+5         G
+6         /      /   E7b9
+7       Am7
+8        D7     Dm     E7
+
+Groove MellowJazzPlus
+Cresc mf 2
+
+9        A7
+10       D7     Cm     D7
+11        G     G+     Em
+
+RepeatEnding
+
+Groove MellowJazzFill
+
+12       A7      /     D9
+
+RepeatEnd
+
+13      Dm7      /     G9
+
+Groove MellowJazzSus
+Volume mp
+
+14        C
+15       Cm
+16        G
+17        /      /     D7      G
+
+Groove MellowJazzSusPlus
+Volume m
+
+18      Em6      /    F#7
+19      Em6      /    F#7
+20      Bm7      /   Bdim
+21       D9   D7b9     D7
+
+Groove MellowJazz
+Volume mf
+
+22        G
+23        /      /   E7b9
+24      Am7
+25       D7     Dm     E7
+
+Groove MellowJazzPlus
+Decresc mp 2
+
+26       A7
+27       D7      /    Am7   D7b9
+
+Groove MellowJazzEnd
+Decresc ppp 2
+
+28        G      /     C6
+29       G6     /      z!
+

@@ -1,0 +1,151 @@
+// I Loved You Once In Silence
+
+Tempo 154
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove ShowTuneIntro
+Begin Solo
+  Voice TremoloStrings
+  Harmony Open
+  Octave 6
+  Articulate 110
+  Volume f
+  Begin Riff
+     4c;d;e;f;
+	 4d;e;f;g;
+	 4g;f;e;d;
+	 2.c;
+  End
+End
+
+Cresc ppp m 4
+
+1         F
+2        Dm
+3        Gm
+4        C7 / / z
+
+Groove  ShowTune
+Repeat
+Swell mp mf 8
+
+5         F      /     Dm
+6         F      /    Dm6
+7        C7
+8         /      /  F#dim
+
+Groove ShowTune1
+
+9       Bb6
+10       C7
+11        F      /     F6
+12        F      /      /     C7
+
+Groove ShowTunePlus
+Volume mp
+
+13        F      /     C7
+14      Cm7      /      /     F7
+15      Bb6
+16      Gm7      /      /    Db7
+
+RepeatEnding
+
+Groove ShowTune
+Volume m
+
+17        F      /     Dm
+18       G7      /     C7     G7
+19        C      /      G
+20      Eb7      /     C7
+
+Groove ShowTunePlus
+
+RepeatEnd
+
+Groove ShowTune2
+Volume m
+
+21        F      /     Gm
+22      Gm7      /     C7
+23        F      /    Gm7
+24        F      /      z
+
+Repeat
+
+Groove ShowTune
+Cresc p m 8
+
+25       Db      /    Bbm  Ebdim
+26       Db      /     Gb    Ab7
+27       Db
+28        /
+
+Groove ShowTune1
+
+29       Fm      /    Fm6      C
+30      Fm6      /     G7
+31        C      /     G7
+32       Eb      /     C7
+
+Groove ShowTune1Plus
+Decresc mp 4
+
+33        F      /     Dm
+34        F      /    Dm6
+35       C7
+36        /      /  F#dim
+
+Groove ShowTune
+Volume m
+
+37      Bb6
+38       C7
+39        F      /     F6
+40        F      /      /     C7
+
+Groove ShowTunePlus
+Volume mp
+
+41        F      /     C7
+42      Cm7     F7    Cm7
+43      Bb6      /   G7b5
+44       F6      /    Gm7    Db7
+
+Groove ShowTune1
+Volume m
+
+45        C      /    Gm7    Am7
+46      Dm7      C      F
+47       Bb      /    Dm7     Gm
+48        F      /     Am     F7
+
+Groove ShowTune
+
+49       Bb
+50       C7
+
+RepeatEnding
+
+51        F
+52        /
+
+Groove ShowTune2
+
+53        /
+54        /   / z
+
+RepeatEnd
+
+Groove ShowTuneEnd
+Decresc ppp 4
+
+51        F
+52        /
+
+53        /
+54        /   z!
+

@@ -1,0 +1,98 @@
+// Venus In Blue Jeans
+
+// Jimmy Clanton took this dity to #7 in 1962.
+// His tempo: 117, his key: D
+
+Tempo 130
+
+Groove Metronome2-4
+	z * 2
+
+Groove 60sRockSus
+Decresc mf mp 8
+
+Repeat
+
+Begin Solo
+  Voice TremoloStrings
+  Volume mf
+  Articulate 110
+  Harmony 3
+  Octave 5
+  Begin Riff
+    4c+;2g;4c+;
+	4b;2g;4b;
+	4a;f;g;a;
+	2g;
+  End
+End
+
+1    C    
+2    Em   
+3    Am   
+4    G7   
+Groove 60sRockIntro
+
+RepeatEnd
+
+Repeat
+Groove 60sRock
+
+5    C    
+6    Em   
+7    F    /    G7   
+8    C    
+9    Dm7  /    G7   
+10   Am   
+11   D7   
+12   G7
+
+Groove 60sRock1
+   
+13   C    
+14   Em   
+15   G    /    G7   
+16   C    
+17   Dm7  /    G7   
+18   Em   /    Am   
+19   Dm7  /    G7   
+20   C    
+
+Groove 60sRockSus
+
+21   F    
+22   Em   
+23   F    /    G7   
+24   C    
+25   F    
+26   Em   
+27   D7   
+28   G7   
+
+Groove 60sRock
+
+29   C    
+30   Em   
+31   F    /    G7   
+32   Gm6  /    A7   
+
+Groove 60sRock1Sus
+
+33   Dm7  /    G7   
+34   Em7  /    A7   
+
+RepeatEnding
+
+35   Dm   /    Dm7  
+36   C    /    G7
+
+RepeatEnd
+
+37   Dm   
+38   Dm7  /    /    G7   
+
+Groove 60sRockEnd
+
+39   C    /    F    
+40   C    /    z!   
+

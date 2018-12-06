@@ -1,0 +1,174 @@
+// Stand By Me
+
+// This is Ben E. King's tempo. He did it in A
+// My fake books all have it in C ... so that's what I'll use.
+
+// the repeat/end is not the same as the original. 
+
+Tempo 120
+KeySig C
+
+Mset Guiro     // additional drum sound. Needs to be added after every Groove cmd.
+   Begin Drum-S
+    Volume m
+	Sequence D2
+	Tone LongGuiro
+  End
+Endmset
+
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzRockIntro
+$Guiro
+
+Begin Solo
+  Voice AcousticBass
+  Volume ff
+  Articulate 90
+  Accent 1 50 3 20
+  Rtime 5
+  Rvolume 5
+  Octave 3
+  Begin Riff
+      8c+;r;;4c+;8r;b;g;
+	  8c+;r;;4c+;8r;c+;b;
+	  8a;r;;4a;8r;4g;
+	  8a;r;;4a;8r;a;g;
+	  8f;r;;4f;8r;f;a;
+	  8g;r;;4g;8r;g;a;
+	  8c+;r;;4c+;8r;g;a;
+	  4c+;
+  End
+End
+
+Drum-Snare Cresc pppp p 8
+Chord      Cresc pppp m 8
+Bass Sequence -
+
+1          C
+2          /
+3         Am
+Seq 3
+4          /
+Seq 1
+5         F
+6          G7
+7         C
+8         / / G7
+
+Repeat
+Groove JazzRock
+$Guiro
+Volume mp
+
+9          C
+10         /
+11        Am
+12         /
+
+Groove JazzRock
+$Guiro
+Cresc mf 4
+
+13         F
+14        G7
+15         C
+16         /
+
+Groove JazzRockWalk
+$Guiro
+Volume m
+
+17         /
+18         /
+19        Am
+20         /
+
+Groove JazzRock
+$Guiro
+Volume mf
+
+21         F
+22        G7
+23         C
+24         /
+
+Groove JazzRock
+$Guiro
+Volume mp
+
+25         C
+26         /
+27        Am
+28         /
+
+Groove JazzRockWalkSus
+$Guiro
+Cresc mf 4
+
+29         F
+30        G7
+31         C
+32         /
+
+Groove JazzRockSus
+$Guiro
+Decresc mp 4
+
+33         C
+34         /
+35        Am
+36         /
+
+Groove JazzRockWalk
+$Guiro
+Volume m
+
+37         F
+38        G7
+39         C
+40         /
+
+Groove JazzRock
+$Guiro
+
+41         /
+42         /
+43        Am
+44         /
+
+Groove JazzRockSus
+$Guiro
+Decresc mp 2
+
+45         F
+46        G7
+
+RepeatEnding
+Cresc mf 2
+
+47         C
+48         /      /     G7
+
+RepeatEnd
+Volume m
+
+49         C
+50         /
+
+Groove JazzRockSus
+$Guiro
+Decresc pppp 8
+
+51         C
+52         /
+53        Am
+54         /
+
+55         F
+56        G7
+57         C
+58         /  / z!
+

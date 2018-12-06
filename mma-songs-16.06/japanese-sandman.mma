@@ -1,0 +1,112 @@
+// Japanese Sandman
+
+Tempo 166
+KeySig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro8
+
+Begin Solo
+    Voice Koto
+    Swell m ff 8
+    Harmony 3Below+8Below
+    Octave 5
+    Articulate 120
+    Begin Riff
+        8g+;;r;g+;;;1~;
+        <>;
+        8e+;;r;e+;;;1~;
+        <>;
+        8c+;;r;c+;;;1~;
+        <>;
+        1b;
+        
+    End
+
+End
+
+Swell mp m 8
+1         Eb
+2          /
+3         Cm
+4          /
+5         Fm
+6          /
+7        Bb7
+8          /
+
+Repeat
+Groove BigBand
+Volume m
+
+9         Eb
+10         /
+11        C7
+12         /
+
+Groove BigBandPlus
+Cresc mf 4
+
+13        F7
+14       Bb7
+15        Eb
+16         /
+
+Groove BigBand
+Decresc mp 4
+
+17        Eb
+18         /
+19         G
+20         /
+
+Groove BigBandSus
+Cresc m 4
+
+21        D7
+22         /
+23         G
+24       Bb7
+
+Groove BigBandSusPlus
+
+25        Eb
+26       Eb7
+27        Ab
+28         /
+
+Groove BigBandSus
+Cresc mf 4
+
+29       Abm
+30         /
+31       Fm7
+32       Bb7
+
+Groove BigBandPlus
+Cresc f 4
+
+33        Eb
+34         /
+35        Cm      /     Ab
+36        F7     Eb
+
+Groove BigBand
+Decresc mp 2
+
+37       Fm7      /    Cm6
+38       Bb7
+
+RepeatEnding 2
+
+39        Eb 
+Groove BigBandFill
+40        Bb7
+
+RepeatEnd
+Decresc pp 2
+
+41        Eb      /    Ab7
+42        Eb     z!

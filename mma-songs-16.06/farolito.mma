@@ -1,0 +1,188 @@
+// Farolito (Lamp on the Corner)
+
+Tempo 160
+Keysig A
+
+Transpose -4    /// from 'A' to 'F', a bit easier for all :)
+
+Groove Metronome3
+ z * 2
+
+Groove LatinWaltzIntro
+Begin Solo
+    Voice NylonGuitar
+    Volume mf
+    Articulate 130
+    Harmony OpenBelow+8Below
+    Octave 6
+    Begin Riff
+        4a;;;
+        4g;;;
+        4f;e;d;
+        4e;f;g;
+        4a;b;c+;
+        4b;a;b;
+        2.e+;
+    End
+End
+
+Swell mp mf 8
+
+1          A
+2          /
+3        F#m
+seq
+4          /
+seq
+5         Bm
+6          /
+7         E7
+8          /
+
+Repeat
+Groove LatinWaltz
+Volume m
+
+9          A
+10       AM7
+11        A6
+12       AM7
+
+Groove LatinWaltzSus
+Cresc mf 4
+
+13       Bm7
+14        E7
+15       Bm7
+16        E7
+
+Groove LatinWaltz
+Decresc m 4
+
+17       Bm7
+18        E7
+19       Bm7
+20        E7
+
+Groove LatinWaltzPlus
+
+21        A6
+22       AM7
+23        A6
+24         /
+
+Groove LatinWaltz
+Cresc mf 4
+
+25       C#m
+26       G#7
+27       C#m
+28         /
+
+Groove LatinWaltzSusPlus
+
+29         /
+30       G#7
+31       C#m
+32         /
+
+Groove LatinWaltz
+Decresc mp 4
+
+33         E
+34        B7
+35         E
+36        B7
+
+Groove LatinWaltzSus
+Cresc mf 4
+
+37         E
+38        B7
+39         E
+
+Begin Drum-Snare
+    Tone Snaredrum1
+    Volume m
+    Sequence D123
+End
+
+40         /      z
+
+RepeatEnd  3
+
+Begin AllGrooves Arpeggio
+      Octave 5
+      Range 1
+      Harmony Open+16Above
+      Rskip 20
+End
+
+AllGrooves Chord-Sus Octave 6
+
+Groove LatinWaltz
+Volume m
+
+41         A
+42       AM7
+43        A6
+44       AM7
+
+Groove LatinWaltzSusPlus
+
+45       Bm7
+46        E7
+Decresc mp 2
+47       Bm7
+48        E7
+
+Groove LatinWaltzSus
+Cresc m 4
+
+49       Bm7
+50        E7
+51       Bm7
+52        E7
+
+Groove LatinWaltzPlus
+Cresc mf 2
+
+53       AM7
+54         /
+55         /
+56         /
+
+Groove LatinWaltz
+Decresc mp 4
+
+57       F#7
+58         /
+59        Bm
+60         /
+
+Groove LatinWaltzPlus
+
+61         /
+62       F#7
+63        Bm
+64         /
+
+Groove LatinWaltzSusPlus
+Cresc m 4
+65        Dm
+66         /
+67         A
+68       F#7
+
+Groove LatinWaltzSus
+Decresc mp 2
+
+69       Bm7
+70        E7
+
+Groove LatinWaltzEnd
+Decresc ppp 2
+
+71         A
+72         /     z!
+

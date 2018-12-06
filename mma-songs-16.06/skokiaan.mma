@@ -1,0 +1,99 @@
+// Skokiaan
+
+Tempo 190
+
+Groove Metronome2-4
+  z * 2
+
+Groove Calypso
+
+1        G
+2       Em
+3       Am
+4       D7
+
+Repeat
+Groove Calypso
+Repeat
+
+5         G
+6        D7
+7         G
+8        D7
+
+Groove Calypso1
+
+9         G
+10       D7
+11        G
+12       D7
+
+
+RepeatEnding
+
+Groove Calypso
+
+13        G
+14     D7#5
+
+RepeatEnd
+
+
+Groove Calypso
+
+15        G
+16        /     D7
+
+Groove CalypsoSus
+
+17        G
+18       D7
+19        G
+20       D7
+
+Groove Calypso
+
+21        G
+22       D7
+23        G
+24       D7
+
+Groove Calypso1
+
+25        G
+26       D7
+27        G
+28       D7
+
+Groove Calypso1Sus
+
+29        G
+30       D7
+31        G
+32       D7
+
+RepeatEnding /// stick the entire interlude in an e
+
+
+Groove Calypso
+
+33        G
+34        /
+
+Groove CalypsoSus   // the actual start of the interlude
+
+37        G
+38        C    Am7     D7
+39        G
+40        C    Am7     D7
+
+41        G
+42       D7
+43        G
+
+Repeatend   // the 2 bar fine ending
+
+Groove CalypsoEnd
+
+35        G
+36        /

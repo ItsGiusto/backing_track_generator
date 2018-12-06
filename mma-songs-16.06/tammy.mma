@@ -1,0 +1,115 @@
+// Tammy
+
+// From 1957 movie "Tammy and the Bachelor" with Debbie Reynolds
+// and Leslie Nielson. Debbie took this to #1 on the charts.
+
+// Debbie sings this in Ab at 85bpm ... well, the tempo is really
+// whatever she wants it to be :)
+
+Tempo 100
+Keysig Eb
+
+Groove Metronome3
+	z * 2
+
+// 4 bar intro
+
+Begin Solo
+	Voice Piano1
+	Volume f
+	Octave 4
+	Harmony Open
+	Articulate 100
+End
+
+Groove CountrywaltzSus
+Volume pp
+Cresc mf 4
+
+1         Eb    {8e+;d+;2c+;}
+2         Gm    {8b;a;2g;}
+3         Ab    {4a;g;f;}
+4         Eb      /    Bb7    {2.g;}
+
+Delete Solo
+
+Fermata -1 1 120
+Cut
+
+Repeat
+Groove CountryWaltz
+Volume p
+Cresc mf 8
+
+5         Eb
+6         Gm
+7         Ab
+8         Eb
+
+9         Gm
+10        Cm
+11        Fm
+12       Bb7
+
+Groove CountryWaltzSus
+Volume f
+Decresc p 8
+
+13        Eb
+14        Gm
+15        Ab
+16        Eb
+
+17        Gm
+18        Ab
+19       Bb9      /  Bb7b9
+20        Eb      /      z
+
+Groove CountryWaltz1
+Volume mf
+
+21        Eb
+22        Ab
+23         F      /     F7
+24        Bb      /    Bb7
+
+25         G
+26        Cm     Ab
+27        Eb     Gm     Cm
+28       Fm7      /    Bb7
+
+Groove CountryWaltz
+Volume mp
+
+29        Eb
+30        Gm
+31        Ab
+32        Eb
+
+RepeatEnding
+
+33        Cm
+34        Gm
+35       Bb7
+
+Bass Riff 1 4 1 90; 2 4 1 100; 3 4 1 120
+
+36        Eb  Adim3    Bb7
+
+RepeatEnd
+
+Groove CountryWaltzEnd
+Volume mf
+Decresc  p 8
+
+37        Cm
+Seq
+38         /
+Seq
+39        Gm
+Seq
+40         /
+41       Bb7
+42         /
+43        Eb
+

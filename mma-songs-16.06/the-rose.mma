@@ -1,0 +1,153 @@
+// The Rose
+// Drippy, but nice, song done by Bette Midler. Original tempo
+//   was around 67 ... a bit too slow for my taste.
+
+Tempo 76
+Keysig C
+
+Mset Pchords
+    Begin Chord-piano
+  	    Volume m
+		Articulate 90
+		Octave 5
+		Sequence {1 1 90 0 90 0 * 4}
+	End
+EndMset
+
+Mset Parps
+    Begin Arpeggio-piano
+  	    Volume m
+		Articulate 90
+		Octave 5
+		Sequence A8
+	End
+EndMset
+
+Groove Metronome2-4
+  z * 2
+
+Groove GuitarBalladIntro
+Begin Solo
+    Voice Piano1
+	Volume f
+	Harmony OpenBelow
+	Articulate 95
+	Octave 5
+	Begin Riff
+	    4g;;;;
+		4g;;;;
+		4g;;;;
+		4g;;;;
+	End
+End
+
+Cresc mp mf 4
+
+1         C
+2         /
+3         /
+4         /
+
+Groove GuitarBallad
+Repeat
+Volume m
+$Pchords
+
+5         C
+6        G7
+
+Decresc mp 2
+7         F      /      /      G
+
+RepeatEnding
+
+8         C
+Groove GuitarBallad1
+
+RepeatEnd
+Decresc mp 1
+9         C
+
+Groove GuitarBalladSus
+$Parps
+
+Cresc mf 8
+
+10      CM7
+11        F
+12        /
+13    G7sus      /     G7
+
+Groove GuitarBallad1Sus
+
+14        C
+15        G
+16        F
+
+$Pchords
+Decresc mp 2
+
+17        C  
+
+Chord-Piano Volume +20
+
+18        /  
+
+Repeat
+Groove GuitarBallad
+Cresc m 4
+
+19        C
+20        G
+21        F      /      /      G
+22        C
+
+Groove GuitarBalladSus
+Cresc mf 4
+
+23        /
+24        G
+25        F      /      /      G
+26        C
+
+Groove GuitarBallad1
+$Parps
+Decresc mp 8
+
+27       Em
+28      Am7
+29        F
+30        G
+
+Groove GuitarBalladSus
+$PChords
+
+31        C
+32        G
+
+Chord-Piano Volume +20
+
+RepeatEnding
+
+33        F      /      /      G
+34        C                        
+35        /              
+
+RepeatEnd
+
+36        F      /      /      G
+37        C
+
+Groove GuitarBalladSus
+$Parps
+Alltracks MidiDecresc 90 20 5
+
+Repeat
+38        / 
+RepeatEnd 4
+
+Groove GuitarBalladEnd
+Seq 2
+
+39        /
+

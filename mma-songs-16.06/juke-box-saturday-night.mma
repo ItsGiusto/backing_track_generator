@@ -1,0 +1,112 @@
+// Juke Box Saturday Night
+
+Tempo 162
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove JiveIntro2
+
+AllGrooves Arpeggio Range 1.9
+
+Cresc mp mf 4
+
+Begin Solo
+    Voice Piano1
+    Articulate 120
+    Harmony OpenBelow
+    Volume fff
+    Rtime 5
+    Octave 5
+    Rvolume 5
+    Begin Riff
+        81f;82c;8e;2f;
+        81a;82d;8f;2a;
+        81g;82;81;82;4;;
+        1c+;
+    End
+End
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove Jive
+Volume m
+
+5         F
+6         /
+7         /
+8         F
+
+Groove JiveSus
+Volume mf
+
+9        Bb
+10        /
+11        -F   -Fdim3    Gm7
+12        F
+
+Groove JivePlus
+Volume m
+
+13        /
+14        /
+15        /
+16       F7
+
+Groove JiveSusPlus
+Cresc mf 2
+
+17       Bb
+18        /
+19        -F   -Fdim3    Gm7     Am
+20        F   / / z
+
+Groove JiveClap
+Volume m
+
+21      Cm7      /     F7
+22      Cm7      /     F7
+23       Bb      /     F+
+24       Bb
+
+Groove JiveClapSus
+Cresc f 4
+
+25      Dm7      /     G7
+26      Dm7      /     G7
+27       C7      /    Gm7
+28        /      /     C7
+
+Groove JiveSus
+Volume m
+
+29        F
+30        /
+31        /
+32       F7
+
+Groove Jive
+Decresc mp 2
+
+33       Bb
+34        /
+
+RepeatEnding
+Cresc mf 2
+
+35        -F   -Fdim3    Gm7     Am
+36        F      /    Gm7     C7
+
+RepeatEnd
+
+Groove JiveEnd
+Decresc pp 2
+
+35        -F   -Fdim3    Gm7     Am
+37        F   z!
+

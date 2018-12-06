@@ -1,0 +1,87 @@
+// Hey There
+// Adler/Ross -- from Pyjama Game (1954)
+// #1 hit for Rosemary Clooney in 1954 (this is her tempo)
+
+Tempo 90
+Keysig Eb
+
+Groove Metronome2-4
+	   z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+	  Voice Piano1
+	  Harmony OpenAbove+8Below
+	  Accent 1 25 3 20
+	  Volume mf
+	  Articulate 120
+	  Octave 4
+	  Begin Riff
+	  		43g+;bn+;d++;f#+;g+;an+;
+			43g+;d+;bn;f#+;d+;b;
+			43e&;g;b;c+;a;f;
+			1g;
+	  End
+End
+
+1       GM9      /    Am7/G
+2       GM7      /     G6
+3      EbM7      / DbM9/Eb
+4         G
+
+Repeat
+Groove FoxTrot
+
+5        Eb      /    Cm7
+6       Fm7      /    Bb7
+7        Eb      /    Cm7
+8       Fm7      /    Bb7
+9        C7
+10      Fm7      /    Bb7
+11     EbM7      /    Cm7
+12      Am7      /     D7
+
+13        G      /    Em7
+14      Am7      /     D7
+15        G      /    Em7
+16      Am7      /     D7
+17       G7
+18       C7
+19       Fm      /    Db7
+20       Fm      /    Bb7
+
+21      Eb6      /    Cm7
+22      Fm7      /    Bb7
+23       Eb      /    Cm7
+24      Fm7      /    Bb7
+25       C7
+26      Fm7      /    Bb7
+27     Bbm7
+28      Eb9      /   Bbm7
+
+29     AbM7
+30    Am7b5      /     D7
+31     EbM7      /     Gm
+32    Gm7b5      /     C7
+33      Fm7
+34     Abm7      /    Db7
+35     EbM7      /    Db7
+36    Gm7b5      /     C7
+
+37      Fm7
+38      Bb7
+
+RepeatEnding
+
+39       Eb
+40      Fm7      /    Bb7
+
+RepeatEnd
+
+
+Groove FoxTrotEnd
+
+41       Eb      /    Fm7
+40       Eb / z!
+

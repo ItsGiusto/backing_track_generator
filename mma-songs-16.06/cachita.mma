@@ -1,0 +1,113 @@
+// Cachita
+
+Tempo $( 120 * 2 )
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Repeat  // do song 2x with repeats (including intro)
+
+Groove MerengueIntro
+
+1         C6
+2         Dm
+3         C6
+4         G7  z
+
+Repeat
+Groove Merengue
+
+5        C6
+6         C
+7        C6
+8         C
+
+Groove Merengue1
+
+9         /      /     Dm
+10    Cdim7      /     C6
+11      Dm7      /     G7
+12        /
+
+Groove MerengueSus
+
+13        /
+14        /
+15        /
+16        /
+
+Groove Merengue2
+
+17        /      /      F
+18    Gm7b5      /     G7
+19        C
+
+RepeatEnding
+
+20        /      z
+
+RepeatEnd
+
+21        /
+
+Groove MerengueSus
+
+22        F
+23        /
+24       G7
+25        z
+
+Groove Merengue2Sus
+
+26        F
+27        /
+28       G7      /      /    G13
+29        z
+
+Repeat
+Groove Merengue
+
+30       Dm      /     G7
+31        /
+32        C
+33        /
+
+Groove Merengue1Sus
+
+34      Dm7      /     G7
+35        /
+36       C6
+37        z
+
+Groove Merengue1
+
+38      Dm7      /     G7
+39        /
+40        C
+41        /
+
+Groove MerengueSus
+
+42      Dm7      /     G7
+43        /
+
+RepeatEnding
+
+44       C6
+45        z
+
+RepeatEnd
+
+
+46       C6
+
+RepeatEnd  /// this is the entire song 2nd time
+
+Groove MerengueEnd
+Seq 2
+
+47        z
+48      Dm9      /    G13
+49        C      /    z!
+

@@ -1,0 +1,129 @@
+// Learnin The Blues
+
+Tempo 84
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBluesIntro
+Begin AllGrooves
+     Arpeggio Rskip 50
+     Scale Rskip 50
+End
+
+Begin Solo
+    Voice Strings
+    Cresc mp mf 2
+    Octave 4
+    Harmony OpenAbove
+    Articulate 120
+    Rtime 10
+    Rvolume 0,20
+    Begin Riff
+        4f;f;81g;82f;4g;
+        1g;
+        4d&+;c+;b&;2f~;
+    End
+End
+
+Swell m mf 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove SlowBlues
+Volume m
+
+5       Cm7
+6        F7
+7        Bb
+8         /      /   Bdim
+
+Groove SlowBluesFill1
+Cresc mf 3
+
+9       Cm7
+10       F7
+11       Bb
+Decresc mp 1
+12        /      /   Bb7+
+
+Groove SlowBluesSus
+
+13      Eb6
+Cresc mf 3
+14     Ebm6
+15       Bb
+16        /      /   Bdim
+
+Groove SlowBluesFill3
+Decresc m 4
+
+17      Cm7
+18       F7      /    Eb7
+19       Bb
+
+RepeatEnding
+
+20        / z
+
+RepeatEnd
+
+21        /      /    Bb+
+
+Groove SlowBluesWalk4
+Volume mf
+
+22      Eb6      /   Ebm6
+23      Eb6      /    Eb7
+24       Bb
+Decresc mp 2
+25        /      /    Bb+
+
+Groove SlowBluesWalk4Sus
+
+26      Eb6      /   Ebm6
+27      Eb6      /   Edim
+Cresc m 2
+28       F7
+29        /      z
+
+Groove SlowBluesFill1
+
+30      Dm7
+31       F7
+32       Bb
+33        /      /   Bdim
+
+Groove SlowBluesSus
+Cresc mf 4
+
+34      Cm7
+35       F7
+36       Bb
+37        /      /   Bb7+
+
+Groove SlowBluesFill3
+Decresc m 3
+
+38      Eb6
+39     Ebm6
+40       Bb
+41        /      /   Bdim
+
+Groove SlowBlues
+Decresc ppp 4
+Tempo *.8 4
+
+42      Cm7
+43       F7      /    Eb7
+
+Groove SlowBluesEnd
+
+44       Bb    Bb7  Bbdim Ebm6/Bb
+45       Bb    z!
+

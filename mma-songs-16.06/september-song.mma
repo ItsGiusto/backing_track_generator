@@ -1,0 +1,88 @@
+// September Song
+
+Tempo 90
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove PianoBalladIntro
+
+Begin Solo
+	Voice Piano1
+	Volume mf
+	Articulate 90
+	Harmony 3
+	Octave 4
+	Begin Riff
+		4d+;8;;4c+;8;;
+		4b;;2g;
+		3+3e;c;g;2.e~;
+	End
+End
+
+1    Bb
+2    Gm
+3    Cm   /    F7
+4    /    Bb
+
+Repeat
+Groove PianoBallad
+Cresc mp mf 8
+
+5    Bbm6
+6    /    /    Gb7
+7    BbM7
+8    Bb6
+9    C7
+10   Cm7b5 /    F7b9
+11   BbM7
+12   z
+
+Groove PianoBalladSus
+Decresc mp 8
+
+13   Bbm6
+14   /    /    Gb7
+15   BbM7
+16   Bb6
+17   C7
+18   CM7b5 /    F7b9
+19   BbM7
+20   /
+
+Groove PianoBallad1
+Volume m
+
+21   Ebm6
+22   /
+23   Edim
+24   /
+25   Ebm6
+26   /
+27   Edim
+28   Bb   z
+
+Groove PianoBallad1Sus
+Volume mp
+
+29   Bbm6
+30   /    /    Gb7
+31   BbM7
+32   Bb6
+33   C7
+34   Cm7b5 /    BM7
+
+RepeatEnding
+
+35   Bb6
+36   /
+
+RepeatEnd
+Groove PianoBalladEnd
+Decresc m mp 2
+Tempo *.94 2
+
+37   Bb6
+38   /
+

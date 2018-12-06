@@ -1,0 +1,100 @@
+// Come Sunday (Duke Ellington)
+
+Tempo 70
+
+Groove PopSpiritualIntro
+Seq 2
+Cresc p m 2
+
+1         C /  Am
+2         Dm / G7
+
+Repeat
+Groove PopSpiritual
+Volume m
+
+5       G13
+6     F9#11
+7       G13
+8       A13
+
+Groove PopSpiritualSus
+Cresc mf 4
+
+9         F      /    FM7
+10     Dm11      /    G11
+11        C      /    Dm7
+12    D#dim      /    C/E
+
+Groove PopSpiritualPlus
+Decresc m 4
+
+13       E9      /    F13
+14       E9      / E+7#9   E7#9
+15       Am      /    F/A
+16       D9
+
+Groove PopSpiritualSus
+
+17      G13      /    Dm7
+18    G13b5      /   E7#9  E7b13
+
+RepeatEnding
+Decresc mp 2
+
+19       D9
+20   G+7b9
+
+RepeatEnd
+
+21       D9
+22   G+7b9      /    G7+
+
+Groove PopSpiritual
+Volume m
+
+23      G13
+24    F9#11
+25      G13
+26      A13
+
+Groove PopSpiritualSusPlus
+Swell m mf 4
+
+27        F      /    FM7
+28     Dm11      /    G11
+29        C      /    Dm7
+30    D#dim      /    C/E
+
+Groove PopSpiritualSus
+Cresc mf 4
+
+31       E9      /    F13
+32       E9      / E+7#9   E7#9
+33       Am      /    F/A
+34       D9
+
+Groove PopSpiritualPlus
+Decresc m 4
+
+35      G13      /    Dm7
+36    G13b5      /   E7#9  E7b13
+37       D9
+38   G+7b9
+
+Groove PopSpiritual
+Decresc mp 4
+
+39      G13
+40    F9#11
+41      G13
+42      A13
+
+Groove PopSpiritualEnd
+Decresc ppp 4
+
+43        F      /    FM7
+44     Dm11      /    G11
+45        C    C/E     E+    Dm7
+46        C    z!
+

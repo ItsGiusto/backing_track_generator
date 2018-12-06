@@ -1,0 +1,118 @@
+// Time After Time
+
+Tempo 117
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove PianoBalladIntro2
+
+Begin Solo
+  Voice Clavinet
+  Cresc mp ff 4
+  Harmony OpenBelow+8Above
+  Articulate 110
+  Octave 5
+  Begin Riff
+    4c;d;e;d;
+	4c;d;e;d;
+	4d;e;f;g;
+	4g;f;e;d;
+  End
+End
+
+Solo MidiNote Chat 1 40
+Cresc mp f 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Solo Midinote Chat 1 0
+
+Repeat
+Groove PianoBallad2
+Volume m
+
+5         C      /     Am
+6       Dm7      /     G7
+7         C      /     Em
+8       Dm7      /     G7
+
+Groove PianoBallad
+Decresc mp 4
+
+9         C
+10       Am
+11       Dm
+12        G      /     E7
+
+Groove PianoBallad2Sus
+Cresc f 8
+
+13       Am      /    Am7
+14   F#m7b5      /     B7
+15       Em
+16    Em7b5      /    A7+      A
+
+Groove PianoBallad2
+
+17       Dm
+18      Dm7
+19        /      /     Bb
+Chord-Block Riff L1
+20       G7      z
+
+Groove PianoBallad
+Volume m
+
+21        C      /     Am
+22      Dm7      /     G7
+23        C      /     Em
+24      Dm7      /     G7
+
+Groove PianoBallad2Sus
+Swell f 8
+
+25        C
+26   C7sus4      /     C7
+27        F      /     F+
+28       F6      /    Fm6
+
+Groove PianoBallad2
+
+29        C
+30   F#m7b5      /    Fm6
+31      Em7      /     Am
+32       D7      /    Fm6
+
+Groove PianoBallad2Sus
+Decresc mp 4
+
+33        C      /    Am7
+34      Dm7      /    Db7
+
+RepeatEnding
+
+35        C      /    Dm7
+36       C/E      /    F
+
+RepeatEnd
+
+Groove PianoBalladEnd
+Tempo *.8 3
+Decresc ppp 3
+
+37        C     /    Em7
+
+Seq 1
+38      Dm7     /    DM7
+39        C    z! 
+
+
+
+
+
+

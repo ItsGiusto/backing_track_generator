@@ -1,0 +1,97 @@
+// Summer Knows
+
+Tempo 80    /// I think it was much slower in the movie
+Keysig F minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove GuitarBalladSusIntro
+
+Begin Solo
+off
+   Voice Strings
+   Articulate 120
+   Volume m
+   Octave 5  // no effect since we're using midi pitch values
+   Riff <Offset=0> 180t 68/102;<Offset=178> 92t 72/108;<Offset=272> 294t 68/98;<Offset=648> 49t 68/127;<Offset=757> 175t 68/127 ~;
+   Riff <Offset=168> 102t 72/82;<Offset=274> 338t 68/104;<Offset=656> 96t 68/127;<Offset=756> 104t 70/102 ~;
+   Riff <Offset=124> 90t 70/120;<Offset=248> 97t 70/127;<Offset=354> 107t 73/124;<Offset=462> 162t 70/127;<Offset=635> 127t 68/106;<Offset=762> 291t 67/118 ~;
+End
+
+Begin Solo-2
+   Voice ChoirAahs
+   HarmonyOnly OpenBelow
+   octave 8      // Again, no effect ... exactly the same DATA as solo!
+   Articulate 130
+   Volume mp
+End
+       
+//MidiInc File=~/foo.mid Solo=1,riff,print Volume=200  StripSilence=4361
+Solo DupRiff Solo-2
+
+1         Ab
+2        Fm
+3       Bbm
+4        Eb7      /      z
+
+Repeat
+Groove GuitarBalladSus
+
+5         Fm
+6       FmM7
+7        Fm7
+
+Groove GuitarBallad1
+
+8      Dm7b5
+9        Bbm
+10      Bbm7
+11      Bbm7      /   Gmb5
+
+Groove GuitarBallad
+
+12     Csus4      /   C7b9
+13         F
+14    Bbm6/F
+15         F
+
+Groove GuitarBallad1Sus
+
+16      Cm11
+17      BbM7
+18     Bm7b5      /   E7b9
+19       AM7      /   E7b9
+
+Groove GuitarBallad
+
+20       AM7      /  Eb7b9
+21      AbM7      /  Eb7b9
+22      AbM7      /   D7b9
+23         G
+
+Groove GuitarBalladSus
+
+24     Gm7b5
+25       F/C
+26     Gm7b5
+27       F/C
+
+Groove GuitarBallad1
+
+28      Bbm6
+29      Fm/C      /   Fdim
+30     Gm7b5
+
+RepeatEnding
+
+31        Fm   /  Dm7
+32        Gm7   C7 / z
+
+Repeatend
+
+Groove GuitarBalladEnd
+
+33        Fm
+34         /     z!
+

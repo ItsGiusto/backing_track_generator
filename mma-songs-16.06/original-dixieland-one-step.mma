@@ -1,0 +1,138 @@
+// Original Dixieland One Step
+
+Tempo 230
+KeySig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Repeat
+
+Groove DixieMarch
+
+1        Bb
+2         /
+3        F7
+4         /
+
+Groove DixieMarchPlus
+
+5        C7      /     F7
+6        Bb      /    Gm7
+7       Cm7      /     F7
+8        Bb
+
+Groove DixieMarch
+
+9         /
+10        /
+11       F7
+12        /
+
+Groove DixieMarchSus
+
+13       C7      /     F7
+14       Bb      /    Gm7
+15      Cm7      /     F7
+16       Bb
+
+KeySig Eb
+
+Groove DixieMarch
+
+17      Bb7
+18        /
+19       Eb      /    Gm7
+20      Cm7
+
+Groove DixieMarchPlus
+
+21      Fm7
+22      Bb7
+23       Eb      /  Bb7#5
+24       Eb
+
+Groove DixieMarch
+
+25      Bb7
+26        /
+27       Eb      /    Gm7
+28       Cm
+
+Groove DixieMarchSusPlus
+
+29       C7
+30       Fm      /  F#dim
+31       Eb      /    Bb7
+32       Eb      /    Eb7
+
+KeySig Ab
+
+Groove DixieMarch
+
+33       Ab
+34        /
+35       C7
+36        /
+
+Groove DixieMarchPlus
+
+37       F7
+38        /
+39      Bb7
+40        /
+
+Groove DixieMarchSusPlus
+
+41      Eb7
+42        /
+43       Ab
+44        /
+
+Groove DixieMarchSus
+
+45       Cm
+46       G7
+47      Cm7      /     F7
+48     Bbm7      /    Eb7
+
+Groove DixieMarch
+
+49       Ab
+50        /
+51       C7
+52        /
+
+Groove DixieMarchPlus
+
+53       F7
+54        /
+55     Bbm9      /     F7
+56      Bbm
+
+Groove DixieMarch
+
+57      Db6
+58     Dbm6      /    Gb7
+59       Ab
+60       F7
+
+Groove DixieMarchSus
+
+61      Bb7
+62      Eb7
+
+RepeatEnding
+
+63       Ab
+64       B7
+
+RepeatEnd
+
+Groove DixieMarchEnd
+
+63       Ab
+64       / z!
+
+
+

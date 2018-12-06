@@ -1,0 +1,106 @@
+// Goody Goody
+
+Tempo 160
+KeySig C
+
+Groove Metronome2-4
+	z * 2
+
+// 4 bar intro
+
+Begin Solo
+	Voice Bandoneon
+	Volume m
+	Octave 5
+	Harmony 3
+	Accent 1 20
+	Articulate 70
+End
+
+Groove Swing1
+SwingMode On
+
+1          C    {8e+;;4d#+;4e+;}
+2         C7    {8e+;;4d#+;4e+;}
+3          F      /      /     Dm    {8e+;;4d#+;4e+;4f+;}
+4          /     A7      z    {4f+;e+;;}
+
+Delete Solo
+
+Begin Solo
+	Drumtype
+	Volume ff
+End
+
+Groove Swing1
+
+Repeat
+
+5          C
+6          /      /      /   Gaug
+7          C    {2.r;8.Handclap;16;}
+8          /    {8Handclap;4;}
+
+9          /
+10         /      /      /    Bb7
+11        A7    {2.r;8.Handclap;16;}
+12         /    {8Handclap;4;}
+
+Groove Swing1Walk
+
+13        Dm      /     A7
+14        Dm
+15         /      /     A7
+16        Dm
+
+17        D7
+18       Am7     D7
+19       Am7     D7      /     G9
+20         /      /      z
+
+Groove Swing1Sus
+
+21         C
+22         /      /      /   Gaug
+23         C    {2.r;8.Handclap;16;}
+24         /    {8Handclap;4;}
+
+25        C9
+26         /
+27         F     A7      /     Dm
+28         /
+
+Groove Swing1WalkSus
+
+29     Fmaj7
+30       Fm6
+31     Cmaj7
+32      G7#5
+
+33         C
+34         /
+35        A7
+36         /
+
+37        D7
+38       Dm7     G9   G7b9
+
+RepeatEnding
+
+39         C
+40         /      /      z
+
+Groove Swing1
+
+RepeatEnd
+
+Groove SwingEnd
+
+41         C
+Seq
+42        D7
+43         C     z!
+
+
+
+

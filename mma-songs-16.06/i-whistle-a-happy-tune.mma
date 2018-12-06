@@ -1,0 +1,124 @@
+// I Whistle A Happy Tune
+
+Tempo $( 96 * 2 )
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BroadwayIntro8
+Chord Voicing Mode=Key
+Begin Solo
+    Voice Strings
+    Articulate 130
+    Octave 6
+    Harmony 3Below+38Below
+    Volume f
+    Begin Riff
+        1c;
+        2.g;
+        1d;
+        2.a;
+        1e;
+        2.b;
+        1g;
+    End
+End
+
+Swell mp mf 8
+
+1          C
+2          G
+3         Dm
+4         Am
+5         Em
+6         Bm
+7         G7
+8          /
+
+Repeat
+Groove Broadway
+Volume m
+
+9          C
+10       CM7      /      /     C7
+11         F
+12        F6
+
+13        G7
+14         /      /      /    G7+
+15         C
+16         /      /     G9     G7
+
+Decresc mp 2
+
+17         C
+18         /      /     G7
+
+Groove BroadWaySus
+Cresc mf 8
+
+19         C
+20       CM7      /      /     C7
+
+21         F
+22         /
+23        G7
+24         /      /      /    G7+
+
+25         C
+26         C      /     G9
+27         C
+28         /
+
+Groove Broadway1
+Volume f
+
+29        Ab
+30         /
+31         C
+32         /
+
+Volume mf
+
+33         G
+34       Gm6
+
+Decresc mp 2
+
+35        D9
+36        G9      /      /     G7
+
+Groove Broadway1Sus
+Cresc m 4
+
+37         C
+38       CM7      /      /     C7
+39         F
+40        F6
+
+if Def Fine
+    Decresc pp 4
+Endif
+
+41        G7
+42         /      /      /    G7+
+43         C
+44         /      /     G7
+
+If def Fine
+    Groove BroadwayEnd
+    decresc ppp 2
+   45         C
+   46         /  z!
+else
+   Cresc mf 2
+   45        C
+   46     /  / G7
+Endif
+
+
+Set Fine
+RepeatEnd
+
+

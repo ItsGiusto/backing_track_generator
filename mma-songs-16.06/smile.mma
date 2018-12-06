@@ -1,0 +1,118 @@
+// Smile
+
+Tempo 110
+KeySig F
+
+Transpose -3 
+Groove Metronome2-4
+	z * 2
+
+Groove BalladIntro
+AllGrooves Chord-Sus Volume -30
+
+Begin Solo
+    Voice JazzGuitar
+	Octave 6
+	Volume f
+	Articulate 110
+	Harmony OpenBelow+8Below
+	Begin Riff
+	    2f;4g;a;
+		2f;43f;g;a;
+		43b;;;2;
+		1c+;
+	End
+End
+
+Swell p m 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove Ballad
+Volume m
+
+5         F      /    FM9
+6         /      /    FM7     F6
+7       FM7
+8         /
+
+Groove BalladSus
+Volume +10
+
+9        F6
+10     Fdim
+11       Gm      /   Adim     Gm
+12     D7b9      /     Gm     D7
+
+Groove Ballad1
+Volume m
+
+13       Gm
+14        /
+15      Bbm
+16   Eb6(add9)
+
+Groove Ballad1Sus
+Swell m mp 8
+
+17        F
+18        /
+19       Gm
+20       C7
+
+Groove Ballad
+
+21        F      /    FM9
+22        /      /    FM7     F6
+23      FM7
+24        /
+
+Groove BalladSus
+Swell m mf 8
+
+25       F6
+26     Fdim
+27       Gm      /   Adim     Gm
+28     D7b9      /     Gm     D7
+
+Groove Ballad1
+
+29       Gm
+30        /
+31      Bbm
+32   Eb6(add9)
+
+Groove BalladSus
+Volume m
+
+33        F
+34        /
+35       Gm
+36       C7
+
+RepeatEnding
+
+Groove Ballad
+Decresc pp 2
+
+37        F      /    FM7     F6
+
+Groove BalladFill
+
+38        /      /     C7
+
+RepeatEnd
+
+Groove Ballad1End
+Seq 3
+Decresc ppp 2
+
+37        F      /    FM7     F6
+38        /  z!
+
+

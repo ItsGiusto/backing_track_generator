@@ -1,0 +1,143 @@
+// Lullaby Of Broadway
+
+Tempo 160
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+// 4 bar intro
+
+Groove FoxTrot1
+
+Begin Solo
+  Voice JazzGuitar
+  Cresc mp ff 4
+  Articulate 80
+  Harmony Open+8Below+8Above
+  Octave 6
+  Begin Riff
+    8r;e;;;4;;
+    4e;f;2g;
+    8r;d;8;;4;e;
+    1g;
+  End
+End
+
+Swingmode On
+Cresc p mf 4
+
+1          C
+2        Am7
+3         Dm
+4         G7
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5          C
+6         G7
+7          /
+8          C
+
+Groove FoxTrotPlus
+Cresc mf 4
+
+9          /
+10        G7
+11         /
+12         C
+
+Groove FoxTrot
+Volume m
+
+13         F
+14       Gm7      /      /     C7
+15       Gm7
+16         F
+
+Groove FoxTrotPlus
+Decresc mp 4
+
+17         /
+18       Gm7      /      /     C7
+19       Gm7      /     C7
+20         F      /     G7
+
+Groove FoxTrot
+Volume m
+
+21         C      /     A7
+22       Dm7
+23         /      /     G7
+24         C
+
+Groove FoxTrotPlus
+Volume mp
+
+25         /      /     A7
+26       Dm7
+27        G7
+28        C7
+
+Keysig F
+
+Groove FoxTrot1Sus
+Cresc mp mf 8
+
+29         F
+30        Bb
+31         F
+32        C7
+
+Groove FoxTrot1SusPlus
+
+33         F      /     F7
+34        Bb      /   Bbm6
+35         F      /     C7
+36         F
+
+Groove FoxTrot1Plus
+Decresc mp 8
+
+37         /
+38        Bb
+39         F
+40        C7
+
+Groove FoxTrot1Sus
+
+41         F      /     F7
+42        Bb      /   Bbm6
+
+RepeatEnding
+
+Groove FoxTrotFill
+
+43         F      /     C7
+44         F      /     G7
+
+AllGrooves Arpeggio Voice Piano2
+
+RepeatEnd
+
+Groove FoxTrotPlus
+Volume m
+
+45         F     C7  G#dim      F
+46       D&7
+
+47       Gm7
+48         F
+
+Groove FoxTrotFill
+Decresc ppp 3
+Tempo *.8 3
+
+49       Db7      /     C7
+
+Groove FoxTrotEnd
+
+50         F
+51         /     z!

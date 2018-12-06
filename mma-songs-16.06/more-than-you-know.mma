@@ -1,0 +1,109 @@
+// More Than You Know
+
+Tempo 100
+Keysig Eb
+
+Groove Metronome2-4
+   z * 2
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Articulate 90
+    Harmony OpenBelow+OpenAbove
+    Octave 5
+    Begin Riff
+        4e+;8c+;b;43g;a;b;
+        2c+;43b;a;g;
+        2f;43c;d;e;
+        2d;
+    End
+End
+
+Groove BeguineIntro
+
+Begin AllGrooves
+   Chord Articulate 110
+   Volume m
+End
+
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7      /  Bb7#5
+
+Repeat
+Groove Beguine
+Volume m
+
+5       Eb6      /  Bb7#5
+6       Eb7
+7        Ab      /     C7
+8       Ab6      /    Abm
+
+Groove Beguine1
+
+9       Bb7      /     F7
+10   Bb7sus      /    Bb7
+11       Eb
+12      Bb7      /  Bb7#5
+
+Groove Beguine
+
+13      Eb6      /  Bb7#5
+14      Eb7
+15       Ab      /     C7
+16      Ab6      /    Abm
+
+Groove Beguine1
+
+17       Eb      /     C7
+18       F7      /    Bb7
+19       Eb      /     Ab
+20       Eb      /  Cm6(add9)     D7
+
+Groove BeguineSus
+
+21      Gm7
+22      Cm6      /    Dm7
+23       Gm
+24        /      /  Ebm6(add9)
+
+Groove Beguine1Sus
+
+25       Bb      /    Gm7
+26       C7      /     F7
+27      Bb7      /      /   Edim
+28      Bb7      /  Bb7#5
+
+Groove Beguine
+
+29      Eb6      /  Bb7#5
+30      Eb7
+31       Ab      /     C7
+32      Ab6      /      /    Abm
+
+Groove Beguine1
+
+33       Eb      /     C7
+34       F7      /    Bb7
+
+RepeatEnding
+
+35       Eb      /   Adim
+
+Groove BeguineFill
+
+36      Bb7      /  Bb7#5
+
+RepeatEnd
+
+
+Groove Beguine2End
+
+
+37       Eb      /     Cb
+38       Eb      z!
+

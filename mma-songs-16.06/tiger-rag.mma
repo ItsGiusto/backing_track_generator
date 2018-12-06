@@ -1,0 +1,161 @@
+// Tiger Rag
+
+Tempo 200
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove BigBandIntro8
+
+Begin Solo
+   Voice BrassSection
+   Harmony OpenBelow+8Above
+   Octave 5
+   Articulate 80
+   Volume ff
+   Begin Riff
+       4r;2b;4;
+	   2b;8d+;
+	   4r;2b;4;
+	   2b;8d+;
+	   4r;2c+;4;
+	   2c+;8e+;
+	   4f+;e+;c+;a;
+	   4c+;a;2f;
+   End
+End
+
+Swell mp f 8
+
+1         Bb
+2          /
+3         Gm
+4          /
+5         Cm
+6          /
+7         F7
+8          /
+
+Repeat
+Groove BigBand8
+Volume m
+
+9         Bb
+10         /
+11         /      /     F7
+12        Bb
+
+Cresc mf 4
+
+13         /
+14         /
+15         /      /     F7
+
+RepeatEnding
+
+16        Bb
+
+Groove BigBand8Sus
+Volume m
+
+17        C7
+18         F      /      /  F#dim
+19        C7
+20         F
+
+Volume mf
+
+21        C7
+22         F      /      /  F#dim
+23        C7
+
+Groove BigBandFill
+
+24         F     F7
+
+RepeatEnd
+
+Groove BigBandFill
+
+25        Bb    Gb7      /     F7
+
+Groove BigBandSus
+
+Repeat
+Volume m
+
+26        Bb
+27         /
+28         /
+29         /
+
+Groove BigBandPlus
+Volume mf
+
+30         /
+31         /
+32        F7
+33         /
+
+Groove BigBand
+Cresc mp mf 6
+
+34         /
+35         /
+36         /
+37         /
+
+Groove BigBandSusPlus
+
+38         /
+39         /
+40        Bb
+41         /    F#7     C7     F7
+
+Groove BigBand
+Cresc mp mf 6
+
+42        Bb
+43         /
+44         /
+45         /
+
+Groove BigBandPlus
+
+46         /      /    Eb6   Edim
+47       Bb7      /      /   Bb7+
+48        Eb      /    Bb7
+49        Eb
+
+Groove BigBand
+Volume m
+
+50      Edim
+51         /
+52        Bb      /      /    Bb7
+53        G7
+
+Decresc mp 4
+
+54        C9
+55        F7      /      /    F7+
+
+RepeatEnding
+
+56        Bb
+
+Groove BigBand1Fill
+
+57        F7
+
+Tempo *1.25  8   /// This will change 200 to 250 over 8 bars
+Groove BigBand
+
+RepeatEnd
+
+Groove BigBandEnd
+
+58        Bb      /      /    Ebm
+59        Bb      /     z!
+

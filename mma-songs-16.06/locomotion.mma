@@ -1,0 +1,78 @@
+// Locomotion
+// The Little Eva Classic
+
+Tempo 126
+Transpose 2
+
+Groove Metronome2-4
+	z * 2
+
+Groove 50sRockIntro
+
+
+1      Eb    * 4
+
+Groove 50sRock
+
+2      Eb    
+3      Cm 
+4      Eb    
+5      Cm    
+6      Eb    
+7      Cm    
+8      Eb    
+9      Cm    
+10     Ab    
+11     Fm    
+12     Ab    
+13     F7    
+14     Eb    /    Bb9   
+15	   Bb
+16     Eb    
+17	/
+18     Ab    
+19	/
+20     Eb    
+21	/
+22     Bb7  
+
+Groove 50sRock1
+ 
+23	/
+
+Repeat
+Groove 50sRockSus
+
+24     Eb    
+25     Cm    
+26     Eb    
+27     Cm    
+28     Eb    
+29     Cm    
+30     Eb    
+31     Cm    
+32     Ab    
+33     Fm    
+34     Ab    
+35     F7    
+36     Eb    /    /    Bb9   
+37	/
+38     Eb
+
+Groove 50sRock1Sus
+    
+39     Cm    
+
+RepeatEnd
+
+Decresc mf ppp 4
+Groove 50sRockEnd
+
+Repeat
+
+40     Eb    
+41     Cm    
+
+RepeatEnd
+
+

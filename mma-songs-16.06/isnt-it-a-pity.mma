@@ -1,0 +1,145 @@
+// Isnt It A Pity
+
+Tempo 70
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove MellowJazzIntro
+
+AllGrooves Chord-Strings Volume p
+
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Articulate 110
+    Harmony OpenAbove+2Below
+    Rtime 5
+    Rvolume 0,10
+    Octave 5
+    Begin Riff
+        4c+;;g;8a;b;
+        8c+;b;a;g;4a;g;
+        8d+;c+;b;a;4g;f;
+        1g;
+    End
+End
+
+Swingmode ON
+
+Swell mp mf 4
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+Groove MellowJazz
+Volume mp
+
+5        Am6
+6      Dm7b5
+7          C
+8        Dm9      /     G7
+
+Groove MellowJazzPlus
+Volume m
+
+9          C
+10         F      /     G7
+11       C/E      /     B7
+12       Bb7      /     A7
+
+Groove MellowJazz
+
+13        D9sus  /  D9
+14     Dm7b5
+15         C
+16    F#m7b5      /     B7
+
+Groove MellowJazzPlus
+Decresc mp 4
+
+17        Em      /      /     Am
+18       Em7      /      /     A7
+
+Chord Riff L2
+19     D7sus      /     D7
+Chord Riff L1
+20        G7      /      /    G+7
+
+Repeat  /// this is for the DS
+
+Repeat  /// the 8 bar section
+
+Groove MellowJazzSus
+Volume m
+
+21         C      /    Em7
+22         F      /    B+7
+23        Em      /     A7
+24        Dm      /     G7
+
+Groove MellowJazzSusPlus
+Cresc mf 3
+
+25         C      /   C9/E
+26         F      /    Dm7     G7
+
+RepeatEnding
+
+27       C/E      /      /  Adim7
+28       Dm7      /     G7
+
+RepeatEnd
+
+29         C      /    Dm7     G7
+
+Groove MellowJazz
+Volume m
+
+30         C    Dm9      /    Am6
+31      Em/B      /     Em
+32       F#7     B7
+
+Groove MellowJazzSus
+Cresc mf 2
+
+33        Em
+34        A7
+35      G6/D      /      /      G
+36       Am6     D7
+
+Groove MellowJazz
+Decresc mp 3
+
+37        G7
+38        F9      /     F7
+39         C      /    Em7
+40         F      /    B+7
+
+Groove MellowJazzSus
+Cresc m 2
+
+41        Em      /     A7
+42        Dm      /     G7
+
+Decresc mp 2
+
+43         C      /    D+9
+44       FM7    Em7    Dm7     G9
+
+Repeatending
+
+45         C      /    Am7
+46         Dm7    /    G7   
+
+RepeatEnd
+
+Groove MellowJazzEnd
+Decresc ppp 2
+Tempo *.8 2
+
+45         C      /    Dm7
+46         C     z!

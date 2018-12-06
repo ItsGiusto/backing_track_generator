@@ -1,0 +1,107 @@
+// Try To Remember
+
+Tempo 130
+Keysig G
+
+Groove Metronome3
+  z * 2
+
+Groove WaltzIntro
+Begin Solo
+  Voice Piano1
+  Harmony OpenBelow
+  Octave 5
+  Articulate 110
+  Volume f
+  Begin Riff
+    4.d+;8;4;
+	4d+;c+;b;
+	4.a;8;4;
+	2d+;
+  End
+End
+
+1        Bm
+2       Em7
+3        Am
+4        D7
+
+Repeat
+Groove Waltz
+
+5         G
+6         /
+7        Am
+8        D7
+
+Groove Waltz1
+
+9         G
+10        /
+11       Am
+12       D7
+
+Groove WaltzSus
+
+13        G
+14        /
+15       Am
+16       D7
+
+Groove Waltz1Sus
+
+17        G
+18        /
+19       Am
+20       D7
+
+Groove WaltzWalk
+
+21      Bm7
+22      Em7
+23      Am7
+24       D7
+
+Groove Waltz1Walk
+
+25      GM7
+26      CM7
+27        F
+28       D7
+
+Groove Waltz1WalkSus
+
+29        G
+30        /
+31       Am
+32       D7
+
+
+RepeatEnding
+
+Groove WaltzWalk
+
+33        G
+34        /
+35      CM7
+36       D7
+
+
+RepeatEnd
+label foo
+Groove WaltzSus
+Tempo *.8 6
+Decresc ppp 8
+
+37        G
+38        /
+39      CM7
+40       D7
+
+Groove WaltzEnd
+Seq 3
+
+41        G
+42        /  z!
+
+  

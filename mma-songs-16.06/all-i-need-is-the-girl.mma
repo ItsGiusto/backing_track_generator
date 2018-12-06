@@ -1,0 +1,132 @@
+// All I Need Is The Girl (Gypsy, 1959)
+
+Tempo 170
+Keysig G
+
+Groove Metronome2-4
+   z * 2
+
+Groove SoftShoeIntro8
+
+Begin AllGrooves Arpeggio
+    Voice PizzicatoString
+    Harmony OpenBelow+8Above
+    Direction Random
+    Range 1.2
+    Rskip 60
+End
+
+Begin Solo
+     Voice Piano1
+     Octave 5
+     Volume ff
+     Articulate 90
+     Harmony 3Below
+     Begin Riff
+         2.d#;2e~;
+         ~ 2d#;4e;
+         2.e#;2f~;
+         ~2e#;4f;
+         2.f;2g~;
+         ~ 2f;4g;
+         1+2g#~;
+     End
+End
+
+Swell mp f 8
+
+1         G+      /      /     G6
+2          /     G+      /     G6
+3          F      /      /     D7
+4          /      F      /     D7
+5         F#      /      /      G
+6          /
+7         E7
+8          /      z
+
+Repeat
+Groove SoftShoe
+Volume m
+
+9         G+      /      /     G6
+10         /     G+      /     G6
+11         F      /      /     D7
+12         /      F      /     D7
+
+Groove SoftShoePlus
+Cresc f 4
+
+13        F#      /      /      G
+14         /
+15        E7
+16         /
+
+Groove SoftShoe
+Volume m
+
+17        A7
+18         /
+19       D9+      /      /     D7
+20         /    D9+      /     D7
+
+Groove SoftShoePlus
+Swell mf 4
+
+21         G
+22         /      /   Gdim
+23       Am7
+24         /     D7     Am     D7
+
+Groove SoftShoe
+Swell mp 4
+
+25        G+      /      /     G6
+26         /     G+      /     G6
+27         F      /      /     D7
+28         /      F      /     D7
+
+Groove SoftShoePlus
+Cresc mf 2
+
+29        F#      /      /      G
+30         /
+31       Dm9
+32        G9
+
+Groove SoftShoeSus
+Decresc m 4
+
+33        Dm      /      /     F+
+34         /     C7      /     E7
+35        A9
+36         /      /   Gdim
+
+Groove SoftShoeSusPlus
+
+37        G+      /      /     G6
+38         /     G+      /     G6
+39        E7
+40         /
+
+Groove SoftShoe
+Decresc mp 3
+
+41        A7      /      /    Am7
+42         /      /     D9
+
+RepeatEnding
+Groove SoftShoePlus
+
+43         G      /   Gdim
+44       Am7      /     D7
+
+RepeatEnd
+
+45         G
+
+Groove SoftShoeEnd
+Decresc ppp 2
+
+46       Am7      /     D7
+47         G     z!
+

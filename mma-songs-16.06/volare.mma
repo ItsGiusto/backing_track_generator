@@ -1,0 +1,112 @@
+// Volare
+
+Tempo 144
+KeySig Bb
+
+Groove Metronome2-4
+    z * 2
+
+Groove BigBand
+Begin Solo
+    Voice Piano1
+    Harmony OpenBelow
+    Octave 5
+    Articulate 110
+    Volume f
+    Begin Riff
+        43b;;; ;;;
+        43d+;;; ;;;
+        43c+;;; ;;;
+        1f+;    
+    End
+End
+ 
+1         Bb
+2         Gm
+3         Cm
+4         F7      /   G7b9
+
+Repeat
+Groove BigBand
+
+5        Cm7
+6          /      /   G7b9
+7        Cm7
+8          /      /   F7b9
+
+Groove BigBandPlus
+
+9         Bb      /   BbM7
+10       Bb6      /     F7
+11        Gm
+12         /
+
+Groove BigBand
+
+13       Cm7      /     F7
+14        Bb
+15       Cm7      /     F7
+16        Bb
+
+Groove BigBandSus
+
+17        Gm
+18       Gm7      /    Gm6
+19        Dm      /     F+
+20       Dm7
+
+Groove BigBandSusPlus
+
+21        D7      /     Cm
+22        D7
+23        Gm
+24        Eb      /     Gm
+
+Groove BigBandSus
+
+25       Ebm      /    Bb+
+26      Ebm7      /    Ab9
+27        Db
+28        F7      /   G7b9
+
+Groove BigBand
+
+29       Cm7
+30         /      /   G7b9
+31       Cm7
+32         /      /   F7b9
+
+Groove BigBandPlus
+
+33        Bb      /   BbM7
+34       Bb6      /     F7
+35        Gm
+36         /
+
+Groove BigBand
+
+37       Cm7      /     F7
+38        Bb
+39       Cm7      /     F7
+
+
+RepeatEnding
+
+Groove BigBandFill
+
+40        Bb      /   G7b9
+
+RepeatEnd
+
+41        Bb      /    Gm7
+
+Groove BigBand2End
+Chord-Sus Groove BigBandSus
+
+Decresc pppp 4
+Tempo *.9 4
+
+42       Cm7      /     F7
+43        Bb      /    Gm7
+44       Cm7      /     F7
+45        Bb      /     z!

@@ -1,0 +1,101 @@
+// Evry Night About This Time
+
+Tempo 120
+KeySig 2b
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+	Voice Piano2
+	Octave 5
+	Volume f
+	Harmony Open
+	Articulate 80
+	Begin Riff
+		4b;c+;8d+;e+;d+;c+;
+		4b;c+;8d+;e+;d+;c+;
+		4e+;d+;c+;b;
+		2a;
+	End
+End
+
+Cresc p mf 4
+
+SwingMode On  // This will swing the solo riffs
+
+1         Bb
+2         Gm
+3         Cm
+4         F7      z
+
+Delete Solo
+
+Repeat
+Groove FoxtrotSus
+Cresc mp mf 8
+
+5         Bb
+6          /      /     F+
+7         Bb
+8          /      /     F+
+
+9         Bb      /     A7
+10        Bb
+11        C7
+12        F7
+
+Groove FoxTrot
+Volume mp
+
+13       Cm7
+14        F7
+15        Bb9
+16         /      /    Gm7
+
+17        C7
+18         /
+19        F9
+20         /      z
+
+Groove FoxTrotPlus
+Decresc mf mp 8
+
+21        Bb
+22         /      /     F+
+23        Bb
+24         /      /     F+
+
+25        Bb      /     A7
+26        Bb      /      /    Bb7
+27        Eb      /    Bb+
+28        Eb
+
+Groove Foxtrot
+
+29        Eb
+30       Ebm
+31        Bb      /    Gm7
+32        C7
+
+33        F9
+34         /
+Volume mf
+
+RepeatEnding
+
+35        Bb
+36         /      z
+
+RepeatEnd
+
+
+Groove FoxTrotEnd
+
+Tempo -20 2
+
+37        Bb      /    Eb7
+38        Bb     z!
+

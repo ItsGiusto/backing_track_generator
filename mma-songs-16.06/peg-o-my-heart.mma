@@ -1,0 +1,67 @@
+// Peg O My Heart
+
+Tempo 126
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+	Voice Piano2
+	Volume f
+	Articulate 80
+	Octave 4
+End
+
+KeySig b&
+
+Groove SwingSus
+Swingmode On
+
+1         Eb      /     Cm    {8e+;g+;d+;g+;2e+;}
+2         Bb      /     Gm    {8d+;f+;c+;e+;2d+;}
+3         Eb    {8d+;c+;b;a&;4g;c+;}
+4         F7    {2.f;}
+
+Repeat
+Groove Swing
+
+5         Bb
+6          /
+7         C7
+8          /
+
+Groove SwingSus
+
+9        Cm7      /     F7
+10       Cm7      /     F7
+11        Bb      /  Bbdim
+12        F7
+
+Groove SwingPlus
+
+13        Bb
+14         /
+15        C7
+16         /
+
+Groove SwingPlusSus
+
+17       Cm7      /     F7
+18       Cm7      /     F7
+
+RepeatEnding 2
+Groove SwingFill
+
+19        Bb      /  Bbdim
+20        C7      /     F7
+
+
+RepeatEnd
+
+Groove SwingEnd
+
+Decresc ppp 2
+
+21        Bb
+22         /      /     z!
+

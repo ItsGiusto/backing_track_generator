@@ -1,0 +1,100 @@
+// Mean To Me
+
+Tempo 116
+Keysig F
+
+Groove Metronome2-4
+	   z * 2
+
+Groove SwingIntro
+
+Mset Solo
+ Begin Riff
+	4a;8c;2+8d;
+	4b;8d;2+8e;
+	43c+;;;;b;a;
+	1c+;
+ End
+EndMSet
+
+Begin Solo
+	  Voice Flute
+	  Volume F
+	  Octave 5
+	  Articulate 100
+	  $Solo
+End
+
+Begin Solo-1
+	  Voice Piano1
+	  Volume F
+	  Harmony Open
+	  Octave 6
+	  Articulate 100
+	  $Solo
+End
+
+1         F   /   Dm7
+2        Gm7  /   C7
+3        F    /   Dm7
+4        C7
+
+Repeat
+Groove SwingWalk
+Cresc mp m 8
+
+5         F      /    Dm7
+6       Gm7      /    C7  C7/Bb
+7       Am7      /    Dm7
+8      BbM7      /    Eb9
+9       Am7      /     D7
+10      Gm7      /     C9
+11       F6      /    Dm7
+12       G7    Gm7
+
+Groove SwingWalkSus
+
+13        F      /    Dm7
+14      Gm7      /     C9
+15      Am7      /    Dm7
+16     BbM7      /    Eb9
+17      Am7      /     D7
+18      Gm7      /     C7
+19       F6
+20      Cm7      /   F7b9
+
+Groove SwingWalkPlus
+Volume mf
+
+21     BbM7      /    Gm7
+22      Cm7      /   F7b9
+23       Bb
+24        /    Eb9   D9#5   D7b9
+25      Gm7      /  Em7b5
+26     A7b9    Eb9   D9#5   D7b9
+27       G7
+28      Gm7      /   C9#5
+
+Groove SwingWalkPlusSus
+Volume m
+
+29        F      /    Dm7
+30      Gm7      /     C9  C7/Bb
+31      Am7      /    Dm7
+32     BbM7      /    Eb9
+33      Am7      /    Dm7
+34      Gm7      /     C9
+
+RepeatEnding 
+
+35       F6      /    Dm7
+36       G7      /    Gm7   C7#5
+
+RepeatEnd
+
+Groove SwingEnd
+Volume -20
+
+37        F      /    Bb9
+38       F6		 /    z!
+

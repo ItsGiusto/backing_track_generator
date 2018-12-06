@@ -1,0 +1,89 @@
+// Mood Indigo
+
+Tempo 80
+Transpose 2
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingIntro
+Allgrooves Plectrum Capo -4
+
+Keysig 4b
+
+Begin Solo
+	Voice Piano1
+	Articulate 90
+	Octave 5
+	Harmony 3
+	Volume f
+	Begin Riff
+		2.c; 3; 3; 3;
+		1c;
+		2f; 2d;
+		1e;
+	End
+End
+
+1      Ab
+2      Fm
+3      Bbm
+4      Eb7
+
+Delete Solo
+
+Repeat
+
+Groove EasySwingSus
+
+5      Ab
+6      Bb7
+7      Eb7   /    Eb7+5
+8      Ab
+9	/
+10     Bb7
+11     E7
+12     Eb7
+13     Ab
+14     Ab7
+15     Db6
+16     Gb7   /    Eb7+5
+17     Ab
+18     Bb7
+19     Eb7   /    Eb7+5
+
+RepeatEnding 2
+
+Groove EasySwingFill
+
+20     Ab
+
+Groove EasySwingWalk
+
+21	/
+22     Bb7
+23     Eb7
+24     Ab    /    Eb7
+25     Ab
+26     Bb7
+27     /    /    E7
+28     Eb7
+
+Groove EasySwingWalkSus
+
+29     Ab7
+30	/
+31     Db    /    Db7
+32     /    /    E7    Eb7
+33     Ab
+34     Bb7
+35     Eb7
+36     Ab    /    Eb7
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+Tempo *.9 1.25
+20    Ab
+      /  z!

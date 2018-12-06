@@ -1,0 +1,170 @@
+// Original Washington Two Step
+
+Tempo 190
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+/// "A"
+
+Groove DixieIntro
+
+Begin Solo
+    Voice Piano2
+    Volume f
+    Articulate 80
+    Octave 5
+    Harmony OpenAbove
+    Begin Riff
+       4f;8b;c+;d+;c+;4b;
+       8g;f#;g;a;b;a;4g;
+       8f;g;a;b;4c+;8f;8+1.b~;
+    End
+End
+
+Swingmode On
+1        Bb      /    Bb7
+2        Eb      /   Edim
+3        Bb      /     F7
+4        Bb
+
+Repeat
+Groove Dixie2
+
+5        Bb      /    Bb7
+6        Eb      /    Gm7
+7        C7
+8        F7
+
+Groove Dixie3
+
+9        Bb
+10      Bb7
+11       Eb
+12        /      /      /    Ebm
+
+Groove Dixie2Sus
+
+13       Bb      /    Bb7
+14       Eb      /   Edim
+15       Bb      /     F7
+16       Bb      /    Bb7
+
+Keysig Eb
+/// "B"
+
+Groove Dixie2
+
+17       Eb
+18        /
+19      Bb7
+20       Eb      /    Eb7
+
+Groove Dixie3
+
+21       Ab      /   Adim
+22       Eb      /     C7
+23       F7
+24      Bb7
+
+Groove Dixie3Sus
+
+25       Eb
+26        /
+27      Bb7
+28       Eb
+
+Groove Dixie2
+
+29    Ebdim
+30        /      /      /     C7
+31       F7      /    Bb7
+32       Eb
+
+/// "Transition"
+
+Groove Dixie3
+Bass Sequence -
+Begin Walk
+   Sequence W1234
+   Articulate 60
+   Volume f
+End
+
+33      Eb7
+34        /
+35        /
+
+Walk Sequence -
+Bass Sequence B13
+Bass Volume f
+
+36        /
+
+Keysig Ab
+/// "C"
+
+Groove Dixie2
+
+37       Ab
+38        /      /   Adim
+39      Eb7
+40        /
+
+Groove Dixie3Sus
+
+41        /
+42        /
+43       Ab
+44        /
+
+Groove Dixie3
+
+45       F7
+46        /
+47      Bb7
+48        /
+
+Groove Dixie2Sus
+
+49      Bb7
+50        /
+51      Eb7
+52        /
+
+Groove Dixie2
+
+53       Ab
+54        /      /   Adim
+55      Eb7
+56        /
+
+Groove Dixie3
+
+57      Eb7
+58        /
+59       C7
+60        /
+
+Groove Dixie3Sus
+
+61       F7
+62        /
+63      Bb7
+64     Bdim
+
+If Def LastTime
+   Groove DixieEnd
+Else
+   Groove Dixie3
+Endif
+
+65     Bbm7
+66      Eb7
+67       Ab
+68        /  z!
+
+Set LastTime
+RepeatEnd
+

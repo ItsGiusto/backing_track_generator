@@ -1,0 +1,132 @@
+// El Bodeguero
+
+Tempo 124
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove ChaChaIntro
+
+Begin AllGrooves
+    Begin Arpeggio
+        Range 1
+        Octave 6
+    End
+End
+
+Begin Solo
+   Voice Flute
+   Harmony OpenBelow
+   Articulate 110
+   Octave 6
+   Volume f
+   Begin Riff
+       8b;d+;2r;8b;d+;
+       8c+;d+;2r;8c+;d+;
+       16g;a;g;f;8g;16g;a;g;f;8g;16g;a;g;f;
+       2g;
+   End
+End
+
+Swell mp mf 4
+
+1         G
+2       Am7      /     D7
+3         G
+4         /
+
+Repeat
+Groove ChaCha
+Volume m
+
+5        Am      /     D7
+6         G
+7        Am      /     D7
+8         G
+
+Groove ChaCha1
+Cresc mf 4
+
+9        Am      /     D7
+10        G
+11        A
+12       D7
+
+Groove ChaCha
+Decresc mp 4
+
+13      Am7      /     D7
+14        G
+15      Am7      /     D7
+16        G
+
+Groove ChaChaSus
+Cresc m 4
+
+17       Am      /     D7
+18      Bm7      /    Em7
+19      Am7      /     D7
+20        G      /    F#7
+
+Groove ChaCha1Sus
+
+21      Bm7
+22      F#7
+23        /
+24      Bm7
+
+Groove ChaCha
+Decresc mp 4
+
+25        A      /     A7
+26       D7
+27       A7
+28       D7
+
+Groove ChaChaSus
+
+29      Am7      /     D7
+30        G
+31       Am      /     D7
+32        G
+
+Groove ChaCha
+Volume m
+
+33      Am7      /     D7
+34       Bm      /    Em7
+35      Am7      /     D7
+
+Repeatending
+Volume f
+Groove ChaChaFill
+
+36        G
+
+Repeatend
+
+37        G
+
+Groove ChaChaSus
+Cresc mp m 4
+
+38      Am7      /     D7
+39        G      /     E7
+40       Am      /     D7
+41        G      /   E7#9
+
+Groove ChaCha1Sus
+Decresc p 2
+
+38      Am7      /     D7
+39        G      /     E7
+
+Groove ChaChaEnd
+Decresc ppp 2
+
+40       Am      /     D7
+41        G      z!
+
+
+

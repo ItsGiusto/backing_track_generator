@@ -1,0 +1,106 @@
+// S Wonderful
+
+Tempo 200
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove QuickStepIntro8
+
+If Def WK3000
+  AllGrooves Chord-Duh Voice ScatVoice2 //MagicVoiceDoo
+Endif
+
+Begin Solo
+ Voice BrassSection
+ Harmony Open
+ Volume m
+ Octave 5
+ Articulate 90
+ Begin Riff
+   4.b;8;2+1g~;
+   ~<>;
+   4.e+;8;1+2c+~;
+   ~<>;
+   2f+;4e+;d+;
+   2c+;b;
+   1+2b~;
+   ~<>;
+ End
+End
+
+Cresc p m 8
+
+1    Eb   
+2    /    
+3    Cm7  
+4    /    
+5    Fm7  
+6    /    
+7    Bb7  
+8    /    
+
+Repeat
+Groove QuickStepDuh
+Volume mp
+
+9    Eb   /    Eb6  
+10   Eb   /    Eb6  
+11   C7   /    C#dim 
+12   C7   /    C#dim 
+13   Bb13 
+14   /    /    Bb7  
+15   Eb6  /    Eb   
+16   Eb6  /    Eb   
+
+Groove QuickStep
+Volume m
+
+17   Eb   /    Eb6  
+18   Eb   /    Eb6  
+19   C7   /    C#dim 
+20   C7   /    C#dim 
+21   Bb13 
+22   /    /    Bb7  
+23   Eb6  
+
+Groove QuickstepHit
+
+24   /    /    Cm6  
+
+Groove QuickStepDuhSus
+Cresc mf 8
+
+25   G    
+26   D    
+27   G    
+28   D7   
+29   Dm6  
+30   C7   
+31   F7   
+32   Bb7  
+
+Groove QuickStep
+Decresc mp 8
+
+33   Eb   /    Eb6  
+34   Eb   /    Eb6  
+35   Cm   
+36   /    /    F    
+37   Fm7  /    Edim Fm7  
+38   /    /    Bb7  
+
+RepeatEnding 2
+
+39   Eb   Gm   Fm   Ab   
+40   Gm   Cm   Fm7  Bb   
+
+RepeatEnd
+Groove QuickstepEnd
+
+Decresc ppp 2
+
+41   Eb   /    Ab   
+42   Eb   
+

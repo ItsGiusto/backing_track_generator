@@ -1,0 +1,125 @@
+// Together Wherever We Go
+
+Tempo $(105 * 2 )
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BroadwayIntro
+
+Begin Solo
+    Voice Flute
+    Octave 6
+    Swell m f 4
+    Harmony OpenBelow+8Below    
+    Articulate 110
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+        8d;e;f;g; a;b;c+;d+;
+        8c+;b;a;g; f;e;4d;
+        8e;d;c;d; e;d;c;d;
+        2.f;
+    End
+End
+
+Cresc p m 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+
+Repeat
+Groove Broadway
+Swell m f 8
+
+5        Bb      /      /    Cm7
+6         /      /      /     F7
+7        Bb      /      /    Cm7
+8         /      /      /     F7
+
+9        Bb
+10       C7
+11       F7      /     Eb
+12     Fdim      /     F7
+
+Groove Broadway1
+Decresc mp 8
+
+13       Bb      /      /    Cm7
+14        /      /      /     F7
+15       Bb      /      /    Cm7
+16        /      /      /     F7
+
+17       Bb
+18        /     C7
+19     Fdim      /    Eb6
+20       F7
+
+Groove BroadwaySus
+Cresc f 8
+
+21      Bbm
+22        /      /      /   C7b9
+23       Fm
+24        /      /      /    Db7
+
+25       Gb
+26        /      /   Ab7+
+27       Db
+28        /
+
+Groove Broadway1Sus
+Volume m
+
+29       Cb
+30        /
+31     Bbm6
+32        /
+
+33       C7
+34        /
+35       F7      /      /    Cm7
+36       F7
+
+Groove Broadway
+Cresc mf 4
+
+37       Bb      /      /    Cm7
+38        /      /      /     F7
+39       Bb      /      /    Cm7
+40        /      /      /     F7
+
+41       Bb
+42      Gm7
+43      Cm6
+44       D7
+
+Groove BroadwaySus
+Volume m
+
+45       Gm
+46      Bb+
+47      Gm7
+48       C7
+
+Decresc mp 2
+
+49      Bb6
+50      Cm7      /      /     F9
+
+RepeatEnding 
+
+51       Bb
+52        /      /     F7
+
+RepeatEnd
+Groove BroadwayEnd
+Decresc pp 2
+
+51       Bb
+53        / z!
+

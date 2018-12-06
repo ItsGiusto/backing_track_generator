@@ -1,0 +1,103 @@
+// We Just Couldnt Say Goodbye (1932)
+
+Tempo 118
+Keysig C
+
+Groove Metronome2-4
+   z * 2
+
+Groove FoxtrotIntro
+Begin Solo
+    Voice Piano2
+    Articulate 90
+    Harmony OpenBelow
+    Octave 5
+    Volume mf
+    Begin Riff
+        8c+;b;a;g;4a;;
+        8a;g;f;e;4f;;
+        8d;e;f;g;4a;;
+        2.g;
+    End
+End
+
+Swingmode On
+Swell p mp 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat   // entire song 2x
+Repeat
+Groove FoxTrot
+Volume m
+
+5        G7
+6         /
+7         C
+8         /      /   Gdim
+
+Groove FoxTrotPlus
+Decresc mp 2
+
+9        G7
+10        /
+11       D7      /     G7
+
+Groove FoxTrotFill
+
+RepeatEnding
+
+12        C
+
+RepeatEnd
+
+13        C
+
+Groove FoxTrotSus
+Volume m
+
+14      Gm7
+15       C7
+16        F
+17        /
+
+Groove FoxTrotSusPlus
+Cresc mf 4
+
+18       D7
+19       G7
+20        /
+21        /
+
+Groove FoxTrot
+Decresc m 4
+
+22       G7
+23        /
+24        C
+25        /      /   Gdim
+
+Groove FoxTrotPlus
+Decresc mp 2
+
+26       G7
+27        /
+
+RepeatEnding
+
+Groove FoxTrotFill
+
+28       D7
+29        C / G7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc ppp 2
+Tempo *.8 2
+
+28       D7
+29        C  z!

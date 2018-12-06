@@ -1,0 +1,132 @@
+// We Kiss In A Shadow
+
+Tempo 93
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove BossanovaIntro
+
+// Change the chording inst. from jazz to nylon guitar. Makes
+// the song sound a lot more "folky"
+Begin AllGrooves Chord 
+  Voice NylonGuitar
+  Voicing Mode=Key
+  Strum 10
+  Articulate 110
+End
+
+Begin Solo
+  Voice NylonGuitar
+  Articulate 110
+  Harmony 3Below
+  Octave 5
+  Volume m
+  Accent 1 10 3 10
+  Begin Riff
+     43c+;a;f;c+;a;f;
+     43b;g;e;b;g;e;
+     43a;f;d;a;f;d;
+     1g;
+  End
+End
+
+// We're doing a triplet strum which clashes with the
+// intro chord rhythm, so change to chords on 1 and 3/
+Chord Sequence C13 / / L1
+
+Swell mp mf 4
+
+1         F
+2         Emb5 //Gm
+3         Dm
+4         C7
+
+
+Groove Bossanova
+Volume m
+
+5         F
+6         /
+7        C7
+8         /
+
+Groove BossaNova1Sus
+Cresc mp m 4
+
+9         /
+10        /
+11        F
+12        /
+
+Groove BossaNovaPlus
+Cresc mf 4
+
+13        /
+14        /
+15       C7
+16        /
+
+Groove BossaNova
+Decresc mp 4
+
+17        /
+18        /
+19        F
+20        /
+
+Repeat
+Groove BossaNovaSusPlus
+Decresc m mp 4
+21       Am
+22       B7
+23       Em
+24        C
+
+Groove BossaNova1Sus
+Cresc m 4
+25        F
+26        E      /     D7     E7
+27       Am
+28       C7
+
+Groove BossaNova
+
+29        F
+30      FM9    FM7
+31       C7
+32        /
+
+Groove BossaNovaSusPlus
+Decresc mp 2
+
+33        /
+34        /
+35       F7
+36      F7+
+
+Groove BossaNova
+
+37     BbM7      /      /     Dm
+38      Gm9      /      /     C9
+
+RepeatEnding
+
+39        F
+Groove BossaNovaFill
+40        /
+
+RepeatEnd
+
+Groove BossaNovaEnd
+Seq 3
+Scale Octave +1
+Decresc pp 2
+Scale Volume p
+
+41        F
+Seq 3
+42        / z!
+
+

@@ -1,0 +1,119 @@
+// Its Only A Paper Moon
+
+Tempo 160
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove Swing
+
+Bass Sequence -   // we have our own solo, bass line for intro
+Walk Sequence -
+
+Begin Solo
+	Voice AcousticBass
+	Cresc ff ffff 8
+	Articulate 80
+	Rtime 10
+	Octave 2
+End
+
+Cresc ppp mf 8
+ 
+Repeat
+
+1       G     /     G#dim   { 2g; g#; }
+2       Am7   /     D9      { 2a; b; }
+3       Am7   /     D9      { 2c+;d+; }
+4       G6                  { 2e+; 4d+;}
+
+Solo Octave 3       // bump solo line up for 2nd time.
+RepeatEnd
+
+Repeat
+
+Groove Swing1
+Volume m
+
+5       G6    /     G#dim
+6       Am7   /     D7   
+7       Am7   /     D9   
+8       G    
+
+Groove Swing1Walk
+Cresc f 8
+
+9       /     /     G7/B
+10      C6    /     A7/C# 
+11      D7   
+12      G     Am7   D7   
+
+Groove Swing1
+
+13      G     /     G#dim
+14      Am7   /     D7   
+15      Am7   /     D9   
+16      G    
+
+Groove Swing1Sus
+Decresc m 8
+
+17      /     /     G7/B
+18      C6    /     A7/C# 
+19      D7   
+20      G     /     G7   
+
+Groove Swing1Plus
+
+21      C6    /     C#dim
+22      GM7/D
+23      Am7   /     D7   
+24      G     /     G7   
+
+Groove Swing1PlusSus
+Cresc mf 4
+
+25      C6    /     C#dim
+26      GM7/D
+27      Bm7   /     E7   
+28      A9    /     D7#5 
+
+Groove Swing1
+Volume m
+
+29      G     /     G#dim
+30      Am7   /     D7   
+31      Am7   /     D9   
+32      G    
+
+Groove Swing1Sus
+Decresc mp 4
+
+33      /     /     G7/B
+
+RepeatEnding
+
+34      C6    /     A7/C# 
+35      D7   
+
+Chord Riff C1234
+36      G     /     Am7  
+
+Begin AllGrooves  Arpeggio
+  Voice Flute
+  Volume +50
+End
+
+RepeatEnd
+
+37      C    
+38      D9    /     Am7  
+39      D13   /     D9   
+
+Groove Swing1End   // little repeatish-tag ending
+Volume m
+
+40      G6   z
+41      G6   / z!
+

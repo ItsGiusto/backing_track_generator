@@ -1,0 +1,106 @@
+// Wheel Of Fortune
+
+Tempo 96
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove PopBalladIntro
+
+Begin Solo
+   Voice Trumpet
+   Octave 5
+   Harmony OpenBelow
+   Articulate 110
+   Volume f
+   Begin Riff
+       4r;g;4.;8f#;
+       2a;2g;
+       4a;g;e;d;
+       2c;
+   End
+End
+
+Swell mp mf 4
+
+1         C
+2         Am
+3         Dm
+4         C
+
+Repeat
+Groove PopBallad
+Volume m
+
+5         F      /      C
+6         /      /  F#dim3
+7        G7
+8         /
+
+Groove PopBalladSus
+Cresc mf 4
+
+9       Dm7      /     G7
+10        /    Dm7     G9
+11        C      /      /  C#dim3
+12       G7
+
+Groove PopBallad1
+Cresc f 4
+
+13        F      /      C
+14        /      /  F#dim3
+15       G7
+16        /
+
+Groove PopBallad
+Decresc m 4
+
+17      Dm7      /     G7
+18        /    Dm7     G7
+19        C      /    Fm6
+20        C      /  F#dim3
+
+Groove PopBallad2
+Volume mf
+
+21      Dm7      /      /     G7
+22        C
+23      Dm7      /     G7    G9+
+24        C      /  F#dim3
+
+Groove PopBallad2Sus
+
+25      Dm7      /      /     G7
+26        C      /     A9     A7
+Decresc m 2
+27       D7
+28       G7
+
+Groove PopBalladSus
+
+29        F      /      C
+30        /      /  F#dim3
+31       G7
+32        /
+
+Groove PopBallad1
+Decresc mf mp 2
+
+33      Dm7      /     G7
+34        /
+
+RepeatEnding
+
+35        C      / D7b5b9
+36       G9     G7
+
+RepeatEnd
+Decresc pp 2
+
+37        C      /    Ab7    Am7
+Groove PopBalladEnd
+
+38      Bb7   B7b9     C6    z!
+

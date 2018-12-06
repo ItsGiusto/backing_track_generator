@@ -1,0 +1,110 @@
+// Do You Know What It Means To Miss New Orleans
+
+Tempo 80
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowJazz1Intro
+
+Mset Melody
+	Begin Riff
+		43g; a; g; 2a;
+		43g; a; g; 2a;
+		8b; a; g; 4.f; 4g;
+		2.g;
+	End
+Endmset
+
+Begin Solo
+	Voice TenorSax 
+	Octave 5
+	Articulate 90
+	Decresc mf ppp 4
+	$Melody
+End
+
+Begin Solo-P
+	Voice Piano2
+	Octave 6
+	Harmony Open
+	Articulate 80
+	Decresc f pp 4
+	$Melody
+End
+
+Cresc p mf 4
+
+1 	C
+2 	Am7
+3 	Dm7
+4 	G7 / z 
+
+Delete Solo
+
+Repeat
+Groove SlowJazz1
+Cresc mp f 4
+
+5       C6    /     G7#5 
+6       CM7   /     Am7  
+7       Em7   /     Am7  
+8       D9
+
+Volume mf
+   
+9       Dm7   /     D#dim
+10       Em7   /     A7   
+11       Dm7   /     Ab7  
+12       G7   
+
+Groove SlowJazz1Walk
+
+
+13       C     /     G7#5 
+14      CM7   /     Am7  
+15      Em7   /     Am7  
+
+Cresc f 4
+
+16      D9   
+17      Dm7   /     D#dim
+18      Em7   /     A7   
+19      Dm7   /     G7   
+20      C     /     Cm7b5 F7   
+
+Groove SlowJazz1Sus
+Bass-Sus volume pp
+
+21      Bbm7  /     Eb9  
+22      Ab    /     F7   
+23      Bbm7  /     Eb9  
+24      Ab   
+25      Am7   /     D9   
+26      G6    /     Em7  
+27      Am7   /     D9   
+28      Dm7   /     G7   
+
+Groove SlowJazz1Walk
+Cresc mp f 8
+
+29      C6    /     G7#5 
+30      CM7   /     Am7  
+31     Em7   /     Am7  
+32      D9   
+33      Dm7   /     D#dim
+34      Em7   /     A7   
+35      D9    /     G7b9 
+
+RepeatEnding
+
+36      C    / / CzC
+
+RepeatEnd
+
+Groove SlowJazzEnd
+Seq 2
+
+        C  z!
+Fermata -4 1 400

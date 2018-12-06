@@ -1,0 +1,102 @@
+// Unforgettable
+
+Tempo 80
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+
+Begin Solo
+	Voice Piano2
+	Harmony Open
+	Articulate 100
+	Octave 5
+	Begin Riff
+		3+3d;e;f;4e;d;
+		3+3e;f;g;4f;e;
+		3+3a;b;c+;4b;a;
+		1f;
+	End
+End
+
+Swell p m 4
+
+1          G
+2        Em7
+3        Am7
+4         D7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5          G
+6        GM7
+7      Gdim7
+8          /
+
+Cresc mf 2
+
+9          C
+10       CM7
+Decresc mp 2
+11        A9      /    Em7
+12        A9
+
+Groove FoxTrotSus
+Cresc mf 4
+
+13        F6
+14       Fm7
+15         C      /  Em7b5
+16        A7
+
+Decresc m 4
+
+17        D9
+18         /      /      /    Db7
+19        D7
+20         /
+
+Groove FoxTrotPlus
+Volume mp
+
+21         G
+22       GM7
+23     Gdim7
+24         /
+
+25         C
+26       CM7
+27        A9      /    Em7
+28        A9
+
+Groove FoxTrotSusPlus
+Cresc m 4
+
+29        F6
+30        Fm
+31         C
+32        A7      /     A9
+
+Decresc p 2
+
+33        D9
+34       Dm7      /     G7
+
+RepeatEnding
+
+35         C      /    Dm7
+36        C6
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc pppp 2
+Tempo *.9 2
+
+37         C      /    Dm7
+38        C6      /     z!
+

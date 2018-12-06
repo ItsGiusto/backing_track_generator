@@ -1,0 +1,111 @@
+// Honeysuckle Rose
+
+Tempo $(2 * 95)
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigbandIntro
+
+Begin Solo
+    Voice Piano2
+	Volume ff
+	Articulate 90
+	Harmony OpenBelow+8Below
+	Octave 5
+	Begin Riff
+	   8c+;a;f;a;2c+;
+	   8d+;a;f;a;2d+;
+	   4b;c+;d+;b;
+	   1c+;
+	End
+End
+SwingMode On
+Cresc p mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove Bigband
+Volume m
+
+5       Gm7      /     C7
+6       Gm7      /     C7
+7       Gm7      /     C7
+8        C6      /     C7
+
+Groove BigBandPlus
+Cresc mf 4
+
+9        F6      /   F7/A
+10      Bb6      /     C7
+11       F6      /    Bb7
+12      Am7      /     D7
+
+Groove BigBandSus
+Decresc mp 4
+
+13      Gm7      /     C7
+14      Gm7      /     C7
+15      Gm7      /     C7
+16      Gm7      /     C7
+
+Groove BigBand
+Volume m
+
+17       F6      /   F7/A
+18      Bb6      /     C7
+19       F6      /     C7
+20       F6
+
+Groove BigBandSus
+Decresc mp 4
+
+21       F7
+22      Cm7      /     F7
+23      Bb6
+24        /
+
+Groove BigBandPlus
+Cresc f 8
+
+25       G7
+26        /
+27       C7
+28        /
+
+Groove BigBand
+
+29      Gm7      /     C7
+30      Gm7      /     C7
+31      Gm7      /     C7
+32      Gm7      /     C7
+
+Groove BigBandPlus
+Decresc mp 4
+
+33       F6      /   F7/A
+34      Bb6      /     C7
+
+RepeatEnding
+
+35       F6      /     Bb
+
+Groove BigBandFill
+
+36      Am7      /     D7
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc ppp 2
+Tempo *.8 2
+
+37        F      /    Db7
+38      Gm7      /     F6 z!
+
+

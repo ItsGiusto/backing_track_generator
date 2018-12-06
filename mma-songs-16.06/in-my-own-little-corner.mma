@@ -1,0 +1,140 @@
+// In My Own Little Corner
+// From the musical Cinderella
+Tempo 140
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove ShowTuneIntro
+Begin Solo
+    Voice Strings
+    Articulate 99
+    Harmony 3below
+    Octave 5
+    Volume f
+    Begin Riff
+        2a;4;;
+        4a;;;;
+        2b;4;;
+        2.c+;
+    End
+End
+
+
+Swell mp mf 4
+
+1         F
+2        Dm
+Chord-Piz Sequence C4 C123
+Arpeggio-Piz Sequence  z {1 4 90; 2 4 90; 3 2 90}
+3        Gm
+4        C7
+
+Repeat
+Groove ShowTune
+Volume m
+
+5         F
+6         /
+7        Eb
+8       Eb6      /     Eb
+
+Groove ShowTune1
+Cresc mf 4
+
+9        C7
+10        /
+11        F
+12        /      /     C7
+
+Groove ShowTune2
+Volume f
+
+13        F
+14        /
+15       Eb
+16      Eb6      /     Eb
+
+Groove ShowTune
+Volume mf
+
+17       C7
+18        /
+19        F
+20        /
+
+Groove ShowTunePlus
+Cresc m mf 4
+
+21        D
+22    A7sus      /     A7
+23      F#m
+24        D
+
+Groove ShowTune1Plus
+
+25       Bm
+26      F#7
+27       Bm
+28       D+
+
+Groove ShowTunePlus
+Decresc m 4
+
+29        D
+30      Em7      /     A7
+31        D
+32        /
+
+Groove ShowTune
+
+33        A
+34       E7
+35        A
+36      Gm7      /     C7
+
+Groove ShowTune1
+Volume mf
+
+37        F
+38        /
+39       Eb
+40      Eb6      /     Eb
+
+Groove ShowTune2
+Volume m
+
+41       C7
+42        /
+43       F7
+44        /
+
+Groove ShowTune
+Cresc mf 4
+
+45       Bb
+46      Bbm
+47        F
+48       Bb
+
+Groove ShowTune1Plus
+Decresc m 2
+
+49        F      /     Bb      F
+50       Gm      /     C7
+
+RepeatEnding
+Groove ShowTune2Plus
+
+51        F
+52      Gm7      /     C7
+
+RepeatEnd
+Groove ShowTuneEnd
+Tempo *.8 1
+Decresc pp 2
+
+53        F
+54        /  z!
+

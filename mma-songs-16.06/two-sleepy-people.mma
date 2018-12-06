@@ -1,0 +1,108 @@
+// Two Sleepy People
+
+Tempo 95
+KeySig Eb
+
+Groove Metronome2-4
+ z * 2
+
+
+Groove EasySwingIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Volume ff
+    Harmony 3Below
+    Articulate 110
+    Octave 5
+    Rtime 7
+    Rvolume 10
+    Begin Riff
+        4.e;8b;2d;
+        4.c;8e;2g;
+        8a;; g;; f;g; a;c+;
+        1b;
+    End
+End
+
+Swingmode On
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove EasySwing
+Decresc m mp 4
+
+5        Eb      /   Adim
+6       Fm7      /    Bb7
+7        Eb
+8       Fm7      /    Bb7
+
+Groove EasySwingSus
+Cresc mf 4
+
+9        Eb      /     C7
+10       Fm      /    Abm
+
+RepeatEnding
+
+Groove EasySwingFill
+Seq 3
+
+11       Eb      /     F7
+12      Fm7      /    Bb7
+
+RepeatEnd
+
+Groove EasySwingFill
+
+13       Eb      /     F7    Bb7
+14       Eb      /    Eb7
+
+Repeat
+Groove EasySwingWalk
+Decresc mf mp 4
+
+15       Ab      /    Bb7
+16       Eb    Bb7     Eb
+17       Cm     G7     Cm     Eb
+18       Ab      /    Bb7
+
+Groove EasySwingWalkSus
+Cresc m 4
+
+19       Eb      /    Bb7
+20       Eb   Ddim     C7
+21       F7
+22      Fm7      /      /    Bb+
+
+Groove EasySwingFill
+Decresc mp 4
+
+23       Eb      /   Adim
+24      Fm7      /    Bb7
+25       Eb
+26      Fm7      /    Bb7
+
+Groove EasySwingSus
+Cresc m 2
+
+27       Eb      /     C7
+28       Fm      /    Abm
+
+RepeatEnding
+
+29       Eb      /     F7    Bb7
+30       Eb     /      Eb7
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc ppp 2
+
+29       Eb      /     F7    Bb7
+39       Eb      z!

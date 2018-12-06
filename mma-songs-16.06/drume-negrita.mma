@@ -1,0 +1,115 @@
+// Drume Negrita  -- a Cuban lullaby
+
+Tempo 70
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SonIntro
+
+Begin Allgrooves Arpeggio  // Change the counter-melody track
+      Voice Strings
+      Octave 5
+      Articulate 110
+      Range 1
+End
+
+Begin Solo
+    Voice Strings
+    Volume ff
+    Articulate 110
+    Harmony OpenBelow+8Below
+    Octave 5
+    Begin Riff
+        8c;d;e;8+8g;8e;d;8+8c~;
+        ~ 8d;e;8+8a;8g;a;8b;
+        43c+;b;a;4g;f;
+        2g;
+    End
+End
+
+Swell m f 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Groove Son
+Volume m
+
+5      Dm11
+6       G13
+Decresc mp 2
+7      Dm11
+8       G13
+
+Groove SonSus
+Cresc mf 4
+
+9       FM7
+10      Dm7      /     G9
+11      CM7
+12      F9/G
+
+Groove Son
+Decresc m 4
+
+13     Dm11
+14      G13
+15     Dm11
+16      G13
+
+Groove SonPlus
+Decresc mp 4
+
+17      FM7
+18      Dm7      /     G9
+19      CM7      /     F9
+20      CM7
+
+Repeat
+Groove SonSusPlus
+Cresc m 4
+
+21      Fm7      /   Ebm7
+22      Ab9
+23   C6(add9)
+24      FM7
+
+Groove Son
+
+25      Fm7      /   Ebm7
+26     Bb/D      /   DbM7
+Decresc mp 2
+27   Ab7#11      /   D7b9
+28       G7
+
+Groove SonSus
+Cresc m 2
+
+29     Dm11
+30      G13
+31     Dm11
+32      G13
+
+Groove SonPlus
+Decresc mp 2
+
+33      FM7
+34      Dm7      /     G9
+
+RepeatEnding
+
+35      CM7      /     F9
+36      G9
+
+RepeatEnd
+Groove SonEnd
+Decresc ppp 2
+Tempo *.8 2
+
+37      CM7      /     F9
+38      CM7      z!
+

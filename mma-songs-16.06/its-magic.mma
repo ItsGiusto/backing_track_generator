@@ -1,0 +1,87 @@
+// Its Magic
+
+Tempo 66
+KeySig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+	Voice Piano1
+	Articulate 90
+	Octave 5
+	Harmony Open
+	Volume F
+End
+
+Groove SlowJazzIntro
+Swingmode ON
+Solo Decresc f p 4
+Cresc p f 4
+
+1      Bb      { 8r; b; ; ; ; ; ; ;  }
+2      Gm      { 8r; b; ; ; ; ; ; ;  }
+3      Cm      { 8r; c+; ; ; ; ; ; ;  }
+4      F7      { 4c+; d+; 2e+;}
+
+Repeat
+Groove SlowJazz
+Cresc p mf 8
+
+5      Bb    
+6      /    /    Bb/D  Dbdim7 
+7      Cm7   /    F7    
+8      Cm7   
+9      F7    
+10     Cm7   /    F7    
+11     BbM7  
+12     /    /    /    F+ 
+
+Groove SlowJazzWalk
+Decresc f mp 8
+   
+13     Bb    
+14	/
+15     F9    /    Fdim7 
+16     F9    
+17     Gm7   /    C7    
+18     Gm7   /    C7b9  
+19     Cm7   
+20     F9  
+
+Groove SlowJazzSus
+Volume mf
+  
+21     Bb    
+22     /    /    Bb/D  Dbdim7 
+23     Cm7   /    F7    
+24     Cm7   /    F9    
+25     F7    
+26     Cm7   /    F7    
+27     Dm7b5 
+28     G7 
+
+Groove SlowJazzWalkSus
+Volume mp
+   
+29     Cm7   
+30     Ebm6  
+31     BbM7  /    Gm7   
+32     C7    
+33     Bb    /    F#dim7 Gm    
+34     C7    /    Cm7   F7b9  
+
+RepeatEnding
+
+35     Bb    /    Gm7   
+36     Cm7   /    F7b9  
+
+RepeatEnd
+
+Groove SlowJazzEnd
+Decresc mf ppp 2
+Tempo *.8 2
+
+37     Bb    /    Gm7   
+38     Cm7   /    Bb6zDWA
+

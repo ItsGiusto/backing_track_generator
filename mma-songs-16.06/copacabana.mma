@@ -1,0 +1,121 @@
+// Copacabana
+
+Tempo 116
+Keysig Bb
+
+Groove Metronome2-4
+
+	z * 2
+
+Groove Rhumba
+
+Begin Solo
+	Off
+	Harmony Open
+	Voice Piano2
+	Volume f
+	Articulate 75
+	Octave 5
+End
+
+1	z                             { 2r;8; g;b;c+;}
+
+Repeat
+Groove Rhumba
+
+1      Fm7   /     Bb11           { 8.e+;16+4a&;8r;e+;d+;c+; }
+2      EbM7                       { 8.d+;16+4g;8r;g;b;c+; }
+3      Am7b5 /     D7             { 8d+;e+;d+;e+;4d+;8b;f#; }
+4      Gm  Gm7   Gm6            { 8a;;;g;a;g;b;c+; }
+
+Groove Rhumba1
+
+5      Fm7   /     Bb11           { 8.e+;16+4a&;8r;e+;d+;c+; }
+6      EbM7                       { 8.d+;16+4g;8r;g;b;c+; }
+7      Am7b5 /     D7             { 8d+;e+;d+;e+;4d+;8b;f#; }
+8      Gm7                        { 8g;a;b;c+;d+;b;g;d; }
+
+Groove RhumbaTripleSus
+
+9      Cdim7 /     Gm             { 8.f#;16+8a;8g;r;b;g;e; }
+10     Cdim7 D7b5  Gm             { 8.f#;16+8a;8g;4r;8g;d; }
+
+Groove RhumbaSus
+
+11     Cm7   /     D7             { 8e;16fn;g;8a;b;16c+;8.a;8c+;; }
+12     Gm    D7/F# Bb7/F          { 4d+;;;8c+;d+; }
+
+Groove Rhumba1Sus
+
+13     Fm7   /     Bb11           { 8.e+;16+4a&;8r;e+;d+;c+; }
+14     EbM7                       { 8.d+;16+4g;4r;8;g; }
+15     Fm7   /     Bb11           { 8.a&;16+8b;8c+;8.e+;16+8d+;8c+; }
+16     EbM7  /     C11   C7       { 8.d+;16+4g;8r;4e+;8c+; }
+17     Fm7   /     Bb11           { 8.e+;16+4a&;8r;e+;d+;c+; }
+18     C11   /     C7             { 4.d+;8+2c+; }
+
+Groove RhumbaSus
+
+19     Fm7   /     Bb7            { 8.e+;16+8d+;8e+;8.d+;16+8c+;8d+; }
+20     Gm7   /     C9             { 8.c+;16+8b;8c+;d+;b;c+;d+; }
+
+Groove Rhumba
+
+21     Fm7                        { 4+8.e+;16+2+8~; }
+22     D7b9                       { ~ 8r;4;8;g;f#;e&; }
+
+if def CODA
+	goto CODA
+endif
+
+Groove RhumbaSus
+
+23     Gm9   /     /     F#m9     { 4.d;8+2a; }
+24     Fm9   /     /     F#m9     { 2r;4g;8;g#; }
+25     Gm9   /     /     F#m9     { 4+8.a;16+2; }
+
+RepeatEnding
+
+26     Fm9   F#m9  /     Gm9      { 2r;8;g;b;c+; }
+
+RepeatEnding
+
+27     Fm9   /     F#m9           { 1r; }
+
+Groove Rhumba2
+
+28     Gm9                        { 4+8.g;16+1~; }
+29     /     /     /     Abm9     { ~ 8.g;16+8b;8bn; }
+30     Bbm9                       { 4.c+;8+2+2~; }
+31     /     /     /     Bm9      { ~ 8.c+;16+8c#+;8d+; }
+32     Dbm9                       { 4+8.e+;16+1~; }
+33     /     /     /     Cm9      { ~ 8.e+;16+8d+;8c#+; }
+34     Bbm9                       { 4+8.c+;16+1~; }
+35     /     /     /     Am9      { ~ 8.c+;16+8bn;8b&; }
+36     Gm9                        { 1a; }
+37     F#m9                       { 1g#; }
+
+Groove Rhumba2Sus
+
+38     Fm9   /     /     /        { 2+8gn;4;8g#; }
+39     Gm9   /     /     /        { 2+8a;4;8g#; }
+40     Fm9   /     /     /        { 2+8g;4g;8g#; }
+41     Gm9                        { 4a;8;;r;g;b;c+; }
+
+set Coda
+RepeatEnd
+
+Label Coda
+
+42     D7b9                       { 8c+;r;r;4g;4f#;8e&; }
+43     Gm9   /     /     F#m9     { 4+8.a;16+2; }
+44     Fm9   /     /     /        { 2r;8.g;16+8;8g#; }
+
+Groove RhumbaEnd
+Decresc pppp 4
+
+45     Gm9   /     /     F#m9     { 4+8.a;16+2; }
+46     Fm9   /     /     /        { 2r;8.g;16+8;8g#; }
+47     Gm9                        { 4+8.a;16+2+2.~; }
+48	   /     z!
+

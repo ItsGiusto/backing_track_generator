@@ -1,0 +1,111 @@
+// Ill Always Be In Love With You
+
+Tempo 150
+Keysig C
+
+Groove Metronome3
+  z * 2
+
+Groove JazzWaltzIntro
+
+Begin Solo
+    Voice Piano1
+    Volume F
+    Articulate 120
+    Harmony 3Below
+    Octave 5
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+        4.c+;8e+;d+;c+;
+        4.a;8c+;b;a;
+        4.f;8a;g;f;
+        2.g;
+    End
+End
+
+Swell mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove JazzWaltz
+Volume m
+
+5         C
+6        C7      /   C7#5
+7        F6
+8       Fm6
+
+Groove JazzWaltz1
+Cresc mf 3
+
+9        G7
+10     G7#5
+11        C C#dim7
+12     G7/D      /   G7#5
+
+Groove JazzWaltz1Sus
+Decresc m 3
+
+13        C
+14       C7      /   C7#5
+15       F6
+16      Fm6
+
+Groove JazzWaltz2
+Cresc mf 4
+
+17       G7
+18     G7#5
+19        C
+20        /      /     C7
+
+Groove JazzWaltz2Sus
+
+21       Fm
+22        /
+23        C
+24       C9
+
+Groove JazzWaltz
+Volume m
+
+25       Fm
+26        /
+27        C      /     A7
+28       D7      /   G7#5
+
+Groove JazzWaltzSus
+Cresc mf 2
+
+29        C
+30       C7      /   C7#5
+31        F
+32      Fm6
+
+Groove JazzWaltz
+Decresc mp 2
+
+33       G7
+34     G7#5
+
+RepeatEnding 2
+
+35        C
+
+Groove JazzWaltzFill
+
+36      Dm7      /   G7#5
+
+RepeatEnd
+
+Groove JazzWaltzEnd
+Decresc pp 2
+
+37        C
+38        /  z!
+

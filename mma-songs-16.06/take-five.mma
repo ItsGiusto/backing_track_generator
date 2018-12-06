@@ -1,0 +1,99 @@
+// Take Five
+
+Tempo 150
+Keysig Bb
+
+Begin Solo
+    Voice AltoSax
+    Volume ff
+    Articulate 90
+    Octave 5
+ //   Off    // uncomment to get rid of electronic sax player
+End
+
+Swingmode On Skew=60
+
+Groove Jazz54DrumIntro
+ z
+
+
+Groove Jazz54
+Cresc p mf 4
+
+1        Gm      /      /      /    Dm7
+2        Gm      /      /      /    Dm7
+3        Gm      /      /      /    Dm7
+4        Gm      /      /      /    Dm7    {2.r;8d;g;b;c+ ;}
+
+/// Melody starts
+
+Groove Jazz54Walk
+Volume m
+
+5        Gm      /      /      /    Dm7    {8c#+;d+;c+;cn+;4b;d;f;}
+6        Gm      /      /      /    Dm7    {2.g;6a;b;a;8g;4f ;}
+7        Gm      /      /      /    Dm7    {2.g;6f;g;f;8d;4c ;}
+8        Gm      /      /      /    Dm7    {2.d;8d;g;b;c+ ;}
+
+Groove Jazz54
+Swell mf 4
+
+9        Gm      /      /      /    Dm7    {8c#+;d+;c+;cn+;4b;d;f ;}
+10       Gm      /      /      /    Dm7    {2.g;6a;b;a;8g;4f ;}
+11       Gm      /      /      /    Dm7    {2.g;6f;g;f;8d;4c ;}
+12       Gm      /      /      /    Dm7    {2.d;4d;f ;}
+
+
+Repeat
+Groove Jazz54Sus
+Volume m
+
+13      Eb6      /      /    Cm6    {8g;4b;8g;4e;8c;d;e;en ;}
+14       Dm      /      /    Gm7    {8f;4a;8f;4d;8b-;c;c#;d;}
+15      Cm7      /      /     F7    {8e;4g;8e;4c;8a-;b-;c;c# ;}
+16     BbM7      /      /     Bb    {8d;c#;d;e;4f;8f;en;f;f# ;}
+
+Groove Jazz54
+Cresc mf 4
+
+17       Eb      /      /    Cm6    {8g;4b;8g;4e;8c;d;e;en ;}
+18       Dm      /      /    Gm7    {8f;4a;8f;4d;8b-;c;c#;d ;}
+19      Cm7      /      /     F7     Eb    {8e;4g;8e;4c;8a-;c;f;e ;}
+20   Am7sus      /      /     D7    {2.d;8d;g;b;c+ ;}
+
+Groove Jazz54Walk
+Decresc m 4
+
+21       Gm      /      /      /    Dm7    {8c#+;d+;c+;cn+;4b;d;f ;}
+22       Gm      /      /      /    Dm7    {2.g;6a;b;a;8g;4f ;}
+23       Gm      /      /      /    Dm7    {2.g;6f;g;f;8d;4c ;}
+24       Gm      /      /      /    Dm7    {2.d;8d;g;b;c+ ;}
+
+Groove Jazz54
+Decresc mp 4
+
+25       Gm      /      /      /    Dm7    {8c#+;d+;c+;cn+;4b;d;f ;}
+26       Gm      /      /      /    Dm7    {2.g;6a;b;a;8g;4f ;}
+27       Gm      /      /      /    Dm7    {2.g;6f;g;f;8d;4c ;}
+28       Gm      /      /      /    Dm7    {2.d;2r;}
+
+RepeatEnd
+
+Groove Jazz54WalkSus
+Decresc m mp 4
+
+29       Gm      /      /      /    Dm7    {2.r;6f;g;f;8d;4c ;}
+30       Gm      /      /      /    Dm7    {2.d;2r;}
+31       Gm      /      /      /    Dm7    {2.r;6f;g;f;8d;4c;}
+32       Gm      /      /      /    Dm7    {2.d;2r;}
+
+Groove Jazz54
+Decresc ppp 5
+
+33       Gm      /      /      /    Dm7    {2.r;6a;b;a;8g;4f ;}
+34       Gm      /      /      /    Dm7    {2.+2g;}
+35       Gm      /      /      /    Dm7
+36       Gm      /      /      /    Dm7
+
+37       Cm     z!
+Fermata -5 4 150

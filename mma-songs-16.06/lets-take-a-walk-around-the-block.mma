@@ -1,0 +1,123 @@
+// Lets Take A Walk Around The Block
+
+Tempo 120
+KeySig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+  Voice Piano1
+  Volume ff
+  Harmony OpenBelow
+  Articulate 70
+  Octave 5
+  Begin Riff
+   8g;a;4g;c+;;
+   8a;b;4a;e+;;
+   8d+;c+;4b;a;d+;
+   1g;
+  End
+End
+
+Swingmode On Skew=70
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove FoxTrot1
+Volume m
+
+5         C      /      F
+6         C      /     G7
+7         C      /     G7
+8       Dm7      /     G7
+
+Groove FoxTrot1Plus
+Cresc f 4
+
+9         C      /     C+
+10       Dm      /   Adim
+11        C      /     Em
+12      Dm7     G7      C
+
+Groove FoxTrotFill
+Decresc mp 3
+
+13        /
+14      Dm7      /     C+
+
+
+Groove FoxTrot1Sus
+
+15        C      /      F
+16        C      /     G7
+17        C      /     G7
+18       Dm      /     G7
+
+Groove FoxTrot1
+Cresc mf 4
+
+19        C      /     C+
+20       Dm      /   Adim
+21        C      /     Em
+22      Dm7     G7      C     C+
+
+Groove FoxTrotFill
+Decresc mp 2
+
+23      Gm7
+24       C7      /     C+
+
+Groove FoxTrot1SusPlus
+
+25        F
+26       Dm
+27      Em7
+28       Am
+
+Groove FoxTrot1
+Cresc m 4
+
+29       D7
+30        /
+31      Dm7
+32        /      /      /     G+
+
+Groove FoxTrot1Plus
+Decresc mp 4
+
+33        C      /      F
+34        C      /     G7
+35        C      /     G7
+36      Dm7      /     G7
+
+Groove FoxTrot1
+Volume m
+
+37        C      /     C+
+38       Dm      /   Adim
+39        C      /     Em
+40      Dm7     G7      C
+
+RepeatEnding
+
+Groove FoxTrotFill
+Decresc mp 2
+
+41      Am7      /     D7     Fm
+42        /      /     G7
+
+RepeatEnd
+Groove FoxTrotEnd
+Decresc ppp 2
+Tempo *.9 2
+
+41      Am7      /     D7     Fm
+43        /      /      C     z!
+
+

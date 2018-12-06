@@ -1,0 +1,241 @@
+// Crying
+
+// Roy Orbison took this to #2 in 1961.
+// He did the entire song in D, not like our
+// wimpy singer who has to change key in the middle :)
+// Mind you, we do it at 120bpm and he could only manage 98!
+
+Tempo 120
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+    DrumType
+End
+
+Groove BalladIntro1
+
+// I just stole this from a midi file I found on the net. Shows how
+// easy it is to incorporate snippits into a new file. This is the drum
+// solo at the start.
+
+Begin Solo MidiNote Adjust=-2304 Volume=130		
+   // 3
+    Note 2784 47 85 1
+    Note 2832 47 85 1
+    Note 2880 42 85 1
+    Note 2880 47 85 1
+    Note 2976 47 85 1
+   // 4
+    Note 3072 36 94 1
+    Note 3072 42 85 1
+    Note 3168 42 85 1
+    Note 3216 42 85 1
+    Note 3264 38 85 1
+    Note 3264 42 85 1
+    Note 3360 36 94 1
+    Note 3360 42 85 1
+    Note 3456 36 94 1
+    Note 3456 42 85 1
+    Note 3552 42 85 1
+    Note 3552 47 85 1
+    Note 3600 47 85 1
+    Note 3648 42 85 1
+    Note 3648 47 85 1
+    Note 3744 42 85 1
+    Note 3744 46 85 1
+    Note 3744 47 85 1
+   // 5
+    Note 3840 36 94 1
+    Note 3840 42 85 1
+    Note 3936 42 85 1
+    Note 3984 42 85 1
+    Note 4032 38 85 1
+    Note 4032 42 85 1
+    Note 4128 36 94 1
+    Note 4128 42 85 1
+    Note 4224 36 94 1
+    Note 4224 42 85 1
+    Note 4320 42 85 1
+    Note 4320 47 85 1
+    Note 4368 47 85 1
+    Note 4416 42 85 1
+    Note 4416 47 85 1
+    Note 4512 42 85 1
+    Note 4512 46 85 1
+    Note 4512 47 85 1
+   // 6
+    Note 4608 36 84 1
+    Note 4608 42 85 1
+    Note 4704 42 85 1
+    Note 4704 47 85 1
+    Note 4752 47 85 1
+    Note 4800 42 85 1
+    Note 4800 47 85 1
+    Note 4896 36 84 1
+    Note 4896 42 85 1
+    Note 4896 47 85 1
+    Note 4992 36 84 1
+    Note 4992 42 85 1
+    Note 5088 42 85 1
+    Note 5184 38 85 1
+    Note 5184 42 85 1
+    Note 5280 42 85 1
+End
+
+1          C
+2         Am
+3         Dm
+4         G7   // our pick notes go here
+
+Repeat		// Roy didn't repeat, but we need a sax solo
+Groove Ballad1
+
+5          C
+6          /
+7          /
+8          /
+
+Groove Ballad1Sus
+
+9          /
+10        C+
+11         F
+12        Fm      /      /     G9
+
+Groove Ballad1
+
+13         C
+14        G7
+15         /
+
+Groove Ballad
+
+16         C
+17        Em
+18         C
+19        Em
+
+Groove BalladSus
+
+20         F
+21        G7
+22         F
+23        G7
+
+Groove Ballad1
+
+24         C
+25        C+
+26       F/C
+27      Fm/C
+
+Groove Ballad1Sus
+
+28         C
+29         /
+30        G7
+
+Groove Ballad
+
+31         /
+32         C
+
+// This is our drum thing. Putting it here makes it ring
+// on both endings
+
+Begin Solo MidiNote Adjust=-4608 Volume=100
+    Note 4608 36 84 1
+    Note 4608 42 85 1
+    Note 4704 42 85 1
+    Note 4704 47 85 1
+    Note 4752 47 85 1
+    Note 4800 42 85 1
+    Note 4800 47 85 1
+    Note 4896 36 84 1
+    Note 4896 42 85 1
+    Note 4896 47 85 1
+    Note 4992 36 84 1
+    Note 4992 42 85 1
+    Note 5088 42 85 1
+    Note 5184 38 85 1
+    Note 5184 42 85 1
+    Note 5280 42 85 1
+End
+
+Groove BalladSus
+
+RepeatEnding
+
+33         /
+
+RepeatEnd
+
+34         /      /      z
+
+// Change key to Ab ... it just goes to damned high otherwise
+
+Transpose -4
+Groove Ballad1
+
+35         C
+36         /
+37         /
+38         /
+
+Groove Ballad1Sus
+
+39         /
+40        C+
+41         F
+42        Fm      /      /     G9
+
+Groove Ballad
+
+43         C
+44         /
+45         G7
+46         /
+
+Groove Ballad1Sus
+
+47         C
+48        Em
+49         C
+50        Em
+
+Groove BalladSus
+
+51         F
+52        G7
+53         F
+54        G7
+
+Groove Ballad
+
+55         C
+56        C+
+57         F
+58        Fm
+
+Groove Ballad1
+
+59         C
+60         /
+61        G7
+62         /
+
+Groove BalladSus
+
+63         F
+64        G7
+
+Groove BalladEnd
+Seq 2
+
+65         C
+66         /
+
+67         /     z!
+

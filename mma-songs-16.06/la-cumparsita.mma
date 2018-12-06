@@ -1,0 +1,153 @@
+// La Cumparsita
+
+Tempo 120
+Keysig C minor
+
+Groove Metronome2-4
+	z * 2
+
+
+Groove LightTangoIntro1
+Begin Solo
+  Voice TremoloStrings
+  Octave 5
+  Harmony OpenBelow+8Above
+  Cresc mp f 4
+  Articulate 110
+  Begin Riff
+      8c+;b;a;g;f;e;d;c;
+      4an;8f;e;d;c;d;e;
+      4d;8f;g;a;b;c+;d+;
+	  2g;
+  End
+End
+
+Cresc mp f 4
+
+1         Cm
+2         Am
+3         Dm
+4         G7
+
+Repeat
+Label DS
+
+Groove LightTango
+Volume m
+
+5         G7
+6          /
+7         Cm
+8          /
+
+Groove LightTangoSus
+Volume +20
+
+9         G7
+10         /
+11        Cm
+12         /
+
+Groove LightTango1
+Volume -20
+
+13        Fm
+14         /
+15        Cm
+16         /
+
+Groove LightTango1Sus
+Swell m f 8
+
+17        G7
+18        G7      /     Fm     G7
+19        Cm
+20         /
+
+Groove LightTango
+
+21        Cm
+22         /
+23         /
+24        G7
+
+Groove LightTango1
+Volume mp
+
+25         /
+26         /
+27         /
+28        Cm
+
+Groove LightTango
+Volume p
+
+29         /
+30         /
+31        C7
+32        Fm
+
+Groove LightTango1Sus
+Volume m
+
+33         /
+34        Cm
+
+if def FINE
+	Groove LightTango4End
+	Seq 3
+	Decresc ppp 2
+	Tempo *.86 2
+Endif
+
+35        G7
+
+if ndef FINE
+   Groove LightTangoFill
+Endif
+
+36        Cm      z     Cm      z
+
+if def FINE
+	eof
+Endif
+
+RepeatEnd
+
+/// Interlude
+
+Groove LightTangoSus
+Swell m mp 8
+
+37        Cm
+38         /
+39        Fm
+40        Cm
+
+Groove LightTangoSus
+
+41         /
+42         /
+43        Fm
+44        Cm
+
+Groove LightTango1Sus
+Swell m f 8
+
+45         /
+46        G7
+47         /
+48        Cm
+
+Groove LightTangoSus
+
+49         /
+50        G7
+51         /      /     Fm     G7
+
+Groove LightTangoFill
+
+52        Cm
+
+Set FINE
+Goto DS

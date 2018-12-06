@@ -1,0 +1,119 @@
+// Many A New Day (from Okalahoma!)
+
+Tempo 124
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BalladIntro
+Begin AllGrooves
+   Chord Voicing Mode=Key
+   Chord-Sus Voicing Mode=Key
+End
+
+Begin Solo
+   Voice CleanGuitar
+   Articulate 140
+   Harmony OpenAbove
+   Volume f
+   Octave 5
+   Begin Riff
+       3g;a;g;4f;2e;
+       3f;g;f;4e;2d;
+       3g;a;g;4e;2c;
+       2.g;
+   End
+End
+
+Cresc p mf 4
+
+1         C
+2         F
+3         C
+4        G7
+
+Repeat
+Groove Ballad
+Volume m
+
+5         C
+6         F      /     D7
+7         G      /     G7
+8         C
+
+Groove Ballad1Sus
+Cresc mf 2
+
+9         C
+10        F      /     D7
+11        G      /     G7
+12       A7
+
+Groove BalladSusPlus
+Volume m
+
+13      Dm7
+14       G7
+15        C
+16        /
+
+Groove BalladPlus
+Decresc mp 4
+
+17        G
+18        C      /     A7
+19        D      /     B7
+20       Em      /     E7
+
+Groove BalladSus
+Cresc mf 4
+
+21       A7      /     D7
+22        G      /      C
+23       A7
+24       D7      /     G7
+
+Groove BalladPlus
+Volume m
+
+25        C
+26        F      /     D7
+27        G      /     G7
+28       A7
+
+Groove Ballad
+Decresc mp 2
+
+29      Dm7
+
+RepeatEnding
+
+30       G7
+31        C
+
+Groove BalladFill
+
+32       G7
+
+
+RepeatEnd
+
+33       G7
+34       E7
+35       Am
+
+Groove Ballad
+
+36        F      /      C
+37      Dm7      /     G7
+
+Groove Ballad1End
+Decresc ppp 4
+Tempo *.8 4
+
+38        C
+39        F
+40        C     /     G7
+41        C     z!
+

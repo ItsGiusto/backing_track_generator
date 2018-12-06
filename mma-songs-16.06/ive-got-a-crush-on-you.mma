@@ -1,0 +1,114 @@
+// I've Got A Crush On You
+
+// This song was written in 2/4 but the rhythm I'm using is 4/4
+// so the intro has 1/4 notes instead of the 1/8s on my chart.
+// I've heard a number of folks do this a slow dirge, but the original
+// does indicate a tempo marking of "Gayly".
+ 
+Tempo 160
+Keysig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove BigBandIntro
+Begin Solo
+  Voice Piano1
+  Volume ff
+  Harmony Open+8Below
+  Articulate 90
+  Octave 5
+  Begin Riff
+    4a;c+;r;4+1g~;
+    ~ <>;
+    4g;b;r;4+1d+~;
+	~ <>;    
+  End
+End
+
+Cresc p m 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F6
+
+Repeat
+Groove BigBand
+Volume mp
+
+5      BbM7      /     /     A9
+6         /
+7        Eb      /      /    Cm7
+8         /      /     F7
+
+Groove BigBandPlus
+Volume m
+
+9      BbM7
+10       A7
+11       Eb      /      /    Cm7
+12        /      /     F7
+
+Groove BigBand
+Volume mp
+
+13       Bb
+14        /      /    Gm7
+15       C7     /      B7    Cm7
+16        /      /    Gm7
+
+Groove BigBandSus
+Volume m
+
+17       C9      /     B7     C7
+18        /
+19       F7      /     C+     F7
+20        /      /    Cm7     C+
+
+Groove BigBandSusPlus
+Decresc mp 4
+
+21     BbM7      /      /     A7
+22        /
+23      Cm7
+24        /      /     F7
+
+Groove BigBandSus
+Cresc mf 4
+
+25     BbM7
+26       A7
+27      Cm7      /      /   Ebm7
+28        /      /     Ab7
+
+Groove BigBand
+Volume m
+
+29      Gm7      /      /     Am
+30        /    Gm7     C9
+31       F6      /     BbM7
+32      Bb6
+
+Groove BigBandPlus
+
+33       C9
+34        /     A6     F7
+
+RepeatEnding 2
+
+35       Bb
+
+Groove BigBandFill
+
+36       F7
+
+RepeatEnd
+
+Groove BigBandEnd
+Decresc p 2
+Tempo *.8 2
+
+37       Bb      /    Gm6     F7
+38       Bb      /    z!
+

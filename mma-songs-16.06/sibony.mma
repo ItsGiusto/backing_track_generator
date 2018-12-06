@@ -1,0 +1,156 @@
+// Sibony
+
+// Nice latin number. Music: Ernesto Lecuona
+
+Tempo 115
+
+Groove Metronome2-4
+
+	z * 2
+
+Groove Rhumba2
+
+1         Cm
+2         Gm
+3         Fm
+
+// Last bar of the intro. We split this bar so that
+// the pickup notes don't have the marimbas.
+
+Truncate 2 Count=2
+4        B&7
+
+Groove Rhumba
+Volume p
+
+         E&
+
+
+Cresc mf 10
+
+// Song start
+
+5         Cm
+6          /      /     Fm
+7         Cm      /     Fm
+8         Cm      /     G7
+9         Cm
+10         /
+
+Groove RhumbaSus
+
+11         /
+12         /      /     Fm
+13        Cm      /     Fm
+14        Cm      /     F7
+15        Cm
+16         /      /      G
+
+Groove Rhumba
+Volume mf
+Decresc p 10
+
+17         /
+18         /      /     Cm    Fm6
+19        Cm      /      G
+20        Ab      /     Cm     Fm
+21        Cm      /      G
+22        Fm      /     Ab     Bb
+23         G
+24         /      /     Cm
+
+Groove RhumbaSus
+
+25         /
+26         /      /     Fm
+27        Cm      /     Fm
+28        Cm      /     G7
+29         C
+30         /
+31         /
+32         /
+
+Groove Rhumba1
+
+Repeat
+Volume mp
+
+33         C
+34         /
+35         /
+36         /      /  Gdim3
+37        G7
+
+Cresc mf 4
+38         /
+39         /
+40         /
+
+set a  $_Groove + Sus
+Groove $a
+
+41         /
+42         /      /      F     G7
+43       Dm7      /     G7
+44         /
+45         C
+
+Decresc mp 4
+46         /
+47         /
+48         /
+
+Groove $_LastGroove
+
+49         /
+50         /      /      F      C
+51         /
+52         /      /  Gdim3
+53        G7
+54         /
+55         /
+56         /
+
+Groove $a
+
+57         /
+58         /      /      F     G7
+59       Dm7      /     G7
+60         /
+61         C
+62         /      /     Fm
+
+Groove $_LastGroove
+
+63        Cm      /     Fm
+64        Cm      /     G7
+
+RepeatEnding
+
+Groove RhumbaTriple
+
+65         C
+
+Groove RhumbaTriple12
+
+66         /
+
+Groove Rhumba3
+
+RepeatEnd
+
+67        Cm
+68         /      /    Fm6
+69        Cm    Fm6     Cm     Ab
+
+Groove RhumbaEnd
+Volume mf
+Decresc  pp 4
+Seq 1
+70         G      /    Fm6     G7
+Seq 2
+71        Cm
+72         /
+73         /      /      z     z!
+
+

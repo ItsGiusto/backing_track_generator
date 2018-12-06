@@ -1,0 +1,154 @@
+// Chicken Feed
+
+Tempo 180
+KeySig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove HillCountryIntro
+
+Begin Solo
+    Voice Tuba
+    Octave 3
+    Articulate 90
+    Volume f
+    Begin Riff
+       2g;e;
+       2.d;
+       2d;f;
+       4g;
+    End
+End
+
+Solo Cresc mf ff 4
+
+1         G
+2         D7
+3         /
+4         G
+
+Groove HillCountry
+Repeat
+
+5         G
+6         /
+7         /
+8        D7
+
+Groove HillCountryPlus
+
+9         /
+10        /
+11        /
+
+RepeatEnding
+
+Groove HillCountryFill
+
+12        G
+
+Groove HillCountrySus
+
+RepeatEnd
+
+13        G
+
+Groove HillCountry
+
+Begin Solo
+ Volume f
+ Begin Riff
+     2g;e;
+     2.d;
+     2d;e;
+     2.g;
+     2g;e;
+     2.d;
+     2d;e;
+     2.g;
+ End
+End
+ 
+14        G
+15       D7
+16        /
+17        G
+
+Groove HillCountrySus
+
+18        /
+19       D7
+20        /
+21        G
+
+Repeat
+Groove HillCountry
+
+22        G
+23        /
+Solo Riff 2g;e;
+24        /
+Solo Riff 2.d;
+25       D7
+
+Groove HillCountrySusPlus
+
+26        /
+27        /
+Solo Riff 2d;e;
+28        /
+
+RepeatEnding
+
+Groove HillCountryFill
+Solo Riff 2.g;
+29        G
+
+RepeatEnd
+Solo Riff 2.g;
+30        G
+
+Repeat
+
+Groove HillCountry
+
+31        G
+32       D7
+33        /
+34        G
+
+Groove HillCountrySus
+
+35        /
+36       D7
+37        /
+
+RepeatEnding
+
+Groove HillCountryFill
+
+38        G
+
+RepeatEnd
+
+39        G
+
+// This is the DS
+
+Groove HillCountrySus
+
+5         G
+6         /
+7         /
+8        D7
+
+Groove HillCountry
+
+9         /
+10        /
+
+Groove HillCountryEnd
+
+11        /
+13        G z!

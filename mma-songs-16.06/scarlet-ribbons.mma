@@ -1,0 +1,108 @@
+// Scarlet Ribbons
+
+// This is so sweet and sticky it is a complete wonder that it
+// is in my collection. Must have been in a strange mood that day :)
+
+Tempo 100
+
+Groove Metronome3
+ z * 2
+ 
+// 4 bar intro. Using the "seq 4"s gets us the 8th note runs
+// on the first 3 bars. Cute.
+
+Groove CountryWaltz2
+
+Seq 4
+1      G     
+Seq 4
+2      Am    
+Seq 4
+3      D7    
+4      G     
+
+Groove CountryWaltz
+
+Repeat
+
+5      G     
+6      Am    
+7      D7    
+8      G     
+9      Am7   
+10     D7    
+11     Am    
+12     G     
+13     G     
+14     Am7   
+15     D7    
+16     G     
+17     Am7   
+18     D7    
+19     Am7   
+20     G     
+21	/
+
+Groove CountryWaltz2
+
+RepeatEnd
+
+Groove CountryWaltzSus
+
+22     G     
+23     Am7   
+24     G7    
+25     C     
+26	/
+27     Em    
+28     B+    
+29     Em6   
+30     Am7   D7    
+31	/
+
+Groove CountryWaltz2Sus
+
+32     G     
+33     Am    
+34     D7    
+35     G     
+36     Am7   
+37     D7    
+38     Am    
+39     G     
+40     G     
+41     Am7   
+42     D7    
+43     G     
+44     Am7   
+45     D7    
+46     Am7   
+47     G     
+48	/
+
+Groove CountryWaltz
+
+49     G     
+50     Am7   
+51     G7    
+52     C     Am7   
+53     Em    
+54     B+    
+55     Em6   
+56     Am7   D7    
+57	/
+58     G     
+59     Am7   
+60     D7    
+61     G     
+62     Am7   
+63     D7    
+64     Am7   
+65     D9    
+
+Groove CountryWaltzEnd
+
+66     G     
+Seq 4
+67	/
+

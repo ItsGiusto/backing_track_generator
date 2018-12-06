@@ -1,0 +1,114 @@
+// Two Cigarettes In The Dark
+
+Tempo 90
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove JazzGuitar1Intro
+AllGrooves Plectrum Capo -2
+
+Begin Solo
+  Voice Piano1
+  Octave 5
+  Harmony OpenAbove+8Below
+  Articulate 90
+  Volume f
+  Begin Riff
+    2e;g;
+	43b;a;g;f;e;d;
+	2f;a;
+	1b;
+  End
+End
+
+Cresc pp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+
+Groove JazzGuitar
+Volume m
+
+5        Eb
+6         /      /  Ebdim
+7        Fm
+Decresc mp 1
+8       Bb7
+
+Groove JazzGuitar1Sus
+Cresc mf 4
+
+9        Eb      /    Cm7
+10       Fm
+11        /      /      /    Bb7
+12       Eb      /    Bb+
+
+Groove JazzGuitar
+Volume m
+
+13       Eb
+14        /      /  Ebdim
+Decresc mp 2
+15       Fm
+16      Bb7
+
+Groove JazzGuitarSus
+Cresc m 4
+
+17       Eb      /    Cm7
+18       Fm
+19        /      /      /    Bb7
+20       Eb
+
+Groove JazzGuitar
+Volume mf
+
+21      Bbm      /    Eb7
+22      Bbm      /      /    Eb7
+23       Ab      /    Eb7
+24       Ab
+
+Groove JazzGuitarWalk
+Decresc mp 4
+
+25       E7
+26        /
+27      Eb7      /     E7
+28       F7      /    Bb+
+
+Groove JazzGuitarSus
+Cresc mf 4
+
+29       Eb
+30        /      /  Ebdim
+31       Fm
+32      Bb7
+
+Groove JazzGuitar
+Decresc p 4
+
+33       Eb      /    Cm7
+34       Ab
+
+RepeatEnding
+
+35      Bb7
+36       Eb     /     Bb7
+
+
+RepeatEnd
+
+Groove JazzGuitarEnd
+Tempo *.8 2
+Decresc ppp 2
+
+35      Bb7
+36       Eb     /     z!
+
+

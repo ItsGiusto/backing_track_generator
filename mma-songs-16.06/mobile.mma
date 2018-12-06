@@ -1,0 +1,93 @@
+// Mobile
+
+
+Tempo 134
+KeySig 1b
+
+Groove Metronome2-4
+	z * 2
+
+Groove SwingIntro
+
+Begin Solo
+	Voice Clarinet
+	Volume f
+	Articulate 80
+	Harmony Open
+	Octave 5
+	Begin Riff
+		8r; c+;  a; c+; 81a; 4c+;
+		8r; c#+; a; c+; 81a; 4c+;
+		8r; d+; f+; d+; 81f+; 4d+;
+		4c+; b; a; g;
+	End
+End
+
+SwingMode ON
+
+1      F    
+2      A7    
+3      Gm    
+4      C7    
+
+Delete Solo
+
+
+Repeat
+Groove Swing
+Repeat
+
+5      F     
+6      A7    
+7      D7    
+8	/
+9      G7    
+
+RepeatEnding
+
+10     Gm7   /    C7    
+11     F     /    Dm7   
+12     G7    /    Gm7   C7    
+
+Groove SwingWalk
+
+RepeatEnd
+
+13     Gm7   /    C7    
+14     F     
+15     Gm7   C7    F   
+
+Groove SwingSus
+  
+16     A7    
+17     /    Em7   A7    
+18     D7    
+19	/
+20     G7    
+21     /    Dm7   Gdim  G7    
+22     C7    
+23	/
+
+Groove SwingPlusSus
+
+24     F     
+25     A7    
+26     D7    
+27	/
+28     G7    
+29     Gm7   /    C7    
+30     A7    
+31     Cm7   /    D7    
+32     G7    
+33     Gm7   /    /    C7   
+
+RepeatEnding
+ 
+34     F     /    Bb7   
+35     F     
+
+RepeatEnd
+
+Groove SwingEnd
+34     F     /    Bb7   
+35     F     /  z!

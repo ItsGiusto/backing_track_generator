@@ -1,0 +1,91 @@
+// The Duke (Dave Brubeck)
+
+Tempo 132
+Keysig C
+
+Groove Metronome2-4 
+  z * 2
+
+Groove ModernJazzIntro
+Cresc p mf 4
+
+1         C
+2        Em
+3         Gm
+4        G7
+
+Repeat  // Repeat song
+
+Groove ModernJazz
+Repeat
+Volume m
+
+5       CM7      /    FM7
+6        Gb    Am7   B7b9
+7       Em7      /    Am9
+8       Dm9      /    Fm7    Bb7
+
+Swell mf 4
+
+9        Eb      /   DbM7
+10      Cm7      /    Bm7
+11     Bbm7    Eb7   AbM7
+
+RepeatEnding
+Groove ModernJazzFill
+12       D7      /     G7
+
+Groove ModernJazzSus
+RepeatEnd
+
+13       D7  Db7b9    CM7    Gb7
+
+Groove ModernJazz2
+Volume m
+
+14      FM7      /     E7
+15       D6      /    CM7
+Decresc mp 2
+16     Bbm7      /    Abm
+17     Cm/G      /    Fm6
+
+Groove ModernJazz2Sus
+Cresc f 4
+
+18    Dm7b5  Db9b5    Ab9
+19    Cm7b5   B9b5   Bbm7
+
+Walk Chords C B& A& G
+20    Fm7/C  Bbdim     Ab   G7#9
+
+Walk Chords F Eb Db
+21      Fm9  Db  Eb
+Walk Chords   // turn off walk-specific chord stuff
+Groove ModernJazz
+Volume m
+
+22      CM7      /    FM7
+23       G6    Am7   B7b9
+24      Em7      /    Am9
+25      Dm9      /    Fm9    Bb7
+
+Groove ModernJazz2
+Decresc mp 2
+
+26      Eb7      /   DbM7
+27      Cm7      /    Bm7
+
+RepeatEnding  2 /// This ending repeats the entire song
+
+28     Bbm7    Eb7   AbM7
+29       D7  Db7b9    CM7
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Decresc ppp 2
+Tempo *.8 2
+
+28     Bbm7    Eb7   AbM7
+29       D7  Db7b9    CM7
+

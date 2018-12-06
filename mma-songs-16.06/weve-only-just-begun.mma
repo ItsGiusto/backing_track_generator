@@ -1,0 +1,126 @@
+// Weve Only Just Begun
+
+Tempo 88
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove Ballad
+Begin AllGrooves Arpeggio-Plus
+   Voice JazzGuitar
+   Range 1
+End
+
+Begin Solo
+     Voice OrchestralHarp
+     Articulate 110
+     Octave 5
+     Harmony 3Below
+     Volume f
+     Begin Riff
+         8r;d;4;8;4.;
+         8r;c;4;8;4.;
+         8r;d;4;8;4.;
+         8r;c;4;8;4.;
+     End
+End
+
+Groove BalladIntro2
+Swell mp mf 4
+
+1         Eb
+2         F
+3         Eb
+4          F / F7
+
+
+Repeat
+Groove Ballad
+Volume m
+
+5         Eb
+6       AbM7
+7        Gm7
+8        Cm7
+
+Groove BalladSus
+Cresc mf 3
+
+9        Fm7
+10       Cm7
+11       Fm7
+
+RepeatEnding
+Volume mp
+Groove BalladFill
+
+12      Bb11
+
+RepeatEnd
+
+Groove BalladPlus
+Volume m
+
+13      Bb11
+
+Groove Ballad1Sus
+Volume mp
+
+14      EbM7      /   AbM7
+15      EbM7      /   AbM7
+
+
+Groove Ballad1Plus
+Volume mf
+
+16         C      /      F
+17         C      /      F
+18         C      /      F
+19         C      /      F
+
+Groove Ballad1
+Decresc mp 4
+
+20         E      /      A
+21         E      /      A
+22         E      /      A
+
+Cresc mf 3
+
+23      Bb11
+
+Groove Ballad1Sus
+
+24         /
+25         /
+
+
+Groove Ballad
+Volume m
+
+26        Eb
+27      AbM7
+28       Gm7
+29       Cm7
+
+Groove BalladPlus
+Swell m mp 4
+
+30       Fm7
+31       Cm7
+32       Fm7
+33      Bb11
+
+Groove BalladSus
+Decresc m pp 5
+
+34      EbM7
+35      AbM7
+36      EbM7
+37      AbM7
+
+Groove Ballad1End
+
+38         G / / z!
+

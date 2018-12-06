@@ -1,0 +1,103 @@
+// Lilli Marlene
+
+Tempo 90
+
+Groove Metronome2-4
+	z * 2
+
+// 4 bar intro	
+
+// For the 1st 4 bars we use a march groove. Since these
+// are really 2/2 grooves we double up on the tempo and chords.
+
+Tempo *2
+Groove March4
+
+Begin Solo
+ Voice BrassSection 
+ Octave 6
+ Articulate 90
+ Harmony OpenBelow+8Below
+ Volume mp
+ Begin Riff
+   2.c+;4b;
+   2.a;4g;
+   2.a;4e;
+   1d;
+   2.d;4f;
+   2.g;4c+;
+   1+1c+ ~ ;
+ End
+End
+
+Cresc mp f 8
+
+1 	C * 2
+2 	Dm * 2
+3 	G7 * 2
+4 	C * 2
+
+Tempo *.5
+
+// The main song. Restore the tempo and select Tango1
+
+Repeat
+
+Groove Tango1
+Decresc m mp 4
+
+5 	C
+6 	Dm7 /  G7
+7 	/
+8 	/  /  C C7
+
+Groove Tango
+Cresc mf 4
+
+9 	F
+10 	C
+11 	Dm7 /  G9
+12 	C
+
+Groove Tango1
+Decresc mp 4
+
+13 	Dm7 /  /  G9
+14 	C /  /  C#dim
+15 	Dm7 /  /  G7
+
+Begin Solo
+  Volume m
+  Begin Riff
+     2.r;4e;
+     2.g;4f;
+     2f;b-;
+     1c;
+  End
+End
+
+16 	C  
+
+// 2 bars of march at the end. Again, we double up on tempo and chords
+
+Groove March4
+Volume mp
+Solo Decresc p 3
+Tempo *2
+
+17 	Dm7 
+	/ / G7 
+	
+18 	C
+	C
+
+Tempo *.5
+
+Repeatend 4
+
+Groove TangoEnd
+Volume pp
+
+	C  z!
+cut -2.5
+

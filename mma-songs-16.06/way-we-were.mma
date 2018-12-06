@@ -1,0 +1,110 @@
+// (The) Way We Were
+
+Tempo 70
+Keysig A
+Transpose 1   // change from A to Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove Ballad
+
+Begin Solo
+    Voice Strings
+	Articulate 110
+	Volume ff
+	Harmony OpenBelow+8Below
+	Octave 5
+End
+
+Cresc mp mf 10
+Solo Cresc p f 5
+
+1        A9                         {1a;}
+2         /      /    AM7           {2f;2+4+3e ~;}
+3      D9/A                         {~ 3e;f;4+16a;16g;f;e;}
+4      F#m9      / F#m9/E           {1c; }
+5       DM7      /    C#7           {4+8r;16b-;c;8e;c;e#;c;}
+
+Groove BalladIntro
+Solo Decresc mp 4
+
+6    F#sus4      /      /    F#m    {4.g;16a;g;2+4 _ f~;}
+7       DM7      / E7sus4     E7    {~ 4r;3r;b-;c;b-;43c;}
+8        A9                         {1+2c ~;}
+9       DM7      /      D        
+
+Repeat
+Groove Ballad
+Volume m
+
+10        A      /   C#m7
+11      DM7
+12      F#m
+13      DM7      /   C#m7    C#7
+
+Groove Ballad1
+
+14      F#m
+15      DM7      /  E7sus     E7
+
+RepeatEnding
+
+16      AM7      /   F#m7
+17      Bm7      /      D
+
+RepeatEnd
+
+18      AM7
+19       A7
+
+Groove BalladSus
+
+20      DM7      /      /   C#m7
+21      Bm7
+22     C#m7
+23   F#7sus      /    F#7
+
+Groove Ballad1Sus
+
+24      Bm7      /  Bm7/A
+25    E7sus      /      /     E7
+26      AM7
+27        D      /     E7
+
+Groove Ballad
+
+28        A      /   C#m7
+29      DM7
+30      F#m
+31      DM7      /   C#m7    C#7
+
+Groove Ballad1
+
+32      F#m
+33      DM7      / C#7sus    C#7
+34     F#m7
+35      DM7
+
+Groove BalladSus
+
+36     C#m7
+37      DM7
+38     C#m7
+39      DM7
+
+Groove Ballad1Sus
+
+40     C#m7      /   F#m7
+41      Bm7
+42      AM7      /    DM7
+43        D
+
+Groove Ballad1End
+Seq 2
+Decresc pp 2
+
+
+44      AM7      /    DM7
+45      AM7      /    z!
+

@@ -1,0 +1,85 @@
+// At Sundown
+
+Tempo 160
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+	Voice Piano2
+	Volume mf
+	Articulate 90
+	Octave 5
+	Begin Riff
+		3+3f;g;a;4c+;8a;g;
+		2b;g;
+		3+3c+;b;a;g;a;b;
+		2c+;
+	End
+End
+
+SwingMode On
+
+1   F       
+2   Gm      
+3   /       
+4   C7      /       D7      
+
+Repeat
+Groove FoxTrot
+
+5   Gm      /       /       Gm7     
+6   C7      
+7   F       /       F6      
+8   F       /       D7      
+9   Gm      /       /       Gm7     
+10  C7      
+11  F       /       F6      
+12  F       /       A7      A7b5  
+
+Groove FoxTrotSus
+  
+13  D7      
+14  /       
+15  G7      
+16  /       
+17  C7      
+18  /       /       G+      
+19  F       
+20  /       /       D7  
+
+Groove FoxTrotPlus
+    
+21  Gm      /       /       Gm7     
+22  C7      
+23  F       /       F6      
+24  F       /       D7      
+25  Gm      /       /       Gm7     
+26  C7      
+27  F       /       F6      
+28  F       /       A7      A7b5    
+
+Groove FoxTrotSusPlus
+
+29  D7      
+30  /       
+31  G7      
+32  /       
+33  Gm      /       /       Gm7     
+34  C7      
+
+RepeatEnding 2
+
+35  F       
+36  /       /       D7      
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+37  F       
+38  /  / z!
+
+

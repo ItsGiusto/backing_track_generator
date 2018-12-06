@@ -1,0 +1,135 @@
+// We Three
+
+Tempo 92
+KeySig F
+
+Chord Define t3  1 4 90; 1.66 4 80; 2.33 4 75; 3 4 90; 3.66 4 80; 4.66 4 70
+
+Groove Metronome2-4
+ z * 2
+
+Set SusVoiceOctave 5
+Groove RockBalladIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Articulate 110
+    Harmony OpenBelow
+    Volume f
+    Begin Riff
+        2+8c+;8b;a;g;
+        2+8b;8a;g;f;
+        2.g;4b;
+        1c+;
+    End
+End
+
+Begin Solo-2
+   Voice TremoloStrings
+   Articulate 130
+   HarmonyOnly OpenAbove+8Above
+   Octave 4
+   Volume f
+End
+
+Solo DupRiff Solo-2
+
+Swell mp mf 4
+
+1          F
+2        Bbm
+3         Gm
+4         C7      /   C7#5
+
+
+Repeat
+Groove RockBallad1
+Volume m
+
+5          F
+6        Db7
+7          F      /     F7     E7
+8        Eb7      /      /     D7
+
+Groove RockBallad1Voice
+Cresc mf 4
+
+9         G9
+10        C9      /      /     C+
+11        F6      /   Fdim
+12       Gm7      /     C7   C7#5
+
+Groove RockBallad1
+Decresc m 4
+
+13         F
+14       Db7
+15         F      /     F7     E7
+16       Eb7      /      /     D7
+
+Groove RockBallad1Voice
+Cresc f 4
+
+17        G9
+18        C9      /      /    Bb7
+19         F      /   Bbm7
+20       F      /      /   Fdim
+
+Groove RockBallad
+Begin Chord Riff
+  T3
+  T3
+End
+
+21        F7
+22         /      /      /     F+
+
+Groove RockBallad
+Decresc m 2
+
+23        Bb      /     F+
+24       Bb6      /      /   Gdim
+
+Groove RockBalladFill
+Volume f
+Begin Chord Riff
+  T3
+  T3
+End
+25        G7
+26         /
+
+Groove RockBalladFill
+Decresc m 2
+
+27       Gm7      /   Bbm6
+28       Gm7      /     C7   C7#5
+
+Groove RockBallad1Voice
+
+29         F
+30       Db7
+31         F      /     F7     E7
+32       Eb7      /      /     D7
+
+Groove RockBallad1
+Decresc mp 2
+
+33        G9      /      /     G7
+34        C9      /      /    Bb7
+
+RepeatEnding
+
+35        F6      /    Bbm
+36        F6      /   C7#5
+
+RepeatEnd
+
+Groove RockBalladEnd1
+Decresc ppp 2
+
+35        F6      /    Bbm
+37        F6  z!
+
+

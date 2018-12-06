@@ -1,0 +1,71 @@
+// Oh You Beautiful Doll
+
+Tempo 140
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+
+Begin Solo
+	Voice Piano2
+	Volume f
+	Harmony Open
+	Articulate 90
+	Octave 5
+	Begin Riff
+		2a; ;
+		2a; ;
+		8g; 4a; b; 8c+; 4b;
+		1c+; 
+	End
+End
+
+1   F       
+2   Dm      
+3   Gm      
+4   C7      
+
+
+Repeat
+Groove FoxTrot
+
+5   F       
+6   /       /       D7      
+7   G7      
+8   /       
+9   C7      
+10  /       
+11  F       /       C7      
+12  F       /       Gm      C7b9   
+
+Groove FoxTrotPlus
+ 
+13  F       
+14  /       /       D7      
+15  G7      
+16  /       /       /       C7      
+17  F       
+18  /       
+19  Db7     
+20  / 
+
+Groove FoxTrotSusPlus
+      
+21  F       /       A7      
+22  Dm7     
+
+
+RepeatEnding 2
+
+23  G7      /       C7      
+24  F       /       C7      
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+23  G7      /       C7      
+25  F       
+

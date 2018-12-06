@@ -1,0 +1,86 @@
+// Louise
+
+Tempo 112
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxtrotIntro
+Begin Solo
+	Voice Piano1
+	Volume m
+	Articulate 90
+	Accent 1 20 3 10
+	Harmony Open
+	Octave 5
+	Begin Riff
+		8c;d;f;g;2a;
+		8c;d;f;g;2a;
+		8g;f;g;f;4g;f;
+		1c+;
+	End
+End
+
+Swingmode On Skew=60  // long/short ratio a bit tighter
+
+1   F       
+2   Dm      
+3   Gm      
+4   C7      
+
+Repeat
+Groove Foxtrot
+
+5   F       /       F+      
+6   F6      /       F+      
+7   F       /       Dm7     
+8   G7      
+9   Am7     /       Abdim7  
+10  Gm7     /       C7      
+11  Gm7     /       C7      
+12  Gm7     /       C7  
+
+Groove FoxTrotPlus
+    
+13  F       /       F+      
+14  F6      /       F+      
+15  F       /       Dm7     
+16  G7      
+17  Am7     /       Abdim7  
+18  Gm7     /       C7      
+19  Gm7     /       C7      
+20  FM7     /       Bm7b5   E7 
+ 
+Groove FoxTrotSus
+    
+21  Am7     
+22  Bm7b5   /       E7      
+23  Bm7b5   /       E7      
+24  Am7     
+25  D7      
+26  /       
+27  G7      
+28  Gm7     /       C7  
+
+Groove FoxTrotSusPlus
+    
+29  F       /       F+      
+30  F6      /       F+      
+31  F       /       Dm7     
+32  G7      
+33  Am7     /       Abdim7  
+34  Gm7     /       C7      
+
+RepeatEnding
+
+35  Gm7     /       C7      
+36  FM7     /       Gm7     C7      
+
+RepeatEnd
+
+Groove FoxtrotEnd
+
+35  Gm7     /       C7      
+37  F       / z!
+

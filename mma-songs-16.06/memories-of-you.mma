@@ -1,0 +1,120 @@
+// Memories Of You
+
+Tempo 74
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove NiteJazzIntro
+Begin AllGrooves
+     Bass Articulate 70
+     Bass Volume p
+     Bass-Accent Articulate 60
+     Bass-Accent Volume p   
+     Arpeggio-Piano Octave 5
+     Arpeggio-Piano Harmony 3Below+8Below
+     Arpeggio-Guitar Octave 5
+End
+
+Begin Solo
+    Voice Clavinet
+    Octave 6
+    Articulate 120
+    Harmony OpenBelow+Open8Below
+    Volume m
+    Begin Riff
+        8e+;d+;c+;b;2g;
+        <grace>16d+;8e+;d+;c+;d+;2e+;
+        <grace>16d+;8e+;d+;c+;d+; c+;b;a;f;
+        4b;a;2f;
+    End
+End
+
+Chord-sus Groove NiteJazzSus
+
+Swell p m 4
+Swingmode On Skew=57
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+
+Repeat
+Groove NiteJazz
+Volume m
+
+5        Eb      /   Edim
+6       Fm7      /  F#dim
+7        Eb      /      /    Cm7
+8        F7
+
+Groove NiteJazzPlus
+Cresc mf 2
+
+9        Eb      /    Cm7
+10      Gm7      /     C9
+11       F7      /    Bb9
+12       Eb      /    Fm7    Bb9
+
+Groove NiteJazz
+Decresc m 2
+
+13       Eb      /   Edim
+14      Fm7      /  F#dim
+15       Eb      /      /    Cm7
+16       F7
+
+Groove NiteJazzPlus
+Decresc mp 3
+
+17       Eb      /    Cm7
+18      Gm7      /     C9
+19       F7      /    Bb9
+20       Eb      /     G7
+
+Groove NiteJazzSus
+Cresc m 3
+
+21       Cm
+22       Fm
+23       Cm
+24       F9
+
+Groove NiteJazzSusPlus
+
+25       Eb
+26       F9
+27      Bb6      /    F#m
+28       Fm      /    Bb7
+
+Groove NiteJazz
+Cresc mf 2
+
+29       Eb      /   Edim
+30      Fm7      /  F#dim
+31       Eb      /      /    Cm7
+32       F7
+
+Groove NiteJazzPlus
+Decresc mp 2
+
+33       Eb      /    Cm7
+34      Gm7      /     C9
+
+RepeatEnding
+
+35       F7      /    Bb9
+36       Eb      /    Fm7    Bb7
+
+
+RepeatEnd
+
+Groove NiteJazzEnd
+Decresc ppp 2
+
+35       F7      /    Bb9
+37      Eb6      z!
+

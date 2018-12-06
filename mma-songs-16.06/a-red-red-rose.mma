@@ -1,0 +1,80 @@
+// A Red Red Rose
+
+
+Tempo 60
+
+Groove Metronome2-4
+  z * 2
+
+
+Groove FolkBalladIntro
+
+Begin Solo
+  Voice AcousticBass
+  Octave 5
+  Volume ff
+  Harmony OpenBelow
+  Articulate 120
+  Begin Riff
+    4g;;a;b;
+	4e+;g+;4.e;8d;
+	4e+;g+;a+;e+;
+	1d+;
+  End
+End
+
+1          G
+2         Em
+3         Csus2
+4         D7
+
+Repeat
+Groove FolkBallad
+
+5          G
+6         Em
+7      Csus2
+8         D7  /   /   G
+
+Groove FolkBallad1
+
+9          /
+10        Em
+11     Csus2      /     D7
+12         G
+
+Groove FolkBallad
+
+13         G
+14     Csus2      /      G
+15     Csus2
+16         D  
+
+Groove FolkBalladSus
+
+17         G      /     Bm
+18     Csus2      /      G
+19         C      G      D
+20         G   
+
+
+RepeatEnd
+
+Groove FolkBallad
+
+21         G
+22     Csus2  
+23         G
+24         D
+
+Groove FolkBallad1Sus
+
+25         G      /     Bm
+26     Csus2
+
+Groove FolkBalladEnd
+
+27         D    /   D7
+28         G    /    z!
+
+

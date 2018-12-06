@@ -1,0 +1,112 @@
+// I'll Be Around
+
+Tempo 80
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove NiteJazzIntro
+
+Begin AllGrooves Chord-Sus
+    Octave 5
+    Volume p
+    Voice Strings
+End
+
+Begin Solo
+    Voice Strings
+    Volume f
+    Articulate 110
+    Harmony OpenBelow+8Below
+    Octave 6
+    Begin Riff
+        2.c;8d;e;
+        2.c;8d;e;
+        2.f;8g;a;
+        2f;2.g~;
+    End
+End
+
+Cresc mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Repeat
+Groove NiteJazz
+Volume m
+
+5       CM7      /    Dm7
+6       Em7      /    Fm7
+7        G7      / G#dim7
+8       F/A      /   G7/B
+
+Groove NiteJazzPlus
+Cresc mf 4
+
+9       CM7      /    Am7
+10      Dm7      /   G7b9
+11        C      /    Bbm    Eb9
+12     AbM7    Ab6     G7
+
+Groove NiteJazz
+Decresc m 4
+
+13      CM7      /    Dm7
+14      Em7      /    FM7
+15       G7      / G#dim7
+16      F/A      /   G7/B
+
+Groove NiteJazzPlus
+
+17      CM7      /    Am7
+18      Dm7      /   G7b9
+19       C6      /      F
+20       C6
+
+Groove NiteJazzSus
+Cresc mp mf 4
+
+21   Db7/Ab      /    Gm7
+22    Gm9      /     C7
+23   Db7/Ab    Gm7      /   C7b9
+24      FM7      /     F6
+
+Groove NiteJazzSusPlus
+
+25   Ab7/Eb      /    Dm7
+26    Dm9      /   G7b9
+27      CM7      /    Am7
+28      Dm7      /   G7b9
+
+Groove NiteJazzSus
+Volume m
+
+29      CM7      /    Dm7
+30      Em7      /    FM7
+31       G7      / G#dim7
+32    Dm7/A      /   G7/B
+
+Groove NiteJazzPlus
+Decresc mp 2
+
+33        C      /    Am7
+34      Dm7      /   G7b9
+
+RepeatEnding
+
+35        C      /   Bbm9    Eb9
+36     AbM9    Ab6     G7
+
+RepeatEnd
+
+Groove NiteJazzEnd
+Decresc ppp 2
+
+37        C      /    Dm7     Fm
+38        C      /     z!
+

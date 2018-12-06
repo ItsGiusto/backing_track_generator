@@ -1,0 +1,109 @@
+// Ebony Rhapsody
+
+Tempo 122
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+Begin Solo
+    Voice Piano1
+    Harmony OpenBelow  3Below OpenBelow+OpenAbove 3Below+3Above
+    Articulate 110
+    Octave 5
+    Decresc fff m 4
+    Begin Riff
+        4c+;d+;4.b;8d+;
+        4c+;d+;4.b;8d+;
+        4b;b&;a;a&;
+        2.g;
+    End
+End
+
+Cresc p m 4
+
+1        D
+2        /
+3        Bm
+4        C#dim3
+
+
+Repeat
+Groove BigBand
+Volume m
+
+5        D7
+6         /  G#dim3     D7
+7         G
+8         /   Adim3  G#dim3
+
+Groove BigBand1
+Decresc mp 4
+
+9       Am7
+10       D7
+11        F      /      G     Bm
+12    G#dim3
+
+Groove BigBandSus
+Cresc mf 4
+
+13       D7
+14        /  G#dim3     D7
+15        G
+16        /  A#dim3  G#dim3
+
+Groove BigBandPlus
+Decresc m 4
+
+17      Am7
+18       D7
+19        F      /      G     Bm
+20    C#dim3
+
+Groove BigBand1Sus
+Decresc mp 4
+
+21       G7
+22        /
+23        C
+24        /
+
+Groove BigBandSusPlus
+
+25       A7
+26        /
+27        D    Em7  G#dim3     D7
+28      Gm7  G#dim3     D7  G#dim3
+
+Groove BigBandSus
+Cresc mf 4
+
+29       D7
+30        /  G#dim3     D7
+31        G
+32        /  A#dim3  G#dim3
+
+Groove BigBand
+Decresc mp 2
+
+33      Am7
+34      Eb7      /    D+7
+
+RepeatEnding
+
+35      G   /  C#dim3
+
+Groove BigBandFill
+
+36      D7
+
+RepeatEnd
+Groove BigBandEnd
+Decresc ppp 2
+
+37        G      /  C#dim3     D7
+38        G      z!
+
+

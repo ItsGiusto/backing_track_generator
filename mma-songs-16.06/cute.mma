@@ -1,0 +1,99 @@
+// Cute
+
+Tempo 180
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+   Voice BrassSection
+   Articulate 90
+   Octave 5
+   Harmony OpenAbove
+   Volume ff
+   Begin Riff
+      4d;
+      4r;4e;g;
+      4f;
+      2g;
+   End   
+End
+Groove BigBandIntro
+
+1         C
+2         Am7
+3         Dm7
+4         G9
+
+
+Repeat
+Groove BigBand
+
+5       Dm7
+6         /      /     G9
+7        C6
+8     Em7b5      /   A7b9
+
+Groove BigBandPlus
+
+9       Dm7
+10        /      /     G9
+11      Gm7      /     C7
+12      Gm7      /     C9
+
+Groove BigBandSus
+
+13      FM7
+14      Bb9
+15        C
+16      Am7
+
+Groove BigBand
+
+17   F#m7b5
+18       B7
+19      EM7
+20    Em7b5      /   A7b9
+
+Groove BigBandPlus
+
+21      Dm7
+22        /      /     G9
+23       C6
+24    Em7b5      /   A7b5
+
+Groove BigBandSus
+
+25      Dm7
+26        /      /     G9
+27      Gm7      /     C7
+28      Gm7      /     C9
+
+Groove BigBandSusPlus
+
+29      FM7
+30      Bb9
+31        C
+32      Am7
+
+Groove BigBand
+
+33      Dm7
+34        /      /   G7b9
+
+RepeatEnding 2
+
+35       C6
+
+Groove BigBandFill
+
+36       G9
+
+RepeatEnd
+Groove BigBandEnd
+
+35       C6
+36       /  z!
+
+

@@ -1,0 +1,83 @@
+// Mountain Greenery
+
+Tempo 148
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+
+Begin Solo
+	Voice Piano1
+	Harmony Open
+	Octave 5
+	Articulate 80
+	Begin Riff
+		4c+;8d+;4e+;8d+;4c+;
+		4c+;8d+;4e+;8d+;4c+;
+		4d+;8e+;4f+;8e+;4d+;
+		1d+;
+	End
+End
+
+1   C       
+2   Am      
+3   Dm      
+4   G7      
+
+Repeat
+Groove Foxtrot
+
+5   C       /       Am      
+6   Dm7     /       /       G7     
+7   C       /       Am      
+8   Dm7     /       /       G7      
+9   C       /       F       
+10  D7      
+11  G       /       Am7     
+12  Gdim    /       G
+
+Groove FoxTrotPlus
+   
+13  C       /       Am      
+14  Dm7     /       /       G7      
+15  C       /       Am      
+16  Dm7     /       /       G7      
+17  C       /       F       
+18  D7      
+19  G       /       C       Gdim    
+20  G       C7+5    
+
+Groove FoxTrotSus
+
+21  F6
+22  C7      
+23  F6      
+24  Fm6     
+25  G6      
+26  D7      
+27  Dm7     
+28  G7
+
+Groove FoxTrotSus   
+
+29  C       /       Am      
+30  Dm7     /       /       G7      
+31  C       /       Am      
+32  Dm7     /       /       G7      
+33  C       /       Am      
+34  Dm7     /       /       G7      
+
+RepeatEnding
+
+35  C       
+36  Dm7     /       G7      
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+37  C       /       Am      
+38  C       /  z!
+

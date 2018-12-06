@@ -1,0 +1,93 @@
+// Got A Date With An Angel
+
+Tempo 150
+KeySig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove QuickStepIntro
+
+Begin Solo
+	Voice Piano1
+	Volume f
+	Articulate 90
+	Octave 6
+	Begin Riff
+		4r;8c;d;f;a;4c+;
+		4r;8c;d;f;a;4c+;
+		4r;8b;a;g;e;4d;
+		1c;
+	End
+End
+
+Swingmode On
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove QuickStep
+
+5         F
+6        D7
+7        Gm
+8       Bbm
+9         F      /      /     F7
+10       G7
+11       C7      /      /     C+
+
+Groove QuickStepHit
+
+12        F      /      /     C7
+
+Groove QuickStepSus
+
+13        F
+14       D7
+15       Gm
+16      Bbm
+17        F      /      /     F7
+18       G7
+19       C7      /      /     C+
+
+Groove QuickStepHit
+
+20        F      /      /     F+
+
+Groove QuickStepDuh
+
+21       Bb
+22        A
+23       D7
+24        G
+25       C7
+26        F     A7      /     D7
+27       G7
+28       Gm      /     C7
+
+Groove QuickStepDuhSus
+
+29        F
+30       D7
+31       Gm
+32      Bbm
+33        F      /      /     F7
+34       G7
+35       C7      /      /     C+
+
+RepeatEnding
+
+Groove QuickStepHit
+
+36        F      /      /     C+
+
+RepeatEnd
+
+Groove QuickStepEnd
+Tempo *.8 2
+
+37        F 
+          /  /  z!

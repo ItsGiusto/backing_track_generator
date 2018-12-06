@@ -1,0 +1,105 @@
+// Boulevard Of Broken Dreams
+
+Tempo 105
+Keysig D Minor
+
+
+Groove Metronome2-4
+	   z * 2
+
+Groove LightTangoIntro
+Begin Solo
+	  Voice Piano2
+	  Volume f
+	  Harmony Open+8Below
+	  Octave 5
+	  Articulate 70
+	  Accent 1 30 3 20
+	  Begin Riff
+	  		4d+;8r;d+;4;;
+			4c+;8r;c+;4;;
+			4bn;8r;bn;4;;
+			4a;
+	  End
+End
+
+Cresc p mf 4
+
+1        Dm
+2        Am
+3        Em
+4        A7
+
+Repeat
+Groove LightTango
+Repeat
+Cresc m mf 8
+Seq 2
+5        Dm      /    Gm6
+6        Dm
+7       Gm6
+8        A7
+9         /
+10        /
+
+RepeatEnding
+
+11       Dm
+
+Groove LightTangoFill
+
+12     A7 
+
+Groove LightTango1
+
+RepeatEnd
+
+13       Dm
+
+Groove LightTangoFill
+Volume mp
+
+14        /     D7
+
+
+Groove LightTangoSus
+
+15      Cm6
+16       D7      /    Cm6     D7
+17       Gm
+18        /     C7
+
+Volume m
+
+19     Bbm6
+20       C7      /   Bbm6     C7
+21        F
+22       A7
+
+Groove LightTango1Sus
+Volume mf
+
+23       Dm      /    Gm6
+24       Dm
+25      Gm6
+26       A7
+27        /
+
+RepeatEnding
+
+28        /
+29       Dm
+
+Groove LightTangoFill
+ 
+30       A7
+
+RepeatEnd
+
+31       A7
+
+Groove LightTangoEnd
+32       Dm      /    A7
+33       Dm      z!
+
+

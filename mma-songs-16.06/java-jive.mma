@@ -1,0 +1,103 @@
+// Java Jive
+
+Tempo 105
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove SwingIntro
+Begin Solo
+	Voice JazzGuitar
+	Volume ff
+	Harmony Open
+	Articulate 110
+	Octave 6
+	Begin Riff
+		4c;8;2;
+		4d;8;2;
+		8r;c;bn-;c;c#;d;d#;e;
+		1f;
+	End
+End
+
+Swingmode On
+Cresc pp mf 4
+
+1      F 
+2      Dm
+3      C7
+4      F
+
+Volume mf
+Groove Swing
+Repeat
+
+5      F     /    Fdim  
+6      C7    
+7      Gm7   /    C7    
+8      F     
+9      /    /    F7    
+10     Bb6   /    Bbm6  
+11     F     C7    F     C7    
+
+RepeatEnding
+
+12     F 
+    
+Groove SwingSus
+
+RepeatEnd
+
+13     F  
+
+// Patter
+
+Groove SwingPlus
+   
+14     Bb7   /    Bdim  
+15     Fm6   /    Fm7   
+16     Bb7   /    Bdim  
+17     F     
+18	/
+19	/
+20     Bbm6  /    C7    
+21     /    Gm7   Ebm6  C7  
+
+// This is the 2nd time though the whole piece
+
+Groove SwingSus
+Repeat
+
+5      F     /    Fdim  
+6      C7    
+7      Gm7   /    C7    
+8      F     
+9      /    /    F7    
+10     Bb6   /    Bbm6  
+11     F     C7    F     C7    
+
+RepeatEnding
+
+12 F
+
+Groove SwingPlusSus
+
+RepeatEnd
+
+// Coda
+
+Groove Swing
+
+22     F     
+23	/
+24     /    /    /    F7    
+25	/
+26     F     
+27	/
+
+Groove SwingEnd
+
+28     C7    
+29     F    z! 
+

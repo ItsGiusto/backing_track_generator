@@ -1,0 +1,110 @@
+// Days Of Wine And Roses
+
+Tempo 140
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove ModernjazzIntro
+Begin Solo
+  Voice FrenchHorn
+  Volume m
+  Articulate 90
+  Octave 5
+  Harmony Open
+  Begin Riff
+    2fac+;4r;4c;
+	2.a;4f;
+	4g;a;b&;bn;
+	2c+;
+  End
+End
+
+Cresc mp m 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove ModernJazz
+Volume m
+
+5         F
+6    Cm6/Eb
+7      Am7     /   D9
+8         /
+
+Groove ModernJazz1
+Volume mp
+
+9        Gm
+10        /
+11      Bbm
+12        /
+
+Groove ModernJazzSus
+Cresc mf 4
+
+13       Am
+14       Dm
+15       Gm
+16      Gm7
+
+Groove ModernJazz1Sus
+Decresc mp 4
+
+17    Em7b5      /     A9
+18    Dm7b5      /     G9
+19      Gm7
+20       C7
+
+Groove ModernJazz
+Volume m
+
+21        F
+22   Cm6/Eb
+23      Am7      /     D9
+24        /
+
+Groove ModernJazzSus
+Volume mp
+
+25       Gm
+26        /
+27      Bbm
+28        /
+
+Groove ModernJazz1Sus
+Cresc m 4
+
+29       Am
+30       Dm      /    Dm7
+31    Bm7b5
+32      Bb9
+
+Groove ModernJazz
+Decresc mp 4
+
+33       Am      /     Dm
+34      Gm7
+
+RepeatEnding
+
+Groove ModernJazzIntro
+
+
+35        F      /    Gm7
+36        F      /    C7
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Tempo *.6 2
+
+35        F       /  Gm7 Gm7&5
+36        F      /   z!
+
+

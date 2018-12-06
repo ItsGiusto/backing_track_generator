@@ -1,0 +1,121 @@
+// Tea For Two
+
+// I've made liberal use of a Solo Drum track to do 'tap dance' stuff.
+// Don't know about anyone else, but I think it's sort-of cute :)
+
+Tempo 120
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+	Voice Piano3
+	Volume f
+	Articulate 110
+	Octave 6
+	Harmony 3
+	Begin Riff
+		4.f;8;2e;
+		4.d;8;2c;
+		4.d;8;2c;
+		1c;
+	End
+End
+
+Begin Solo-Block
+	DrumType
+	Tone HighWoodBlock
+	Volume f
+End
+
+1      F     
+2      Dm    
+3      Gm  
+
+Solo-Block Riff 4r; 8.* ;16; 8.;16; 8.;16;
+
+4      C7    
+
+Repeat
+Groove FoxTrot
+
+5      Gm7   /    C7    
+6      Gm7   /    C7    
+7      FM7   /    F6    
+8      FM7   /    F6    
+9      Gm7   /    C7    
+10     Gm7   /    C7    
+11     F     /    F6  
+
+Solo-Block Riff 4r; 8. *;16; 8.;16; 8.;16;
+  
+12     F     /    F6
+    
+Groove FoxTrotPlus
+
+13     Bm7   /    E7    
+14     Bm7   /    E7    
+15     AM7   /    A6    
+16     AM7   /    A6    
+17     Bm7   /    E7    
+18     Bm7   /    E7    E+  
+
+Solo-Block Riff 8.;16; 8.;16; 8.;16; 8.;16;
+ 
+19     A
+ 
+Solo-Block Riff 16;;;; ;;;; 4;;
+ 
+20     C7    Am    Abm   Gm 
+   
+Groove FoxTrotSusPlus
+
+21     Gm7   /    C7    
+22     Gm7   /    C7    
+23     FM7   /    F6    
+24     FM7   /    F6    
+25     Gm7   /    C7    
+26     Gm7   /    C7 
+
+Solo-Block Riff 8.;16; 8.;16; 8.;16; 8.;16;
+   
+27     Cm6
+  
+Solo-Block Riff 8.;16; 8.;16; ;;;; 4;
+ 
+28     D7    
+
+Groove FoxTrotPlus
+
+29     Gm    /    Cm6 
+30     D+    /    D7    
+31     F#dim /    Gm    
+32     Bbm9  /    Bbm6  
+33     F     /    E     
+34     Gm7   /    C7 
+
+Repeatending
+
+Solo-Block Riff 4r; 8. *;16; 8.;16; 8.;16;
+   
+35     F     /    Dm
+
+Solo-Block Riff 16;;;; ;;;; ;;;;
+
+36     C7   
+
+RepeatEnd
+Groove FoxTrotEnd
+
+Solo-Block Riff  8.;16; 8.;16; 8.;16; 8.;16;
+
+37     F     /    Dm6   C7+5 
+
+Solo-Block Riff  4; ; ;
+
+38     F     z!
+
+

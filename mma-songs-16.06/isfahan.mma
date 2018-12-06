@@ -1,0 +1,104 @@
+// Isfahan (Duke Ellington)
+
+Tempo 65
+Keysig Db
+Transpose Up Major 2  /// from Db to Eb (too many low notes for Tsax.
+
+Groove Metronome2-4
+  z * 2
+
+Groove MellowJazzIntro
+
+// This makes the piano chords a bit brighter
+// Note, we leave the Chord-Guitar voicing as KEY.
+Begin AllGrooves Chord-Piano
+   Voicing Mode=Key2
+   Volume mp
+End
+
+Cresc p mf 4
+
+1        Db
+2       Bbm
+3       Ebm
+4       Ab7
+
+Repeat
+Groove MellowJazz
+Volume m
+
+5      DbM7
+6      BbM7      /  Bb7#5
+7       Eb9
+8         /
+
+Groove MellowJazzSus
+Cresc mf 2
+9       AM7
+10        /      /  Ab7b9
+11     DbM7
+12        /
+
+Groove MellowJazz
+Volume m
+
+13    Gdim7      /   C7b9
+14      Fm6
+15    Adim7      /   D7b9
+16      Gm6
+
+Groove MellowJazzPlus
+Decresc mp 2
+
+17    Gdim7
+18   C7#5b9
+19      FM7      /    EM7
+20     EbM7      /    DM7
+
+Groove MellowJazzSusPlus
+Volume m
+
+21     DbM7
+22     BbM7      /  Bb7#5
+23      Eb9
+24        /
+
+Groove MellowJazz
+Cresc mf 4
+
+25      AM7
+26        /      /  Ab7b9
+27   Db7#11
+28        /
+
+Groove MellowJazzPlus
+Decresc mp 4
+
+29     GbM7
+30   C7#5#9
+31    F7#11
+32      Bb7
+
+Groove MellowJazz
+
+33      Eb9
+34    Ab7b9
+
+RepeatEnding
+Cresc m 2
+
+35     DbM7
+
+Groove MellowJazzFill
+
+36      Ebm7      /    Ab7
+
+RepeatEnd
+
+Groove MellowJazzEnd
+Decresc ppp 2
+
+35     DbM7
+37        /  z!
+
+

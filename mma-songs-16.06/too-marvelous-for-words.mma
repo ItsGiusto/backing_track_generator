@@ -1,0 +1,109 @@
+// Too Marvelous For Words (1937)
+
+Tempo 140
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzRhumbaIntro
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Harmony OpenBelow+8Below
+    Octave 5
+    Rtime 6
+    RVolume 6
+    Articulate 90
+    Begin Riff
+        4g;b;d+;b;
+        4e+;b;g;b;
+        4c+;;;;
+        1d+;
+    End
+End
+
+Decresc mf p 4
+
+1         G
+2        Em
+3        Am
+Bass Riff B1
+Solo Harmony 3Below+8Below
+4        D7
+
+Repeat
+Groove JazzRhumba
+Volume m
+
+5       Am7      /     D9
+6       Am7      /     D9
+7       Am7      /     D9
+8       Am7      /     D9
+
+Groove JazzRhumbaPlus
+
+9        F#      /      G
+10     C9b5     C9
+11        G
+12       F#      G
+
+Groove JazzRhumba
+Volume mf
+
+13      Am7      /     D9
+14      Am7      /     D9
+15      Am7      /     D9
+16      Am7      /     D9
+
+Groove JazzRhumbaSus
+Decresc mp 4
+
+17       F#      /      G
+18     C9b5     C9
+19        B      /   C#m7    F#9
+20        B
+
+Groove JazzRhumbaSusPlus
+
+21      Dm7
+22        F      /      /    Dm6
+23        /      /    Dm7
+24      Fm6      /      /     G+
+
+Groove JazzRhumbaSus
+Volume m
+
+25       CM7     /      /     G+
+26       C6      /      /     G+
+27      CM7     C6      G  Bbdim
+28       Am     D7
+
+Groove JazzRhumba
+
+29      Am7      /     D9
+30      Am7      /     D9
+31       F#      G    Dm6
+32        /      /     E7   Ddim
+
+Groove JazzRhumbaPlus
+Volume mf
+
+33       E7   Edim     Am
+34      Cm6
+
+RepeatEnding
+Decresc mp 2
+
+35      Cm6     Cm      C     D7
+Groove JazzRhumbaFill
+36        G      /     D7
+
+RepeatEnd
+Groove JazzRhumbaEnd
+Decresc p 2
+
+37      Cm6     Cm      C     D7
+38        G      z!
+

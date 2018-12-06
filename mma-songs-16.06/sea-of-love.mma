@@ -1,0 +1,90 @@
+// Sea Of Love
+
+// Done a long time ago by Del Shannon and Phil Phillips (1959)
+
+// This is a 12/8 time dup-wop rock
+
+Tempo 85  // this is the the time for a dotted quarter
+
+Groove Metronome2-4
+ z * 2
+ 
+Groove Rock128Sus
+Begin Drum-HH
+	Sequence {D1234 * 3}
+	Volume p
+End
+
+ G
+ B7
+ C
+ A7
+ G / C 
+ G
+
+Repeat
+Groove Rock128
+1      G     
+2      B7    
+3      C     
+4      A7    
+5      G     
+6      A7    
+7      G     /    C     
+
+RepeatEnding
+
+8      G     
+
+RepeatEnding
+
+9      G     
+
+Groove Rock128Sus
+
+10     D     
+11     C     
+12     D     
+13     C     
+14     B7    
+15     D     /  /  D7    
+
+RepeatEnd
+
+16     G     /    z     
+
+
+Repeat
+
+Groove Rock128Sus
+
+17     Eb    
+18     Db    
+19     Eb    
+20     Db    
+21     C7    
+22     Eb    /  /  Eb7   
+
+Groove Rock128
+
+23     Ab    
+24     C7    
+25     Db    
+26     Bb7   
+27     Ab    
+28     Bb7   
+29     Ab    /    Db    
+30     Ab    
+
+RepeatEnd
+
+Decresc pppp 4
+
+31	/
+32     Bb7   
+33     Ab    /    Db    
+34     Ab    z z!
+
+
+
+

@@ -1,0 +1,85 @@
+// Love Is A Many Splendored Thing
+
+Tempo 100
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+	  Voice Piano1
+	  Volume f
+	  Harmony 3
+	  Articulate 110
+	  Accent 1 20 
+	  Octave 5
+	  Begin Riff
+	  		4c+;3;;;4;;
+			4c+;3;;;4;;
+			4d+;3;;;4;;
+			1d+;
+	  End
+End
+
+1      C     
+2      Am    
+3      Dm    
+4      G7    / z z!
+
+Repeat
+Groove FoxtrotSus
+
+5      C     
+6      Am    
+7      Em    
+8      /    /    Gm7   C7    
+9      F     /    Faug  
+10     F6    /    Dm6   
+11     Am    
+12	/
+
+Groove FoxtrotPlus
+
+13     Dm7   
+14	/
+15     Dm6   
+16     E7b9  
+17     Am    /    Am7   
+18     Am6   /    B7    
+19     E     
+20     G7
+
+Groove FoxTrot1Sus
+    
+21     C     
+22     Am    
+23     Em    
+24     /    /    Gm7   C7    
+25     F     /    Faug  
+26     F6    /    F7    
+27     Em7   /    A7    
+28	/
+
+Groove FoxTrot
+
+29     Dm    /    DM7   
+30     Dm6   /    E7#5b9 
+31     A7    /    D9    
+32     Fm6   
+33     C     /    Am    
+34     Dm7   /    /    G7b9  
+
+RepeatEnding
+Groove FoxTrotFill
+
+35     C     /    Em
+36     /     /    G7    
+
+RepeatEnd
+
+Groove FoxTrot1End
+
+37     C    /  Em
+38     C6    
+

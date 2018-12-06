@@ -1,0 +1,100 @@
+// Count Every Star
+
+Tempo 66
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove SlowJazz2Intro
+
+Begin Solo
+     Voice JazzGuitar
+     Volume f
+     Articulate 110
+     Octave 5
+     Harmony OpenBelow
+     Begin Riff
+         8r;b;3d+;g+;3+2e+;
+         8r;e;3g;c+;3+2a;
+         8g;f;g;8+4f;8d#;e;
+         8a;g;a;8+2a#;
+     End
+End
+
+Begin Solo-1
+   Voice Piano1
+   Articulate 120
+   Harmony OpenBelow
+   Octave 4
+   Begin Riff
+       8e;d+;4g++; 8e+;b+;4e++;
+       8c+;g+;4c+;8a;e+;4a+;
+       4.g+;8+2;
+       4.g+;8+2f+;
+   End
+End
+
+Swell mp mf 4
+
+1         G6
+2         Am7
+3         GM7 
+4         D7  / D7+@2.5
+
+Groove SlowJazz
+Cresc mp m 4
+
+5         C
+6        Cm
+7         G      /  C#dim3
+8       Am7      /      /     D7
+
+Repeat
+Groove SlowJazz1Sus
+Volume m
+
+9         G      /    Em7
+10      Am7      /     D7
+11        G      /    Em7
+12      Am7    Am9     D7
+
+Groove SlowJazz1Walk
+Volume mf
+
+13       G7
+14        C      /     Cm
+15        G
+16      Am7      /     D+
+
+Groove SlowJazz1WalkSus
+Decresc m 3
+
+17        G      /    Em7
+18      Am7      /     D7
+19        C      /    Em7
+20      Am7    Am9     D7
+
+Groove SlowJazz1
+Decresc mp 4
+
+21      Dm7      /   G7b9
+22      CM7   Edim3    Cm6
+23        G      /     Em
+24      Am7      /   D7b9
+
+RepeatEnding
+
+25        G      /     Em
+Groove SlowJazzFill
+26      Am7      /     D7
+
+RepeatEnd
+
+Groove SlowJazzEnd
+Decresc ppp 2
+
+27        G      /     Em
+28       Am    Ab7      G  z!
+
+

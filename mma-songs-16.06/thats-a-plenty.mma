@@ -1,0 +1,87 @@
+// Thats A Plenty
+
+// Pete Fountain does this at 220. Sounds fine when he does
+// it, but I can't :)
+
+
+Tempo 190
+
+Groove Metronome2-4
+	z * 2
+	
+Groove Swing1
+
+1       Dm   
+2 	/
+3 	/
+4 	/
+5       A7    Gm6   A7   
+6       / Gm6   A7   
+7       Dm   
+8       A7   
+9       Dm   
+10 	/
+11 	/
+12 	/
+13      A7    Gm6   A7   
+14      / Gm6   A7   
+15      /     /     Bb7   A7    
+16 	Dm   
+17      C7   
+18 	/
+19      F    
+20 	/
+21      C7   
+22 	/
+23      F     Cm    D7   
+24      G7    C7   
+25 	/
+26 	/
+27      F    
+28 	/
+29      Fdim 
+30      F     D7   
+31      G7    /     G7b5  C7   
+32      F     /     F7   
+
+groove Swing1Plus
+
+33      Bb    F7    Gdim  Bb   
+34      /     /     Fm6  
+35      Gdim  G7   
+36 	/
+37      C7   
+38      F7   
+39      Bb    /     Gdim 
+40      Cm7   F7    Cm7   F7   
+41      Bb    F7    Gdim  Bb   
+42      / /     /     Fm6  
+43      Gdim  G7   
+44 	/
+45      C7   
+46      F7   
+47      Bb   
+48      A7   
+
+Groove Swing1
+
+49      Dm   
+50 	/
+51 	/
+52 	/
+53      A7    Gm6   A7   
+54      / Gm6   A7   
+55      Dm   
+56      A7   
+57      Dm   
+58 	/
+59 	/
+60 	/
+61      A7    Gm6   A7   
+62      / Gm6   A7   
+
+Groove Swing1End
+
+63      A7   
+64      Dm   / z z!
+

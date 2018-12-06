@@ -1,0 +1,134 @@
+// Make Your Own Kind Of Music
+// Hit for Cass Elliot in 1969. Her key was E, same tempo
+
+Tempo 120
+Keysig C
+
+Groove Metronome2-4
+   z * 2
+
+Groove BalladIntro2
+Begin Solo
+    Voice Piano1
+	Volume f
+	Harmony OpenBelow
+	Articulate 110
+	Octave 4
+	Begin Riff
+        8g;e;g;c+; b;a;g;e;
+		4a;;8;4.e;
+		8d;e;f;e; d;e;d;e;
+		1g;
+	End
+End
+
+Swell p m 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove Ballad
+Volume m
+
+5         C
+6         F
+7         C
+8        G7
+
+Groove BalladSus
+
+9         C
+10       Dm
+11       Em
+12        F
+13        G
+
+Groove Ballad1
+Cresc f 3
+
+14        /
+15        C
+16        F      /     G7
+
+Groove Ballad1Sus
+Volume mf
+
+17        C
+18        F      /     G7
+
+Groove BalladSus
+Decresc mp 4
+
+19        C
+20        F      /     G7
+21        C
+
+Truncate 2
+22        F  // 2/4 bar
+
+Groove Ballad1Sus
+Volume m
+
+23    G7sus
+24       G7
+
+RepeatEnd
+Groove Ballad
+Volume m
+
+25      Gm7
+26        /
+27        /      /     C7
+28        /
+
+Groove BalladSus
+Volume mp
+
+29      Gm7
+30        /
+31       Gm
+32       G7
+
+Cresc m 4
+
+33        /
+34        /
+35        /
+
+Repeat
+Groove Ballad
+Volume m
+
+36        C
+37        F      /     G7
+38        C
+39        F      /     G7
+
+If Def EOF
+   Groove Ballad1End
+   Decresc pppp 4
+   Alltracks Decresc ppp 4
+Else
+   Groove BalladSus
+Endif
+
+40        C
+41        F      /     G7
+42        C
+
+Truncate 2
+43        F   // a 2/4 bar
+
+If Def EOF
+   eof
+Endif
+
+44    G7sus
+45     G7     /   z
+
+Set EOF
+RepeatEnd
+

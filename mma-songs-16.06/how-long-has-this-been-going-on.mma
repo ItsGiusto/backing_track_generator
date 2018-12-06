@@ -1,0 +1,120 @@
+// How Long Has This Been Going On
+
+Tempo 80
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove MellowJazzIntro
+
+Begin Allgrooves 
+  Begin Arpeggio-Piano
+         Voice Clarinet 
+         Octave 6 
+         Articulate 80
+         Harmony OpenBelow+OpenAbove
+         Volume  mp    p   mp   p
+  End
+End
+
+
+Begin Solo
+    Voice Piano1
+    Volume mf
+    Articulate 90
+    Harmony OpenBelow
+    Octave 5
+    Begin Riff
+        4g;a; 2;
+        4e;d;2;
+        4e;g;b&;a;
+        1g;
+    End
+End
+
+Swell p mf 4
+
+1         G  / Gm&5
+2        Am  /  D7
+3        C   /  D7
+4        G   /   Gm&5
+
+
+Repeat
+Groove MellowJazz
+Volume m
+
+5        D7
+6      Dm&5      /      /     Bb
+7        D7      /    D7+     G7
+8        C7      /      /    Cm7
+
+Groove MellowJazzPlus
+Volume mf
+
+9         G      /   Gm&5
+10      Am7      /     D7     G7
+11        C      /     D7
+12        G
+
+Groove MellowJazz
+Decresc m 4
+
+13       D7
+14     Dm&5      /      /     Bb
+15       D7      /    D7+     G7
+16       C7      /      /    Cm7
+
+Groove MellowJazzPlus
+
+17        G      /   Gm&5
+18      Am7      /     D7     G7
+Decresc mp 2
+19        C      /     D7
+20        G     Cm   Dm&5     G7
+
+Groove MellowJazzSus
+Cresc m 4
+
+21        C      /     F7
+22        C      /     F7
+23      CM7      /     F7
+24      CM7      /    Em6
+
+Groove MellowJazzSusPlus
+
+25       Bm      /    Em6
+26       Bm      /    Em6
+27       Bm      /    Em6
+28       Bm      /    Bb+
+
+Groove MellowJazz
+
+29       D7
+30     Dm&5      /      /     Bb
+31       D7      /      /     G7
+32       C7      /      /    Cm7
+
+Groove MellowJazzPlus
+Decresc mp 2
+
+33        G      /   Gm&5
+34      Am7      /     D7     G7
+
+RepeatEnding
+
+35        C      /     D7
+
+Groove MellowJazzFill
+
+36        G      /   Gm&5
+
+RepeatEnd
+
+Groove MellowJazzEnd
+Decresc ppp 2
+
+35        C      /     D7
+37        C     C6      G
+

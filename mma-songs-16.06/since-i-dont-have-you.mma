@@ -1,0 +1,108 @@
+// Since I Dont Have You (Skyliners, 1958)
+
+Tempo 74
+Keysig F
+
+Groove Metronome2-4 
+   z * 2
+   
+Groove Rock128IntroSus
+
+Begin Solo
+    Voice SynthVox
+    Harmony OpenBelow+8below
+    Octave 5
+    Volume ff
+    Articulate 90
+    Begin Riff
+        3f+;c+;a; f+;c+;a; 4f+;c+;
+        3d+;a;f; d+;a;f; 4d+;a;
+        3!g;!g;!g; 2g;8a;b;
+        1c+;
+    End
+End
+
+Swell p mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Label SIGN
+Groove Rock128
+Volume m
+
+5         F      /    Dm7
+6       Bbm      /  Gm7b5     C7
+7         F      /    Dm7
+8      Bbm6      /  Gm7b5     C7
+
+Groove Rock128Plain
+Begin Chord
+       Articulate 90
+       Volume -40
+End
+Cresc mf 2
+
+9         F      /    Dm7
+10     Bbm6      /    Am7   D7#9
+
+If Def CODA
+  Goto CODA
+Endif
+
+Cresc f 2
+
+11      Gm7
+12     Gm11      / C13sus4   C7#5
+
+RepeatEnd
+
+// This is the Bridge
+
+Groove Rock128Sus
+Cresc m mf 4
+
+13     BbM7      /   Bbm7
+14      F/A
+15      Cm7      /     C7
+16      FM7      /    Cm7
+
+Groove Rock128PlainSus
+Begin Chord
+       Articulate 90
+       Volume -40
+End
+Decresc mp 4
+
+17     BbM7      /  Bm7b5   E7#9
+18      Am7      /   D7b9
+19      Gm7
+20    Abm11    Db7   Cm11     C7
+
+Set CODA
+Goto SIGN
+
+Label CODA
+
+// This is the CODA ending
+
+Decresc mp 2
+Tempo *.8 4
+
+21      Gm7
+22     Bb/C
+
+Groove Rock128Plain
+Decresc ppp 3
+
+23        F   
+
+Groove Rock128End
+
+24        /
+25   F6(add9)  z!
+

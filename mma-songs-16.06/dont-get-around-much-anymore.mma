@@ -1,0 +1,111 @@
+// Dont Get Around Much Anymore
+
+Tempo 120
+KeySig C
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice TenorSax
+	Harmony Open
+	Articulate 70
+	Octave 5
+	Volume mf
+	Begin Riff
+        4c; 8r; c; ; ;
+        4d; 8r; d ; ; ;
+        4e; 8r; e; ; ;
+        4g;
+	End
+End
+
+Groove FoxtrotIntro
+
+SwingMode On
+Swell mp f 4
+
+1        CM7
+2        Dm7
+3        Em7
+4         G7      z
+
+Delete Solo
+Groove FoxTrot
+Repeat
+Volume m
+
+5         C6
+6          C
+7         A9
+8         A7      /    Am7
+
+Volume mf
+
+9         D9
+10        G7
+11        C6
+12         z
+
+Groove FoxTrotPlus
+Volume m
+
+13        C6
+14         C
+15        A9
+16        A7      /    Am7
+
+Decresc f mp 4
+
+17        D9
+18        G7
+19        C6
+20         C      /     C9     C7
+
+Groove FoxTrotSus
+Cresc m 4
+
+21         F
+22        Fm
+23       Em7      /      C
+24        C7      /   C7#5
+
+Groove FoxTrotSusPlus
+Cresc mf 4
+
+25         F
+26       Am6      /     B7
+27        Em      /      B
+28        G7      z
+
+Groove FoxTrot
+Volume m
+
+29        C6
+30         C
+31        A9
+32        A7      /    Am7
+
+Groove FoxTrotSus
+
+33        D9
+34        G7
+
+Repeatending
+Groove FoxTrotFill
+
+35         C
+36        G7      z
+
+Groove FoxtrotSus
+
+Repeatend
+
+Groove FoxtrotEnd
+Tempo *.85 2
+Decresc ppp 2
+
+37         C  
+38         /   z!
+
+

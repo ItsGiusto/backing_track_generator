@@ -1,0 +1,116 @@
+// When I Fall In Love
+
+Tempo 90
+Keysig Eb
+Transpose 4
+
+Groove Metronome2-4
+ z * 2
+
+Groove JazzGuitar1Intro
+AllGrooves Plectrum Capo -4
+
+Begin Solo
+  Voice Strings
+  Octave 5
+  Harmony 3Below+8Below
+  Volume f
+  Articulate 110
+  Begin Riff
+    4b-;e;a;g;
+	2e;f;
+	4e;8f;g;a;g;4f;
+	1e;
+  End
+End
+
+Swell mp mf 4
+Solo Cresc p mf 4
+
+1         Eb      / C7#5b9
+2        Fm7      /    Bb7
+3         Eb      /    Cm7
+4         Eb    z@4
+
+
+Repeat
+Groove JazzGuitar
+Volume m
+
+5         Eb      / C7#5b9
+6        Fm7      /    Bb7
+7         Eb      / C7#5b9
+8        Fm7      /    Bb7
+
+Groove JazzGuitarSus
+Plectrum Volume -20
+Cresc mp m 4
+
+9         Eb
+10       Db9      /   C9#5
+11       Fm7
+12     Bb7b9
+
+Groove JazzGuitar
+Volume mf
+
+13        Eb
+14       Fm7      /    Bb7
+15       Gm7
+16        C7
+
+Groove JazzGuitarWalk
+Volume m
+
+17        Fm
+18      C7b9
+19       Fm7
+20       Bb7
+
+Groove JazzGuitarWalkSus
+Decresc mp 3
+
+21        Eb      / C7#5b9
+22       Fm7      /    Bb7
+23        Eb      / C7#5b9
+24       Fm7      /    Bb7
+
+Groove JazzGuitar
+Cresc mf 3
+
+25        Eb
+26       Db9      /   C9#5
+27       Fm7
+28       Bb7
+
+Groove JazzGuitarSus
+Volume m
+
+29        Eb Eb:1 Eb:0 Eb:1
+30        Ab
+31       Gm7      /     C7
+32       Fm7      /    Db9
+
+Groove JazzGuitar
+Decresc mp 2
+
+33        Eb      / C7#5b9
+34       Fm7      /    Bb7
+
+RepeatEnding
+
+Groove JazzGuitarSus
+Cresc m 2
+
+35        Eb      /    Cm7
+36       Fm7      /  Bb7b9
+
+RepeatEnd
+
+Groove JazzGuitarEnd
+Decresc ppp 2
+Plectrum Decresc p  2
+
+37        Eb
+38         /     z!
+

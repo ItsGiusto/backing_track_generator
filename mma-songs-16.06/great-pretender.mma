@@ -1,0 +1,98 @@
+// Great Pretender (The Platters, 1956)
+
+Tempo 78
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Articulate 90
+    Harmony 3Below
+    Octave 5
+    Begin Riff
+       3e;;; ;;; ;;; ;;;
+       4f;8g;2b;
+    End
+End
+
+Groove Blues128Intro
+Seq 3
+Volume mp
+
+1         Eb
+2         Bb
+
+Groove Blues128
+Volume m
+
+3         Eb      /     Fm    Bb7
+4         Eb      /    Eb7
+5         Ab
+6         Eb      /      /    Eb7
+
+Groove Blues128Plus
+Volume mp
+
+7         Ab      /    Bb7
+8         Eb      /     Ab    Fm7
+9      Eb/Bb      /  Fm/Bb    Bb7
+10        Eb     Ab     Eb    Bb7
+
+Groove Blues128
+Cresc mf 4
+
+11        Eb      /     Fm    Bb7
+12        Eb      /    Eb7
+13        Ab
+14        Eb      /      /    Eb7
+
+Groove Blues128Plus
+Decresc mp 4
+
+15        Ab      /    Bb7
+16        Eb      /     Ab    Fm7
+17     Eb/Bb      /  Fm/Bb    Bb7
+18        Eb      /      /    Eb7
+
+Repeat
+Groove Blues128Sus
+Volume mp
+
+19        Ab
+20        Eb      /      /    Eb7
+21        Ab
+22     Eb/Bb      /    Bb7
+
+Groove Blues128SusPlus
+Cresc m 4
+
+23        Eb      /     Fm    Bb7
+24        Eb      /    Eb7
+25        Ab
+26        Eb      /      /    Eb7
+
+Groove Blues128Sus
+Decresc mp 4
+
+27        Ab      /    Bb7
+28        Eb      /     Ab    Fm7
+29        Eb      /     Fm
+30         G      /      /    Bb9
+
+RepeatEnding
+Decresc p 2
+
+31        Eb      /     Fm    Bb7
+32        Eb     F7  Fm/Bb    Bb7
+
+RepeatEnd
+
+Groove Blues128End
+Decresc ppp 2
+
+33        Eb      /     Fm    Bb7
+34        Eb      z!@2.75
+

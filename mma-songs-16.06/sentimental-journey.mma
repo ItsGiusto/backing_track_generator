@@ -1,0 +1,77 @@
+// Sentimental Journey
+
+tempo 110
+
+Groove metronome2-4
+
+	z * 2
+
+Groove Swing1
+
+Begin Solo
+	Voice AltoSax
+	Octave 5
+	Volume m
+	Articulate 90
+	Harmony Open
+End
+
+	C		{3+3c+;;;4;;}
+	Am      {3+3a;;;4;;}
+	Dm      {3+3f;;;4;;}
+	G7      {2d;}
+
+Delete Solo
+
+Repeat
+
+Groove Swing2
+Repeat
+	
+1       C    
+2 	/
+3 	/
+4       D7    /     G7   
+5       C    
+6       F9   
+7       C    
+8       G7   / C
+
+Groove Swing2Plus
+
+RepeatEnd
+
+Groove Swing1Sus
+
+9       FM7  
+10 	/
+11      CM7  
+12 	/
+13      D7   
+14 	/
+15      G7    /     Dm7  
+16      G7    C#dim G7   
+
+Groove Swing2
+
+17      C    
+18 	/
+19 	/
+20      D7    /     G7   
+21      C    
+22      F9   
+
+RepeatEnding
+
+23      C    
+24      G7    /     C    
+
+RepeatEnd
+
+Groove Swing2End
+Seq 3
+23      C
+24      G7  / C z!
+Cut -1
+
+

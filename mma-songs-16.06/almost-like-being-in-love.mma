@@ -1,0 +1,91 @@
+// Almost Like Being In Love
+
+Tempo 130
+Keysig Bb
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxTrotIntro
+
+Begin Solo
+	Voice JazzGuitar
+	Volume f
+	Harmony Open
+	Articulate 80
+	Octave 5
+	Begin Riff
+		4b;2g;4a;
+		4b;2g;4b;
+		1d+;
+		2a;
+	End
+End
+
+1   Bb6      
+2   Gm7      
+3   Cm7      
+4   F7      /       Bb      
+
+Repeat
+Groove FoxTrot
+
+5   Eb      /       Cm7     
+6   F7      
+7   BbM7    /       F7#5    
+8   Bb6     
+9   Cm7     /       /       F6      
+10  Eb6     /       /       A       
+11  Bb6     
+12  Bb7     /       /       Bb7#5   
+
+Groove FoxTrotSus
+
+13  Eb      /       Cm7     
+14  /       
+15  BbM7    /       /       F7#5    
+16  Bb6     
+17  Cm7     
+18  Eb6     /       /       F+      
+19  Bb6     
+20  /       /       Bb6  
+ 
+Groove FoxTrot
+  
+21  Am7     /       D9 
+22  Am7     /       D9      
+23  GM7     /       G6      
+24  GM7     /       G6      
+25  Eb      /       Cm6     Eb6     
+26  Cm6     
+27  D9      
+28  Bb9     /       D7      Bdim  
+
+Groove FoxTrotPlus
+ 
+29  EbM7    /       Cm7    
+30  F9      /       F7      
+31  BbM7    /       /       F7#5    
+32  Bb6     
+33  Eb6     
+34  Edim    
+35  Bb6     
+36  C9      /       /       Gb7   
+
+Groove FoxTrotSus
+
+37  Bb      /       Bb6     BbM7    
+38  Cm7     /       F9      
+
+RepeatEnding
+
+39  Bb6     
+40  Bb7     /       Bb7#5   
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+41  Bb6     
+42  /  / z!
+

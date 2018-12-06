@@ -1,0 +1,99 @@
+// Dream A Little Dream Of Me
+
+Tempo 100
+Keysig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove SwingIntro
+
+Begin Solo
+	Voice Piano2
+	Harmony Open
+	Volume f
+	Articulate 110
+	Octave 6
+	Begin Riff
+		2g; 8d; e; g; a;
+		2b; ;
+		8a; b; a; g; 4a; b;
+		2.d+;
+	End
+End
+
+SwingMode On	
+
+1       G    
+2       Em   
+3       Am   
+4       D7  
+
+Repeat
+Groove Swing1
+Cresc p f 12
+
+5       G    
+6       Eb9   /     D9   
+7       G    
+8       E7    /     Bm7b5 E7   
+9       Am   
+10      Cm6  
+11      G     /     A7   
+12      D7   
+
+13      G    
+14      Eb9   /     D9   
+15      G    
+16      E7    /     Bm7b5 E7   
+17      Am   
+18      Cm6  
+19      G     F9    Eb9   D9   
+Begin Solo
+    Voice JazzGuitar
+    Riff  2r;81b;82c+;81g+;82fn+;
+    Volume f
+    Octave 5
+    Articulate 150
+End
+20      G     /     F9    Bb9  
+
+Groove Swing1Sus
+Volume +10
+
+
+21      Eb    /     Cm7  
+22      Fm7   /     Bb9  
+23      Eb    /     Cm7  
+24      Fm7   /     Bb9  
+25      Eb    /     Cm7  
+26      Fm7   /     Bb9  
+27      Eb    /     Cm7  
+28      Am7   /     D9   
+
+Groove Swing1Plus
+Volume -20
+
+29      G    
+30      Eb9   /     D9   
+31      G    
+32      E7    /     Bm7b5 E7   
+33      Am   
+34      Cm6  
+
+RepeatEnding
+
+35      G     F9    Eb9   D9   
+36      G    
+
+RepeatEnd
+
+Groove Swing1End
+Tempo *.8 1.5
+
+35      G     F9    Eb9   D9   
+36      G    /  z!
+Fermata -4 2 300
+
+
+

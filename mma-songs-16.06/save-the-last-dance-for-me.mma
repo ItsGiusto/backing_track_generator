@@ -1,0 +1,128 @@
+// Save The Last Dance For Me
+// Ben E King & the Drifters in 1960
+// I've reset as a slow/sultry bossanova.
+
+Tempo 114
+Groove Metronome2-4
+ z * 2
+
+
+Groove BossaNovaIntro
+Seq 3
+Cresc pp m 2
+
+1         Eb
+2          /
+
+
+Repeat
+Groove BossaNova
+Decresc m mp 4
+
+3         Eb
+4          /
+5          /
+6        Bb7
+
+Groove BossaNova1Sus
+Cresc m 4
+
+7          B&7zC     /    Bb7      /
+8          /
+9          /
+10         /
+
+Groove BossaNova
+
+11        Eb
+12        EbzC     Eb    Bb7    Eb7
+
+Decresc mp 2
+
+13        Ab
+14         /
+
+Groove BossaNova2Sus
+Cresc m 4
+
+15        Eb
+16        EbzC     /     Eb      /
+17       Bb7
+18         /
+
+Groove BossaNovaPlus
+RepeatEnding
+
+19        Eb
+
+Groove BossaNovaFill
+
+20         EbzC   /   /  Eb
+
+RepeatEnd
+
+21        Eb
+
+Groove BossaNovaFill
+
+22        EbzC  Eb
+
+Groove BossaNovaSus
+Cresc p mp 4
+
+23       Bb7
+24         /
+25        Eb
+26        EbzC
+
+Groove BossaNovaSusPlus
+Cresc m 4
+
+27       Bb7
+28         /
+29        Eb
+30         /
+
+Groove BossaNova
+Decresc mp 4
+
+31         /
+32         /
+33         /
+34       Bb7
+
+Groove BossaNova1SusPlus
+Cresc m 4
+
+35         /
+36         /
+37         /
+38         /
+
+Groove BossaNova
+
+39        Eb
+40         /      /    Bb7     Eb
+
+Decresc mp 2
+
+41        Ab
+42         /
+
+Groove BossaNovaSus
+Decresc p 4
+
+43        Eb
+44         /
+45       Bb7
+46         /
+
+Groove BossaNova2End
+Chord-Sus Volume -20
+Tempo *.8 2
+Decresc ppp 2
+
+47        Eb
+48         /      /     z!
+
+

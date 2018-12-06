@@ -1,0 +1,164 @@
+// One Of Those Songs
+// A hit for Jimmy Durante in 1966.
+
+Tempo $(124 * 2)
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove PolkaIntro8
+
+Begin Solo
+  Voice Accordion
+  Volume ff
+  Articulate 88
+  Harmony OpenBelow
+  Octave 6
+  Begin Riff
+     8f;a;c+;a; f;a;4c+;
+	 4c+;a;2f;
+	 8f;a;d+;a; f;a;4d+;
+	 4d+;a;2f;
+	 8c+;;a;; f;;4a;
+	 4c+;g;a;b;
+	 1c+;
+  End
+End
+
+1          F
+2          /
+3         Dm
+4          /
+
+5          F
+6          /
+7         C7
+
+// This is the pickup bar to the song: "Well, this is"
+Drum-Snare  Riff D234
+Drum-Snare  Volume mp
+Drum-Cymbal Riff D3
+Drum-Cymbal Volume mp
+Drum-Slap   Riff D234
+Drum-Slap   Volume mp
+8          /  z
+
+Groove Polka
+
+9          F
+10         /
+11         /
+12         /
+
+Groove PolkaSus
+
+13         /
+14         /
+15       Gm7
+16        C7
+
+Groove Polka
+
+17       Gm7
+18        C7
+19       Gm7
+20        C7
+
+Groove PolkaArp
+
+21       Gm7
+22        C7
+23         F
+24         /      z
+
+Groove Polka
+
+25         F
+26         /
+27         /
+28         /
+
+Groove PolkaSusArp
+
+29         /
+30        D7
+31        Gm
+32         /
+
+Groove Polka
+
+33        Bb
+34       Bbm
+35         F
+36        D7
+
+Groove PolkaSus
+
+37        Gm
+38        C7
+39         F      /     F#
+
+// keychange from F to C
+
+40        G7      z
+
+Groove Polka1
+
+41         C
+42         /
+43         /
+44         /
+
+Groove Polka
+
+45         /
+46         /
+47       Dm7
+48        G7
+
+Groove Polka1Sus
+
+49       Dm7
+50        G7
+51       Dm7
+52        G7
+
+Groove Polka1
+
+53       Dm7
+54        G7
+55         C
+56         /      z
+
+Groove Polka1Arp
+
+57         C
+58         /
+59         /
+60         /
+
+Groove Polka1
+
+61         /
+62        A7
+63        Dm
+64         /
+
+Groove Polka1SusArp
+
+65         F
+66        Fm
+67         C
+68        A7
+
+Groove Polka1
+
+69        Dm
+70        G7
+
+Groove PolkaEnd
+
+71         C
+72         /     z!
+

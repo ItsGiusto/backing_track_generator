@@ -1,0 +1,115 @@
+// Touch Of Your Lips
+
+Tempo 70
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBluesIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Harmony OpenAbove
+    Articulate 110
+    Volume f
+    Begin Riff
+        4c+;g;e;a;
+        4c+;a;e;a;
+        3d+;c+;b; a;g;f; e;d;c; 4d;
+        2g;
+    End
+End
+
+Swell p mf 4
+
+1        C
+2        Am7
+3        Dm7
+4        G7
+
+
+Groove SlowBlues
+Volume m
+
+5       CM9      /    Am7
+6       Dm9      /   G7#5
+7        C6      /    Am7
+8       Dm7      /   G7#5
+
+Groove SlowBluesSus
+Cresc mf 4
+
+9       CM7      /    Am7
+10      Dm7      /     G7   G7/F
+11    Em7b5
+12     A7b9
+
+Groove SlowBlues
+Decresc mp 8
+
+13    Dm7b5
+14     G7b9
+15        C
+16   F#m7b5      /   B7b9
+
+Groove SlowBluesFill
+
+17        E
+18     F#m7      /     B7
+19        E
+20       G7      /    F9/G   Fm9/G
+
+Repeat
+Groove SlowBlues
+Volume m
+
+21      CM9      /    Am7
+22      Dm9      /     G7
+23       C6      /    Am7
+24      Dm7      /   G7#5
+
+Groove SlowBluesFill2
+Volume mp
+
+25      CM7      /    Am7
+26      Dm7      /     G7   G7/F
+27    Em7b5
+28     A7b9
+
+Groove SlowBluesSus
+Cresc mf 4
+
+29    Dm7b5
+30     G7b9
+31        C
+32      Am7
+
+Groove SlowBlues
+Decresc mp 2
+
+33       D7
+34     Fm#5      /     G7
+
+RepeatEnding
+
+Groove SlowBluesWalk4
+Cresc m 2
+
+35        C      /      F     Fm
+36        C    Dm7     G9     z
+
+Begin AllGrooves Arpeggio
+    Harmony 3Below
+    Rskip 60
+End
+RepeatEnd
+
+Groove SlowBluesEnd
+Seq 3
+Decresc pppp 2
+
+37        C      /      F     Fm
+38        C      z!
+

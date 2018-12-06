@@ -1,0 +1,123 @@
+// You Go To My Head
+
+Tempo 104
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice SteelDrums
+    Articulate 90
+    Octave 5
+    Harmony OpenBelow
+    Mallet Decay=-3 Rate=16
+    Begin Riff
+        8b;4;8;;a;g;a;
+        8b;4;8;;a;g;a;
+        8b;4;8;;a;g;a;
+        2.b;
+    End
+End
+
+Groove LightTangoIntro
+
+Swell mp m 4
+
+1        Eb
+2        Gm
+3        Gmb5
+4        B&7
+
+
+Repeat
+Groove LightTango
+Volume m
+
+5        Eb      /     Gm
+6      Abm7      /    Db7
+7        Gb      /   Ebm6
+8        F7      /    Bb7
+
+Groove LightTangoSus
+Cresc f 4
+
+9        Gb      /   Ebm6
+10       F7      /    Bb7
+11       Eb
+
+RepeatEnding
+
+Groove LightTangoFill
+
+12      Fm7      /    Bb7
+
+RepeatEnd
+
+
+Groove LightTangoFill
+
+13     Bbm7      /    Eb7
+
+Repeat
+
+Groove LightTango1
+Volume m
+
+14      Ab6
+15       D7
+16       Eb
+17        /
+
+Groove LightTango1Sus
+Cresc mf 4
+
+18      Am7      /     D7
+19        G
+20      Am7      /     D7
+21        G      /    Bb7
+
+Groove LightTango
+Decresc m 4
+
+22       Eb      /     Gm
+23     Abm7      /    Db7
+24       Gb      /   Ebm6
+25       F7      /    Bb7
+
+Groove LightTangoSus
+
+26       Gb      /   Ebm6
+27       F7      /    Bb7
+28       Eb
+29     Bbm7      /    Eb7
+
+Groove LightTango
+Decresc mf m 4
+
+30      Fm7
+31      Bb7      /   Abm6
+32       Eb      /     Gm
+33       Cm      /     Eb     Ebdim3@4.66
+
+Groove LightTangoSus
+Decresc mp 4
+
+34      Bb7      /  Bbdim3
+35      Fm7      /    Bb7
+36       Eb
+
+Repeatending 
+
+37     / / E&7
+
+Repeatend
+
+38     Abm6      /    Bb7
+
+Groove LightTangoEnd
+Decresc ppp 2
+
+39       Eb      /    Ebm
+40      Bb7      /  Bb7b5    Eb6
+

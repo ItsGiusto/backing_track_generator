@@ -1,0 +1,126 @@
+// Day O
+
+Tempo 110
+Groove Metronome2-4
+	z * 2
+
+Transpose 3
+
+// For the first 9 bars we do a little accapala intro. Supposed
+// to be a vocal, but here we use solo marimbas. Just doing the
+// melody notes is a bit empty, but we can't use HARMONY since
+// we're not playing any chords. So, we set up a 2nd solo track and
+// hand code the harmony line. Note the use of RTIME to ensure
+// we don't hit notes too accurately (which kills off the sound
+// of the harmony).
+
+
+keysig 2#
+
+Begin Solo
+	Voice Marimba
+	Octave 4
+	Volume m
+	Mallet Rate=16 Decay=-5
+	Rtime 5
+	Articulate 94
+End
+
+Begin Solo-1
+	ChShare Solo
+	Octave 5
+	Mallet Rate=16 Decay=3
+	Volume m	
+	Rtime 5
+	Articulate 100
+End
+	
+Groove Calypso
+
+1	z		{2d+;4a;} {1f;}
+2	/		{8c+;b;a;4.f;} {4f;2d;}
+3	/		{8d;4;4f;;8d;} {4.f-;4+8d;}
+4	/		{4e;8d;4.a;} {4c;8b-;4.f;}
+5	/		{4d+;2r;3r;a;d+;} {4f;}
+6	/		{3c+;a;c+;b;g;b;a;f;a;g;e;g;}
+7	/		{3f;d;b-;4a-;}
+8	/		{8d;4d;4f;4f;8d;} {4.f-;4+8d;}
+9	/		{4e;8;2d;} {4.b;2+8a;}
+
+Delete Solo Solo-1
+
+Label DS
+
+10     D     
+11	/
+12	/
+13     A7    /    D     
+14	/
+15	/
+16	/
+17     A7    /    D     
+18	/
+19     A7    
+20     D     
+21     A7    /    D     
+22	/
+23     A7    
+24	D
+
+if def DS
+	goto CODA
+endif
+
+25     A7    /    D     
+
+Repeat
+
+26     D     
+27	/
+28	/
+29     A7    /    D     
+30	/
+31	/
+32	/
+33     A7    /    D     
+34     D     
+35	/
+36	/
+37     A7    /    D     
+38	/
+39	/
+40	/
+
+RepeatEnding
+
+41     A7    /    D     
+
+Groove CalypsoSus
+
+RepeatEnd
+
+42     A7    /    D     
+
+Groove Calypso
+set DS
+goto DS
+
+
+Label Coda
+Groove Calypso1
+
+43     A7    /    D     
+44     z     
+45	/
+46     D     
+47     A7    /    D     
+48     z     
+49	/
+50	/
+
+Tempo *.65
+Groove CalypsoEnd
+
+51     D     
+52     A7    /    D     
+

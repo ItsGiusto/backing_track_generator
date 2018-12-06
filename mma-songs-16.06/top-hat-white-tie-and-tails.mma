@@ -1,0 +1,130 @@
+// Top Hat White Tie And Tails
+
+Tempo $( 97 * 2 )
+Keysig C
+
+Groove Metronome2-4
+    z * 2
+
+Groove QuickStepIntro
+Begin Solo
+    Voice Piano1
+    Volume F
+    Harmony OpenBelow+Open8Below+8Above
+    Octave 5
+    Articulate 95
+    Rtime 5
+    Rvolume 10
+    Begin Riff
+        8g;a;4b;2d+;
+        8g;a;4b;2d+;
+        4a;c+;a;e;
+        1g;
+    End
+End
+
+Swingmode On
+Cresc pp m 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove QuickStep
+Volume m
+
+5         C
+6         /      /   G7#5
+7        C6
+8         /      /      /  C#dim
+
+Groove QuickStepDuh
+Cresc mf 4
+9      G7/D      /     G7
+10        /
+11        C
+
+Groove QuickStepDuhWalk
+
+12        /     G9 G7#5b9     G7
+
+Groove QuickStep
+Decresc mp 4
+
+13        C
+14        /      /   G7#5
+15       C6
+16        /      /      /  D#dim
+
+Groove QuickStepSus
+Cresc m 4
+
+17     G7/D      /     G7
+18        /
+19        C
+
+Groove QuickStepSusWalk
+
+20        /      /     Dm    D#m
+
+Groove QuickStepHitSus
+
+21       Em
+22        /
+23   F#m7b5      /     B7
+24        E      /     E+     E6
+
+
+Groove QuickStepDuh
+Volume mf
+
+25        /      /     E+      E
+
+Groove QuickStepDuhWalk
+
+26       Em
+
+Groove $_LastGroove
+Decresc m 3
+
+27        /
+28   F#m7b5      /     B7
+29        E      /     E+     E6
+
+
+Groove QuickStepSusWalk
+
+30        /      G     F#     G9
+
+Groove QuickStepSus
+
+31        C
+32        /   G7#5
+
+Groove QuickStep
+Cresc mf 4
+
+33        C
+34        /      /      /  C#dim
+35     G7/D      /     G7
+36        /
+
+
+RepeatEnding 2
+
+37        C
+
+Groove QuickStepHit
+
+38        /     G9 D7#5b9     G7
+
+RepeatEnd
+Groove QuickStepEnd
+Decresc pp 2
+
+39        C
+40        /  z!
+
+

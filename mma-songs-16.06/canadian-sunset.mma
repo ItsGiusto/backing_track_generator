@@ -1,0 +1,140 @@
+// Canadian Sunset
+
+Tempo 118
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove ModernJazzIntro
+
+Begin Solo
+   Voice MutedTrumpet
+   Octave 5
+   Harmony Open
+   Articulate 90
+   Volume f
+   Begin Riff
+       1+2c+~;
+	   ~ 43c+;a;g;
+	   1a;
+	   1g;
+   End
+End
+ 
+1         F
+2        Dm
+3        Gm9
+4        C7
+Groove ModernJazz
+Repeat
+
+5         F
+6         /
+7        F6
+8         /
+
+Groove ModernJazzSus
+		  
+9         F
+10        /
+11       F6
+12        /
+
+Groove ModernJazz1
+
+13       G9
+14        /      /      /  Bbdim
+15      Bb9
+16        /      /    Eb7
+
+Groove ModernJazz
+
+17       F6
+18        /
+
+RepeatEnding
+
+19      Gm7
+20       C7
+
+Groove ModernJazz1
+
+
+RepeatEnd
+
+21       F6
+22        /
+
+Repeat
+Groove ModernJazzSus
+
+23      Gm7
+24       C9    Gm7   C7b9
+25      FM9
+26       F6
+
+27      Gm7
+28       C9    Gm7      /     C9
+29       F6
+30        /
+
+Groove ModernJazz
+
+31      Gm7
+32       C9    Gm7   C7b9
+33        F
+34        /
+
+Groove ModernJazz1Sus
+
+35       Am
+36       E7
+37       Am      /  F#dim
+38      Gm7      /     C7
+
+Groove ModernJazz
+
+39        F
+40        /
+41       F6
+42        /
+
+Groove ModernJazzSus
+
+43        F
+44        /
+45       F6
+46        /
+
+Groove ModernJazz
+
+47       G9
+48        /      /      /  Bbdim
+49      Bb9
+50        /      /    Eb7
+
+Groove ModernJazz1
+
+51       F6
+52        /      /    C11
+
+RepeatEnding
+
+53       F6
+54        /
+
+GrooveClear
+Set ArpeggioVoice Piano2
+
+RepeatEnd
+Groove ModernJazzEnd
+Tempo *.8 2
+Decresc ppp 2
+
+
+53       F6
+54        /  / z!
+
+
+

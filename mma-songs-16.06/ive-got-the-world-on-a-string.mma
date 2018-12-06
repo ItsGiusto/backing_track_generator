@@ -1,0 +1,128 @@
+// Ive Got The World On A String
+
+Tempo 100
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Set ArpeggioVoice JazzGuitar
+
+Groove  ModernJazzIntro
+Begin AllGrooves
+   Begin Arpeggio
+      Articulate 110
+      Rskip 20
+   End
+     Begin Bass-Trp
+        Articulate 120
+        Harmony OpenAbove
+        Rskip 40
+     End
+End
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Articulate 110
+    Harmony OpenAbove
+    Octave 5
+    Rtime 5
+    RVolume 5
+    Begin Riff
+        8f;a;c+;a; 3b;a;g; a;b;c+;
+        8d+;c+;b;a; 3g;a;b; c+;d+;e+;
+        43g+;f+;e+; d+;c+;b;
+        2.c+;
+    End
+End
+
+Swingmode On
+Chord-trp sequence -  // this conflicts with our melody
+
+Swell mp mf 4
+ 
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove ModernJazz
+Volume m
+
+5         F      /     D7
+6       Gm7      /  Gm7b5
+7         F
+8       Am6      /   Abm6
+
+Groove ModernJazz1
+Volume mf
+
+9        Gm      /     C7
+10        /
+11        F
+12       C7
+
+Groove ModernJazz
+Decresc m 3
+
+13        F      /     D7
+14      Gm7      /  Gm7b5
+15        F
+16      Am6      /   Abm6
+
+Groove ModernJazzSus
+Cresc mf 2
+
+17       Gm      /     C7
+18        /
+19        F      /    Db7
+20        F
+
+Groove ModernJazz1Sus
+Cresc f 2
+
+21       A7
+22        /
+Decresc m 2
+23       D7
+24        /
+
+Groove ModernJazzSus
+
+25       G7
+26      G7+
+27       G7
+28       C7
+
+Groove ModernJazz
+Volume mf
+
+29        F      /     D7
+30      Gm7      /  Gm7b5
+31        F
+32       G7      /    G7+
+
+Groove ModernJazz1
+Decresc mp 2
+
+33      Gm7
+34        /      /     C7
+
+RepeatEnding
+
+Groove ModernJazzFill
+
+35        F      /    Db7
+36        F      /     C7
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Decresc ppp 2
+
+35        F      /    D&7
+37        F6     z!
+

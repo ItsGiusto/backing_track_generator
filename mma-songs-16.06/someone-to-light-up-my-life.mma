@@ -1,0 +1,172 @@
+// Someone To Light Up My Life (Jobin, 1956)
+
+Tempo 150
+Keysig A
+
+Groove Metronome2-4
+  z * 2
+
+// We need to transpose from A major to Bb. Mainly 'cause
+// the sax can't play some of the low notes ... and doesn't
+// like to play in B :)
+
+Transpose Up Min 2
+
+Groove SambaIntro
+
+Begin AllGrooves
+    Begin Arpeggio
+       Voice Piano2
+       Octave 5
+       Harmony 2below
+    End
+End
+
+Decresc mf p 4
+
+1         A
+2        F#m
+3        Bm
+4        E7
+
+Groove Samba
+Volume m
+
+5       AM7
+6         /
+7    G#m7b5
+8     C#7b9
+
+Groove SambaPlus
+
+9      F#m7
+10       B9
+11     Em#7
+12       A9
+
+Groove Samba
+Volume mf
+
+13      DM7
+14        /
+15   C#m7b5
+16    F#7b9
+
+Groove SambaSus
+Decresc mp 4
+
+17      Bm7
+18        /
+19       E9
+20        /
+
+Groove SambaSusPlus
+Volume m
+
+21      E13
+22        /
+23     E9#5
+24        /
+
+Groove SambaSus
+Volume mf
+
+25      AM7
+26        /
+27     F#m7
+28        /
+
+Groove SambaPlus
+Decresc f m 4
+
+29   D#m7b5
+30        /
+31     G#13
+32    G#7#5
+
+Groove Samba
+
+33     C#m7
+34      Am6
+35    GM7/B
+36       E7
+
+Repeat
+Groove SambaSus
+Cresc m mf 4
+
+37      AM7
+38        /
+39   G#m7b5
+40    C#7b9
+
+Groove Samba
+
+41    F#mM7
+42       B9
+Decresc m 2
+43     EmM7
+44       A9
+
+Groove SambaSusPlus
+
+45      DM7
+46        /
+47   C#m7b5
+48    F#7#9
+
+Groove SambaSus
+Decresc mp 4
+
+49      DM7
+50        /
+51        /
+52        /
+
+Groove Samba
+Volume m
+
+53   D#m7b5
+54        /
+55      Dm6
+56        /
+
+Groove SambaPlus
+Cresc mf 4
+
+57     A/C#
+58        /
+59   C13sus
+60      C13
+
+Groove Samba
+Decresc mp 4
+
+61       B7
+62        /
+63    E9sus
+64     E7b9
+
+Repeatending
+
+Groove SambaSus
+
+Decresc p 4
+65      AM7
+66        /
+67        /
+Groove SambaEnd
+68      E7
+
+Repeatend
+
+Groove SambaEnd
+Drum-Whistle Sequence -
+Decresc ppp 4
+
+65      AM7
+66        /
+67        /
+68        / z!  
+
+

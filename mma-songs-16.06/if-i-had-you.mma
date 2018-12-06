@@ -1,0 +1,121 @@
+// If I Had You
+
+Tempo 90
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+    Voice JazzGuitar
+	Volume ff
+	Harmony 3Below
+	Articulate 110
+	Octave 5
+	Begin Riff
+        8d;e;en;f;2d+;
+		8g;a;b;c+;2d+;
+		4g+;;f+;e+;
+		2c+;
+	End
+End
+
+Swingmode On
+Swell mp mf 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5        Bb
+6       Bb7
+
+Decresc mp 2
+
+7        Eb
+8       Ebm
+
+Groove FoxTrotSus
+
+9        Bb      /      /  Dbdim
+10      Cm7      /     F+
+
+Cresc m 2
+
+11       Bb      /      /  Dbdim
+12      Cm7     Dm   Gdim   Adim
+
+Groove FoxTrotPlus
+
+13       Bb
+14      Bb7
+
+Decresc mp 2
+
+15       Eb
+16      Ebm
+
+Groove FoxTrotSus
+
+17       Bb      /      /  Dbdim
+18      Cm7      /     F+
+
+Cresc mf 2
+
+19       Bb      /     Eb    Ebm
+20       Bb      /     Cm  Bbdim
+
+Groove FoxTrot
+
+21       Dm
+22      Gm6      /   A7b9
+
+Decresc mp 2
+
+23       Dm
+24    Bb7b5      /     A7
+
+Groove FoxTrotSusPlus
+
+25       Dm
+26      Gm6      /   A7b9
+
+Cresc m 2
+
+27       Dm
+28      Cm7      /      /     F7
+
+Groove FoxTrot
+
+29       Bb
+30      Bb7
+
+Decresc mp 2
+
+31       Eb
+32      Ebm
+
+Groove FoxTrotSus
+
+33       Bb      /      /  Dbdim
+34      Cm7      /     F+
+
+RepeatEnding
+Groove FoxTrotFill
+
+35       Bb      /     Eb
+36       Bb      /     F7
+
+RepeatEnd
+Groove FoxTrotEnd
+Decresc ppp 2
+
+35       Bb      /     Eb
+36       Bb      z!
+

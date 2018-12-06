@@ -1,0 +1,88 @@
+// Dardanella
+
+Tempo 120
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxtrotIntro
+Begin Solo
+	Voice Clarinet
+	Volume m
+	Articulate 90
+	Octave 6
+	Harmony Open
+	Begin Riff
+		1+3+3e~;
+		~ 3e;3+3f;3f#;8g;4.e;
+		3+3d;e;f;4e;d;
+		1c;
+	End
+End
+
+1      C     
+2	/
+3      G7    
+4      C     
+
+Delete Solo
+
+Groove FoxTrot
+
+Repeat
+
+5      C     
+6	/
+7      G7    
+8      C     /    /    G+    
+9      C     
+10	/
+11     G7    
+12     C  
+
+Groove FoxTrotSus
+   
+13     F     
+14     D7    /    F#dim 
+15     C     
+16     Bb9   /    A9    
+17     D7    
+18	/
+19     G     /    Dm7   
+20     G7    Eb7   D7    Db7
+
+Groove FoxTrot
+   
+21     C     
+22	/
+23     G7    
+24     C     
+25     F     
+26	/
+27     E     /    Dm6   
+28     E7    C7    B7    Bb7 
+
+Groove FoxTrotPlus
+  
+29     A7    /    /    Em    
+30     A7    
+31     D7    
+32     F6    /    F#dim 
+33     C     
+34	/
+
+RepeatEnding
+
+35     G7    
+36     C     
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Tempo -20 2
+
+35     G7    
+36     C / z!
+    
+

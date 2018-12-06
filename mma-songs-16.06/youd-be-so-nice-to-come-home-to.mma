@@ -1,0 +1,114 @@
+// You'd Be So Nice To Come Home To, Cole Porter.
+
+Tempo 175
+KeySig C
+
+Groove Metronome2-4
+   z * 2
+
+Set ArpeggioVoice Piano1
+
+Groove ModernJazzIntro
+Begin Solo
+    Voice Piano1
+	Volume ff
+	Harmony 3+8Above
+	Articulate 90
+	Octave 5
+	Begin Riff
+        1c+;
+		2b;4a;g;
+		2a;1g~;
+	End
+End
+
+Cresc p mf 4
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove ModernJazz
+Volume m
+
+5        Am
+6     Bm7b5      /     E7
+7        Am      /     E7
+8        Am
+
+Groove ModernJazz2
+Volume mf
+
+9       Gm9
+10       C7
+11      FM7      /   C7#5
+12      FM7
+
+Groove ModernJazz
+Volume m
+
+13      Dm7      /   B7b5
+14       E7
+15     E7b9
+16       Am      /  Am7/G
+
+Groove ModernJazzSus
+
+17   F#m7b5
+18       F7      /   B7b9
+19       E7      /   F7b5
+20       E7
+
+Groove ModernJazz2Sus
+Cresc m f 4
+
+21       Am
+22    Bm7b5      /     E7
+23       Am      /     E7
+24       Am
+
+Groove ModernJazz
+Decresc mp 4
+
+25      Gm9
+26       C7
+27       F6      /   C7#5
+28        F
+
+Groove ModernJazzSus
+Volume m
+
+29   D#dim7
+30      C/E
+31       F6
+32   F#dim7
+
+Groove ModernJazz2
+
+33      C/G      /    Ab7
+34     D7b9      /     G7
+
+RepeatEnding  // first ending. use 2 endings for apr.voice
+
+35        C
+36       Dm  /  G7
+
+GrooveClear
+Set ArpeggioVoice MutedTrumpet
+
+RepeatEnding
+
+35        C
+36       Dm  /  G7
+
+GrooveClear
+Set ArpeggioVoice Clarinet
+
+RepeatEnd
+
+Groove ModernJazzEnd
+
+35        C
+36        /  / z!
+

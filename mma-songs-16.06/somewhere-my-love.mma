@@ -1,0 +1,168 @@
+// Somewhere My Love (Lara's Theme, Dr. Zhivago
+
+Tempo 206
+Keysig G
+
+Groove Metronome3
+ z * 2
+
+Groove FastWaltzIntro
+Begin Solo
+    Voice Piano1
+    Volume f
+    Harmony 3Below+3Above
+    Octave 4
+    Articulate 120
+    Begin Riff
+        2.g;
+        2.b;
+        2.c+;
+        2.d+;
+    End
+End
+
+1          G
+2         Em
+3         Am
+4         D7
+
+Repeat  // do song 2x
+Repeat  // top 16 bars
+
+Groove FastWaltz
+
+5          G
+6          /
+7          /
+8          /
+
+Groove FastWaltzPlus
+
+9          /
+10       G/B      /  Bbdim
+11    D7sus4/A
+12        D7
+
+Groove FastWaltz
+
+13    D7sus4/A
+14        D7
+15         /
+16         /
+
+Groove FastWaltzPlus
+
+17    D7sus4/A
+18        D7
+19         G
+20         /
+
+RepeatEnd
+
+Groove FastWaltzSus
+
+21         C
+22         /
+23         /
+24         /
+
+Groove FastWaltzSusPlus
+
+25         /
+26         /
+27         G
+28         /
+
+Groove FastWaltzSus
+
+29        Bb
+30         /
+31         /
+32         /
+
+Groove FastWaltzSusPlus
+
+33         F
+34        Bb
+35      D7/A
+36        F7
+
+Keysig Eb
+
+Groove FastWaltzWalk
+
+37        Bb
+38         /
+39         /
+40         /
+
+Groove FastWaltzWalkPlus
+
+41         /
+42      Bb/D      /  C#dim
+43       Cm7
+44        F7
+
+Groove FastWaltzWalkSus
+
+45       Cm7
+46        F7
+47         /
+48         /
+
+Groove FastWaltzWalkSusPlus
+
+49         /
+50         /
+51        Bb
+52        D7
+
+Keysig G
+
+Groove FastWaltzSus
+
+53         G
+54         /
+55         /
+56         /
+
+Groove FastWaltzSusPlus
+
+57         /
+58       G/B      /  Bbdim
+59    D7sus4/A
+60        D7
+
+Groove FastWaltz
+
+61    D7sus4/A
+62        D7
+63         /
+64         /
+
+Groove FastWaltzSus
+
+65    D7sus4/A
+66        D7
+67         /
+68         /
+
+Repeatending 
+
+Groove FastWaltzWalk
+
+69         G
+70         /
+71         /
+72      D7
+
+RepeatEnd
+
+Groove FastWaltzEnd
+
+69         G
+70         /
+71        /
+72        / z!
+
+

@@ -1,0 +1,135 @@
+// A Felicidade
+
+Tempo 128
+Keysig C minor
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+	Voice Piano1
+	Cresc mf fff 4
+	Harmony Open+8Below
+	Articulate 110
+	Octave 5
+	Begin Riff
+		4g;8r;g;;;4r;
+		8g;r;4;8g;r;4;
+		3+3g;;;8.;16r;8.g;16r;
+		4g;
+	End
+End
+
+1        Cm
+2        /
+3        /
+4        /
+
+Repeat
+Cresc m ff 16
+Groove BossaNova
+
+5        Cm
+6         /      /    Ab9
+7        Cm      /   CmM7
+8       Cm7      /    Cm6
+9      Gm/D
+10     D7b9
+11       Gm
+12      Fm7      /    Bb7
+
+Groove BossaNovaSus
+Chord-Sus Volume -20
+
+13     EbM7
+14      Eb6      /   C7b9
+15      Fm7      / Fm7/Eb
+16    Dm7b5      /     G7
+17       Cm
+18       Fm
+19     Bbm7
+20      Eb7      /   A7b5
+
+Groove BossaNova
+Volume m
+
+21       Ab
+22       G7
+23       Cm
+ 24    Dm7b5      /     G7
+25       Cm
+26    Dm7b5      /     G7
+
+RepeatEnding          // In the sheet music this is a "to coda"
+
+27       Cm
+28      Fm7      /   B7b9
+
+Groove BossaNova1sus
+
+29       Eb
+30      Ab7
+31       Eb
+32        /
+33     Bbm7
+34      Eb7      /      /  Eb7#5
+35      Ab6
+36        /
+
+Groove BossaNova
+
+37      Fm7
+38      Bb7
+39       Eb
+40        /
+41    Am7b5      /   D7#5
+42    Am7b5      /   D7#5
+43    Gm7b5      /   C7b9
+44    Fm7b5      /    Bb7
+
+Groove BossaNova
+
+45       Eb
+46        /
+47    Dm7b5
+48       G7
+49       Cm
+50    Dm7b5      /     G7
+51       Cm
+
+Groove BossaNovaFill
+
+52        /
+
+RepeatEnd        // In the sheet music this is the start of the "coda" and the "d.s. al coda"
+Cresc m f 8
+
+53       Cm
+54        /
+
+Groove BossaNovaSus
+Chord-Sus Volume -40
+
+55        /
+56    Dm7b5      /     G7
+57       Cm
+58        /
+59        /
+60    Dm7b5      /     G7
+
+Decresc pppp 9
+
+61       Cm
+62        /
+63        /
+64        /      /    Ab9
+65       Cm      /   CmM7
+
+Groove BossaNova2End
+
+66       Cm      /    Cm6
+67       Cm      /   CmM7
+68      Cm7      /    Cm6
+69       Cm
+

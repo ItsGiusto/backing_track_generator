@@ -1,0 +1,87 @@
+	// Get Happy
+
+Tempo 150
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxtrotIntro
+Begin Solo
+	Voice Piano2
+	Volume f
+	Harmony Open
+	Articulate 80
+	Octave 6
+	Begin Riff
+		8b; e; g; a; 4g; a;
+		8c+; e; g; a; 4g; a;
+		8f; g; a; g; 4c+; b;
+		2.b;
+	End
+End
+
+Swingmode On
+
+1      Eb    
+2      Cm    
+3      Fm    
+4      Bb7   
+
+Repeat
+Groove Foxtrot
+
+5      Eb6   /    Bb7   Cm    
+6      Fm7   Bb7   Eb    
+7      Eb6   /    Bb7   Cm    
+8      Fm7    /   Bb7
+
+9      Eb6   /    Bb7   Cm    
+10     Ab6   /    Adim7   Ebm   
+11     Eb    /    Bb7   
+12     Eb6    /    Eb7    Ab    
+
+Groove FoxTrotPlus
+
+13     Ab6   /    Eb7   Ab6   
+14     Bbm7    /    Eb7   Ab    
+15     Ab6   /    F7#5   
+16	   Bbm7  /    Eb7
+
+17     Ab6    /    Eb7   Ab6   
+18     Db6    /    Eb7   
+19     Ab    /    Eb7   
+20     Ab6  
+
+Groove FoxTrotSus
+ 
+21     Bbm7   /   Eb7   
+22     Abm7   /   Db7   
+23     Gm7   /    C7    
+24     Fm7   /    Bb7
+
+25     Bbm7  /    Eb7
+26     Abm7  /    Db7   
+27     Gm7  /     C7    
+28     Fm7   /    Bb7
+
+RepeatEnd
+
+Groove FoxTrotSusPlus
+
+29     Eb6   /    Bb7   Cm    
+30     Fm7   Bb7   Eb    
+31     Eb6   /    Bb7   Cm    
+32     Fm7    /   Bb7
+33     Eb6   /    Bb7   Cm    
+34     Eb6   /    Bb7   Ebm 
+
+Groove FoxTrotEnd  
+Tempo *.8 4
+Decresc ppp 4
+
+35     Ab6   /    Adim7   
+36     Eb    
+37     Eb    /    Ab    
+38     Eb    
+

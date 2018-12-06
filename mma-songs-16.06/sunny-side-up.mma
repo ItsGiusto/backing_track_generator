@@ -1,0 +1,81 @@
+// Sunny Side Up
+
+Tempo 280
+
+Groove Metronome2-4
+	z * 2
+
+Groove EasySwingIntro2
+
+Begin Solo
+	Voice BrassSection
+	Volume m
+	Articulate 80
+	Octave 6
+	Begin Riff
+		4g;r;c;
+		4f;e;2d;
+		4d;r;e;
+		1g;
+	End
+End
+
+1    C    
+2    Am   
+3    Dm   
+4    G7   
+
+Repeat
+Groove EasySwing2
+
+5    C    /    /    Fm   
+6    /    /    G7   
+7    C    
+8    C7#5 
+9    F    
+10   /    /    F#dim7 
+11   C    
+12   /    
+
+Groove EasySwing2Sus
+
+13   G7/B /    C#dim7 
+14   G7/D /    Ebdim7 
+15   C/E  
+16   C    
+17   D7   /    Em7  
+18   Fdim7 /    D7/F# 
+19   G7   
+20   /
+
+Groove EasySwing2Fill
+    
+21   C    /    /    Fm   
+22   /    /    G7   
+23   C    
+24   C7#5 
+25   F    /    /    E7   
+26   /    
+27   Am   
+28   A7
+
+Groove EasySwing2Sus
+   
+29   Dm7  /    /    Dm7b5 
+30   /    
+31   C/G  /    /    A7   
+32   /    
+33   D7   /    /    G7   
+34   /    
+
+RepeatEnding 2
+
+35   C    /    F    G7#5 
+36   C    /    G7
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+35   C    /    F    G7#5 
+36   C  / z!

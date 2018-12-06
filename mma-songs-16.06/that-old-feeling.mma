@@ -1,0 +1,107 @@
+// That Old Feeling
+
+Tempo 115
+KeySig C
+
+Groove Metronome2-4
+    z * 2
+
+Groove JazzComboIntro2
+
+Begin Solo
+    Voice Strings
+    Octave 5
+    Harmony OpenAbove
+    Articulate 120
+    Volume f
+    Begin Riff
+       1c+;
+       4a;2.e;
+       43d;e;f;4g;a;
+       1g;
+    End
+End
+
+Swell mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove JazzCombo
+Volume m
+
+5         C      /    CM7
+6        C6      /      C
+7     Em7b5
+8        A7
+
+Groove JazzComboSus
+Cresc mf 4
+
+9        Dm      /   DmM7
+10      Dm7      /     Dm
+11      Fm6
+12       G7
+
+Groove JazzCombo1
+Decresc m 2
+
+13       Am
+14       E7
+15      Gm6
+16       A7
+
+Groove JazzCombo1SusPlus
+Cresc mp m 2
+
+17       D7
+18        /
+19      Dm7
+20       G7
+
+Groove JazzCombo1Sus
+Cresc mf 3
+
+21        C      /    CM7
+22       C6      /      C
+23    Em7b5
+24       A7
+
+Groove JazzCombo1Plus
+
+25       Dm      /   DmM7
+26      Dm7      /     Dm
+27      Fm6
+28       E7
+
+Groove JazzComboPlus
+Decresc m 4
+
+29     A7b9
+30    Em7b5      /     A7
+31      Dm7
+32      Fm6
+
+Groove JazzComboSus
+Decresc mp 2
+
+33       Am
+34       D9
+
+Repeatending
+
+35       D7      /    Dm7     G7
+36        C     /     G7
+
+RepeatEnd
+
+Groove JazzComboEnd
+Decresc ppp 2
+
+35       D7      /    Dm7     G7
+36        C      z!
+
+

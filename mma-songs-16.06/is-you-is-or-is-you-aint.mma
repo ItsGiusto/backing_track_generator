@@ -1,0 +1,154 @@
+// Is You Is Or Is You Aint
+
+Tempo 140
+Keysig F minor
+
+Groove Metronome2-4
+ z * 2
+
+Groove BigBandIntro
+Swell mp mf 4
+
+1        Fm
+2        Dm
+3        Gm
+4        C7
+
+Groove BigBand
+Volume m
+
+5        Fm      /     Eb
+6        Db      /      C
+7        Fm      /     Eb
+8        Db    Fm@2.5  Fm7b5@4
+
+Groove BigBandSus
+Cresc mf 4
+
+9       Bb7
+10        /
+11      Eb7
+12       C7
+
+Groove BigBandSusPlus
+Decresc mp 4
+
+13       Fm      /     Eb
+14       Db      /      C
+15       Fm      /     Eb
+16       Db     Fm@2.5  Fm7b5@4
+
+Groove BigBandIntro
+17      Bb7
+18        /
+Cresc m 2
+
+19      Eb7
+20        /
+
+Repeat
+Groove BigBand
+Volume mf
+
+21       Fm      /     C7
+22       Fm      /     C7
+23       Fm
+24        /      /    B13
+
+Groove BigBandPlus
+Decresc f m 4
+
+25      Bb7
+26      Eb7
+27       Ab
+28      Db7      /     C7
+
+Groove BigBand
+Cresc mf 4
+
+29       Fm      /      /     C7
+30       Fm      /     C7
+31       Fm
+32        /      /    B13
+
+Groove BigBandSus
+Chord-Sus Octave +1
+
+33      Bb7
+34      Eb7
+35       Ab
+36    Eb7#5      /     Ab    Ab+
+
+Groove BigBandSusPlus
+Volume m
+
+37       Db
+38      Dbm
+39       Ab
+40      Ab7      /      /    Ab+
+
+Groove BigBandPlus
+Decresc mp 2
+
+41       Db
+42       Gb
+43      Gb9      /     F7     Bdim3
+44      Bbm      /  Gm7b5     C7
+
+Groove BigBand
+Cresc m 2
+
+45       Fm      /     C7
+46       Fm      /     C7
+47       Fm
+48        /      /    B13
+
+Groove BigBandPlus
+Cresc mf 2
+
+49      Bb7
+50      Eb7
+51      Gb9
+52       F7
+
+Groove BigBandSus
+
+If Def Repeat
+  Tempo *.8 4
+Endif
+Decresc mp 4
+
+53      Bb7
+
+RepeatEnding
+
+54      Eb7
+55       Ab
+
+Groove BigBandFill
+
+Begin Chord-Hits1 
+  Voice Piano1 
+  Octave 5
+  Articulate 120
+End
+
+Set Repeat
+
+56      Db7      /     C7
+
+RepeatEnd
+
+Decresc ppp 2
+57      Eb7
+
+Groove BigBandEnd
+Begin Chord-Hits1 
+  Voice Piano1 
+  Volume f
+  Articulate 140
+End
+
+58       Ab
+59        / z!
+

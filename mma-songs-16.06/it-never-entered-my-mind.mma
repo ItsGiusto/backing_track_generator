@@ -1,0 +1,121 @@
+// It Never Entered My Mind
+
+Tempo 67
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove PianoBalladIntro2
+Begin Solo
+  Voice Musicbox
+  Volume f
+  Harmony OpenBelow
+  Articulate 90
+  Octave 6
+  Rtime 4
+  Rvolume 5
+  Begin Riff
+      8c+;a;f;a;2;
+	  4.c+;8;2;
+	  8d+;a;d+;a;4c+;;
+	  1c+;
+  End
+End
+
+Cresc pp mf 4
+
+1         F   /   Am
+2         F   /   Am
+3         Dm  /   F
+4         C7
+
+Repeat
+Groove PianoBallad
+Volume m
+
+5         F      /     Am
+6         F      /     Am
+7         F      /     Am
+8         F      /     Am
+
+Groove PianoBallad1
+Cresc f 4
+
+9         F      /     Am
+10        F      /     Am
+
+Groove PianoBalladFill
+
+11      Gm7
+12       Gm      /    Eb7     C7
+
+Groove PianoBalladSus
+Decresc m 4
+
+13        F      /     Am
+14        F      /     Am
+15        F      /     Am
+16        F      /     Am
+
+Groove PianoBallad1Sus
+Volume mp
+
+17        F      /     Am
+18        F      /     Am
+
+Groove PianoBalladFill
+Volume m
+
+19       Gm
+20       Am      /     C7
+
+Groove PianoBallad
+Cresc f 4
+
+21        F      /     F6    Gm7
+22        /      /     C7
+23      FM7      /     F6    Gm7
+24        /      /      /     C7
+
+Groove PianoBalladSus
+Decresc mp 4
+
+25       F6      /     C7
+26        F      /  Bdim7
+27       C7      /     Bb     Am
+28       Bb      /     Am     C7
+
+Groove PianoBallad
+Volume m
+
+29        F      /     Am
+30        F      /     Am
+31        F      /     Am
+32        F      /     Am
+
+Groove PianoBallad1
+Cresc mf 4
+
+33        F      /     Am
+34    Am7b5      /     D7
+35      Gm7      /  C7sus     C7
+36        F    FM7
+
+RepeatEnding
+Groove PianoBalladFill
+Decresc p 2
+
+37      Gm7      /      /     C7
+38       F6      /     G7     C7
+
+RepeatEnd
+
+Groove PianoBalladEnd
+Decresc ppp 2
+Tempo *.9 2
+
+37      Gm7      /      /     C7
+39       F6     /       z!
+
+

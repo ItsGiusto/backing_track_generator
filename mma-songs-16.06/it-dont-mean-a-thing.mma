@@ -1,0 +1,90 @@
+// It Dont Mean A Thing (If Don't Have That Swing)
+// Duke Ellington, 1921
+
+Tempo $( 108 * 2 )  // A touch faster than Ellington, but slower that others
+Keysig G Minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+Decresc ff p 4
+
+1         Gm
+2          F
+3        Ebm
+4         D7
+
+
+Repeat
+Groove BigBand
+Volume m
+
+5         Gm      /  GmM7/F#
+6       Gm7/F      /   Gm6/E
+7        Eb7      /     D7
+8        Gm6
+
+Groove BigBandPlus
+Volume f
+
+9         C7
+10        F7
+11       B&6
+12        Bb      /   D7#5
+
+Groove BigBand
+Volume m
+13        Gm      /  GmM7/F#
+14      Gm7/F      /   Gm6/E
+15       Eb7      /     D7
+16       Gm6
+
+Groove BigBandPlus
+Volume f
+
+17        C7
+18        F7
+19       B&6
+20        Bb      /  Ebdim
+
+Groove BigBandSus
+Cresc mp mf 8
+
+21       Fm7
+22       B&7
+23      EbM7
+24         /      /      /  Ebdim
+
+Groove BigBandSusPlus
+
+25       Gm7
+26        C7
+27        F7
+28        G7      /      /   D7#5
+
+Groove BigBand
+Volume m
+
+29        Gm      /  GmM7/F#
+30      Gm7/F      /   Gm6/E
+31       Eb7      /     D7
+32       Gm6
+
+Groove BigBandPlus
+Volume f
+
+33        C7
+34        F7
+
+RepeatEnding 3
+35       Bb
+36       Bb6     D7
+
+RepeatEnd
+Groove BigBandEnd
+35        Bb
+36       Bb6     z!
+
+

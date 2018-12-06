@@ -1,0 +1,83 @@
+// Arrivederci Roma (1955)
+
+Tempo 112
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove EasySwingIntro
+
+Begin Solo
+   Voice HarpsiChord
+   Octave 5
+   Harmony OpenBelow
+   Articulate 90
+   Volume f
+   Rtime 10
+   RVolume 10
+   Begin Riff
+       8g;;;;4b;g;
+       4b;g;4b;g;
+       8a;;;; 4a;b;
+       1c+;
+   End
+End
+
+Swell mp f 4
+
+1          G
+2         Em
+3         Am
+4         D7
+
+
+Repeat
+Groove EasySwing
+Volume m
+
+5          G
+6         Cm      /      /     D7
+7          G
+8          /
+
+Groove EasySwingWalk
+Volume mf
+
+9          G
+10        B7      /      /    B7+
+11         C      /   E7/B
+12        Am
+
+Groove EasySwingWalkSus
+Swell f 4
+
+13        D7      /      /    Am7
+14        D7
+15         /      /      /    Am7
+16        D7
+
+Groove EasySwingSus
+Decresc mp 2
+
+17         /      /      /    Am7
+
+RepeatEnding 2
+
+18        D7      /     Cm     D7
+
+Groove EasySwingFill
+
+19         G      /     Bb
+20       Am7      /     D7
+
+RepeatEnd
+
+21        D7
+
+Groove EasySwingEnd
+Decresc ppp 2
+
+22         G
+23         /     z!
+

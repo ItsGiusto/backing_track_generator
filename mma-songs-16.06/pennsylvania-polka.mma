@@ -1,0 +1,191 @@
+// Pennsylvania Polka
+
+Tempo 264   // cut time, double tempo
+KeySig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove PolkaIntro8
+
+Stackvalue $_Debug
+Debug Warnings=Off
+Begin AllGrooves Chord-Sus
+  Articulate 99 
+  Sequence {1 1 90 0 90 0}
+  Volume -40
+End
+Debug $_Stackvalue
+
+Begin Solo
+ Voice Accordion
+ Octave 5
+ Harmony Open
+ Volume mf
+ Articulate 95
+ Begin Riff
+  2.f+;4c+;
+  4d+;4c+;2d+;
+  2.f+;4c+;
+  4d+;4c+;2d+;
+  2g+;f+;
+  2e+;d+;
+  1+2c+ ~;
+ End
+End
+
+1         F
+2         /
+3        Dm
+4         /
+5        Gm
+6         /
+7        C7
+8         /
+
+Repeat
+Groove Polka
+Volume m
+
+9         F
+10        /
+11        /
+12        /
+13        /
+14        /      /   Fdim
+15       C7
+16        /
+
+Groove Polka1
+Volume mp
+
+17        /
+18        /
+19        /
+20        /
+21        /
+22        /      /   C7+5
+23        F
+24        /      /      /     C7
+
+Groove Polka
+Volume m
+
+25        F
+26        /
+27        /
+28        /
+29        /
+30       F7
+31       Eb      /     Bb
+32        /
+
+Groove PolkaArp
+Decresc m mp 8
+
+33        /  Bbdim     Bb    Ebm
+34       C7
+35        F
+36        /      /   Fdim
+37       C7
+
+RepeatEnding 2
+
+38        /
+39        F      /    Bbm
+40        F
+
+Begin Solo
+ Voice ChoirAahs
+ Begin Riff
+  2f+;d+;
+  2c+;a;
+  2f;d;
+  2c;a-;
+ End
+End
+
+41        /
+42        /
+43        /
+44        /
+
+// this is the interlude
+
+KeySig Bb
+Groove PolkaSus
+Volume m
+
+48       Bb
+49        /
+50        /
+51        /
+52        /
+53        /
+54       F7
+55        /
+
+Groove Polka1Sus
+VOlume mf
+
+56        /
+57        /
+58        /
+59        /
+60        /
+61        /
+62       Bb
+63        /
+
+Groove PolkaSusArp
+Decresc m 8
+
+64        /
+65        /
+66        /
+67        /
+68        /
+69        /
+70       Eb      /     G7
+71       Cm
+
+Groove Polka1SusArp
+Cresc mf 8
+
+72        /
+73     Ebm6      /     F7
+74       Bb
+75        /      /      /  Bbdim
+76       F7
+77        /
+78       C7      /     F7
+79       Bb
+
+Groove Polka1Arp
+
+Begin Solo 
+  Voice Accordion
+  Begin Riff
+   2b+;g+;
+   2f+;d+;
+   2b;g;
+   1f;
+ End
+End
+
+80        /
+81        /
+82        /
+83        /
+
+// Back to the start, next time just end.
+
+RepeatEnd
+
+45        C7
+
+Groove PolkaEnd
+46        F      /      /     C7
+47        F     z!
+
+

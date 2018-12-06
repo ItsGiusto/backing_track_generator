@@ -1,0 +1,84 @@
+// Darkness On The Delta
+
+Tempo 80
+Keysig Eb
+
+Groove Metronome2-4
+
+	z * 2
+	
+Groove SlowBluesIntro
+
+1       Eb   
+2       Cm   
+3       Fm   
+4       Bb7  
+
+Groove SlowBluesWalk4
+
+5       Eb   
+6       G7   
+7       C7    Gm    C7   
+8       C7    Gm    Eb    C7   
+
+Groove SlowBlues
+
+9       F7   
+10      Fm    / / Bb7 
+11      Eb    /     Db9  
+12      Eb    /     B7    Bb7  
+
+Groove SlowBluesWalk4
+
+13      Eb   
+14      G7   
+15      C7   
+16      C7    Gm    Eb    C7   
+
+Groove SlowBlues
+
+17      F7   
+18      Fm    /     /     Bb7  
+19      Eb    /     Db9  
+20      Eb   
+
+Repeat
+Groove SlowBluesWalk8
+
+21      Bbm7  /     Eb7  
+22      Bbm7  /     Eb7  
+23      Ab   
+24      Ab    /     Cm    Ebm  
+
+Groove SlowBluesWalk8Sus
+
+25      F7   
+26      F7   
+27      F7   
+28      Bb7   Bb+   /     Bb7  
+
+Groove SlowBluesSus
+
+29      Eb   
+30      G7   
+31      C7    Gm    C7   
+32      C7    Gm    Eb    C7   
+
+Groove SlowBluesWalk4
+
+33      F7   
+34      Bb7   Fm    C#dim Bb7  
+35      Eb    /     Db9  
+
+RepeatEnding
+
+Groove SlowBluesFill
+
+36      Eb
+
+RepeatEnd
+
+Groove SlowBluesEnd
+
+37      Eb   z!
+

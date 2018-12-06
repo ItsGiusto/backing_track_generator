@@ -1,0 +1,74 @@
+// Paper Doll
+
+Tempo 120
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+	
+Groove SwingIntro
+
+Begin Solo
+   Voice Piano2
+   Articulate 90
+   Harmony OpenBelow+8Below
+   Volume ff
+   Octave 5
+   Begin Riff
+      4a;g;8f;d;f;d;
+	  8a;b;c+;d+;4;a;
+	  8d+;c+;b;a;4g;b;
+	  2c+;
+   End
+End
+
+Swingmode On 
+
+1      F     
+2      Dm    
+3      Gm    
+4      C7    
+
+Repeat
+Groove Swing1
+
+5      F     /    D7    
+6      G7    
+7      C7    
+8      F     /    Gm7   C7 
+   
+Groove Swing1Plus
+
+9      F     /    /    Fm    
+10     C     /    A7    
+11     G7    
+12     C7 
+
+Groove Swing1
+
+   
+13     F     D7    G7    C7    
+14     F     
+15     /    D7    G7    C7    
+16     A7
+    
+Groove Swing1Sus
+
+17     Bb    /    Bdim  
+18     F     A7    D7    
+19     G7    /    Bbm6  C7    
+
+RepeatEnding 2
+
+Groove Swing1Triple
+
+20     F     Abdim Gm7   C7    
+
+Groove SwingWalk
+
+RepeatEnd
+Groove SwingEnd
+Seq 2
+
+21     F     
+

@@ -1,0 +1,124 @@
+// I Still Get Jealous
+
+Tempo 142
+Keysig Bb
+
+Groove Metronome2-4
+   z * 2
+
+Groove SoftShoeIntro
+
+Begin Allgrooves
+     Chord-Sus    Voicing Mode=Key
+     Chord        Voicing Mode=Key
+     Begin Arpeggio
+        Voice VibraPhone
+        Articulate 110
+        Range 1
+        Direction Random
+        Harmony OpenBelow
+     End
+End
+
+Begin Solo
+    Voice VibraPhone
+    Harmony OpenBelow
+    Octave 5
+    Volume ff
+    Articulate 120
+    Begin Riff
+        4b;a;b;d+;
+        4c+;b;a;g;
+        2c+;g;
+        4f;
+    End    
+End
+
+Swell p m 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+
+Groove SoftShoe 
+Volume m
+
+5        F9     E9     F9     E9
+6        F9
+7         /      /   Bdim
+8        F9      /     F+
+
+Groove SoftShoePlus
+Cresc mf 2
+
+9        Bb  Bbdim     Bb
+10        /      /    Cm7
+11       Bb      /     F7
+12       Bb      /     Fm     G7
+
+Groove SoftShoe
+Decresc mp 3
+
+13       C7   Cdim     C7
+14      Cm7      /     F7
+15       Bb      /      /     D7
+16       Gm      /    Gm7
+
+Groove SoftShoeSus
+Cresc m 2
+
+17       C7      /      /     C9
+18       C7
+19       F7      /    Cm7
+20       F7
+
+Groove SoftShoePlus
+Decresc mp 2
+
+21       F9     E9     F9     E9
+22       F9
+23        /      /   Bdim
+24       F9      /     F+
+
+Groove SoftShoeSusPlus
+
+25       Bb  Bbdim     Bb
+26        /      /    Cm7
+27       Bb      /     F7
+28       Bb      /     Fm     G7
+
+Groove SoftShoeSus
+Cresc m 2
+
+29       C7   Cdim     C7
+30       F9      /      /     F+
+31       Bb      /      /    Ab9
+32       G+      /     G7
+
+Groove SoftShoePlus
+Decresc mp 2
+
+33       C7   Cdim     C7
+34       F7   Fdim     F7
+
+RepeatEnding
+
+Groove SoftShoe
+Decresc p 2
+
+35       Bb      /  Bbdim
+36       Bb     F7
+
+RepeatEnd
+
+Groove SoftShoeEnd
+Decresc ppp 2
+
+35       Bb      /  Bbdim
+37      Cm7     F9     Bb  z!
+
+
+

@@ -1,0 +1,106 @@
+// Missouri Waltz
+
+Tempo 108 
+KeySig C
+
+Groove Metronome3
+  z * 2
+
+Groove CountryWaltzIntro
+AllGrooves Plectrum Capo 2
+
+Begin Solo
+    Voice SteelGuitar
+    Volume f
+    Harmony OpenBelow
+    Octave 5
+    Articulate 110
+    Begin Riff
+        2r;8g;g#;
+        2.a;
+        2.e+;
+        4.c+;8d+;e+;a+;
+        4g+;f#+;fn+;
+    End
+End
+          z
+Seq
+1          D
+2         Em
+3          C
+4          G
+
+Repeat
+Groove CountryWaltz
+
+5          C
+6         G7
+7          C
+8          /
+
+Groove CountryWaltzSus
+
+9          /
+10        G7
+11         C
+12         /
+
+Groove CountryWaltz1
+Arpeggio Voice SteelGuitar
+Arpeggio Volume +30
+
+13         F
+14         F#dim
+15         C
+16         /
+
+Groove CountryWaltz1Sus
+Arpeggio Voice SteelGuitar
+Arpeggio Volume +30
+
+17        D7
+18         /
+19        G7
+20         /
+
+Groove CountryWaltzWalk
+Walk Volume -30
+
+21         C
+22        G7
+23         C
+24         /
+
+Groove CountryWaltz1
+Arpeggio Voice SteelGuitar
+Arpeggio Volume +30
+
+25         /
+26        G7
+27         C
+28         /
+
+Groove CountryWaltz1
+
+29         F
+30     F#dim
+31         C
+32         C
+
+Groove CountryWaltzSus
+
+33        D7
+34       G13
+
+RepeatEnding
+
+35         C
+36        G7
+
+RepeatEnd
+
+Groove CountryWaltzEnd
+
+35         C
+37         /  z!
+

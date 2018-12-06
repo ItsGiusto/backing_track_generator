@@ -1,0 +1,79 @@
+// Indiana
+
+Tempo 190
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove Swing
+Begin Solo
+	  Voice Trumpet
+	  Volume f
+	  Harmony Open
+	  Articulate 80
+	  Octave 5
+	  Begin Riff
+	     2c;4d;a;
+		 2d+;a;
+		 2c+;g;
+		 2c+;
+      End
+End
+
+1      F     
+2      Dm7   
+3      Gm7   
+4      C7 z   
+
+Repeat
+
+6      F7    /    E7    Eb7   
+7      D7    
+8      G7    
+9	/
+10     C7    
+11	/
+12     F     
+13     F7    
+14     Bb    
+15     /    /    Bdim  
+16     F/C
+17     D7    
+18     G7    
+19	/
+20     Gm7   
+21     C7    z     
+22     F7    /    E7    Eb7   
+23     D7    
+24     G7    
+25	/
+26     Em7   
+27     A7    
+28     Dm    
+29     Bbm   
+30     F     
+31     Em7   /    Ab    
+32     Dm    /    Dm
+33     Bdim  
+34     F     
+35     Gm7   /    C7    
+
+RepeatEnding
+36	F
+37  C7
+
+Groove SwingWalk
+
+RepeatEnding
+36	F
+37  C7
+Groove Swing
+
+RepeatEnd
+
+Groove SwingEnd
+36  F
+37	/ / / z!
+
+

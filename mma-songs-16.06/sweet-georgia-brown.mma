@@ -1,0 +1,105 @@
+// Sweet Georgia Brown
+
+Transpose -2
+Tempo 170
+
+Groove Metronome2-4
+	z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+	Voice Piano1 //MutedTrumpet
+	Harmony 8Below+Open
+	Octave 5
+	Volume ff
+	Articulate 70
+	Begin Riff
+		2e+;;
+		8d+;4c+;8+2e+;
+		2e+;;
+		8d+;4c+;8+2e+;
+		4e+;e+;2d+;
+		4c+;a;2g;
+		4g;8a;2g;
+		8e+;;4;2d+;
+	End
+End
+
+Cresc pp mp 8
+Swingmode On
+1    C
+2    /
+3    Am
+Seq 3
+4    /
+Seq 1
+5    Em
+6    /
+7    G
+8    /
+
+Repeat
+Groove BigBand
+Cresc p mp 8
+
+9    E7
+10   /
+11   /
+12   /
+13   A7
+14   /
+15   /
+16   /
+
+Groove BigBandPlus
+
+17   D7
+18   D7
+19   /
+20   /
+21   G
+22   /    D7
+23   G
+24   B7
+
+Groove BigBand
+Volume m
+
+25   E7
+26   /
+27   /
+28   /
+29   A7
+30   /
+31   /
+32   /
+
+Groove BigBandSus
+Cresc m mf 8
+
+33   Em
+34   B7
+35   Em
+36   B7
+37   G
+38   F7   /    E7
+
+RepeatEnding 2
+
+39   A7   /    D7
+
+Groove BigBandFill
+
+40   G
+
+RepeatEnd
+Groove BigBand2End
+
+Decresc mp ppp 4
+41   A7
+42   D7
+43   G
+44   G     z!
+
+

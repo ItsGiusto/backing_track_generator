@@ -1,0 +1,82 @@
+// Three Coins In The Fountain
+
+Tempo 80
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowJazzIntro
+
+Begin Solo
+	  Voice JazzGuitar
+	  Harmony Open
+	  Volume F
+	  Articulate 110
+	  Octave 5
+
+	  Begin Riff
+	  		2b; 43a;g;a;
+			2b; 43a;g;a;
+			4b;a;g;a;
+			1f;
+	  End
+End
+
+1    Eb   
+2    Cm   
+3    Fm   
+4    Bb7  
+
+Repeat
+
+Groove SlowJazzWalk
+
+5    Eb   
+6    Fm7  /    Bb7  
+7    Fm7  
+8    Eb   
+9    /    /    Cm7  
+10   F7   /    Cm7  F7   
+11   Abm6 /    Bb7  
+12   Eb   /    Fm7  
+13   Eb   
+14   Fm7  /    Bb7  
+15   Fm7  
+16   Eb   
+17   /    /    Cm7  
+18   F7   /    Cm7  F7   
+19   Abm6 /    Bb7  
+20   Eb   /    /    Eb7  
+
+Groove SlowJazzWalkSus
+
+21   Ab   
+22   Eb   /    /    Eb7  
+23   Abm  
+24   Fm7  /    Bb7-5 
+25   Eb   
+26   Fm7  /    Bb7  
+27   Fm7  
+28   Eb   
+29   /    /    Cm7  
+30   F7   /    Cm7  F7   
+31   Abm6 /    Bb7  
+
+RepeatEnding
+
+32   Eb   /    /    z    
+
+RepeatEnd
+
+33   Eb   /    /    Eb7  
+
+Groove SlowJazzEnd
+
+34   Ab   
+Seq
+35   Fm7  
+Seq
+36   Eb   /    /    Abm6 
+37   Eb   /    z!   
+

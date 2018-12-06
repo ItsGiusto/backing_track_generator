@@ -1,0 +1,155 @@
+// Blow Gabriel Blow
+
+Tempo 220
+Keysig Eb
+
+SeqClear
+
+Begin Solo
+	Voice Trumpet
+	Volume f
+	Articulate 90
+	Octave 5
+	Harmony Open
+End
+
+Repeat
+
+1    z    {4e; 8.;  g;   4.+1b~;} 
+2    z    
+
+
+RepeatEnd
+
+Groove EasySwing
+AllGrooves Plectrum Capo -2
+
+// Do a quick def here for a metronome.
+
+Begin Drum-1
+	Sequence {1 0 90; 3 0 90}
+	Tone Snaredrum1
+End
+	z
+
+Repeat
+Groove EasySwing42
+
+3    Eb   /    Cm   
+4    /    G7   Cm7  
+5    Ab   /    /    Eb   
+6    Fm7  Eb   Cm7  Bb   
+7    Eb   Cm   
+8    /    G7   Cm7  
+9    Bb7  
+10   /    /    Eb   Bb   
+11   Eb   Cm   /    Eb   
+12   /    Cm   Eb7  
+13   Fm   /    Eb   
+14   F7   /    Bb7  
+15   Eb   Cm   
+16   /    G7   Eb7  
+17   Ab   /    Fm7  
+
+Groove EasySwing2Sus
+
+18   Eb   Bb   Cm7  Bb   
+19   Eb   Cm   
+20   /    G7   Cm7  
+21   Ab   /    Eb   
+22   Fm7  Bb   Cm7  Bb   
+23   Eb   Cm7  
+24   /    /    Gm   
+25   Fm   /    F7   
+26   Bb   /    Cm7  Bb   
+27   Eb   Cm   Eb   
+28   /    Cm   Eb7  
+29   Fm   /    Eb   
+30   F7   /    Bb7  
+
+Groove EasySwing42
+
+31   Eb   Cm   
+32   /    G7   Eb7  
+33   Ab   /    Fm7  
+34   /    Eb   G7+5 
+
+Groove EasySwing
+
+35   Cm   /    Fm6  
+36   Cm   /    Fm7  
+37   Cm   /    Fm   
+38   Cm   /    G7+5 
+39   Cm   /    Fm6  Cm   
+40   /    /    D7   
+41   G    /    Cm6  
+42   G    /    Bb7 
+
+Groove EasySwing2Sus
+ 
+43   Eb   
+44   /    /    Eb7  
+45   Ab   
+46   /    Fm7  
+47   Cm   
+
+Groove EasySwing2
+
+48   Fm   /    G7+5 
+49   Cm   
+50   /    
+51   Ebm  /    Fm6  
+52   /    Fm7  
+53   C    
+54   /    
+55   Fm7  /    Fm6  
+56   /    /    Fm7  
+57   Eb   
+58   /    
+
+Groove EasySwing42
+
+59   Gb   
+60   /    
+61   Db   
+62   /    
+63   F7   
+64   F7-5 
+65   Bb   /    Edim 
+66   Bb7  Cm   C#dim Bb 
+
+Groove EasySwing2Sus
+  
+67   Eb   Cm   
+68   /    G7   Cm7  
+69   Ab   /    Eb   
+70   Fm   Bb   Cm7  Bb   
+71   Eb   Cm   
+72   /    /    Gm   
+73   Bb   
+74   Cm7  /    Bb7 
+
+Groove EasySwing
+ 
+75   Eb   Cm   /    Eb   
+76   /    Cm   Eb7  
+77   Fm   /    Eb   
+78   Fm   C7   Fm   G    
+79   Cm   /    Cm7  
+80   Ab   /    Eb   
+
+
+RepeatEnding
+
+Groove EasySwing1
+
+81   Fm7  /    Bb7  
+82   Eb   /    Bb7  
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+81   Fm7  /    Bb7  
+83   Eb   z!
+

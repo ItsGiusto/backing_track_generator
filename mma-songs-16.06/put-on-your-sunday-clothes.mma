@@ -1,0 +1,96 @@
+// Put On Your Sunday Clothes
+// From musical "Hello Dolly".
+
+Tempo 210
+Groove Metronome2-4
+	z * 2
+
+Groove HillCountryIntro
+
+Begin Solo
+	Voice Piano1
+	Harmony Open
+	Volume mf ff fff fff
+	Octave 5
+	Articulate 60
+	Begin Riff
+		8r;c;;;4;;
+		8r;c;;;4;;
+		8r;d;;;4;;
+		1d;
+	End
+End
+
+1   C       
+2   Am      
+3   Dm      
+4   G7      
+
+Repeat
+Groove HillCountry
+
+5   C       
+6   /       
+7   /       
+8   CM7     
+9   C       
+10  C6      
+11  Gm7     
+12  /
+
+Groove HillCountryPlus
+       
+13  C       
+14  /       
+15  /       
+16  Am      
+17  Em      
+18  F       
+19  Em      
+20  Dm7     /       G7  
+
+Groove HillCountrySus
+    
+21  C       
+22  /       
+23  /       
+24  CM7     
+25  C       
+26  C6      
+27  Em7     
+28  A7#5    /       A7 
+
+Groove HillCountrySusPlus
+     
+29  Dm      
+30  E7      
+31  Am      
+32  D7      /       Fm6     
+
+RepeatEnding 2
+
+33  C       /       C+      
+34  Dm7     /       G9      
+35  C   
+
+Groove HillCountryFill
+    
+36  /       
+
+RepeatEnd
+
+37  C       
+38  C+      
+39  Am      
+40  D7
+
+Groove HillCountry
+      
+41  Dm7     
+42  G9 
+
+Groove HillCountryEnd    
+
+43  C       
+44  /       
+

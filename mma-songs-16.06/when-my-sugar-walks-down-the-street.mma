@@ -1,0 +1,75 @@
+// When My Sugar Walks Down The Street
+
+Tempo 144
+Keysig G
+
+Groove Metronome2-4
+	   z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+	  Voice Piano2
+	  Harmony Open+8Below
+	  Volume f
+	  Articulate 100
+	  Octave 5
+	  Begin Riff
+	  		4d+;;;8c+;b;
+			4c#+;;2;
+			8a;a#;b;c+;c#+;d+;d#+;e+;
+			1d+;
+	  End
+End
+
+Swingmode On
+
+1         G
+2        A7
+3        Em 
+4        D7
+
+
+Set GS 1
+
+Repeat
+Groove $GS FoxTrot FoxTrotPlus
+
+5         G      /  Dm6     E7
+6        A7
+7        D7
+8         G     C6      G
+9         /      /      /  Gdim7
+10     D7/A      /     D7
+11     D7/A      /   D7#5
+12        G
+
+Groove $GS FoxTrotSus FoxTrotSusPlus
+
+13        /      /    Dm6     E7
+14       A7
+15       D7
+16        G     C6      G   G7/F
+17       E7
+18       Am     E7   Am/C    Am7
+
+RepeatEnding
+
+19      G/D     E7     A9     D7
+20        G
+
+Set GS 2
+RepeatEnding
+
+19      G/D     E7     A9     D7
+20        G
+
+Set GS 1
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+19      G/D     E7     A9     D7
+20        G  /  z!
+
+

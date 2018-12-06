@@ -1,0 +1,81 @@
+// Brother Can You Spare A Dime
+
+Tempo 88
+Keysig C Minor
+
+Groove Metronome2-4
+ z * 2
+
+Groove SlowBluesIntro
+Begin Solo
+ Voice JazzGuitar
+ Articulate 110
+ Octave 5
+ Harmony Open+OpenAbove
+ Rtime 4
+ Begin Riff
+   4g;e;8c;d;4e;
+   4an;en;2c;
+   43d;;; d;en;f;
+   1g;   
+ End
+End
+
+
+1        Cm
+2        Am
+3        Dm7
+4        G7
+
+Repeat
+Groove SlowBlues
+Repeat
+
+5        Cm
+6        G7      /     C7
+7         F      /    Bb7
+8        Eb      /     G7
+9        Fm      /     G7
+10       Cm      /    Ab7
+11       Fm      /     G7
+12       Cm
+
+Groove SlowBluesWalk4
+
+RepeatEnd
+
+Groove SlowBluesSus
+
+13       C7
+14     Edim     C7    Gm7     C7
+15     Edim     C7
+16     Bbm6      /      /     C7
+17       F7
+18       Cm     F7     F9
+19       Cm      /      /   A7b5
+20       D7   D7b5     G7
+
+Groove SlowBluesWalk4Sus
+
+21       Cm
+22       G7      /     C7
+23       F7      /    Bb7
+24       Eb      /     G7
+
+RepeatEnding
+
+25       Fm      /     G7
+26       Cm      /    Ab7
+27       Fm      /     G7
+28       Cm
+
+RepeatEnd
+
+Groove SlowBluesEnd
+Decresc ppp 4
+
+25       Fm      /     G7
+26       Cm      /    Ab7
+27       Fm      /     G7
+28       Cm
+

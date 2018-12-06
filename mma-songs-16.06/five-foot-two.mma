@@ -1,0 +1,128 @@
+// Five Foot Two
+
+// You might know this .. but there are actually 4 verses
+// to this song, we just do the chorus. And, the correct
+// name of the song is "Has Anyone Seen My Gal?"
+
+Tempo 200
+
+Groove Metronome2
+	z * 2
+
+Begin Solo
+    Voice Piano3
+    Harmony Open
+    Articulate 80
+    Volume ff
+    Octave 5
+    Rtime 5
+    Rvolume 0,30
+    Begin Riff
+        4c+;b;a;g;
+        4g;;2;
+        4g#;;2;
+        4a;;2;
+        4f;g;a;b;
+        2e+;d+;
+        1+2c+ ~ ;
+    End
+End
+
+Groove DixieIntro8
+Swell mp f 8
+
+1          C
+2          /
+3         E7
+4         A7
+5         G7
+6         Am      /     E7
+7          C
+
+Groove DixieEnd
+
+8          z
+
+Repeat
+Swell mp mf 4
+Groove Dixie
+
+9          C
+10        E7
+11        A7
+12         /
+
+Groove DixieSus
+Cresc f 4
+
+13        D7
+14        G7
+15         C
+Begin Solo
+  Volume m
+  Harmony None
+  Riff 4g;;8;a;4g;
+End
+16      Gaug   
+
+Groove Dixie1
+Decresc m 4
+
+17         C
+18        E7
+19        A7
+20         /
+
+Groove Dixie2
+Cresc mf 4
+
+21        D7
+22        G7
+23         C      /      F
+24         C
+
+Groove Dixie2Sus
+Volume m
+
+25        E7
+26         /
+27        A7
+28         /
+
+Groove Dixie3
+Cresc f 4
+
+29        D7
+30         /
+31        G7
+32         /
+
+Groove Dixie4
+Decresc m 4
+
+33         C
+34        E7
+35        A7
+36         /
+
+Groove Dixie4Sus
+Decresc mp 4
+
+37        D7
+38        G7      /   Gaug
+
+RepeatEnding  2
+
+39         C      /     F7
+40         C      /      /      z
+
+RepeatEnd
+
+Groove DixieEnd
+Seq 3
+Decresc ppp 2
+
+39         C      /     F7
+40         C      /      z!
+
+

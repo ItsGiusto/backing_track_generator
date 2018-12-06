@@ -1,0 +1,60 @@
+// Chitlins Con Carne
+
+Tempo 135
+Keysig C
+
+Groove RhumbaIntro
+
+Begin Solo
+    Voice FretlessBass
+    Volume f
+    Octave 3
+    Articulate 90
+End
+
+Solo Swell mp f 8
+1         z           {4.c+;8g;4c+;e&+;}
+2         C7  / C7#9  {8r;4c+;8g;4c+;e&+;}
+3         C7  / C7#9  {4.c+;8g;4c+;e&+;}
+Seq 1
+4         C7 /  C7#9  {8r;4c+;8g;4c+;e&+;}
+Seq 1
+5         F9          {4.c+;8g;4c+;e&+;}
+6         /           {8r;4c+;8g;4c+;e&+;}
+7         /           {4.c+;8g;4c+;e&+;}
+8         C7#9        {8r;4c+;8g;4c+;e&+;}
+
+
+Repeat
+Groove Rhumba
+
+9      C7#9
+10        /
+11        /
+12        /
+
+Groove RhumbaSus
+
+13       F9
+14        /
+15     C7#9
+16        /
+
+Groove Rhumba1
+
+17       Gm9
+18       F9
+
+RepeatEnding 4
+
+19     C7#9
+20        /
+
+RepeatEnd
+
+Groove RhumbaEnd1
+
+19     C7#9
+20       / z!
+
+

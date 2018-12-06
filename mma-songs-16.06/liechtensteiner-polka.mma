@@ -1,0 +1,112 @@
+// Liechtensteiner Polka
+
+Tempo 260
+
+Groove Metronome2-4
+
+	z * 2
+
+// For a very plain intro we hit the tonic chord 4 times
+// A number of ways to do this. We could use a solo track...
+// but it's easy enough just to use a chord track. 
+
+SeqClear
+Include stdpats
+
+Begin Chord
+	Voice Accordion
+	Volume FF
+	Octave 5
+	DupRoot -1
+	Accent 1 20 3 10
+	Sequence  C13  { C13; 2 8 90; 2.5 8 90 }
+End
+
+	F * 2	// do the 2 chords
+
+
+Groove Polka
+
+Label Start
+	
+Repeat
+
+1 	F
+2 	/
+3 	/
+4 	C7
+5 	/
+6 	/
+
+RepeatEnding
+
+7 	/
+8 	F
+9 	/
+
+Groove PolkaArp	// add in arps
+
+RepeatEnd
+
+10 	C7
+11 	F
+12 	/  /  F7
+13 	Bb
+14 	/
+15 	F
+16 	/
+17 	Dm
+18 	G7
+19 	C7 /  /  Cdim
+20 	C7 /  C+
+21 	F / / z
+22 	F
+23 	/
+24 	C7
+25 	/
+26 	/
+27 	/
+
+If Def DS
+	Groove PolkaEnd
+	28 	F
+	F / z!
+	EOF
+Else
+	28 F
+	29 	/ / / z
+EndIf
+
+// Interlude & key change
+
+Groove Polka1
+
+31 	G
+32 	/
+33 	/
+34 	G7
+35 	/
+36 	/
+37 	/
+38 	C
+39 	/
+40 	/
+41 	/  /  Cm
+42 	G
+43 	D7
+44 	G
+
+Groove Polka1Sus	// add fraulines
+
+45 	D7
+46 	G
+47 	G7
+48 	/
+49 	/
+50 	C / z
+
+Groove Polka1
+
+set DS
+goto START
+

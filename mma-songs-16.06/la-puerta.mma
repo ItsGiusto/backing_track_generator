@@ -1,0 +1,121 @@
+// La Puerta
+
+Tempo 66
+Keysig Ab
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBoleroIntro
+Begin AllGrooves Arpeggio
+    Octave +1
+    Articulate 190
+    Range 1.1
+End
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Articulate 120
+    Harmony OpenBelow+8Above
+    Volume mf
+    Begin Riff
+        <Offset=15> 81t 68/84;<Offset=97> 96t 70/67;<Offset=177> 91t 72/78; \
+            <Offset=265> 100t 70/82;<Offset=357> 102t 68/58;<Offset=458> 108t 70/79; \
+            <Offset=564> 198t 72/87;
+        <Offset=0> 198t 77/69;<Offset=177> 189t 75/87;<Offset=363> 299t 72/90; \
+            <Offset=659> 91t 68/72;<Offset=746> 97t 70/82 ~;
+        <Offset=72> 92t 72/91;<Offset=161> 107t 73/76;<Offset=259> 108t 75/81; \
+            <Offset=364> 399t 73/69;<Offset=759> 327t 75/69 ~;
+    End
+End
+
+Begin Solo-2
+    Voice SynthVox
+    Octave 5
+    Articulate 120
+    HarmonyOnly OpenBelow+Open8Below
+    Volume m
+End
+
+Solo DupRiff Solo-2 
+
+Swell p m 4
+
+1        Ab
+2       Fm
+3       Bbm
+4       E&7  z@2.5
+
+Repeat
+Groove SlowBolero
+Volume m
+
+5       Bbm
+6     Bbdim      /    Eb7
+7        Ab
+8        F7
+
+Groove SlowBoleroSus
+Cresc mf 4
+
+9       Bbm
+10    Eb7b9      /    Eb7
+
+RepeatEnding
+
+11       Cm      /   Bbm7
+12     AbM7      /  Fm7/Eb
+
+RepeatEnd
+
+13      Ab6      /    Gb9     A9
+14      Ab6
+
+Groove SlowBoleroPlus
+Decresc m 4
+
+15      Ebm      / Ebm11/Ab
+16        /      /     Ab
+17      Dbm
+18      Gb7      /   Gdim
+
+Groove SlowBolero
+Decresc mp 4
+
+19        B
+20       E7
+21      Eb7
+22        /      z@2.5
+
+Groove SlowBoleroSus
+Cresc m 4
+
+23      Bbm
+24    Bbdim      /    Eb7
+25       Ab
+26       F7
+
+Groove SlowBoleroSusPlus
+Cresc mf 4
+
+27      Bbm
+28      Eb7
+29    Cm7b5
+30       F7
+
+Groove SlowBolero
+Decresc ppp 7
+
+31      Bbm
+32    Eb7b9      /    Eb9
+33       Ab
+34      Bbm
+
+35   Dbm6(add9)/Eb      /  Em11/A      /    Ab6@4.5
+
+Groove SlowBoleroEnd
+
+36        /
+37        /       z!
+

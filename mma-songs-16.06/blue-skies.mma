@@ -1,0 +1,86 @@
+// Blue Skies.Mup
+
+Tempo 165
+KeySig G
+
+Groove Metronome2-4
+	z * 2
+
+Groove SwingIntro
+
+Begin Solo
+	Voice Honky-TonkPiano
+	Volume ff
+	Articulate 90
+	Harmony Open
+	Octave 6
+	Begin Riff
+		4b-; d; 2e ;
+		2d; g;
+		4b; a; 2f;
+		1e;
+	End
+End
+1      G     
+2      Em    
+3      B7    
+4      Em    
+
+Repeat 
+Groove Swing
+
+5      Em    
+6      B+    /    B7    
+7      G     
+8      C#m7b5 /    /    Cm6   
+9      G     
+10     C9    /    D+    
+11     G     
+12	/
+
+Groove SwingSus
+
+13     Em    
+14     B+    /    B7    
+15     G     
+16     C#m7b5 /    /    Cm6   
+17     G     
+18     C9    /    D+    
+19     G     
+20	/
+
+Groove SwingWalk
+
+21	/
+22     Cm    /    G     
+23     Cm    /    G     
+24     Cm    /    G     
+25	/
+26     Cm    /    G     
+27     Cm    /    G     
+28     D7    /    G     B+    
+
+Groove SwingWalkSus
+
+29     Em    
+30     B+    /    B7    
+31     G     
+32     C#m7b5 /    /    Cm6   
+33     G     
+34     C9    /    D+    
+
+RepeatEnding 2
+
+35     G    /   D
+36     G    /   z
+
+RepeatEnd
+
+Groove SwingEnd
+
+35     G     /    D     
+36     G     /  z!
+
+
+
+

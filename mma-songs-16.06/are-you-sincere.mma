@@ -1,0 +1,99 @@
+// Are You Sincere
+
+// Andy Williams, 1958. Elvis Presley did this as well.
+// And, yes, Virgina, their tempo is actually a beat or 2
+// slower than the 76 I've reduced myself to using.
+
+// And if you really like slow, Elvis did it around 64bpm.
+
+// I've not put in any repeats ... once is all that I can stand :)
+
+Transpose 3        // my sheet is in C, my singer wants Eb
+
+Tempo 76
+
+Groove Metronome2-4
+ z * 2
+
+Groove BalladIntro
+Begin Solo
+    Voice Piano1
+    Volume f
+    Harmony OpenBelow
+    Articulate 110
+    Octave 5
+    Begin Riff
+         2c+;4d+;e+;
+         2c+;4d+;e+;
+         4f+;e+;d+;f+;
+         2d+;
+    End
+End
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+Groove Ballad
+
+5      Cmaj7
+6        Dm7
+7         G7      /    Dm7
+8         G7      /   G7+5
+
+Groove Ballad1
+
+9      Cmaj7
+10       Dm7
+11        G7      /    Dm7
+12        G7
+
+Groove BalladSus
+
+13         C
+14        Am      /     C7
+15         F      /  Fmaj7
+16        Fm      /      C
+
+Groove Ballad1Sus
+
+17         F      /    Dm7
+18         C      /    Am7
+19       Dm7      /     G7
+20         C      /      F
+21         C      /   G7+5
+
+Groove Ballad
+
+22     Cmaj7
+23       Dm7
+24        G7      /    Dm7
+25        G7      /   G7+5
+
+26     Cmaj7
+27       Dm7
+28        G7      /    Dm7
+29        G7
+
+Groove BalladSus
+
+30         C
+31        Am     C7     C+
+32         F
+33        Fm      /      C
+
+Groove Ballad1Sus
+
+34         F      /    Dm7
+35         C      /    Am7
+36       Dm7      /     G7
+
+Groove BalladEnd
+Seq 3
+Decresc ppp 2
+
+37         C      /    Ab7
+38         C     z!
+
+

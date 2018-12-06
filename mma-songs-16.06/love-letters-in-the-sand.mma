@@ -1,0 +1,116 @@
+// Love Letters In The Sand
+
+Tempo 127
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxtrotIntro
+Begin Solo
+    Voice SynthVox
+    Volume f
+    Harmony 3Below
+    Articulate 110
+    Octave 5
+    Rtime 5
+    Mallet Rate=16 decay=-6
+    Rvolume 5
+    Begin Riff
+        2b;d+;
+        2g;b;
+        2a;c+;
+        2d+;
+    End
+End
+
+Swell mp f 4
+
+1        G
+2         Em
+3        Am
+4        D7      /   Gdim
+
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5         G
+6         /      /      /    D#7
+7        Am
+8        A7      /      /    A7+
+
+Groove FoxTrotSus
+Cresc f 4
+
+9        D7      /     D9
+10       Am      /     Cm
+11        G
+12        /      /   Gdim
+
+Groove FoxTrotPlus
+Decresc m 4
+
+13        G
+14        /      /    D#7
+15       Am
+16       A7      /      /    A7+
+
+Groove FoxTrotSusPlus
+
+17       D7      /     D9
+18       A7      /     D7
+19        G
+20        /
+
+Groove FoxTrot
+Volume mf
+
+21       B7      /      /   B7b9
+22       B7      /      /   B7b9
+23       Em
+24        /
+
+Groove FoxTrotSus
+Volume m
+
+25       A7
+26       A9      /      /     A7
+27        C      /      /     D7
+28        /      /   Gdim
+
+Groove FoxTrotPlus
+Decresc mp 4
+
+29        G
+30        /      /      /    D#7
+31       Am
+32       A7      /      /    A7+
+
+Groove FoxTrotSusPlus
+
+33       D7      /     D9
+34       A7      /     D7
+
+RepeatEnding
+
+Groove FoxTrotFill
+
+35        G      /   Gdim
+36       D7      /   Gdim
+
+Begin AllGrooves Arpeggio
+  Voice JazzGuitar
+  Octave 6
+  Harmony 2Below
+  Articulate 105
+End
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc ppp 2
+
+37        G      /      C
+38        G     z!
+

@@ -1,0 +1,117 @@
+// Brussels In The Rain
+
+Tempo 90
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+    Voice Strings
+    Harmony OpenBelow+8Below
+    Octave 6
+    Volume ff
+    Articulate 120
+    Begin Riff
+        2c;43e;d;c;
+        2e;43g;f;e;
+        2f;43a;g;f;
+        1g;
+    End
+End
+
+Swell p mf 4
+Solo Swell mp f 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Repeat
+Groove BossaNova
+Decresc m mp 4
+       
+5       CM9
+6       Am9
+7       Dm9
+8      G7#5
+
+Groove BossaNova1Sus
+Cresc mf 2
+
+9       CM9
+10       F9
+11      Em7
+12     A7b9
+
+Groove BossaNova
+Decresc m mp 4
+
+13      Dm7
+14       G7
+15      Em7
+16      Am7
+
+Groove BossaNova2Sus
+Cresc mf 4
+
+17       D9
+18        /
+19      Dm7
+20     G7b9
+
+Groove BossaNova
+Volume m
+
+21      CM9
+22      Am9
+23      Dm9
+24     G7#5
+
+Groove BossaNovaPlus
+Volume mp
+
+25      CM7
+26       F9
+27      Em7
+28     A7b9
+
+Groove BossaNovaSusPlus
+
+29      Dm7
+30       G7
+31      Em7
+32      Am7
+
+Groove BossaNovaSus
+Cresc mf 4
+
+33      Dm7
+34       G7      /   G7/F
+35      Em7      /    Bb7
+36       A7
+
+RepeatEnding
+Groove BossaNova
+Decresc m 2
+
+37      Dm9
+38     G7b9
+39     AbM9
+40        /  / G7
+
+RepeatEnd
+
+Groove BossaNova2End
+Decresc ppp 4
+Tempo *.9 4
+
+37      Dm9
+38     G7b9
+39     AbM9
+40        /
+
+

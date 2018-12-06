@@ -1,0 +1,123 @@
+// Once I Loved (Amor em Paz)
+
+Tempo 130
+Keysig D minor
+
+Groove Metronome2-4
+    z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+    Voice SynthVox
+	Volume f
+	Harmony Open+8Below
+	Octave 5
+	Articulate 110
+	Begin Riff
+        1d+;
+		2c+;a;
+		2b;f;
+		1a;
+	End
+End
+
+Swell mp mf 4
+
+1        Dm7
+2        Fm7
+3        Bb7#5
+4        Dm7
+
+
+Repeat
+Repeat
+
+Groove BossaNova
+Volume m
+
+5       Gm7
+
+6      C7#5
+Decresc mp 2
+7       FM7
+8    F#dim7
+
+Groove BossaNovaSus
+Cresc mf 2
+
+9       Gm7
+10   G#dim7
+Decresc mp 2
+11      Am7
+12    Am7/G
+
+Groove BossaNovaSusPlus
+
+13      Fm7
+14    Bb7#5
+15     EbM7
+16        /
+
+Groove BossaNova2Sus
+Volume m
+
+17    Em7b5
+18     A7b5
+
+RepeatEnding
+Cresc f 2
+
+19      DM7
+
+Groove BossaNovaFill
+
+20     D7b9
+
+
+RepeatEnd
+Cresc mf 2
+
+21      DM7
+
+Groove BossaNovaFill
+
+22       G7
+
+Groove BossaNova
+Volume m
+
+23      CM7
+24       F7
+Decresc mp 2
+25     BbM7
+26        /
+
+Groove BossaNovaSus
+Cresc mf 4
+
+27    Bdim7
+28     Bbm6
+29      Am6
+30    Ab7b5
+
+Groove BossaNova1SusPlus
+Decresc m 2
+
+31       G7
+32      Gm7      /   A7b9
+
+RepeatEnding
+
+33      Dm6
+34        /  /  D7b9
+
+RepeatEnd
+
+Groove BossaNova2End
+Seq 3
+Tempo *.8 2
+Decresc ppp 2
+
+33     Dm6
+34     /  z!
+

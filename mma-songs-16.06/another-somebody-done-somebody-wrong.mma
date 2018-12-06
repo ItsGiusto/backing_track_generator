@@ -1,0 +1,131 @@
+// Another Somebody Done Somebody Wrong
+
+// #1 hit for B.J. Thomas in 1975.
+
+// The first bars should be done in an ad lib manner ... but
+// mma doesn't know about that kind of stuff. So we just do it
+// a bit slower.
+
+Set SPEED 105 // our final tempo
+Tempo $( $SPEED - 15)
+KeySig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove PopBalladIntro
+Tempo +5 4              // accel. over the 4 bar intro
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Harmony OpenBelow+8Below
+    Articulate 120
+    Rtime 5
+    Rvolume 5
+    Octave 5
+    Begin Riff
+        4.c+;8a;c+;a;c+;a;
+        4d+;c+;a;f;
+        8g;a;b;c+;d+;c+;b;a;        
+        1c+;
+    End
+End
+
+Swell mp mf 4
+
+1          F
+2         Dm
+3         Gm
+4          F
+
+// Note, we're at $SPEED + 5 now
+
+Groove PopBallad1
+Cresc mp m 4
+
+5          F
+6         Bb
+7         C7
+Truncate 2
+8          /    // This is a 2/4 bar
+9          F
+10        Bb
+
+Tempo $SPEED 3        /// accel to final tempo (105)
+Decresc mp 3
+
+11         /
+12         F
+13         /      /      /      z
+
+Repeat
+Groove PopBallad
+Decresc m mp 4
+
+14         F
+15     Fmaj7
+16        F7
+17         /
+
+Groove PopBalladSus
+Cresc mf 4
+
+18        Bb
+19         /
+20         F
+21         /
+
+Groove PopBallad
+
+22       Gm7
+23        C7
+
+RepeatEnding 2
+
+24         F
+25         /      /     C7
+
+// This is the verse "Play, play for me .."
+
+Groove PopBalladSus
+Decresc m mp 4
+
+26         F
+27         /
+28        A7
+29         /
+
+Groove PopBallad2
+Cresc m 2
+
+30        D7
+31         /
+32       G11
+33        G7
+
+Groove PopBallad1
+Decresc mp 4
+
+34        C7
+35         /
+36         F
+37        D7
+
+Groove PopBalladSus
+Cresc m 4
+
+38        G7
+39         /      /    Am7     G7
+40         C      /    Gm7
+41        C7
+
+RepeatEnd
+
+Groove PopBalladEnd
+Decresc ppp 2
+
+24         F
+25         /     z!
+
+

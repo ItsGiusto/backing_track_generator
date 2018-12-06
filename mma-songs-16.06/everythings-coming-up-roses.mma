@@ -1,0 +1,130 @@
+// Everythings Coming Up Roses
+
+Tempo 280
+
+Groove Metronome2-4
+	z * 2
+
+Groove BroadwayIntro
+
+1    C    
+2    Am   
+3    Dm   
+4    G7   
+
+Repeat
+Groove Broadway
+Repeat
+
+5    Dm7  
+6    G7#5 
+7    C6   
+8    /    Cm   
+9    Dm7  
+10   /    /    /    G7   
+11   C6   
+12   /    B7#5 
+13   Em   
+14   C7   
+15   FM7  
+16   /    
+17   C    
+18   /    
+19   Em   
+20   /    
+21   Dm7  /    G7   
+
+RepeatEnding
+
+22   /    
+23   /    
+24   /    Ebdim7 
+
+Groove Broadway1
+
+RepeatEnd
+
+25   /    
+26   /    
+27   /    
+
+Groove BroadwaySus
+
+28   Dm7  /    /    G7   
+29   /    
+30   CM7  
+31   /    
+32   Dm7  
+33   G9   
+34   C    
+35   /    
+
+Groove Broadway1Sus
+
+36   F#m7b5 /    /    B7   
+37   /    
+38   Em   
+39   /    
+40   Am7  
+41   D7   
+42   F#   /    /    G7   
+43   Ebdim7 
+
+Groove Broadway
+
+44   Dm7  
+45   G7#5 
+46   C6   
+47   /    /    /    Cm   
+48   Dm7  
+49   /    /    /    G7   
+50   C6   
+51   B7#5 /    /    B7   
+
+Groove Broadway1
+
+52   Em   
+53   C7   
+54   FM7  
+55   /    
+56   Em7  
+57   Am7  
+58   D9   
+59   /    /    /    G7   
+
+Groove BroadwaySus
+
+60   C    /    G7/B 
+61   Am7  /    Fm/Ab 
+62   C    
+63   /    
+64   D7   //   my   score has  some odd  sounding C#7b9s here 
+65   /    /    D9   
+66   D7   /    D9   
+67   /    
+
+Groove Broadway1Sus
+
+68   C    
+69   /    
+70   Em   
+71   /    
+72   Dm7  
+73   /    
+74   G7   /    Dm7  
+75   /    /    G7   
+
+RepeatEnding
+
+76   C    
+77   /    
+78   Dm   
+79   G7   
+
+RepeatEnd
+
+Groove BroadwayEnd
+
+80   C    
+81   /    /    z!   
+

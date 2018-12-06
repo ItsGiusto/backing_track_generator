@@ -1,0 +1,115 @@
+// Shes Funny That Way
+
+Tempo 105
+KeySig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove SlowBluesIntro
+AllGrooves Chord-Sus Octave 4
+
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Articulate 110
+    Octave 5
+    Harmony 38Below
+
+    Begin Riff
+       81c+;82d+;81c+;2d+;
+       81b;82c+;81b;2c+;
+       43g;a;c+;4e+;c+;
+       1b;
+    End
+End
+
+Swell m f 4
+
+1        Eb      /    Bb7
+2        Eb      /    Cm7
+3        Eb      /    Fm7
+4        Bb7
+
+Repeat
+Groove SlowBlues
+Volume m
+
+5        Eb      /    Bb7
+6        Eb      /    Bb7
+7        Eb      /    Bb7
+8     Gm7b5      /     C7
+
+Groove SlowBluesFill1
+Arpeggio Octave 5
+Cresc mf 4
+
+9        Ab
+10      Abm
+11       Eb      /     F9
+12      Fm7      /    Bb7
+
+Groove SlowBlues
+Decresc mp 4
+
+13       Eb      /    Bb7
+14       Eb      /    Bb7
+15       Eb      /    Bb7
+16    Gm7b5      /     C7
+
+Groove SlowBluesSus
+
+17       Ab
+18      Abm
+19       Eb      /    Fm7    Bb7
+20       Eb
+
+Groove SlowBlues
+Volume m
+
+21      Abm
+22        /
+23       Eb      /    Bb7
+24       Eb
+
+Groove SlowBluesFill3
+Scale Range 2
+Scale Octave 3
+Decresc mp 4
+
+25      Abm
+26       Eb      /     Cm
+Scale Direction Down
+27      Cm7      /     F7
+28      Fm7      /    Bb7
+
+Groove SlowBluesSus
+Cresc m 4
+
+29       Eb      /    Bb7
+30       Eb      /    Bb7
+31       Eb      /    Bb7
+32    Gm7b5      /     C7
+
+Groove SlowBlues
+
+33       Ab
+34      Abm
+
+RepeatEnding
+Decresc mp 2
+
+35       Eb      /    Fm7     Bb
+
+Groove SlowBlues34Triple
+
+36       Eb      /    Bb7
+
+RepeatEnd
+
+Groove SlowBluesEnd
+Decresc ppp 2
+
+37       Eb      /    Fm7    Bb9
+38       Eb   z!
+

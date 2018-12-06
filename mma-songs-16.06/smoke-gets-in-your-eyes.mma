@@ -1,0 +1,80 @@
+// Smoke Gets In Your Eyes
+
+Tempo 70
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowJazz2Intro
+
+Begin Solo
+	Voice Piano1
+	Volume mf
+	Octave 5
+	Articulate 90
+	Harmony Open
+	Begin Riff
+		2e;8b;a;g;f;
+		2g;8e+;d+;c+;b;
+		2a;f;
+		2d;
+	End
+End
+
+1      Eb    
+2      Cm    
+3      Fm7   
+4      Bb7   
+
+Groove SlowJazz1
+
+Repeat
+
+5      Eb    /    Gbdim 
+6      Fm7   /    Bb7   
+7      EbM7    /    G7#5  
+8      AbM7  /    Adim  
+9      Gm7   /    Cm7   
+10     Fm7   /    Bb7   
+
+RepeatEnding
+
+11     Gm7    /    C7    
+12     Fm7   /    Bb7   
+
+Groove SlowJazz1Sus
+
+RepeatEnd
+
+13     EbM7
+14     Dbm7 / Gb7
+
+// Key change to key of B
+
+Groove SlowJazz1Walk
+
+15     BM7   
+16     A&m7 
+17     Ebm7  /    Ab7
+18     Dbm7  /    Gb7   
+19     BM7   
+20     Fm7  /     Bb7 
+
+// key back to key of Eb
+
+Groove SlowJazz1Sus
+
+21     EbM7  /    C7  
+22     Fm7   /    Bb9   
+23     EbM7    /  Gbdim3 
+24     Fm7   /    Bb7   
+25     Eb    /    G7#5  
+26     AbM7  /    Adim3  
+27     Gm7   /    Cm7   
+28     Fm7   /    Bb7   
+
+Groove SlowJazzEnd
+
+29     Eb   /   Fm7    
+30     Eb  / z!

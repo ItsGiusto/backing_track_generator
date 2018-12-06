@@ -1,0 +1,144 @@
+// Choo Choo Ch'Boogie
+
+
+////// Re-define voicing 
+
+Groove Swing
+	Begin Chord
+		Voice Piano2
+		Articulate 90
+		Octave 5
+	End
+	DefGroove Swing
+
+Groove SwingTriple
+	Chord Voice Piano2
+	DefGroove SwingTriple
+
+////////////
+
+Tempo 145
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+   Voice AltoSax
+   Harmony OpenBelow+8Below
+   Octave 5
+   Articulate 90
+   Volume f
+   Begin Riff
+      8.a&;16;4;8.;16;4;
+      4.a&;8f;d;4.c;
+	  8.a;16;4;8.;16;4;
+	  4.a;8f;d;4.c;
+	  8.b;16;4;8.;16;4;
+	  4.b;8g;e;4.c;
+	  43c+;;; c+;;;
+	  2c+egc;
+   End
+End
+	
+// 8 bar intro
+
+Cresc mp ff 8
+
+Groove Swing
+
+1 	Bb7
+Groove SwingTriple
+2 	/
+Groove Swing
+3 	F7
+4 	/
+5 	C7
+6 	/
+Groove swingTriple
+7 	/
+Groove Swing
+8 	z / / C7
+
+// Begin verse 3x
+
+Repeat
+Volume m
+
+9 	F7
+10 	/
+11 	/
+12 	/
+
+Volume mf
+
+13 	Bb7
+14 	/
+15 	F7
+16 	/
+
+Volume m
+
+17 	C7
+18 	/
+
+Groove SwingTriple
+
+19 	F /  Bb7
+
+Groove Swing
+Decresc mp 1
+
+20 	F
+
+// Chorus
+
+Seq
+Cresc mf 6
+
+21 	Bb7
+22 	/
+23 	F7
+24 	/
+
+25 	Bb7
+26 	/
+
+RepeatEnding 2
+
+Groove SwingTriple
+
+27 	C7 /  Cdim
+
+Groove Swing
+Volume m
+
+28 	C7
+
+Repeatend	// final ending
+
+Groove SwingTriple
+Volume m
+
+29 	C7
+
+Groove Swing
+
+30 	F6
+
+// 8 bar end
+Cresc f 6
+
+31 	Bb7
+32 	/
+33 	F7
+34 	/
+35 	Bb7
+36 	/
+
+Groove SwingEnd
+
+37 	C7
+38 	F6 z z!
+
+

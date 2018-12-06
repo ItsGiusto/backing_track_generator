@@ -1,0 +1,153 @@
+// Some Day My Prince Will Come (Snow White)
+
+Tempo 112
+Keysig F
+
+Groove Metronome3
+  z * 2
+
+GrooveClear
+Time 3
+
+// Alternate bass line uses walking bass 8ths
+Begin Walk
+   Voice AcousticBass
+   Volume m
+   Articulate 70
+   Rvolume 4
+   Direction Random
+   Octave 3
+   Sequence {1 2. 80 * 6}  // 8th note walking bass line
+   Rskip 30 Beats=1.5,2.5,3.5  // skip some of the "off" beats
+End
+
+DefGroove Jazzwalk
+
+// A macro to enable the walking bass. Also cuts out regular bass.
+MSet Walky
+ Bass Sequence -
+ Walk Groove JazzWalk
+EndMset
+
+Groove JazzWaltzIntro8
+Begin Solo
+    Voice Strings
+    Volume f
+    Articulate 110
+    Octave 6
+    Harmony 3Below+8Below
+    Begin Riff
+        8c+;d+;e+;d+;4+2c+~;
+        <>;
+        8f;g;a;g;4+2f~;
+        <>;
+        2.a;
+        2c+;4b;
+        4g;f;e;
+        2.c;
+    End
+End
+
+Swell p m 8
+
+1          F
+2          /
+3         Dm
+4          /
+5          F
+6        Dm7
+7         Gm
+8         C7
+
+Repeat
+Groove JazzWaltz
+Volume m
+
+9        FM7
+$Walky
+10       A7+
+11      BbM7
+12       Am7      /     D7
+
+Groove JazzWaltz
+
+13       Gm7
+14       D7+
+$Walky
+15       Gm9
+16        C9
+
+Groove JazzWaltz2
+
+Begin Arpeggio   // voices were a bit squeaky
+  Articulate 130
+  Octave 5
+  Direction Up
+  Seqrnd On
+End
+
+Cresc f 2
+
+17     FM7/A
+18    Abdim7
+$Walky
+19       Gm7
+20        C7
+
+Groove JazzWaltz
+$Walky
+Volume m
+
+21     FM7/A
+22    Abdim7
+Groove JazzWaltz
+23       Gm7
+24        C7
+
+Groove JazzWaltzSus
+Volume mp
+
+25       FM7
+26       A7+
+27      BbM7
+$Walky
+28       Am7      /     D7
+
+Groove JazzWaltz1Sus
+Cresc mf 3
+
+29       Gm7
+30       D7+
+31       Gm9
+32        C9
+
+Groove JazzWaltz
+Volume m
+
+33         F
+34        A7      /     A+
+$Walky
+35        Bb+
+36     Bdim7
+
+Groove JazzWaltz
+Decresc mp 2
+
+37       FM7      / F#dim7
+38       Gm7      /     C7
+
+RepeatEnding
+
+39        F9      /    A&7
+
+Groove JazzWaltzFill
+
+40       Gm7     C7
+
+RepeatEnd
+Groove JazzWaltzEnd
+Decresc ppp 2
+
+41        F6
+42         /     z!
+

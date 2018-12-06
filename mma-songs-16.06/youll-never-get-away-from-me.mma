@@ -1,0 +1,108 @@
+// Youll Never Get Away From Me
+
+Tempo 170
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingIntro
+Begin Solo
+    Voice Piano2
+    Harmony OpenBelow+38Below
+    Octave 6
+    Articulate 130
+    Volume f
+    Begin Riff
+        1+4b- ~;
+        ~ 8d;f;4g;b;
+        2c+;e+;
+        2.f+;
+    End
+End
+
+Swell mp mf 4
+
+1        Bb  / B&+
+2        Gm  / Gm7
+3        Cm  
+4        F7
+
+Repeat
+Groove Swing
+Volume m
+
+5        Bb      /    Bb+
+6       Bb6      /     F7
+7       Cm7      /     F7     Bb
+8         /      /     F7
+
+Groove SwingPlus
+Decresc mp 4
+
+9       Cm7      /     F7     Bb
+10        /      /   Bb11    Bb7
+11       Eb      /    Eb+
+12      Eb6      /    Eb7
+
+Groove SwingSus
+Cresc mf 4
+
+13       Bb      /    Gb7
+14      Cm7      /    F11     F7
+15     BbM7      /    F11     Bb
+16        /      /      /    F11
+
+Groove SwingPlusSus
+Decresc m 4
+
+17       Bb      /     F7    Bb6
+18        /      /   G7b9
+19       Cm
+20       F7
+
+Groove SwingSus
+
+21       Bb      /    Bb+
+22      Bb6      /     F7
+23      Cm7      /     F7     Bb
+24        /      /     F7
+
+Groove SwingPlus
+Volume mf
+
+25      Cm7      /     F7     Bb
+26        /      /   Bb11    Bb7
+27     EbM7
+28        /    Eb6   Ebm6
+
+Groove Swing
+Decresc f m 4
+
+29       Bb
+30     BbM7
+31      Bb7
+32       Eb
+
+Groove SwingWalk
+Decresc mp 2
+
+33       D7      /      /     Gm
+34        /     C7    F11     F7
+
+RepeatEnding 2
+
+Groove SwingFill
+
+35       Bb
+36      Cm7      /      /     F7
+
+RepeatEnd
+
+Groove SwingEnd
+
+Decresc ppp 2
+
+37       Bb
+38        /  z!
+

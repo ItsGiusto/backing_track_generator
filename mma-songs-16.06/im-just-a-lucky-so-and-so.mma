@@ -1,0 +1,107 @@
+// Im Just A Lucky So And So
+
+Tempo 115
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+    Voice Piano1
+    Harmony OpenBelow
+    Articulate 110
+    Volume f
+    Octave 5
+    Begin Riff
+        8d;e;4g;a;g;
+        4e+;e;g;f;
+        2a;e;
+        1d;
+    End
+End
+
+Swell mp mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat   // for the entire song
+Repeat   // verse 1/2
+
+Groove FoxTrot
+Volume m
+
+5       GM7
+6       CM7
+7       GM7
+8       Dm7      /     G7
+
+Groove FoxTrotSus
+
+9        C7     Gm     A7
+10      Am7      /     D9
+
+RepeatEnding
+
+Groove FoxTrotFill
+Decresc mp 2
+
+11        G      /   E7#9
+12      Am7      /     D7
+
+RepeatEnd
+
+13      GM7      /     C9
+14      GM7
+
+Groove FoxTrotPlus
+Volume m
+
+15      C13
+16      GM7
+17       C9
+18      GM7
+
+Groove FoxTrotSusPlus
+Swell mf 4
+
+19   F#m7b5      /     B7
+20      Em9      /     Bm
+21       A7      /   A7b9
+22      Am7      /     D9
+
+Groove FoxTrot
+Decresc mp 4
+
+23      GM7
+24      CM7
+25        G
+26      Dm7      /     G7
+
+Groove FoxTrotSus
+Cresc m 2
+
+27       C7     Gm     A7
+28      Am7      /     D9
+
+RepeatEnding
+
+Groove FoxTrotFill
+Decresc mp 2
+
+29      GM7      /    Am7
+30     AbM7      /    D7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Tempo *.8 2
+Decresc pp 2
+
+29      GM7      /    Am7
+30     AbM7      /     G6
+
+

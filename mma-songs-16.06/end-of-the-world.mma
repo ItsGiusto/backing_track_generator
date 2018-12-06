@@ -1,0 +1,116 @@
+// (The) End Of The World
+// Pop hit by Skeeter Davis, 1963
+
+Tempo 76
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove Rock128Intro
+Allgrooves Chord-Sus Volume -20
+
+Begin Solo
+   Voice TremoloStrings
+   Articulate 110
+   Octave 5
+   Harmony OpenBelow+8Below
+   Volume f
+   Begin Riff
+      4e;8f;g;2f;
+	  4e;d;2c;
+	  4f;8g;a;4b;a;
+	  1b;
+   End
+End
+
+Cresc mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Groove Rock128
+Volume m
+
+5        Eb
+6        Bb
+7        Cm
+8        Gm
+
+Groove Rock128Sus
+Cresc mf 4
+
+9        Ab      /     Fm
+10       Gm      /     C7
+11       Fm
+12      Bb7
+
+Groove Rock128Plus
+Volume m
+
+13       Eb
+14       Bb
+15       Cm
+16       Gm
+
+Groove Rock128Sus
+Volume mf
+
+17       Ab      /     Fm
+18       Gm      /     C7
+19       Fm      /    Bb7
+20       Eb
+
+Groove Rock128
+Volume mp
+
+21       Ab
+22       Eb
+
+Volume m
+
+23      Bb7
+24       Eb
+
+Groove Rock128SusPlus
+Cresc mf 4
+
+25       Gm
+26       C7
+27       Fm
+28      Bb7
+
+Groove Rock128
+
+Repeat
+Volume m
+
+29       Eb
+30       Bb
+31       Cm
+32       Gm
+
+Groove Rock128Plus
+Decresc mp 2
+
+33       Ab      /     Fm
+34       Gm      /     C7
+
+Groove Rock128SusPlus
+
+Repeatending
+
+35       Fm      /    Bb7
+36       Eb      /    Bb7
+
+RepeatEnd
+
+Groove Rock128End
+Decresc ppp 2
+
+35       Fm      /    Bb7
+36       Eb     z!
+
+

@@ -1,0 +1,108 @@
+// Nobody I Know
+
+// Lennon/McCartney written for Peter and Gordon.
+// This is the same tempo and key as the P&G recording.
+
+Tempo 132
+
+Groove Metronome2-4
+	z * 2
+	
+Groove 8BeatEnd
+Seq 2
+
+// 1 bar intro
+
+      C     / / z!
+
+Groove 8Beat
+
+Repeat
+
+// This is the main verse. It's played 3x
+
+1      C     
+2      Dm7   /    G7    
+3	   C 
+4      Dm7   /    G7    
+5      C     
+6      Bb    /    G7    
+7      D7    
+8      G7    
+9      C     
+10     Em    
+11     Am    
+12     Ab    
+13     C     
+14     Dm7   /    G7    
+15     C     
+
+RepeatEnding
+
+16     Dm    /    G7    
+
+Groove 8Beat1
+
+RepeatEnding
+
+// Bridge, between verse 2 and 3
+
+Groove 8BeatSus
+
+17     Dm    /    E7    
+18     Am    
+19     E7    
+20     Am    
+21     C     
+22     Am    
+23     C     
+24     Dm7   
+25     G7    
+26     C
+27     Dm    /    G7    
+
+Groove 8Beat1
+
+RepeatEnd
+
+// Reprise the verse, but take it up a semitone
+
+Transpose 1
+
+28     Dm    /    G7    
+
+Groove 8Beat
+
+29     C     
+30     Dm7   /    G7    
+31	   C
+32     Dm7   /    G7    
+33     C     
+34     A#    /    G7    
+35     D7    
+36     G7    
+37     C     
+38     Em    
+39     Am    
+40     G#    
+
+
+Groove 8Beat1
+
+Repeat
+
+41     C     
+42     Dm7   /    G7    
+43     C     
+44     Dm    /    G7    
+
+RepeatEnd
+
+Groove 8BeatEnd
+Seq 2
+
+33	/  z!
+
+Cut -2
+
+

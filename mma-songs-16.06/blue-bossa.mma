@@ -1,0 +1,127 @@
+// Blue Bossa
+
+Tempo 150
+Groove Metronome2-4
+	z * 2
+	
+KeySig Eb
+
+
+// 8 bar intro, chords only
+
+Groove BossaNova1Sus
+
+1      Cm7   
+2      /
+3      Fm7   
+4      /
+5      Dm7b5 
+6      G7    
+7      Cm7   
+
+// Create a solo line. We start on the last beat of the
+// 8 bar intro. Note that the RIFFS are set before the
+// REPEAT...this way they are only played the first time.
+
+Mset Melody
+	2.r ; 4g;
+	4.g+ ; 8f+ ; e+ ; 4d+ ; 8+2.c+~ ;
+	~ 4b ; 
+	2a ; 4.g+ ; 8+1f+~ ; 
+	~ <> ; 
+	4.f+ ; 8e+ ; d+ ; 4c+ ; 8+2.bn~ ; 
+	2.r ; 4a ; 
+	2g ; 4.f+ ; 8+1e+~ ; 
+	~ <> ; 
+	4.e+ ; 8d&+ ; c+ ; 4b ; 8+2.a~ ; 
+	~ 4g& ; 
+	4g& ; 8f ; 4b ; 8f ; 4+1a~ ; 
+	~ <> ; 
+	4a ; 8g ; 8+2b ; 
+	4a ; 8b ; 2bn ; 8a ; 
+	1+2.g~ ; 	
+EndMset
+
+Begin Solo
+	Voice Piano1
+	Articulate 80
+	Rtime 10
+	Octave 4
+	Volume mf
+	Begin Riff
+		$Melody
+	End
+End
+
+// Duplicate the melody to a Trumpet, up an octave
+
+Begin Solo-1
+	Voice Trumpet
+	Octave 4
+	Volume m	
+	HarmonyOnly 8Above
+	Begin Riff
+		$Melody
+	End
+End
+
+// Harmony sax line with some vibrato
+
+Begin Solo-2
+	Copy Solo
+	Voice AltoSax
+	Octave 4
+	Volume mf
+	HarmonyOnly OpenAbove
+	MidiVoice { 1 VibratoRate 90; 1 VibratoDepth 70; 1 VibratoDelay 40 }
+	MidiClear 1 VibratoRate 0; 1 VibratoDepth 0; 1 VibratoDelay 0
+	Begin Riff
+		$Melody
+	End
+End
+
+Groove BossaNova
+
+8	Cm7
+
+// Main melody. Repeat 4x (1st time with melody)
+
+Repeat
+
+9      Cm7   
+10     /
+11     Fm7   
+12     /
+13     Dm7b5 
+14     G7    
+15     Cm7   
+16     /
+17     Ebm7  
+18     Ab7   
+19     DbM7  
+20     /
+21     Dm7b5 
+22     G7    
+23     Cm7   
+
+Groove BossaNovaFill
+
+RepeatEnding 3
+
+24     Dm7b5  /    /    G9    
+
+Groove BossaNova
+
+RepeatEnd
+
+25     Dm7b5 
+
+Groove BossaNova1End
+Decresc p 4
+
+26     Dm7b5 
+27     G7    
+28     Cm7   / Dm7b5
+29     Cm7 /    /    z!
+
+

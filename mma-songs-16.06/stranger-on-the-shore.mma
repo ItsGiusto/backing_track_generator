@@ -1,0 +1,129 @@
+// Stranger On The Shore
+
+// Acker Bilk, 1962. His tempo. His key was Bb so we'll transpose up
+
+Tempo 90
+Transpose 3
+
+Groove Metronome2-4
+ z * 2
+ 
+Groove BalladIntro2
+
+If Def WK3000
+   StackValue 5   
+   StackValue SpaceChoir
+Else
+   StackValue 4
+   StackValue  VoiceOohs
+Endif
+
+Begin Solo
+  Voice $_StackValue
+  Octave $_StackValue
+  
+  Begin MidiNote     /// something I played in
+     Adjust=-1536
+     // Bar 1
+     Note 1735 f,b& 60 87
+     Note 1828 f,a 73 108
+     Note 1928 d,g 77 280
+     Note 2198 d,a 101 103
+     // Bar 2
+     Note 2302 g,b 89 666
+     // Bar 3
+     Note 3085 f,d+ 97 136
+     Note 3254 f,c+ 93 94
+     Note 3367 f,b& 86 179
+     Note 3539 d,a 72 118
+     Note 3646 d,g 71 206
+     // Bar 4
+     Note 3832 e&,f 60 642
+  End
+End
+
+
+Cresc p mf 4
+
+1      G     
+2      Am7   
+3      Bm7    
+4      D7    
+
+Repeat
+Groove Ballad
+Volume p
+
+5      G     
+6      Am7   /    D7    
+7      G     /    G7    
+8      C     /    Cm    
+
+Cresc mf 4
+
+9      G     /    Em    
+10     A7    
+11     Am    /    Am7   
+12     D7    
+
+Groove BalladSus
+Volume mp
+
+13     G     
+14     Am7   /    D7    
+15     G     /    G7    
+16     C     /    Cm    
+
+Cresc mf 4
+
+17     G     /    Em    
+18     Bm    /    G7    
+19     C     /    Cm    D7    
+20     G     /    G7    
+
+Groove Ballad1
+
+21     C     
+22     G     
+23     Am7   /    D7    
+24     G     /    G7    
+
+Groove Ballad1sus
+
+25     C     
+26     Bm    
+27     A7    
+28     D7    
+
+Groove Ballad
+Decresc p 8
+
+29     G     
+30     Am7   /    D7    
+31     G     /    G7    
+32     C     /    Cm    
+
+Groove BalladSus
+
+33     G     /    Em    
+34     Bm    /    G7    
+RepeatEnding
+
+35     C     /    Cm    D7    
+36     G     
+
+RepeatEnd
+
+Groove BalladEnd
+Seq 2
+35     C     /    Cm    D7    
+Seq 4
+36     G     z!
+
+Fermata -4 1 400
+
+
+
+
+
+

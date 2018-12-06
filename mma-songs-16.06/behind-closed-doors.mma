@@ -1,0 +1,91 @@
+// Behind Closed Doors (Charlie Rich)
+
+Tempo 100
+KeySig F
+
+Groove Metronome2-4
+     z * 2
+
+Tempo 80
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Articulate 90
+    Octave 5
+    Begin Riff
+       3f;g;a;4.c+;b;
+       4.a;8r;4r;3f;g;a;
+       4c+;;b;;
+       4.a; 
+    End
+End
+
+Groove EasySwingIntro
+
+1          F
+2          F
+3          C
+4          F
+
+Repeat
+Groove EasySwing
+
+5          F
+6         Bb      /     C7
+7          F
+8          /
+
+Groove EasySwingWalk
+
+9          /
+10        Bb
+11         C      /    G/D
+12         C      /     C7
+
+Groove EasySwing
+
+13         F
+14        Bb      / Bbmaj7
+15         F
+16         /
+
+Groove EasySwingWalk
+
+
+17         /      /     Gm
+18        Bb      /     C7
+19         F
+20         /
+
+Groove EasySwingSus
+
+21        Bb      /     C7
+22         F
+23        Bb      /     C7
+24         F
+
+Groove EasySwingWalkSus
+
+25        Bb      /     Am
+26        Gm
+27         /      /      /      C
+28        Gm      /      /     C7
+
+Groove EasySwingSus
+
+29         F
+
+RepeatEnding
+
+Groove EasySwingFill
+
+30        C7
+
+RepeatEnd
+
+Groove EasySwingEnd
+
+31        Bb      /     C9
+32         F     z!
+Fermata -4 1 200
+

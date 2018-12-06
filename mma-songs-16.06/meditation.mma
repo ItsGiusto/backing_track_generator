@@ -1,0 +1,104 @@
+// Meditation
+
+Tempo 140
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+	Voice Clarinet
+	Octave 6
+	Volume mf
+	Harmony 3
+	Articulate 80
+	Begin Riff
+		4.c;8;;;4;
+		4.e;8;;;4;
+		4.g;8;;;4;
+		1g;
+	End
+End
+
+1    C    
+2    Em7  
+3    Dm7  
+4    G7   
+
+Repeat
+Repeat
+Groove BossaNova
+
+5    C    
+6    /    
+7    F#m7 
+8    B7   
+9    C    
+10   /    
+11   Em7  
+12   A7#5 
+
+Groove BossaNova1Sus
+
+13   Dm7  
+14   /    
+15   Fm7  
+16   Fm6  
+17   Em7  
+18   A7#5 
+19   Dm7  
+
+RepeatEnding
+
+Groove BossaNovaFill
+20   G7#5 
+
+RepeatEnd
+
+Groove BossaNovaFill
+21   G7#5
+
+Groove BossaNova
+ 
+22   FM7  
+23   /    
+24   Fm6  
+25   /    
+26   Em7  
+27   Ebdim7 
+28   Dm7  
+29   G7#5 
+
+Groove BossaNovaSus
+
+30   C    
+31   /    
+32   F#m7 
+33   B7   
+34   C    
+35   /    
+36   Em7  
+37   A7#5
+ 
+Groove BossaNova
+
+38   Dm7  
+39   /    
+40   Fm7  
+41   Fm6  
+
+RepeatEnding
+
+42   Em7  /    A7#5 
+43   Dm7  /    G7b9 
+44   C    /    Bb9  
+45   CM7  
+
+RepeatEnd
+Groove BossaNova2End
+
+42   Em7  /    A7#5 
+43   Dm7  /    G7b9 
+44   C    /    Bb9  
+45   CM7 / / z!

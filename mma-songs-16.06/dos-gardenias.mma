@@ -1,0 +1,99 @@
+// Dos Gardenias
+
+Tempo 82
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Harmony OpenBelow+8Below
+    Articulate 110
+    Octave 5
+    Begin Riff
+        4r;8g;c+; e+;c+;e+;c+;
+        2a;43b;c+;d+;
+        8e+;c+;e+;c+;2e+;
+    End
+End
+
+Groove SlowBoleroIntro
+
+1        Cm  
+2        Ab
+3        Eb
+4       Bb7  z 
+
+Repeat
+Groove SlowBolero
+
+5        Cm 
+6        Eb
+7        Cm
+8        Ab
+
+Groove SlowBolero1
+
+9      G7b9      /     Ab
+10       G7
+11       D7
+12       Ab      /     G7
+
+Groove SlowBoleroSus
+
+13       Cm
+14        /
+15       Cm
+16     C7b9
+
+Groove SlowBolero
+
+17       Fm
+18        /
+19       Cm  
+20       Fm      /     G7 
+
+Groove SlowBolero1Sus
+
+21       Cm
+22        /
+23       Cm      /     G7
+24       Cm
+
+Groove SlowBoleroPlus
+
+25       D7
+26        /
+27        G
+28       G7
+
+Groove SlowBoleroSusPlus
+
+29       Cm
+30        /
+31       Cm
+32     C7b9
+
+Groove SlowBolero1Sus
+
+33       Fm
+34        /
+35       Cm
+36       Fm      /     G7
+
+Repeatending
+
+Groove SlowBolero
+
+37       Cm
+38       B&7
+
+RepeatEnd
+Groove SlowBoleroEnd
+
+37       Cm
+49       /  z!
+
+

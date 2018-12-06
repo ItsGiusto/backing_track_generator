@@ -1,0 +1,191 @@
+// Le Gamin De Paris
+
+Tempo 200
+KeySig C
+
+Groove Metronome3
+  z * 2
+
+Set BassRegister 5    // use a higher pitched left hand -- more musette-like
+Groove FrenchWaltzIntro
+
+Begin Solo
+  Voice Accordion
+  Volume mf
+  Articulate 96
+  Harmony Open+8Below
+  Octave 5
+  Begin Riff
+    4f;g;a;
+	4b;c+;d+;
+	2.e+;
+	2.d+;
+	2.+4c+ ~;
+  End
+End
+
+1          C
+2          G
+Seq 2
+3         D7
+4         G7
+5          C
+6          C
+
+Repeat
+Groove FrenchWaltz
+
+7          C
+8          /
+9          /
+10         /
+
+Groove FrenchWaltz1
+
+11       CM7
+12         /
+13         C
+14         /      / C#dim3
+
+Groove FrenchWaltz
+
+15        G7
+16         /
+17         /
+18         /
+
+Groove FrenchWaltz1Sus
+
+19         C
+20     Cdim3
+21        G9
+22        G7
+
+Groove FrenchWaltz
+
+23         C
+24         /
+25         /
+26         /
+
+Groove FrenchWaltz1
+
+27       CM7
+28         /
+29         C
+30    C#dim3
+
+Groove FrenchWaltz
+
+31        G7
+32         /
+33        Dm
+34         /
+
+Groove FrenchWaltz1Sus
+
+35        D9
+36        G7
+37         C
+38         /
+
+Groove FrenchWaltz
+
+39        C7
+40         /
+41         F
+42         /
+
+Groove FrenchWaltz1Sus
+
+43        C7
+44         /
+45         F
+46         /
+
+Groove FrenchWaltz
+
+47        D7
+48         /
+49         G
+50    G#dim3
+
+Groove FrenchWaltz1
+
+51       Am7
+52        D7
+53        G7
+54         /
+
+Groove FrenchWaltz
+
+55         C
+56         /
+57         /
+58         /
+
+Groove FrenchWaltz1
+
+59       CM7
+60         /
+61         C
+62         /      / C#dim3
+
+Groove FrenchWaltzSus
+
+63        G7
+64         /
+65        Dm
+66         /
+
+RepeatEnding
+
+Groove FrenchWaltz1Sus
+
+67        D9
+68        G7
+69         C
+70         /
+
+// Interlude
+
+Groove FrenchWaltzSus
+
+Groove FrenchWaltz2
+
+71         C
+72         /
+73         /
+74         /
+
+Groove FrenchWaltz2Sus
+
+75         /
+76     Cdim3
+77        G7
+78         /
+
+Groove FrenchWaltz2
+
+79         /
+80         /
+81         /
+82         /
+
+Groove FrenchWaltz2Sus
+
+83        D9
+84         /
+85        G7    Dm7 C#dim3
+86        G7
+
+RepeatEnd
+
+Groove FrenchWaltzEnd
+Tempo *.8 4
+Decresc ppp 4
+
+87        D9
+88        G7
+89         C
+90         /     z!

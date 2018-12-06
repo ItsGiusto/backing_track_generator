@@ -1,0 +1,99 @@
+// Down With Love
+
+// From Musical "Hooray For Love", Harburg/Arlen
+// Blossom Dearie sings this at 230bpm. We take it a bit
+// slower :)
+
+Tempo 166
+
+Begin Solo
+	Voice BrassSection
+	Octave 6
+	Harmony Open
+	Accent 1 10
+	Articulate 40
+	Volume  m
+End
+
+Groove Metronome2-4
+	z 
+	z {2.r;8;8f;}
+
+	
+Groove Foxtrot
+
+1      Dm    {2.f;8r;8f;}
+2      G7    {2.g;8r;8f;}
+3      C     {4c+;g;a;b;}
+4	/        {2c+;}
+
+Delete Solo
+
+Repeat
+
+5      Dm    /    G7    
+6      Dm    /    G7    
+7      C     
+8	/
+9      Dm    /    G7    
+10     Dm    /    G7    
+11     C7    
+12	/
+13     F6    
+14     F7    
+15     C6    
+16	/
+17     Dm7   
+18     G7sus 
+19     C6    
+20     G7sus 
+21     Dm    /    G7    
+22     Dm    /    G7    
+23     C     
+24	/
+25     Dm    /    G7    
+26     Dm    /    G7    
+27     C7    
+28	/
+29     F6    
+30     F7    
+31     C6    
+32	/
+
+Groove FoxtrotSus
+
+33     Dm7   
+34     G7sus 
+35     C6    
+36     C9    
+37     F     
+38     /    /    F#dim 
+39     C     
+40     C9    
+41     Am    /    Em    
+42     Am    
+43     D7    
+44     G7    
+
+Groove FoxTrot
+
+45     Dm    /    G7    
+46     Dm    /    G7    
+47     FM7   /    E7    
+48     A7    
+49     Dm7   
+50     D7    /    G7    
+
+RepeatEnding
+
+51     C6    
+52	/
+
+RepeatEnd
+
+Groove FoxtrotEnd
+
+51     C6    
+52	/ / / z!
+
+

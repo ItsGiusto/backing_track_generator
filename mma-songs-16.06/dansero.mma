@@ -1,0 +1,106 @@
+// Dansero
+// I think this is from the musical "High Society"
+
+Tempo 120
+Keysig 1b
+
+Groove Metronome2-4
+	z * 2
+
+Groove ModernJazzIntro
+SwingMode On
+
+Begin Solo
+	Voice MutedTrumpet
+	Volume f
+	Articulate 80
+	Octave 5
+	Begin Riff
+		4f;8b;2+8e;
+		4g;8a;2+8f#;
+		8d;8e;8f;8g;4a;e;
+		4g;2f;
+	End
+End
+
+Cresc mp mf 4
+
+1      Gm7   /    C7    
+2      Cm    /    D7    
+3      G7    /    C7    
+4      F     
+
+Delete Solo
+
+Repeat
+Cresc p mf 8
+
+if def Pass2
+	Groove ModernJazz1
+else
+	Groove ModernJazz
+endif
+
+5      Gm7   /    C7    
+6      FM7   /    F6    
+7      Gm7   /    C7    
+8      FM7   /    F6    
+9      Gm7   /    C7    
+10     Cm    /    D7    
+11     C7    /    C7+   
+12     FM7   /    F6
+
+if def Pass2
+	Groove ModernJazz
+else
+	Groove ModernJazz1
+endif 
+Cresc p mf 8
+  
+13     Gm    /    C7    
+14     FM7   /    F6    
+15     Gm7   /    C7    
+16     FM7   /    F6    
+17     Gm7   /    C7    
+18     Cm    /    D7    
+19     G7    /    C7+   
+20     FM7   /    F6 
+  
+Groove ModernJazzSus
+Volume f
+
+21     A7    /    Adim  
+22     A7    /    Adim  
+23     D9    
+24	/
+25     G7    /    Gdim  
+26     G7    /    Gdim  
+27     C9    
+28     Gm7   /    C7
+  
+Groove ModernJazz
+Volume mf
+
+29     Gm7   /    C7    
+30     FM7   /    F6    
+31     Gm7   /    C7    
+32     FM7   /    F6    
+33     Gm7   /    C7    
+34     Cm    /    D7    
+
+RepeatEnding
+
+35     G7    /    C7+   
+36     FM7   /    F6    
+
+Set pass2
+
+RepeatEnd
+label foo
+Groove ModernJazzEnd
+Tempo -20 2
+Decresc mf p 2
+
+35     G7    /    C7+   
+37     FM7   /    z! / 
+

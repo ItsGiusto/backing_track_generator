@@ -1,0 +1,87 @@
+// Sail Along Silvry Moon
+
+// The first ever platinum record for an instrumental by
+// Billy Vaughn (#5 on the charts for 26 weeks in 1957).
+// Also, Andy Williams, Gen Autry, Chet Atkins, & Bing Crosby.
+
+Tempo 120
+Keysig F
+
+Groove Metronome2-4
+
+ z * 2
+
+Groove FoxtrotIntro
+Begin Solo
+	Voice Piano2
+	Harmony 8Below
+	Cresc p f 4
+	Articulate 70
+	Octave 5
+	Begin Riff
+		4r;8.a;16g#;8.a;16g#;4a;
+		4r;8.a;16g#;8.a;16g#;4a;
+		4r;8.b;16a;8.b;16a;4b;
+		4c+;
+	End
+End
+
+1    F    
+2    Dm   
+3    Gm   
+4    C7   z    
+
+Repeat
+
+Groove FoxtrotPlus
+
+5    F    
+6    /    
+7    C7   
+8    /    
+9    /    
+10   /    
+11   F    
+12   z    
+Groove Foxtrotsus
+13   F    
+14   /    
+15   C7   
+
+Groove FoxTrotPlus
+
+16   /    
+17   /    
+18   /    
+19   F    /    Bb6  
+20   F    F7   
+21   Bb   
+
+Groove FoxtrotsusPlus
+
+22   F    /    F#dim 
+23   C7   /    Gm   C7   
+24   F    /    Am7  F7   
+25   Bb   
+26   F    /    Dm7  G7   
+27   Gm7  
+28   C7   z    
+29   F    
+30   /    
+31   C7   
+32   /    
+33   /    
+34   /    
+
+RepeatEnding
+Groove Foxtrot
+35   F    /    Bb   
+36   F    z    
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+37   F    /    Bb6  
+38   F    z!   
+

@@ -1,0 +1,100 @@
+// Since I Fell For You
+
+Tempo 64
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice Strings
+    Octave 5
+    Harmony OpenBelow
+    Articulate 120
+End
+
+Groove Ballad128Sus
+SwingMode On
+Solo Cresc mp f 4
+Cresc mp mf 4
+
+1      EbM7      /    Cm7  {8r;b-;c;e;!f;4.;}
+2       Fm7      /    Bb9  {8r;b-;c;e;!f;4.;}
+3      EbM7      /    Cm7  {8r;b-;c;e;!f;4.+4 ~;}
+4       Fm9      /    Bb7  {~ 8e;8+2b;} 
+
+Groove Ballad128Intro1
+Solo Decresc ppp 3
+Decresc mp 4
+
+5      Bbm7      /    Eb7  {8r;b;c+;b;4.c+;8b;}
+6      AbM7      /    Db9  {4g;8e;8+4.f;8e;}
+7       Cb9                {4g&;8;e;g;e;g;8+1f~;} 
+8    Bb9sus      /    Bb9  
+
+Repeat
+
+Groove Ballad128
+Volume m
+
+9        Eb      /    Eb6
+10      Ab6      /   Bbm7
+11       Eb      /    Eb6
+12       Ab      /    Ebm
+
+Groove Ballad128Plus
+Swell mf 4
+
+13       Ab      /   Abm6
+14       Gb     F7      /    Bb7
+15       Eb      /    Cm7
+
+RepeatEnding
+
+Groove Ballad128SusPlus
+
+16      Fm7      /    Bb7
+
+RepeatEnd
+
+Groove Ballad128Sus
+
+17       Eb
+
+Groove Ballad128Plus
+Decresc mp 4
+
+18     Ebm7      /    Ab7
+19     Ebm7      /    Ab7
+20     Ebm7    Ab7   Ebm7    Ab9
+21     Bbm7      /   Eb7 
+
+Groove Ballad128
+Cresc m 4
+
+22     Ebm7      /    Ab7
+23     Ebm7      /    Ab7
+24       Eb      /     Gm    Cm7
+25      Fm7     F9    Bb7
+
+Groove Ballad128Sus
+Cresc mf 4
+
+26       Eb      /    Eb6
+27      Ab6      /   Bbm7
+28       Eb      /    Eb6
+29       Ab      /    Ebm
+
+Groove Ballad128
+Decresc mp 2
+
+30       Ab      /   Abm6
+31       Gb     F7      /    Bb7
+
+Groove Ballad128End
+Decresc pp 2
+Tempo *.8 2
+
+32       Eb      /    Cm7
+33       Eb      z!
+

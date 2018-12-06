@@ -1,0 +1,140 @@
+// I Talk To The Trees
+
+Tempo 120
+KeySig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove EasySwingIntro
+
+Allgrooves Plectrum Capo -2
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+	Harmony Open+8Below
+	Octave 6
+	Articulate 90
+	Begin Riff
+        4c;a;g;f;
+		1d;
+		4g;a;b;2c+ ~;
+	End
+End
+
+Cresc pp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove EasySwing 
+Swell m mf 8
+
+5       Gm7      /     C7
+6        Gm      /     C7
+7         F
+8         /      /    Gm7
+
+Groove EasySwingSus
+
+9        C7      /     Gm    Eb7
+10       C7
+11        F
+12        /
+
+Groove EasySwing
+Swell m p 8
+
+13      Gm7      /     C7
+14       Gm      /     C7
+15        F
+16        /      /    Gm7
+
+Groove EasySwingWalk
+
+17       C7      /     Gm    Eb7
+18       C7
+19        F
+20        /      /      /     F7
+
+Groove EasySwingWalkSus
+Volume m
+
+21       Bb
+22        /
+23        F
+24        /      /     Bb      F
+
+Groove EasySwing
+Volume mp
+
+25       Gm      /     C7
+26        /      /     G7
+27        C      /      /     G7
+28        C
+
+Groove EasySwingSus
+Volume p
+
+29      Gm7      /     C7
+30       Gm      /     C7
+31        F
+32        /      /    Gm7
+
+Groove EasySwing
+Volume mp
+
+33       C7      /    Gm7    Eb7
+34       C7
+
+RepeatEnding
+
+Groove EasySwingFill
+
+35        F
+36        /
+
+Groove EasySwingWalk
+Cresc m mf 8
+
+39       C7
+40        /
+41        F
+42        /
+
+43       C7
+44        /
+45        F
+46        /
+
+Groove EasySwingWalkSus
+Cresc m mf 8
+
+47       C7
+48        /
+49        F
+50        /
+
+51       C7
+52        /
+53        F
+
+Groove EasySwingFill
+
+54        /
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc ppp 2
+Tempo *.8 2
+
+35        F
+          /
+
+

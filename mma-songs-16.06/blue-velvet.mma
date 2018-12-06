@@ -1,0 +1,99 @@
+// Blue Velvet
+
+Tempo 90
+KeySig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove RockBalladSusIntro
+
+Begin Solo
+  Voice Piano1
+  Articulate 110
+  Harmony 3
+  Octave 5
+  Volume f
+  Begin Riff
+    8b;d+;b;d+;b;d+;b;d+;
+    8b;d+;b;d+;b;d+;b;d+;
+	8e+;d+;c+;b;4a;b;
+	2c+;
+  End
+End
+
+Cresc mp mf 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove RockBallad1
+Cresc p mf 8
+
+5        Bb
+6        Dm
+7       Cm7      /   F7b9
+8        Bb
+9       Cm7
+10      F13      /     F7   F7#5
+11     BbM7      /   G7b9
+12       Cm      /     F7
+
+Groove RockBallad1Fill
+Decresc p 8
+
+13       Bb
+14       Dm
+15      Cm7      /   F7b9
+16       Bb      /     G7
+17      Cm7
+18      F13      /   F7#5
+19      Fm7
+20     Bb11      /  Bb7b9
+
+Groove RockBallad1Voice
+Swell p f 8
+
+21     EbM7
+22     Ebm7
+23      Dm7      /    Gm7
+24     Bb11      /  Bb7b9
+25     EbM7
+26     Ebm7
+27      Dm7      /   Edim
+28      Cm7      /     F7
+
+Groove RockBallad1Fill
+Cresc m 4
+
+29       Bb
+30       Dm
+31      Cm7      /   F7b9
+32       Bb      /     G7
+
+Groove RockBallad
+
+33      Cm7
+34      F11      /   F7#5
+35      Fm7
+36      Bb9
+37     EbM7
+38       F+
+
+RepeatEnding
+
+39      Bb6      /   G7b9
+40       Cm      /     F7
+
+RepeatEnd
+label foo
+Groove RockBalladEnd1
+Decresc pp 2
+Tempo *.9 2
+
+41      Bb6
+42        /  /  z!
+

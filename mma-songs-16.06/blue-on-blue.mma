@@ -1,0 +1,112 @@
+// Blue On Blue
+
+Tempo 110
+Keysig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove 8BeatIntro
+Begin Solo
+    Voice TremoloStrings
+    Volume f
+    Harmony OpenBelow+OpenAbove
+    Octave 4
+    Articulate 110
+    Rtime 5
+    Rvolume 10
+    Begin Riff
+        4b;d+;2b;
+        4c+;e+;2c+;
+        8!d+;!;4c+;b;4g;
+        2.c+;
+    End
+
+End
+
+
+Swell mp mf 4
+
+1        Bb
+2        Eb
+3        Gm7
+4        Fm
+
+Repeat
+Groove 8Beat
+Volume m
+
+5        Eb
+6        Bb
+7        Eb
+8        Bb
+
+Groove 8Beat1
+Swell mf 4
+
+9        Eb
+10       Bb
+11       Eb
+12        F      /     F7
+
+Groove 8BeatFill
+Cresc p m 1
+
+13       Bb
+
+///////// Start of "B" section
+
+Groove 8BeatSus
+Cresc m mf 4
+
+14       F7      /     Eb     F7
+15       Bb      /     Gm
+16       Eb
+17       Cm
+
+Groove 8BeatSusPlus
+Decresc mp 4
+
+18       F7
+19       Bb
+20       Gm
+21        /
+
+Groove 8BeatFill
+Cresc mp m 1
+
+22       C7
+
+Groove 8Beat1
+Cresc mf 4
+
+23       Eb      /      /     Bb
+24       Eb      /      /     Bb
+25      Cm7
+26       F7      /     Bb
+
+RepeatEnd
+
+//////////////////////////
+/// Play the song 2x. Then play the chorus
+/// 2x with fade for an ending.
+
+Decresc pppp 18
+Repeat
+Groove 8Beat
+5        Eb
+6        Bb
+7        Eb
+8        Bb
+
+Groove 8BeatSus
+
+9        Eb
+10       Bb
+11       Eb
+12        F      /     F7
+Repeatending
+13       Bb
+RepeatEnd
+13       Bb z!
+

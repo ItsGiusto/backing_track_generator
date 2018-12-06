@@ -1,0 +1,140 @@
+// Rosa
+
+Tempo 122
+Keysig G  /// starts in Em, but that's implied
+
+Groove Metronome2-4
+ z * 2
+
+Groove RhumbaIntro
+AllGrooves Chord Voicing Mode=Key
+Cresc mp mf 4
+
+1        Em
+2        Cm
+3        Fm
+4        B7
+
+Groove Rhumba
+Volume m
+
+5        Em
+6    F#m7b5      /     B7
+7        Em
+8    F#m7b5      /     B7
+
+Groove RhumbaSus
+
+9        Em
+10   F#m7b5      /     B7
+11       Em
+12   F#m7b5      /     B7
+
+Groove Rhumba
+Cresc mf 8
+
+13       Em
+14      Am7      /     D7
+15        G
+16       Am      /     D7
+
+Groove Rhumba3
+
+17        G      /     Em
+18       A7      /    Am6     B7
+19       Em
+20      Am7      /   D7#5
+
+Groove Rhumba3Sus
+Cresc m mf 4
+
+21        G      /    GM9
+22      Am7      /   D7#5     D7
+23        G      /    Bm7
+24      Am7      /   D7b9     D7
+
+Groove RhumbaSus
+
+25       G6      /    Am7
+26     G6/B      /   E7b5     E7
+27   Am7(add11)
+28       D7      /  Bm7b5     E7
+
+Groove Rhumba
+Decresc mp 8
+
+29       Am
+30    Bm7b5      /     E7
+31       Am
+32        /
+
+Groove RhumbaSus
+
+33       A7
+34        /
+35      Am7
+36       D7      /     D7
+
+Groove Rhumba1
+Volume m
+
+37        G      /    GM9
+38      GM7
+39       G6
+40        /
+
+Groove Rhumba1Sus
+
+41        G
+42       Dm      /     G7
+43        C      /     C+
+44       C6      /  Bm7b5     E7
+
+Groove Rhumba3Sus
+Cresc mf 4
+
+45       Am      /      /   Am7/G
+46    F9#11
+47        G
+48      GM7      /     G6
+
+Groove Rhumba1
+Decresc mp 8
+
+49        G      /     Em
+50   Am7(add11)      /  D13b9
+51        G
+52      Am7      /   D7b9     D7
+
+Groove Rhumba1Sus
+
+53        G      /    GM9
+54        /
+55       G6
+56        /
+
+Groove RhumbaSus
+Volume m
+
+57      GM9
+58      Dm7      /     G7
+59        C      /     C+
+60       C6      /  Bm7b5     E7
+
+Groove Rhumba
+Decresc mp 4
+
+61       Am
+62    F9#11
+63        G
+64      GM7      /     G6
+
+Groove RhumbaEnd
+Decresc ppp 4
+
+65        G      /     Em
+66      A13     A9     D7
+67        G
+68        /     z!
+
+Cut -2

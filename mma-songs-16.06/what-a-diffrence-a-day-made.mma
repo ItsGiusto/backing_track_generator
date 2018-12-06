@@ -1,0 +1,76 @@
+// What A Diffrence A Day Made
+
+Tempo 110
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice Piano2
+	Volume f
+	Harmony 3
+	Octave 5
+	Articulate 90
+End
+	
+	
+Keysig 1b
+		
+Groove Rhumba
+Chord SeqRnd Off
+
+1      F     {4r;8a;;3+3c+;a;c+;}
+2      Dm    {4.d+;2+8;}
+3      Gm    {3+3r;g;a;b;c+;d+;}
+0      C7 / z   {1c+;}
+
+Delete Solo
+
+Repeat
+Groove RhumbaSus
+
+4      F
+5      Gm7   
+6      C7    
+7      F     
+8      F/A
+9      Gm7   
+10     C7    /    C7#5  
+11     F     
+12	/
+13     Em7   
+14     A7    
+15     Dm7   
+16	/
+17     G7    
+18	/
+19     Gm7   
+20     C7    z     
+
+Groove Rhumba1
+
+21     Gm7   
+22     C7    
+23     F     
+24     F/A   
+25     Gm7   
+26     C7    /    C7#5  
+27     Cm7   
+28     F7    
+29     BbM7  
+30     Bbm7  
+31     F     
+32     Abdim 
+33     Gm7   
+34     C7    
+
+RepeatEnding
+
+35     F     
+
+RepeatEnd
+Groove RhumbaEnd1
+
+35     F     
+36	/ / z!
+

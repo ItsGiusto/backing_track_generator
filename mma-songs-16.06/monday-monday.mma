@@ -1,0 +1,113 @@
+// Monday Monday
+
+Tempo 106
+Keysig C
+
+Seqclear  /// just the melody for the intro (odd, 5 bars!)
+
+Begin Solo
+    Voice VoiceOohs
+    Articulate 120
+    Octave 5
+    Volume mf
+    Harmony OpenBelow+8Below
+    Begin Riff
+        4b;2c+;
+        4b;8c+;4;b;
+        4r;b;2c+;
+        4b;8c+;4;b;
+        4r;b;2c+;
+    End
+End
+
+Cresc mp ff 5
+
+1         G
+2         /
+3         /
+4         /
+
+5         /
+
+Repeat
+Repeat
+Groove FolkRock
+Volume m
+
+Solo Decresc mf mp 1
+6         GzD G   {4b;8r;4c+;4b;4g~;}
+7         /
+8         /
+9         /
+
+Groove FolkRockSus
+Volume mf
+
+10        /
+11        /
+12        /
+13        F
+
+Groove FolkRockPlus
+Volume f
+
+14        /
+15       Bb
+16        /
+17        D
+
+Groove FolkRockSusPlus
+Decresc m 4
+
+18        /
+19        G
+20        /
+
+Groove FolkRockFill
+RepeatEnding
+
+21        /
+
+RepeatEnd
+
+22        /
+
+Groove FolkRock
+Cresc mp mf 4
+
+23        /
+24       Ab
+25        /
+26       F6
+
+Groove FolkRockPlus
+Volume f
+
+27        /
+Decresc m 3
+28       Ab
+29        /
+30        F
+
+Groove FolkRockSus
+
+31        D
+32        G
+
+RepeatEnd   /// do whole piece 2x
+
+// This is the fade ending, just a copy of the 1st 8 bars
+
+Groove FolkRockSus
+AdjustVolume Ratio=5
+Decresc pppp 8
+
+6         GzD G
+7         /
+8         /
+9         /
+
+10        /
+11        /
+12        /
+13        F

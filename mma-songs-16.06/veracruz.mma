@@ -1,0 +1,151 @@
+// Veracruz (Agustin Lara)
+
+Tempo 110
+Keysig G Minor
+
+Groove Metronome2-4
+ z * 2
+
+Groove RhumbaIntro
+
+Begin Solo
+    Voice NylonGuitar
+    Octave 5
+    Articulate 110
+    Harmony OpenAbove+OpenBelow
+    Volume mf
+    Mallet Rate=8 Decay=-15
+    Begin Riff
+       2d+;b;
+       8c+;b;a&;b;a;b;a;g;
+       4b;g;en;g;
+       8.g;
+    End
+End
+
+/// Add a click to the first beat of every bar so we
+/// may be able to play this bugger in time.
+Begin Drum-click
+    Tone OpenTriangle
+    Volume f
+    Sequence {d1}
+    trigger beats=1   Sticky=true
+End
+
+Swell mp mf 4
+
+1        Gm
+2        Fm
+3        Em&5
+4        Dm11
+
+Groove Rhumba
+DeCresc m mp 4
+
+5        Gm
+6     Am7b5      /     D7
+7        Gm      /   Gm7/F
+8        Eb      /     D7
+
+Groove RhumbaSus
+Cresc m 4
+
+9        Gm
+10    Am7b5      /     D7
+11       Gm
+12        /      /      /     C7
+
+Groove Rhumba1
+Cresc mf 4
+
+13        F
+14       F7
+15       Bb
+16        /
+
+Groove Rhumba
+Decresc mp 4
+
+17       D7
+18        /
+19        G
+20      Am7      /     D7
+
+Label Sign
+
+Groove Rhumba1Sus
+Cresc m 2
+
+21        G
+22       G6
+23        G
+24       G6
+
+Groove Rhumba
+Cresc mf 2
+
+25       D7
+26      Am7      /     D7
+27        /
+28      Am7
+
+Groove RhumbaSus
+Volume m
+
+29       D7
+30        /      /      /   D7#5
+31       G6
+32        G
+
+Groove Rhumba1Sus
+Cresc mf 4
+
+33      Dm9
+34       G7
+35        /
+36        /      /      /   G7#5
+
+Groove Rhumba
+Decresc m 2
+
+37       C6
+38        /
+39       Cm
+40        /
+
+Groove Rhumba1
+Decresc mp 2
+
+41        G
+42      GM7      /     G6
+43      Am7
+
+If Def Coda
+  Goto Coda
+Endif
+
+44       D7
+
+Groove RhumbaSus
+
+45        G
+
+Groove RhumbaTriple
+
+46        /
+
+Set Coda
+Goto Sign
+
+Label Coda
+
+47       D7
+
+Groove RhumbaEnd
+Seq 2
+Decresc ppp 3
+
+48        G
+49        /
+50        / z!
+cut -2

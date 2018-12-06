@@ -1,0 +1,113 @@
+// I Let A Song Go Out Of My Heart
+
+Tempo 120
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+Begin Solo
+  Voice Piano1
+  Octave 5
+  Harmony OpenBelow
+  Volume ff
+  Articulate 90
+  Begin Riff
+     8e;f;e;2e+;
+	 8e+;d+;e+;2c+;
+	 43f+;e+;c+;a;f;a;
+	 1b;	 
+  End
+End
+
+SwingMode On
+Cresc pp m 4
+
+1        Eb
+2        Cm
+3       Fm7
+4       Bb7
+
+Repeat
+Groove BigBand
+Volume m
+
+5        Eb      /     Ab
+6       Eb6
+7       Gm7      /     C9
+8       Gm7      /     C9
+
+Groove BigBandPlus
+Volume mf
+
+9       Fm7     Cm    Fm7  F#dim
+10       Eb      /     Ab
+11       Eb      /     Cm
+12    Fm7b5      /    Bb7
+
+Groove BigBand
+Volume m
+
+13       Eb      /     Ab
+14      Eb6
+15      Gm7      /     C9
+16      Gm7      /     C9
+
+Groove BigBandSus
+Cresc mf 4
+
+17      Fm7     Cm    Fm7  F#dim
+18       Eb      /     Ab
+19       Eb      /    Db6    Eb6
+20        /    Gm7      /   Gbm7
+
+Groove BigBand1Sus
+Decresc m 4
+
+21      Fm7
+22        /    Bb7
+23     EbM9
+24        /    Gm7   AbM7   G7b9
+
+Groove BigBand1
+Volume mp
+
+25       Cm   A7b5    Ab7   G7#5
+26      Gb7
+27      B13      /   B9#5
+28    Bb9#5
+
+Groove BigBand
+Volume m
+
+29       Eb      /     Ab
+30      Eb6
+31      Gm7      /     C9
+32      Gm7      /     C9
+
+Groove BigBandSus
+Decresc mp 2
+
+33      Fm7     Cm    Fm7  F#dim
+34       Eb      /     A&
+
+
+RepeatEnding
+Cresc m 1
+
+35       Eb      /  Bb7b9
+
+Groove BigBandFill
+
+36       Eb      /    Bb7
+
+
+RepeatEnd
+Groove BigBandEnd
+Tempo *.7 2
+Decresc p 2
+
+35       Eb      /  Bb7b9
+37       Eb   Abm6    Eb6  z!
+

@@ -1,0 +1,116 @@
+// Dipsy Doodle
+
+Tempo 160
+Keysig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+    Voice Trumpet
+    Volume ff
+    Octave 5
+    Harmony OpenBelow+8Below
+    Articulate 60
+    Begin Riff
+        4b;;8;4.d+;
+        4b;;8g;4.f;
+        8r;4b;8a;g;a;b;c+;
+        8d+;4f;4b;
+    End
+End
+
+Groove BigBandintro
+
+Cresc p mf 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7  Bb z!@4.5
+
+
+Repeat
+Repeat
+Groove BigBand
+Volume m
+
+5        Bb
+6         /
+7         /
+8         /
+
+Groove BigBandPlus
+Cresc mf 4
+
+9        Eb
+10        /
+11       Bb
+12        /      /     F7
+
+Groove BigBandSus
+Decresc mp 3
+
+13       Bb
+14        /
+15       C7
+
+RepeatEnding 
+Groove BigBandFill
+16       F7      /     Bb
+RepeatEnd
+16       F7      /     Bb
+
+Groove BigBandSusPlus
+Volume mf
+
+17      Fm7      /    Bb7
+18       Eb
+19       Fm7     /    Bb7
+20       Eb
+
+Groove BigBandSus
+Volume f
+
+21      Gm7      /     C7
+22        F
+23        /      /     Eb
+24       F7
+
+Groove BigBand
+Volume m
+
+25       Bb
+26        /
+27        /
+28        /
+
+Groove BigBandPlus
+Swell f 4
+
+29       Eb
+30        /
+31       Bb
+32        /      /     F7
+
+RepeatEnding
+Groove BigBandSusPlus
+Decresc mp 4
+
+33       Bb
+34        /
+35       C7
+
+Groove BigBandFill
+
+36       F7      /     Bb
+
+Repeatend
+
+Groove BigBand2End
+Decresc pp 4
+
+33       Bb
+34        /
+35       C7
+36       F7      /     Bb z!

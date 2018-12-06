@@ -1,0 +1,102 @@
+// Bogalusa Strut
+
+Tempo 180
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingIntro
+Begin Solo
+    Voice Piano2
+    Volume f
+    Articulate 80
+    Harmony OpenBelow+OpenAbove
+    Octave 5
+    Begin Riff
+        2c+;a;
+        2g;e;
+        8e;d;e;4g;8e;4d;
+        2c;
+    End
+End
+
+1         F      /  F#dim
+2         C      /     A7
+3        D7      /     G7
+4         C      /     C7
+
+Repeat
+Groove Swing
+
+5         F
+6        /  /  F#dim
+7         C
+8         /      /     C#dim
+
+Groove SwingPlus
+
+9         Dm7
+10        G7
+11        C
+12        /      /  C7
+
+Groove Swing
+
+13        F
+14        /      /  F#dim
+15        C
+16        /      /  C#dim
+
+Groove SwingPlus
+
+17      Dm7
+18       G7
+19        C      /     F7
+20        C      /  C#dim
+
+Groove SwingSus
+
+21      Dm6
+22       G7
+23        C
+24        /      /  C#dim
+
+Groove SwingPlusSus
+
+25      Dm6
+26       G7
+27        C
+28        /      /  C#dim
+
+Groove Swing
+
+29      Dm6
+30       G7
+31        C
+32        /      /     C7
+
+Groove SwingPlus
+
+33        F      /  F#dim
+34        C      /     A7
+
+Groove SwingFill
+
+35       D7      /     G7
+36        C
+
+
+RepeatEnd
+
+Groove SwingEnd
+
+37        F      /  F#dim
+Seq
+38        C      /     A7
+Seq
+Drum-snare Riff D1234
+39       D7      /     G7
+40        C     z!
+
+

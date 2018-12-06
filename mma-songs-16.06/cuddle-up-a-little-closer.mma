@@ -1,0 +1,73 @@
+// Cuddle Up A Little Closer
+
+Tempo 160
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove EasySwingIntro
+Begin Solo
+ Voice Banjo
+ Volume m
+ Mallet rate=32 decay=-3
+ Harmony Open
+ Articulate 85
+ Rtime 5
+ Octave 5
+ Begin Riff
+   2+8c+;8b;c+;b;
+   4e+;c+;b;a;
+   2d+;4e+;f+;
+   1g+;
+ End
+End
+
+Cresc p m 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove EasySwing
+
+5         C
+6         /
+7         /      /  Ebdim
+8        G7
+
+Groove EasySwingWalk
+
+9        G7
+10        /
+11        /      /     G+
+12        C
+
+Groove EasySwingSus
+
+13       A7
+14       D7
+15       G7
+16    G#dim      /     Am
+
+Groove EasySwingFill
+
+17       D7
+18    Ebdim      /      C
+
+RepeatEnding 3
+
+19       D7      /     G7
+20        C     /      G7
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc ppp 2
+Tempo *.8 2
+
+19       D7      /     G7
+20        C   /  z!
+

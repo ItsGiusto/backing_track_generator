@@ -1,0 +1,109 @@
+// Snuggled On Your Shoulder
+// Julie London, 1957
+
+Tempo 70
+
+Groove Metronome2-4
+ z * 2
+
+Groove StringBalladIntro
+Begin Allgrooves 
+    Chord-Voice Volume m
+    Bass Volume m
+End
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Harmony OpenBelow+OpenAbove+8Below
+    Octave 5
+    Articulate 110
+    Begin Riff
+        4.f;8g;2a;
+        4e;f;2g;
+        4.d;8f;4.a;8d+;
+        1c+;
+    End
+End
+
+Swell mp m 4
+1         F
+2         Em
+3         Dm
+4         C7 / / z!
+
+
+Groove StringBalladStrum
+Repeat
+Cresc mp mf 4
+
+5        C7
+6         /
+7         F      /   Fdim
+8         F
+
+Groove StringBalladVoiceStrum
+Decresc m 4
+
+9        C7
+10        /
+11        F      /    Bbm
+
+RepeatEnding
+
+12        F
+Groove StringBalladVoice
+
+RepeatEnd
+
+13        F      /     E7
+
+Repeat
+
+Groove StringBalladPlus
+Cresc p m 4
+
+14       Am
+15       E7
+16       Am
+17       F7      /     E7
+
+Groove StringBalladVoicePlus
+Swell m mf 4
+
+18       Am
+19       E7
+20       Am      /     D7
+21      Gm7      /     C7
+
+
+Groove StringBalladStrumPlus
+
+Decresc mp 4
+
+22       C7zC C7@1.1
+23        /
+24        F      /   Fdim
+25        F
+
+
+Groove StringBalladVoice
+
+26       C7
+27        /
+
+RepeatEnding
+
+28        F      /    Bbm
+29        F      /    E7
+
+RepeatEnd
+
+Groove StringBalladEnd
+Decresc ppp 2
+
+28        F      /    Bbm
+29        F      z!
+
+
+

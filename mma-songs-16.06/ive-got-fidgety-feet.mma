@@ -1,0 +1,100 @@
+// Ive Got Fidgety Feet
+
+Tempo 180
+KeySig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+Begin Solo
+  Voice BrassSection
+  Volume f
+  Articulate 80
+  Octave 5
+  Harmony OpenBelow
+  Begin Riff
+    2e+;b;
+	8e+;d+;4c+;8d+;c+;4b;
+	4c+;a;8c+;;4a;
+	2b;		
+  End
+End
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove BigBand
+
+5       Bb7
+6         /      /    Gm7
+7         /
+8       Bb7
+
+Groove BigBandSus
+
+9        C7
+10        /      /    Am7
+11        /
+12        C
+
+Groove BigBandPlus
+
+13      Fm7
+14       Bb
+15       Eb
+16      Ebm
+
+Groove BigBandSus
+
+17        G
+18        /
+19      GM7
+20        /      /    F#m
+
+Groove BigBandSusPlus
+
+21       Fm      /    Bb7
+22        /      /    Gm7
+23        /
+24       Bb
+
+Groove BigBand
+
+25     Ebm9
+26        /
+27        /
+28      Ab7
+
+Groove BigBandPlus
+
+29        Bb7    /   Gm7
+30         /    /   Abm7
+31       Gm      /      /      Gm7
+32        /
+
+Groove BigBandSus
+
+33       Ebm      /     C7
+34      Fm7      /    Bb7
+
+RepeatEnding
+
+35       Eb
+
+Groove BigBandFill
+
+36        /     /   Bb7
+
+RepeatEnd
+
+Groove BigBandEnd
+Tempo *.9 2
+Decresc ppp 2
+
+35       Eb
+36        /   / z!
+

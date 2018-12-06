@@ -1,0 +1,97 @@
+//  Wayward Wind, The (1956)
+
+Tempo 128
+Keysig D
+
+Groove Metronome2-4
+   z * 2
+
+Groove BalladIntro
+Scale Sequence -
+Begin Solo
+    Voice FretlessBass
+    Octave 4
+    Articulate 120
+    Volume ff
+    Begin Riff
+        4d;2.f;
+        4r;8d;;4e;f;
+        4a;2.d;
+        4a;
+    End
+End
+
+Swell mp f 4
+
+1         D
+2        Bm
+3        Em
+4        A7
+
+Repeat
+
+Groove Ballad
+Volume m
+
+5         D
+6        D7
+7         G
+8        Gm
+
+Groove Ballad1
+Cresc mf 4
+
+9         D
+10        /
+11       A7
+12        /
+
+Groove Ballad
+
+13      D11
+14       D7
+15        G
+16       Gm
+
+Decresc m 2
+
+17        D
+18       A7
+
+RepeatEnding 2
+
+19        D
+20        /
+
+Groove BalladSus
+Cresc f 8
+
+22        /
+23        /
+24        /
+25        /
+
+Groove Ballad1Sus
+
+26        /
+27        /
+28       A7
+29        /
+
+Decresc m 2
+
+30        D
+Groove BalladFill
+31        /
+
+RepeatEnd 
+
+Groove BalladEnd
+Scale Sequence -
+Seq 3
+Decresc ppp 2
+Tempo *.9 2
+
+19        D
+20        /    z!
+

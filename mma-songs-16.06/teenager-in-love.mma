@@ -1,0 +1,158 @@
+// Teenager In Love
+
+// Dion & The Belmonts. This is their tempo, but they
+// did it Db (or my cd is badly tuned.)
+
+Tempo 160
+
+Groove Metronome2-4
+	   z * 2
+
+// Modify the '2' changing the jazzguitar to sax (we leave 2Sus alone)
+Groove SoftRock2
+Begin Arpeggio
+  Voice TenorSax
+  Articulate 80
+  Harmony Open
+  Octave -1
+End
+DefGroove SoftRock2
+
+Groove SoftRockIntro
+Begin Solo
+	  Voice ChoirAahs
+	  Harmony OpenAbove
+	  Cresc mp mf 8
+	  Octave 4
+	  Articulate 110
+	  Begin Riff
+	    2e;g;
+		2e;a;
+		2f;a;
+		4g;a;2b;
+		2e;g;
+		2e;a;
+		2f;a;
+		1g;
+	  End
+End
+
+Swell p mf 8
+
+1          C
+2         Am
+3          F
+Seq 3
+4         G7
+Seq
+5          C
+6         Am
+7          F
+8         G7
+
+Begin Solo
+	Voice FretlessBass
+	Harmony None
+	Volume f
+	Octave 4
+	Articulate 70
+End
+
+Repeat
+Groove SoftRock
+Volume m
+
+9          C
+10        Am
+11         F
+12        G7
+
+Groove SoftRock2
+Decresc mp 4
+
+13         C
+14        Am
+15         F
+16        G7
+
+Groove SoftRockSus
+Cresc f 8
+
+17         C
+18        Am
+19         F
+20        G7
+
+Groove SoftRock2Sus
+
+21         C      z    {4r;c+;;b;}
+22        Am           {2a;4a;g;}
+23         F           {2f;4;;}
+24        G7           {1g;}
+
+RepeatEnd
+
+Repeat
+
+Groove SoftRock1Sus
+Volume mf
+
+25         F
+26        G7
+27         F
+28        G7
+
+Groove SoftRockSus
+Volume m
+
+29         F
+30        G7
+31         F
+32        G7
+
+Groove SoftRock
+Decresc mp 4
+
+33         C
+34        Am
+35         F
+36        G7
+
+Groove SoftRock2
+
+37         C
+38        Am
+39         F
+40        G7
+
+Groove SoftRock
+Cresc mf 4
+
+41         C
+42        Am
+43         F
+44        G7
+
+Groove SoftRock1Sus
+Decresc m 4
+
+45         C      z    {4r;c+;;b;}
+46        Am           {2a;4;g;}
+47         F           {2f;4;;}
+48        G7           {2g;}
+
+Repeatending
+
+49         C
+
+Groove SoftRockFill
+
+50        G7
+
+RepeatEnd
+
+Groove SoftRockEnd
+
+49         G7   C
+50         /    z!
+

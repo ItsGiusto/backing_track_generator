@@ -1,0 +1,112 @@
+// From the music movie "Royal Wedding" (1951)
+
+Tempo 62
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove SlowJazz1Intro
+
+Begin Solo
+    Voice Piano2
+    Articulate 120
+    Harmony OpenBelow
+    Octave 5
+    Volume f
+    Begin Riff
+       4c+;g;e;c;
+       4a;e;4.c;8a-;
+       8b-;c;d;e;f;g;a;b;
+       1g;
+    End
+End
+
+Swell mp mf 4
+
+1         C
+2        Am
+3        Dm
+
+Begin Arpeggio
+     Sequence {1 4 90; 2 4 80; 3 4. 70; 4 4 60}
+     Direction Down
+     Articulate 150
+     Volume f
+     Octave 6
+     Harmony None
+     Ornament type=3After Beats=1,2 Duration=75 Place=Above
+End
+
+4        G7
+
+Groove SlowJazz1
+Cresc mp m 4
+
+5       CM7      /    Am7
+6       Dm7      / G7sus4
+7       CM7      /    Am7
+8       Dm7      /     G7
+
+Groove SlowJazz1Sus
+Cresc mf 4
+
+9       CM7      /    Am7
+10   F#m7b5      /     B7
+11      Em7      /    Am7
+12      Dm7      /     G7
+
+Groove SlowJazz1Walk
+Decresc m 4
+
+13      CM7      /    Am7
+14      Dm7      / G7sus4
+15      CM7      /    Am7
+16      Dm7      /     G7
+
+Groove SlowJazz1WalkSus
+Decresc mp 4
+
+17      CM7      /    Am7
+18   F#m7b5      /     B7
+19      Em7     A7    Dm7     G7
+20      CM7
+
+Groove SlowJazz
+Volume m
+
+21    Bm7b5      /   E7#5
+22    Am6
+23    Bm7b5      /     E7
+24      Am7
+
+Groove SlowJazzSus
+Cresc mf 4
+
+25    Am7b5      /   D7 
+26     Gm6 
+27    Am7b5      /     D7
+28      Dm7      /     G7
+
+Groove SlowJazz1
+Decresc m 4
+
+29      CM7      /    Am7
+30      Dm7      / G7sus4
+31      CM7      /    Am7
+32      Dm7      /     G7
+
+Groove SlowJazz1Sus
+Decresc mp 2
+
+33      CM7      /    Am7
+34   F#m7b5      /     B7
+
+
+Groove SlowJazzEnd
+Decresc pp 2
+
+35      Em7     A7    Dm7     G7
+36      CM7    / z!
+
+

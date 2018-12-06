@@ -1,0 +1,138 @@
+// No Other Love (adp. Chopin op. 10, no. 2)
+// Jo Stafford, 1950.
+
+Tempo 136
+Keysig c
+
+Groove Metronome2-4
+ z * 2
+
+Groove JazzRhumbaIntro
+
+Begin AllGrooves
+    Begin Bass
+       Articulate 60
+       Volume mp
+    End
+    Begin Walk
+       Articulate 60
+       Volume mp
+    End
+    Arpeggio Voice SteelDrums
+End
+
+Begin Solo
+    Voice SteelDrums
+    Mallet Rate=16 Decay=-4
+    Volume mf
+    Articulate 110
+    Octave 6
+    Harmony Open8Below
+    Begin Riff
+       4c+;g;a;g;
+       4a;e;f;e;
+       4f;d;e;d;
+       1g;
+    End
+End
+
+Swell mp m 4
+1         C
+2        Am
+3        Dm
+Bass Riff 1 4 5 90; 2 4 4 80; 3 4 3 70; 4 4 2 60; 
+4        G7
+
+
+Repeat
+Groove JazzRhumba
+Volume m
+
+5         C      /    CM7
+6        G7
+7        G6       G7@4.5
+8       CM7
+9         /   Csus     C9
+
+Groove JazzRhumbaSus
+Cresc mf 4
+
+10       G7
+11     Csus      /    CM7
+12       G7
+13        /     G6      G7@4.5
+
+Groove JazzRhumbaSusPlus
+Cresc m mf 6
+
+14        C
+15       C7
+16        F
+17        /      /      /      G
+18       G7
+19       D7
+20       G7
+
+Groove JazzRhumba
+Volume m
+
+21      CM7
+22       G7
+23        /     G6     G7@4.5
+24      CM7
+25        /   Csus
+
+Groove JazzRhumbaPlus
+Decresc mp 4
+
+26        F      /      /     F9
+27        C
+28       G7
+29        /     G6      G7@4.5
+
+Groove JazzRhumbaSus
+Cresc f 5
+
+30        C
+31       C7
+32        F      /    FM7
+33       E7
+34     C6/E      /     C+
+
+Groove JazzRhumba
+Volume m
+
+35       D7
+36     F#m6
+37        C
+38        /
+
+Groove JazzRhumbaPlus
+Volume mf
+
+39        G
+40       Am
+
+Decresc mp 2
+
+41      CM7
+42        F
+
+RepeatEnding
+
+Groove JazzRhumbaFill
+seq 3
+43      CM7      /      /     G7
+44        C     /       G7
+
+RepeatEnd
+
+Groove JazzRhumbaEnd
+Decresc pp 2
+
+43      CM7      /      /     G7
+44        C      z!
+
+
+
+

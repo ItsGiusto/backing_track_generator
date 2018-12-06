@@ -1,0 +1,143 @@
+// Surrey With The Fringe On Top
+
+Tempo 150
+
+Groove Metronome2-4
+  z * 2
+
+Groove ChaChaIntro
+
+Begin Solo
+  Voice Trumpet
+  Octave 5
+  Volume ff
+  Harmony Open+8Below
+  Articulate 80
+  Begin Riff
+    4g;8r;g;4a;4r;
+	4b;8r;b;b;a;4g;
+	4b;8r;b;b;a;4b;
+	1d+;
+  End
+End
+
+Begin Solo-2
+  Voice Flute
+  Octave 5
+  Volume mf
+  Harmony Open
+  Articulate 95
+  Begin Riff
+     2g;b;
+	 2b;d+;
+	 2b;d+;
+	 1a+;
+  End
+End
+
+Swell m f 4
+1          G
+2          /
+3          /
+4          D7
+
+Repeat
+Groove ChaCha
+Volume m
+
+5          G      /    GM7
+6         G6      /      G
+7          G      /    GM7
+8         G6      /    GM7
+
+Groove ChaCha1
+Cresc mf 4
+
+9          G      /    GM7
+10        G6      /      G
+11       Em7      /      /     A9
+
+Groove ChaChaFill
+
+12        D7
+
+Groove ChaChaSus
+Volume mp
+
+13         G      /    GM7
+14        G6      /      G
+Cresc mf 2
+15         G      /    GM7
+16        G6      /    GM7
+
+Groove ChaCha1Sus
+Volume m
+
+17         G      /    GM7
+18        G6      /      G
+19       Em7      /      /     A9
+
+Groove ChaChaFill
+
+20       Am7    /   D7
+
+Groove ChaChaSus
+Volume mp
+
+21        Dm    /    G7
+22         CM7 /    Am7
+Volume m
+23       Dm7      /     G7
+24         CM7
+
+Groove ChaCha1Sus
+Cresc mf 4
+
+25        A7
+26         D     /    Bm7
+27       Em9      /     A7
+
+Groove ChaChaFill
+
+28       Am7      /     D7
+
+Groove ChaCha
+Volume m
+
+29         G      /    GM7
+30        G6      /      G
+31         /      /    GM7
+32        G6     /      G
+
+Groove ChaCha1
+Cresc mf 4
+
+33         /     /    GM7
+34        C6      /      G
+35        Am      /     E7
+36        Am      /    Bdim3  Am/C
+
+Groove ChaCha
+Decresc p 2
+
+37         G/D
+38        Am      /     D7
+
+RepeatEnding
+
+39         G6     /      C
+
+Groove ChaChaFill
+
+40         G      /      D7
+
+RepeatEnd
+
+Groove ChaChaEnd
+Tempo *.8 2
+Decresc ppp 2
+
+39         G6     /      C
+40         G      /      z!
+
+

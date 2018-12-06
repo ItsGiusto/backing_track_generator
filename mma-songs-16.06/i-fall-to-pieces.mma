@@ -1,0 +1,108 @@
+// I Fall To Pieces
+
+// A #12 top 40 and a #1 country hit for Patsy Cline in 1961.
+
+Tempo 100
+KeySig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove CountryBluesSus
+
+Begin Solo
+    Voice Piano1
+	Volume ff
+	Articulate 110
+	Harmony OpenBelow+8Below
+	Octave 5
+	Begin Riff
+	   43c+;;;2;
+	   4b;a;g;a;
+	   4c+;b;a;f;
+	   1g;
+    End
+End
+
+Cresc mp mf 4
+
+1          F
+2         Bb
+3          F
+4         C7      /      z
+
+Repeat
+
+Groove CountryBlues
+Volume m
+
+5          F
+6          Bb
+7         C7
+8          /      /      C      B
+
+Groove CountryBluesSus
+Volume mp
+
+9         Bb
+10        C7
+11         F
+12         Gm7  / C7
+
+Groove CountryBluesWalk
+Cresc m 4
+
+13         F
+14         Bb
+15        C7
+16         /      /      C      B
+
+
+17        Bb
+18        C7
+Groove CountryBlues1Walk
+19         F
+20         /
+
+Groove CountryBluesSus
+Volume mp
+
+21        F7
+22         /
+23        Bb
+24         /
+25        C7
+26         /
+Groove CountryBlues1Sus
+27         F
+28         /
+
+Groove CountryBluesWalkFill
+Cresc m 4
+
+29        Bb
+30        C7
+31         F
+32         /
+
+Groove CountryBluesWalkSus
+Decresc mp 4
+
+33        Bb
+34        C7
+35         F
+
+Repeatending
+
+Groove CountryBluesFill
+
+36         /
+
+RepeatEnd
+
+
+Groove CountryBluesEnd
+
+37         /      /     z!
+
+

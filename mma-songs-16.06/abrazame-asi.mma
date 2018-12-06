@@ -1,0 +1,95 @@
+// Abrazame Asi
+
+Tempo 84
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove SlowBoleroIntro
+
+Begin Solo
+	Voice Strings
+	Articulate 90
+	Volume m
+	Harmony 3
+	Octave 6
+	Begin Riff
+		3+3e;;;4g;f;
+		4c;2.e;
+		3+3f;;;4a;g;
+		4d;2.f;
+	End
+End
+
+1        Eb
+2       Cm7
+3        Fm
+4       Bb9
+
+Repeat
+Groove SlowBolero
+
+5       Eb6
+6         /
+7      EbM7
+8         /
+9       Eb6
+10        /      /  Edim7
+11      Fm7      /     Fm
+12      Fm7      /    Bb7
+
+Groove SlowBoleroSus
+Cresc +50 8
+
+13       Fm
+14        /
+15     FmM7
+16        /      /     Fm
+17      Bb7
+18        /      /      /  Bb7#5
+19      Eb6      /  Edim7
+20       F7      /    Fm7    Bb7
+
+Groove SlowBolero
+Decresc -50 8
+
+21      Eb6
+22        /
+23     EbM7
+24        /
+25     Bbm7
+26        /      /    Eb7
+27       Ab      /   AbM7
+28        /      /    Ab6
+
+Groove SlowBoleroSus
+
+29        /
+30        /      /  Adim7
+31       Eb      /      D
+32       Db      /     C7
+33      Fm7      /   Db/F
+34      Bb7
+
+RepeatEnding
+
+35      Eb6
+36   Gbdim7      /    Bb9
+
+RepeatEnd
+
+37       Eb      /    Eb7
+
+Decresc pppp 6
+
+38      Ab6      / Cbdim7
+39      Eb6      /    Eb7
+40     Abm6      /    Db7
+41       Gb      /  Bb7b9
+
+Groove SlowBoleroEnd
+
+42      Eb6
+43        / / z!
+

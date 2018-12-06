@@ -1,0 +1,152 @@
+// Cabaret
+
+Tempo 160
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+    Voice Piano2
+    Articulate 110
+    Harmony OpenBelow+2Above
+    Octave 6
+    Volume ff
+    MidiPan 10
+    Begin Riff
+        43e+;f+;e+;2d&+;
+        43d+;e+;d+;2c+;
+        43b;c+;b;2a;
+        1b; 
+    End
+End
+
+Begin Solo-Echo
+    Copy Solo
+    MidiPan 100
+    Delay 25t
+End
+Solo Dupriff Solo-Echo
+
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat  // do whole song 2x
+
+Repeat
+/// "A" section
+Groove Bigband
+Volume m
+
+5        Eb
+6       Bb9      /   Bb9+
+7        Eb      /      /   Bb7+
+8         /
+
+Groove BigBandSus
+Cresc mf 2
+
+9        Eb
+10        /
+11        /
+12      Eb7
+
+Groove BigBandPlus
+
+13       Ab
+14     Adim
+15       Gm      /      /     C9
+16        /
+
+Groove BigBandSusPlus
+Decresc m 2
+
+17      Fm7
+18      Bb9
+
+RepeatEnding
+
+19       Eb
+20      Fm7      /    Bb7
+
+RepeatEnd
+
+21       Eb
+
+// "B" section
+
+22        /
+
+Groove BigBand1
+Decresc mp 2
+
+23      Abm
+24        /
+25       Eb
+26        /
+
+Groove BigBand1Sus
+Cresc mf 2
+
+27       Cm      /   CmM7
+28      Cm7      /     F9
+29      Bb7
+30        /
+
+// "A"
+
+Groove BigBand
+Volume m
+
+31       Eb
+32      Bb9      /   Bb9+
+33       Eb      /      /   Bb7+
+34        /
+
+Groove BigBandPlus
+Cresc mf 2
+
+35       Eb
+36        /
+Decresc mp 2
+37        /
+38      Eb7
+
+// "Ending"
+
+Groove BigBandSus
+
+39       Ab
+40     Adim
+41      Gm7      /      /     C9
+42        /
+
+Repeatending
+
+Groove BigBandSusPlus
+Cresc m 4
+
+43      Fm7
+44     Bb11      /      /     Eb
+45        /
+
+Groove BigBandFill
+
+46        / 
+
+RepeatEnd
+
+Groove BigBand2End
+Decresc ppp 4
+
+43      Fm7
+44     Bb11      /      /     Eb
+45        /
+46        /  z!
+

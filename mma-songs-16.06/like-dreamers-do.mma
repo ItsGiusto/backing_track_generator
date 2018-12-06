@@ -1,0 +1,106 @@
+// Like Dreamers Do
+
+// Nice little Lennon/McCartney ballad. They recorded this
+// at the famous Deca 1962 session, but it wasn't released
+// until much later in the Anthology CD. Applejacks did
+// record this in 1964.
+
+Tempo 105
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove GuitarBalladIntro
+Begin Solo
+	Voice Piano2
+	Volume F Mf m mp
+	Articulate 110
+	Octave 5
+	Begin Riff
+		3+3f+;e+;d+;c+;b;a;
+		3+3d+;c+;b;a;g;f;
+		3+3b;a;g;f;e;d;
+		2e;c;
+	End
+End
+
+Cresc pp mf 4
+
+1          F
+2         Dm
+3         Gm
+4         C7
+
+Repeat
+Groove GuitarBallad
+Volume m
+
+5          F
+6          /
+7         Dm
+8          /
+
+Cresc mf 2
+
+9         Gm
+10         /
+Decresc mp 2
+11        C7
+12         /
+
+Groove GuitarBallad1
+Cresc mf 4
+
+13         F
+14         /
+15        Dm
+16         /
+
+Volume f
+17        Gm
+18         /
+19        C7
+20         /
+
+Groove GuitarBallad
+Decresc mp 4
+
+21         F
+22         /
+23        A7
+24         /
+
+Volume m
+
+25        Bb
+26        C7
+
+Repeatending
+
+27         F
+28         /
+
+Groove GuitarBalladSus
+
+29        Bb
+30        C9
+31         F
+32         /
+
+Groove GuitarBallad1Sus
+
+33        G7
+34         /
+35        C7      /      /    Gm7
+36         /      /     C7
+
+RepeatEnd
+
+Groove GuitarBalladEnd
+Tempo *.7 2
+
+37         F
+38         /     z!
+
+

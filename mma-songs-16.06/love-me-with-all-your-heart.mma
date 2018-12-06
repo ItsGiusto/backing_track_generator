@@ -1,0 +1,83 @@
+// Love Me With All Your Heart
+
+Tempo 82
+Keysig D
+
+Groove Metronome2-4
+ z * 2
+
+Groove SlowBoleroIntro // Bolero1Intro
+
+Begin Solo
+    Voice NylonGuitar
+    Harmony 3Above+8Above
+    Octave 5
+    Articulate 100
+    Swell mp mf 4
+    Begin Riff
+       3d+;;; ;;; 2;
+       3b ;;; ;;; 2;
+       3g;;; ;;; 43g;a;b;
+       1a;
+    End
+End
+ 
+Chord Sequence -    
+Cresc p m 4
+
+1         D
+2        Bm
+3       Em7
+Bass riff 1 4 5 90; 2 4 4 80; 3 4 3 70; 4 4 2 60
+4        A7
+
+Repeat
+Groove SlowBolero
+Volume m
+
+5         D      /     Bm 
+6       F#m
+7        G6      /     A7
+8         D      /     B7
+
+Groove SlowBoleroSus
+Cresc mf 4
+
+9        Em    Em7     A7
+10        D      /     Bm
+11      F#m      /      G
+12        A      /     A7
+
+Groove SlowBoleroPlus
+Decresc m 4
+
+13        D      /     Bm
+14      F#m
+15       G6      /     A7
+16        D      /     B7
+
+Groove SlowBoleroSusPlus
+
+17       Em    Em7     A7
+18        D      /     Bm
+19      F#m      /      G
+20        A     A7
+
+RepeatEnding 2
+
+Groove SlowBolero1
+Cresc mf 2
+
+21        D      /     Bm
+22      Em7      /     A7
+
+RepeatEnd
+
+Groove SlowBoleroEnd
+Decresc pp 2
+Tempo *.9 2
+
+23        D      /     Bm
+24      Em7      D  z!
+
+

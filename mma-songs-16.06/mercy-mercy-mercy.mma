@@ -1,0 +1,73 @@
+// Mercy Mercy Mercy
+
+Tempo 85
+Keysig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove R&B-BalladIntro
+Begin Solo
+    Voice Piano1
+	Volume ff
+	Harmony Open+8Below
+	Articulate 110
+	Octave 5
+	Begin Riff
+	   4.c;8;4r;8;b-;
+	   4.d;8;r;c;d;f;
+	   2g;4;f;
+	   1g;
+	End
+End
+
+1        Cm
+2       Dm7
+3        Gm
+4        Gm
+
+Repeat
+Groove R&B-Ballad
+Cresc mp mf 8
+
+5        Bb  Eb/Bb    Bb7  Bb7/D
+6        Eb      /   Eb
+7        Bb  Eb/Bb    Bb7  Bb7/D
+8        Eb      /   Eb
+9        Bb  Eb/Bb    Bb7  Bb7/D
+10       Eb      /   Eb
+11       Bb  Eb/Bb    Bb7  Bb7/D
+12       Eb      /   Eb
+
+Groove R&B-BalladSus
+Swell f 8
+
+13       Bb      /  Eb/Bb          Bb7
+14        /      /  Eb/Bb           Bb
+15        /      /  Eb/Bb          Bb7
+16        /      /  Eb/Bb           Bb
+17        /      /   Bb/D     Eb
+18        F     Eb      /           Bb
+19        /      /   Bb/D     Eb
+20        F
+
+Groove R&B-Ballad
+Decresc mp 2
+
+21      Cm7
+22      Dm7
+
+RepeatEnding
+
+23       Gm      /        F
+24       Gm
+
+RepeatEnd
+label foo
+Groove R&B-BalladEnd
+Decresc ppp 2
+Tempo *.8 2
+
+25       Gm       F     Gm      F
+26       Gm       /     z!
+

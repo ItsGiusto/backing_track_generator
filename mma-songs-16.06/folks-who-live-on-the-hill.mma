@@ -1,0 +1,114 @@
+// Folks Who Live On The Hill, The
+
+Tempo 80
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowJazz1Intro
+
+Begin AllGrooves
+  Chord-Sus Voice Synthstrings1
+  Arpeggio-Plus Rskip 50
+  Arpeggio      Rskip 30
+End
+
+Begin Solo
+    Voice SynthStrings1
+    Volume F
+    Articulate 110
+    Harmony 3Below+8Below
+    Octave 5
+    Begin Riff
+        2e+;c+;
+        4a;b;2c+;
+        2d+;a;
+        2.g;
+    End
+End
+
+Swell mp mf 4
+
+1         CM7
+2        Am7
+3        Dm7
+4        G7
+
+
+Repeat
+Groove SlowJazz1
+Cresc mp m 4
+
+5       CM7      /     C7
+6       FM7      /    G11
+7       C/E      / Ebdim7
+8       Dm6      /   Am/C
+
+Groove SlowJazz1Plus
+
+9       Em7      /    Am7
+10      Dm7      /   G7#5
+11      CM7      /     C7
+12      FM7      /     G7
+
+Groove SlowJazz1
+Decresc mp 2
+
+13      Em7      /   A7b9
+14      Dm7      /     G7
+15        C      /    Am7
+
+Groove SlowJazzFill
+
+16      Dm7      /     G7
+
+RepeatEnd
+
+Groove SlowJazz1Sus
+Volume m
+
+17       Em
+
+18    Fm7b5      /     B7
+19       Em      /      /   EmM7
+20      Em7      /   A9b5     D7
+21        G      /     G7
+
+Groove SlowJazz1SusPlus
+Cresc mf 3
+
+22      Dm7      /   G7#5
+23      CM7      /     C7
+24      FM7      /    G11
+25      C/E      / Ebdim7
+
+Groove SlowJazz1Sus
+Volume m
+
+26      Dm6      /   Am/C
+27      Em7      /    Am7
+28      Dm7      /   G7#5
+29      CM7      /     A7
+
+Groove SlowJazz1Plus
+Volume mp
+
+30      FM7      /     G7
+31       Em      /   A7b9
+32      Dm7      /     G7
+33        E      /     E7
+
+Groove SlowJazz1
+Decresc p 3
+
+34       D7      /     G7
+35        C      /     C7
+36      Fm6
+
+Groove SlowJazzEnd
+Decresc ppp 2
+
+37        C
+38        /  z!
+

@@ -1,0 +1,83 @@
+// S H I N E
+
+Tempo 240
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove BroadwayIntro
+Begin Solo
+	Voice Trumpet
+	Volume m
+	Harmony Open
+	Articulate 120
+	Octave 5
+	Begin Riff
+		4e;r;g;r;
+		4c+;r;b;r;
+		4a;r;f;r;
+		2b;r;
+	End
+End
+
+1   Eb      
+2   Cm7     
+3   Fm7     
+4   Bb7     
+
+Repeat
+Groove Broadway
+
+5   Eb      
+6   Ebm/Gb  
+7   Fm7     
+8   Bb7     
+9   Eb      
+10  Ebm/Gb  
+11  Fm7     
+12  Bb7 
+
+Groove Broadway1
+    
+13  G7      /       Dm7     
+14  G7      
+15  Cm7     
+16  /       
+17  F7      /       Cm7     
+18  F7      
+19  Bb7     
+20  /  
+
+Groove BroadwaySus
+     
+21  Eb      
+22  Ebm  
+23  Fm7     
+24  Bb7     
+25  G7      
+26  /       
+27  Cm      /       G7      
+28  Cm
+
+Groove Broadway1Sus
+      
+29  Fm7     
+30  Bb7     
+31  Eb      
+32  C7      
+33  Fm7     
+34  Bb7     /       Bb7#5   
+
+RepeatEnding 2
+
+35  Eb      
+36  Fm7     /       Bb7     
+
+RepeatEnd
+
+Groove BroadwayEnd
+
+37  Eb      /       Ab7     
+38  Eb      /   z!
+

@@ -1,0 +1,134 @@
+// Besame Mucho
+// This is a swing version like Nat did it
+
+Tempo 144
+Keysig f
+
+Groove Metronome2-4
+	z * 2
+
+Groove Swing1
+
+// 4 bar intro
+
+Mset Intro
+	4g; 8; ; 3+3g; f; e;
+	4f; 8; ; 3+3f; e; d;
+	4e; 8; ; 3+3e; d; d&;
+	2d;
+Endmset
+
+Begin Solo
+	Voice MutedTrumpet
+	Volume mf
+	Articulate 80
+	Octave 5
+	Begin Riff
+		$Intro
+	End
+End
+
+Begin Solo-1
+	Voice AltoSax
+	Volume fff
+	HarmonyOnly Open
+	Articulate 90
+	Octave 5
+	Begin Riff
+		$Intro
+	End
+End
+
+1         Gm
+2          F
+3         Em
+4         Dm      /      z
+
+Repeat
+
+5         Dm      /    Gm6
+6         Dm
+7       Gsus      /     Gm
+8          /
+
+Groove Swing1Triple
+
+9         Gm      /  F#dim
+10        Gm      /     A7
+
+Groove Swing1
+
+11        Dm      /     A7
+12        Dm
+13        D7      /  Csus2
+14        D7      /   D7b9     D+
+15      Gsus      /     Gm
+16         /
+
+Groove Swing1Triple
+
+17        Dm
+18      E7b9      /     A7
+
+Groove Swing1
+
+19        Dm      /    Gm6
+20        Dm
+
+Groove Swing1Triple
+
+21        Gm
+22        Dm
+
+Groove Swing1
+
+23        A7      /    Gm6
+24        Dm
+
+Groove Swing1Triple
+
+25        Gm
+26        Dm
+27        E7      /    Bb7
+
+Groove Swing1
+
+28        A7
+29        Dm      /    Gm6
+30        Dm
+31      Gsus      /     Gm
+32         /
+
+Groove Swing1Triple
+
+33        Gm      /  F#dim
+34        Gm      /     A7
+
+Groove Swing1
+
+35        Dm      /     A7
+36        Dm
+37        D7      /  Csus2
+38        D7      /   D7b9     D+
+39      Gsus      /     Gm
+40         /
+
+Groove Swing1Triple
+
+41        Dm
+42      E7b9      /     A7   A7#5
+
+Groove Swing1
+
+RepeatEnding // 1st ending
+
+43        Dm
+44       Bb9      /  A7sus     A7
+
+RepeatEnd	// final ending
+
+Groove Swing1End
+
+45        Dm      /    Gm6
+46        Dm      /      z     z!
+

@@ -1,0 +1,74 @@
+// I Surrender Dear
+
+// Bing Crosby with the Paul Whiteman Orch, #3 in 1931.
+// Later covers by Madonna and Gennifer Grey.
+
+Tempo 70
+
+Groove Metronome2-4
+	z * 2
+	
+Groove SlowJazz1
+
+Begin Solo
+	Voice Piano1
+	Cresc p f 4
+	Articulate 90
+	Accent 1 20 3 20
+	Octave 5
+	Harmony OpenAbove
+End
+
+
+1      Dm                {8d; e; d; e; d; e; 4d;}
+2      Am                {8d; e; d; e; d; e; 4d;}
+3      Dm                {8e; f; e; f; e; f; 4e;}
+4      E7    /    Gm7    {4e; d; e; f; }
+
+Delete Solo
+
+Groove SlowJazz
+
+Repeat
+
+5      Dm    
+6      A7b9  
+7      Dm    /    E7b9  
+8      Am    /    D9    
+9      C     /    Am7   
+10     D9    
+11     Dm7   /    G7    
+
+RepeatEnding
+
+12     C     /    Bb    A7    
+
+RepeatEnd
+
+13     C     
+
+Groove SlowjazzSus
+
+14     E7b9  
+15     Am    
+16     E7b9  
+17     Am    
+18     E7b9  
+19     Am    
+20     D9    
+21     Ab7b5 G7    Bb7   A7    
+
+Groove Slowjazz
+
+22     Dm    
+23     A7b9  
+24     Dm    /    E7b9  
+25     Am    /    D9    
+26     C     /    Am7   
+27     D9    
+
+Groove SlowjazzEnd
+
+28     Dm7   /    G7    G7#5  
+29     CM9   /  z!
+

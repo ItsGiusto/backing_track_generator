@@ -1,0 +1,114 @@
+// Hindustan
+
+Tempo 280
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove FastSwingIntro8
+
+Cresc p m 8
+
+Begin Solo
+  Voice TremoloStrings
+  Volume f
+  Harmony OpenBelow+8Below+16Below
+  Articulate 110
+  Octave 5
+  Begin Riff
+    1+2g ~;
+	~ 2a;
+	1+1c+ ~;
+	~ <>;
+	1+2d+ ~;
+	~ 2e+;
+	1+2g+ ~;
+  End
+End
+
+1         C
+2         /
+3        Am
+4         /
+
+5        Dm
+6         /
+7        G7
+8         /
+
+Repeat
+Groove FastSwing
+Volume m
+
+9         C
+10        /      /   G9+5
+11        C
+12        /
+
+Groove FastSwingWalk
+
+13        /
+14        /      /   A7b9
+15       Dm
+16        /
+
+Groove FastSwingSus
+Cresc mf 4
+
+17        /
+18        /      /  Ebdim
+19       Dm
+20        /      /      C  Ebdim
+
+Groove FastSwingWalkSus
+Decresc m 4
+
+21       G7      /  Ebdim
+22       G7      /    Dm7     G9
+23        C
+24        /      /  Ebdim     G7
+
+Groove FastSwing
+Volume m
+
+25        C
+26        /      /   G7+5
+27        C
+28        /
+
+Groove FastSwingSus
+Cresc f 4
+
+29      Gm7
+30       C7
+31        F6
+32        /
+
+Groove FastSwing
+Decresc m 4
+
+33       D9
+34        /      /     D7
+35       Fm
+36        /      /      C    Ab7
+
+Groove FastSwingWalkSus
+
+37      Dm7
+38        /      /   G7b9
+
+RepeatEnding 2
+
+39         C
+40         /      /  Ebdim     G7
+
+RepeatEnd
+
+Groove FastSwingEnd
+Decresc pppp 2
+Tempo *.7 2
+
+41        C
+41        /
+

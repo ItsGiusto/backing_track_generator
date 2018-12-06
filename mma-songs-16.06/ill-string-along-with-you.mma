@@ -1,0 +1,95 @@
+// Ill String Along With You
+
+Tempo 86
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Set Harmony OpenBelow
+Set Bass
+
+Groove Arpeggio4SusIntro
+
+Begin Solo
+    Voice Strings
+    Decresc f p 4
+    Articulate 100
+    Unify On
+    Harmony OpenBelow
+    Octave 5
+    Begin Riff
+        2e+;b;
+        2e+;c+;
+        2f+;c+;
+        1b;
+    End
+End
+
+Cresc mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Groove Arpeggio4
+Repeat
+Volume m
+
+5        Eb
+6         /      /    Eb+
+7        Eb
+8        G7      /     C7
+
+Decresc mp 2
+
+9        Fm      /    Fm7
+10       Bb      /    Bb7
+
+RepeatEnding
+
+11       Gm      /    Bb7
+12       Eb      /     Cm
+
+Groove Arpeggio4Sus
+
+RepeatEnd
+
+13       Gm      /    Bb7
+14       Eb     Fm  F#dim     Eb
+
+Groove Arpeggio4
+Volume mf
+
+15       Ab      /   Abm6
+16       Eb      /   Adim
+17      Bb7      /   Edim
+18      Bb7      /  F#dim
+
+Decresc mp 4
+
+19       Eb      /   EbM7    Eb7
+20       Ab      /   Abm6
+21       Eb      /      /     F7
+22     Bb7+
+
+Groove Arpeggio4Sus
+Cresc m 4
+
+23       Eb
+24        /      /    Eb+
+25       Eb
+26       G7      /     C7
+
+Decresc ppp 4
+27       Fm      /    Fm7
+28       Bb      /    Bb7
+
+Groove Arpeggio4
+
+Tempo *.8 2
+
+29       Gm      /    Bb7
+30       Eb     Fm  F#dim     Eb>2
+Fermata -1 4 200

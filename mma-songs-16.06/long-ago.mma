@@ -1,0 +1,107 @@
+// Long Ago (And Far Away)
+
+Tempo 98
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzGuitarIntro
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Articulate 140
+    Harmony 3Below 2Below OpenBelow None
+    Octave 5
+    Begin Riff
+        4f;a;f;a;
+        4d;f;d;f;
+        4g;b;d+;g+;
+        8g+;f+;e+;d+; c+;b;a;g;
+    End
+End
+
+Swell mp mf 4
+
+1          F
+2         Dm
+3         Gm
+4         C7
+
+Repeat
+Groove JazzGuitar
+Volume m
+
+5         F6      /      /    Dm7
+6        Gm7      /     C7
+7        FM7      /      /    Dm9
+8        Gm7      /     C9
+
+Groove JazzGuitarPlus
+
+9         F6      /    Dm7
+10       Gm7
+11        F6    FM7    Eb9     D7
+12       Gm7      /   C7b9
+
+Groove JazzGuitar
+
+13        Ab      /      /    Fm7
+14      Bbm7      /    Eb7
+15      AbM7      /      /    Fm7
+//16   Fm7/Ab      /     G7
+16       Dm7     G7
+Groove JazzGuitarSus
+
+17       CM7
+18    C6(add9)      /   D7#9
+19        C7      /    Gm7
+20       Am7      /   C7b9
+
+Groove JazzGuitar
+
+21        F6      /      /    Dm7
+22       Gm7      /     C7
+23       FM7      /      /    Dm9
+24       Gm7      /     C9
+
+Groove JazzGuitarSusPlus
+
+25        F9      /    Dm7
+26       Gm7
+27        F6    FM7    Eb9     D7
+28       Gm7      /   C7b9
+
+Groove JazzGuitar
+
+29        F9
+30       Cm7      /      /     F7
+31      BbM7
+32         /      z
+
+Groove JazzGuitarSus
+
+33       F/A      /      /  Abdim
+34       Gm7      /   C7b9
+
+RepeatEnding
+
+Groove JazzGuitar
+
+35       F/A
+36        C7
+
+RepeatEnd
+
+37       F/A      /      /  Abdim
+38       Gm7      /   C7b9
+
+Groove JazzGuitarEnd
+Decresc ppp 2
+
+39    F6(add9)
+40         /     z!
+
+
+

@@ -1,0 +1,93 @@
+// Lament
+
+Tempo 60
+
+Groove Metronome2-4
+  z * 2
+
+Set PUSH0 .7
+Groove NiteJazzIntro
+
+Begin AllGrooves Arpeggio-Guitar
+   Octave 5
+   Range .9
+End
+
+Begin Solo
+    Voice Piano1
+    Octave 5
+    Articulate 110
+    Harmony OpenBelow+Open8Below+8Below
+    Volume f
+    Begin Riff
+        4r;c+;4.;16a&;c+;
+        4d+;2;8b;d+;
+        4f+;2;4d+;
+        1c+;
+    End
+End
+
+Swell mp m 4
+
+1         Fm
+2         Dm
+3         Gm
+4         Cm7
+
+
+Repeat
+Groove NiteJazz
+Volume m
+
+5         Fm
+6       Ebm7      /    Ab7
+7       DbM7
+8        Gm7      /     C7
+
+Groove NiteJazzSus
+Cresc mf 4
+
+9          F
+10     Am7b5      /      /   D7b9
+11       Gm7
+12     Em7b5      /   A7b9
+
+RepeatEnding  2 /// actually a "to coda"
+
+Groove NiteJazzPlus
+Decresc mp 4
+
+13       Dm7      /    /   Bbm7
+14       Am7      /    Dm7
+15        Gm7
+16     Em7b5      /   A7b9
+
+Groove NiteJazzSusPlus
+Cresc m 4
+
+17       Dm7
+18      Ebm7      /    Ab7
+19      DbM7
+20     Gm7b5      /   C7b9
+
+RepeatEnd   /// actually a DS al coda
+
+Groove NiteJazz
+Volume m
+
+21       Dm7      /    /   Bbm7
+22       Am7      /    Dm7
+23     Bm7b5
+24      Bbm7      /    Eb7
+
+Groove NiteJazzSus
+Decresc ppp 4
+
+25       FM7      /    Dm7
+26    Db7#11      /     C7
+
+Groove NiteJazzEnd
+
+27        F6
+28         /  z!
+

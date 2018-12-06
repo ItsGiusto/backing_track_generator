@@ -1,0 +1,92 @@
+// Suspicion (ELVIS, 1962)
+
+Tempo 134
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove  BasicRock4Intro
+
+Begin AllGrooves
+      Chord-Dist Off
+      Drum-Tam Off
+      Chord-Clean Voice NylonGuitar
+      Chord-Clean2 Voice NylonGuitar
+End
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Harmony OpenBelow
+    Articulate 80
+    Octave 5
+    Begin Riff
+        8e;g;a;c+;2a;
+        8e;g;a;c+;2a;
+        8f;a;b;d+;4b;a;
+        1g;
+    End
+End
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Repeat
+Groove BasicRock4
+
+5         C
+6         /
+7        Dm
+8         /
+
+9         /
+10        /      /  G7sus
+11        C
+12        /
+
+Groove BasicRock4Sus
+
+13        /
+14        /
+15       Dm
+16        /
+
+17        /
+18        /      /  G7sus
+19        C
+20        /      /      /      z
+
+Groove BasicRockSus
+
+21       Am
+22        /
+23        /
+24        /
+
+Groove BasicRock
+
+25        /      /      z
+
+RepeatEnding 2
+
+Groove BasicRock4
+26     -D7b5>4
+27       G7  z
+
+RepeatEnd
+
+Tempo *.8 4
+Groove BasicRock4Sus
+
+28     D7b5
+29       G7
+
+Groove BasicRockEnd
+
+30        C      /    Ab7
+31        C      z!
+

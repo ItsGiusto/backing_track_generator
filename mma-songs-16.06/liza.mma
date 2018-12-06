@@ -1,0 +1,91 @@
+// Liza
+
+Tempo 170
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Set ArpeggioVoice Clarinet
+
+Groove FoxtrotIntro
+Begin Solo
+ Voice Harpsichord //Clarinet
+ Volume f
+ Harmony Open
+ Articulate 90
+ Octave 5
+ Begin Riff
+   4e+;8c+;4b;4+8g;
+   4c+;8b;4a;4+8g;
+   43f;;g;4a;b;
+   1c+;
+ End
+End
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+
+Groove Foxtrot
+
+5        Eb      /    Bb7
+6      Cdim      /     C7
+7      Abm6      /   Cdim
+8      Bbm6      /    Eb9
+9        Ab      /    Fm7
+10       Gm      /     C9
+11       Fm      /    Bb7
+12       Eb      /    Fm7
+
+Groove FoxtrotPlus
+Arpeggio Cresc ppp mp 8
+
+13       Eb      /    Bb7
+14     Cdim      /     C7
+15     Abm6      /   Cdim
+16     Bbm6      /    Eb9
+17       Ab      /    Fm7
+18       Gm      /     C9
+19       Fm      /    Bb7
+20       Eb      /   G7#5     G7
+
+Groove FoxtrotSus
+
+21       Cm      /    Cm7
+22     Cdim      /   G7#5     G7
+23       Cm
+24     Gdim      /    Eb7
+25       Ab      /     Fm
+26     Bbm7      /    Eb7
+27      Ab6      /      /     Ab
+28     Ebm6      /      /    Bb7
+
+Groove FoxtrotSusPlus
+Arpeggio DeCresc mp ppp 6
+
+29       Eb      /    Bb7
+30     Cdim      /     C7
+31     Abm6      /   Cdim
+32     Bbm6      /    Eb9
+33       Ab      /    Fm7
+34       Gm      /     C9
+
+RepeatEnding 2
+Groove FoxTrotFill
+Bass Volume -30
+
+35       Fm      /    Bb7
+36       Eb      /     Fm7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+35       Fm      /    Bb7
+36       Eb      /    z!
+
+

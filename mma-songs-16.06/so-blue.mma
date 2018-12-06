@@ -1,0 +1,109 @@
+// So Blue
+
+Tempo 132
+Keysig C
+
+Groove Metronome3
+ z * 2
+
+Groove JazzWaltzIntro
+Begin AllGrooves 
+  Begin Chord
+     Voice Piano2
+     Octave 6
+  End
+  Arpeggio Octave 5
+End
+
+Begin Solo
+    Voice Piano2
+    Octave 6
+    Volume f
+    Articulate 90
+    Harmony OpenBelow+8Below
+    Begin Riff
+        4+81c;82d;81e;82g;
+        2.g#;
+        4+81c+;82b;81a;82a&;
+        2.g;
+    End
+End
+
+Swell mp mf 4
+
+1         C
+2         A&
+3         C
+4         G7
+
+
+Repeat
+Groove JazzWaltz
+Volume m
+
+5         C
+6        E7
+7        A7
+8        Dm    Fm6
+
+Groove JazzWaltz1
+Cresc mf 4
+
+9         C
+10      Ab7      /     G7
+11        C
+
+RepeatEnding
+
+12        /      /    G7+
+
+RepeatEnd
+
+13        /      /     C7
+
+Repeat
+
+Groove JazzWaltzSus
+Cresc m mf 4
+
+14       F6
+15      Fm6
+16      CM7
+17       D7
+
+Groove JazzWaltz2Sus
+Cresc f 4
+
+18       C6  Em7b5
+19       A7
+20    Dm7b5
+21       G7      /    G7+
+
+Groove JazzWaltz2
+Decresc m 4
+
+22        C
+23       E7
+24       A7
+25       Dm      /    Fm6
+
+Groove JazzWaltz
+Decresc mp 2
+
+26        C
+27      Ab7      /     G7
+
+RepeatEnding 
+
+28        C      /     Fm
+29        C      C7
+
+RepeatEnd
+
+Groove JazzWaltzEnd
+Decresc pp 2
+
+28        C      /     Fm
+29        C      z!
+
+

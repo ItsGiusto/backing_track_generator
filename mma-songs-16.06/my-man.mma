@@ -1,0 +1,76 @@
+// My Man
+
+Tempo 100
+Keysig G
+
+Groove Metronome2-4 
+ z * 2
+
+Groove MellowJazzIntro
+Cresc p mp 4
+
+1          G
+2         Em
+3         Am
+4         D7      z
+
+Repeat
+Groove Mellowjazz
+Cresc m mf 4
+
+5          G
+6          /
+7         D7
+8          /
+
+Groove MellowJazzSus
+Cresc f 4
+
+9          /
+10        D9      /     D+
+11         G      /  G#dim
+12        D7      z
+
+Groove MellowJazzPlus
+Decresc m 4
+
+13         G
+14         /      /     G7
+15         C
+16        A7
+
+Groove MellowJazzSusPlus
+Decresc mp 2
+
+17         G
+18        A9      /     D7
+
+RepeatEnding
+
+Groove MellowJazzFill
+19         G      z
+
+RepeatEnd
+
+Groove MellowJazzEnd
+Swingmode On
+Decresc pp 2
+Begin Solo
+  Voice Piano1
+  Volume mf
+  Articulate 90
+  Harmony OpenBelow
+  Begin Riff
+      4r;8f;e;d;d#;e;f;
+      4g;
+  End
+End
+
+20         G     z
+Chord-Guitar Sequence C23
+Chord-Piano  Sequence C23
+Walk-Main    Sequence {2 4 80; 3 4 70}
+21         /     D7     +G>1   z
+
+
+

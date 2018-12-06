@@ -1,0 +1,93 @@
+// Dont Let It Bother You
+
+Tempo $( 100 * 2 )
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove QuickstepIntro
+Swell m mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Repeat
+Groove QuickStepHit
+Volume m
+
+5         C
+6        Dm      /     G7
+7         C
+8      Cdim3
+
+Groove QuickStep
+Cresc mf 8
+
+9         C
+10       A7
+11      Dm7
+12       G7
+
+Groove QuickStepDuh
+
+13        C
+14       Dm      /     G7
+15        C
+16     Cdim3
+
+Groove QuickStepDuhSus
+Cresc f 4
+
+17        C
+18       A7
+19       Dm      /     G7
+20        C      /      /     C7
+
+Groove QuickStepSusWalk
+Volume m
+
+21        F      /   Cdim3
+22       Em      /     A7
+23       Dm      /     G7
+24        C      /      /     E7
+
+Groove QuickStepWalk
+Volume mf
+
+25       Am
+26       A7
+27       D7      /    Am7     D7
+28       G7
+
+Groove QuickStepDuhSusWalk
+Volume m
+
+29        C
+30       Dm      /     G7
+31        C
+32     Cdim3
+
+Groove QuickStepHit
+Decresc mp 2
+
+33        C
+34       A7
+
+RepeatEnding 2 
+
+35      Dm7      /      /     G7
+36        C      /     G7
+
+
+RepeatEnd
+
+Groove QuickStepEnd
+Decresc ppp 2
+
+35      Dm7      /      /     G7
+37        C     z!
+

@@ -1,0 +1,88 @@
+// Toot Toot Tootsie
+
+Tempo 200
+
+Groove Metronome2-4
+	 z * 2
+
+Groove BigBandIntro
+
+Begin Solo
+	Voice Trumpet
+	Volume ff
+	Harmony 3
+	Articulate 90
+	Octave 5
+	Begin Riff
+		2e+;c+;
+		2c+;a;
+		4g;a;b;c+;
+		1d+;
+	End
+End
+
+1    C    
+2    Am   
+3    Dm   
+4    G7   
+
+Repeat
+Groove Bigband
+
+5    C6   
+6    /    
+7    D7   /    Am7  
+8    Am7b5 /    D7   
+9    G7   
+10   /    
+11   CM9  
+12   C6   
+13   C    
+14   Cmaj7 /    C#dim 
+15   Dm7  
+16   G7   
+17   /    
+18   Dm   /    G9#5 
+19   C    /    Ebdim 
+20   Dm7  /    G13  G7#5 
+
+Groove BigbandSus
+
+21   C6   
+22   /    
+23   D7   /    Am7  
+24   Am7b5 /    D7   
+25   G7   
+26   /    
+27   CM9  
+28   C9   
+29   F7   
+30   /    
+31   /    
+32   /    
+33   C    z    
+34   C    z    
+35   C    z    
+36   C    /    Ebdim G7   
+
+Groove Bigband
+
+37   C6   
+38   /    
+39   D7   /    Am7  
+40   Am7b5 /    D7   
+41   G7   
+42   /    
+
+RepeatEnding
+
+43   C6   Ab7  G7   Ab7  
+44   C6   
+
+RepeatEnd
+
+Groove BigBandEnd
+
+45   C6   Ab7  G7   Ab7  
+46   C6   /    /    z!   
+

@@ -1,0 +1,95 @@
+// Lazy River
+
+Tempo 74
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove ModernJazzIntro
+Begin AllGrooves
+     Chord-Guitar Voicing Mode=Key2
+     Chord-Piano  Voicing Mode=Key2
+End
+
+Begin Chord-Trp
+  Sequence  C13 / / C1
+  Decresc mf mp 4
+End
+
+Begin Solo-2
+    Voice Piano2
+    Octave 4
+    Volume f
+    HarmonyOnly OpenAbove
+    Articulate 90
+End
+    
+Begin Solo
+    Voice JazzGuitar
+    Articulate 99
+    Volume ff
+    Octave 4
+    Begin Riff
+        8f+;e+;d+;c+;4^d+;e+;
+        43f+;;;4^;e+;
+        4f+;d+;b;f;
+        8g;a;b;bn;4c+;c#+;
+    End
+    DupRiff Solo-2
+End
+
+Swingmode On
+Cresc p mf 4
+
+1          F
+2        Dm7
+3        Gm7
+4         C7
+
+Repeat
+Groove Modernjazz
+Volume m
+
+5         D7
+6          /
+7         G7
+8          /
+
+Groove ModernJazzSus
+Swell m mf 4
+
+9         C7
+10         /
+11       FM7      /    Gm7     C7
+12       FM7
+
+Groove ModernJazz1
+Decresc mp 4
+
+13        D7
+14         /
+15        G7
+16         /
+
+Groove ModernJazz1Sus
+Cresc m 4
+
+17      BbM7      /  Bdim7
+18       FM7      /     D7
+19        G7      /     C7
+20       FM7      /     D7
+
+RepeatEnding
+
+21        G7      /     C7
+22       FM7      /     C7
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Decresc pp 2
+
+23        G7      /     C7
+24       FM7      /     z!
+

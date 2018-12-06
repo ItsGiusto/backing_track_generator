@@ -1,0 +1,83 @@
+// Tonight
+
+// From West Side Story.
+
+Tempo 140
+
+Groove Metronome2-4
+	z * 2
+	
+Groove Bolero1Intro
+Volume mp
+
+1      G9    
+2	/
+3	/
+4	/ z
+
+
+Repeat
+Groove Bolero1Sus
+Volume mp
+
+5      G9    
+6      A9    
+7      G9    
+8      A9    
+9      G9    
+10     Em7   
+11     F#m7  
+12     F9    
+
+Groove Bolero1Fill
+Volume mf
+
+13     Bb9   
+14     C9    
+15     Bb9   
+16     Cm    
+17     Cm7   
+18     Cm6   
+19     D+    
+20     D7    
+
+Groove Bolero1Sus
+Volume f
+
+21     Eb    
+22     Cm    
+23     Am7-5 /    Eb    
+24     Cm    
+25     Bbm   
+26     Bbdim 
+27     A     
+28     A7-5  
+
+Groove Bolero1SusFill
+Volume mp
+
+29     C9    / / A9
+30     A9    
+31     G9    
+32     Em7   
+33     Bm    
+34     Am11  
+35     GM7   
+36     Em7   
+
+RepeatEnding
+
+Groove Bolero1
+
+37     G9    z
+
+RepeatEnd
+
+Groove Bolero1Fill
+Volume mp
+38     CM7   /    D7sus4 
+
+Groove Bolero1End
+Volume p
+39     G9    z!
+Fermata -4 4 200

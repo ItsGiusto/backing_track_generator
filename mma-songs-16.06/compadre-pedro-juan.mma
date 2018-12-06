@@ -1,0 +1,98 @@
+// Compadre Pedro Juan
+
+Tempo 240
+KeySig A
+Transpose -2
+
+Groove Metronome2-4
+	z * 2
+
+Groove MerengueIntro
+
+Begin Solo-Drum
+	Drumtype
+	Tone SnareDrum1
+	Volume F
+	RTime 4
+	RVolume 5
+End
+
+Begin Solo
+	Voice Piano1
+	Volume fff
+	Articulate 90
+	Octave 5
+	Begin Riff
+		2.e+;4;
+		4e+;;;;
+		2e+;1c+~;
+		1r;
+		2.d+;4;
+		4d+;;;;
+		2d+;b;
+	End
+End
+
+1         A
+2         /
+3         /
+4         /
+
+5         Bm
+6         /
+7         /
+8         /  / z
+
+Repeat
+Repeat
+Groove Merengue
+
+9         A
+10        /
+11        /
+12        /
+
+13        /
+14        /
+15       E7
+16        /
+
+17        /
+18        /
+19        A      /    A7/G
+20      F#7
+
+RepeatEnding      /// 1st ending
+
+21       Bm
+22       E7
+23        A
+24        /
+
+RepeatEnd         /// 2nd ending
+
+25       Bm
+26       E7
+
+Begin Solo-Drum Riff   /// A bit of audio signal
+	8;;;;;;;
+	4;;;;
+End
+
+27        A
+28        /
+
+RepeatEnd        /// a DS-like ending. Repeat entire piece
+
+29        /
+30       E7
+31        /
+32        A
+
+Groove MerengueEnd
+
+33        /
+34       E7
+35        /
+36        A
+

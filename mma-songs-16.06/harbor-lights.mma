@@ -1,0 +1,99 @@
+// Harbor Lights
+
+Tempo 110
+Keysig F
+
+Transpose -2
+
+Groove Metronome2-4
+	   z * 2
+
+Groove BeguineIntro
+
+Begin Solo
+	  Voice Piano1
+	  Harmony Open
+	  Octave 5
+	  Volume mf
+	  Articulate 110
+	  Rtime 4
+	  Rvolume 5
+	  Begin Riff
+	  		8f;a;c+;a;f;a;f;a;
+			8d;f;a;f;d;f;d;f;
+			8d+;b;g;d;b;g;d;g;
+			1c+;
+	  End
+End
+
+Cresc mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7      z
+
+Repeat
+Groove Beguine
+Cresc mp mf 8
+
+5        C7
+6         /
+7      Fdim      /      F
+8         /
+9        C7
+10        /
+11        F
+12        /
+
+Groove BeguineSus
+DeCresc mf mp 8
+
+13       C7
+14        /
+15     Fdim      /      F
+16        /
+17       C7
+18        /
+19        F      /     Bb
+20        F
+
+Groove Beguine1
+Volume m
+
+21       Bb
+22      Bbm
+23        F
+24        /
+25       G7
+26        /      /    Bbm
+27       C7      /     Bb
+28       C7
+
+Groove Beguine1Sus
+Arpeggio Volume -20
+Volume mf
+
+29        /
+30        /
+31     Fdim      /      F
+32        /
+33       C7
+34        /
+
+RepeatEnding
+
+35        F
+36        /      z
+
+RepeatEnd
+label foo
+Groove Beguine2End
+Decresc m pp 2
+
+37        F      /    Bbm
+38        F  / z!
+
+
+
+

@@ -1,0 +1,112 @@
+// Moonlight Becomes You
+
+Tempo 70
+Keysig f
+
+Groove Metronome2-4
+   z * 2
+
+
+
+Groove NiteJazzIntro
+Begin Solo
+    Voice Strings
+    Octave 5
+    Articulate 110
+    Harmony 3Below
+    Volume mf
+    Begin Riff
+        4f;2a;4c+;
+        4d;2f;4a;
+        43b;a;g;b;a;g;
+        2.c+;
+    End
+End
+
+Swell mp m 4
+
+1          F
+2         Dm
+3         Gm
+4         C7
+
+
+Repeat
+Groove NiteJazz
+Cresc mp m 4
+
+5          F      /  F#dim
+6        Gm7      /     C7
+7        Am7      /    Dm7
+8        Gm7      /      /  Bbdim
+
+Groove NiteJazzSus
+Decresc mp 2
+
+9        Am7      /     D9
+
+RepeatEnding
+
+10       Gm7      /   C7b9
+11    Am7b5/Eb      /     D7
+12    G9b5/Db      /     C7    C7+
+
+
+RepeatEnd
+
+13       Gm7      /   C7b9
+
+Groove NiteJazzPlus
+
+14        F6      /    Gm7
+15     G#dim      /    F/A    F7+
+
+Repeat
+Groove NiteJazzSus
+Volume mf
+
+16        Bb      /    Bb+
+17       Eb6
+18        F9      /   F7b9
+19    Bb(add9)      /    Gm7
+
+Groove NiteJazzSusPlus
+Decresc m 4
+
+20     Em7b5      /   A7b9
+21        Dm      /    Dm7
+22        G7      /   G7b5
+23        C9      /      /    C7+
+
+Groove NiteJazz
+Decresc mp 4
+
+24         F      /  F#dim
+25       Gm7      /     C7
+26       Am7      /    Dm7
+27       Gm7      /      /  Bbdim
+
+Groove NiteJazzSus
+Cresc m 4
+
+28       Am7      /     D9
+29       Gm7      /   C7b9
+30     Am7b5      /     D7
+31        G7      / C7sus4   C7b9
+
+RepeatEnding
+
+Groove NiteJazz
+Decresc mp 2
+
+32        F6      /    Ab6    Gm7
+33         F      /    F7+
+
+RepeatEnd
+
+Groove NiteJazzEnd
+Decresc pp 2
+
+34        F6      /    Ab6    Gm7
+35         F     z!
+

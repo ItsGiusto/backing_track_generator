@@ -1,0 +1,94 @@
+// Yes Indeed
+
+Tempo 154
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove SpiritualSusIntro
+
+Begin Solo
+    Voice Organ1
+    Volume m
+    Articulate 90
+    Octave 6
+    Harmony OpenBelow
+    Rtime 5
+    RVolume 5
+    Begin Riff
+        4c;d;2f;
+        4d;d;2f;
+        2b;g;
+        2.c+;
+    End
+End
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Groove Spiritual
+Volume m
+
+5         F      /     Bb
+6         F
+7        Bb      /     Eb
+8        Bb      /     C7
+
+Groove SpiritualPlus
+Cresc mf 4
+
+9         F      /     /     D&7
+10      Gm7      /   GbM7
+11        F      /     Bb
+12        F
+
+Repeat
+
+Groove SpiritualSus
+Volume mp
+
+13        F      /    Dm7
+14      Gm7
+15        F      /     Bb
+16        F
+
+Groove SpiritualSusPlus
+Cresc m 4
+
+17        /
+18        /
+19      Gm7
+20      C13
+
+Groove Spiritual
+Swell mf 4
+
+21     F7#9
+22       F7
+23      B13      /   Bb13
+24     Bbm6
+
+Groove SpiritualPlus
+Decresc mp 2
+
+25        F      /      /    Dm7
+26      Gm7
+
+RepeatEnding 2
+
+27        F      /     Bb
+28        F
+
+RepeatEnd
+
+Groove SpiritualEnd
+Decresc ppp 2
+
+27        F      /     Bb
+29        F

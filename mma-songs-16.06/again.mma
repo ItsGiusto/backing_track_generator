@@ -1,0 +1,93 @@
+// Again
+
+// This is a 1948 song by Dorcas Cochran/Lionel Newman. I think
+// I might be the only person I like playing it ;) I have a 
+// Doris Day version where she makes a drudge out of it at 60bpm
+// and then there are 'The Four Epics' making a complete mess of
+// it as a doo-wop. 
+
+Tempo 110
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossanovaIntro
+Begin Solo
+	Voice JazzGuitar
+	Decresc ff mp 4
+	Articulate 90
+	Octave 6
+	Harmony 3
+
+	Begin Riff
+		2.d;8r;d;
+		2.e;8r;e;
+		2.a;8r;a;
+		2.d+;
+	End
+End
+
+1   G       
+2   Em      
+3   Am      
+4   D7      
+
+Repeat
+Groove BossaNova
+
+5   G       /       Em7     
+6   Am7     /       D7b9    
+7   GM7     /       Bm      
+8   Am7     /       D9      
+9   G       /       G#dim   
+10  Am7     /       D7b9    
+11  G       /       Em      
+12  Am7     /       D7
+
+Groove BossaNovaSus
+      
+13  G       /       Em7     
+14  Am7     /       D7b9    
+15  GM7     /       Bm      
+16  Am7     /       D9      
+17  G       /       G#dim   
+18  Am7     /       D7b9    
+19  G       /       G+      
+20  G6      /       G7
+
+Groove BossaNova1Sus   
+   
+21  G       /       C6      
+22  Eb9     /       D7b9    
+23  G       G6      GM7     
+24  G9      G9b5    G9      G9#5    
+25  C       /       C6      
+26  Eb9     
+27  Am7     /       D7      
+28  Am7     /       D7b9  
+
+Groove BossaNova
+    
+29  G       /       Em7     
+30  Am7     /       D7b9    
+31  GM7     /       Bm      
+32  Am7     /       D9      
+33  G       /       G#dim   
+34  Am7     /       D9#5    D7  
+
+RepeatEnding
+    
+35  G       /       Em7 
+
+Groove BossaNovaFill
+    
+36  Am7     /       D7    
+
+RepeatEnd
+Groove BossaNova2End
+Seq 3
+
+35  G       /       Em7     
+36  Am7     /       G6    z!
+
+

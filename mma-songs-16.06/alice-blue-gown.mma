@@ -1,0 +1,104 @@
+// Alice Blue Gown
+
+Tempo 150
+Keysig C
+
+Groove Metronome3
+   z * 2
+
+Groove JazzWaltzIntro
+Begin Solo
+    Voice Piano1
+    Volume f
+    Articulate 110
+    Harmony OpenBelow
+    Octave 4
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+        4c+;g;a;
+        4e+;c+;a;
+        4d+;c+;a;
+        2.b;
+    End
+End
+
+1         C
+2         Am
+3         Dm
+4         G7
+
+
+Repeat
+
+Groove JazzWaltz
+
+5         C
+6         /
+7        A7      /     A9
+8        A7
+
+Groove JazzWaltz2
+
+9        D7
+10        /
+11        /      /   D7b9
+12       D7
+
+Groove JazzWaltz
+
+13       G7
+14        /      /   G7#5
+15        C
+16       A7   A7b9     A7
+
+Groove JazzWaltzSus
+
+17       Am    Am6   Ddim
+18       D7
+19       G9
+20       G7
+
+Groove JazzWaltz2Sus
+
+21        C
+22        /
+23       A7      /     A9
+24       A7
+
+Groove JazzWaltz1
+
+25       Dm     A7     Dm
+26       G7    Dm7     G7
+27        E   E7b9     E+
+28       E7
+
+Groove JazzWaltzSus
+
+29        F
+30        /      /  Abdim
+31        C      /     Gm
+32       A7
+
+Groove JazzWaltz
+
+33       Dm     A7     Dm
+34       G7    Fm7     G7
+
+RepeatEnding
+
+35       C
+
+Groove JazzWaltzFill
+
+36       /     G7
+
+RepeatEnd
+
+Groove JazzWaltzEnd
+Decresc ppp 2
+Tempo *.8 2
+
+37       C7     Am     C+
+38        C     z!
+

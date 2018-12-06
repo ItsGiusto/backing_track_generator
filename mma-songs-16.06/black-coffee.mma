@@ -1,0 +1,109 @@
+// Black Coffee
+
+Tempo 70
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBluesIntro
+
+Begin Solo
+   Voice JazzGuitar
+   Volume f
+   Harmony OpenBelow+8Below
+   Octave 5
+   Articulate 110
+   Begin Riff
+      8g+;;;d+;fn+;4.d+;      
+	  4e+;;2b;
+	  8e+;;;a;2c+;
+	  43d+;;;2;
+   End
+End
+
+SwingMode On
+
+Cresc p mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove SlowBlues
+Swell m mf 4
+
+5        G7
+6         /
+7         /
+8         /
+
+Groove SlowBluesFill
+Swell m mf 4
+
+9        C7
+10        /
+11       G7
+12        /
+
+
+Groove SlowBluesWalk4
+Decresc m mp 4
+
+13      Am7
+
+RepeatEnding
+
+14        /      /     D7
+15        G
+16        /      /      /     D7
+
+
+RepeatEnd
+
+17        /      /     D7
+18        G
+19        /      /     G7
+
+
+Groove SlowBluesSus
+Cresc mp mf 8
+
+20       Cm
+21       Gm
+22       Cm      /  Am7b5   D7#9
+23        G
+
+Groove SlowBluesWalk4Sus
+
+24     Bbm7      /    Eb7
+25       Ab
+26     Bbm7      /    Eb7
+27      Am7      /     D7
+
+Groove SlowBlues
+Decresc mp 4
+
+28       G7
+29        /
+30        /
+31        /
+
+Groove SlowBluesFill
+Volume m
+
+32       C7
+33        /
+34       G7
+35        /      /     E7
+
+Groove SlowBluesEnd
+Decresc ppp 4
+
+36      Am7
+37        /      /     D7
+38        G
+39        /      /     z!
+

@@ -1,0 +1,142 @@
+// Rosita
+
+Tempo 108
+Keysig D minor
+Transpose 3     /// take from Dm to Fm (easier for Tsax player)
+
+Groove Metronome2-4
+	   z * 2
+
+Groove BoleroIntro
+
+If Def wk3000
+   AllGrooves Chord Voice ChorusSteelGuitar
+Endif
+
+Plectrum Define P1234  1 4 90 * 4
+
+Begin Solo
+	  Voice NylonGuitar
+	  Volume ff
+	  Articulate 110 120 130 140
+	  Rtime 10
+	  Rvolume 5
+	  Harmony OpenBelow+8Above 
+	  Octave 5
+	  Begin Riff
+	  		4a;8;;2;
+			43b;a;g;4f;a;
+			4g;8;;2;
+			1a;
+	  End
+End
+
+Cresc pp mf 4
+Solo Cresc mp f 4
+
+1        Dm
+2       Bbm
+3        Em
+Solo Mallet Decay=-24 Rate=16
+4        A7
+
+Repeat  // do song 2x
+
+Groove Bolero
+Repeat
+Cresc p mf 8
+
+5        Dm
+6         /
+7       Bb7
+Plectrum  Riff P1234
+8         /
+
+9        A7      /      /    Bb7
+10       A7
+11       Dm      /     Gm
+Plectrum Riff P1234
+12       Dm
+
+Groove BoleroSus
+RepeatEnd
+
+Groove Bolero
+Volume m
+
+13       D7
+14        /
+15       Gm
+Plectrum Riff P1234
+16        /
+
+17       C9      /      /    Bbm
+18       C7
+19        F      /     F+
+Plectrum Riff P1234
+20       F6      /     F+      F
+
+Groove BoleroFill
+Volume mf
+
+21       A7
+22     A7b5
+23       Dm      /     F+
+Plectrum Riff P1234
+24      Dm7
+
+25      Bb9
+26      Bb7
+27       A7
+Plectrum Riff P1234
+28        /      /  Eb9b5
+
+
+Groove Bolero
+Repeat
+Cresc mp mf 6
+
+29       D6
+30        /
+31       A7
+
+Groove BoleroAlt
+Plectrum Riff P1234
+32       Em      /     G+    Em7
+Groove $_LastGroove
+33       A7
+
+RepeatEnding
+
+34        /
+Groove BoleroAlt
+35        D      /      F
+Plectrum Riff P1234
+36      Em7      /   A7b5
+Groove BoleroSusFill
+
+RepeatEnd      
+
+RepeatEnding   // play when doing piece 1st x
+
+37       A7
+38       D6
+Groove BoleroAltSus
+Plectrum Riff P1234
+39        /
+
+RepeatEnd   // go back to the begining, do entire piece a 2nd time
+
+Groove BoleroEnd
+Begin Scale
+	  Volume p
+	  Octave 5
+End
+Decresc  ppp 4
+Tempo *.9 4
+
+37       A7
+38      D6
+39        / z!
+Fermata -4 4 140
+

@@ -1,0 +1,117 @@
+// Blame It On My Youth
+
+Tempo 64
+KeySig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice JazzGuitar
+    Volume m
+    Articulate 90
+    Harmony OpenBelow
+    Octave 5
+    Rtime 5
+    RVolume 5
+    Begin Riff
+        2g;43a;b;bn;
+        2c+;43d+;e+;en+;
+        2f+;4a+;f+;
+        1b+;
+    End
+End
+
+Groove NiteJazzIntro
+Begin AllGrooves Chord-Sus
+    Octave 5
+    Volume +20
+End
+
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+
+Groove NiteJazz
+Volume m
+
+5        Eb      /    Fm7    Bb7
+6        Eb      /      /     B7
+7       Bb7      /   Edim
+8       Fm7      /    Bb7
+
+Groove NiteJazzPlus
+Cresc mf 4
+
+9       Fm7      /  C#dim    Fm7
+10      Bb9
+11       Eb      /    Fm7    Bb7
+12       Eb     Db    Eb7
+
+
+Groove NiteJazz
+Volume f
+
+13       Ab      /    Bb7
+14       Eb
+15      Fm7      /     Gm     Ab
+16      G7+     G7      /     C7
+
+Groove NiteJazzSus
+Cresc mp m 4
+
+17      Fm7      /    Bb7
+18      G7+     G7      /     C7
+19       F9      /    B7+
+20      Bb7
+
+Repeat
+Groove NiteJazzSusPlus
+Volume mf
+
+21       Eb      /    Fm7    Bb7
+22       Eb      /      /     B7
+23      Bb7      /   Edim
+24      Fm7      /    Bb7
+
+Groove NiteJazzSus
+Decresc m 4
+
+25      Fm7      /  C#dim    Fm7
+26      Bb7
+27       Eb      /    Fm7    Bb7
+28       Eb     Db    Eb7
+
+Groove NiteJazz
+
+29       Ab      /    Bb7
+30       Eb      /      /   Edim
+31      Fm7
+32      Gb+     G7      /     C7
+
+Groove NiteJazzPlus
+Decresc mp 2
+
+33      Fm7      /  C#dim    Fm7
+34       F9      /     Eb    Bb7
+
+RepeatEnding
+Cresc m 2
+
+35       Eb      /  Fm7b5
+36      Eb6      /  B&7
+
+RepeatEnd
+
+Groove NiteJazzEnd
+Decresc ppp 2
+
+35       Eb      /  Fm7b5
+36      Eb6      z!
+
+
+

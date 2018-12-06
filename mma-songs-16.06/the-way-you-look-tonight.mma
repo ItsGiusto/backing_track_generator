@@ -1,0 +1,150 @@
+// The Way You Look Tonight
+
+Tempo 200
+KeySig Eb
+
+// 2 bar metro
+
+Groove Metronome2-4
+	z * 2
+
+///////////////////////////
+
+// use the 1st alternate for the intro
+		
+Groove SwingIntro
+
+Begin Solo
+   Voice Organ2
+   Cresc m ff 4
+   Harmony OpenBelow
+   Octave 6
+   Articulate 101
+   Begin Riff
+     2b;e;
+	 4.e;8f;4g;a;
+	 2b;e;
+	 4.d;8e;4f;g;
+   End
+End
+
+Volume mp
+
+Swingmode On
+1 	Eb
+2 	Bbm7
+3 	Fm7
+4 	Bb7
+
+Begin Solo
+  Articulate 120
+  Volume mf
+End
+
+// The main verse
+
+Repeat
+Repeat
+Groove Swing
+Cresc m f 8
+
+5 	Eb6
+6 	Cm7
+7 	Fm7
+8 	Bb7
+9 	Gm7
+10 	C7b9
+11 	Fm7
+12 	Bb7
+
+Groove SwingWalk
+Decresc m 5
+
+13 	Eb7
+14 	/
+15 	Ab /  Fm7
+16 	Fm7 /  Bb7
+17 	Eb /  Cm
+
+Volume mp
+
+18 	Fm7 /  Bb7     { 4r;g+;2f; }
+
+RepeatEnding
+
+19 	Eb /  Gbdim    { 4r;4e+;2c+; }
+20 	Fm7 /  Bb7
+
+RepeatEnd
+
+21 	Eb /  Gbdim    { 4r;d+;2c+; }
+22 	Fm7 /  Bb7     { 4r;g;2f; }
+
+// Interlude. Call up the fiddlers
+
+Groove SwingSus
+Swell m f 8
+
+23 	GbM7
+24 	Gdim
+25 	Abm7
+26 	Db7
+27 	GbM7 
+28 	Bbm7 /  Adim
+29 	Abm7
+30 	Db7
+31 	GbM9
+
+Groove SwingPlusSus
+Swell m f 8
+
+32 	Gdim
+33 	Abm7
+34 	Db9
+35 	GbM7
+36 	Ebm7 /  Adim
+37 	Fm7
+38 	Bb7
+
+Groove SwingWalkSus
+Cresc mp mf  8
+
+39 	Eb6
+40 	Cm7
+41 	Fm7
+42 	Bb9
+43 	Gm7
+44 	C7b9
+45 	Fm7
+46 	Bb7
+
+Groove SwingSus
+Volume m
+
+47 	Eb7
+48 	/
+49 	Ab /  Fm7
+50 	Fm7 /  Bb7
+
+Decresc m mp 4
+
+51 	Eb /  Cm7        { 4r;b;2c+;}
+52 	Fm9 /  Bb9       { 4r; g+;2f+; }
+53 	EbM7 /  Cm7      { 4r; d+; 2c+; }
+54 	Fm7 /  Bb7       { 4r; g;2f; }
+
+Groove Swing
+Volume m
+
+55 	Ab6 G Edim Fm
+56 	Fm7 /  Bb7
+57 	Eb6
+
+RepeatEnding
+58 	Eb6
+
+RepeatEnd
+Groove SwingEnd
+Seq 2
+	Eb6 / z!
+

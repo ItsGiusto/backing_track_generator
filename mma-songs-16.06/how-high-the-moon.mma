@@ -1,0 +1,104 @@
+// How High The Moon
+
+// This is loosely based on the Les Paul/Mary Ford rendition,
+// complete with the tempo and keychange for the final chorus.
+
+
+Tempo 210           // Yes, it moves!
+
+Groove Metronome2-4
+	z * 2
+	
+Groove EasySwing2
+	B:2 / Am:2
+	G:2 / F#m
+Groove EasySwing
+	Em / / EmzC
+Groove EasySwing2
+	G:2 / F#m
+	Em / D
+Groove EasySwing
+	E7 / / E7zC
+
+Groove EasySwingWalk	
+
+1 	z D7  A9 D7
+
+Repeat
+Groove EasySwing2
+
+1 	Gmaj7 /  G6
+2 	/  G
+3 	Gm7 /  C9
+4 	/  C7 G9 C7b9
+5 	Fmaj7 /  F6
+6 	/  F
+7 	Fm7 /  Bb9
+8 	/  Bb7 Ab Bb7
+9 	Eb /  Ebmaj7
+10 	Cm /  D7
+11 	Gm
+12 	/  /  Cm6
+13 	G
+14 	Am /  D7
+15 	G /  Gm
+16 	D7 /  A9 D7
+17 	Gmaj7 /  G6
+18 	/  G
+19 	Gm7 /  C9
+
+Groove EasySwing2Sus
+
+20 	/  C7 G9 C7b9
+21 	Fmaj7 /  F6
+22 	/  F
+23 	Fm7 /  Bb9
+24 	/  Bb7 Ab Bb7
+25 	Eb /  Ebmaj7
+26 	Cm /  D7
+27 	G7
+28 	C /  Cm
+
+Groove EasySwing2
+
+29 	G /  Gm
+30 	D7 /  A9 D7b9
+
+RepeatEnding 2
+
+31 	G /  D9#5 A9
+32 	D7 /  A9 D7
+
+RepeatEnd
+
+Groove EasySwing2
+
+33 	G
+
+// Slow down, way down! And take it from G to Ab
+
+Tempo *.5
+Transpose 1
+Groove  EasySwingWalk
+
+34 	D7 /  A9 D7
+35 	Gmaj7 /  G6
+36 	/  /  G
+37 	Gm7 /  C9
+38 	/  C7 G9 C7b9
+39 	Fmaj7 /  F6
+40 	/  F
+41 	Fm7 /  Bb9
+42 	/  Bb7 Ab Bb7
+43 	Eb /  Ebmaj7
+44 	Cm /  D7
+45 	G7
+46 	C /  Cm
+47 	G /  Gm
+48 	D7 /  A9 D7b9
+
+Groove EasySwingEnd
+
+49 	G
+50 	G6 / z!
+

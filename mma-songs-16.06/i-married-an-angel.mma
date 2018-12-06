@@ -1,0 +1,98 @@
+// I Married An Angel
+
+Tempo 80
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Set PUSH0  .7
+Groove EvansishIntro
+AllGrooves Arpeggio Rskip   70
+
+Begin Solo
+     Voice Strings
+     Volume m
+     Articulate 120
+     Octave 6
+     Harmony 3Below
+     Begin Riff
+         2f-;c;
+         2d;a;
+         2g;d+;
+         2.c+;
+     End
+End
+
+Swell p m 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove Evansish
+Volume m
+
+5         F      /     C7
+6         F      /     Dm
+7       Gm7      /     C7
+8         F      /     Dm
+
+Groove EvansishPlus
+Cresc mp mf 2
+
+9       Gm7      /     C7
+10        F      /     D7
+Decresc mp 1
+11      Gm7     C7
+
+RepeatEnding
+
+Groove EvansishFill
+Volume -30
+
+12        F
+
+RepeatEnd
+
+13        F
+
+Groove EvansishSus
+Volume mp
+
+14       Dm    Dm7     G7
+15        C
+16       Dm    Dm7     G7
+17        C
+
+Groove EvansishSusPlus
+Cresc m 4
+
+18      Cm7      /     F7
+19       Bb
+20        F      /     G7
+21       C7      /   C7b9
+
+Groove Evansish
+Volume +20
+
+22        F      /     C7
+23        F      /     Dm
+24      Gm7      /     C7
+25        F      /     Dm
+
+Groove EvansishPlus
+Decresc mp 2
+
+26      Gm7      /     C7
+27        F      /     D7
+
+Groove EvansishEnd
+Decresc pp 2
+
+28      Gm7     C7
+29        F     z!
+

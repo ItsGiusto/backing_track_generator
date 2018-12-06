@@ -1,0 +1,96 @@
+// They Say Its Spring
+
+Tempo 100
+Keysig Ab
+
+Begin Solo
+    Voice Piano1
+    Volume f
+    Octave 5
+    Articulate 110
+    Harmony OpenBelow
+End
+
+Groove EasySwing2
+
+1    Eb7#11                       { 2.r;8;e; }
+2      AbM7  Absus   AbM7 Db7#11  { 8e+;;d+;;e+;16;;8g+;; }
+3      AbM7      /   Bbm7    Eb7  { 2f+;4r;8;e; }
+4      AbM7  Absus   AbM7 Db7#11  { 8e+;;d+;16;;8e+;;g+;; }
+
+5      AbM7                       { 2f+;4r;8;e+; }
+6       Fm7      /  Gm7b5  C7b13  { 8a;;;b;c+;;r;b; }
+7       Fm7      /  Gm7b5  C7b13  { 8a;;;b;c+;;r;16b;c+; }
+8       FM7      /    Fm7    Bb7  { 8an;b;a;b;c+;;r;16a&;b; }
+
+9     Bbsus    Bb7  Ebsus Bb7#11  { 8c+;;dn+;;e+;4.; }
+
+// Repeat
+Groove EasySwing
+
+10     AbM7      /    Fm7
+11     Bbm7      /    Eb7
+12     AbM7      /    Fm7
+
+13     Bbm7      /    Eb7
+14     AbM7      /    Fm7
+15    Gm7b5      /  C7b13
+16      Fm7
+
+17    Gm7b5      /  C7b13
+18      Fm7
+19     Bbm7      /    Eb7
+20     AbM7      /    Fm7
+
+21     Bbm7      /    Eb7
+22     AbM7      /    Fm7
+23     Bbm7      /    Eb7
+24     AbM7      /    Fm7
+
+25    Gm7b5      /  C7b13
+26      Fm7
+27    Gm7b5      /  C7b13
+28      Fm7
+
+29     Bbm7      /    Eb7
+30      Dm7      /     G7
+31      Cm7      /     F7    Dm7
+32        /      /     G7    Cm7
+
+33        /     F7
+34     Bbm7      /    Eb7
+35      Cm7      /     F7
+36     Bbm7
+
+37      Gb7     F7     E7    Eb7
+38     AbM7      /    Fm7
+39     Bbm7      /    Eb7
+40     AbM7      /    Fm7
+
+41     Bbm7      /    Eb7
+42     AbM7      /    Fm7
+43    Gm7b5      /  C7b13
+44      Fm7
+
+45    Gm7b5      /  C7b13
+46      Fm7
+47     Bbm7      /   Bdim
+48      Cm7      /     F7
+
+49     Bbm7      /    Eb7
+50      Cm7      /     F7
+51     Bbm7      /    Eb7
+52      Cm7      /     F7
+
+
+// RepeatEnding
+
+53     Bbm7      /    Eb7
+
+// RepeatEnd
+
+
+// RepeatEnding
+
+54     Bbm7
+

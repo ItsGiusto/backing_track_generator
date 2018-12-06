@@ -1,0 +1,112 @@
+// The Object Of My Affection
+
+Tempo 120
+Keysig Ab
+
+Groove Metronome2-4
+  z * 2
+
+Groove Foxtrot1Intro
+
+Begin Solo
+ Voice Piano1
+ Volume f
+ Harmony OpenBelow
+ Articulate 90
+ Octave 5
+ Begin Riff
+  8a;;;; 4d+;b;
+  2a; 8c+;; 4a;
+  4b;a;g;f;
+  1e;
+ End
+End
+
+Swingmode On
+Cresc p f 4
+
+1        Ab
+2        Fm
+3       Bbm
+4       Eb7  /  /  z
+
+Repeat
+Groove FoxTrot1
+Volume m
+
+5        Ab      /   AbM9
+6         /      /   AbM7
+7       Bbm
+8         /
+
+Groove FoxTrot1Sus
+Volume -10
+
+9        Db      /     Cm
+10        /      /    Eb7
+11       Ab
+12    Abdim      /    Eb7
+
+Groove FoxTrot1
+Volume +10
+
+13       Ab      /   AbM9
+14       Ab      /   AbM7
+15      Bbm
+16        /
+
+Groove FoxTrot1Plus
+Swell mf 4
+
+17       Db      /     Cm
+18        /      /    Eb7
+19       Ab
+20      Ab9
+
+Groove FoxTrot1
+Swell mp 4
+
+21       Gb      /    Ab7
+22      Ab9
+23       Db
+24        /      /      C      B
+
+Groove FoxTrot1Sus
+Cresc f 4
+
+25      Bb7
+26      Bb9
+27      Db6
+28      Eb+
+
+Groove FoxTrot1
+Decresc m 4
+
+29       Ab      /   AbM9
+30       Ab      /   AbM7
+31      Bbm
+32        /
+
+Groove FoxTrot1Plus
+Volume m
+
+33       Db      /     Cm
+34        /      /    Eb7
+
+RepeatEnding
+
+Groove FoxTrotFill
+Decresc mp 2
+
+35       Ab      /    Bbm    Eb7
+36       Ab      /    Eb7
+
+RepeatEnd
+
+Groove FoxTrot1End
+Tempo *.8 2
+Decresc ppp 2
+
+35       Ab      /    Bbm    Eb7
+36       Ab      /    z!
+

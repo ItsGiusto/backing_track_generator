@@ -1,0 +1,92 @@
+ // Zingaro
+
+// A difficult Jobim/Buarque Bossa.
+
+Tempo 120
+Keysig G minor
+
+Groove Metronome2-4
+	   z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+	  Voice TremoloStrings
+	  Volume F
+	  Harmony Open+8below
+	  Articulate 110
+	  Octave 6
+	  Begin Riff
+	  		4.g+   ; f+ ; e+~ ;
+			~ 4.d+ ; c+ ; b~  ;
+			~ 4.a  ; g; 
+			1f#;
+	  End
+End
+
+1        Gm
+2       Eb7
+3       Am7
+4        D7
+
+Repeat
+Groove BossaNova
+
+5        Gm
+6         /
+7      D/F#
+8         /
+9       Fm6
+10       E7
+11     EbM7
+12      Eb6
+
+
+13      Cm7
+14       D7
+15     BbM7
+16      Bb6
+17    A13#9
+18   A7#9b13
+19       D7
+20   Ab7#11
+
+Groove BossaNova1Sus
+
+21       Gm
+22        /
+23     D/F#
+24        /
+25      Fm6
+26       E7
+27     EbM7
+28        /
+
+Groove BossaNova3Sus
+
+29      Cm7
+30   C#dim7
+31     Gm/D
+32     EbM7
+33      Cm7
+34     Ebm9      /     D7
+
+RepeatEnding
+
+35       Gm
+
+Groove BossaNovaFill
+
+36        /
+
+RepeatEnd
+
+Groove BossaNova2End
+Seq 3
+Tempo *.9 2
+Decresc p 2
+
+35       Gm
+36        /  z!
+
+
+

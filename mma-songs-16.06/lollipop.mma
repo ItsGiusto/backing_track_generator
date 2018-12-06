@@ -1,0 +1,98 @@
+// Lollipop
+
+// Loosely based on the Chordettes version. They sing in 
+// the key of Ab, and their tempo is a bit faster (144).
+
+Tempo 140
+
+// This sets up the decending line repetitiously heard too many times.
+
+Begin Solo-Bass
+	Voice AcousticBass 
+	Octave 3
+	Volume f
+	Articulate 99
+End
+Set BassRun Solo-Bass Riff  8.g;16;4f;e;d;
+
+
+Groove Metronome2-4
+
+	z * 2
+
+Groove 50sRock1
+
+
+1 	C /  Am
+2 	Dm7 /  G7
+3 	C /  / z
+
+$BassRun
+
+4 	z
+
+Repeat
+Groove 50sRock
+
+// 8 bars of 'lollipop'
+
+5 	C /  Am
+6 	Dm7 /  G7
+7 	C /  Am
+8 	Dm7 /  G7
+9 	C /  Am
+10 	Dm7 /  G7
+11 	C / z
+
+$BassRun
+12 	z
+
+// Verse 'call me, etc'
+
+13 	C /  F
+14 	C /  F
+15 	C /  Am7
+16 	Dm7 /  G7
+17 	C /  F
+18 	C /  F
+19 	G7
+20 	C G7
+21 	C /  Am
+22 	Dm7 /  G7
+23 	C /  Am
+24 	Dm7 /  G7
+25 	C /  Am
+26 	Dm7 /  G7
+27 	C / z
+
+RepeatEnding 2
+
+$BassRun
+28 	G7
+
+Groove 50sRock1Sus
+
+// This is the interlude. We do it after the 1st and 2nd verses
+// 'Sweeter than ..'
+
+31 	F
+32 	/
+33 	C /  F
+34 	C
+
+Groove 50sRockSus
+
+35 	F
+36 	/
+37 	D7
+38 	G7
+
+RepeatEnd
+Groove 50sRockEnd	
+
+$BassRun
+29 	G7
+30 	C z!
+
+Cut -2
+

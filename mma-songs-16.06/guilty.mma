@@ -1,0 +1,88 @@
+// Guilty
+
+Tempo 95
+Keysig c
+
+Groove Metronome2-4
+  z * 2
+
+Groove BalladIntro
+Begin Solo
+	  Voice Atmosphere
+	  Harmony Open+16Below
+	  Articulate 130
+	  Octave 5
+	  Begin Riff
+	     8g;a;g;8+2a;
+		 8a;b;a;8+2b;
+		 43b;a;g;4f;g;
+		 1g;
+	  End
+End
+SwingMode On
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove Ballad
+Swell f 8
+
+5         C     Gm     A7
+6        Dm     Am     B7
+7         C      /     C+
+8         F      /     Fm
+9         C      /  Ebdim3
+10      Dm7      /     G7
+11      Dm7      /     G+
+12        C      /     G9
+
+Groove BalladSus
+Swell mf 8
+
+13        C     Gm     A7
+14       Dm     Am     B7
+15        C      /     C+
+16        F      /     Fm
+17        C      /  Ebdim3
+18      Dm7      /     G7
+19      Dm7      /     G7
+20        C      /     E7
+
+Groove Ballad1
+Volume f
+
+21       Em
+22      Am6      /     B+     B7
+23       Em
+24     F#m6      /     B+     B7
+25        G
+26       D7      /    GM7     G#dim3
+27       Am      /     D7
+28       G7
+
+Groove Ballad1Sus
+Decresc mp 8
+
+29        C     Gm     A7
+30       Dm     Am     B7
+31        C      /     C+
+32        F      /     Fm
+33        C      /  Ebdim3
+34      Dm7      /     G7
+35      Dm7      /     G9     G7
+
+RepeatEnding
+
+Groove BalladFill
+
+36        C      /     G9 G7#5b9
+
+RepeatEnd
+
+Groove Ballad1End
+
+37        C  /  z!
+

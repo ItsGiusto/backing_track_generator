@@ -1,0 +1,100 @@
+// Walkin After Midnight
+
+Tempo 96
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzGuitar1Intro
+AllGrooves Plectrum Capo -3
+Begin Solo
+    Voice JazzGuitar
+	Volume ff
+	Harmony OpenBelow+8Below
+	Articulate 90
+	Octave 5
+	Rtime 5
+	Rvolume 5
+	Begin Riff
+	    2f;4a;c+;
+		8d+;;;; 2a;
+		43b;a;g;f;e;d;
+		2c;
+	End
+End
+
+SwingMode On Skew=60
+
+1         F
+2        Dm
+3        Gm
+Bass Riff 1 2 1 90 ; 2 1 5 90
+4        C7
+
+Repeat
+Groove JazzGuitar
+
+5         F
+6       Bb7
+7         F      /      /     C7
+8         F     Bb    F/A    Gm7
+
+Groove JazzGuitarSus
+
+9         F
+10      Bb7
+11        F      /    Gm7
+12        F     Gm    F/A    Gm7
+
+Groove JazzGuitar2
+
+13        F
+14      Bb7
+15        F      /      /     C7
+16        F     Bb    F/A    Gm7
+
+Groove JazzGuitar2Sus
+
+17        F
+18      Bb7
+19        F      /     Bb
+20        F      /     F9    Cm7
+
+Groove JazzGuitarWalk
+
+21       Bb
+22      Eb7
+23        F      /    FM7
+24       F6      /     F7
+
+Groove JazzGuitarWalkSus
+
+25       Bb
+26      Eb7
+27        F      /   Adim
+28      Gm7      /     C7
+
+Groove JazzGuitar
+
+29        F
+30      Bb7
+31        F      /      /     C7
+32        F     Bb    F/A    Gm7
+
+Groove JazzGuitarSus
+
+33        F
+34      Bb7
+
+RepeatEnding
+
+35        F   /   Dm
+36       Gm   /   C7
+
+RepeatEnd
+Groove JazzGuitarEnd
+
+37        F
+38        F  /  z!
+

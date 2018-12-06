@@ -1,0 +1,98 @@
+// What A Wonderful World
+
+Tempo 80
+Keysig F
+
+Transpose 7  /// from F to C
+
+Groove Metronome2-4
+   z * 2
+
+Groove PianoBalladIntro
+Seq 3
+Volume p
+
+1          F      /    Dm7
+2        Gm7      /     C7
+
+Groove PianoBallad
+Volume m
+
+3          F      /     Am
+4         Bb      /     Am
+5        Gm7      /      F
+6         A7      /     Dm
+
+Groove PianoBallad1
+Decresc mp 2
+
+7         Db
+8        C11      /     C7
+9          F      /     F+
+10       BbM      /     C7
+
+Repeat
+Label DS
+Groove PianoBalladSus
+Cresc m 4
+
+11         F      /     Am
+12        Bb      /     Am
+13       Gm7      /      F
+14        A7      /     Dm
+
+Groove PianoBallad1Sus
+
+15        Db
+16       C11      /     C7
+
+If Def CODA
+  Goto Coda
+Endif
+
+17         F      /     Bb
+18         /      /      F
+
+Groove PianoBalladSus
+Cresc mf 4
+
+19        C7
+20         F
+21        C7
+22         F
+
+Groove PianoBallad
+Decresc mp 8
+
+23        Dm      /      C
+24        Dm      /      C
+25        Dm      /  F#dim
+26       Gm7      /     C7
+
+RepeatEnd
+
+Set Coda
+Goto DS
+
+
+Label Coda
+
+Groove PianoBalladFill
+Volume mp
+
+27         F      /  Am7b5
+28        D7
+
+Groove PianoBallad
+
+29       Gm7
+30         /      /   C7b9
+
+Groove PianoBalladEnd
+Decresc ppp 2
+Tempo *.8
+
+31         F      /    Bb6
+32         /      /      F
+
+

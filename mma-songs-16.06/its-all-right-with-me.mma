@@ -1,0 +1,120 @@
+// Its All Right With Me
+
+Tempo 174
+Keysig C minor
+
+Groove Metronome2-4
+	   z * 2
+
+Groove BigBandIntro
+Begin Solo
+	  Voice BrassSection
+	  Volume mf
+	  Harmony 3Above
+	  Articulate 70
+	  Octave 5
+	  Begin Riff
+	  		4e;r;g;
+			4en;r;an;
+			4f;en;d;r;
+			2d;
+	  End
+End
+
+Cresc p m 4
+1        Cm
+2        Am
+3        Dm
+4        G7
+
+Groove BigBand
+Repeat
+
+5        Cm      /  Cm7/Bb
+6     Am7b5      /    Ab9   G7b5
+7        Cm      /  Cm7/Bb
+8     Am7b5      /    Ab9   G7b9
+9       Cm7
+10        /
+11      Fm7
+12        /
+13    Am7b5
+14     D7b9
+15    Gm7b5
+16       C7
+
+RepeatEnding
+
+17       F9
+18    F7/Eb
+19    Dm7b5
+20       G7      /    Ab9   G7b9
+
+Groove BigBandPlus
+
+RepeatEnd
+
+
+21       F9
+22      Fm7      /    Bb7
+23       Eb      /    Ab7
+24       Eb      /    Fm7
+
+Groove BigBandSus
+
+25    Gm7b5
+26     C7b9
+27       F7
+28        /
+29    Fm7b5
+30    Bb7b9
+31       Eb
+32     EbM7      /    Fm7
+
+Groove BigBandSusPlus
+
+33    Gm7b5
+34     C7b9
+35       F7
+36        /
+37      Fm7
+38      Bb7
+39     EbM7      /   AbM7
+40    Dm7b5      /    Ab9   G7b9
+
+Groove BigBand8
+
+41       Cm      /  Cm7/Bb
+42    Am7b5      /    Ab9   G7b9
+43       Cm      /  Cm7/Bb
+44    Am7b5      /    Ab9   G7b9
+45      Cm7
+46        /
+47      Fm7
+48        /
+
+Groove BigBand8Sus
+
+49    Am7b5
+50     D7b9
+51    Gm7b5
+52       C7
+53       F9
+54        /      /      /   B7b5
+55      Bb9
+56        /      /    Fm7    Bb7
+
+Seq 
+
+57     EbM7
+58     Bbm7      /    Eb7  Eb7#5
+59     AbM7
+60     AbM7/G      / Ab7/Gb
+
+Groove BigBand4End
+Seq 2
+
+61       F9
+62      Fm7      / Fm11/Bb
+63      Eb6    z!
+

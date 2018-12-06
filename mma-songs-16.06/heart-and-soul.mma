@@ -1,0 +1,88 @@
+// Heart And Soul
+
+Tempo 110
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+	
+Groove BigBandIntro
+
+Begin Solo
+    Voice JazzGuitar
+	Volume f
+	Articulate 110
+	Octave 5
+	Begin Riff
+	   8f;a;c+;a;d;f;a;d;
+	   8g;b;g;b;c+;b;g;e;
+	   8c;f;a;f;d;f;a;f;
+	   8d;f;g;f;b;a;g;f;
+	End
+End
+
+Cresc p mf 4
+Swingmode On
+
+1       F     /     Dm   
+2       Gm7   /     C7   
+3       F     /     Dm   
+
+Drum-Snare Riff D34; D34 Shift .66
+4       Gm7   /     C7   
+cut -.5
+
+Repeat
+Repeat
+Groove BigBand8
+Volume mf
+
+
+5       F     /     Dm   
+6       Gm7   /     C7   
+7       F     /     Dm   
+8       Gm7   /     C7   
+9       F     /     Dm   
+10      Gm7   /     F     C7   
+11      F    
+
+RepeatEnding
+
+12      Gm7   /     C7   
+
+RepeatEnd
+
+
+13      /     /     F7   
+
+Groove Bigband1
+14      Bb    /     A7   
+15      D7    /     G7   
+16      C7    /     F7   
+17      E7    /     A7   
+18      Bb    /     A7   
+19      D7    /     G7   
+20      C7    /     F7   
+21      E7    /     C7   
+22      F     /     Dm   
+23      Gm7   /     C7   
+24      F     /     Dm   
+25      Gm7   /     C7   
+26      F     /     Dm   
+27      Gm7   /     F     C7   
+28      A7    /     D7   
+29      Gm7   /     G7    C7   
+
+RepeatEnding
+
+30      F    
+31      C7   
+
+RepeatEnd
+
+Groove BigBand1End
+
+32      F     /     Bb    Bbm  
+33      F    z!
+
+

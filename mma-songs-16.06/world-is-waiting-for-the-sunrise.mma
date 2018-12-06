@@ -1,0 +1,82 @@
+// (the) World Is Waiting For The Sunrise
+
+Tempo 215
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove EasySwingIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 6
+    Volume f
+    Articulate 120
+    Harmony 3Below+8Below
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+        4c+;2.g;
+        4a;2.e;
+        4f;2.e;
+        1g;
+    End
+End
+
+Cresc mp mf 4
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+Repeat
+Groove EasySwing
+Volume m
+
+5          C      /      /    G7+
+6         C6      /      /    G7+
+7          C      /     C6      C
+8         E7
+
+Groove EasySwingSus
+Cresc mf 4
+
+9          F      /      /    G7+
+10         C
+11        D7
+12        G7      /      /    G7+
+
+Groove EasySwing42
+Cresc m f 4
+
+13         C      /      /    G7+
+14        C6      /      /    G7+
+15         C      /     C6      C
+16        E7
+
+Groove EasySwing42Sus
+Decresc mp 2
+
+17         F      /      /     G7
+18         C      /     A7
+
+RepeatEnding 3
+
+19       Fm6  /  /  G7
+Groove EasySwingFill
+20       C   /  G7   G7+
+
+RepeatEnd
+Decresc ppp 4
+
+21       Fm6
+22        G7
+
+Groove EasySwingEnd
+
+23         C
+24         /      /     z!
+
+

@@ -1,0 +1,116 @@
+// Small Fry
+
+Tempo 110
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Harmony 3
+    Octave 5
+    Begin Riff
+        2c+;a;
+        8f;g;a;b;4c+;d+;
+        8g;a;b;c+;4d+;b;
+        1c+;
+    End
+End
+
+Swingmode On
+
+Groove FoxTrotIntro
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5       FM7      /     D7
+6        G7      /     C7
+7       FM7      /     D7
+8        G7      /     C7
+
+Groove FoxTrotPlus
+Cresc mf 2
+
+9       FM7      /     F7
+10      Bb7      /     D7
+
+Decresc mp 2
+RepeatEnding
+
+11       G7
+Groove FoxTrotFill
+12      Gm7      /     C7
+
+RepeatEnd
+
+13       G7      /     C7
+Groove FoxTrotFill
+14      FM7      /    Cm7     F7
+
+Repeat
+Groove FoxTrot
+Volume m
+15      Bb7      /    FM7
+16       A7      /    Dm7
+17      Gm7      /     C7
+18      FM7      /    Cm7     F7
+
+Groove FoxTrotSus
+Cresc mf 4
+
+19      Bb7      /    Fm7
+20       A7      /    Dm7
+21       G7
+22      Gm7      /     C7
+
+Groove FoxTrotSusPlus
+Decresc mp 4
+
+23      FM7      /     D7
+24       G7      /     C7
+25      FM7      /     D7
+26       G7      /     C7
+
+Groove FoxTrot
+Volume m
+
+27      FM7      /     F7
+28      Bb7      /     D7
+29       G7      /     C7
+30      FM7      /    Cm7     F7
+
+Groove FoxTrotPlus
+Volume mf
+
+31      Bb7      /    FM7
+32       A7      /    Dm7
+
+RepeatEnding
+Decresc mp 2
+
+33      Gm7      /     C7
+
+Groove FoxTrotFill
+
+34      FM7      /    Cm7     F7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc ppp 2
+Tempo *.8 2
+
+33      Gm7      /     C7
+35      FM7  z!
+

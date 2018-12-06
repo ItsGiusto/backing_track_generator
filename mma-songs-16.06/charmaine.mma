@@ -1,0 +1,115 @@
+// Charmaine
+
+Tempo 180
+Keysig eb
+
+Groove Metronome3
+  z * 2
+
+Groove LatinWaltzIntro
+
+Begin AllGrooves
+    Chord-Sus Volume +10
+    Arpeggio Rskip 50
+End
+
+Begin Solo
+    Voice JazzGuitar
+    Harmony OpenBelow
+    Articulate 120
+    Volume f
+    Octave 5
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+         4e+;d+;c+;
+         2.c+;
+         4f+;e+;d+;
+         2.b;
+    End    
+End
+
+Cresc mp mf 4
+
+1        Eb
+2        Cm7
+3        Fm7
+4       Bb7      /   Bb7+
+
+
+Repeat
+Groove LatinWaltz
+Volume m
+
+5        Eb
+6         /
+7      EbM7
+8       Eb6
+
+Groove LatinWaltzPlus
+Cresc mf 4
+
+9      EbM7      /    Eb6
+10       Eb
+11      Fm7      /    Bb7
+12        /
+
+Groove LatinWaltzSus
+Decresc m 4
+
+13      Fm7
+14      Bb7
+15      Fm7
+16      Bb7
+
+Groove LatinWaltzSusPlus
+
+17        /
+18     Bb7+
+19       Eb   EbM7    Eb6
+20      Fm7    Bb7
+
+Groove LatinWaltz
+Volume mf
+
+21       Eb
+22        /
+23     Bbm6
+24       C7
+
+Groove LatinWaltzPlus
+Decresc m 2
+
+25       Fm
+26       C7
+27       Fm     Db     Fm
+28     Fdim     Fm   C7b9
+
+Groove LatinWaltzSus
+Decresc mp 2
+
+29       Fm   Gdim     Fm
+30     Abm6
+31       Eb
+32     C7b9    /       C7
+
+Groove LatinWaltzSusPlus
+
+33       F9
+34      Bb7      /   Bb7+
+
+Repeatending 2
+
+35       Eb
+36       Bb7    /    B&7+
+
+RepeatEnd
+
+Groove LatinWaltzEnd
+Decresc ppp 2
+
+35       Eb
+37       /  z!
+
+
+

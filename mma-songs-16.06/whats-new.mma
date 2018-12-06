@@ -1,0 +1,113 @@
+// Whats New
+
+Tempo 90
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove JazzComboIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Articulate 110
+    Harmony OpenAbove+OpenBelow
+    Octave 5
+    Begin Riff
+        4b;2c+;
+        4a;2c+;8r;a;
+        4d+;c+;b;a;
+        2g;
+    End
+End
+
+Swell mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat 
+
+Groove JazzCombo
+Cresc mp mf 4
+
+5        C6      /    Am7
+6      Bbm7      /    Eb7
+7      AbM7      /    Fm7
+8     Dm7b5
+
+Groove JazzCombo1
+Decresc mp 2
+
+9       Cm6      /  Am7b5
+10    Dm7b5      /   G7b9
+
+Groove JazzCombo1Sus
+Cresc m 2
+
+11        C      /    Am7
+
+RepeatEnding
+
+Groove JazzCombo2Sus
+
+12      Dm7      / G7#5b9
+
+RepeatEnd
+
+13      Gm7      / C7#5b9
+
+14       F6      /    Dm7
+
+Repeat
+
+Groove JazzCombo1
+Volume m
+
+
+15     Ebm7      /    Ab7
+16     DbM7      /   Bbm7
+17    Gm7b5      /   C7b9
+18      Fm6      /  Dm7b5
+
+Groove JazzCombo
+Decresc mp 4
+
+19    Gm7b5      /   C7b9
+20      Fm6
+21    Dm7b5      /     G7    Db9
+22       C6      /    Am7
+
+Groove JazzComboSus
+Cresc m 4
+
+23     Bbm7      /    Eb7
+24     AbM7      /    Fm7
+25    Dm7b5      /   G7b9
+26      Cm7      /  Am7b5
+
+Groove JazzCombo2
+Decresc mp 1
+
+27    Dm7b5      /   G7b9
+
+RepeatEnding
+
+Groove JazzCombo2Sus
+Cresc mf 3
+
+28        C      /     F9
+29        Gm7    /     C7#5b9
+30        F6     /     Dm7
+
+RepeatEnd
+
+Groove JazzComboEnd
+Tempo *.7 2
+Decresc ppp 2
+
+28        C      /     F9
+31      C6(add9) z!

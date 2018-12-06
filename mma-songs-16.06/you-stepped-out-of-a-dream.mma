@@ -1,0 +1,110 @@
+// You Stepped Out Of A Dream (Ziegfield Girl, 1940)
+
+Tempo 130
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxTrotIntro
+Begin Solo
+    Voice Piano1
+    Harmony 3Below+3Above
+    Articulate 120
+    Octave 5
+    Volume f
+    Rtime 5
+    RVolume 5
+    Begin Riff
+        1+2 c~;
+        ~ 43 c;;;
+        1+2 f~;
+    End
+End
+
+Cresc mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5       CM7
+6         /
+7      DbM7
+8         /
+
+Groove FoxTrotPlus
+Volume mf
+
+9       Eb7      /    Eb6
+10      Eb+      /    Eb7
+11     AbM7
+12      Ab6
+
+Groove FoxTrot
+Decresc m 4
+
+13      Gm7
+14       C7
+15      FM7
+16        /
+
+Groove FoxTrotPlus
+Decresc mp 4
+
+17      Am7
+18       D7
+19     Ebm7      /    Ab7
+20      Dm7      /     G7
+
+Groove FoxTrotSus
+Cresc m 4
+
+21      CM7
+22        /
+23     DbM7
+24        /
+
+Groove FoxTrotSusPlus
+
+25      Eb7      /    Eb6
+26      Eb+      /    Eb7
+27      Gb7
+28       F7
+
+Groove FoxTrot
+Cresc mf 4
+
+29    Dm7b5
+30     G7b9
+31      CM7      /     D7
+32      Em7      /    Am7
+
+Groove FoxTrotPlus
+Decresc mp 2
+
+33      Dm7
+34       G7      /    G+7
+
+RepeatEnding 2
+
+Groove FoxTrotFill
+
+35      CM7
+36       G7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+Decresc ppp 2
+
+35      CM7
+36        C      /    CM7
+
+

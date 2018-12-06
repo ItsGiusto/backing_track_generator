@@ -1,0 +1,71 @@
+// Django
+
+Tempo 76
+Keysig F minor
+
+Groove Metronome2-4
+	z * 2
+
+
+Groove JazzGuitar1Intro
+Swell pp mp 4
+1         Fm
+2         Eb
+3         D+>1
+Plectrum Riff 1 0 90
+Bass Riff 1 4 1 90; 2 4 2 90; 3 4 3 90; 4 4 5 90
+4         D9
+
+Repeat
+Groove JazzGuitar
+Volume m
+
+5        Fm7
+6       Bbm7
+7       C7b9
+8        Fm7
+
+Groove JazzGuitarWalk
+Cresc mf 2
+
+9       F7b9>2
+10      Bbm7
+11     Eb7b9
+12      AbM7
+
+Groove JazzGuitar1
+Decresc m 4
+
+13        Db      /      /   DbM7
+14     Gm7b5
+15      G7/F
+16       C/E      /      C
+
+Groove JazzGuitar1Walk
+Swell mf 4
+
+17       Fm9      /      /     Fm
+18      Bbm7      /      /    Bbm
+19       C7+      /      /     C7
+20       Fm7      /     Fm
+
+Groove JazzGuitarWalk
+Volume f
+
+21       Fm9      /      /     Fm
+22      Bbm7      /      /    Bbm
+
+Repeatending 2
+Decresc mp 2
+
+23       C7+      /      /     C7
+24       Fm7      /     Fm
+
+RepeatEnd
+
+Groove JazzGuitarEnd
+Decresc pp 2
+
+25       C7+
+26       Fm7      /     Fm z!
+

@@ -1,0 +1,148 @@
+// And The Angels Sing
+// Hit for Benny Goodman in 1939
+
+Tempo 126
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxtrotIntro
+Begin Solo
+  Voice Strings
+  Cresc mp f 4
+  Articulate 110
+  Harmony OpenBelow+8Above
+  Octave 5
+  Begin Riff
+    2.g;8a;b;
+	2c+;e+;
+	8f+;e+;c+;a;4f;a;
+	2b;
+  End
+End
+
+Cresc p m 4
+
+Swingmode On 
+1        Eb6
+2        Cm
+3        Fm
+4        B&7&9
+
+Repeat
+Groove Foxtrot
+Volume mp
+
+5       Eb6
+6       Fm7      /    Bb7
+7      EbM7
+8       Eb9      /  Bdim7    Cm7
+
+Groove FoxtrotPlus
+Volume m
+
+9       Fm7      /   C7#5
+10       F9      /    Bb7
+11      Eb6      /    Cm7
+12      Fm7      / Bb13b9
+
+Groove Foxtrot
+Cresc m mf 4
+
+13      Eb6
+14      Fm7      /    Bb7
+15     EbM7
+16      Eb9      /  Bdim7    Cm7
+
+Groove FoxtrotPlus
+Decresc mp 4
+
+17      Fm7      /   C7#5
+18       F9      /    Bb7
+19      Eb6      / Bb9sus
+20      Eb6
+
+Groove FoxtrotSus
+Volume p
+
+21     Bbm7      /    Eb7
+22     Bbm7      /    Eb7
+23   Ebdim7      /    Eb7
+24     Bbm7      /    Eb7
+
+Groove FoxtrotSusPlus
+Volume mp
+
+25     Bbm7      /    Eb7
+26     Bbm7      /    Eb7
+27     Bbm7
+28      Eb7
+
+Groove FoxtrotSus
+Volume m
+
+29     Bbm7      /    Eb7
+30     Bbm7      /    Eb7
+31   Ebdim7      /    Eb7
+32     Bbm7      /    Eb7
+
+Groove Foxtrot
+Cresc m mf 4
+
+33      Ab6      /    Fm7   C7#5
+34       F9      /    Bb7
+35      Eb6      /    Cm7
+36      Fm7      / Bb13b9
+
+Groove FoxtrotPlus
+Volume m
+
+37      Eb6
+38      Fm7      /    Bb7
+39     EbM7
+40      Eb9      /  Bdim7    Cm7
+
+Groove Foxtrot
+Decresc m mp 8
+41      Fm7      /   C7#5
+42       F9      /   B&7
+43      Eb6      /    Cm7
+44      Fm7      / Bb13b9
+
+Groove FoxtrotSus
+
+45      Eb6
+46      Fm7      /    Bb7
+47       G7      /  Db7b5
+48       C7      /  Bdim7    Cm7
+
+Groove FoxTrot
+Cresc m 2
+
+49      Fm7
+50    Fm7b5      /    Db9
+
+Repeatending
+
+Groove FoxtrotFill
+
+51      Eb6      /    Cm7
+52      Fm7      /  Bb7b9
+
+Begin AllGrooves Arpeggio
+   Voice JazzGuitar
+   Octave 5
+   Harmony OpenBelow
+   Articulate 120
+End
+
+RepeatEnd
+
+Groove FoxtrotEnd
+Decresc pp 2
+Tempo *.9 2
+
+53      Eb6      /    Cm7
+54      E&6      /    z!
+

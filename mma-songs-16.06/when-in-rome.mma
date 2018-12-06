@@ -1,0 +1,145 @@
+// When In Rome (Peggy Lee, 1962)
+
+Tempo 124
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingIntro
+
+Begin Solo
+    Voice Piano1
+    Volume ff
+    Articulate 110
+    Octave 5
+    Harmony OpenBelow
+    Begin Riff
+        8c+;g;d+;g; c+;g;d+;g;
+        8c+;a;d+;a; c+;a;d+;a;
+        8c+;f;d+;f; c+;f;d+;f;
+        8b;a;b;a; 2g;
+    End
+End
+
+Swell p mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+
+Groove Swing
+Repeat
+Volume m
+
+5       CM7
+6       Am7
+7       Dm7
+8        G7
+
+Groove SwingWalk
+Cresc mf 4
+
+9       CM7
+10       A7
+11      Dm7
+12       G7
+
+Groove SwingPlus
+Volume mp
+
+13      Dm7
+14       G7
+15      Em7
+16      Am7
+
+Groove Swing
+Cresc m 4
+
+17      Dm7
+18       G7
+19      CM7
+20        /
+
+Groove SwingWalkPlus
+Decresc mp 4
+
+21      FM7      /    Em7
+22      Dm7      /  G7sus
+
+RepeatEnding
+
+23      CM7      /    A7+
+
+Groove SwingFill
+
+24      Dm7      /     G7
+
+RepeatEnd
+
+25      CM7
+
+Groove SwingFill
+
+26        /
+
+Repeat
+
+Groove SwingSus
+Volume mf
+
+27      Fm7
+28   Bb7sus
+29      Gm7
+30       C7
+
+Groove SwingPlusSus
+Decresc m 4
+
+31      Fm9
+32      Bb7
+33      Eb7
+34        /
+
+Groove SwingWalkSus
+Cresc mf 4
+
+35     AbM7
+36      Db7
+37      CM7
+38      Am7
+
+Groove SwingWalkPlusSus
+Decresc mp 2
+
+39      Dm7
+40    G9sus
+
+RepeatEnding
+
+41      CM7      /    Am7
+42      Dm7      /     G7
+
+Groove SwingFill
+
+43      CM7
+
+RepeatEnd
+
+
+Groove Swing
+Volume m
+
+44      CM7
+45      Am7
+46      Dm7
+
+Groove SwingEnd
+Volume mf
+
+47       G7
+48        C z!
+
+

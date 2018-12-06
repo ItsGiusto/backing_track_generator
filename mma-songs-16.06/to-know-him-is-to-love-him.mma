@@ -1,0 +1,85 @@
+// To Know Him Is To Love Him
+
+Tempo 80
+Keysig Eb
+
+Set SusVoiceOctave 5
+
+Groove Metronome4
+	z * 2
+
+Groove RockBalladIntro
+
+Begin Solo
+   Voice ChoirAahs
+   Cresc p m 2
+   Harmony Open+8Below
+   Articulate 100
+   Octave 5
+   Begin Riff
+     2b;2g;
+	 43e;f;g;2e;
+   End
+End
+
+seq 3
+1         Eb
+2          /
+
+Groove RockBallad
+
+3         Eb
+4        Bb7
+5         Cm
+6         Ab
+7         Eb
+8        Bb7
+9         Eb
+10         /
+
+Groove RockBalladFill
+
+11         /
+12       Bb7
+13        Cm
+14        Ab
+15        Eb
+16       Bb7
+17        Eb      /     Ab
+18        Eb
+
+Repeat
+Groove RockBalladVoice
+
+19       Gb7
+20       Db7
+21       Cb7
+22       Bb7
+23        Gb      /    Eb7
+24       Abm      /    Ebm
+25        F7
+26       Bb7    Fm7    Bb7
+
+Groove RockBallad
+
+27        Eb
+28       Bb7
+29        Cm
+30        Ab
+31        Eb
+32       Bb7
+
+Repeatending
+
+33        Eb      /     Ab
+34        Eb
+
+RepeatEnd
+
+Groove RockBalladEnd
+Scale Octave 5
+Seq 3
+
+33        Eb      /     Ab
+34        Eb      /     z!
+

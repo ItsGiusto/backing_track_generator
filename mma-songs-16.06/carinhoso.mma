@@ -1,0 +1,186 @@
+// Carinhoso
+
+Tempo $(55 * 2)
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove BeguineIntro
+
+Begin AllGrooves
+    Chord Voicing Mode=Key2
+    Chord-Sus Voicing Mode=Key2
+End
+
+If Def WK3000
+   set Fvoice PureFlute
+else
+   set Fvoice Flute
+Endif
+
+Begin Solo
+    Voice $Fvoice
+    Articulate 80
+    Octave 5
+    Volume ff
+    Harmony OpenBelow
+    Stretch 200
+    Begin Riff
+        4r;3f++;e++;d&++;
+        16f++;e&++;d&++;a&+;3f+;e&+;d&+;
+        16c+;a;c+;d+;3e+;d+;c+;
+        4a;3g;f;g;
+        2+4f~;
+    End
+End
+
+Swell mp mf 6
+
+1        z
+2    Db7/Ab
+3       F/A      /     D7
+Seq 2
+4        G9      /     C7
+
+5         F Bbm6/Db     C7
+6         F
+
+set rptcount 1
+
+Repeat
+Repeat
+
+Groove Beguine
+Volume m
+
+7       F/C      /    C#+
+8        Dm      /    C#+
+9       F/C      /    C#+
+10       Dm      / D#dim7
+
+Groove Beguine1
+Cresc mf 3
+
+11     Am/E      /      F
+12   F#m7b5      /      F
+13     Am/E      /    FM7
+14   F#m7b5      /     A7
+
+Groove Beguine
+Decresc m 2
+
+15   Dm7sus4      /     G9
+16       C9      /     F7
+17     BbM7      /  Adim7
+18      Gm7
+
+Groove Beguine1
+Decresc mp 3
+
+19       G9
+20   Bbm6/Db      /     C7
+21        F / Bbm6/Db  
+
+
+RepeatEnding nowarn $rptcount
+
+Groove BeguineFill
+
+22        F
+
+RepeatEnd
+
+23        F      /     E7
+
+Groove Beguine1
+
+Keysig C
+Cresc m 2
+
+24       Am      /  Am7/G
+25     Dm/F      /     E7
+
+Begin Solo
+   Octave 6
+   Harmony OpenAbove
+   Volume fff
+End
+26       Am                              {8+8+16r;16f;e;d;}
+
+Groove BeguineSus
+Cresc mf 4
+
+27       Am      /    Ab7                {16c;d;c;b-;8a-;a&-;}
+28      C/G      /    Am7                {4g-;}
+Groove Beguine1
+
+Begin Arpeggio
+  Sequence   A2
+  Rskip 0
+  Seqrnd Off
+  Invert 2
+  Harmony 3Below
+End
+29       D7       G9 
+30        C      Db7/Ab 
+
+Keysig F
+
+Groove BeguineSus
+Volume m
+
+31      Gm7      /     C7
+32        F
+
+Groove Beguine1Sus
+Cresc mf 2
+
+33        /
+34       E7
+35    E7/Ab
+36      Gm7
+
+Groove BeguineSus
+Decresc m 3
+
+37       C7
+38        F
+39    Em7b5      /     A7
+40       Dm      / C#dim7
+
+Groove Beguine
+
+41      Dm7      /   F7/C
+42      Bb6      /  D7/F#
+43      Gm7      /   Bbm6
+44      F/A      /      F
+
+Groove BeguineSus
+Swell m mf 4
+
+45   C7sus4      /     C7
+46        F      /  F7/Eb
+47     Bb/D      / Bbm6/Db
+48      F/C      /  F7/Eb
+
+Repeatending
+
+Groove BeguineFill
+
+49     Bb/D      / Bbm6/Db
+
+Set rptcount  0
+
+RepeatEnd
+
+Groove BeguineEnd
+
+seq 2
+Decresc ppp 3
+
+50      Bb/D      / Bbm6/Db
+51        F
+52        /      z!
+
+

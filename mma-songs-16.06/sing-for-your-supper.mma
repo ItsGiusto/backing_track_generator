@@ -1,0 +1,110 @@
+// Sing For Your Supper
+
+// This actually dates from a 1938 musical, "The Boys From Syraccuse".
+// Reprised quite nicely by the Mamas & Papas.
+// I've got Count Bassie (and unknown singer) doing this at a snappy 190bpm
+// and Benny Goodman (with Martha Tilton signing) at 144bpm. Hmm, then the Mama
+// & Papas did it at 95bpm ... so, to be original I picked that tempo but added
+// a latin rhythm. Have fun :)
+
+Tempo 95
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+Groove RhumbaIntro
+
+Begin Solo
+	Voice VoiceOohs
+	Harmony 8above
+	HarmonyVolume 40  50 60 70
+	Octave 4
+	Articulate 110
+	Volume f
+	Begin Riff
+		4a;8.c+;16a;8g;4f;8g;
+		4a;8.c+;16a;8g;4f;8g;
+		4b;2a;3g;a;b;
+		1c+;
+	End
+End
+
+Cresc pp m 4
+
+1   F
+2   Dm      
+3   Gm      
+4   C7
+
+Repeat
+
+Groove Rhumba
+Volume m
+
+5   F       
+6   FM7     
+7   F7      
+8   /       
+9   Bb      
+10  Gm7     
+11  C7      
+12  /
+
+Groove Rhumba1
+Decresc f mp 8
+
+13  F
+14  FM7
+15  F7      
+16  /       
+17  Bb      
+18  Gm7     /       C7      
+19  F       
+20  /       /       /       F+
+
+Groove Rhumba3Sus
+Volume m
+
+21  Gm7     /       C7      
+22  Gm7     /       C7b9    
+23  FM7     
+24  /       
+25  Gm7     /       C7      
+26  Gm      /       C7      
+27  Am7     /       Ab7     
+28  Db      /       G7      C7
+
+Groove RhumbaSus
+Volume mf
+
+29  F       
+30  FM7     
+31  F7      
+32  /       
+33  Bb      
+34  Gm7     /       C7      
+35  F7      
+36  Bb      
+37  F       /       F+      
+38  Gm7     /       C7
+
+RepeatEnding
+
+39  F
+
+Groove RhumbaTriple
+
+40  /
+
+RepeatEnd
+
+Groove RhumbaEnd
+Seq 2
+Decresc p pppp 2
+
+39  F       
+40  / / z!
+
+
+

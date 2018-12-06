@@ -1,0 +1,97 @@
+// There Will Never Be Another You
+
+Tempo 140
+Keysig Eb
+
+Groove Metronome2-4
+	   z * 2
+
+Groove SoftShoeIntro
+Begin Solo
+	  Voice JazzGuitar
+	  Volume f
+	  Articulate 110
+	  Harmony 3	 
+	  Octave 5
+	  Begin Riff
+	  		4e+;b;4.g;8b;
+			4c;e;g;e;
+			2f;a;
+			1b;
+	  End
+End
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+
+Groove Softshoe 
+
+5      EbM7
+6      AbM7
+7     Dm7b5
+8      G7b9
+9       Cm7
+10        /
+11     Bbm7
+12      Eb7
+
+Groove SoftshoePlus
+Begin Arpeggio
+	  Voice Vibraphone
+	  Volume +30
+	  Octave 6
+	  Harmony Open
+	  Mallet Rate=16 Decay=-2
+End
+
+13     AbM7
+14      Db9
+15      Eb6
+16      Cm7
+17       F7
+18        /
+19      Fm7
+20      Bb7
+
+Groove SoftshoeSus
+
+21     EbM7
+22     AbM7
+23    Dm7b9
+24     G7b9
+25      Cm7
+26        /
+27     Bbm7
+28      Eb7
+
+Groove SoftshoeSusPlus
+Begin Arpeggio
+	  Voice Vibraphone
+	  Volume +50
+	  Octave 6
+	  Harmony Open+8Above
+	  Mallet Rate=16 Decay=-3
+End
+
+
+29     AbM7
+30      Db9
+31      Gm7      /    Cm7
+32   F#dim7
+33      Eb6      /   D7b9
+34     Gm7      /   C7b9
+
+RepeatEnding
+
+35      Fm7      /    Bb9
+36      Eb6
+
+RepeatEnd
+Groove SoftShoeEnd
+
+35      Fm7      /    Bb9
+36      Eb6   /  z!

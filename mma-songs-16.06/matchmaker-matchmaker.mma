@@ -1,0 +1,174 @@
+// Matchmaker Matchmaker
+
+Tempo $(70 * 3)
+KeySig F
+
+Groove Metronome3
+   z * 2
+
+Begin Solo
+    Voice Piano1
+    Articulate 90
+    Harmony 3Below
+    Octave 5
+    Volume mf
+    Begin Riff
+       4r;f;;
+       4r;f;;
+       4r;f;;
+       4f;e;d;
+    End
+End
+
+Groove BroadwayWaltzIntro
+
+Cresc p mf 4
+
+1         F
+2         Bb
+3         F
+4         C7
+
+
+Repeat
+Groove BroadwayWaltz
+Volume m
+
+5         F
+6       Gm7
+7       FM9
+8       Gm9
+
+Groove BroadWayWaltz1
+Volume mf
+
+9         F
+10      Gm9
+11      FM9
+12      Gm9
+
+Groove BroadWayWaltz2
+DeCresc m 4
+
+13        F
+14      Gm7
+15      FM9
+16     F7b9
+
+Groove BroadWayWaltzSus
+Cresc mf 4
+
+17       Bb      /    Gm7
+18      C11      /     C7
+19        F
+Solo Volume mf
+Solo Riff 8c+;;4;;
+20       C7
+
+Groove BroadWayWaltz
+
+21        F
+22      Gm7
+23      FM9
+24      Gm9
+
+Groove BroadWayWaltz2
+Decresc mp 4
+
+25        F
+26      Gm9
+27      FM9
+28      Gm9
+
+Groove BroadWayWaltz
+
+29        F
+30      Gm7
+31      FM9
+32     F7b9
+
+Groove BroadWayWaltz2Sus
+
+33       Bb
+34      C11      /     C7
+Begin Solo Riff
+ 4r;8a;;4;
+ 4a;b;c;
+End
+35        F
+36        /
+
+Groove BroadWayWaltzSus
+Volume f
+
+37      Bbm
+38   BbmM7/A
+39    Eb11/Ab
+40    Eb7/G
+
+Decresc mf 4
+
+41     AbM7
+42    Ab6
+43   Ab+
+44     Ab
+
+Groove BroadWayWaltz2
+
+45       Gm
+46    Gm
+47     C7b9
+48        /
+
+49       Fm
+50       F7
+51     Bbm6      /     Cm
+52   C7b5b9
+
+Groove BroadWayWaltz
+Volume m
+
+53        F
+54      Gm7
+55      FM9
+56      Gm9
+
+Groove BroadWayWaltz1
+Volume mf
+
+57        F
+58      Gm9
+59      FM9
+60      Gm9
+
+Groove BroadWayWaltz2
+Decresc m 4
+
+61        F
+62      Gm7
+63      FM9
+64     F7b9
+
+Groove BroadWayWaltz2Sus
+Decresc mp 4
+
+65     BbM7
+66      Am7
+67      Gm7
+68       C7
+
+RepeatEnding
+
+Groove BroadWayWaltzSus
+
+69        F
+70        C7
+
+RepeatEnd
+
+Groove BroadWayWaltzEnd
+Decresc ppp 2
+
+69        F
+70        /  z!
+

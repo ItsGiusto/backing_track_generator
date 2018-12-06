@@ -1,0 +1,109 @@
+// Put On A Happy Face
+
+Tempo 144
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingIntro
+
+Begin Solo
+  Voice VoiceOohs
+  Volume f
+  Harmony Open+8Below
+  Octave 5
+  Articulate 80
+  Begin Riff
+     8g;4e+;8c+;4b;a;
+	 4g;a;g;a;
+	 8f;4c+;8a;4f;a;
+	 1f;
+  End
+End
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Groove SwingPlus
+
+Begin AllGrooves Arpeggio 
+	  Voice VoiceOohs
+	  Octave 5
+	  Harmony Open
+	  Volume +20
+End
+
+Repeat
+
+Groove SwingPlus
+
+5        Eb      /    Eb6
+6       Gm7      /     C7
+7       Fm7      /    Bb9
+8       Fm7      /    Bb9
+
+Groove SwingWalk
+
+9        Eb      /    Eb6
+10      Gm7      /     C7
+11      Fm7      /    Bb9
+12     Bbm7      /    Eb7
+
+Groove SwingPlus
+
+13     AbM7      /     D7
+14       G7      /     C7
+15       F7      /    Bb7
+16     EbM7      /    Eb7    Eb6
+
+Groove SwingWalk
+
+17     AbM7      /     D7
+18       G7      /     C7
+19       F7      /    /      Fm7
+20        /      /    Bb9
+
+Groove SwingSus
+
+21       Eb      /    Eb6
+22      Gm7      /     C7
+23      Fm7      /    Bb9
+24      Fm7      /    Bb9
+
+Groove SwingWalkPlus
+
+25       Eb      /    Eb6
+26      Gm7      /     C7
+27      Fm7      /    Bb9
+28     Bbm7      /    Eb7
+
+Groove SwingWalkSus
+
+29     AbM7      /    Bb9
+30       Eb
+31      Fm7      /    Bb7
+32     G7#5      /     G7     C9
+
+Groove Swing
+
+33       F9
+34      Fm7      /    Bb9
+
+RepeatEnding
+
+35       Eb      /    Eb6
+36      Fm7      /    B&7
+
+RepeatEnd
+
+Groove SwingEnd
+
+35       Eb      /    Eb6
+36      Fm7      /     Eb   z!
+
+
+
+

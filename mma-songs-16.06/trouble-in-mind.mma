@@ -1,0 +1,77 @@
+// Trouble In Mind
+
+Tempo 107
+Keysig G
+
+Transpose 7
+
+Groove Metronome2-4
+ z * 2
+
+
+Groove BluesIntro
+Begin Solo
+    Voice Piano2
+    Articulate 90
+    Octave 4
+    Harmony OpenBelow+16Below
+End
+
+Solo Decresc f m 1
+1          G { 3b;;; ;;; 4 ; }
+Solo Decresc f m 1
+2          D { 3a;;; ;;; 4 ; }
+Solo Decresc f m 1
+3          G { 3g;;; ;;; 4 ; }
+Solo Decresc f m 1
+4         D7 { 4f;e;2d; }
+
+Repeat
+Groove Blues
+Volume m
+
+5          G
+6         D7
+7         G7
+8          C      /      /  C#dim
+
+Groove Blues1
+Volume mf
+
+9        G/D      /     E7
+10        A7
+11    Am11/D
+12        C7    Db7     D7
+
+Groove Blues
+Decresc m 4
+
+13         G
+14        D7
+15        G7
+16         C      /      /  C#dim
+
+Groove BluesSus
+
+17       G/D      /     Em
+18        A7      /     D7
+
+Repeatending 2
+Cresc mf 2
+
+19         G      /     Em
+Groove BluesTripleLsus
+20        C7    Db7   D7 
+
+RepeatEnd
+Groove BluesEnd
+
+Tempo *.8 2
+Decresc pp 2
+
+Seq 1
+
+21         G    G/B  Bbdim    Am7
+Seq 4
+22        G7     z!
+

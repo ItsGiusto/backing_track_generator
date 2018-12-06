@@ -1,0 +1,120 @@
+// When Lights Are Low
+
+Tempo 164
+KeySig Eb
+
+Groove Metronome2-4
+ z * 2
+
+Groove SoftshoeIntro
+
+AllGrooves Arpeggio Voice Piano1
+
+Begin Solo
+   Voice Piano1
+   Volume mf
+   Harmony OpenBelow
+   Articulate 90
+   Octave 5
+   Begin Riff
+     2e;8;4;4g ~;
+	 ~ 4g;;4.;
+	 2a;8;4;4+2b ~;
+   End
+End
+
+Cresc p mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7
+
+Repeat
+Groove Softshoe
+Volume m
+
+5      EbM7      / Bb13b9
+6      EbM7      / Bb13b9
+7      EbM7      / Bb13b9
+8       Gm7      /   C7b9
+
+Groove SoftshoePlus
+Volume mf
+
+9        F7      /   Bb13
+10   Db7#11      /     C7   C7#5
+11      Fm9      / Bb7sus    Bb7
+12      Eb6
+
+Groove Softshoe
+Volume m
+
+13     EbM7      / Bb13b9
+14     EbM7      / Bb13b9
+15     EbM7      / Bb13b9
+16      Gm7      /   C7b9
+
+Groove SoftshoeSus
+Volume mp
+
+17      Fm7      /   Bb13
+18   Db7#11      /     C7   C7#5
+19      Fm7      / Bb7sus    Bb7
+20      Eb6
+
+Groove Softshoe
+Cresc mf 4
+
+21     Abm7      /    Db7
+22     GbM7
+23      BM7      /  E7sus   E7b9
+24      AM7
+
+Groove SoftshoeSus
+Decresc mp 4
+
+25      Dm7      /  G7sus   G7b9
+26      CM7
+27      Cm7      /    F13
+28      Fm7      /  Bb7b9
+
+Groove SoftshoePlus
+Volume m
+
+29     EbM7      / Bb13b9
+30     EbM7      / Bb13b9
+31     EbM7      / Bb13b9
+32      Gm7      /   C7b9
+
+Groove Softshoe
+
+33      Fm7      /   Bb13
+34   Db9#11      /     C7   C7#5
+
+RepeatEnding   // 1st ending
+
+35      Fm9      / Bb7sus    Bb7
+36      Eb6      /  B&7
+
+AllGrooves Arpeggio Voice Clarinet
+
+RepeatEnding  // 2nd ending
+
+35      Fm9      / Bb7sus    Bb7
+36      Eb6      /  B&
+
+AllGrooves Arpeggio Voice Piano1
+
+RepeatEnd   // last time
+
+Groove SoftShoeEnd
+Tempo *.8 2
+Decresc ppp 2
+
+35      Fm9      / Bb7sus    Bb7
+36      Eb6  / z!
+
+
+
+

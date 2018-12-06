@@ -1,0 +1,131 @@
+// Theres A Small Hotel
+
+Tempo 124
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxTrotIntro
+
+Begin AllGrooves Arpeggio
+    Articulate 110
+    Rskip 44
+    Range 2
+    Octave 5
+    Direction Random
+End
+
+Begin Solo
+    Voice Clarinet
+    Volume mp
+    Harmony OpenBelow+8Below
+    Articulate 110
+    Octave 6
+    Rtime 10
+    Rvolume 10
+    Begin Riff
+       2b;a;
+       4b;a;2g;
+       4a;g;f;e;
+       1d;
+    End
+End
+
+Decresc m p 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove FoxTrot
+Volume m
+
+5       GM7      /     G6
+6       GM7      /     G6
+7         G
+8         /
+
+Groove FoxtrotPlus
+Decresc mf mp 4
+
+9       Am7
+10        /      /     D7
+11      GM7      /     G6
+12      GM7      /     G6
+
+Groove FoxtrotSus
+
+13      GM7      /     G6
+14      GM7      /     G6
+15        G
+16        /
+
+Groove Foxtrot
+Volume m
+
+17      Am7
+18        /      /     D7
+19      GM7      /     G6
+20      GM7      /     G6
+
+Groove FoxtrotPlus
+Decresc mp 2
+
+21        C
+22      Dm7     G7
+23        C      /      /  D#dim
+24       E7
+
+Groove FoxtrotSusPlus
+
+25       Am
+26       E7
+
+Cresc mf 2
+
+Drum-side   Volume mf  // this is hit on 3
+Chord       Sequence  C123
+Chord-Piano Sequence  C12
+Chord-Sus   Sequence  {1 2 90}
+Arpeggio    Sequence  {1 4 90; 2 4 90;}
+27        F      /     Am
+28      Cm7      /     D7
+
+Groove Foxtrot
+Volume m
+29      GM7      /     G6
+30      GM7      /     G6
+31        G
+32        /
+
+Groove FoxtrotPlus
+Cresc mf 2
+
+33      Am7
+34        /      /     D7
+35       Bb
+36      Cm7      /     F7
+
+Groove Foxtrot
+Decresc mp 2
+
+37        G
+38      Am7      /     D7
+
+RepeatEnding 
+Groove FoxtrotFill
+
+39      GM7
+40        /  / D7
+
+RepeatEnd
+
+Groove FoxtrotEnd
+Decresc ppp 2
+
+39      GM7
+40      /  z!
+

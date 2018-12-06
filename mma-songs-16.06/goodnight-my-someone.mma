@@ -1,0 +1,128 @@
+// Goodnight My Someone (The Music Man)
+
+Tempo 85
+Keysig C
+
+Groove Metronome3
+ z * 2
+
+Groove ArpeggioWaltzSusIntro
+AllGrooves Bass Articulate 180
+
+Begin Solo
+    Voice $_Arpeggio_Voice
+    Volume mf
+    Articulate 140
+    Octave 5
+    Begin Riff
+        4c+;g;e;
+        4a;e;c;
+        8d;e; f;g; a;b;
+        2dg;
+    End
+End
+
+Arpeggio Sequence -
+Swell p m 4
+
+1          C
+2         Am
+3         Dm
+4         G7
+
+Groove ArpeggioWaltz
+Volume m
+
+5          C
+6          /    Em7  Ebdim
+7          G      /  C#dim
+8         G7
+
+GrooveClear
+Set Harmony OpenBelow
+Groove ArpeggioWaltz
+Volume mf
+
+9          /
+10         /      F      G
+11         C      /      F
+12         C
+
+GrooveClear
+Set Harmony 3Below
+Groove ArpeggioWaltz
+Decresc m 4
+
+13         /
+14         C
+15         F      /  Eb9b5
+16        D9
+
+GrooveClear
+Set Harmony OpenBelow
+Groove ArpeggioWaltzSus
+Cresc p mp 4
+
+17         G
+18        D9
+19        G9      /    Dm7
+20        G7    Dm7     G7
+
+GrooveClear
+Set Bass
+Groove ArpeggioWaltz48
+Volume m
+
+21         C
+22         /    Em7  Ebdim
+23         G      /  C#dim
+24        G7
+
+Groove ArpeggioWaltz8Sus
+Decresc mp 2
+
+25         /
+26         /      F      G
+27         C      /      F
+28         C
+
+GrooveClear
+UnSet Harmony
+Unset Bass
+Groove ArpeggioWaltz48Sus
+Cresc mf 4
+
+29         /
+30         C
+31         F
+32     F#dim      /  D#dim
+
+GrooveClear
+Set Harmony OpenBelow
+Set Direction Down
+Groove ArpeggioWaltz
+Decresc m 2
+
+33         G
+34        G7
+35         C
+36         /
+
+GrooveClear
+Set Harmony None
+Groove ArpeggioWaltz
+Decresc p 4
+
+37        G7
+38         /
+39         /
+40         /
+
+Groove ArpeggioWaltzIntro
+Seq 3
+Decresc ppp 2
+
+41         C
+42         /  z!
+
+

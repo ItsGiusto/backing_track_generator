@@ -1,0 +1,140 @@
+// Cast Your Fate To The Wind
+
+Tempo 110
+Keysig G
+
+Groove Metronome2-4
+ z * 2
+
+Groove JazzComboIntro
+Begin Solo
+    Voice Piano1
+    Volume f
+    Articulate 110
+    Octave 5
+    Harmony OpenBelow+Open8Below
+    Begin Riff
+        4f+;8d+;2a;
+        4b;8g;2d;
+        4f+;8d+;2a;
+        2.b;
+    End
+End
+
+Swell mp mf 4
+
+1         D
+2         G
+3         D
+4         G
+
+Repeat
+Groove JazzCombo
+Volume m
+
+5         D
+6         G
+7         D
+8         C
+
+Groove JazzComboSus
+
+9         D
+10        G
+11        C      /     D7
+12        G      /      C
+
+Groove JazzCombo
+
+13       D7      /      C
+14        G      /      C
+
+RepeatEnding
+
+15       D7      /      C
+
+RepeatEnd
+
+16       D7      /      C
+
+Groove JazzCombo1
+
+17        G      /      /     D7
+18        G
+19        C      /     D7
+20        G
+
+Groove JazzCombo1Sus
+
+21        C      /     D7
+22        G
+23        C      /     D7
+24        G
+
+Groove JazzCombo2
+
+25        C      /     D7
+26        G
+27        C      /     D7
+28        G
+
+Groove JazzCombo2Sus
+
+29        C      /     D7
+30        G
+
+Groove JazzComboEnd
+
+31        /
+
+// CODA
+// This is the 1st 10 bars copied
+
+Groove JazzCombo
+
+5         D
+6         G
+7         D
+8         C
+
+Groove JazzComboSus
+
+9         D
+10        G
+11        C      /     D7
+12        G      /      C
+
+Groove JazzCombo
+
+13       D7      /      C
+14        G      /      C
+
+// Actual coda section (after the 'to coda')
+
+32       D7      /      C
+33        G      /      C
+
+Groove JazzCombo2Sus
+
+34       D7      /      C
+35        G      /      C
+36       D7
+37        G      /      C
+
+Groove JazzCombo2
+
+38       D7
+39        G      /      C
+40       D7      /      C
+41        G      /      C
+
+Groove JazzCombo2Sus
+
+42       D7      /      C
+
+Groove JazzComboEnd
+
+43        G
+44        /      z!
+
+

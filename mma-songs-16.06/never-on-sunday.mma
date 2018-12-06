@@ -1,0 +1,113 @@
+// Never On Sunday
+
+Tempo 136
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BeguineIntro
+
+Begin Solo
+  Voice NylonGuitar
+  Volume f
+  Mallet rate=16 decay=-10
+  Articulate 110
+  Harmony Open
+  Octave 6
+  Begin Riff
+    8e;d;e;d;e;d;e;d;
+	4.g;8f;e;d;e;d;
+	4f;e;d;c;
+	4d;
+  End
+End
+
+Cresc m mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4       Bb7  Bb7zC
+
+
+Repeat
+
+Groove Beguine
+Volume m
+
+5       Bb7
+6         /
+7        Eb
+8         /
+
+Groove Beguine1
+Volume mf
+
+9       Bb7
+10        /
+11       Eb
+12        /
+
+Groove Beguine
+Volume m
+
+13      Bb7
+14        /
+15       Eb
+16        /
+
+Groove Beguine1
+Cresc f 2
+
+17      Bb7
+18        /
+
+RepeatEnding 2
+Decresc m 2
+
+19       Eb
+20        /      /    Fm7    Bb7
+
+// This is the bridge
+
+Groove BeguineSus
+Volume mp
+
+21       Eb
+22        /
+23      Bb7
+24        /
+
+Volume m
+
+25      Fm7
+26      Bb7
+27       Eb
+28        /      /   Cdim    Bb7
+
+Groove Beguine1Sus
+Volume mf
+
+29       Eb
+30        /
+31      Bb7
+32        /
+
+Volume f
+
+33      Fm7
+34      Bb7
+35       Eb
+36       /    z
+
+RepeatEnd
+
+Groove Beguine2End
+Decresc pp 2
+Tempo *.9 2
+
+19      Eb
+20      /  z!
+
+

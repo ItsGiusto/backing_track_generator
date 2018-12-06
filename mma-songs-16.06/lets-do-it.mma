@@ -1,0 +1,99 @@
+// Lets Do It
+
+Tempo 144
+Keysig Bb
+
+Groove Metronome2-4
+ z * 2
+
+Groove BigBandIntro
+SwingMode On
+Cresc p m 4
+
+Begin Solo
+ Voice JazzGuitar
+ Volume ff
+ Harmony Open+8Below
+ Octave 5
+ Articulate 95
+ Begin Riff
+   2b&;4a;g;
+   2c+;4b;a;
+   4g;a;b&;bn;
+   2c+;f;
+ End
+End
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove BigBand
+Volume m
+Swell f 8
+
+5        Gm      /     Bb
+6        F7
+7        Bb
+8        Cm      /  Cm7b5
+
+9        Gm      /     Bb
+10       F7
+11       Bb      /    Ebm
+12       Bb     F+
+
+Groove BigBandSus
+Swell p 8
+
+13       Gm      /     Bb
+14       F7
+15       Bb
+16       Cm      /  Cm7b5
+
+17       Gm      /     Bb
+18       F7
+19       Bb      /    Cm7
+20       Bb
+
+Groove BigBandPlus
+Volume mf
+
+21       Gm
+22      Cm7
+23       Bb
+24      Bb7
+
+Groove BigBandSusPlus
+Volume f
+
+25       Eb
+26      Ab7
+27       Db
+28       F7     F+
+
+Groove BigBandSus
+Decresc mp 4
+
+29       Gm      /     Bb
+30       F7
+31       Gm
+32      Eb7
+
+Volume m
+
+33       Bb      /     Gm
+34      Cm7      /     F7
+35       Bb      /    Ebm
+
+RepeatEnding 2
+Groove BigBandFill
+
+36       Bb      /     F+
+
+RepeatEnd 
+Groove BigBandEnd
+Seq 2
+37       Bb   /  / z!
+

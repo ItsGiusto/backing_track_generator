@@ -1,0 +1,167 @@
+// Ob La Di Ob La Da
+
+// This really tests the ska rhythms.... and, no, it never occurred
+// to me in my youth that the boys had been influenced by Carribian
+// music until I started to work on this piece. Interesting how much
+// we can learn if we keep our ears open.
+
+// This piece is in the key of F. The recording I have puts
+// the boys in the key of Bb. If you want to match that,
+// transpose up by 5 semitones. We've left it in F for our vocalist.
+// Transpose 5
+
+Tempo 116		// The tempo really is 116, but our song sheet
+Tempo *2		// is written in 4, not 2, so double up.
+
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+
+// 2 bars of intro. In the Beatle recording I think this is
+// done on a piano, but the steels sound fine. Also demos
+// A nice use of the Solo feature.
+
+Groove Ska
+
+Begin Solo 
+	Voice SteelDrums
+	Octave 5
+	Articulate 60
+	Accent 1 30
+End
+
+Solo Riff 4egc+;8;8;4;8;8; 
+	z!
+Solo Riff 4egc+;egbn;ega;eg; 
+	z! / z 
+
+// Establish our beat. 8 bars with handclap coming in on 4.
+
+Solo Riff 1eg<fff>;
+
+3   C     
+4	/
+5      F     
+
+Groove SkaClap
+
+6	/
+
+	C
+	/
+	F
+	/
+	
+
+// Song starts here. We used some labels for faking the codas, etc.
+
+set pass 0
+label sign
+inc pass
+
+Groove Ska
+Volume mp
+Cresc  ff 12
+
+7      F     
+8	/
+9      C7    
+10	/
+11	/
+12	/
+13     F     
+14	/
+15	/
+16     F7    
+17     Bb    
+18	/
+19     F     
+20     C7    
+21     F     
+22	/
+
+// Chorus (ob-ld-di, etc)
+
+Repeat
+Groove Ska1
+Volume f
+
+23     F     
+24	/
+25     Am    
+26     Dm    
+27     F     
+28     C7    
+29     F     
+
+Groove SkaClap
+
+RepeatEnding
+
+30	/
+
+RepeatEnd
+
+31	/
+
+if eq $pass 1
+	goto sign
+endif
+
+if eq $pass 4
+	goto coda
+endif
+
+// Bridge (in a couple of years...)
+
+Groove SkaSus
+Volume mf
+
+32	Bb
+33  /
+34	/
+35	/
+36     F
+     
+Volume f
+
+37	/
+38	/
+39	/
+
+Volume mp
+
+40	Bb
+41  /
+42	/
+43	/
+44     F     
+45	/
+46     C7    
+47	/
+
+goto sign
+
+// Ending
+
+label coda
+
+Groove Ska1
+Tempo *.95
+Volume ff
+Decresc mp 5
+
+48     F     
+
+Groove SkaEnd
+
+49     Bb    
+50	/
+51     C7    
+52     F z!
+
+Cut -2
+
+

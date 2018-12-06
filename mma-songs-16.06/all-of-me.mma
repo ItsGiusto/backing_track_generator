@@ -1,0 +1,123 @@
+// All Of Me
+
+// This is a classic lounge piece, and quite boring. But, when the
+// the tempo is pushed way up it becomes a nice little swing number.
+
+Tempo 190
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxtrotIntro
+
+// Set up 2 solo tracks. We create the harmony track 1st
+// so we have somewhere to duplicate the solo to. Otherwise, we'd
+// need to do the copy outside of the Begin/End solo block.
+
+Begin Solo-1
+	Voice Flute
+	HarmonyOnly Open
+	VOlume mf
+	Articulate 95
+	Rtime 10
+	Octave 6
+End
+
+Begin Solo
+	Voice Clarinet
+	Volume mf
+	Articulate 90
+	Rtime 5
+	Octave 5
+	Begin Riff
+    	1.c+~ ;
+	    ~ 3+3c+; d+; c+;
+        1.c+~;
+        ~ 3+3c+; d+; c+;
+	    1.d+~;
+	    ~ 3+3d+; e+; f+;
+	    2g+; f+;
+	    2e+; d+;
+	End
+    DupRiff Solo-1       // copy the solo to solo-1 for harmony
+End
+
+1          C
+2          /
+3         Am
+4          /
+5         Dm
+6          /
+7         G7
+8         Em      /     Dm
+
+
+Delete Solo
+
+Repeat
+
+Groove Foxtrot
+
+9          C
+10         /
+11        E7
+12         /
+13        A7
+14         /
+15       Dm7
+16         /
+
+Groove FoxTrotPlus
+
+17        E7
+18         /
+19       Am7
+20         /
+21        D7
+22         /
+23       Dm7
+24        G7
+
+Groove FoxTrotSus
+
+25         C
+26         /
+27        E7
+28         /
+29        A7
+30         /      /     A7
+31       Dm7
+32         /
+
+Groove FoxTrotSusPlus
+
+33         F
+34        Fm
+35       Em7
+36        A9
+
+RepeatEnding 2
+
+37     Dm7b5
+38       G13
+39         C      /  Ebdim
+40       Dm7      /     G7
+
+RepeatEnd
+
+Groove FoxTrot
+
+Repeat
+
+41     Dm7b5
+42       G13
+
+RepeatEnd 3
+
+Groove FoxTrotEnd
+
+
+43         C      /    Fm6
+44         C     z!
+

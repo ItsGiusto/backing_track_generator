@@ -1,0 +1,122 @@
+// All Time High
+
+Tempo 108
+Keysig E
+//Transpose -1  /// I can play in E and Db ... but tenor sax means F# and Eb
+Transpose  1 ///  Try for F and E on tenor
+
+Groove Metronome2-4
+  z * 2
+
+Groove Ballad
+Begin AllGrooves Arpeggio-Plus
+   Voice JazzGuitar
+   Range 1
+End
+
+Decresc m p 4
+Repeat
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Harmony Openbelow
+    Volume f
+    Articulate 110
+    Begin Riff
+        <grace>16f;8g;4.+8b;8g;f;e;
+        4b;8b;8+8f;8f;4e;
+    End
+End
+
+1         E9  
+2         /
+
+Repeatend
+
+Repeat   /// this is for the DS al coda
+Repeat   // this is for verse 1/2 and 3/4
+
+Groove Ballad
+Volume m
+
+5         E
+6       G#m
+7       C#m
+8    C#m/G#
+
+Groove BalladPlus
+Cresc mf 2
+
+9         A
+10        /
+Decresc mp 2
+11       G#
+
+RepeatEnding
+Groove BalladFill
+
+12        /
+
+RepeatEnd
+
+Keysig Db
+
+13      Ab7
+
+Groove BalladSus
+Cresc m 4
+
+14       Db      /   Db
+15    Db      /   Db
+16       Gb
+17        /
+
+Groove BalladSusPlus
+Volume mf
+
+18      Ebm      / Ebm/Bb
+19    Ebm      / Ebm/Bb
+20      Ab7
+21        /
+
+Decresc m 3
+
+22       Db
+23    Db
+24       Gb
+25        /
+
+Groove BalladSus
+Cresc mf 2
+
+26     Ebm9
+27        /
+28      Cb9
+
+RepeatEnding 2   // really a DS for verse 3/4
+Keysig E
+
+29       B7
+
+Repeatend   /// this is the CODA section (ending)
+Keysig Db
+
+30        /
+
+Groove Ballad1SusPlus
+Volume mf
+
+31      Ebm
+32        /
+33       Cb
+34        /
+
+Groove BalladEnd
+Decresc pppp 4
+Seq 2
+35       Db
+Seq 2
+36        /
+37        /
+38        /  /  z!
+

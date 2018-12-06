@@ -1,0 +1,102 @@
+// Good Night
+// This is the Beatles song. A tad faster than the original.
+
+Tempo 70
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Set ChordVoice OrchestralHarp
+Set ChordOctave 3
+
+Groove LullabyIntro
+Cresc p m 4
+
+1         G
+2         Em
+3         Am
+4         D7  /   / z
+
+Groove Lullaby
+
+If Def wk3000
+   AllGrooves Arpeggio Voice Harps
+Endif
+
+Repeat
+Swell mp m 4
+Chord-Sus Cresc ppp $_Chord-Sus_Volume[0] 4
+
+5         G      /    Bm7
+6       Am7
+7        Bm      /    Am7
+8         C      /     D7
+
+Groove LullabySus
+RepeatEnd
+
+Groove Lullaby
+Volume mf
+
+9       GM7      /      C
+10      GM7      /      C
+
+Groove LullabyPlus
+Arpeggio Decresc pp 2
+
+11        G      /      C
+12        G      /      C
+
+
+Repeat
+Groove LullabySus
+Decresc mf mp 8
+Chord-Sus Cresc ppp $_Chord-Sus_Volume[0] 4
+
+13        G      /    Bm7
+14      Am7
+15       Bm      /    Am7
+16        C      /     D7
+
+Groove LullabySusPlus
+Chord-Sus DeCresc ppp  4
+Arpeggio Cresc ppp $_Arpeggio_Volume[0] 4
+
+17        G      /    Bm7
+18      Am7
+19       Bm      /    Am7
+20        C      /     D7
+
+Groove Lullaby1
+Cresc m 2
+
+21      GM7      /      C
+22      GM7      /      C
+
+Repeatending
+
+Groove Lullaby1Plus
+
+23        G      /      C
+24        G
+
+GrooveClear
+Set ChordOctave 4
+
+Groove LullabyWalkSus
+Swell mf 4
+
+25        G      /     Am
+26       A7      /     Dm
+27        G      /      C
+28       D7
+
+Repeatend
+
+Groove LullabyEnd
+Tempo *.9 2
+DeCresc  ppp 2
+
+23        G      /      C
+24        G      /      z!

@@ -1,0 +1,119 @@
+// Fever
+
+// Peggy Lee sang this and made it a hit in 1958. Peggy's key is
+// Gminor (2 flats). Tempo is a bit faster than ours at 135.
+// She also does more verses than we have here...adding verses is left
+// as an exercise for the reader :)
+
+Tempo 130
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	DrumType
+	Volume f
+	Rtime 20
+	Rvolume 20
+End
+
+// For the first time though we have a bass line solo. 
+// I play the sax line against this. A few claps add some
+// life.
+
+SeqClear
+Seqsize 2
+
+Begin Bass
+	Voice AcousticBass
+	Volume f
+	Articulate 80
+	Octave 3
+	Sequence {1 4 1 90; 3 4 3 90} {1 4 5 90; 3 3+3 4 80; 3.66 4 3 90; 4 3+3 2 90}
+End
+
+Cresc ppp mf 14
+
+1      Dm    
+2	/         { 2r; 4 HandClap; ;}
+3	/
+4	/         { 2r; 4 HandClap;}
+5	/
+6	/
+7      A7    
+8      Dm       
+9      Dm   {4 HandClap; }
+	10	/
+11     Bb    
+12     Dm  {2r;4 HandClap; ;}
+13	/
+14	/
+15     /    /    A7    
+Groove ModernJazz   // this is just for the drums
+Volume p
+16	z           {4r; HandClap; ; ;}
+
+
+// Everyone comes in now.
+
+Repeat
+Groove ModernJazz
+Cresc mp mf 8
+
+1      Dm    
+2	/
+3	/
+4	/
+5	/
+6	/
+7      A7    
+8      Dm    z     
+9      Dm    {4 HandClap; }
+10	/
+
+Groove ModernJazz1
+Seq 3
+
+11     Bb    
+12     Dm     {2r;4 HandClap; ;}
+13	/
+14	/
+
+RepeatEnding 3
+
+15     /    /    A7    
+16	/  {4r; HandClap; r ; HandClap;}
+
+RepeatEnding // 5th time
+
+15     /    /    A7    
+16	/  {4r; HandClap; ; ;}
+
+Groove ModernJazzSus
+
+
+Cresc p mf 6
+
+17     Dm     {4 HandClap; }
+18	/
+19	/
+20	/
+
+Groove ModernJazz1Sus
+
+21	/
+22	/
+23     A7    
+24     Dm    {4r; HandClap; r ; HandClap;}
+
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Tempo  *.6  1.25
+
+15     Dm    /    A7 
+25     Dm z! 
+Fermata -4 1 170
+
+ 

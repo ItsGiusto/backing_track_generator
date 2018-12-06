@@ -1,0 +1,105 @@
+// Moon Love
+
+Tempo 150
+KeySig f
+
+Groove Metronome2-4
+    z * 2
+
+Groove SwingIntro
+Begin Solo
+  Voice Piano2
+  Harmony Open+8Below+16Below
+  Volume f
+  Articulate 110
+  Octave 5
+  Begin Riff
+     43f;g;a;2g;
+	 1f;
+	 43d;e;f;<ff>1+2g~;
+  End
+End
+
+Cresc mp f 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove Swing
+Volume m
+
+5       Gm7      /     C7
+6         /
+7       FM7
+8       Dm7
+
+Groove SwingPlus
+Volume mf
+
+9       Gm7
+10    C7sus      /     C7
+11     Fsus      /      F
+12      F/A      / Abdim7
+
+Groove Swing
+Swell mf f 8
+
+13      Gm7      /     C7
+14        /
+15      FM7
+16       Dm
+
+Groove SwingSus
+
+17    Bm7b5
+18     E7b9
+19       Am
+20        /      /  Am7b5
+
+Groove SwingPlus
+Decresc mp 4
+
+21       D7
+22      Gm7
+23       C7
+24      FM7
+
+Groove Swing
+
+
+25      Dm7      /     G9
+26      Gm7      /     C7
+27      FM7
+28      F/A      / Abdim7
+
+Groove SwingWalk
+Cresc m 4
+
+29      Gm7      /     C7
+30        /
+31      FM7
+32      Dm7
+
+Groove SwingWalkSus
+
+33       G9
+34      Gm9      /     C7
+
+RepeatEnding 2
+
+35        F
+36       C7
+
+RepeatEnd
+
+Groove SwingEnd
+Decresc pp 2
+Tempo *.9 2
+
+35        F      /   BbM7
+36       F6
+
+

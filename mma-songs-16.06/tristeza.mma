@@ -1,0 +1,201 @@
+// Tristeza
+
+Tempo $( 2 * 98 ) /// Gilberto's tempo
+Keysig D
+
+Transpose -4   /// Gilberto does this key, Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove SambaIntro   /// any groove will do, but we need to load into memory
+
+Begin Allgrooves
+  Chord-Piano Voicing Mode=Key2
+  Chord-Guitar Voicing Mode=Key2
+End
+
+// By default the PLUS grooves use 8th notes. For this
+// piece they sound too fast, so we'll change to something
+// more sane. Note how easy this is ... call up the groove,
+// modify and re-define.
+
+Groove SambaPlus
+  Begin Arpeggio
+     Volume mp
+     Range .9
+     Articulate 90
+     Sequence A4 / / A2
+  End
+DefGroove SambaPlus
+
+Groove SambaSusPlus
+  Begin Arpeggio
+     Volume mp
+     Range 1
+     Articulate 120
+     Sequence A4 A2 / /
+  End
+DefGroove SambaSusPlus
+
+
+/// now we're ready for the song.
+
+Groove SambaIntro
+
+Begin Solo
+   Voice strings
+   Volume f
+   Articulate 110
+   Octave 5
+   Harmony 3Below
+   Begin Riff
+       1g+;
+       1e+;
+       1cn+;
+       1d+;
+   End
+End
+
+1         G
+2         Em/G
+3         Am
+4         D7/F#
+
+
+Repeat
+Repeat
+Groove Samba
+
+5       GM7
+6        G6
+7       Gm6
+8         /
+
+Groove SambaPlus
+
+9    F#13b9
+10    F#7#5
+11    B9sus
+12   B7#5b9
+
+Groove Samba
+
+13      E13
+14     E7#5
+15    A9sus
+16       A7
+
+RepeatEnding
+
+17      DM7
+
+Groove SambaFill
+
+18       D7
+
+RepeatEnd
+
+19      DM7
+
+Groove SambaSus
+
+20      A13
+21        D
+22        /
+23       D+
+
+Groove SambaSusPlus
+
+24     Bm/D
+25       Em
+26      C/E
+27      Em6
+
+Groove SambaSus
+
+28      Em7
+29     F#m7
+30        /
+31      Em7
+
+Groove SambaSusPlus
+
+32       A7
+33      DM7
+34        /
+
+Groove SambaSus
+
+35       D7
+36        /
+37      GM7
+38       G6
+
+Groove SambaSusPlus
+
+39      Gm6
+40        /
+41   F#13b9
+42    F#7#5
+
+Groove SambaSus
+
+43    B9sus
+44   B7#5b9
+45      E13
+46     E7#5
+
+Groove SambaSusPlus
+
+47    A9sus
+48       A7
+49      DM7
+
+Groove SambaFill
+
+50       D7
+
+RepeatEnd 
+
+// 3rd time we just do the 'A' section with its repeat. A long fade seems to work
+
+AllGrooves AdjustVolume Ratio=20
+Decresc pppp 32
+
+Repeat
+Groove Samba
+
+5       GM7
+6        G6
+7       Gm6
+8         /
+
+Groove SambaPlus
+
+9    F#13b9
+10    F#7#5
+11    B9sus
+12   B7#5b9
+
+Groove Samba
+
+13      E13
+14     E7#5
+15    A9sus
+
+RepeatEnding
+
+16       A7
+17      DM7
+
+Groove SambaFill
+
+18       D7
+
+RepeatEnd
+
+Groove SambaEnd
+
+16       A7
+19      DM7  z!

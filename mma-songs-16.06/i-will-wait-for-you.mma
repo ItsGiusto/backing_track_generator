@@ -1,0 +1,108 @@
+// I Will Wait For You
+
+// This is the English version of the song "Je ne pourrai jamais vivre sans toi"
+// which was written for the 1964 musical "The Umbrellas of Cherbourg"
+
+Tempo 105
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove RhumbaIntro
+
+Begin Solo
+    Voice SlowStrings
+    Decresc ff mp 4
+    Octave 5
+    Articulate 100
+    Harmony 3
+    Unify On
+    Begin Riff
+        4d+;c+;b;a;
+        2b;a;
+        4bn;a;g;b;
+        2.a;
+    End
+End
+
+Decresc f m 4
+
+1        Dm
+2       Bbm
+3        Em
+4        A7
+
+Repeat
+Groove Rhumba
+Volume m
+
+5        Dm
+6         /      /     D7
+7       Gm7      /     Gm
+8         /      /     D7     Gm
+
+Groove Rhumba1
+Cresc f 8
+
+9       Gm7      /     C7
+10      Gm7      /     C7
+11        F
+12    Em7b5      /    Bb7     A7
+
+Groove Rhumba
+
+13       Dm
+14        /      /     D7
+15      Gm7
+16        /      /  Em7b5
+
+Groove Rhumba3
+Plectrum Rskip 40
+Decresc m 2
+
+17       Dm
+18      Em7      /     A7
+
+RepeatEnding   // 1st ending
+
+19       Dm      /    Gm6
+20       A+      /     A7
+
+RepeatEnding  // 2nd ending
+
+21       Dm      /    Gm6
+22       Dm
+
+// on the sheet this is the "interlude"
+
+25       Bb
+26       Gm
+
+Groove RhumbaSus
+Volume mf
+
+27       Bb      Dm   Bb     Dm
+28       Bb
+29      Gm6
+30     A7b9
+
+Groove Rhumba1Sus
+Volume f
+
+31    Bm7b5
+32       E7
+33       A7
+34        /
+
+RepeatEnd  /// 3rd ending
+
+Groove RhumbaEnd1
+Decresc ppp 2
+Tempo *.9 2
+
+23       Dm      /    Gm6
+24       Dm      z!
+
+
+

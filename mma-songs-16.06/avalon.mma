@@ -1,0 +1,131 @@
+// Avalon
+
+Tempo 160
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+
+Groove FoxtrotIntro
+Begin Allgrooves
+    Begin Chord
+       Rskip 30
+       Strum 0
+    End  
+    Bass-Piano Articulate 80
+    Begin Chord-Piano
+       Volume p
+       Rskip 20
+       Articulate 90
+    End
+    Begin Arpeggio 
+        Voice VibraPhone
+        Harmony OpenBelow
+        Rskip 60
+        Articulate 120
+        Direction Random
+        Range 2
+        Octave 5
+    End
+End
+
+Begin Solo
+   Voice VibraPhone
+   Cresc m mf 4
+   Articulate 110
+   Harmony 3Below
+   Octave 6
+   Begin Riff
+       8!c+;!;!;!; 4a;f;
+       8!d+;!;!;!; 4a;f;
+       8!f+;!;!;!; 4d+;b;
+       1c+;
+   End
+End
+
+Swingmode On
+
+Swell mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5        C7
+6         /
+7         /
+8         /
+
+Groove FoxtrotPlus
+
+9         F
+10        /      /     C7
+11        F
+12        /      /   Cdim
+
+Groove Foxtrot
+Cresc mf 4
+
+13       C7      /    Gm7
+14       C7      /    Gm7
+15       C7
+16        /      /     C+
+
+Groove FoxtrotSus
+
+17        F
+18        /      /     C+
+19        F
+20        /
+
+Groove FoxtrotSusPlus
+Decresc m 4
+
+21       D7      /   D7#5
+22       D7
+23        /   D7#5     D7
+24        /
+
+Groove FoxtrotSus
+
+25       Gm
+26       D7
+27       Gm
+28        /      /  G#dim
+
+Groove Foxtrot
+Cresc mf 4
+
+29        F
+30        /      /    Cm6
+31       D7
+32        /
+
+Groove FoxtrotPlus
+Decresc m 2
+
+33       Gm
+34       C7
+
+RepeatEnding 2
+
+Groove FoxtrotFill
+Decresc mp 2
+
+35        F
+36       C7
+
+RepeatEnd
+
+Groove FoxtrotEnd
+Decresc ppp 2
+
+37        F   Bbm6     F+   Bbm6
+38        F   z!
+

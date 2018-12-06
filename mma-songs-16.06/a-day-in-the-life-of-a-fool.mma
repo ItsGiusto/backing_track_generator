@@ -1,0 +1,121 @@
+// A Day In The Life Of A Fool
+
+// Note: All E/F chords are forced down an octave. Otherwise they
+//       sound too high. You could achive similar by using slash
+//       chords like E7&9/D, but just forcing the octave is easier.
+
+ChordAdjust E=-1 F=-1
+
+Tempo 120
+Transpose 3
+
+Groove BossaNova
+
+// For the 8 bar intro use chords in root pos
+
+Begin Chord
+	Voicing Mode=Root Move=0
+End
+
+	z * 2
+
+Cresc pp mf 8
+
+1 	Am
+2 	Bm7&5
+3 	Am
+4 	Bm7&5
+5 	Am
+6 	Bm7&5 /  E7&9
+7 	Am
+
+Groove BossaNovaFill
+
+8 	Bm7&5
+
+Set Pass 1
+
+// Main section ...
+
+Repeat
+Groove $Pass BossaNova BossaNovaSus BossaNova1Sus
+
+Cresc mp mf 10
+
+9 	Am
+10 	Bm7&5 /  E7&9
+11 	Am
+12 	Bm7&5 /  E7&9
+13 	Am
+14 	Dm7 /  G7
+15 	CM7
+16 	Em7&5 /  A7&9
+
+Groove $Pass BossaNovaSus BossaNova1Sus BossaNova
+
+
+17 	Dm7
+18 	G7
+19 	CM7
+20 	FM7
+21 	Bm7&5
+22 	E7&9
+23 	Am
+24 	Bm7&5 /  E7&9
+
+Groove $Pass BossaNova1Sus BossaNova BossaNovaSus
+
+25 	Am
+26 	Bm7&5 /  E7&9
+27 	Am
+28 	Bm7b5 /  E7b9
+29 	Em7b9
+30 	A7b9
+31 	Dm
+32 	/
+
+Groove $Pass BossaNova BossaNovaSus BossaNova1Sus
+Volume f
+
+33 	/  /  Dm
+34 	Bm7b5 /  E7b9
+35 	Am /  Am
+36 	FM7
+37 	Bm7b5
+38 	E7
+39 	Am /  Dm7
+40 	Am
+
+Decresc  mp  4
+
+41 	Dm7 /  Am7
+42 	Dm7 /  Am7
+43 	Dm7 /  Em7
+
+RepeatEnding  2
+44 	Am
+
+Groove BossaNovaFill
+
+45 	Bm7b5 /  E7b9
+
+
+Inc Pass
+
+RepeatEnd
+
+
+Groove BossaNovaEnd
+
+Begin Scale
+	Octave 5
+	Harmony 3
+End
+
+Decresc p 2
+
+46 	Am6
+47 	/  z!
+Fermata -4 1 300
+
+

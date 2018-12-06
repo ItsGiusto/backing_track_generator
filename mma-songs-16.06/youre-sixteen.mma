@@ -1,0 +1,99 @@
+// Youre Sixteen
+
+Tempo 148
+Keysig c
+
+Groove Metronome2-4
+    z * 2
+
+Groove 50sRockIntro
+Begin Solo
+    Voice Piano1
+    Articulate 90
+    Volume ff
+    Harmony 3+OpenBelow
+    Octave 6
+    Begin Riff
+        4c;r;c;r;
+        4c;r;c;r;
+        8d;; ;; ;; ;; 
+        4d;
+    End
+End
+
+Swingmode On Skew=55
+
+1         C
+2        Am
+3        Dm
+4        G7      z
+
+Repeat
+Groove 50sRock
+
+5         C
+6        E7
+7         F
+8         C      /     Am
+
+9        D7
+10       G9     G7      /     G+
+11        C    Am7
+12      Dm7      /  G7sus
+
+Groove 50sRockSus
+
+13        C
+14       E7
+15        F
+16        C      /     Am
+
+17       D7
+18       G9     G7      /     G+
+19        C    Am7
+20        C
+
+Groove 50sRock1Plus
+
+21       G7
+22        /
+23        C
+24        /
+
+Groove 50sRock1
+
+25       D9
+26        /
+27   G6(add9)
+28        /
+
+Groove 50sRockSus
+
+29        C
+30       E7
+31        F
+32        C      /    Am7
+
+33       D7
+34       G9     G7     G9
+35        C
+36       A7
+
+Groove 50sRock1Plus
+
+37      Dm7
+38       G9
+
+RepeatEnding
+
+39        C
+40        /  z
+
+RepeatEnd
+
+Groove 50sRockEnd
+
+39        C
+40        /  z!
+
+

@@ -1,0 +1,138 @@
+// Falling In Love With Love
+
+Tempo 150
+Keysig Bb
+
+Groove Metronome3
+	z * 2
+
+Groove JazzWaltzIntro
+
+Begin Solo
+	Voice Piano2
+	Decresc f mp 4
+	Harmony 3
+	Octave 6
+	Articulate 110
+	Begin Riff
+		4b;;;
+		4g;;;
+		4e;;;
+		2.c;
+	End
+End
+
+1        Bb
+2        Gm
+3        Cm
+4        F7
+
+Repeat
+Groove JazzWaltz
+
+5        Bb
+6      BbM7
+7       Bb6
+8        Bb
+9    F7sus4
+10       F7
+11      Cm7
+12       F7
+
+Groove JazzWaltzSus
+
+13   F7sus4
+14       F7
+15   F7sus4
+16       F7
+17     BbM7
+18      Bb6
+19     BbM7
+20      Bb6
+
+Groove JazzWaltz1
+
+21     BbM7
+22      Bb6
+23     BbM7
+24      Bb6
+25   D7sus4
+26       D7
+27       F6
+28       D7
+
+Groove JazzWaltz1Sus
+
+29    Gdim3
+30       Gm
+31       Cm
+32       C7
+33      Cm7
+34        /
+35        /
+36       F7
+
+Groove JazzWaltz
+
+37       Bb
+38     BbM7
+39      Bb6
+40       Bb
+41   F7sus4
+42       F7
+43      Cm7
+44       F7
+
+Groove JazzWaltz1Sus
+
+45   F7sus4
+46       F7
+47   F7sus4
+48       F7
+49     BbM7
+50      Bb6
+51     BbM7
+52      Bb6
+
+Groove JazzWaltzSus
+
+53     BbM7
+54      Bb6
+55     BbM7
+56      Bb6
+57   D7sus4
+58       D7
+59      GM7
+
+Groove JazzWaltz1
+
+60       G7
+61       Cm
+62    Ddim7
+63      Cm7
+64       F7
+
+RepeatEnding
+
+65       Bb
+66        /
+67       F7
+
+Groove JazzWaltzFill
+
+68        /
+
+RepeatEnd
+
+Tempo *.8 4
+
+Groove JazzWaltz1
+
+69       Bb
+70        /
+
+Groove JazzWaltz1End
+
+71        /
+72      Bb6  z!
+

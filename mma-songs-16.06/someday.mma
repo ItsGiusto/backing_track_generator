@@ -1,0 +1,94 @@
+// Someday
+
+// This is an old (country ??) song by Jimmie Hodges, probably played
+// quite slowly. It was recorder in 1949 by The Mills Brothers and was
+// a hit for Elton Britt in 1946. However, it works as a jazz number with a bossa beat.
+
+Tempo 120
+Keysig G
+
+Groove Metronome2-4
+
+	z * 2
+
+Groove BossaNovaIntro
+
+Begin Solo
+	Voice Piano1
+	Volume f
+	Harmony Open
+	Articulate 99
+	Octave 5
+	Begin Riff
+		4b;8a;b;4a;g;
+		4a;g;f;e;
+		1d;
+	End
+End
+
+Volume f
+
+1    G    
+2    Bm   
+3    D7   
+4    /    
+
+Groove BossaNova
+Repeat
+Cresc  mp f 8
+
+5    G    
+6    /    
+7    D7   
+8    /    
+9    G    
+10   G7   
+11   C    /    E7   
+12   Am   
+13   D7   
+14   /    
+15   G    
+16   Em   
+17   A7   
+18   /    
+19   D7   
+20   /    
+21   G    
+
+DeCresc mp 8
+
+22   /    
+23   D7   
+24   /    
+25   G    
+26   G7   
+27   C    /    E7   
+28   Am   
+29   /    
+30   Cm6  
+31   G    /    B7   
+32   E7   
+33   A7   
+34   D7   
+
+Volume mf
+
+RepeatEnding
+
+Groove BossaNovaFill
+35   G    
+36   /    
+
+Groove BossaNovaSus
+
+RepeatEnd
+
+Groove BossaNovaEnd
+
+37   G    
+
+Seq 3
+38   /    /    G6   
+ fermata -1 1 150
+
+

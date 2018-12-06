@@ -1,0 +1,66 @@
+// Cant Yo Heah Me Callin Caroline
+
+Tempo 94
+Keysig Eb
+
+Groove Metronome2-4
+	z * 2
+
+Groove PianoBalladIntro
+
+Begin Solo
+	Voice Piano1
+	Harmony Open
+	Volume f
+	Articulate 99
+	Octave 5
+	Begin Riff
+		4e+;;c+;;
+		4e+;;2c+;
+		4e+;c+;a;c+;
+		1b;
+	End
+End
+
+1   Eb      
+2   Cm      
+3   Fm      
+4   Bb7     
+
+Repeat
+Groove PianoBallad
+
+5   Eb      /       C7      
+6   F7      
+7   Bb7     
+8   Eb
+
+Groove PianoBallad1
+      
+9   /       /       C7      
+10  Bb      
+11  F7  
+12  Bb7     
+
+Groove PianoBalladSus
+
+13  Eb      /       C7      
+14  F7      
+15  Bb7     
+16  Eb 
+
+ Groove PianoBallad1Sus 
+   
+17  Eb      B7      Fm7     Bb7     
+18  Eb      /       Ebdim   C7      
+
+RepeatEnding
+
+19  Fm7     /       Bb7     
+20  Eb      
+
+RepeatEnd
+Groove PianoBalladEnd
+
+19  Fm7     /       Bb7     
+20  Eb  / z!

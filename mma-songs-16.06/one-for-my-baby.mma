@@ -1,0 +1,134 @@
+// One For My Baby
+
+Tempo 80
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove NiteJazzIntro
+
+Begin Solo
+     Voice Jazzguitar
+     Octave 5
+     Harmony OpenBelow
+     Volume m
+     Articulate 110
+     Begin Riff
+         4e+;b;e+;b;
+         4e+;c+;b;g;
+         4a;c+;a;f;
+         2.b;
+     End
+End
+
+Swell mp mf 4
+
+1        Eb
+2        Cm
+3        Fm
+4        Bb7
+
+Groove NiteJazz
+Volume mp
+
+5       Eb6      /   EbM7
+6       Eb6      /      /    Fm7
+7       Eb6      /   EbM7
+8       Eb9
+
+Groove NiteJazzPlus
+Cresc m 4
+
+9       Eb6      /   EbM7
+10      Eb6      /      /    Fm7
+11      Eb6      /   Bbm7
+12      Eb9
+
+Groove NiteJazz
+Volume mp
+
+13      Ab6      /   AbM7
+14      Ab6      /    Ab9
+15      Eb6
+16        /
+
+Groove NiteJazz
+Cresc mf 4
+
+17      G+7      /   Ebm6
+18      Fm7      /      /   Bb11
+19      Eb6
+20       D7
+
+Repeat  /// this is actually a "sign"
+Keysig G
+
+Groove NiteJazzSus
+Volume m
+
+21        G      /     Bm
+22        G      /      /     D7
+23        G      /    GM7
+24       G7
+
+Groove NiteJazzSusPlus
+
+25        G      /     Bm
+26        G      /      /     D7
+27        G      /    Dm7
+28       G7
+
+Groove NiteJazz
+Volume mp
+
+29        C      /    Em7
+30        C      /     C9
+31        G
+32        /
+
+Groove NiteJazzPlus
+Cresc mf 2
+
+33      B+7      /    Gm6
+34      Am7      /      /    D11
+
+RepeatEnding  /// a "to coda"
+
+35        G
+36      F#7      /     G9
+
+Groove NiteJazzSus
+Volume mp
+
+37      Gm7      /     C7
+38      Gm7   Cdim     C9
+39      B+7     E9    D11
+40        G      /    Am7
+
+Groove NiteJazzSusPlus
+Volume m
+
+41      Gm7      /     C7
+42      Gm7   Cdim     C9
+43      Gm7      /    Eb9
+44      D+7
+
+RepeatEnd  /// "ds al coda
+
+// coda
+
+Groove NiteJazzSus
+Decresc p 2
+
+45      B+7      /   E7b9
+46      Am7      /   D7b9
+
+Groove NiteJazzEnd
+Decresc ppp 2
+
+47        G
+48       G6      z!
+
+
+

@@ -1,0 +1,108 @@
+// Shiny Stockings
+
+Tempo 125
+KeySig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove SoftShoeIntro
+
+AllGrooves Arpeggio Voice JazzGuitar
+
+Begin Solo
+   Voice Piano1
+   Articulate 110
+   Volume f
+   Harmony OpenAbove
+   Octave 4
+   Begin Riff
+       4d;r;8f;4a;8c+;
+       8r;4.e;4g;bn;
+       4f;a&;8b;4.d+;
+       2.f+;
+   End
+End
+
+Cresc mp mf 4
+
+1          Dm
+2          CM7
+3          Bb9
+4          F     /   F#m9
+
+Repeat
+Groove Softshoe
+Volume m
+
+5        Gm9
+6         C9
+7        Gm9
+8         C9
+
+Groove SoftShoePlus
+
+9        FM9
+10       Bb9
+11       Am7
+12    Abdim7
+
+Groove SoftShoe
+Cresc mf 4
+
+13       Gm7
+14        C9      /    Bb9
+15       Am7
+16      D9/C
+
+Groove SoftShoeSus
+
+17       Bm7
+18        E9
+19        A6
+20     Am7b5      /   D7b9
+
+Groove SoftShoe
+Cresc f 4
+
+21       Gm9
+22        C9
+23       Gm9
+24        C9
+
+Groove SoftShoeSusPlus
+
+25       FM9
+26       Bb9
+27       Am7
+28    Abdim7
+
+Groove SoftShoe
+Decresc mf 4
+
+29       Gm7
+30        C9      /    Bb9
+31       Am7
+32        D9
+
+Groove SoftShoeSus
+
+33     C9sus
+34         /      /  C13b9
+35        F6
+
+RepeatEnding
+
+36         /     /   F#m9
+
+RepeatEnd
+Decresc ppp 4
+
+37        F6      / D7#5#9
+38       Gm7
+
+Groove SoftShoeEnd
+
+39     C9sus      /  C13b9 F6@4.5
+40         /     z!
+

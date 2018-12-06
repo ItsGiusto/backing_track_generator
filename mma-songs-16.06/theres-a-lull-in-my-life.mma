@@ -1,0 +1,117 @@
+// Theres A Lull In My Life
+
+Tempo 86
+Keysig F
+
+Groove Metronome2-4
+  z * 2
+
+Groove SlowBoleroIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 6
+    Articulate 90
+    Harmony 3Below+8Below
+    Volume mf
+    Begin Riff
+        43f;;; ;;;
+        43d;;; 2;
+        43g;;; ;;;
+        1c+;
+    End
+End
+
+Swell p mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+Repeat
+Groove SlowBolero
+Cresc mp mf 8
+
+5       FM7      /    Gm7    Am7
+6      BbM7      /    Am7
+7       Gm7      /    Am7   BbM7
+8       Am7      /    Gm7
+
+Groove SlowBoleroPlus
+
+9    F6(add9)      /    Gm7    Am7
+10     BbM7      /    Gm9  C9sus
+11   F6(add9)      /    Dm7
+12      Gm7      /     C7
+
+Groove SlowBolero
+Volume m
+
+13      FM7      /    Gm7    Am7
+14     BbM7      /    Am7
+15      Gm7      /    Am7   BbM7
+16      Am7      /    Gm7
+
+Groove SlowBoleroPlus
+Decresc mp 4
+
+17   F6(add9)      /    Gm7    Am7
+18     BbM7      /    Gm9  C9sus
+19       F6      /    Eb9
+20       F6
+
+Groove SlowBoleroSus
+
+21    Ebm11      /    Ab9
+22    Ebm11      /    Ab9
+23     DbM7      / Ab9sus
+24     DbM7      /     C7
+
+Groove SlowBoleroSusPlus
+Cresc mf 4
+
+25      FM7      / F#dim7
+26     Gm11      /    Bb9
+27    Cdim7
+28       C7
+
+Groove SlowBolero1
+Decresc m 4
+
+29      FM7      /    Gm7    Am7
+30     BbM7      /    Am7
+31      Gm7      /    Am7   BbM7
+32      Am7      /    Gm7
+
+Groove SlowBolero1Sus
+
+33   F6(add9)      /    Gm7    Am7
+34     BbM7      / C13sus
+35     Am11
+36       D7
+
+Groove SlowBolero1
+Volume mp
+
+37    Abm11
+38      Db7
+39     Gm11
+40       C7
+
+RepeatEnding
+
+Groove SlowBolero1Sus
+Cresc m 2
+
+41       F6
+42      Gm7      /     C7
+
+RepeatEnd
+Decresc ppp 2
+Groove SlowBoleroEnd
+Tempo *.9 2
+
+41       F6
+43        F  z!
+

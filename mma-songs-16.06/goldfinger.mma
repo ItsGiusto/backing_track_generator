@@ -1,0 +1,154 @@
+// Goldfinger
+
+Tempo 99
+KeySig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove PopBalladIntro
+Seqsize 2
+
+Chord Sequence  {1 2 90; 2 1+2 90} z
+
+Begin Chord-1
+  Voice Strings
+  Volume mf
+  unify on
+  Octave 5
+  Articulate 100
+  Unify On
+  Sequence {1 1 90 * 4}
+End
+
+Begin Bass
+ Sequence { 1 4 1 90; 2 2 1 90;  4.5 8 1 90; } \
+          {1 4 1 90; 2 8 1 90; 2.5 4 1 90; 3 8 1 90; 3.5 8 1 90; 4 8 1 90}
+  Volume ff
+  SeqRnd Off
+  Articulate 60
+End
+
+Arpeggio Sequence -
+
+Swell p mf 8
+Repeat
+
+Begin Solo
+   Voice BrassSection
+   Volume mf
+   Octave 5
+   Harmony OpenBelow+8Below
+   Articulate 100
+   Begin Riff
+      2.r;8r;8f+;
+      8a+;8+2f+;
+      2.r;8;8f;
+      8a;8+2f;
+   End
+End
+
+1        Fm      /     Db
+2         /
+3        Fm      /     Db
+4         /
+
+Repeatend
+
+Groove PopBallad1
+Volume m
+
+5         F      /     Db
+6         /
+7       FM7      /      F
+8        Bb
+
+Groove PopBallad
+Cresc mp mf 4
+
+9         E
+10        /
+11        C
+12       C7
+
+Groove PopBallad1
+Volume m
+
+13        F      /     Db
+14        /
+15      FM7      /      F
+16       Bb
+
+Groove PopBallad
+Decresc mp 2
+
+17        E
+18        /
+19       Am      /    Am+
+20       Am      /    Am+
+
+Repeat
+Groove PopBalladSus
+Volume mf
+
+21       Em
+22       B7
+23       Em
+24     B7#9
+
+Groove PopBallad1
+Cresc f 2
+
+25        E
+26       Cm
+Decresc m 2
+27      Gm6
+28    Dbdim3
+
+Groove PopBalladSus
+Decresc mp 2
+29        F      /     Db
+30        /
+Volume f
+31      FM7
+32       Bb
+
+Groove PopBallad
+Volume mf
+
+33        E
+34        /
+
+RepeatEnding
+Groove PopBalladSus
+Decresc m 2
+
+35       Am      /    Am+
+36      Am6      /    Am+
+
+RepeatEnd
+Groove PopBalladSus
+Decresc m ppp 13
+
+37       Am      /    Am+
+38      Am6      /    Am+
+39       Am      /    Am+
+40      Am6      /    Am+
+
+41       Am      /    Am+
+42       Am      /    Am+
+43       Am      /    Am+
+44       Am      /    Am+
+
+45       Am      /    Am+
+46       Am      /    Am+
+47       Am      /    Am+
+48       Am      /    Am+
+
+49       Am      /    Am+
+Cresc f 2
+50       Am      /    Am+
+
+Groove PopBalladEnd
+51       Am      /    z!
+

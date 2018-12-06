@@ -1,0 +1,124 @@
+// Little Boat
+
+Tempo 170
+Keysig Bb
+
+Groove Metronome2-4
+       z * 2
+
+Groove BossaNovaIntro1
+Begin Solo
+    Voice JazzGuitar
+    Volume f
+    Articulate 90
+    Harmony OpenAbove+8Above
+    Octave 5
+    Begin Riff
+        2.d;4g;
+        2.a&;8g;f;
+        2.e;4f;
+        2g&;
+    End
+End
+
+Swell mp mf 4
+
+1        Bb
+2        Gm
+3        Cm
+4        F7b9
+
+Repeat   // entire song 2x
+Repeat
+
+Groove BossaNova
+Volume m
+
+5      BbM7
+6         /      /      B     Bb
+7       Em7      /     A7
+8       Em7      /     A7
+
+Groove BossaNovaSus
+Cresc mf 4
+
+9      AbM7
+10        /      /     A6    Ab6
+11      Dm7      /     G7
+12      Dm7      /     G7
+
+Groove BossaNovaPlus
+Decresc m 4
+
+13     GbM7
+14        /      /     G6    Gb6
+15      Cm7      /     F7
+16      Cm7      /     F7
+
+Groove BossaNova1Sus
+Volume mp
+
+17      Dm7
+18     G7b9
+
+RepeatEnding
+Cresc m 2
+
+19      Cm7
+
+Groove BossaNovaFill
+
+20     F7b9
+
+RepeatEnd
+
+21      Cm7
+22     F7b9
+
+Groove BossaNovaSus
+
+If Def LastTime
+   Tempo *.88    10
+   Decresc p 8
+Else
+   Decresc p 4
+Endif
+
+
+23     BbM9
+24        /
+25       B9
+26        /      /     F7
+
+Groove BossaNova1SusPlus
+
+27     BbM9
+28        /
+29       B9
+30        /      /   F7#5
+
+RepeatEnding
+
+Groove BossaNovaFill
+
+31     Bb6
+32     BbM7
+
+Begin AllGrooves Arpeggio
+  Voice Piano2
+  Octave 5
+  Harmony OpenAbove+8Above
+End
+
+Set LastTime
+
+RepeatEnd
+
+Groove BossaNova2End
+
+Decresc ppp 2
+
+31      Bb6
+32     BbM7 z!
+
+

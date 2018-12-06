@@ -1,0 +1,118 @@
+// I Call Your Name
+// 	Lennon/McCartney
+
+Tempo 110
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice Vibraphone
+	Octave 5
+	Volume mf
+	Harmony Open
+	Articulate 100
+	Accent 1 20 3 20
+End
+
+Begin Solo-1
+	Copy Solo
+	ChShare Solo
+End
+
+
+Groove BossanovaIntro1
+Swell mp m 4
+
+1          C                   {8g;a;g;a;g;a;g;a;} {2e;;}
+2         A7                   {8g;a;g;a;g;a;g;a;} {2e;a;}
+3          +C                  {8g;a;g;a;2g;}      {2g;c+;}
+4          /      z            {2.g;} {2.c+;}
+
+Delete Solo Solo-1
+
+Repeat
+Groove BossaNova
+
+5         C7
+6          /
+7         A7
+8          /
+
+Groove BossaNova1Sus
+
+9         D7
+10         /
+11        G7
+12         /
+
+Groove BossaNova
+
+13        C7
+14         /
+15        A7
+16         /
+
+Groove BossaNovaPlus
+
+17        D7
+18         F
+19         C
+
+Groove BossaNovaFill
+
+20         /
+
+
+Groove BossaNova
+
+21         F
+22         /
+23        Am
+24         /
+
+Groove BossaNova2Sus
+
+25        D7
+26         /
+27        Ab
+28        G7
+
+Groove BossaNovaSusPlus
+
+29        C7
+30         /
+31        A7
+32         /
+
+Groove BossaNovaSus
+
+33        D7
+34         F
+35         C      /      F
+
+RepeatEnding
+
+Groove BossanovaFill
+
+36         C     z
+
+RepeatEnd
+
+Groove Bossanova
+
+Decresc  pppp 8
+
+Repeat
+
+37         C      /      F
+38         C      /      F
+39         C
+
+Groove BossanovaEnd
+Seq 2
+
+RepeatEnd
+
+

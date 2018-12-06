@@ -1,0 +1,107 @@
+// Until The Real Thing Comes Along
+
+Tempo 70
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove NiteJazzIntro
+Begin Solo
+    Voice Vibraphone
+    Volume f
+    Articulate 120
+    Octave 6
+    Harmony 38Below
+    Begin Riff
+        43b;;;2;
+        43c+;;;2bn;
+        43a;f;a; g#;en;g#;
+        1b;
+    End
+End
+
+Swell mp mf 4
+
+1        Eb / Gm
+2        Cm/G / B+/G    
+3        Fm  / E+/C
+4       Bb7
+
+Repeat
+Groove NiteJazz
+Volume m
+
+5        Eb
+6     Bb7#5
+7      EbM7
+8        C9
+
+Groove NiteJazzSus
+Cresc mf 2
+
+9       Fm7
+10      Bb7
+
+RepeatEnding
+Decresc mp 2
+
+11    Eb6/G      / Gbdim7
+12      Fm7      /    Bb7
+
+RepeatEnd
+DeCresc m 2
+
+13       Eb      /    Ab6
+14    Am7b5      /     D7
+
+Repeat
+Groove NiteJazzPlus
+Volume mf
+
+15        G      / G#dim7
+16      Am7      /     D7
+17      G/B      /  Bdim7
+18      Am7      /     D7
+
+Groove NiteJazzSusPlus
+Volume f
+
+19        G      / G#dim7
+20      Am7      /     D7
+
+Decresc m 2
+
+21        G      /  Gdim7
+22      Fm7      /    Bb7
+
+Groove NiteJazz
+Volume m
+
+23       Eb
+24    Bb7#5
+25     EbM7
+26       C9
+
+Groove NiteJazzSus
+Cresc mf 2
+
+27      Fm7
+28      Bb7
+
+RepeatEnding
+AdjustVolume Ratio=30
+Decresc mp 2
+
+29       Eb      /    Ab6
+30       Eb      /    D7
+
+RepeatEnd
+
+Groove NiteJazzEnd
+AdjustVolume Ratio=20
+Decresc mp ppp 2
+Tempo *.9 2
+
+29       Eb      /    Ab6
+30       Eb      z!

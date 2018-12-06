@@ -1,0 +1,92 @@
+// Nobody Knows You When Youre Down And Out
+
+Tempo 82
+Keysig F
+
+Groove Metronome2-4
+	   z * 2
+
+Groove SlowBluesIntro
+Begin Solo
+	  Voice CleanGuitar
+	  Harmony Open
+	  Volume f
+	  Articulate 90
+	  Octave 4
+	  Begin Riff
+	     8a;c+;d+;c+;4a;c+;
+		 43d+;e+;c+;2a;
+		 43g;;a;4b;c+;
+		 1c+;
+	  End
+End
+
+SwingMode  On
+
+1         F
+2        Dm
+3       Gm7
+4        C7
+
+Repeat
+Groove SlowBlues
+
+5         F      /     A7
+6        D7
+7        Gm      /     D7
+8        Gm
+9        Bb      /     E7
+10        F      /     D7
+11       G9
+12      Gm9      /     C7
+
+Groove SlowBluesWalk4
+
+13        F      /     A7
+14       D7
+15       Gm      /     D7
+16       Gm
+17       Bb      /     E7
+18        F      /     D7
+19       G9
+20      Gm7      /     C7
+
+Groove SlowBluesSus
+
+21        F      /     A7
+22       D7
+23       Gm      /     D7
+24       Gm
+
+Groove SlowBluesWalk4
+
+25       Bb      /     E7
+26        F      /     D7
+27       G9
+28      Gm9      /     C7
+29        F      /     A7
+30       D7
+31       Gm      /     D7
+32       Gm
+
+Groove SlowBluesWalk4Sus
+
+33       Bb      /     E7
+34        F      /     D7
+35       G9
+36       C7      /      F     D7
+
+RepeatEnding
+Groove SlowBluesFill
+
+37       G7      /     C7
+38        F
+
+RepeatEnd
+Groove SlowBluesEnd
+
+37       G7     /      C7
+38       F      /      /   z
+
+
+

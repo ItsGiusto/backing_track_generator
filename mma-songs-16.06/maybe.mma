@@ -1,0 +1,112 @@
+// Maybe
+
+Tempo 100
+Keysig Bb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+  Voice JazzGuitar
+  Volume ff
+  Harmony OpenBelow+8Below
+  Octave 5
+  Articulate 110
+  Begin Riff
+     4b+;2.b;
+	 4b;2.g;
+ 	 4g;c+;d+;e+;
+	 1f+;
+  End
+End
+
+Swell pp mf 4
+
+1         Bb
+2         Gm
+3         Cm
+4         F7
+
+
+Repeat
+Groove BossaNova
+Volume m
+
+5         Bb
+6       EbM7      /      /    Eb6
+
+Decresc mp 2
+7         Bb      /      /   BbM7
+8       EbM7      /    Eb6
+
+Groove BossaNova2Sus
+
+9         Bb     D7    Gm7
+10         /      /     C7
+
+RepeatEnding
+
+Groove BossaNovaFill
+
+11        Cm      /     F7
+12        Bb      /     F7
+
+
+RepeatEnd
+
+13        Ab
+14    Db6(add9)
+
+Repeat
+Groove BossaNova
+Volume m
+
+15         A      /   Asus      A
+16     E7sus      /      /     E7
+Decresc mp 2
+17       F#m      /  F#sus    F#m
+18    C#7sus      /    C#7
+
+Groove BossaNovaSus
+Cresc m 4
+19         A
+20    C#7sus      /    C#7
+21       F#m
+22        F7
+
+Groove BossaNovaFill
+Decresc mp 1
+23         /
+
+Groove BossaNova
+Cresc f 4
+24        Bb
+25      EbM7      /    /     Eb6
+26        Bb
+27      EbM7      /    Eb6
+
+Groove BossaNova
+Decresc mp 2
+
+28        Bb     D7    Gm7
+29         /      /     C7
+
+RepeatEnding
+
+Groove BossaNovaFill
+
+30        Cm      /     F7
+31        Bb      /     E7
+
+RepeatEnd
+
+Groove BossaNova2End
+Decresc p pppp 4
+
+32        Cm      /     F7
+33        Bb
+34      EbM7
+35        Bb z!
+
+

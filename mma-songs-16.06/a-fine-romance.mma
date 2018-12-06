@@ -1,0 +1,85 @@
+// A Fine Romance
+
+Tempo 160
+Keysig C
+
+Groove Metronome2-4
+	   z * 2
+
+Groove FoxTrotIntro
+
+Begin Solo
+	  Voice Vibraphone
+	  Octave 5
+	  Harmony 3
+	  Mallet Rate=32 Decay=-4
+	  Volume F
+	  Articulate 90
+  	  Begin Riff
+		  4c+;2.;
+		  4e+;2.c+;
+		  4d+;2.;
+		  4f+;2.d+;
+	  End
+End
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove FoxTrot
+
+5        C6
+6    C#dim7
+7      G7/D
+8    D#dim7
+9       Em7
+10      Am7
+11      Dm7
+12       G7
+
+Groove FoxTrotSus
+
+13      CM7
+14       C7      /    A13   Ab13
+15      G13      /    Dm7
+16    Gdim7      /     G7
+17       C6
+18       A7      /   F#13    F13
+19       E7      /     A7
+20       D7      /     G7
+
+Groove FoxTrotPlus
+
+21       C6
+22   C#dim7
+23     G7/D
+24   D#dim7
+25      Em7
+26      Am7
+27      Dm7
+28       G7
+
+Groove FoxTrotSusPlus
+
+29       C6
+30       C7      /     A7
+31      Dm7      /     A7
+32      Dm7      / D#dim7
+33      Em7      /     A7
+34      Dm7      /   G7b9
+
+RepeatEnding  2
+
+35       C6      /    Am7
+36      Dm7      /     G7
+
+RepeatEnd
+
+Groove FoxTrotEnd
+
+37       C6      /     F7
+38     C6      /  z!
+

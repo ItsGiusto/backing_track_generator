@@ -1,0 +1,152 @@
+// Anniversary Song
+
+// Favorite at old-time dances :)
+// "The" recording was by Guy Lombardo and His Royal Canadians in 1946
+
+// This re-def uses the existing arpeggion from CountryWaltz2
+// and swaps out the guitar for a piano. Changes the articulation
+// a bit as well.
+
+Groove Countrywaltz2
+
+Begin Arpeggio
+	Voice Piano1
+	Rskip 10
+	Octave 4
+	Volume mp
+	Rvolume 20
+	Accent 1 10
+	Articulate 99
+End
+
+DefGroove CW2
+
+Tempo 106    // This is the tempo used by Lombardo.
+Keysig E minor
+
+Groove Metronome3
+	z * 2
+
+Groove CountryWaltzIntro
+
+Begin Solo
+  Voice TremoloStrings
+  Volume mf
+  Articulate 110
+  Harmony OpenBelow
+  Octave 6
+  Begin Riff
+    4b;e+;b;
+	4g;b;g;
+	4d;fn;a;
+	2.g;
+  End
+End
+
+1         Em
+2          G
+3         Dm
+4         Em
+
+Repeat
+
+Groove CountryWaltzSus
+
+5         B7
+6     B7sus4   // this chord isn't in the charts, but I think it's needed
+7         B7
+8          /
+
+Groove CountryWaltz1Sus
+
+9         Em
+10         /
+11         /
+12         /
+
+Groove CountryWaltzSus
+
+13        Am
+14         /
+15        Em
+16         /     B7     Em
+
+Groove CountryWaltz1Sus
+
+17        B7
+18         /     B+     B7
+19        Em
+20         /
+
+Groove CW2
+
+21        B7
+22    B7sus4
+23        B7
+24         /
+
+Groove CountryWaltz
+
+25        Em
+26         /
+27         /
+28         /
+
+Groove CW2
+
+29        Am
+30         /
+31        Em
+32         /     B7     Em
+
+Groove CountryWaltzSus
+
+33        B7
+34         /     B+     B7
+
+RepeatEnding   /// here we go into the bridge/interlude.
+
+35        Em
+36        D7
+
+// This is the bridge "Dear as I..."
+label foo
+Groove CountryWaltz2SusWalk
+
+37        D9
+38         /
+39         C      G
+40         /
+
+Groove CountryWaltz2Sus
+
+41        D7
+42         /
+43        C6      G
+44         /
+
+Groove CountryWaltz2SusWalk
+
+45        B7
+46         /
+47      Cdim3     Em     B7
+48        Em
+
+Groove CountryWaltz2Sus
+
+49        Am    Am6
+50        Em   Edim3     B7
+51        Em
+52         /
+
+RepeatEnd
+
+Groove CountryWaltzEnd
+Seq 3
+Tempo -20 2
+Decresc pp 2
+
+53        Em
+54         /
+
+

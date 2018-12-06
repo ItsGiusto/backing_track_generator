@@ -1,0 +1,136 @@
+// Delilah
+
+// Yup, this is the Tom Jones BIG HIT.
+
+Tempo 192
+Keysig E minor
+
+Groove Metronome3
+	z * 2
+
+Groove WaltzIntro8
+Begin Drum-2
+	  Tone MuteTriangle
+	  Volume fff
+	  Sequence D123
+End
+	
+1   Em
+2   /
+3   /
+4   /
+
+Begin Solo
+   Voice TremoloStrings
+   Cresc mp f 4
+   Octave 5
+   Articulate 110
+   Harmony Open+16Below
+   Begin Riff
+     2.e;
+	 2.g;
+	 2.a;
+	 2.b;
+   End
+End
+
+5   Em
+6   Cm
+7   F#m
+8   B7
+
+
+Repeat
+Groove Waltz
+
+Begin Drum-2
+	  Tone MuteTriangle
+	  Swell p ff 32
+	  Sequence D123
+End
+
+1      Em    
+2	/
+3	/
+4	/
+5      B7    
+6	/
+7	/
+8	/
+9      Em    
+10	/
+11	/
+12	/
+13     B7    
+14	/
+15	/
+16	/
+17     E     
+18	/
+19     E7    
+20	/
+21     Am    
+22	/
+23	/
+24	/
+25     Em    
+26	/
+27     B7    
+28	/
+29     Em    
+30	/
+31     D7    
+32	/
+
+Groove WaltzSus
+
+33     G     
+34	/
+35	/
+36	/
+37     D7    
+38	/
+39	/
+40	/
+41	/
+42	/
+43	/
+44     /    /    F#    
+46     G     
+47	/
+48	/
+49	/
+50     G     
+51     /    /    D7    
+52     G     
+53     G7    
+54     C     
+55	/
+56     Am    
+57	/
+58     G     
+59	/
+60     D7    
+61	/
+62     G     
+63	/
+
+RepeatEnding
+
+64     B7    
+65	/
+
+RepeatEnd
+
+Groove WaltzSus
+
+66     B7    
+67	/
+68	/
+69     Em    
+70     B7    
+71     /    A     B7    
+73     Em    
+74 	/ z!
+Fermata -3 1 300
+

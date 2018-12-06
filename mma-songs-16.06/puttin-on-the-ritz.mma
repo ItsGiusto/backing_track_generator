@@ -1,0 +1,104 @@
+// Puttin On The Ritz
+
+// What tempo to use??? I've heard everything from way-too-slow (120)
+// to way-too-fast (220). So I'll go with Judy Garland's 178 ... after
+// all, can Judy ever be wrong :)
+
+// This file has a 4 bar intro by bvdp, the 16 bar intro in F Major
+// then the "chorus" which is in F minor.
+
+Tempo 178
+
+Groove Metronome2-4
+	z * 2
+
+Groove FoxtrotIntro
+Cresc pp f 4
+
+1      F    
+2      Dm 
+3      Gm   
+4      C7
+    
+Groove Foxtrot
+Cresc mp f 13
+
+5      F/A   /    Abdim 
+6      Gm    /    C7    
+7      F/A   /    Abdim 
+8      Gm7   /    C7    
+9      Ab/C  /    Bdim  
+10     Eb7/Bb /    Eb7   
+11     Ab/C  /    Bdim  
+12     Eb7/Bb /    Eb7   
+13     C6/G  /    C#dim 
+14     Dm7   /    G7    
+15     C6    /    C#dim 
+16     Dm7   /    G7    
+17     Am    /    Am7   
+18     D7    
+19     G7    
+20     C7b9  /    C7#5  C7    
+
+Repeat
+Groove FoxtrotPlus
+
+21     Fm    
+22	/
+23	/
+24     /    C7    
+25     C7b9  
+26	/
+27     Fm    /    Fm7/Eb 
+
+Arpeggio Volume ff
+28     Db9   /    C7    
+
+Groove FoxtrotSus
+
+29     Fm    
+30	/
+31	/
+32     /    C7    
+33     C7b9  
+34	/
+35     Fm    /    Fm7/Eb 
+36     Db    /    F7/C
+
+Groove FoxtrotSusPlus
+  
+37     Bbm   
+38     /    /    Gb9   F9    
+39     Bbm6  
+
+set a $_Arpeggio_Volume
+Arpeggio Volume fff
+40     Eb9   /    Eb7#5 Eb7
+Arpeggio Volume $a
+
+41     Ab6   /    Fm7   
+42     Bbm7  /    Eb7   
+43     Ab6   
+44     Db9   /    /    C9    
+
+Groove FoxTrot
+
+45     Fm    
+46	/
+47	/
+48     /    C7    
+49     C7b9  
+50	/
+
+RepeatEnding
+
+51     Fm    
+52     Db7   /    C7b9  C9    
+
+RepeatEnd
+
+Groove FoxtrotEnd
+Tempo -20 2
+53     Fm    /    Bbm6  
+54     F6    / z!
+

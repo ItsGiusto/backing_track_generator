@@ -1,0 +1,88 @@
+// Sugar  -- Joe Young and George W. Meyer
+
+Tempo 140
+Keysig G
+
+Groove Metronome2-4
+	   z * 2
+
+Groove SwingIntro
+
+Begin Solo
+	  Voice Piano2
+	  Volume f
+	  Harmony 3
+	  Articulate 80
+	  Octave 5
+	  Begin Riff
+	  		2b;;
+			43g;a;b;4a;g;
+			2a;;
+			4f;;2;
+	  End
+End
+
+1         G
+2        Em
+3        Am
+4        D7
+
+
+Repeat
+Groove Swing1
+
+5         G      /     E7
+6        A7      /     D7
+7       GM7      /     D+
+8         G      / Bbdim7
+9       Am7      / C#dim7
+10     D7/A      /     D+
+11        G      /     E7
+12      Am7      /     D7
+
+Groove Swing1Plus
+
+13        G      /     E7
+14       A7      /     D7
+15      GM7      /     D+
+16        G      /     Gm
+17        D      / D#dim7
+18      Em7      /     A7
+19       D7      /    Am7
+20     D7/A      /     D7
+
+Groove Swing1Sus
+
+21       G7
+22       Dm
+23       G7
+24      Dm7      /     G7
+25        C
+26       E7
+27       A7
+28       D7
+
+Groove Swing1PlusSus
+
+29        G      /     E7
+30       A7      /     D7
+31      GM7      /     D+
+32        G      / Bbdim7
+33      Am7      /     E7
+34       A7      /     D7
+
+RepeatEnding
+
+35        G
+
+Groove Swing1Triple
+
+36      Am7      /     D7
+
+RepeatEnd
+
+Groove Swing1End
+
+35        G
+37        G     D7     G6 z!
+

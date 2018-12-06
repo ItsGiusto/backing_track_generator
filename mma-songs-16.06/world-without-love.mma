@@ -1,0 +1,77 @@
+// World Without Love
+
+// Lennon/McCarthy, Recorded by Peter and Gordon, 1964
+
+// I using a slower tempo. P & G used 130. Also, this is Eb
+// the P & G version is a semitone higher, E. But, I don't
+// play guitar, so I'm leaving it in the key in my songbook.
+
+Tempo 116
+
+KeySig 3b
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice SteelGuitar
+	Volume mf
+	Articulate 95
+	Harmony Open
+End
+	
+Groove 8Beat1
+
+1	Eb             {4b;e+;3+3g+;f+;e+;}
+2	G7             {4d+;f+;3+3a+;f+;f+;}
+3	Cm             {4c+;8d+;e+;4d+;c+;}
+4	Bb7            {2b;}
+
+
+Solo Volume f
+
+Repeat
+Groove 8Beat
+
+5      Eb    
+6      G7    
+7      Cm    
+8	/
+9      Eb    
+10     Ab6   
+11     Eb    
+12	/
+13     Fm7   
+14     Bb7   
+
+RepeatEnding
+
+15     Eb    
+16     Cb    /    Bb7   {4.e+;8;d+;c+;b;2a~;}
+
+RepeatEnding
+
+17     Eb    
+18     Eb7   
+
+// Bridge
+
+Groove 8BeatSus
+
+19     Abm   
+20	/
+21     Eb    
+22	/
+23     Abm   
+24	/
+25     Fm7   
+26     Cb    /    Bb7   
+
+Repeatend
+
+Groove 8BeatEnd
+
+	Eb
+	/  z!
+
+	

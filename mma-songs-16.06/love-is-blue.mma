@@ -1,0 +1,113 @@
+// Love Is Blue
+
+Tempo 106
+Keysig E minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove BalladIntro
+
+Begin Solo
+  Voice Strings
+  Volume mf
+  Octave 5
+  Harmony OpenBelow
+  Articulate 99
+  Begin Riff
+     2d+;4.c+;8a;
+	 2b;4.a;8g;
+	 2a;4.g;8fn;
+	 4d#;8f;g;4a;b;
+  End
+End
+
+Cresc mp f 4
+
+1        D
+2        Em
+3        F
+4        B7
+
+
+Repeat
+Groove Ballad
+Volume m
+
+5        Em      /     A7
+6         D      /      G
+7        Em      /      C
+8         D      /      G
+
+Groove Ballad1
+Decresc f mp 4
+
+9        Em      /     A7
+10        D      /      G
+11       Em      /      C
+
+RepeatEnding
+
+12       B7      /     Em
+
+Groove BalladFill
+
+13        /  /  /  z
+
+RepeatEnd
+
+14       B7      /     Em
+
+Groove BalladFill
+
+15        /  /  /  z
+
+Repeat
+
+Groove BalladSus
+Volume m
+
+16        E      /   F#m7
+17        E
+18        A
+19        E
+
+Groove Ballad1Sus
+Swell m mf 4
+
+20      G#m      /   G#m6
+21       A6
+22    B7sus      /     B7
+23        E
+
+Groove Ballad1
+Cresc mp f 4
+
+24       Em      /     A7
+25        D      /      G
+26       Em      /      C
+27        D      /      G
+
+Groove Ballad
+Decresc mp 4
+
+28       Em      /     A7
+29        D      /      G
+
+RepeatEnding
+
+30       Em      /      C
+31       B7      /      E
+32     F#m7      /      E
+
+RepeatEnd
+
+Groove Ballad1End
+Tempo *.8 3
+Decresc pppp 3
+
+30       Em      /      C
+31       B7      /      Em
+32       Em    z!
+
+

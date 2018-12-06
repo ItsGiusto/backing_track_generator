@@ -1,0 +1,68 @@
+// Twilight Time
+
+Tempo 76
+Transpose 3
+
+Groove Metronome2-4
+	z * 2
+
+Groove RockBalladIntro
+
+
+1      Am    /    D7    
+
+Repeat
+Groove RockBallad
+
+2      G     
+3      B7    
+4      Em    
+5      G7    
+6      C     
+7      G     /    E9 
+   
+Groove RockBalladFill
+RepeatEnding
+
+8      A9    /    /    A7    
+9      Am7   /    D7    
+
+RepeatEnd
+
+10     A9    /    D7    
+11     G     
+
+Repeat
+Groove RockBalladVoice
+
+12     B7    
+13	/
+14     Em    /    /    D#dim 
+15     Em    D#dim Em    
+16     A7    
+17	/
+18     D7    
+19     Bm    Bbm   D7
+    
+Groove RockBalladFill
+
+20     G     
+21     B7    
+22     Em    
+23     G7    
+24     C     /    Cm    
+25     G     /    E9  
+
+RepeatEnding
+  
+26     A9    /    D7    
+27     G     
+
+RepeatEnd
+
+Groove RockBalladEnd
+Seq 3
+
+26     A9    /    D7    
+27     G   / z!  
+

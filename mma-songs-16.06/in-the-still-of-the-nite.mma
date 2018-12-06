@@ -1,0 +1,104 @@
+// In The Still Of The Nite
+// This is the doo-wop version by The Five Satins
+
+Tempo 74
+Keysig G
+
+Groove Metronome2-4
+    z * 2
+    
+Groove Rock128IntroSus
+Begin Solo
+    Voice SynthVox
+	Harmony OpenBelow+8Below
+	Volume ff
+	Articulate 80
+	Octave 6
+	Accent 1 20 2 -10 3 10
+	Begin Riff
+	    4c;d <Articulate=50>;8.c <Articulate=100>;16d;4c;
+        4c;d <Articulate=50>;8.c <Articulate=100>;16d;4c;
+        4d;e <Articulate=50>;8.d <Articulate=100>;16e;4d;
+		3g <Articulate=80>;;; ;;; 2;
+	End
+End
+Swell mp mf 4
+
+1         C
+2        Am
+3        Dm
+4        G7
+
+Repeat
+Groove Rock128
+Volume m
+
+5         C
+6        Am
+
+Decresc mp 2
+
+7         F
+8       Dm7      /     G7
+
+Groove Rock128PlainSus
+Cresc f 4
+
+9         C
+10       Am
+11        F
+12      Dm7      /     G7
+
+Decresc mp 2
+
+13        C      /      F
+14        C      /     C7
+
+Groove Rock128Sus
+Cresc mf 4
+
+15        F
+16        /
+17        C      /     G+
+18        C      /     G7      C
+
+Groove Rock128Plain
+Decresc m 4
+
+19        F
+20        /
+21       G7
+22        /
+
+Groove Rock128
+
+23        C
+24       Am
+
+Decresc mp 2
+
+25        F
+26      Dm7      /     G7
+
+RepeatEnding
+
+Groove Rock128SusPlus
+
+27        C      /      F
+28      Dm7      /     G7
+
+
+RepeatEnd
+
+Groove Rock128
+
+29        C      /      F
+30      Dm7      /     G7
+
+Groove Rock128End
+Decresc ppp 2
+
+31        C      /      F
+32        C      z!
+
+

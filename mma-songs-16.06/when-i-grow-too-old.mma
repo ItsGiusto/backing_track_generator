@@ -1,0 +1,122 @@
+// When I Grow Too Old
+
+Tempo 90
+Keysig F
+
+Groove Metronome3
+  z * 2
+
+Groove WaltzIntro
+Begin Solo
+   Voice Strings
+   Harmony OpenBelow+8Below
+   Articulate 110
+   Octave 5
+   Volume f
+   Begin Riff
+     4c+;a;f;
+	 4d+;a;f;
+	 8g;a; b;a; g;a;
+	 2.c+;
+   End
+End
+
+Cresc mp mf 4
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove Waltz
+Volume m
+
+5         F
+6         /      /     Bb
+7         F
+8         /
+
+Decresc mp 4
+
+9        C9      /     C7
+10        /     Bb     C7
+11        F      /     F6
+Groove Waltz1
+12        /      /     F7
+
+Groove WaltzSus
+Cresc mf 8
+
+13       Bb
+14        /      /     C7
+15        F
+16       Dm      /   Bbm6
+
+17        F
+18       C7     Bb     C7
+19        F      /     F6
+Groove Waltz1Sus
+20        F
+
+Groove WaltzWalk
+Volume m
+
+21       Am
+22       Gm      /     Am
+23        F      /     F6
+24        F
+
+Groove WaltzWalkSus
+Swell m f 8
+
+25        /
+26       A7      /   A7b5
+27       Dm      /     F+
+28       F7      /   F7b5
+
+Groove WaltzSus
+
+29       Bb
+30        /      /     C7
+31        F
+32       Dm      /    Db7
+
+Groove Waltz
+Decresc mp 4
+
+33        F
+34       C7     Bb     C7
+35        F     Bb     Db
+36        F
+
+Groove WaltzSus
+Cresc mf 4
+
+37       Bb
+38        /      /     C7
+39        F
+40       Dm      /    Db7
+
+Groove Waltz1
+Decresc mp 4
+
+41        F
+42       C7     Bb     C7
+
+RepeatEnding
+
+43        F
+44       C7
+
+
+RepeatEnd
+
+Groove WaltzEnd
+Seq 3
+Decresc ppp 2
+
+45        F     Bb     -Db
+46        F     z!
+

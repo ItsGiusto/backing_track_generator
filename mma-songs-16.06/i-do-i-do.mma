@@ -1,0 +1,120 @@
+// I Do I Do
+
+Tempo 110
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Set SusVoiceOctave 5
+Groove RockBalladIntro
+
+Begin Solo
+    Voice Strings
+    Articulate 120
+    Harmony 3Below+38Below
+    Cresc m ff 5
+    Octave 6
+    Rtime 5
+    Rvolume 5
+    Begin Riff
+      43r;3e; 3g;e;g;  3a;f;a; 3a#;f#;a;
+      2.+3b; 43a#;
+      43b;3g; 43a;3f; 43g;3e; 43f;3d;
+      2c;4a;a&;
+      2.g;
+    End
+End
+
+Cresc mp mf 5
+
+Solo Chords C
+1        z!  z
+Solo Chords {}
+Seq 1
+2          G
+3         G7
+4          C
+5         G7
+
+
+Repeat
+Groove RockBallad1
+Volume m
+
+6          C      /      G
+7          C
+Cresc mf 2
+8         A7
+9         Dm
+
+Groove RockBallad1Voice
+
+10         G
+Chord Riff C1234; C1234 Shift .66
+11         /
+Decresc mp 2
+12         C
+13         G
+
+Groove RockBallad1
+Volume m
+
+14         C      /      G
+15         C
+16        A7
+17        D7
+
+Groove RockBallad1Voice
+Volume mf
+
+18         G
+Chord Riff C1234; C1234 Shift .66
+19         /
+20         C      /      F
+21         C
+
+Groove RockBallad1Fill
+Decresc mp 4
+
+22        Gm
+23        C7
+24         F
+25         /
+
+Groove RockBallad1Voice
+Volume m
+
+26        D7
+27         /
+28       Dm7
+29        G7
+
+Groove RockBallad1
+Cresc f 4
+
+30         C      /      G
+31         C
+32        A7
+33        Dm
+
+Groove RockBallad1Voice
+Decresc mp 2
+34         G
+Chord Riff C1234; C1234 Shift .66
+35         /
+
+RepeatEnding
+
+36         C
+37         G7
+
+RepeatEnd
+
+Groove RockBalladEnd1
+Decresc ppp 2
+
+38         C
+39         /     z!
+
+

@@ -1,0 +1,91 @@
+// This Cant Be Love
+
+Tempo 190
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+Begin Solo
+   Voice Piano1
+   Volume ff
+   Articulate 90
+   Octave 5
+   Harmony 3
+   Begin Riff
+    23g;b;d+;
+	4e+;d+;b;g;
+	2a;c+;
+	1d+;
+   End
+End
+
+Cresc mp mf 4
+
+1    G    
+2    Em7  
+3    Am7  
+4    D7   /    /    z    
+
+
+Repeat
+Groove BigBand
+Volume m
+
+5    G6   
+6    /    
+7    C7   
+8    /    
+9    G    
+10   /    
+11   Am7  /    D7   
+12   Am7  /    D7   
+
+Groove BigBandPlus
+Swell m f 8
+
+13   G6   
+14   /    
+15   C7   
+16   /    
+17   G    /    /    C#dim 
+18   Am7  /    D7   
+19   G    /    C6   
+20   C7   G    
+
+Groove BigBandSus
+Volume mp
+
+21   F#m7 /    /    B7   
+22   /    
+23   Em7  
+24   /    
+25   B7#9 
+26   E+   
+27   A9   
+28   D7b9 /    D7   
+
+Groove BigBandSusPlus
+Volume m
+
+29   G    
+30   /    
+31   C7   
+32   /    
+33   G6   /    Am7  
+34   /    /    D7   
+
+RepeatEnding 2
+
+35   G  /  Am7
+36   D7
+
+Repeatend
+
+Groove BigBandEnd
+Decresc pp 2
+
+37   G    C7   Am7  
+38   G    /    z!
+

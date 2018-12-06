@@ -1,0 +1,158 @@
+// Zing Went The Strings Of My Heart
+
+Tempo 160
+Keysig Eb
+
+Groove Metronome2-4
+ z * 2
+
+/// modify the fill. lib version is a bit busy for this tempo
+
+Groove ModernJazzFill
+Bass-Trp Sequence {1 43 1 100; 1.66 43 1 90; 3 4 5 100 } \
+                  {1 4 1 80; 2 4 3 90; 3 4 5 100; 4 4 5 120}
+DefGroove ModernJazzFill
+
+Groove ModernJazzIntro
+
+Begin Solo
+    Voice Tremolostrings
+    Harmony 3Below+8Below
+    Octave 5
+    Swell m ff 8
+    Articulate 90
+    Rtime 5
+    Rvolume 10
+    Begin Riff
+        1+4b ~;
+        ~ 4b;g;b;
+        1+4 c+ ~;
+        ~ 4 c+;g;b;
+        1+4 e+ ~;
+        ~ 4e+;d+;c+;
+        1+2b ~;
+    End
+End
+
+Swell mp mf 4
+
+1         Eb
+2          /
+3         Cm
+Seq 3
+4          /
+Seq 1
+5         Fm
+6          /
+7        Bb7
+8          /      /     z!
+           
+Repeat  // do song 2x
+Repeat  // "A" section
+
+Groove ModernJazz
+Volume m
+
+9         Eb
+10         /
+11        Cm
+12         /
+
+Groove ModernJazz2
+Cresc mf 2
+
+13        Fm
+14         /
+Decresc mp 2
+15       Bb7
+16         /
+
+Groove ModernJazzSus
+Cresc m 4
+
+17        Ab
+18         /
+19       Abm
+20         /
+
+Groove ModernJazz
+Decresc mp 4
+
+21        Eb
+
+RepeatEnding
+
+22        F7
+
+Groove ModernJazzFill
+
+23        Bb
+24         /
+
+RepeatEnd
+
+25        F7      /    Bb7
+26         Eb
+27         /
+
+Groove ModernJazz2Sus
+Cresc mf 4
+
+28       Fm7
+29        Eb
+30       Fm7      /    Bb7
+31        Eb
+
+Groove ModernJazzSus
+Decresc m 4
+
+32       Cm6      /     D7
+33        Gm      /     F7
+34       Bb7
+35       Fm7      /    Bb+
+
+Groove ModernJazz
+
+36        Eb
+37         /
+38        Cm
+39         /
+
+Groove ModernJazz2
+Decresc mf mp 4
+
+40        Fm
+41         /
+42       Bb7
+43         /
+
+Groove ModernJazzSus
+Cresc m 4
+
+44        Ab
+45         /
+46       Abm
+47         /
+
+Groove ModernJazz
+Decresc mp 4
+
+48        Eb
+49        F7      /    Bb7
+
+RepeatEnding
+
+50        Eb
+
+Groove ModernJazzFill
+
+51       B&7
+
+RepeatEnd
+
+Groove ModernJazzEnd
+Decresc ppp 2
+
+52        Eb
+53         /     z!
+

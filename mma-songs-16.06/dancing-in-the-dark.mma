@@ -1,0 +1,90 @@
+// Dancing In The Dark
+
+Tempo 116
+KeySig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove LightTangoIntro1
+
+Begin Solo
+  Voice ReedOrgan
+  Volume mp
+  Harmony OpenAbove+8Below
+  Articulate 90
+  Octave 5
+  Begin Riff
+    4.b;8;4.;8;
+    4.a;8;4.;8;
+    4.f;8;4;;
+    1d;
+  End
+End
+
+1    CM7  
+2    Am7  
+3    Dm7  
+4    G    
+
+Repeat
+Groove LightTango
+Cresc mp m 8
+
+5    CM7  
+6    /    
+7    D#dim 
+8    /    
+9    Dm7  
+10   /    
+11   Fm6  
+12   /    /    G7   
+
+Groove LightTangoSus
+Swell f 8
+
+13   C    
+14   Cm   
+15   Gm   
+16   Eb7  
+17   Fm   
+18   Db7  
+19   /    /    Ab7  
+20   Fm6  /    G    
+
+Groove LightTango1
+Decresc mp 8
+
+21   CM7  
+22   /    
+23   D#dim 
+24   /    
+25   Dm7  
+26   /    
+27   Fm6  
+28   /    /    G7   
+
+Groove LightTango1Sus
+Cresc m 8
+
+29   C    
+30   Cm   
+31   Bbm6 
+32   Bdim /    G7   
+33   C    
+34   Fm6  
+35   C    
+
+RepeatEnding
+
+Groove LightTangoFill
+
+36   /    
+
+RepeatEnd
+
+Groove LightTangoEnd
+
+36   /   / z!
+
+

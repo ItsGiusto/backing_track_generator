@@ -1,0 +1,152 @@
+// Act Naturally
+
+Tempo 140
+Keysig F
+
+Groove Metronome2-4
+	z * 2
+
+
+Groove CountryBluesIntro
+Begin AllGrooves
+     Chord Voice CleanGuitar
+     Chord-1 Voice CleanGuitar
+     Chord-Sus Voice Strings
+     Begin Arpeggio
+         Voice Harmonica
+         Range .9
+         Octave 5
+         Volume mp
+         Harmony 3Above
+     End
+End
+
+Begin Solo
+    Voice CleanGuitar
+    Articulate 120
+    Harmony OpenBelow
+    Octave 5
+    Volume f
+    Begin Riff
+        4r;f;e;d;
+        4c;8c+;f;g;4.b;
+        4c;8e+;c+;d+;4e+;
+        4f+;;c+;a;
+        4f;
+    End
+End
+
+Cresc mp f 5
+
+1          z
+Seq
+2         C7
+3          /
+4          F
+5          /
+
+Repeat
+Groove CountryBlues
+Volume m
+
+6          F
+7          /
+8         Bb
+9          /
+
+Groove CountryBlues1
+
+10         F
+11         /
+12        C7
+13         /
+
+Groove CountryBlues
+Cresc mf 8
+
+14         F
+15         /
+16        Bb
+17         /
+
+Groove CountryBlues1
+
+18        C7
+19         /
+20         F
+21         /
+
+Groove CountryBluesSus
+Volume m
+
+22        C7
+23         /
+24         F
+25         /
+
+Groove CountryBlues1Sus
+Cresc f 4
+
+26        C7
+27         /
+28         F
+29         /
+
+Groove CountryBluesWalk
+Decresc m 4
+
+30        C7
+31         /
+32         F
+33         /
+
+Groove CountryBluesFill
+
+34        G7
+35         /
+36        C7
+37         /
+
+Groove CountryBluesSus
+Volume mf
+
+38         F
+39         /
+40        Bb
+41         /
+
+Groove CountryBluesWalk
+Cresc f 2
+
+42         F
+43         /
+44        C7
+45         /
+
+Groove CountryBluesSus
+Volume mf
+
+46         F
+47         /
+48        Bb
+49         /
+
+Groove CountryBlues1Sus
+Decresc mp 2
+
+50        C7
+51         /
+
+RepeatEnding
+
+52         F
+53         C7
+
+RepeatEnd
+Groove CountryBluesEnd
+Seq 3
+Decresc ppp 2
+
+54         F
+55         /      z!
+

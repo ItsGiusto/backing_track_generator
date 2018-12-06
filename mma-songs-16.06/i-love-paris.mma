@@ -1,0 +1,127 @@
+// I Love Paris
+
+Tempo 150
+KeySig C Minor
+
+Groove Metronome2-4
+ z * 2
+
+Groove JazzRhumbaIntro
+Begin Allgrooves
+  Chord Octave 6
+  Arpeggio Octave 5
+End
+
+Begin Solo
+   Voice TremoloStrings    
+   Octave 5
+   Harmony 3Below+8Below
+   Articulate 120
+   Begin Riff
+       2c+;4e+;d+;
+       2b;4d+;c+;
+       2a;c+;
+       g;f;2d;
+   End
+End
+
+Swell mp mf 4
+
+1        Cm
+2        Eb
+3        Dmb5
+Bass Riff 1 4 1 90; 3 4 5 90;
+4        G7
+
+Repeat
+Groove JazzRhumba
+Volume m
+
+5        Cm
+6         /
+7         /
+8         /
+
+Groove JazzRhumbaPlus
+Cresc mf 4
+
+9         /
+10        /
+11       G7
+12        /
+
+Groove JazzRhumba
+Decresc m 4
+
+13        /
+14        /
+15        /
+16        /
+
+Groove JazzRhumbaPlus
+Swell mf 4
+
+17        /      /     Fm
+18       G7
+19       Cm
+20        /
+
+Keysig C
+
+Groove JazzRhumbaSus
+Volume m
+
+21        C
+22        /
+23        /
+24        /
+
+Groove JazzRhumbaSusPlus
+Volume mf
+
+25        /
+26        /      /   Cdim
+27       G7
+28      Dm7     G7
+
+Groove JazzRhumbaSus
+Decresc mp 4
+
+29        F
+30        /
+31        C
+32        /      F      C
+
+RepeatEnding
+
+Groove JazzRhumba
+
+33       G7
+34        /
+35        C
+
+Groove JazzRhumbaFill
+
+36     Cdim      /     G7
+
+RepeatEnd
+
+Groove JazzRhumba
+Decresc ppp 8
+
+37       G7
+38    A7sus      /     A7
+39      Dm7
+40        /
+
+Groove JazzRhumbaSus
+
+41        /      /      /  G7sus
+42        C
+
+Groove JazzRhumbaEnd
+
+43        Dm
+44        C     z!
+fermata -4 1 200
+

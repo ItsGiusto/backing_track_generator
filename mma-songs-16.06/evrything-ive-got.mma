@@ -1,0 +1,145 @@
+// Evrything Ive Got
+
+Tempo $(2 * 105 )
+Keysig Eb
+
+Groove Metronome2-4
+   z * 2
+
+Groove BroadwayIntro
+
+Begin AllGrooves
+   Begin Chord-piz
+      Voice Piano1
+      Voicing Mode=Key
+      Articulate 50
+   End
+   Begin Chord-Gloc
+      Voice VibraPhone
+      Articulate 70
+   End
+End
+
+Begin Solo
+    Voice VibraPhone
+    Volume m
+    Articulate 90
+    Harmony OpenBelow
+    Octave 6
+    Begin Riff
+        4g;b;e;f;
+        4c;e;g;c+;
+        4f+;c+;a;f;
+        2b;
+    End
+End
+
+Cresc p m 4
+
+1        Eb
+2        Cm
+3        Fm
+4        Bb7
+
+Repeat   // 2x the entire piece
+Repeat
+Groove BroadWay
+Volume m
+
+5        Eb      /      /    Bb7
+6        Eb      /      /    Bb7
+7        Eb
+8         /      /      /    Ebm
+
+Groove BroadWay2
+Volume mp
+
+9         /      /      /    Bb7
+10      Ebm      /      /    Bb7
+11      Ebm
+12        /
+
+Groove BroadWay
+Cresc m 4
+
+13    F7sus      /     F7
+14    F7sus      /     F7
+15     BbM7
+16      Bb7
+
+Groove BroadWaySus
+Decresc mp 2
+
+17       Eb      /    Ab6
+18     Gbm6      /    Bb7
+
+RepeatEnding
+
+Groove BroadWayFill
+
+19       Eb
+20        /      /      /    Bb7
+
+RepeatEnd
+Volume m
+
+21       Eb
+22        /
+
+Groove BroadWay2Sus
+Cresc mf 4
+
+23       Cb     Fb     Cb
+24     Dbm7
+25       Cb     Fb     Cb     Fb
+26       Gb
+
+Groove BroadWaySus
+Volume m
+
+27       Eb     Ab     Eb
+28        D
+29       Gm
+30      Bb7
+
+Groove BroadWay
+
+31       Eb      /      /    Bb7
+32       Eb      /      /    Bb7
+33       Eb
+34        /      /      /    Ebm
+
+Groove BroadWay2
+Cresc mp m 5
+
+35        /      /      /    Bb7
+36      Ebm      /      /    Bb7
+37      Ebm
+38        /
+
+Groove BroadWay
+
+39    F7sus      /     F7
+40    F7sus      /     F7
+41     BbM7
+42      Bb7
+
+Groove BroadWaySus
+Decresc mp 2
+
+43       Eb      /    Ab6
+44     Gbm6      /    Bb7
+
+Repeatending
+Groove BroadWayFill
+
+45     Eb
+46     /   /   Bb7
+
+RepeatEnd
+Groove BroadWayEnd
+Decresc ppp 2
+
+45       Eb
+46        / z!
+

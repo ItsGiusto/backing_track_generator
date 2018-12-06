@@ -1,0 +1,117 @@
+// Rags To Riches
+
+Tempo 75
+
+Groove Metronome2-4
+ z * 2
+
+Groove MellowJazzIntro 
+
+Begin Solo
+    Voice NylonGuitar
+    Volume ff
+    Articulate 110
+    Harmony OpenBelow
+    Octave 4
+    Accent 1 30 2 20 3 20 4 20
+    /// stolen into from Sheet Music Magazine, Oct/88
+    Begin Riff
+        8c+;; 16g;8c+;16g; 8c+;; 16g;8c+;16g;
+        8c+;; 16g;8c+;16g; 8c+;; 16g;8c+;16g;
+        8c+;; 16g;8c+;16g; 8c+;; 16g;8c+;16g;
+        8c+;r;4;3r;g;g#;a;a#;b;
+        8c+;
+    End   
+End
+
+Solo Cresc pp mf 4
+Cresc p m 4
+
+1        C6      / Dm7sus4
+2        C6      / Dm7sus4
+3        C6      / Dm7sus4
+4        C6
+
+Groove MellowJazz 
+Volume m
+
+5        C6
+6        Dm      /      F
+7        G7
+8         C      / Gm6/Bb
+
+Groove MellowJazzPlus
+Cresc mf 4
+
+9        A7
+10      Dm7
+11        /      /     G7
+12        C      /    Dm7
+
+Groove MellowJazz 
+Decresc mp 4
+
+13       C6
+14      Dm7
+15       G7
+16       C6      /      /    Gm6
+
+Groove MellowJazzSus
+Cresc m 4
+
+17       A7
+18      Dm7
+19    Dm11/G      /     G7   F7b5
+20       Em
+
+Groove MellowJazzFill
+
+21       G9      /     G7
+
+Repeat
+
+Groove MellowJazzSus
+Cresc mp m 3
+
+22        C
+23       G7
+24        /
+
+Groove MellowJazz 
+
+25        C
+26        /
+27       G7
+28        C      /     G7
+
+Groove MellowJazzPlus
+Cresc mf 4
+
+29        C
+30       Dm      /      F
+31       G7
+32        C      / Gm6/Bb
+
+Groove MellowJazz 
+Decresc mp 2
+
+33       A7
+34      Dm7
+
+RepeatEnding
+
+35       G7      /  Dm11/G
+36       C6
+
+Groove MellowJazzFill
+
+37       G7
+
+RepeatEnd
+
+Groove MellowJazzEnd
+Decresc pp 2
+
+35       G7      /  Dm11/G
+38       C6      / Dm7sus4  z!
+

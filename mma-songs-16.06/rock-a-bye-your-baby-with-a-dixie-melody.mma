@@ -1,0 +1,85 @@
+// Rock A Bye Your Baby With A Dixie Melody
+
+Tempo 140
+
+Groove Metronome2-4
+ z * 2
+
+Groove SwingIntro
+
+Begin Solo
+	Voice Piano3
+	Volume m
+	Articulate 80
+	Octave 5
+	Begin Riff
+		8c+;b;a;g;f;e;d;c;
+		8a;g;f;e;d;c;b-;a-;
+		3+3d;e;f;4g;a;
+		1b;
+	End
+End
+
+Swingmode On
+
+1   C       
+2   Am      
+3   Dm      
+4   G7      
+
+Repeat
+Groove Swing
+
+5   C       
+6   /       /       Em7     Ebdim7  
+7   Dm7     /       G7      
+8   G9      
+9   Dm7     /       G7      
+10  Dm7     /       G7      
+11  C       /       Am7     
+12  D9      /       G7   
+
+Groove SwingWalk
+   
+13  Dm7     /       G9      
+14  Dm7     /       G9      
+15  C       
+16  Em7     /       A9      
+17  G/D     
+18  Am7     /       D7      
+19  G7      
+20  /       
+
+Groove SwingSus
+
+21  C       
+22  /       /       Em7     Ebdim7  
+23  Dm7     /       G7      
+24  G7      
+25  Dm7     /       G7      
+26  Dm7     /       G7      G7#5/F  
+27  E7      
+28  / 
+ 
+Groove SwingWalkSus
+     
+29  A7      
+30  /       
+31  D7      
+32  /       
+33  C/G     /       Dm7     Ab7     
+34  C       /       C/E     Eb7     
+35  D7      /       D7      
+
+ RepeatEnding
+
+36  C       
+37  D7      /       G7      
+
+RepeatEnd
+
+Groove SwingEnd
+Seq 2
+
+37  C       
+

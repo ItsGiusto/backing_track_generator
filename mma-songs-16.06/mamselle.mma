@@ -1,0 +1,98 @@
+// Mamselle
+
+Tempo 120
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove FoxtrotIntro
+
+Begin Solo
+    Voice Piano1
+    Octave 5
+    Harmony OpenBelow
+    Volume f
+    Articulate 90
+    Begin Riff
+        4g;8;;;;4;
+        4g;8;;;;4;
+        4c+;;;;
+        4d+;
+    End
+End
+
+Swingmode On
+
+Cresc mp mf 3
+
+1         G
+2        Em
+3        Am
+4        D7      D     A7   D7b9
+
+
+Repeat
+Groove Foxtrot
+Volume m
+
+5       GM7
+6         /      G    Am7   D7b9
+7       GM7
+8         /      G      /     Gm
+
+Groove FoxTrotPlus
+Volume +10
+
+9       Am7      /     D7
+10      Am7      /     D7
+11        G      /      /    F#7
+12        G      D     A7   D7b9
+
+Groove FoxTrot
+Decresc mp 4
+
+13      GM7
+14        /      G      /    G7+
+15       C6
+16      Cm6
+
+Groove FoxTrotSus
+Cresc m 4
+
+17        G      /     Em
+18      Am7      /    Cm6
+19        G      /     Em
+20      Em7      /     A9
+
+Groove FoxTrotSusPlus
+
+21      D7
+22      Am7      D     A7   D7b9
+23      GM7
+24        /      G    Am7   D7b9
+
+Groove FoxTrot
+Volume m
+
+25      GM7
+26        /      G      /     Gm
+27      Am7      /     D7
+28      Am7      /     D9   D7b9
+
+Repeatending
+Groove FoxtrotFill
+Decresc mp 2
+
+29        G      /     A7
+30        G     D7
+
+RepeatEnd
+Groove FoxTrotEnd
+Decresc ppp 2
+Tempo *.8 2
+
+29        G     /     A7
+31        G     Ab    G   z!
+
+

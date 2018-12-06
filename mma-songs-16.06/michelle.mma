@@ -1,0 +1,144 @@
+// Michelle
+
+Tempo 116
+Keysig D Minor  
+
+Set SusVoice SynthVox
+Set SusVoiceOctave 5
+
+Groove Metronome2-4
+	   z * 2
+
+Groove RockBalladIntro
+Begin Solo
+	  Voice $SusVoice
+	  Octave $SusVoiceOctave
+	  Harmony Open
+	  Articulate 100
+	  Begin Riff
+		2d+;a;
+		2d+;g;
+		2c+;g;
+		1a;
+	  End
+End
+
+Cresc mp m 4
+Alltracks Cresc mp m 4
+Solo Cresc mp f 4
+
+1         D
+2        Gm
+3         C
+4         A
+
+Groove RockBallad1
+Volume m
+
+5         D
+6       Gm7
+7         C
+8      Bdim      /  Abdim
+9         A      /   E7b9
+10        A
+
+
+Repeat
+Groove RockBallad1Voice
+Seq
+Volume m
+
+11        D
+12      Gm7
+13        C
+14     Bdim      /  Abdim
+15        A      /   E7b9
+16        A
+
+Groove RockBallad1Fill
+Seq
+Volume mf
+
+17       Dm
+18        /
+19       Cm  / / F7
+20       Bb
+
+Groove RockBallad1Voice
+Seq
+Volume m
+
+21       A7      /     Dm     A7
+22       Dm      /     Gm
+23       Dm      /     F+
+24      Dm7      /    Dm6
+25     BbM7      /     Gm
+26        A
+
+GrooveClear
+Set SusVoice VoiceOohs
+Set SusVoiceOctave 5
+
+RepeatEnd
+
+// This is a bridge from "Beatles Complete". I think it is wrong :)
+
+Groove RockBallad1Fill
+
+27        D
+28      Gm7
+29       C7
+30     Bdim
+31       A7
+
+Groove RockBallad1
+Seq
+Cresc mp mf 8
+
+32       Dm
+33        /
+34       Cm  /  /  F7
+35       Bb
+36       A7      /     Dm     A7
+37       Dm      /     Gm
+38       Dm      /     F+
+39      Dm7      /    Dm6
+40     BbM7      /     Gm
+41        A
+
+GrooveClear
+
+Set SusVoice SynthVox
+Set SusVoiceOctave 5
+
+Groove RockBallad1Voice
+Volume m
+Repeat
+Seq
+
+42        D
+43      Gm7
+44        C
+45     Bdim      /  Abdim
+46        A      /   E7b9
+47        A
+48       Dm      /     A7
+49       Dm      /     Gm
+50       Dm      /     Gm
+51       A7      /     Dm     A7
+
+RepeatEnding
+
+52        D     /   Gm     
+53        A
+
+Decresc pppp 12
+Alltracks Decresc ppp 12
+
+RepeatEnd
+
+54       D     /      Gm
+55       D
+
+
+

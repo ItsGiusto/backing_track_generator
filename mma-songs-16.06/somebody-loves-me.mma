@@ -1,0 +1,117 @@
+// Somebody Loves Me
+
+Tempo 140
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove BigBandIntro
+Begin Solo
+   Voice TremoloStrings
+   Octave 5
+   Harmony OpenBelow
+   Articulate 105
+   Volume f
+   Begin Riff
+      2b;4a;g;
+	  2e;g;
+	  2a;c+;
+	  1d+;
+   End
+End
+
+Cresc mp f 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+Repeat
+Groove BigBandPlus
+Volume m
+
+5         G
+6       Am7      /     Am      D
+7         G
+8        C7
+
+Groove BigBand
+Volume mf
+
+9         G
+10       C7      /    Am7     D7
+11        G
+12        /      /      /   D7b9
+
+Groove BigBandPlus
+Volume m
+
+13        G
+14      Am7      /     Am     D7
+15        G
+16       A7
+
+Groove BigBand
+Cresc f 4
+
+17       Bm
+18    C#7b9      /   C#m7    F#7
+19       Bm
+20       E7
+
+Groove BigBandSusPlus
+Volume m
+
+21       Am      /    Dm6
+22       Am      /    Dm6
+23       Am
+24        /
+
+Groove BigBand
+Cresc mp mf 4
+
+25       Em      /     A7
+26      Em7      /     A7
+27       D7
+28        /      /      /     D+
+
+Groove BigBandSus
+Volume m
+
+29        G
+30      Am7      /     Am     D7
+31        G
+32       C7
+
+Groove BigBandPlus
+Cresc mf 4
+
+33        G      /     Em
+34      Am7      /     D7
+
+RepeatEnding
+
+Groove BigBand
+Decresc mp 2
+
+35        G      /     Am
+
+Groove BigBandFill
+
+36        G      /     D7
+
+AllGrooves Arpeggio Voice JazzGuitar
+
+RepeatEnd
+
+Groove BigBandEnd
+Tempo *.9 2
+Decresc pp 2
+
+35        G      /     Am
+36        G     z!
+
+
+

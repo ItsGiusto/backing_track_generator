@@ -1,0 +1,93 @@
+// You Got To See Mamma
+
+Tempo 140
+
+Groove Metronome2-4
+	z * 2
+
+Begin Solo
+	Voice Piano3
+	Articulate 90
+	Harmony open
+	Volume f
+	Octave 5
+End
+	
+Groove Swing1
+
+ C	{8.r;16c;8.d;16c;2d;}
+ Am {8.r;16c;8.d;16c;2d;}
+ Dm {4.f;8e;4.d;8f;}
+1   G7     /     z     G+   {2g;}
+
+Label DS
+Repeat
+
+2       C     /     G+   
+3       C     /     A7   
+4       D7    /     G7   
+5       C     /     Ebdim G7   
+6       C     /     G+   
+7       C     /     /     Eb7  
+8       G     G#dim D7   
+9       G     Gdim  G7   
+10      C7   
+11 	/
+12      F7   
+13      /     /     /     G+   
+14      C     /     G+   
+15      C     /     A7   
+
+if def last
+	groove Swing1End
+	Tempo -50 2
+IfEnd
+	
+16      D7    /     G7   
+
+if def DS
+	set last
+IfEnd
+
+RepeatEnding
+
+17      C     /     Ebdim G7   
+
+Groove Swing1Sus
+
+RepeatEnd
+
+if def DS
+	18   C  G+ C z!
+	Cut -1
+	eof
+Else
+	18      C     G+    C    
+IfEnd
+
+Groove Swing1Plus
+
+Repeat
+
+19      C     /     Am   
+20      D7    /     G7   
+21      C     /     Am   
+22      D7    /     G7   
+23      C     /     Am   
+24      F     /     F#dim
+25      C     F     A7   
+
+RepeatEnding
+
+26      D7    G7    C     G+   
+
+Groove Swing1Sus
+
+RepeatEnd
+
+27      D7    G7    C     G+   
+
+Groove Swing1
+Set DS 
+goto DS
+

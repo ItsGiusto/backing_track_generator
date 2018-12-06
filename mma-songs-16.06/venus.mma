@@ -1,0 +1,129 @@
+// Venus (Frankie Avalon, 1959)
+// This follows the Avalon tune a bit more that the sheet music does.
+
+Tempo 116
+
+Groove Metronome2-4
+  z * 2
+
+Groove BubbleRockSus
+
+Begin Solo
+    Voice SynthStrings2
+    Harmony OpenBelow
+    Octave 5
+    Volume ff
+    Articulate 90
+End
+
+Swell  mp f 10
+Groove BubbleRockIntro
+
+1       EbM7    {8g;4.+2;}
+2        G13    {23d+;b;g;}
+3        CM7    {2d+;1b~;}
+
+Seq
+
+4          /    {2.r;4a;}
+5        FM7    {2e+;c+;}
+6        G13    {43e+;d+;c+;b;c+;d+;}
+Walk Riff W1234
+7         Am    {2.e+;}
+
+/// Start of melody
+Groove BubbleRock
+Volume m
+
+Begin AllGrooves Arpeggio
+   Voice OrchestralHarp
+   Octave 6
+   Rskip 30
+   Range .9
+   Articulate 110
+End
+
+8        CM7
+9        Dm7
+10       CM7
+11       Dm7
+
+Groove BubbleRockPlus
+Cresc f 4
+
+12       Em7      /     A7
+13       Dm7      /     G7
+14       CM7
+15       Dm7      /     G7
+
+Groove BubbleRock
+Volume mf
+
+16       CM7
+17       Dm7
+18       CM7
+19       Dm7
+
+Groove BubbleRockPlus
+Volume m
+
+20       Em7      /     A7
+21       Dm7      /     G7
+22       CM7
+23         /
+
+Repeat
+
+Groove BubbleRockSus
+Volume m
+
+24       FM7
+25       Dm7      /     G7
+26       CM7
+27       Am7      /     D7
+
+Groove BubbleRockSusPlus
+Cresc   f  8
+28       GM7
+29       Am7      /     D7
+30       Dm7
+31        G7
+
+Groove BubbleRockSus
+
+32       CM7
+33       Dm7
+34       CM7
+35       Dm7
+
+Groove BubbleRock
+Decresc m 4
+
+36       Em7      /     A7
+37       Dm7      /     G7
+38       CM7
+
+RepeatEnding
+Groove BubbleRockFill
+39         /
+
+Repeatend
+
+40         /
+
+Decresc ppp 7
+
+41         /
+42         /
+43       FM7      /    Em7
+44       Dm7      /     G7
+
+45       CM7
+
+Groove BubbleRockEnd
+
+Tempo *.8 1
+46       Dm7      /     G7
+47       EM7     z!
+Fermata -4 1 300
+

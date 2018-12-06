@@ -1,0 +1,148 @@
+// Pick Yourself Up
+
+Tempo 115
+
+// This piece goes between a number of key changes. However,
+// we only note the main key for the solo part. The rest don't
+// concern mma since there are just chords, etc.
+
+Keysig 1b
+
+Groove Metronome2-4
+	z * 2
+
+
+// 4 bar intro
+
+Begin Solo
+	Voice AltoSax
+	Volume f
+	Articulate 90
+	Octave 5
+End
+
+	
+Groove EasySwing
+
+Volume p
+Cresc f 4
+
+SwingMode On
+
+1 	F           {8f; ;4 ; ;}
+2 	Dm7         {8f; ;4 ; ;}
+3 	Gm7         {4g; a; 8b; c+; 4b;}
+4 	C7 /  z /   {2b;}
+
+Delete Solo
+
+// Start of song. Key F
+
+Groove EasySwing2
+
+Repeat
+
+Volume mp
+Cresc mf 6
+
+5 	Gm7 /  C7
+6 	FM7 /  BbM7
+7 	Em7b5 /  A7b9
+8 	Dm7 /  G7
+
+Groove Easyswing
+
+9 	C7sus /  C7
+10 	Am7 /  D7
+11 	Gm7 /  C7
+12 	F /  FzC
+
+Groove Easyswing2
+
+// Key G
+
+Cresc f 7
+
+13 	Am7 /  D7
+14 	GM7 /  CM7
+15 	F#m7b5 /  B7b9
+16 	Em7 /  A7
+
+Groove Easyswing
+
+17 	D7sus /  D7
+18 	Bm7 /  E7
+19 	Am7 /  D7
+20 	G / GzC
+
+// Key Ab
+
+Groove Easyswing2
+
+Volume mp
+Cresc mf 8
+
+21 	AbM7 /  Ab6
+22 	AbM7 /  Ab6
+23 	Ab7 /  /  Eb7
+24 	Ab /  Ab6 Ab7
+
+// Key C
+
+25 	C
+26 	/
+27 	Am7 /  D9
+28 	Gm7 /  C7zC
+
+// Key F
+
+Cresc f 8
+
+29 	Gm7 /  C7
+30 	FM7 /  BbM7
+31 	Em7b5 /  A7b5
+32 	Dm7 /  G7
+
+
+RepeatEnding 	// 1st ending
+
+Groove Easyswing
+
+Seq 4
+33 	CM7 /  C7 C7zC
+Seq 4
+34 	Am7 / / Am7zC
+35 	C7sus /  /  C7
+Seq 4
+36 	F / FzC
+
+Repeatend	// 2nd Ending
+
+Groove Easyswing
+
+Seq 4
+37 	CM7 /  C7 C7zC
+38 	C6 /  C+
+Seq 4
+39 	Am7 / / Am7zC
+40 	Am7/G /  F#m7b5
+Seq 4
+41 	Gm7 / / Gm7zC
+
+42 	Gm7
+
+Groove EasySwingEnd
+
+Tempo *.7 4
+Volume f
+Decresc p 4
+
+43 	C7sus
+
+Seq
+
+44 	C7
+45 	F z!
+Fermata -4 1 150
+
+

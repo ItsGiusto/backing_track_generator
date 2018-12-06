@@ -1,0 +1,166 @@
+// Whats New Pussycat
+
+Tempo 186
+Keysig G
+
+Groove Metronome3
+  z * 2
+
+Groove WaltzIntro
+
+// this is used in the 4 bar intro and for the goofy emph bars as
+// as done in the Tom Jones version.
+
+Begin Solo
+     Voice Trombone
+	 Volume ff
+	 Harmony OpenBelow+8Below
+	 Octave 4
+	 Articulate 90
+	 Begin Riff
+	     4.e;8d;8e;d;
+		 2e;4d;
+		 4.fn;8d;8f;d;
+		 2.g;
+	 End
+End
+
+1         C
+2         Am
+3         Dm
+4         G7
+
+Begin Solo   // for the main tune change the solo voice a bit
+  Volume mp
+  Octave -1
+  Harmony None
+End
+
+// the apreggio tracks currently have 8th note apreggios. We want 1/4notes...
+// so we recreate!
+
+Groove Waltz1
+ Arpeggio 	Sequence	z	A3	/	/
+ Scale      Sequence	S3	z	z	z 
+DefGroove Waltz8
+
+Groove Waltz1Sus
+ Arpeggio 	Sequence	z	A3	/	/
+ Scale      Sequence	S3	z	z	z 
+DefGroove Waltz8Sus
+
+Groove Waltz1Walk
+ Arpeggio 	Sequence	z	A3	/	/
+ Scale      Sequence	S3	z	z	z 
+DefGroove Waltz8Walk
+
+Groove Waltz1WalkSus
+ Arpeggio 	Sequence	z	A3	/	/
+ Scale      Sequence	S3	z	z	z 
+DefGroove Waltz8WalkSus
+
+/////////////////////////////
+
+Repeat    // The Chorus (in C?). Play 3x
+Groove Waltz
+
+5         C    { 2c; }
+6         F    { 2fn; }
+7         G    { 2g; }
+8         /    { 2g; }
+
+Groove WaltzWalk
+
+9         C    { 2c; }
+10        F    { 2fn; }
+11        G    { 2g; }
+12        /    { 2g; }
+
+Groove WaltzSus
+
+13        C    { 2c; }
+14        /    { 2c; }
+15        D    { 2d; }
+16       D7    { 2d; }
+
+// The Verse (in G)
+
+Groove Waltz8
+
+17        G
+18        /
+19       Bb
+20        /
+
+Groove Waltz8Walk
+
+21        /
+22        /
+23       Ab
+24        /
+
+Groove Waltz8Sus
+
+25        /
+26        /
+27        /
+28        /   AbM7
+
+
+Groove Waltz8
+
+29        /     { 2.g; }
+30        /     { 2.e&; }
+31        G
+32        /
+
+
+Groove Waltz8Sus
+
+33        C
+34      Bm7
+35       Am
+36       D7
+
+Groove Waltz8WalkSus
+
+37      Bm7
+38      Em7
+
+RepeatEnding  2
+
+39       Am
+40       D7
+
+Groove Waltz1Walk
+
+41        G
+42        /
+
+RepeatEnd
+
+
+Groove Waltz1Sus
+
+43       Am
+44       D7
+
+Groove Waltz8Sus
+
+45        G
+46        /
+47       Am
+48       D7
+
+49        G
+50        /
+51       Am
+52       D7
+
+Groove WaltzEnd
+Tempo *.8
+
+Seq 3
+53        G
+54        /  
+

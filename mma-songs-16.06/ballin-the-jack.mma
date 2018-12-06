@@ -1,0 +1,67 @@
+// Ballin The Jack
+
+Tempo 130
+
+Begin Solo
+	Voice Trumpet
+	Volume mf
+	Harmony Open
+	Octave 6
+	Articulate 50
+	Accent 1 10 3 10
+End
+
+keysig 2b
+
+Groove Metronome2-4
+	z * 2
+
+Groove Swing1Walk
+
+1      G7    {8.g;16;8.;16;8.;16;8.;}
+2      F7    {4a;;}
+3      Bb    {8.b;16;8.;16;8.;16;8.;}
+4      C7    {4c+;;}
+
+
+Repeat
+
+5      G7    
+6	/
+7      C7    
+8	/
+9      F7    
+10	/
+11     Bb    /    D7    
+12     Eb7   /    D7    
+13     G7    
+14	/
+15     C7    
+16	/
+
+Groove Swing1WalkSus
+
+17     Gb7   
+18     Bb    F#dim7 Gm    G7    
+19     Cm    G     Cm    Cm7b5 
+20     F7    /    Bb    
+
+Groove Swing1Walk
+
+RepeatEnding
+
+21     Bb    {4b;f;b;f;}
+22     F7    {4c+;f;c+;f;}
+23     G7    {4d+;f;d+;f;}
+24     Cm    {8.e+;16;8.c+;16;4b;c+;}
+
+RepeatEnd
+
+25     F7    /    Bb    
+26     F7    /    Bb    
+
+Groove SwingEnd
+
+27     F7    
+28     /    /    Bb    
+

@@ -1,0 +1,97 @@
+// Amor
+
+Tempo 110
+Keysig C
+
+Groove Metronome2-4
+	z * 2
+
+Groove BeguineIntro
+
+Begin Solo
+	Voice Accordion
+	Decresc m mp 4
+	Articulate 90
+	Octave 5
+	Harmony 3 / / 2
+	Begin Riff
+		4c+; 2.;
+		4a; 2.;
+		4f; 2.;
+		43d;e;f;2g;
+	End
+End
+
+1   C       
+2   Am      
+3   Dm      
+4   G7      /       /       z       
+
+Repeat
+Groove Beguine
+
+5   C       
+6   C       
+7   C       
+8   C       
+9   C       
+10  C       
+11  G7 
+12  G7 
+
+Groove BeguineSus
+
+13  Dm      
+14  Dm      
+15  Dm      
+16  Dm      
+17  G7      
+18  G7  
+19  Fm/C  /  C //G7b9  /       C6   
+20  C / / z //G7b9  /     C6      
+
+Groove Beguine1
+
+21  Em      
+22  B7      
+23  B7      
+24  Em      
+25  G7      /       Abdim7  
+26  Am      /       D7      
+27  Am      /       D7    
+28  G7      /       Dm7     G7      
+  
+Groove Beguine1Sus
+
+29  C       
+30  C       
+31  C       
+32  C       
+33  C       
+34  C       
+35  G7
+36  G7      
+
+Groove Beguine
+      
+37  Dm      
+38  Dm      
+39  Dm      
+40  Dm      
+41  G7      
+
+RepeatEnding
+
+42  G7 
+43  Fm6     /       C       
+44  Dm7     /       G7      
+
+RepeatEnd
+
+Groove BeguineEnd
+Seq 2
+
+45  G7      
+46  C6      
+47  C6   / z!
+

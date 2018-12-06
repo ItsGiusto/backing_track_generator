@@ -1,0 +1,108 @@
+// How Insensitive
+// By Antonio Carlos Jobim
+
+Tempo 128
+Keysig D Minor
+
+Groove Metronome2-4
+	z * 2
+
+Groove BossaNovaIntro
+Begin Solo
+	Voice VoiceOohs
+	Volume f
+	Harmony 3
+	Articulate 110
+	Octave 5
+	Begin Riff
+		1+4a~;
+		~ 4b;c+;b;
+		2.a;8b;c+;
+		1a;
+	End
+End
+
+Cresc mp mf 4
+
+1         Dm
+2         Bbm
+3         Dm
+4         A7
+
+Repeat
+Groove BossaNova
+Volume m
+
+5        Dm
+6         /
+7    Dbdim7
+8         /
+
+Cresc mf 4
+
+9       Cm6
+10        /
+11       G7
+12        /
+
+Groove BossaNova1Sus
+Cresc m mf 4
+
+13       Bb
+14        /
+15     EbM7
+16        /
+
+Decresc mp 4
+
+17    Em7b5
+18       A7
+19       Dm
+20        /
+
+Groove BossaNovaSus
+Volume m
+
+21       F7
+22        /
+23    Bdim7
+24        /
+
+Decresc mp 2
+
+25     BbM7
+26      Gm6
+27       Dm
+28        /
+
+Groove BossaNova
+Cresc f 4
+
+29      Cm7
+30       F7
+31      Bm7
+32       E7
+
+RepeatEnding
+Volume m
+
+33      Gm6
+34       A7   A7#5     A7
+35       Dm
+
+Groove BossaNovaFill
+Volume mf
+
+36      Gm6
+
+RepeatEnd
+
+Groove BossaNova2End
+Tempo *.95 4
+Decresc ppp 4
+
+33      Gm6
+37       A7   A7#5     A7
+38       Dm      /    Dm6
+39        /
+

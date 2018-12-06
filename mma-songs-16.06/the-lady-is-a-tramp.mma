@@ -1,0 +1,123 @@
+// The Lady Is A Tramp (Babes in Arms)
+
+Tempo $( 100 * 2 )
+Keysig C
+
+Groove Metronome2-4
+ z * 2
+
+Groove JazzRockIntro
+
+Begin AllGrooves Arpeggio
+   Voice JazzGuitar
+   Rskip 60
+   Direction Random
+   Range 1
+End
+
+Begin Solo
+     Voice Piano1
+     Volume f
+     Articulate 110
+     Harmony OpenBelow+2Above
+     Octave 5
+     Begin Riff
+         2c+;4d+;e+;
+         2b;4c+;d+;
+         2a;4b;c+;
+         1g;
+     End
+End
+
+Swell mp mf 4
+
+1        +C
+2        Bm
+3        Am
+4        G7
+
+Repeat
+Repeat
+Groove JazzRock
+Volume m
+
+5         C
+6       Cm7
+7       Dm7   /   /  G7
+8         /
+
+Groove JazzRockSus
+Cresc mf 4
+
+9         C
+10      Cm7
+11      Dm7      /      /     G7
+12        /
+
+Groove JazzRockPlus
+
+13        C      /    CM7
+14       C9
+15        F      /      /     Fm
+16        /
+
+Groove JazzRockWalkSus
+Decresc mp 4
+
+17        C      /     C+
+18        F      /     G7
+19        C
+
+RepeatEnding
+
+20        /      /     G7
+
+RepeatEnd
+
+21        /
+
+Groove JazzRockSus
+Cresc mf 4
+
+22      FM7
+23       G7
+24      Em7
+25       Am
+
+Groove JazzRockPlus
+
+26      Dm7
+27       G7
+
+Decresc m 2
+
+28        C      /     A7
+29       D7      /     G7
+
+Groove JazzRockSus
+
+30        C
+31      Cm7
+32       Dm      /      /     E7
+33        /
+
+Groove JazzRock
+Decresc mp 2
+
+34       Am      /     C+    Am7
+35       D7      /     G7
+
+RepeatEnding
+
+36        C
+Groove JazzRockFill
+37        /  /  G7
+
+RepeatEnd
+
+Groove JazzRockEnd
+Decresc ppp 2
+
+36        C
+38        /  z!
+

@@ -1,0 +1,132 @@
+// Witchcraft
+
+// About the same tempo (and key) as Frank Sinatra (1957)
+
+Tempo 128
+Keysig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove BigBandIntro
+Begin Solo
+    Voice SynthStrings2
+    Volume ff
+    Articulate 90
+    Octave 5
+    Harmony OpenBelow
+    Begin Riff
+        8.f;16g;8a;r;2a;
+        4r;b;a;g;
+        8.d;16e;8f;r;2f;
+        1g; 
+    End
+End
+
+Begin Solo-2
+   Voice Strings
+   Volume f
+   Octave 4
+   Harmony 3Above
+   Articulate 110
+End
+
+Solo DupRiff Solo-2
+
+Cresc pp m 4
+1         F
+2         /
+3         Dm
+4         C7
+
+Repeat
+Groove BigBand
+Volume m
+
+5         F
+6         /
+7     G#dim
+8         /
+
+Groove BigBandPlus
+Volume mf
+
+9       Gm7
+10        /      /     C7
+11        F
+12        /
+
+Groove BigBandSus
+
+13       Bb
+14        /
+15      Bbm
+16        /
+
+Groove BigBandSusPlus
+Decresc m 4
+
+17       Fm
+18     G7#5
+19      CM7
+20        /      /     C7
+
+Groove BigBand
+
+21      FM9      /     F6
+22        F
+23      C11
+24       C7
+
+Groove BigBandSus
+Cresc f 4
+
+25      FM9      /     F6
+26      FM9      /     F6
+27    Bm7b5
+28       E7
+
+Groove BigBand
+Volume m
+
+29       Am
+30        /
+31      Am6
+32       Am
+
+Groove BigBandPlus
+Decresc mp 4
+
+33       Gm
+34        /
+35      Gm7
+36       C7      /    F#6
+
+Groove BigBandSus
+Cresc mf 6
+
+37       F6
+38        /
+39    G#dim
+40        /
+
+41      Gm7
+42        /      /      /     C+
+
+RepeatEnding
+
+43       F6
+
+Groove BigBandFill
+
+44        /
+
+RepeatEnd
+
+
+Groove BigBandEnd
+Decresc ppp 2
+
+43       F6
+44       / z!
+

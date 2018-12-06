@@ -1,0 +1,86 @@
+// Ive Grown Accustomed Her Face
+
+Tempo 80
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove FolkyJazzPianoIntro
+AllGrooves  Arpeggio Voice OrchestralHarp
+
+Begin Solo
+    Voice TremoloStrings
+    Octave 5
+    Articulate 99
+    Harmony OpenBelow+16Below+8Below
+    Volume mf
+    Begin Riff
+        4e;f;g;81b;82;
+        8b;;2.g;
+        8a;;;;2f;
+        4g;2.+8b~;
+    End
+End
+
+Solo Swell mp mf 4
+Cresc mp m 4
+
+1         Eb
+2         Cm
+3         Fm
+4        Bb7
+
+Repeat
+Groove FolkyJazzPiano
+Volume m
+
+5       EbM7      /    Ab7
+6        Gm7      /    Cm7
+7        Fm7      /    Bb7
+8       Bbm7      /    Eb7
+
+Groove FolkyJazzPianoSus
+Cresc mf 3
+
+9       BbM7      / Abm7b5     D7
+10       Gm7      /     C7
+11     Am7b5     D7    Gm7     C7
+12       Fm7      /    Bb7
+
+Groove FolkyJazzPianoPlus
+Decresc m 2
+
+13      EbM7      /    Ab7
+14       Gm7      /    Cm7
+15       Fm7      /    Bb7
+16      Bbm7      /    Eb7
+
+Groove FolkyJazzPiano
+Decresc mp 2
+
+17     Am7b5      /     D7
+18       Gm7      /   C7#5
+19       Fm7      /    Bb7
+20     Gm7&5      /     C7
+
+Groove FolkyJazzPianoSusPlus
+
+Cresc m 2
+
+21        F7      /    Db7
+22       Gm7      /     C7
+
+RepeatEnding
+
+23       Fm7      /    Bb7
+24      EbM7      /    Fm7    Bb7
+
+RepeatEnd
+
+Groove FolkyJazzPianoEnd
+Decresc ppp 2
+
+23       Fm7      /    Bb7
+25        Eb     z!
+

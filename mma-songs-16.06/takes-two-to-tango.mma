@@ -1,0 +1,89 @@
+// Takes Two To Tango
+
+Tempo 116
+KeySig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove LightTangoIntro
+
+Begin Solo
+    Voice JazzGuitar
+    Octave 5
+    Harmony 3Below
+    Articulate 60
+    Rtime 10
+    RVolume 10
+    Begin Riff
+        8r;4e;8;4;4;
+        8r;4e;8;4;4;
+        8r;4f;8;4;4;
+        8r;4d;8;4;4r;
+    End
+End
+
+Chord-Accordion  Sequence z
+Chord-Guitar  Sequence z
+Bass-Piano   Sequence z
+
+Swell mp f 4
+
+1        Eb
+2        Cm
+3        Fm
+4        Bb7
+
+Repeat
+Groove LightTango
+Volume m
+
+5        Eb
+6       Bb7
+7         /
+8        Eb      /      /    Bb7
+
+Groove LightTango1
+Volume mf
+
+9        Eb
+10      Bb7
+11        /
+
+Repeatending 2   /// actually "to coda"
+
+12       Eb      /      /    Bb7
+
+Groove LightTangoSus
+Volume m
+
+13       Eb
+14      Fm7
+15      Bb7
+16       Eb      /      /    Bb7
+
+Groove LightTango1Sus
+Decresc mp 4
+
+17       Eb
+18       Ab      /   Adim
+19       Eb     Ab     Eb    Bb7
+Groove LightTangoFill
+20       Eb   Edim    Bb7
+
+RepeatEnd   /// actually D.S.
+
+// coda (end) section
+
+21       Eb
+
+
+Groove LightTango4End
+Decresc ppp 4
+22      Fm7      /    Bb7
+23      Fm7      /    Bb7
+24        /
+25       Eb      z!
+Cut -3.5
+
+

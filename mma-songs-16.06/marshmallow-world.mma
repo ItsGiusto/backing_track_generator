@@ -1,0 +1,112 @@
+// A Marshmallow World (1951)
+
+Tempo 130
+Keysig C
+
+Groove Metronome2-4
+  z * 2
+
+Groove 50sRockIntro
+
+AllGrooves Arpeggio Voice Piano2
+
+Begin Solo
+    Voice Piano2
+    Harmony OpenBelow
+    Octave 5
+    Articulate 90
+    Volume f
+    Begin Riff
+        4g;8;e;4g;8;e;
+        4a;8;e;4a;8;e;
+        4b;8;a;g;a;4b;
+        1c+;
+    End
+End
+
+Swingmode On
+
+Decresc mf mp 4
+
+1         C
+2        Am
+3        Dm
+Bass Riff 1 2 1 90
+4        C  /  G
+
+
+Repeat
+Groove 50sRock
+Volume m
+
+5         C      /    CM7
+6        C6      /    CM7
+7         C      /    CM7     C6
+8        G7
+
+Groove 50sRockPlus
+Cresc f 4
+
+9       Dm7      /     G7
+10        C      /    Am7
+11       D7
+12      Dm7      /     G7
+
+Groove 50sRock
+
+13        C      /    CM7
+14       C6      /    CM7
+15        C      /    CM7
+16       G7
+
+Groove 50sRockSus
+Volume mf
+
+17      Dm7      /     G7
+18        C      /    Am7
+19       D7      /    Dm7     G7
+20       C6
+
+Groove 50sRockSusPlus
+Decresc m 4
+
+21      Gm7      /     C7
+22      FM7      /    Dm7
+23      Gm7      /     C9     C7
+24        F
+
+Groove 50sRock
+
+25      Am7      /     D7
+26      GM7      /    Em7
+27      Am7      /     D7
+28      Dm7      /     G7
+
+Groove 50sRockPlus
+Volume f
+
+29        C      /    CM7
+30       C6      /    CM7
+31        C      /    CM7
+32       G7
+
+Groove 50sRock
+Decresc m 2
+
+33      Dm7      /      G     G7
+34        C      /     A7
+
+
+RepeatEnding
+
+35       D7      /    Dm7     G7
+36        C      /    Dm7      G
+
+RepeatEnd
+
+Groove 50sRockEnd
+Decresc pp 2
+
+35       D7      /    Dm7     G7
+37        C    Db9     C6  z!
+

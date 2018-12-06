@@ -1,0 +1,103 @@
+// Close To You ... Carpenters, 1971
+
+// Original song is done in G and bumps up 
+// a semi-tone to Ab on the repeat (horn solo).
+
+Tempo 94
+Keysig Eb
+
+Groove Metronome2-4
+  z * 2
+
+Groove BalladSus
+
+Begin Solo
+  Voice Piano1
+  Volume f
+  Articulate 99
+  Rtime 5
+  Rvolume 5
+  Begin Riff
+    4f+g+b+;        8;b;        4e+g+b+; 8;b;
+    8f+g+b+; g+b+;  8f+g+b+; b; 4e+g+b+; 8;b;
+    4f+g+b+;        8;b;        4e+g+b+; 8;b;
+    2f+g+b+;
+  End
+End
+
+Swingmode On
+Cresc pp m 4
+
+1        Gm7 / Eb
+2        Gm7 / Eb
+3        Gm7 / Eb
+4        Gm7 / z
+
+Groove Ballad
+Volume m
+
+5        Ab
+6     G7sus      /     G7
+7       Gm7
+8       Cm7
+
+Groove BalladSus
+
+9        Ab
+10        /
+11       Eb      /   EbM7
+12        /      /      z
+
+Repeat
+
+Groove Ballad1Sus
+13       Ab
+14    G7sus      /     G7
+15      Gm7
+16      Cm7
+
+Groove Ballad1
+
+17       Ab
+18        /
+19      Eb6      /      /   EbM7
+20      Eb6      /    Eb7
+
+Groove Ballad
+
+21       Ab
+22        /
+23       Gm
+24    C9sus      /     C9     C7
+
+Groove BalladSus
+
+25      Ab9      /     Ab
+26     AbM7      /    Ab6
+27       Bb
+28        /      /      z
+
+Groove Ballad
+
+29       Ab
+30      Gm7      /     G7
+31      Gm7
+32      Cm7
+
+Groove Ballad1
+
+33       Ab
+34        /
+35      Eb6      /   EbM7
+36       Eb      /   z
+
+RepeatEnd
+
+Groove BalladEnd
+Decresc pppp 4
+Scale Decresc p pp 4
+
+33       Ab
+34        /
+35      Eb6      /   EbM7
+36      Eb6      /   z!

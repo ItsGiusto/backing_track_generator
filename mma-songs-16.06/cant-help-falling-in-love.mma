@@ -1,0 +1,91 @@
+// Cant Help Falling In Love
+// This is the Elvis Classic ... can't stand Elvis or others which
+//  insist on doing love songs as if they are at a wake. Make it a
+//  little happy. Listen to UB40 who do it at 168bpm ... a tad fast for
+//  me. So, here we go with a basic rock theme.
+
+Tempo 118
+KeySig F
+
+Groove Metronome2-4
+ z * 2
+
+Groove 8BeatIntro
+Begin Solo
+  Voice Strings
+  Volume f
+  Harmony Open+8Below
+  Articulate 110
+  Octave 5
+  Begin Riff
+    2c+;a;
+	2.f;8g;a;
+	2b;a;
+	1g;
+  End
+End
+
+1         F
+2        Dm
+3        Gm
+4        C7
+
+
+Repeat
+Groove 8Beat
+Repeat
+
+5         F      /     Am
+6        Dm
+7        Bb      /      F
+8        C7
+
+Groove 8Beat1
+
+9        Bb      /     C7
+10        F      /     Gm
+11        F      /     C7
+12        F
+
+Groove 8BeatSus
+
+RepeatEnd
+Groove 8Beat1Sus
+
+13       Am      /     E7
+14       Am      /     E7
+15       Am      /     E7
+16       Am      /     D7
+17       Gm    Eb7     C7
+
+Groove 8BeatSus
+
+18        F      /     Am
+19       Dm
+20       Bb      /      F
+21       C7
+
+Groove 8Beat
+
+22       Bb      /     C7
+23        F      /     Gm
+24        F      /     C7
+25        F
+
+Groove 8BeatSus
+
+26       Bb      /     C7
+27        F      /     Gm
+
+RepeatEnding
+
+28        F      /     C7
+29        F
+
+RepeatEnd
+Groove 8BeatEnd
+Decresc ppp 2
+
+28        F      /     C7
+29        F   /  z!
+

@@ -1,0 +1,123 @@
+// Lonely Girl
+
+Tempo 100
+Keysig F minor
+
+Groove Metronome2-4
+  z * 2
+
+Groove BossanovaIntro
+Begin Solo
+    Voice Strings
+    Volume f
+    Harmony 3Below
+    Articulate 105
+    Octave 5
+    Begin Riff
+       2.f;4c;
+       2.en;4d;
+       2.f;4a;
+       1g;
+    End
+End
+
+Swell mp mf 4
+
+1         Fm
+2        Dbm
+3         Fm
+4        Cm9
+
+Repeat
+Groove BossaNova
+Cresc mp m 4
+
+5         Fm
+6       DbM7
+7      Gm7b5
+8        Cm7
+
+Groove BossaNovaSus
+
+9       Bbm6
+10       Cm7
+11        Db
+12      G7#9
+
+Groove BossaNovaPlus
+Cresc mf 4
+
+13        C7
+14      DbM7
+15      Bbm7      /    Eb9
+16      AbM7
+
+Groove BossaNova1Sus
+
+17      Bbm6
+18       Cm7
+19        Fm
+20     Edim7
+
+Groove BossaNovaSusPlus
+Volume m
+
+21      Ebm7
+22     Ab7b9
+23        Db
+24      Bbm7
+
+Groove BossaNova1SusPlus
+Cresc mf 4
+
+25      Ebm7
+26     Ab7b9
+27        Db
+28         /
+
+Groove BossaNova
+Decresc mp 4
+
+29     Gm7b5
+30      C7b9
+31        Fm
+32      DbM7
+
+Groove BossaNovaSus
+
+33      G7#9
+34       Cm7
+35        Fm
+36         /
+
+Groove BossaNova1Sus
+Volume m
+
+37         /
+38      DbM7
+39     Gm7b5
+40       Cm7
+
+Groove BossaNova
+Decresc mp 4
+
+41      Bbm6
+42       Cm7
+
+RepeatEnding
+
+Groove BossaNovaFill
+
+43        Fm
+44         /
+
+RepeatEnd
+
+Groove BossaNova2End
+Decresc ppp 2
+
+45        Fm
+46         /     z!
+
+
+

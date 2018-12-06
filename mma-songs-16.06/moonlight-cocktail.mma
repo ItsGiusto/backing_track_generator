@@ -1,0 +1,105 @@
+// Moonlight Cocktail
+
+Tempo 80
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Begin Solo
+    Voice Piano1
+    Octave 6
+    Harmony 3below
+    Articulate 110
+    Volume f
+    Begin Riff
+        3b-;a#-;b-; c;b-;c; 2d;
+        3c;b-;c; d;c;d; 2e;
+        3d;c;d; e;d;e; f;e;f; g;f#;g;
+        2.a;
+    End
+End
+
+Groove EasySwingIntro2
+Drum-hh  Swell ppp p 4
+Solo Swell mp f 4
+Cresc mp mf 4
+
+1         G
+2        Em
+3        Am
+4        D7
+
+
+Repeat
+Groove EasySwing
+Volume m
+
+5         G   D7/A    G/B
+6        B7      /    Em7
+7        A7   E7/B  A7/C#
+8        A7
+
+Groove EasySwingWalk
+Cresc mf 2
+
+9        D7   A7/E  D7/F#
+10       D9
+
+RepeatEnding
+Groove EasySwingFill
+
+11        G      /    Em7
+12      Am7      /     D7
+
+RepeatEnd
+
+13      Am7
+14       A9     D7     G6
+
+Repeat
+Groove EasySwingSus
+
+15       B7
+16     F#m7      /     B7
+
+Groove EasySwingWalkSus
+Volume m
+
+17     F#m7      /     B7
+18       Em
+19       A7
+20      Em7      /     A7
+
+Groove EasySwingsus
+Cresc mf 2
+
+21      Em7      /     A7
+22       D7
+23        G   D7/A    G/B
+24       B7      /    Em7
+
+Groove EasySwing
+Decresc m 4
+
+25       A7   E7/B  A7/C#
+26       A7
+27       D7   A7/E  D7/F#
+28       D9
+
+RepeatEnding
+
+Groove EasySwingWalkFill
+
+29      Am7
+30       A9     D7
+
+RepeatEnd
+
+Groove EasySwingEnd
+Decresc ppp 2
+Tempo *.8 2
+
+31      Am7
+Plectrum Riff 1 0 90;
+32      G z!

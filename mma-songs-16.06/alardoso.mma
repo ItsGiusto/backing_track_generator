@@ -1,0 +1,144 @@
+// Alardoso
+
+Tempo 120
+KeySig F
+
+Groove Metronome2-4
+ z * 2
+
+MSet In2
+   Chord Riff C13
+   Bass Riff 1 1 1 90 * 2
+EndMset
+
+Groove ChaChaIntro8
+AllGrooves Arpeggio Volume p
+
+Begin Solo
+    Voice Flute
+    Harmony OpenAbove+8Above
+    Articulate 95
+    Octave 5
+    Accent 1 20 3 10
+End
+
+Solo Cresc m ff 7
+Cresc pp mf 8
+Repeat
+
+1       BbM7      /   E7b9    {8 f+;d+;b;a;4a&;}
+2        Am9      /     D9    {8e+;c+;a;g;4g&;}
+
+RepeatEnding
+
+3        Gm7      /    C13    {8d+;b;g;f;4e;8d+;8+4c+~;}
+4        Cm7      /     F7    {~ 4r; 3^a;b;c+; ^c#+;d+;e+;}
+
+RepeatEnd
+
+
+5        Gm7      /    C13  F@4.5    { 8f+;b;d+;f+;4a+;8;f+;}
+
+Repeat  // this is actually a Sign from a DS.
+Groove ChaChaIntro8   // just needed on the DS
+Seq 8
+6          /      /      z
+
+Repeat
+Groove ChaCha
+Volume m
+
+7          F      /    Bb9
+8         F9      / Gbdim7
+9        Gm7      /   C7b9
+10       Gm7      /   C7b9
+
+Groove ChaChaSus
+
+11       Gm7
+
+RepeatEnding
+
+12      C7b9
+13       Am7      /     D7
+
+Groove ChaCha1
+Cresc mf 2
+
+14       Gm7      /   C7b9
+
+RepeatEnd
+
+15       Gm7      /   C7b9
+16       FM7
+
+Groove ChaChaFill
+
+17         E      /   E7#9
+
+Groove ChaCha1Sus
+Volume m
+
+18     Bm7b5
+19      E7#9
+
+Cresc mf 2
+
+20       Am7
+21        G7
+
+Groove ChaCha
+Volume m
+
+22       CM7      / Dbdim7
+23       Dm7      /    G13
+
+Decresc mp 2
+
+24       Gm7
+25         C
+
+Groove ChaCha1Sus
+Cresc m 4
+
+26       FM7      /    Bb9
+27        F9      / Gbdim7
+28       Gm7      /     C9
+29       Gm7      /     C9
+
+Groove ChaCha1
+
+30       Gm7
+31      C7b9
+32         F
+33         /
+
+If def FINE
+Groove ChaChaEnd
+
+34         /
+35         /     z!
+eof
+else
+36         /
+37         /
+
+endif
+
+Groove ChaCha
+Solo Volume m
+Repeat
+Solo Cresc +20 4
+38         F      / G&dim7    {2a;8r;4d+;4c+~;}
+39        Gm      /     C9    {~ 4.g;}
+$In2
+40       Am7      /     D9
+$In2
+41       Gm7      /     C7 
+Groove ChaChaSus
+Repeatend
+
+Set Fine
+RepeatEnd
+
+
