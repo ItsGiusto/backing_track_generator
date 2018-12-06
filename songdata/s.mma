@@ -1,0 +1,115 @@
+// Autumn Leaves
+
+Tempo 150
+Keysig G
+
+Groove Metronome2-4
+  z * 2
+
+Groove SwingWalk
+Volume m
+
+REPEAT
+
+1    Cm7
+
+
+2    F7
+
+
+3    BbM7
+
+
+4    EbM7
+
+
+5    Am7b5
+
+
+6    D7
+
+
+7    Gm
+
+
+8    G7
+
+
+9    Cm7
+
+
+10    F7
+
+
+11    BbM7
+
+
+12    EbM7
+
+
+13    Am7b5
+
+
+14    D7
+
+
+15    Gm / Cm
+
+
+16    Gm
+
+
+17    Am7b5
+
+
+18    D7
+
+
+19    Gm
+
+
+20    /
+
+
+21    Cm7
+
+
+22    F7
+
+
+23    BbM7
+
+
+24    EbM7
+
+
+25    Am7b5
+
+
+26    D7b9
+
+
+27    Gm / Gm7/F
+
+
+28    Em7b5 / EbM7
+
+
+29    Am7b5
+
+
+30    D7b9
+
+
+31    Gm
+
+
+32    /
+
+
+33    Gm / Cm
+
+
+34    Gm z!
+
+REPEATEND 5
