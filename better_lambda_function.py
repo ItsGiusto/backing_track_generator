@@ -214,7 +214,7 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
 
         request_id_holder = handler_input.request_envelope.request.request_id
         directive_header = Header(request_id=request_id_holder)
-        speech = SpeakDirective(speech=random.choice(PROGRESSIVE_RESPONSE))
+        speech = SpeakDirective(speech=random.choice(data.PROGRESSIVE_RESPONSE))
         directive_request = SendDirectiveRequest(
         header=directive_header, directive=speech)
 
