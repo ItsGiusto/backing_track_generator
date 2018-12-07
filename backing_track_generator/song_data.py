@@ -1,4 +1,4 @@
-import transposer
+from . import transposer
 
 class SongData(object):
     def __init__(self, title, composer, time_signature, default_tempo, tempo,

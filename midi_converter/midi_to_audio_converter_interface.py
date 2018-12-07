@@ -22,7 +22,8 @@ class MidiToAudioConverterInterface(object):
 
         print("Response: {}".format(response1))
         print("Text: {}".format(response1.text.encode('ascii', 'ignore').decode('ascii')))
-        job_id1 = MidiToAudioConverterInterface.capture_regex('0\|SUCCESS\|(.+).mid\|mid\|{}'.format(file_name_without_periods), response1.text)
+        job_id1 = MidiToAudioConverterInterface.capture_regex('0\|SUCCESS\|(.+).mid\|mid\|', response1.text)
+        file_name_without_periods = MidiToAudioConverterInterface.capture_regex('0\|SUCCESS\|.+.mid\|mid\|(.+)', response1.text)
 
         params2 = (
             ('cid', 'midi2audio'),

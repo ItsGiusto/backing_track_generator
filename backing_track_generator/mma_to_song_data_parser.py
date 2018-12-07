@@ -1,7 +1,7 @@
 import re
-from chord_data import ChordData
-from song_data import SongData
-from bar_data import BarData
+from .chord_data import ChordData
+from .song_data import SongData
+from .bar_data import BarData
 
 class MMAToSongDataParser(object):
     def __init__(self):

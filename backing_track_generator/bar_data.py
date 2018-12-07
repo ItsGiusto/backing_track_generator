@@ -1,4 +1,4 @@
-from chord_data import ChordData
+from .chord_data import ChordData
 
 class BarData(object):
     def __init__(self):

@@ -1,4 +1,4 @@
-from mma_to_song_data_parser import MMAToSongDataParser
+from .mma_to_song_data_parser import MMAToSongDataParser
 
 import types
 def var_dump(obj, depth=4, l=""):

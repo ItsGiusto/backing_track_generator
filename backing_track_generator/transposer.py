@@ -125,39 +125,6 @@ def transpose(source_chord, direction, to_key):
 
 
 def usage():
-    print 'Usage:'
-    print '%s --from=Eb --to=F# input_filename' % os.path.basename(__file__)
+    print('Usage:')
+    print('%s --from=Eb --to=F# input_filename' % os.path.basename(__file__))
     sys.exit(2)
-
-def main():
-    from_key = 'C'
-    to_key = 'C'
-    file_name = None
-    try:
-        options, arguments = getopt.getopt(sys.argv[1:], 'f:t:', ['from=', 'to=', 'doctest'])
-    except getopt.GetoptError, err:
-        print str(err)
-        usage()
-        sys.exit(2)
-    for option, value in options:
-        if option in ('-f', '--from'):
-            from_key = value
-        elif option in ('-t', '--to'):
-            to_key = value
-        elif option == '--doctest':
-            import doctest
-            doctest.testmod()
-            exit()
-        else:
-            usage()
-    
-    if arguments:
-        file_name = arguments[0]
-    else:
-        usage()
-    
-    result = transpose_file(file_name, from_key, to_key)
-    
-    print("Result (%s -> %s):" % (from_key, to_key))
-    print(result)
-    

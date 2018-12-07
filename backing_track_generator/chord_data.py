@@ -1,5 +1,5 @@
-import transposer
-import chordtable
+from . import transposer
+from . import chordtable
 
 class ChordData(object):
     def __init__(self, root = None, quality = None, repeat_chord = False, bass_note = None, silence = None):
@@ -10,7 +10,7 @@ class ChordData(object):
         self.silence = silence
 
     def get_transposed_bar(self, num_transposition_steps, new_key):
-    	new_root = None
+        new_root = None
         if self.root:
             new_root = transposer.transpose(self.root, num_transposition_steps, new_key)
         new_bass_note = None

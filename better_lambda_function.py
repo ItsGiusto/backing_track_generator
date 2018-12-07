@@ -11,6 +11,7 @@ from ask_sdk_core.handler_input import HandlerInput
 from ask_sdk_model import Response
 
 from alexa import data, util
+from backing_track_generator.backing_track_generator import BackingTrackGenerator
 
 sb = SkillBuilder()
 logger = logging.getLogger(__name__)
@@ -210,7 +211,9 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
         song_name = slots.get("SongName").value
         tempo = slots.get("Tempo").value
 
-        return util.play(url=util.audio_data(request)["url"],
+        backing_track_url = BackingTrackGenerator().get_backing_track(song_name, intent["slots"])
+
+        return util.play(url=backing_track_url,
                  offset=0,
                  text=data.GENERATED_SONG.format(song_name, tempo),
                  card_data=util.audio_data(request)["card"],
