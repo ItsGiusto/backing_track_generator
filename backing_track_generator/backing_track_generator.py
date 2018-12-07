@@ -48,7 +48,7 @@ class BackingTrackGenerator(object):
         song_data.tempo = self.get_slot_value("Tempo", slots)
         song_data.style = self.get_slot_value("Style", slots)
 
-        key = self.get_slot_value(slots)
+        key = self.get_musical_key_resolved_value(slots)
         if key:
             song_data.transpose(key)
 
