@@ -231,7 +231,16 @@ def loadDB(d):
     # Note, not an error ... should it be? Note, the compile will probably
     # end soon anyway since mma won't be able to find the requested groove.
 
-    dirs = [os.path.dirname(i) for i in g.keys()]
+
+    replacestring = '/Users/ramdavid/hackday2018git/backing_track_mma/'
+    cwd = os.getcwd()
+
+    g2 = {}
+    for i in g.keys():
+        g2[i] = i.replace(replacestring, cwd)
+
+
+    dirs = [os.path.dirname(i) for i in g2.keys()]
 
     for a in set(dirs):
         if not os.path.exists(a):
@@ -239,7 +248,7 @@ def loadDB(d):
                     "  Directory '%s' cannot be found.\n"
                     "  Please try to execute the command 'mma -G' as root." % a)
 
-    return g
+    return g2
 
 
 #################################################################
