@@ -13,8 +13,8 @@ class BackingTrackGenerator(object):
         return song_name.lower().replace(" ", "-")
 
     def get_slot_value(self, key, slots):
-        if key in slots:
-            return slots[key]["value"]
+        if slots.get(key):
+            return slots.get(key).value
 
     def get_backing_track(self, song_name, slots):
 
