@@ -4,6 +4,7 @@ import os
 from .mma_to_song_data_parser import MMAToSongDataParser
 from midi_converter.midi_to_audio_converter_interface import MidiToAudioConverterInterface
 
+
 class BackingTrackGenerator(object):
     ACCESS_KEY = "oHzKKaeUDEWNyNCHkDEapAQB4GpIm1QPV+MwsDEg"
     ACCESS_ID = "AKIAJACXBFXZQMUXP7DA"
@@ -18,23 +19,23 @@ class BackingTrackGenerator(object):
             return slots.get(key).value
 
     def get_musical_key_resolved_value(self, slots):
+        
         slot = slots.get("Key")
         if slot:
-            toReturn = slot.value
-
-            try:
-                resolutions = slot.resolutions.get("resolutionsPerAuthority")
-                if resolutions and len(resolutions > 0):
-                    values = resolutions[0].get("values")
-                    if values and len(values > 0):
-                        toReturn = values[0].get("value").get("name")
-            except KeyError:
-                pass
+            toReturn = slot.resolutions.resolutions_per_authority[0].values[0].value.name
 
             return toReturn
 
-    def get_backing_track(self, song_name, slots):
+    def get_song_resolved_value(self, slots):
+        
+        slot = slots.get("SongName")
+        if slot:
+            toReturn = slot.resolutions.resolutions_per_authority[0].values[0].value.name
 
+            return toReturn
+
+    def get_backing_track(self, song_name1, slots):
+        song_name = self.get_song_resolved_value(slots)
         #parse mma file
         parser = MMAToSongDataParser()
         file_name = self.__get_file_name(song_name)
