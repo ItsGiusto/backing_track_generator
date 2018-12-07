@@ -10,6 +10,7 @@ from ask_sdk_core.dispatch_components import (
 from ask_sdk_core.utils import is_request_type, is_intent_name
 from ask_sdk_core.handler_input import HandlerInput
 from ask_sdk_model import Response
+import random
 
 from alexa import data, util
 from backing_track_generator.backing_track_generator import BackingTrackGenerator
@@ -156,7 +157,7 @@ class CancelOrStopIntentHandler(AbstractRequestHandler):
         # type: (HandlerInput) -> Response
         logger.info("In CancelOrStopIntentHandler")
 
-        return util.stop(data.STOP_MSG, handler_input.response_builder)
+        return util.stop(random.choice(data.STOP_MSG), handler_input.response_builder)
 
 
 class ResumeIntentHandler(AbstractRequestHandler):
@@ -213,7 +214,7 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
 
         request_id_holder = handler_input.request_envelope.request.request_id
         directive_header = Header(request_id=request_id_holder)
-        speech = SpeakDirective(speech="okay, give me one second while the band rehearses.")
+        speech = SpeakDirective(speech=random.choice(PROGRESSIVE_RESPONSE))
         directive_request = SendDirectiveRequest(
         header=directive_header, directive=speech)
 
@@ -223,12 +224,18 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
         slots = request.intent.slots
         song_name = slots.get("SongName").value
         tempo = slots.get("Tempo").value
+        key = slots.get("Key").value
 
         backing_track_url = BackingTrackGenerator().get_backing_track(song_name, slots)
 
+        generated_song_text = data.GENERATED_SONG.format(song_name)
+        if key:
+            generated_song_text += GENERATED_SONG_KEY.format(key)
+        if tempo:
+            generated_song_text += GENERATED_SONG_TEMPO.format(tempo)
         return util.play(url=backing_track_url,
                  offset=0,
-                 text=data.GENERATED_SONG.format(song_name, tempo),
+                 text=generated_song_text,
                  card_data=util.audio_data(request)["card"],
                  response_builder=handler_input.response_builder)
 
