@@ -230,9 +230,9 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
 
         generated_song_text = data.GENERATED_SONG.format(song_name)
         if key:
-            generated_song_text += GENERATED_SONG_KEY.format(key)
+            generated_song_text += data.GENERATED_SONG_KEY.format(key)
         if tempo:
-            generated_song_text += GENERATED_SONG_TEMPO.format(tempo)
+            generated_song_text += data.GENERATED_SONG_TEMPO.format(tempo)
         return util.play(url=backing_track_url,
                  offset=0,
                  text=generated_song_text,
