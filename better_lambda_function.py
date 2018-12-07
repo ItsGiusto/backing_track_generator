@@ -211,7 +211,7 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
         song_name = slots.get("SongName").value
         tempo = slots.get("Tempo").value
 
-        backing_track_url = BackingTrackGenerator().get_backing_track(song_name, intent["slots"])
+        backing_track_url = BackingTrackGenerator().get_backing_track(song_name, slots)
 
         return util.play(url=backing_track_url,
                  offset=0,
