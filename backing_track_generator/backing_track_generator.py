@@ -25,7 +25,7 @@ class BackingTrackGenerator(object):
             try:
                 resolutions = slot.resolutions.resolutionsPerAuthority
                 if resolutions and len(resolutions > 0):
-                    values = resolutions[0].values.
+                    values = resolutions[0].values
                     if values and len(values > 0):
                         toReturn = resolutions[0].value..name
             except KeyError:
