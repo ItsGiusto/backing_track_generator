@@ -27,7 +27,7 @@ class BackingTrackGenerator(object):
                 if resolutions and len(resolutions > 0):
                     values = resolutions[0].values
                     if values and len(values > 0):
-                        toReturn = resolutions[0].value..name
+                        toReturn = resolutions[0].value.name
             except KeyError:
                 pass
 
