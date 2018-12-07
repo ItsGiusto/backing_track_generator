@@ -28,13 +28,13 @@ class ChordData(object):
             return "{}{}/{}".format(self.root, self.quality, self.bass_note)
         return "{}{}".format(self.root, self.quality)
 
-    @classmethod 
+    @classmethod
     def create_chord_data(cls, chord_string):
         if chord_string == "/":
             return ChordData(repeat_chord = True)
         if chord_string == "z!":
             return ChordData(silence = True)
-        
+
         split_chord = chord_string.split('/')
         bass_note = None
         if len(split_chord) == 2:
@@ -53,10 +53,7 @@ class ChordData(object):
                     return (potential_chord, chord_quality)
         for alias in chordtable.aliases:
             for chord_quality in alias:
-                if not chord_quality:
-                    continue
                 if chord.endswith(chord_quality):
                     potential_chord = chord[:len(chord)-len(chord_quality)]
                     if potential_chord in chordtable.roots:
                         return (potential_chord, chord_quality)
-
