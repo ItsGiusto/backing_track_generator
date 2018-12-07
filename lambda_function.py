@@ -10,6 +10,7 @@ http://amzn.to/1LGWsLG
 from __future__ import print_function
 import json
 from botocore.vendored import requests
+from backing_track_generator.backing_track_generator import BackingTrackGenerator
 
 # --------------- Helpers that build all of the responses ----------------------
 
@@ -36,13 +37,13 @@ def build_speechlet_response(title, output, reprompt_text, directive, should_end
         ]
     }
 
-def build_play_directive():
+def build_play_directive(backing_track_url):
     return {
         'type': 'AudioPlayer.Play',
         'playBehavior': 'REPLACE_ALL',
         'audioItem': {
             'stream': {
-                'url': 'https://s3.amazonaws.com/coltrane3/file2.mp3',
+                'url': backing_track_url,
                 'token': '1234AAAABBBBCCCCCDDDDEEEEEFFFF',
                 'offsetInMilliseconds': 0
             },
@@ -106,8 +107,10 @@ def get_play_generated_music_response(intent, session):
                         tempo + \
                         " beats per minute"
 
+    backing_track_url = BackingTrackGenerator().get_backing_track(song_name, intent["slots"])
+
     return build_response({}, build_speechlet_response(
-        card_title, speech_output, None, build_play_directive(), should_end_session))
+        card_title, speech_output, None, build_play_directive(backing_track_url), should_end_session))
 
 def set_color_in_session(intent, session):
     """ Sets the color in the session and prepares the speech to reply to the
