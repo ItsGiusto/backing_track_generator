@@ -237,7 +237,8 @@ def loadDB(d):
 
     g2 = {}
     for i in g.keys():
-        g2[i] = i.replace(replacestring, cwd)
+        key = i.replace(replacestring, cwd)
+        g2[key] = g[i]
 
 
     dirs = [os.path.dirname(i) for i in g2.keys()]
