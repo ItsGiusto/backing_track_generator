@@ -10,9 +10,9 @@ class MMAToSongDataParser(object):
     def parse_mma_file(self, filename):
         file_contents = self.__read_file_to_string(filename)
         default_tempo = self.__capture_regex("tempo\s*(\d+)\s*", file_contents)
-        default_key = self.__capture_regex("keysig\s*(.+?)\s*", file_contents)
-        title = self.__capture_regex("//\s*(.+)\s*", file_contents)
-        default_style = self.__capture_regex_excluding("Groove\s*(.+)\s*", file_contents, ["metronome2-4"])
+        default_key = self.__capture_regex("keysig\s*(.+)\s*", file_contents).strip()
+        title = self.__capture_regex("//\s*(.+)\s*", file_contents).strip()
+        default_style = self.__capture_regex_excluding("Groove\s*(.+)\s*", file_contents, ["metronome2-4"]).strip()
         default_bars = self.__get_bars(file_contents)
 
         return SongData(title, "composer", "time_signature", default_tempo, None,
@@ -24,7 +24,7 @@ class MMAToSongDataParser(object):
         for line in file_contents.split('\n'):
             match = self.__capture_regex("^\d+\s+(.+)\s*$", line)
             if match:
-                chords_texts = match.split()
+                chords_texts = match.strip().split()
                 bar = BarData()
                 for chord_text in chords_texts:
                     chord = ChordData.create_chord_data(chord_text)
