@@ -22,11 +22,14 @@ class BackingTrackGenerator(object):
         if slot:
             toReturn = slot.value
 
-            resolutions = slot.get("resolutions").get("resolutionsPerAuthority")
-            if resolutions and len(resolutions > 0):
-                values = resolutions[0].get("values")
-                if values and len(values > 0):
-                    toReturn = resolutions[0].get("value").get("name")
+            try:
+                resolutions = slot["resolutions"]["resolutionsPerAuthority"]
+                if resolutions and len(resolutions > 0):
+                    values = resolutions[0]["values"]
+                    if values and len(values > 0):
+                        toReturn = resolutions[0]["value"]["name"]
+            except KeyError:
+                pass
 
             return toReturn
 
