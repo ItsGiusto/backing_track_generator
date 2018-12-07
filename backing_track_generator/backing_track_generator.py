@@ -1,5 +1,6 @@
 import subprocess
 import boto3
+import os
 from .mma_to_song_data_parser import MMAToSongDataParser
 from midi_converter.midi_to_audio_converter_interface import MidiToAudioConverterInterface
 
@@ -22,6 +23,7 @@ class BackingTrackGenerator(object):
         parser = MMAToSongDataParser()
         file_name = self.__get_file_name(song_name)
         mma_file_name = file_name + ".mma"
+        tmp_mma_file_name = os.path.join("/tmp",mma_file_name)
         file_path = "mma-songs-16.06/{}".format(mma_file_name)
 
         print("Loading file from {}".format(file_path))
@@ -38,30 +40,32 @@ class BackingTrackGenerator(object):
             song_data.transpose(key)
 
         #write mma file
-        print("Writing file to {}".format(mma_file_name))
-        song_data.print_mma_file(mma_file_name)
+        print("Writing file to {}".format(tmp_mma_file_name))
+        song_data.print_mma_file(tmp_mma_file_name)
 
         #make midi file
         mid_file_name = file_name + ".mid"
-        print("Making midi file {}".format(mid_file_name))
-        mma_command = ['python3', 'mma_library/mma.py', '-f', mid_file_name, mma_file_name]
+        tmp_mid_file_name = os.path.join("/tmp",mid_file_name)
+        print("Making midi file {}".format(tmp_mid_file_name))
+        mma_command = ['python3', 'mma_library/mma.py', '-f', tmp_mid_file_name, tmp_mma_file_name]
         subprocess.check_call(mma_command)
 
         #write to S3
         s3 = boto3.resource('s3', aws_access_key_id= BackingTrackGenerator.ACCESS_ID,
          aws_secret_access_key= BackingTrackGenerator.ACCESS_KEY)
         print("Uploading to S3")
-        s3.Bucket('coltrane3').upload_file(mid_file_name, mid_file_name, ExtraArgs={'ACL':'public-read'})
+        s3.Bucket('coltrane3').upload_file(tmp_mid_file_name, mid_file_name, ExtraArgs={'ACL':'public-read'})
 
 
         #make mp3 file
         mp3_file_name = file_name + ".mp3"
+        tmp_mp3_file_name = os.path.join("/tmp",mp3_file_name)
         print("Converting to mp3")
-        MidiToAudioConverterInterface.get_mp3_file("https://s3.amazonaws.com/coltrane3/{}".format(mid_file_name), mp3_file_name)
+        MidiToAudioConverterInterface.get_mp3_file("https://s3.amazonaws.com/coltrane3/{}".format(mid_file_name), tmp_mp3_file_name)
 
         #write to s3
         print("Uploading mp3 to S3")
-        s3.Bucket('coltrane3').upload_file(mp3_file_name, mp3_file_name, ExtraArgs={'ACL':'public-read'})
+        s3.Bucket('coltrane3').upload_file(tmp_mp3_file_name, mp3_file_name, ExtraArgs={'ACL':'public-read'})
 
 
 if __name__ == "__main__":
