@@ -17,6 +17,19 @@ class BackingTrackGenerator(object):
         if slots.get(key):
             return slots.get(key).value
 
+    def get_musical_key_resolved_value(self, slots):
+        slot = slots.get("Key")
+        if slot:
+            toReturn = slot.value
+
+            resolutions = slot.get("resolutions").get("resolutionsPerAuthority")
+            if resolutions and len(resolutions > 0):
+                values = resolutions[0].get("values")
+                if values and len(values > 0):
+                    toReturn = resolutions[0].get("value").get("name")
+
+            return toReturn
+
     def get_backing_track(self, song_name, slots):
 
         #parse mma file
@@ -35,7 +48,7 @@ class BackingTrackGenerator(object):
         song_data.tempo = self.get_slot_value("Tempo", slots)
         song_data.style = self.get_slot_value("Style", slots)
 
-        key = self.get_slot_value("Key", slots)
+        key = self.get_slot_value(slots)
         if key:
             song_data.transpose(key)
 
