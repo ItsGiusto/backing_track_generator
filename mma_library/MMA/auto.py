@@ -232,8 +232,8 @@ def loadDB(d):
     # end soon anyway since mma won't be able to find the requested groove.
 
 
-    replacestring = '/Users/ramdavid/hackday2018git/backing_track_mma/'
-    cwd = os.getcwd()
+    replacestring = '/Users/satrij/Desktop/hackathon12-18/mma-bin-16.06'
+    cwd = os.path.join(os.getcwd(),'mma-library')
 
     g2 = {}
     for i in g.keys():
