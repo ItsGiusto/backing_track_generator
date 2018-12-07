@@ -19,20 +19,25 @@ class BackingTrackGenerator(object):
             return slots.get(key).value
 
     def get_musical_key_resolved_value(self, slots):
-        
+
         slot = slots.get("Key")
         if slot:
-            toReturn = slot.resolutions.resolutions_per_authority[0].values[0].value.name
+            if slot.resolutions:
+                toReturn = slot.resolutions.resolutions_per_authority[0].values[0].value.name
+                return toReturn
+            else:
+                return slot.value
 
-            return toReturn
 
     def get_song_resolved_value(self, slots):
-        
+
         slot = slots.get("SongName")
         if slot:
-            toReturn = slot.resolutions.resolutions_per_authority[0].values[0].value.name
-
-            return toReturn
+            if slot.resolutions:
+                toReturn = slot.resolutions.resolutions_per_authority[0].values[0].value.name
+                return toReturn
+            else:
+                return slot.value
 
     def get_backing_track(self, song_name1, slots):
         song_name = self.get_song_resolved_value(slots)
