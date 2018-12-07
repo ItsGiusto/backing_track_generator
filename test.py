@@ -1,4 +1,5 @@
 from backing_track_generator.mma_to_song_data_parser import MMAToSongDataParser
+from backing_track_generator.backing_track_generator import BackingTrackGenerator
 
 import types
 def var_dump(obj, depth=4, l=""):
@@ -29,13 +30,14 @@ def var_dump(obj, depth=4, l=""):
     return name + "{\n" + "\n".join(l + repr(k) + ": " + var_dump(objdict[k], depth=depth-1, l=l+"  ") + "," for k in objdict) + "\n" + l + "}"
 
 parser = MMAToSongDataParser()
-song_data = parser.parse_mma_file("mma-songs-16.06/twelve-bar-blues.mma")
+song_data = parser.parse_mma_file("mma-songs-16.06/autumn-leaves.mma")
 
 
-song_data.transpose('G')
+song_data.transpose('F')
 song_data.tempo = 150
 song_data.num_choruses = 5
 
 print(var_dump(song_data))
+
 
 song_data.print_mma_file('s.mma')

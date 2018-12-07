@@ -226,7 +226,7 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
         tempo = slots.get("Tempo").value
         key = slots.get("Key").value
 
-        backing_track_url = BackingTrackGenerator().get_backing_track(song_name, slots)
+        backing_track_url = BackingTrackGenerator().get_backing_track(slots)
 
         generated_song_text = data.GENERATED_SONG.format(song_name)
         if key:

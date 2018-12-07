@@ -39,7 +39,7 @@ class BackingTrackGenerator(object):
             else:
                 return slot.value
 
-    def get_backing_track(self, song_name1, slots):
+    def get_backing_track(self, slots):
         song_name = self.get_song_resolved_value(slots)
         #parse mma file
         parser = MMAToSongDataParser()
