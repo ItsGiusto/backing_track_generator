@@ -113,7 +113,7 @@ def libUpdate():
         """
 
         dirfiles = os.listdir(lib)
-    
+
         if "MMAIGNORE" in dirfiles:
             print("Skipping: %s" % p)
             return
@@ -191,18 +191,18 @@ def libUpdate():
             idx += 1
 
     print("\nDatabase update complete."
-            "\n     Files processed: %s" 
+            "\n     Files processed: %s"
             "\n     Total number of grooves: %s\n" % (fileCount, grooveCount ))
-    
+
     if noAccess:
         error ("You probably need to be 'root' to properly update your libraries.")
-    
+
     if dupMessage:
         msg = ["Warning: Duplicate groove definitions found in:\n"]
         for a in dupMessage:
             msg.append(a)
         print(' '.join(msg))
-    
+
     sys.exit(0)
 
 
@@ -231,15 +231,19 @@ def loadDB(d):
     # Note, not an error ... should it be? Note, the compile will probably
     # end soon anyway since mma won't be able to find the requested groove.
 
-
     replacestring = '/Users/satrij/Desktop/hackathon12-18/mma-bin-16.06'
-    cwd = os.path.join(os.getcwd(),'mma-library')
+    cwd = os.path.join(os.getcwd(),'mma_library')
+
+    #print(os.listdir(os.getcwd()))
+
+    #print(os.listdir(cwd))
 
     g2 = {}
     for i in g.keys():
         key = i.replace(replacestring, cwd)
         g2[key] = g[i]
 
+    #print(os.listdir(os.path.dirname(g2.keys(0))))
 
     dirs = [os.path.dirname(i) for i in g2.keys()]
 

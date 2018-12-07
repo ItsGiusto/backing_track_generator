@@ -14,8 +14,9 @@ class MMAToSongDataParser(object):
         title = self.__capture_regex("//\s*(.+)\s*", file_contents)
         default_style = self.__capture_regex_excluding("Groove\s*(.+)\s*", file_contents, ["metronome2-4"])
         default_bars = self.__get_bars(file_contents)
+
         return SongData(title, "composer", "time_signature", default_tempo, None,
-             default_style, None, default_key, None, 3, None, default_bars, None)
+             default_style, None, default_key, None, 1, None, default_bars, None)
 
 
     def __get_bars(self, file_contents):

@@ -67,6 +67,7 @@ class BackingTrackGenerator(object):
         print("Uploading mp3 to S3")
         s3.Bucket('coltrane3').upload_file(tmp_mp3_file_name, mp3_file_name, ExtraArgs={'ACL':'public-read'})
 
+        return "https://s3.amazonaws.com/coltrane3/{}".format(mp3_file_name)
 
 if __name__ == "__main__":
     BackingTrackGenerator().get_backing_track("autumn-leaves", {})
