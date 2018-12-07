@@ -1,1 +1,1 @@
-SetLibPath mma_library $_LibPath
+SetLibPath mma_library/lib
