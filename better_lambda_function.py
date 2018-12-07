@@ -2,7 +2,8 @@
 
 import logging
 
-from ask_sdk_core.skill_builder import SkillBuilder
+from ask_sdk_core.skill_builder import CustomSkillBuilder
+from ask_sdk_core.api_client import DefaultApiClient
 from ask_sdk_core.dispatch_components import (
     AbstractRequestHandler, AbstractExceptionHandler,
     AbstractRequestInterceptor, AbstractResponseInterceptor)
@@ -13,7 +14,10 @@ from ask_sdk_model import Response
 from alexa import data, util
 from backing_track_generator.backing_track_generator import BackingTrackGenerator
 
-sb = SkillBuilder()
+from ask_sdk_model.services.directive import (
+    SendDirectiveRequest, Header, SpeakDirective)
+
+sb = CustomSkillBuilder(api_client=DefaultApiClient())
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
@@ -206,6 +210,15 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
         # type: (HandlerInput) -> Response
         logger.info("In PlayGeneratedMusicHandler")
         request = handler_input.request_envelope.request
+
+        request_id_holder = handler_input.request_envelope.request.request_id
+        directive_header = Header(request_id=request_id_holder)
+        speech = SpeakDirective(speech="okay, give me one second while the band rehearses.")
+        directive_request = SendDirectiveRequest(
+        header=directive_header, directive=speech)
+
+        directive_service_client = handler_input.service_client_factory.get_directive_service()
+        directive_service_client.enqueue(directive_request)
 
         slots = request.intent.slots
         song_name = slots.get("SongName").value
