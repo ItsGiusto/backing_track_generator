@@ -30,7 +30,7 @@ def var_dump(obj, depth=4, l=""):
     return name + "{\n" + "\n".join(l + repr(k) + ": " + var_dump(objdict[k], depth=depth-1, l=l+"  ") + "," for k in objdict) + "\n" + l + "}"
 
 parser = MMAToSongDataParser()
-song_data = parser.parse_mma_file("mma-songs-16.06/autumn-leaves.mma")
+song_data = parser.parse_mma_file("mma-songs-16.06/twelve-bar-blues.mma")
 
 
 song_data.transpose('F')

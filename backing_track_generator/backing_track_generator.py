@@ -6,8 +6,9 @@ from midi_converter.midi_to_audio_converter_interface import MidiToAudioConverte
 
 
 class BackingTrackGenerator(object):
-    ACCESS_KEY = "oHzKKaeUDEWNyNCHkDEapAQB4GpIm1QPV+MwsDEg"
-    ACCESS_ID = "AKIAJACXBFXZQMUXP7DA"
+
+    BUCKET_NAME = "alexafakebook"
+
     def __init__(self):
         pass
 
@@ -68,28 +69,29 @@ class BackingTrackGenerator(object):
         #make midi file
         mid_file_name = file_name + ".mid"
         tmp_mid_file_name = os.path.join("/tmp",mid_file_name)
+        s3_mid_file_name = os.path.join("midi",mid_file_name)
         print("Making midi file {}".format(tmp_mid_file_name))
         mma_command = ['python3', 'mma_library/mma.py', '-f', tmp_mid_file_name, tmp_mma_file_name]
         subprocess.check_call(mma_command)
 
         #write to S3
-        s3 = boto3.resource('s3', aws_access_key_id= BackingTrackGenerator.ACCESS_ID,
-         aws_secret_access_key= BackingTrackGenerator.ACCESS_KEY)
+        s3 = boto3.resource('s3')
         print("Uploading to S3")
-        s3.Bucket('coltrane3').upload_file(tmp_mid_file_name, mid_file_name, ExtraArgs={'ACL':'public-read'})
+        s3.Bucket(BackingTrackGenerator.BUCKET_NAME).upload_file(tmp_mid_file_name, s3_mid_file_name, ExtraArgs={'ACL':'public-read'})
 
 
         #make mp3 file
         mp3_file_name = file_name + ".mp3"
         tmp_mp3_file_name = os.path.join("/tmp",mp3_file_name)
         print("Converting to mp3")
-        MidiToAudioConverterInterface.get_mp3_file("https://s3.amazonaws.com/coltrane3/{}".format(mid_file_name), tmp_mp3_file_name)
+        MidiToAudioConverterInterface.get_mp3_file("https://s3.amazonaws.com/{}/{}".format(BackingTrackGenerator.BUCKET_NAME, s3_mid_file_name), tmp_mp3_file_name)
 
+        s3_mp3_file_name = os.path.join("mp3",mp3_file_name)
         #write to s3
         print("Uploading mp3 to S3")
-        s3.Bucket('coltrane3').upload_file(tmp_mp3_file_name, mp3_file_name, ExtraArgs={'ACL':'public-read'})
+        s3.Bucket(BackingTrackGenerator.BUCKET_NAME).upload_file(tmp_mp3_file_name, s3_mp3_file_name, ExtraArgs={'ACL':'public-read'})
 
-        return "https://s3.amazonaws.com/coltrane3/{}".format(mp3_file_name)
+        return "https://s3.amazonaws.com/{}/{}".format(BackingTrackGenerator.BUCKET_NAME, s3_mp3_file_name)
 
 if __name__ == "__main__":
     BackingTrackGenerator().get_backing_track("autumn-leaves", {})
