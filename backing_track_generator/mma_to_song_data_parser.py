@@ -16,7 +16,7 @@ class MMAToSongDataParser(object):
         default_bars = self.__get_bars(file_contents)
 
         return SongData(title, "composer", "time_signature", default_tempo, None,
-             default_style, None, default_key, None, 1, None, default_bars, None)
+             default_style, None, default_key, None, 3, None, default_bars, None)
 
 
     def __get_bars(self, file_contents):

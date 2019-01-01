@@ -1,5 +1,8 @@
 from backing_track_generator.mma_to_song_data_parser import MMAToSongDataParser
 from backing_track_generator.backing_track_generator import BackingTrackGenerator
+import boto3
+import os
+import subprocess
 
 import types
 def var_dump(obj, depth=4, l=""):
@@ -28,7 +31,7 @@ def var_dump(obj, depth=4, l=""):
                     try: objdict[a] = getattr(obj, a)
                     except Exception: objdict[a] = str(e)
     return name + "{\n" + "\n".join(l + repr(k) + ": " + var_dump(objdict[k], depth=depth-1, l=l+"  ") + "," for k in objdict) + "\n" + l + "}"
-
+'''
 parser = MMAToSongDataParser()
 song_data = parser.parse_mma_file("mma-songs-16.06/twelve-bar-blues.mma")
 
@@ -41,3 +44,21 @@ print(var_dump(song_data))
 
 
 song_data.print_mma_file('s.mma')
+
+s3 = boto3.resource('s3')
+print("Uploading to S3")
+s3.Bucket('alexafakebook').upload_file('s.mma', 's.mma', ExtraArgs={'ACL':'public-read'})
+'''
+'''
+from midi2audio import FluidSynth
+
+FluidSynth('/Users/satrij/Desktop/hackathon12-18/backing_track_mma/fluidsynth_exec/sf.sf2')
+FluidSynth().play_midi('/Users/satrij/Desktop/hackathon12-18/backing_track_mma/fluidsynth_exec/s.mid')
+'''
+
+#make wav with fluidsynth
+wav_file_name =  "sssss.wav"
+tmp_wav_file_name = wav_file_name
+print("Making wav file {}".format(tmp_wav_file_name))
+fluidsynth_command = ['fluidsynth_exec/fluidsynth-mac', '-ni', "fluidsynth_exec/sf.sf2", 's.mid', '-F', tmp_wav_file_name, '-r', '44100']
+subprocess.check_call(fluidsynth_command)

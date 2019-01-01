@@ -212,6 +212,7 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
         logger.info("In PlayGeneratedMusicHandler")
         request = handler_input.request_envelope.request
 
+        
         request_id_holder = handler_input.request_envelope.request.request_id
         directive_header = Header(request_id=request_id_holder)
         speech = SpeakDirective(speech=random.choice(data.PROGRESSIVE_RESPONSE))
@@ -220,7 +221,7 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
 
         directive_service_client = handler_input.service_client_factory.get_directive_service()
         directive_service_client.enqueue(directive_request)
-
+        
         slots = request.intent.slots
         song_name = slots.get("SongName").value
         tempo = slots.get("Tempo").value
