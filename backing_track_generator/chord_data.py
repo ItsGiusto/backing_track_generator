@@ -1,13 +1,14 @@
 from . import transposer
-from . import chordtable
+from mma_library.MMA import chordtable
 
 class ChordData(object):
-    def __init__(self, root = None, quality = None, repeat_chord = False, bass_note = None, silence = None):
+    def __init__(self, root = None, quality = None, repeat_chord = False, bass_note = None, silence = None, no_chord = None):
         self.root = root
         self.quality = quality
         self.bass_note = bass_note
         self.repeat_chord = repeat_chord
         self.silence = silence
+        self.no_chord = no_chord
 
     def get_transposed_bar(self, num_transposition_steps, new_key):
         new_root = None
@@ -29,11 +30,13 @@ class ChordData(object):
         return "{}{}".format(self.root, self.quality)
 
     @classmethod
-    def create_chord_data(cls, chord_string):
-        if chord_string == "/":
+    def create_chord_data(cls, chord_string, prev_chord=None):
+        if chord_string == "/" or chord_string == "":
             return ChordData(repeat_chord = True)
         if chord_string == "z!":
             return ChordData(silence = True)
+        if chord_string == "n":
+            return ChordData(no_chord = True)
 
         split_chord = chord_string.split('/')
         bass_note = None
@@ -41,6 +44,9 @@ class ChordData(object):
             bass_note = split_chord[1]
 
         top_chord = split_chord[0]
+        if not top_chord and prev_chord:
+            return ChordData(root=prev_chord.root, quality=prev_chord.quality, bass_note=bass_note)
+
         chord_root, chord_quality = ChordData.find_chord_quality(top_chord)
         return ChordData(root=chord_root, quality=chord_quality, bass_note=bass_note)
 

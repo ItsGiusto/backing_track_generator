@@ -3,6 +3,7 @@ from backing_track_generator.backing_track_generator import BackingTrackGenerato
 import boto3
 import os
 import subprocess
+import json
 
 import types
 def var_dump(obj, depth=4, l=""):
@@ -57,8 +58,38 @@ FluidSynth().play_midi('/Users/satrij/Desktop/hackathon12-18/backing_track_mma/f
 '''
 
 #make wav with fluidsynth
+'''
 wav_file_name =  "sssss.wav"
 tmp_wav_file_name = wav_file_name
 print("Making wav file {}".format(tmp_wav_file_name))
 fluidsynth_command = ['fluidsynth_exec/fluidsynth-mac', '-ni', "fluidsynth_exec/sf.sf2", 's.mid', '-F', tmp_wav_file_name, '-r', '44100']
 subprocess.check_call(fluidsynth_command)
+'''
+'''
+filenames = os.listdir('song_data')
+songs = {}
+for filename in filenames:
+    with open(os.path.join('song_data', filename)) as f:
+        data = json.load(f)
+
+    #print(var_dump(data))
+
+    parser = MMAToSongDataParser()
+    song_data = parser.parse_song_json(data)
+    songs[filename] = song_data
+print(var_dump(songs, depth=7))
+'''
+
+
+with open(os.path.join('song_data', "if_i_should_lose_you.json")) as f:
+    data = json.load(f)
+
+#print(var_dump(data))
+
+parser = MMAToSongDataParser()
+song_data = parser.parse_song_json(data)
+song_data.transpose("Db")
+
+print(var_dump(song_data))
+
+print(song_data.get_mma_file_text())

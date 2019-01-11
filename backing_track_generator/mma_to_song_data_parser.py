@@ -4,6 +4,21 @@ from .song_data import SongData
 from .bar_data import BarData
 
 class MMAToSongDataParser(object):
+
+    STYLE_TO_TEMPO = {"afro":110,
+    "ballad":60,
+    "bossa nova":140,
+    "even 8ths":140,
+    "funk":140,
+    "latin":180,
+    "medium swing":100,
+    "medium up swing":160,
+    "rock pop":115,
+    "samba":200,
+    "slow swing":80,
+    "up tempo swing":240,
+    "waltz":100}
+
     def __init__(self):
         pass
 
@@ -17,6 +32,35 @@ class MMAToSongDataParser(object):
 
         return SongData(title, "composer", "time_signature", default_tempo, None,
              default_style, None, default_key, None, 3, None, default_bars, None)
+
+    def parse_song_json(self, song_data):
+        title = song_data["title"]
+        composer = song_data["artist"]
+        default_style = song_data["style"]
+        default_tempo = MMAToSongDataParser.STYLE_TO_TEMPO[default_style.lower()]
+        default_key = song_data["key"].strip("-")
+        time_signature = "{}/{}".format(song_data["chartData"][0]["numerator"], song_data["chartData"][0]["denominator"])
+        default_bars = self.__get_json_bars(song_data)
+
+        return SongData(title, composer, time_signature, default_tempo, None,
+             default_style, None, default_key, None, 3, None, default_bars, None)
+
+    def __get_json_bars(self, song_data):
+        bars = []
+        for json_bar in song_data["chartData"]:
+            bar = BarData()
+            prev_chord = None
+            for chord_text in json_bar["barData"]:
+                chord = ChordData.create_chord_data(chord_text, prev_chord)
+                bar.chords_per_beat.append(chord)
+                prev_chord = chord
+            if "denominator" in json_bar or "numerator" in json_bar:
+                time_signature = "{}/{}".format(json_bar["numerator"], json_bar["denominator"])
+                bar.time_signature_change = time_signature
+            if "section" in json_bar:
+                bar.rehearsal_mark = json_bar["section"]
+            bars.append(bar)
+        return bars
 
 
     def __get_bars(self, file_contents):

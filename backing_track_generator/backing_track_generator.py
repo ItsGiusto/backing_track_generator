@@ -16,6 +16,9 @@ class BackingTrackGenerator(object):
     def __get_file_name(self, song_name):
         return song_name.lower().replace(" ", "-")
 
+    def __get_file_name_underscore(self, song_name):
+        return song_name.lower().replace(" ", "_")
+
     def get_slot_value(self, key, slots):
         if slots.get(key):
             return slots.get(key).value
@@ -100,10 +103,10 @@ class BackingTrackGenerator(object):
         song_name = self.get_song_resolved_value(slots)
         #parse mma file
         parser = MMAToSongDataParser()
-        song_file_name = self.__get_file_name(song_name)
-        mma_file_name = song_file_name + ".mma"
-        tmp_mma_file_name = os.path.join("/tmp",mma_file_name)
-        file_path = "mma-songs-16.06/{}".format(mma_file_name)
+        song_file_name = self.__get_file_name_underscore(song_name)
+        json_file_name = song_file_name + ".json"
+        tmp_mma_file_name = os.path.join("/tmp",json_file_name)
+        file_path = os.path.join(song_data,json_file_name)
 
         file_name = str(uuid.uuid4())
 
