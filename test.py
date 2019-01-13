@@ -81,13 +81,10 @@ if False:
 else :
 
 
-    with open(os.path.join('song_data', "autumn_nocturne.json")) as f:
-        data = json.load(f)
-
     #print(var_dump(data))
 
     parser = MMAToSongDataParser()
-    song_data = parser.parse_song_json(data)
+    song_data = parser.parse_song_json(os.path.join('song_data', "autumn_leaves.json"))
     #song_data.transpose("Db")
 
     print(var_dump(song_data))

@@ -1,4 +1,5 @@
 import re
+import json
 from .chord_data import ChordData
 from .song_data import SongData
 from .bar_data import BarData
@@ -33,11 +34,13 @@ class MMAToSongDataParser(object):
         return SongData(title, "composer", "time_signature", default_tempo, None,
              default_style, None, default_key, None, 3, None, default_bars, None)
 
-    def parse_song_json(self, song_data):
+    def parse_song_json(self, song_data_filename):
+        with open(song_data_filename) as f:
+            song_data = json.load(f)
         title = song_data["title"]
         composer = song_data["artist"]
-        default_style = song_data["style"]
-        default_tempo = MMAToSongDataParser.STYLE_TO_TEMPO[default_style.lower()]
+        default_style = "SwingWalk"#song_data["style"]
+        default_tempo = MMAToSongDataParser.STYLE_TO_TEMPO[song_data["style"].lower()]
         default_key = song_data["key"].strip("-")
         time_signature = "{}/{}".format(song_data["chartData"][0]["numerator"], song_data["chartData"][0]["denominator"])
         default_bars = self.__get_json_bars(song_data)

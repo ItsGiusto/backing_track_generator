@@ -28,8 +28,9 @@ class BackingTrackGenerator(object):
         slot = slots.get("Key")
         if slot:
             if slot.resolutions:
-                toReturn = slot.resolutions.resolutions_per_authority[0].values[0].value.name
-                return toReturn
+                if slot.resolutions.resolutions_per_authority[0].values:
+                    return slot.resolutions.resolutions_per_authority[0].values[0].value.name
+                return slot.value
             else:
                 return slot.value
 
@@ -104,16 +105,15 @@ class BackingTrackGenerator(object):
         #parse mma file
         parser = MMAToSongDataParser()
         song_file_name = self.__get_file_name_underscore(song_name)
-        json_file_name = song_file_name + ".json"
-        tmp_mma_file_name = os.path.join("/tmp",json_file_name)
-        file_path = os.path.join(song_data,json_file_name)
 
         file_name = str(uuid.uuid4())
+        mma_file_name = file_name + ".mma"
+        json_file_name = song_file_name + ".json"
+        tmp_mma_file_name = os.path.join("/tmp",mma_file_name)
+        input_song_json_file_path = os.path.join("song_data",json_file_name)
 
-        print("Loading file from {}".format(file_path))
-        song_data = parser.parse_mma_file(file_path)
-
-        s3 = boto3.resource('s3')
+        print("Loading file from {}".format(input_song_json_file_path))
+        song_data = parser.parse_song_json(input_song_json_file_path)
 
         #make relevant changes
         song_data.num_choruses = self.get_slot_value("NumberOfChoruses", slots)
@@ -176,6 +176,7 @@ class BackingTrackGenerator(object):
         lame_command = ['lame_exec/lame', '-V', '8', tmp_wav_file_name, tmp_mp3_file_name, '-q', '7', '--nohist', '-b', '16', '-B', '384']
         subprocess.check_call(lame_command)
 
+        s3 = boto3.resource('s3')
         s3_mp3_file_name = os.path.join("mp3",mp3_file_name)
         #write to s3
         print("Uploading mp3 to S3")
