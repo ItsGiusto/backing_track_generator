@@ -59,6 +59,12 @@ class MMAToSongDataParser(object):
                 bar.time_signature_change = time_signature
             if "section" in json_bar:
                 bar.rehearsal_mark = json_bar["section"]
+            if "startBarline" in json_bar and json_bar["startBarline"] == "{":
+                bar.begin_bar_repeat = True
+            if "endBarline" in json_bar and json_bar["endBarline"] == "}":
+                bar.end_bar_repeat = True
+            if "timeBar" in json_bar:
+                bar.ending_numbers.append(json_bar["timeBar"])
             bars.append(bar)
         return bars
 

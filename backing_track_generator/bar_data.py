@@ -31,12 +31,15 @@ class BarData(object):
             chord_text_list.append(chord_text)
         return " ".join(chord_text_list)
 
-    def get_mma_pre_bar_text(self):
+    def get_mma_pre_bar_text(self, prev_bar, next_bar):
         if self.begin_bar_repeat:
             return "REPEAT"
+        if self.ending_numbers:
+            if prev_bar and not prev_bar.end_bar_repeat:
+                return "REPEATENDING {}".format(len(self.ending_numbers))
         return ""
 
-    def get_mma_post_bar_text(self):
+    def get_mma_post_bar_text(self, prev_bar, next_bar):
         if self.end_bar_repeat:
             return "REPEATEND"
         return ""

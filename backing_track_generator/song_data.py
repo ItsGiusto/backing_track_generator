@@ -47,10 +47,13 @@ class SongData(object):
 
         bars_to_use = self.bars if self.bars else self.default_bars
         num_bars = 1
-        for bar in bars_to_use:
-            mma_text.append("{}".format(bar.get_mma_pre_bar_text()))
+        for i in range(len(bars_to_use)):
+            bar = bars_to_use[i]
+            next_bar = bars_to_use[i+1] if i+1 < len(bars_to_use) else None
+            prev_bar = bars_to_use[i-1] if i > 0 else None
+            mma_text.append("{}".format(bar.get_mma_pre_bar_text(prev_bar, next_bar)))
             mma_text.append("{}    {}".format(num_bars, bar.get_mma_bar_text()))
-            mma_text.append("{}".format(bar.get_mma_post_bar_text()))
+            mma_text.append("{}".format(bar.get_mma_post_bar_text(prev_bar, next_bar)))
             num_bars += 1
 
         mma_text.append("REPEATEND {}".format(self.num_choruses if self.num_choruses else self.default_num_choruses))
