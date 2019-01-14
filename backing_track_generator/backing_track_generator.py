@@ -40,8 +40,9 @@ class BackingTrackGenerator(object):
         slot = slots.get("SongName")
         if slot:
             if slot.resolutions:
-                toReturn = slot.resolutions.resolutions_per_authority[0].values[0].value.name
-                return toReturn
+                if slot.resolutions.resolutions_per_authority[0].values:
+                    return slot.resolutions.resolutions_per_authority[0].values[0].value.name
+                return slot.value
             else:
                 return slot.value
 

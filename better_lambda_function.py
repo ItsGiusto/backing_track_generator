@@ -204,6 +204,16 @@ class StartOverIntentHandler(AbstractRequestHandler):
 class PlayGeneratedMusicHandler(AbstractRequestHandler):
     """Handler for playing generated music."""
 
+    def get_song_resolved_value(self, slots):
+        slot = slots.get("SongName")
+        if slot:
+            if slot.resolutions:
+                if slot.resolutions.resolutions_per_authority[0].values:
+                    return slot.resolutions.resolutions_per_authority[0].values[0].value.name
+                return slot.value
+            else:
+                return slot.value
+
     def can_handle(self, handler_input):
         return is_intent_name("PlayGeneratedMusicIntent")(handler_input)
 
@@ -223,7 +233,7 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
         directive_service_client.enqueue(directive_request)
         
         slots = request.intent.slots
-        song_name = slots.get("SongName").value
+        song_name = self.get_song_resolved_value(slots)
         tempo = slots.get("Tempo").value
         key = slots.get("Key").value
 
