@@ -275,41 +275,51 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
         s3 = boto3.resource('s3')
         s3.Bucket(BackingTrackGenerator.BUCKET_NAME).upload_file(filename, s3path)
 
+
+    def __get_file_name_underscore(self, song_name):
+        return song_name.lower().replace(" ", "_") + ".json"
+
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
         logger.info("In PlayGeneratedMusicHandler")
         request = handler_input.request_envelope.request
-
-        request_id_holder = handler_input.request_envelope.request.request_id
-        directive_header = Header(request_id=request_id_holder)
-        speech = SpeakDirective(speech=random.choice(data.PROGRESSIVE_RESPONSE))
-        directive_request = SendDirectiveRequest(
-        header=directive_header, directive=speech)
-
-        directive_service_client = handler_input.service_client_factory.get_directive_service()
-        directive_service_client.enqueue(directive_request)
-        
-        user_id = handler_input.request_envelope.session.user.user_id
-
         slots = request.intent.slots
         song_name = self.get_song_resolved_value(slots)
-        tempo = slots.get("Tempo").value
-        key = slots.get("Key").value
+        tmp_mma_file_name = os.path.join("song_data", self.__get_file_name_underscore(song_name))
 
-        backing_track_url = BackingTrackGenerator().get_backing_track(slots)
+        logger.info("Looking for file path: {}".format(tmp_mma_file_name))
+        if os.path.exists(tmp_mma_file_name):
 
-        self.save_context(backing_track_url, user_id, song_name, tempo, key)
+            request_id_holder = handler_input.request_envelope.request.request_id
+            directive_header = Header(request_id=request_id_holder)
+            speech = SpeakDirective(speech=random.choice(data.PROGRESSIVE_RESPONSE).format(song_name))
+            directive_request = SendDirectiveRequest(
+            header=directive_header, directive=speech)
 
-        generated_song_text = data.GENERATED_SONG.format(song_name)
-        if key:
-            generated_song_text += data.GENERATED_SONG_KEY.format(key)
-        if tempo:
-            generated_song_text += data.GENERATED_SONG_TEMPO.format(tempo)
-        return util.play(url=backing_track_url,
-                 offset=0,
-                 text=generated_song_text,
-                 card_data=util.audio_data(request)["card"],
-                 response_builder=handler_input.response_builder)
+            directive_service_client = handler_input.service_client_factory.get_directive_service()
+            directive_service_client.enqueue(directive_request)
+            
+            user_id = handler_input.request_envelope.session.user.user_id
+
+            tempo = slots.get("Tempo").value
+            key = slots.get("Key").value
+
+            backing_track_url = BackingTrackGenerator().get_backing_track(slots)
+
+            self.save_context(backing_track_url, user_id, song_name, tempo, key)
+
+            generated_song_text = data.GENERATED_SONG.format(song_name)
+            if key:
+                generated_song_text += data.GENERATED_SONG_KEY.format(key)
+            if tempo:
+                generated_song_text += data.GENERATED_SONG_TEMPO.format(tempo)
+            return util.play(url=backing_track_url,
+                     offset=0,
+                     text=generated_song_text,
+                     card_data=util.audio_data(request)["card"],
+                     response_builder=handler_input.response_builder)
+        else:
+            return handler_input.response_builder.speak("Sorry, I couldn't find a lead sheet called {}".format(song_name)).response
 
 # ###################################################################
 
@@ -508,12 +518,9 @@ class CatchAllExceptionHandler(AbstractExceptionHandler):
         logger.info("In CatchAllExceptionHandler")
         logger.error(exception, exc_info=True)
 
-        handler_input.response_builder.speak(data.UNHANDLED_MSG).ask(
-            data.HELP_MSG.format(
-                util.audio_data(
-                    handler_input.request_envelope.request)["card"]["title"]))
+        
 
-        return handler_input.response_builder.response
+        return handler_input.response_builder.speak(data.UNHANDLED_MSG).set_should_end_session(True).response
 
 # ###################################################################
 

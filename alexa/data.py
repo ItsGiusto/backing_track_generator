@@ -11,9 +11,9 @@ DEVICE_NOT_SUPPORTED = "Sorry, this skill is not supported on this device"
 GENERATED_SONG = "Let's jam! Playing {0}"
 GENERATED_SONG_KEY = " in the key of {0}"
 GENERATED_SONG_TEMPO = " at {0} beats per minute"
-PROGRESSIVE_RESPONSE = ["Okay, give me one second while the band rehearses.",
-			"I've never played this one before. But I'll pick it up on the gig.",
-			"Could I look on with you? Also do you have a patch cable I could borrow? And a pick?"]
+PROGRESSIVE_RESPONSE = ["Okay, give me one second while the band rehearses {}.",
+			"I've never played {} before. But I'll pick it up on the gig.",
+			"{}? Could I look on with you? Also do you have a patch cable I could borrow? And a pick?"]
 
 TEST = "test english"
 TEST_PARAMS = "test with parameters {} and {}"
