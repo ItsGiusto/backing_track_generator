@@ -85,7 +85,7 @@ class LaunchRequestOrPlayAudioHandler(AbstractRequestHandler):
 
         # can add a default song here to play back
         speech = data.WELCOME_MSG.format(util.audio_data(request)["card"]["title"])
-        return handler_input.response_builder.speak(speech).response
+        return handler_input.response_builder.speak(speech).set_should_end_session(False).response
         #return util.play(url=util.audio_data(request)["url"],
         #                 offset=0,
         #                 text=data.WELCOME_MSG.format(

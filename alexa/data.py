@@ -20,7 +20,7 @@ TEST_PARAMS = "test with parameters {} and {}"
 
 en = {
     "card": {
-        "title": 'Fake Book',
+        "title": 'Real Book',
         "text": 'Less bla bla bla, more la la la',
         "large_image_url": 'https://alexademo.ninja/skills/logo-512.png',
         "small_image_url": 'https://alexademo.ninja/skills/logo-108.png'
