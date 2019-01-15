@@ -11,6 +11,9 @@ from ask_sdk_core.utils import is_request_type, is_intent_name
 from ask_sdk_core.handler_input import HandlerInput
 from ask_sdk_model import Response
 import random
+import boto3
+import os
+import json
 
 from alexa import data, util
 from backing_track_generator.backing_track_generator import BackingTrackGenerator
@@ -200,6 +203,39 @@ class StartOverIntentHandler(AbstractRequestHandler):
         speech = data.NOT_POSSIBLE_MSG
         return handler_input.response_builder.speak(speech).response
 
+class RepeatIntentHandler(AbstractRequestHandler):
+    def can_handle(self, handler_input):
+        # type: (HandlerInput) -> bool
+        return (is_intent_name("AMAZON.RepeatIntent")(handler_input))
+
+    def get_context(self, user_id):
+        filename = os.path.join("/tmp",user_id)
+        s3path = os.path.join("user_context",user_id)
+        print("Getting {}".format(s3path))
+        s3 = boto3.resource('s3')
+        s3.Bucket(BackingTrackGenerator.BUCKET_NAME).download_file(s3path, filename)
+
+        with open(filename) as f:
+            song_data = json.load(f)
+        return song_data
+
+    def handle(self, handler_input):
+        # type: (HandlerInput) -> Response
+        request = handler_input.request_envelope.request
+        user_id = handler_input.request_envelope.session.user.user_id
+        song_data = self.get_context(user_id)
+
+        generated_song_text = data.GENERATED_SONG.format(song_data["song_name"])
+        if song_data["key"]:
+            generated_song_text += data.GENERATED_SONG_KEY.format(song_data["key"])
+        if song_data["tempo"]:
+            generated_song_text += data.GENERATED_SONG_TEMPO.format(song_data["tempo"])
+        return util.play(url=song_data["backing_track_url"],
+                 offset=0,
+                 text=generated_song_text,
+                 card_data=util.audio_data(request)["card"],
+                 response_builder=handler_input.response_builder)
+
 
 class PlayGeneratedMusicHandler(AbstractRequestHandler):
     """Handler for playing generated music."""
@@ -217,12 +253,33 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
     def can_handle(self, handler_input):
         return is_intent_name("PlayGeneratedMusicIntent")(handler_input)
 
+    def save_context(self, backing_track_url, user_id, song_name, tempo, key):
+        filename = os.path.join("/tmp",user_id)
+
+        if os.path.exists(filename):
+          print("Removing preexisting file {}".format(filename))
+          os.remove(filename)
+        else:
+          print("Preexisting file {} does not exist".format(filename))
+
+        logger.info("Writing context file to {}".format(filename))
+        filecontents = {"backing_track_url":backing_track_url,
+                        "song_name":song_name,
+                        "tempo":tempo,
+                        "key":key}
+        with open(filename, 'w') as file:
+            json.dump(filecontents, file)
+
+        s3path = os.path.join("user_context",user_id)
+        logger.info("Writing context file to S3, path {}".format(s3path))
+        s3 = boto3.resource('s3')
+        s3.Bucket(BackingTrackGenerator.BUCKET_NAME).upload_file(filename, s3path)
+
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
         logger.info("In PlayGeneratedMusicHandler")
         request = handler_input.request_envelope.request
 
-        
         request_id_holder = handler_input.request_envelope.request.request_id
         directive_header = Header(request_id=request_id_holder)
         speech = SpeakDirective(speech=random.choice(data.PROGRESSIVE_RESPONSE))
@@ -232,12 +289,16 @@ class PlayGeneratedMusicHandler(AbstractRequestHandler):
         directive_service_client = handler_input.service_client_factory.get_directive_service()
         directive_service_client.enqueue(directive_request)
         
+        user_id = handler_input.request_envelope.session.user.user_id
+
         slots = request.intent.slots
         song_name = self.get_song_resolved_value(slots)
         tempo = slots.get("Tempo").value
         key = slots.get("Key").value
 
         backing_track_url = BackingTrackGenerator().get_backing_track(slots)
+
+        self.save_context(backing_track_url, user_id, song_name, tempo, key)
 
         generated_song_text = data.GENERATED_SONG.format(song_name)
         if key:
@@ -491,6 +552,7 @@ sb.add_request_handler(StartOverIntentHandler())
 sb.add_request_handler(PlaybackStartedHandler())
 sb.add_request_handler(PlaybackFinishedHandler())
 sb.add_request_handler(PlaybackStoppedHandler())
+sb.add_request_handler(RepeatIntentHandler())
 # not used yet sb.add_request_handler(PlaybackNearlyFinishedHandler())
 sb.add_request_handler(PlaybackStartedHandler())
 sb.add_request_handler(PlaybackFailedHandler())
