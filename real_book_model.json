@@ -53,6 +53,10 @@
                         "play {SongName} at {Tempo} beats per minute in the key of {Key}",
                         "play {SongName} at {Tempo} beats per minute"
                     ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
                 }
             ],
             "types": [
